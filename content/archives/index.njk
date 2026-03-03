@@ -1,0 +1,112 @@
+---
+layout: base.njk
+title: Journal Archives
+description: Browse past Thompson issues and articles.
+pagination:
+  data: collections.archivesToc
+  size: 5
+  alias: paginated_issues
+  reverse: true
+permalink: "archives/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}index.html"
+---
+<div class="col-md-10 col-12 mx-auto">
+
+ {% include "partials/nav_desktop.njk" %}
+{% set itemsPerPage = 5 %}
+{% set totalItems = collections.archivesToc | length %}
+{% set totalPages = pagination.pages | length %}
+{% set offset = pagination.pageNumber * itemsPerPage %}
+
+<main class="container-fluid">
+  <div class="text-center mb-5">
+    <h1 class="serif fw-bold display-4">Journal Archives</h1>
+    <p class="text-secondary italic">Volume, Seasons, and Issues</p>
+  </div>
+
+  {% for issue in paginated_issues %}
+    {% set issue_dir = issue.inputPath | replace('/index.njk', '/') %}
+    
+    <section class="issue-block mb-5 p-4 bg-body-tertiary rounded border-start border-4 
+    border-primary shadow-sm">
+      <h2 class="serif fw-bold text-body-emphasis mb-2">
+        <a href="{{ issue.url }}" class="text-decoration-none text-body-emphasis hover-primary">
+          {{ issue.data.volume }}.{{ issue.data.issue }} - {{ issue.data.season }}
+          {% if issue.data.title %} - {{ issue.data.title }}{% endif %}
+        </a>
+  </h2>
+  {% if issue.data.description %}<p class="text-body-secondary mb-4">{{ issue.data.description }}</p>{% endif %}
+
+
+      <div class="row">
+  
+  {% set issue_articles = collections.all | selectattr("inputPath", "assigned") %}
+  
+  {% for article in issue_articles | sort(false, false, 'data.articleNumber') %}
+    {% if article.inputPath and article.inputPath.startsWith(issue_dir) %}
+      {% set rel = article.inputPath | replace(issue_dir, '') %}
+      {% if rel.endsWith('.md') and rel != 'index.md' and '/' not in rel %}
+        
+        <div class="col-12 border-bottom pb-3 mb-3 article-item">
+          <h3 class="h5 serif fw-bold mb-1">
+            <a href="{{ article.url }}" class="text-decoration-none text-body-emphasis hover-primary">
+              {{ article.data.title or article.fileSlug }}
+            </a>
+          </h3>
+
+          {% if article.data.author %}
+            <p class="small mb-0">
+              <span class="text-muted">By</span>
+              {% set authorNames = article.data.author | splitAuthors %}
+              {% for aName in authorNames %}
+                {% set authorData = collections.authors | getAuthorObj(aName) %}
+                {% if authorData %}
+                  <a href="{{ authorData.url }}" class="fw-bold text-primary text-decoration-none hover-primary">
+                    {{ authorData.data.name or authorData.data.title or aName }}
+                  </a>
+                  {% if authorData.data.affiliation %}
+                    <span class="text-muted small"> ({{ authorData.data.affiliation }})</span>
+                  {% endif %}
+                {% else %}
+                  <span class="fw-bold text-primary">{{ aName }}</span>
+                {% endif %}
+                {% if not loop.last %}; {% endif %}
+              {% endfor %}
+            </p>
+          {% endif %}
+        </div>
+
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</div>
+    </section>
+  {% endfor %}
+
+  {% if totalItems > itemsPerPage %}
+  <nav class="pagination-editorial border-top pt-5 mt-5 d-flex align-items-center justify-content-between px-md-5" role="navigation">
+      <div class="d-flex align-items-center" style="flex: 1;">
+          {% if pagination.href.previous %}
+              <a href="{{ pagination.href.previous }}" class="btn-editorial-ghost me-3">← Newer</a>
+          {% else %}
+              <span class="page-info text-secondary fw-bold small">Page {{ pagination.pageNumber + 1 }} of {{ totalPages }}</span>
+          {% endif %}
+      </div>
+
+      <div class="text-center" style="flex: 1;">
+          {% if pagination.href.previous and (offset + itemsPerPage < totalItems) %}
+              <span class="page-info text-secondary fw-bold small">Page {{ pagination.pageNumber + 1 }} of {{ totalPages }}</span>
+          {% endif %}
+      </div>
+
+      <div class="text-end" style="flex: 1;">
+          {% if offset + itemsPerPage < totalItems %}
+              <a href="{{ pagination.href.next }}" 
+              class="btn-editorial-ghost">Older →</a>
+          {% else %}
+              <span class="page-info text-uppercase text-secondary fw-bold small">Page {{ pagination.pageNumber + 1 }} of {{ totalPages }}</span>
+          {% endif %}
+      </div>
+  </nav>
+  {% endif %}
+</main>
+</div>

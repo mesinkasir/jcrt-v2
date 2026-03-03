@@ -1,0 +1,2 @@
+content/feed/pretty-atom-feed.xsl linguist-vendored
+*.pdf -filter -diff -merge -text

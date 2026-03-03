@@ -1,0 +1,125 @@
+---
+layout: base.njk
+---
+<div class="col-md-10 mx-auto">
+  {% include "partials/nav_desktop.njk" %}
+
+  <div class="container-fluid">
+    <article class="py-4">
+      <header class="mb-5 border-bottom pb-4">
+        {% if article_number %}
+          <div class="text-primary fw-bold small text-uppercase mb-2">Article No. {{ article_number }}</div>
+        {% endif %}
+
+        <h1 class="serif fw-bold display-4 p-name">{{ jsonEntry.title or title }}</h1>
+        
+        <div class="text-muted mb-3">
+          <i class="bi bi-person-fill"></i>
+          {% set authorRaw = jsonEntry.author or author %}
+          {% if authorRaw %}
+            {% set authorNames = authorRaw | splitAuthors %}
+            <span class="fw-bold text-dark" p-author h-card>
+              {%- for aName in authorNames -%}
+                {% set authorObj = collections.authors | getAuthorObj(aName) %}
+                {%- if authorObj -%}
+                  <a href="{{ authorObj.url }}" class="text-decoration-underline
+                   text-dark hover-primary p-name u-url">{{ aName }}</a>
+                {%- else -%}
+                  {{ aName }}
+                {%- endif -%}
+                {%- if not loop.last -%}; {% endif -%}
+              {%- endfor -%}
+            </span>
+          {% endif %}
+          {% if affilation %}<br><small class="text-muted">{{ affilation }}</small>{% endif %}
+        </div>
+
+        <div class="d-flex flex-wrap gap-3 align-items-center small">
+          {% set displayDate = jsonEntry.date or date %}
+          {% if displayDate %}
+            <span class="dt-published"><i class="bi bi-calendar3"></i> {{ displayDate | postDate }}</span>
+          {% endif %}
+          
+          {% if pdfUrl %}
+            <a href="{{ pdfUrl }}" title="Download Article as a PDF" class="btn  btn-primary px-3 shadow-sm" target="_blank">
+              <i class="bi bi-file-earmark-pdf"></i> Download Article
+            </a>
+          {% endif %}
+          {% if risCitationUrl %}
+            <a href="{{ risCitationUrl }}" title="Download citation as RIS" class="btn btn-outline-primary px-3 shadow-sm" download>
+              <i class="bi bi-journal-text"></i> Download Citation (RIS)
+            </a>
+          {% endif %}
+          {% if jsonCitationUrl %}
+            <a href="{{ jsonCitationUrl }}" title="Download citation as CSL JSON" class="btn btn-outline-secondary px-3 shadow-sm" download>
+              <i class="bi bi-braces"></i> Download Citation (JSON)
+            </a>
+          {% endif %}
+        </div>
+      </header>
+
+      {% if abstract %}
+      <section class="abstract mb-5 p-4 bg-light border-start border-4 border-primary">
+        <h5 class="fw-bold text-uppercase small text-primary">Abstract</h5>
+        <div class="serif italic">{{ abstract | markdownify | safe }}</div>
+      </section>
+      {% endif %}
+
+      <div class="article-body serif lh-lg" style="font-size: 1.15rem; text-align: justify;">   
+    {% set finalHTML = jsonEntry.content | markdownify if jsonEntry.content else content %}
+    <div id="custom-toc-container" class="p-3 bg-light mb-4 d-none">
+        <h4 class="h6 text-uppercase fw-bold border-bottom pb-2">Table of Contents</h4>
+        <ul id="toc-list" class="list-unstyled mb-0" style="font-size: 0.95rem;"></ul>
+    </div>
+
+    <div id="article-content" class="e-content">
+        {{ finalHTML | safe }}
+    </div>
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const content = document.getElementById('article-content');
+    const tocList = document.getElementById('toc-list');
+    const tocContainer = document.getElementById('custom-toc-container');
+    
+    const headings = content.querySelectorAll('h2, h3');
+    
+    if (headings.length > 0) {
+        tocContainer.classList.remove('d-none');       
+        headings.forEach((heading, index) => {
+            if (!heading.id) {
+                heading.id = 'section-' + index;
+            }
+            const li = document.createElement('li');
+            li.className = heading.tagName === 'H3' ? 'ms-3 my-1' : 'my-1';
+            const a = document.createElement('a');
+            a.href = '#' + heading.id;
+            a.textContent = heading.textContent;
+            a.className = 'text-decoration-none text-primary hover-underline';
+            
+            li.appendChild(a);
+            tocList.appendChild(li);
+        });
+    }
+});
+</script>
+
+<style>
+.hover-underline:hover { text-decoration: underline !important; }
+#toc-list li a { color: #333; transition: color 0.2s; }
+#toc-list li a:hover { color: #f56a6a; }
+</style>
+
+      {% if tags.length > 0 %}
+      <footer class="mt-5 pt-3 border-top">
+        <div class="d-flex gap-2 align-items-center">
+          <span class="small text-muted text-uppercase fw-bold">Keywords:</span>
+          {% for tag in tags %}
+            <span class="badge bg-secondary-subtle text-secondary border fw-normal">{{ tag }}</span>
+          {% endfor %}
+        </div>
+      </footer>
+      {% endif %}
+    </article>
+  </div>
+</div>

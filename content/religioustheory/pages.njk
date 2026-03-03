@@ -1,0 +1,22 @@
+---
+layout: theory.njk
+permalink: /religioustheory/pages/index.html
+---
+<div class="container-fluid">
+  {% include "partials/nav_desktop.njk" %}
+<h1>Static Pages</h1>
+
+<ul>
+{% for pg in collections.theoryPages %}
+  <li class="p-3">
+    <strong>
+      <a href="/religioustheory/{{ pg.slug | slugify }}/">{{ pg.title }}</a>
+    </strong>
+    <p><small>Source Path: {{ pg.path }}</small></p>
+  </li>
+{% else %}
+  <li>No static pages found in archive.</li>
+{% endfor %}
+</ul>
+
+</div>

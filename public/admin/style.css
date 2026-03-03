@@ -1,0 +1,25 @@
+[class*="IconWrapper-DecapLogoIcon"] svg,
+[class*="AppHeaderLogo"] svg,
+[class*="SidebarLogo"] svg,
+.nc-app-logo svg {
+  display: none !important;
+}
+
+[class*="IconWrapper-DecapLogoIcon"] {
+  display: block !important;
+  background: url('whitestone-logo.png') no-repeat center !important;
+  background-size: contain !important;
+  width: 300px !important;
+  height: 80px !important;
+  margin: 0 auto 20px auto !important;
+}
+
+[class*="AppHeaderLogo"],
+[class*="SidebarLogo"],
+.nc-app-logo {
+  display: block !important;
+  background: url('whitestone-logo.png') no-repeat left center !important;
+  background-size: contain !important;
+  width: 150px !important;
+  height: 35px !important;
+}

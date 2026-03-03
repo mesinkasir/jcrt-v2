@@ -1,0 +1,33 @@
+---
+permalink: /feed/religioustheory/feed.xml
+layout: false
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="/feed/pretty-atom-feed.xsl" type="text/xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    {% set baseUrl = metadata.url or "/" %}
+    {% set posts = collections.theoryPosts | reverse %}
+    
+    <title>{{ metadata.title or "Religious Theory" }}</title>
+    <subtitle>{{ metadata.description or "Religious Theory posts feed" }}</subtitle>
+    <link href="{{ (baseUrl ~ permalink) | htmlBaseUrl }}" rel="self" />
+    <link href="{{ (baseUrl ~ "/religioustheory/") | htmlBaseUrl }}" />
+    <updated>{{ posts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+    <id>{{ (baseUrl ~ "/religioustheory/") | htmlBaseUrl }}</id>
+    <author>
+        <name>{{ metadata.author.name or "editors" }}</name>
+    </author>
+
+    {%- for post in posts | limit(25) %}
+    <entry>
+        <title>{{ post.data.title }}</title>
+        <link href="{{ post.url | htmlBaseUrl(metadata.url) }}"/>
+        <updated>{{ post.date | dateToRfc3339 }}</updated>
+        <id>{{ post.url | htmlBaseUrl(metadata.url) }}</id>
+        <content type="html">
+            {{ post.templateContent | transformWithHtmlBase(metadata.url) }}
+        </content>
+    </entry>
+    {%- endfor %}
+</feed>

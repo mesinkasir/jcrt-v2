@@ -1,0 +1,9 @@
+---
+name: Paul K. Moser
+affiliation: "LOYOLA UNIVERSITY CHICAGO"
+bio:
+social:
+  - title: "website"
+    url: ""
+    icon: fa-solid fa-link
+---

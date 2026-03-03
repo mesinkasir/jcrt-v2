@@ -1,0 +1,64 @@
+<button id="menu-toggle-btn" class="menu-toggle-editorial">
+    <i class="fas fa-bars"></i>
+</button>
+
+<section id="sidebar-container" data-pagefind-ignore>
+<div id="sidebar-menu">
+
+<div class="mb-3 p-3">
+<link href="/pagefind/pagefinds-ui.css" rel="stylesheet">
+<script src="/pagefind/pagefind-ui.js"></script>
+<div id="search"></div>
+<script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        new PagefindUI({ element: "#search", showSubResults: true });
+    });
+</script>
+</div>
+
+<div class="p-3 bg-light"> 
+		
+<h3 class="mb-4"><span class="bgb-primary p-1">{{metadata.sidebar.menu.title}}</span></h3>
+<ul class="nav-editorial">
+  {% for n in metadata.sidebar.menu.list %}
+    <li class="nav-item-editorial">
+      <a href="{{n.url}}" class="border-bottom">{{n.nav}}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+<div class="sidebar-section">
+    {% for section in metadata.sidebar.info.sections %}
+        <h3 class="editorial-heading">{{ section.title }}</h3>
+        {% for i in section.list %}
+            <div class="editorial-card">
+                <a href="{{i.url}}">
+                    <img class="editorial-img" src="{{i.image}}" alt="{{i.text}}"/>
+                </a>
+                <p class="editorial-caption">{{i.text}}</p>
+            </div>
+        {% endfor %}
+    {% endfor %}
+	<a href="{{metadata.sidebar.info.button.url}}" class="btn btn-s, btn-primary text-uppercase">{{metadata.sidebar.info.button.text}}</a></p>
+</div>
+
+			
+<div class="smaller">
+<h3 class="mt-3 mb-5"><span class="bgb-primary p-1">{{metadata.sidebar.contact.title}}</span></h3>
+<p>
+{{metadata.sidebar.contact.text}}
+</p>
+{% for c in metadata.sidebar.contact.list %}<p class="mb-3">
+<i class="{{c.icon}} me-3 text-primary"></i>{% if c.url %}<a href="{{c.url}}">{{c.title}}</a>{% else %}{{c.title}}{% endif %}</p><hr/>{% endfor %}
+</div>
+			
+<div class="mt-5">
+<p class="smallers">
+{{ metadata.sidebar.footer.text | safe }} {{ metadata.sidebar.footer.year_start }}-{{ "" | currentYear }}. | Built with <a href="https://www.11ty.dev/" target="blank">{{ eleventy.generator }}</a> |
+Developed by <a href="https://adamdjbrett.com" target="_blank">Adamdjbrett</a>
+</p>
+</div>
+
+</div>
+</div>
+</section>

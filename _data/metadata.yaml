@@ -1,0 +1,93 @@
+title: "JCRT"
+description: "Journal for Cultural and Religious Theory (JCRT), whitestone foundation publication"
+image: "/img/logos/favicon.svg"
+language: "en"
+locale: en_US
+favicon: "/img/logos/favicon.svg"
+#url: http://localhost:8080 #localhost
+url: https://jcrt-dev.netlify.app #development
+#url: https://jcrt.org #live
+homepage_archive: 
+  active_tag: 24.1
+  section_title: From the Archive
+  max_items: 3
+
+metasocial:
+  facebook: https://www.facebook.com/religioustheory
+  #twitteruser: "@user"
+  #twitter: https://x.com/user
+
+navbar: 
+ title: JCRT
+ sub_title: "The Journal for Cultural and Religious Theory"
+ social: 
+   - title: Follow My Facebook
+     icon: fab fa-facebook
+     url: https://www.facebook.com/religioustheory
+   - title: Follow my Instagram
+     icon: fab fa-instagram
+     url: https://www.instagram.com/JCRT_DU1
+   - title: RSS
+     icon: fas fa-rss
+     url: /feed/feed.xml
+
+sidebar: 
+  menu: 
+    title: Menu
+    list: 
+      - nav: Home
+        url: /
+      - nav: About
+        url: /about/
+      - nav: Journal Archive
+        url: /archives/
+      - nav: News
+        url: /blog/
+      - nav: Religious Theory
+        url: /religioustheory/
+      - nav: Submissions
+        url: /submissions/  
+      - nav: Contact
+        url: /
+  info: 
+    sections:
+      - title: The New Polis
+        list: 
+          - image: "/img/tnp.png"
+            text: "The New Polis is an online publication dedicated to critical theory, social analysis, and political philosophy and theology."
+            url: "https://thenewpolis.com/"
+          - image: "/img/tnpj.png"
+            text: "The New Polis Journal is a peer-reviewed academic journal publishing cutting-edge work in political philosophy, social theory, and related fields."
+            url: "https://journal.thenewpolis.com/"
+    button: 
+        text: Whitestone Foundation
+        url: https://thewhitestonefoundation.org
+  contact: 
+    title: Get in touch
+    text: The Journal for Cultural and Religious Theory (JCRT) is a publication of The Whitestone Foundation, a 501(c)3 non-profit corporation registered in the state of Colorado.
+    list: 
+      - title: "editor.jcrt@gmail.com"
+        icon: fas fa-envelope
+        url: "mailto:editor.jcrt@gmail.com"
+#     - title: "0000000"
+#       icon: fas fa-phone
+#       url: "tel:000000"
+#     - title: "1234 Somewhere Road #8254 Nashville, TN 00000-0000"
+#       icon: fas fa-home
+#       url: "https://maps.app.goo.gl/fcatehzDtdQMU3UF7"
+  footer: 
+    text: The Journal for Cultural and Religious Theory is an online, peer-reviewed, academic publication published by <a href="http://thewhitestonefoundation.org/">The Whitestone Foundation</a>, a 501c3 corporation located in Boulder, Colorado. For submissions policies click <a href="/submissions/">here</a>. ISSN 1530-5228. Indexed by <a href="https://www.ebsco.com/">EBSCO</a>. Listed with <a href="https://duotrope.com/">Duotrope</a>. Copyright © The Whitestone Foundation dba The Journal for Cultural and Religious Theory
+    year_start: 1999
+
+site: 
+  title: RELIGIOUS THEORY
+  description: A Review, Commentary, and Conversations Feature of JCRT
+  url: https://jcrt.org/religioustheory
+  author: editors_religioustheory
+  alert: |
+       **Archived Content** This Section is part of Religious Theory Archive and is no longer being updated.
+
+#for github setup
+github_user: adamdjbrett
+github_repo: religioustheory
+branch: "main"

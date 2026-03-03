@@ -1,0 +1,18 @@
+---
+permalink: /sitemap.xml
+layout: false
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/sitemaps/sitemap.xsl"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	{% set base = sitemapBaseUrl or metadata.url %}
+	{% set sitemapEntries = sitemapIndex or [] %}
+
+	{%- for item in sitemapEntries %}
+		<sitemap>
+			<loc>{{ (base ~ (item.path | url)) | xmlEscape | safe }}</loc>
+			{% if item.lastmod %}<lastmod>{{ item.lastmod }}</lastmod>{% endif %}
+		</sitemap>
+	{%- endfor %}
+</sitemapindex>
