@@ -7,5 +7,6 @@ title: 'Christian Control of Women and Mother Earth: The Doctrine of Discovery a
 author: 'Sally Roesch Wagner'
 affiliation: ''
 description: ''
+keywords: []
 pdf: 'wagner.pdf'
 ---

@@ -29,8 +29,8 @@ section:
      url: /religioustheory/
 
 blog: 
- title: Recent Articles
+ title: Recent Blog Posts
  button: 
-  text: Explore All Articles
-  url: "/archives/"
+  text: Explore the blog
+  url: "/blog/"
 ---

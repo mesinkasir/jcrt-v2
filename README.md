@@ -305,3 +305,5 @@ If step 4 still leaves pointer files, check your network/auth and run:
 ```bash
 GIT_TRACE=1 GIT_CURL_VERBOSE=1 git lfs pull
 ```
+
+

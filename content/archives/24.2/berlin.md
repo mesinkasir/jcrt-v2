@@ -6,8 +6,27 @@ issue: '2'
 title: 'Unselling the Classroom: Confronting History and Ourselves'
 author: 'Elaina Berlin'
 affiliation: ''
-description: ''
+description: "Berlin urges teachers to confront settler colonialism and white supremacy by centering Indigenous history critical pedagogy, and accountability today."
+keywords:
+  - doctrine-of-christian-discovery
+  - colonialism
+  - papal-bulls
+  - crusade-ideology
+  - international-law
+  - iberian-monarchies
+  - indigenous-dispossession
 pdf: 'berlin.pdf'
 ---
+College educators have a duty to confront the lived realities of white supremacy and settler
+colonialism as they present themselves in the classroom, the historical record, and the academy
+at large. This response paper engages with the ideas and experiences presented by the fellow
+panel authors, and it contemplates the necessary steps needed to counteract the persistence of
+settler colonial and white supremacist ideologies in post-secondary education from the
+perspective of a junior historian. By devoting ourselves to the accessibility of educational
+materials, including diverse interpretations and accounts of the past in our courses, and not
+shying away from the discomfort that confronting these systems will cause, educators in
+college settings can work against white supremacy and settler colonialism.
 
+Keywords: Doctrine of Christian Discovery, colonialism, papal bulls, crusade ideology, international
+law, Iberian monarchies, Indigenous dispossession
  

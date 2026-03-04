@@ -7,6 +7,7 @@ title: 'Charting the Doctrine in the Colonial Archive: Papal Bulls and the Trans
 author: 'Sebastian Modrow'
 affiliation: ''
 description: ''
+keywords: []
 pdf: 'modrow.pdf'
 ---
 

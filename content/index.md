@@ -13,8 +13,8 @@ section:
  mode: recent_journal_issues
 
 blog: 
- title: Recent Articles
+ title: Recent News
  button: 
-  text: Explore All Articles
-  url: "/archives/"
+  text: Explore the blog
+  url: "/blog/"
 ---

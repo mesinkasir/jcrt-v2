@@ -7,6 +7,7 @@ title: 'Dismantling White Supremacy in the Classroom and Beyond'
 author: 'Celinet Duran Jimenez'
 affiliation: ''
 description: ''
+keywords: []
 pdf: 'jimenez.pdf'
 ---
 

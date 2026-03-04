@@ -7,5 +7,6 @@ title: 'Hindu Political Theology: Beyond Hindutva’s Political Monotheism'
 author: 'Pranay Somayajula'
 affiliation: ''
 description: ''
+keywords: []
 pdf: 'somayajula.pdf'
 ---

@@ -2,7 +2,32 @@ export function splitAuthors(authorField) {
 	if (!authorField) return [];
 	if (Array.isArray(authorField)) return authorField.flatMap(splitAuthors);
 
-	return String(authorField)
+	const raw = String(authorField).trim();
+	if (!raw) return [];
+
+	// Prefer explicit semicolons; they are the canonical separator in this project.
+	if (raw.includes(";")) {
+		return raw
+			.split(";")
+			.map((part) => part.trim())
+			.filter(Boolean);
+	}
+
+	// Handle natural-language separators used in some archive files.
+	let normalized = raw;
+	if (/,\s*(?:and|AND|&)\s+/i.test(normalized)) {
+		// Oxford-comma style lists: "A, B, and C"
+		normalized = normalized.replace(/,\s*(?:and|AND|&)\s+/gi, "; ");
+		normalized = normalized.replace(/,\s*/g, "; ");
+	} else if (/\s+(?:and|AND|&)\s+/i.test(normalized)) {
+		// Two-author style: "A and B"
+		normalized = normalized.replace(/\s+(?:and|AND|&)\s+/gi, "; ");
+	} else if ((normalized.match(/,/g) || []).length >= 2) {
+		// Fallback for comma-delimited lists without a conjunction.
+		normalized = normalized.replace(/,\s*/g, "; ");
+	}
+
+	return normalized
 		.split(";")
 		.map((part) => part.trim())
 		.filter(Boolean);
@@ -40,4 +65,3 @@ export function authorSlug(name) {
 	value = value.replace(/-+/g, "-").replace(/^-|-$/g, "");
 	return value;
 }
-

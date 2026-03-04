@@ -7,6 +7,7 @@ title: 'The Chosen People at Grouse Mountain'
 author: 'Wendy Felese'
 affiliation: ''
 description: ''
+keywords: []
 pdf: 'felese.pdf'
 ---
 

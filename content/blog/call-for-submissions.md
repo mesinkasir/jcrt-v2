@@ -1,12 +1,11 @@
 ---
-title: Journal for Cultural and Religious Theory (JCRT)
+title: Call for Submissions
 description: "The Journal for Cultural and Religious Theory (JCRT) invites submissions for the JCRT.org blog on a rolling basis. JCRT is a peer-reviewed journal devoted to both disciplinary and interdisciplinary scholarship of a cutting-edge nature that engages the phenomenon of religious and cultural theory broadly construed."
-date: 2018-07-04 #YYY-MM-DD
+date: 2026-03-03 #YYY-MM-DD
 tags: 
   - one
   - two
 author: editors_religioustheory
-published: false
 ---
 ## Call for Submissions — JCRT.org Blog
 
