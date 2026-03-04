@@ -121,6 +121,41 @@ function archiveIssueSortKey(inputPath, url) {
 	return { major, minor, issue, url: url || "" };
 }
 
+const archiveKeywordMemo = new WeakMap();
+
+function buildArchiveKeywordIndex(archiveItems) {
+	const cached = archiveKeywordMemo.get(archiveItems);
+	if (cached) return cached;
+
+	const excluded = new Set(["all", "posts", "archives", "theoryPosts", "nav"]);
+	const byTag = new Map();
+
+	for (const item of archiveItems) {
+		const itemTags = Array.isArray(item?.data?.tags) ? item.data.tags : [];
+		for (const rawTag of itemTags) {
+			const tag = String(rawTag || "").trim();
+			if (!tag || excluded.has(tag)) continue;
+			if (!byTag.has(tag)) byTag.set(tag, []);
+			byTag.get(tag).push(item);
+		}
+	}
+
+	const byDateDesc = (a, b) => {
+		const aTime = a?.date instanceof Date ? a.date.getTime() : 0;
+		const bTime = b?.date instanceof Date ? b.date.getTime() : 0;
+		return bTime - aTime;
+	};
+
+	for (const list of byTag.values()) {
+		list.sort(byDateDesc);
+	}
+
+	const tags = [...byTag.keys()].sort((a, b) => a.localeCompare(b));
+	const built = { tags, byTag };
+	archiveKeywordMemo.set(archiveItems, built);
+	return built;
+}
+
 async function ensureFavicons() {
 	// `@11ty/eleventy-img` requires Node versions that implement `os.availableParallelism()`.
 	// If you run the build on an older Node (e.g. v18.12.x), skip generation.
@@ -614,23 +649,19 @@ export default async function (eleventyConfig) {
 	});
 
 	eleventyConfig.addCollection("archiveKeywordTags", function (collectionApi) {
-		const excluded = new Set(["all", "posts", "archives", "theoryPosts", "nav"]);
-		const tags = new Set();
 		const pattern = isBenchMode
 			? `content/archives/${benchIssue}/**/*.md`
 			: "content/archives/**/*.md";
-		const archives = collectionApi.getFilteredByGlob(pattern).filter((item) => isPublishedItem(item?.data));
+		const archives = collectionApi
+			.getFilteredByGlob(pattern)
+			.filter((item) => isPublishedItem(item?.data));
+		return buildArchiveKeywordIndex(archives).tags;
+	});
 
-		for (const item of archives) {
-			const itemTags = Array.isArray(item?.data?.tags) ? item.data.tags : [];
-			for (const tag of itemTags) {
-				const t = String(tag || "").trim();
-				if (!t || excluded.has(t)) continue;
-				tags.add(t);
-			}
-		}
-
-		return [...tags].sort((a, b) => a.localeCompare(b));
+	eleventyConfig.addFilter("archivePostsByKeyword", function (archiveItems, keyword) {
+		if (!Array.isArray(archiveItems) || !keyword) return [];
+		const idx = buildArchiveKeywordIndex(archiveItems);
+		return idx.byTag.get(String(keyword)) || [];
 	});
 
 	eleventyConfig.addCollection("archivesToc", function (collectionApi) {

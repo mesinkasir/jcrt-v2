@@ -16,22 +16,20 @@ eleventyExcludeFromCollections: true
   </h1>
 
   <div class="row mt-3 mb-3">
-    {% for post in collections.archives | reverse %}
-      {% set postTags = post.data.tags or [] %}
-      {% if keyword in postTags %}
-        <div class="col-md-6 col-lg-4 p-3 small p-md-5">
-          <h3 class="h5">
-            <a class="text-decoration-none" href="{{ post.url }}">{{ post.data.title or post.fileSlug }}</a>
-          </h3>
-          {% if post.data.author %}
-            <p class="small text-muted mb-1">{{ post.data.author }}</p>
-          {% endif %}
-          {% if post.data.description %}
-            <p class="small">{{ post.data.description | truncate(140) }}</p>
-          {% endif %}
-          <a href="{{ post.url }}" class="btn btn-primary btn-sm">View Article</a>
-        </div>
-      {% endif %}
+    {% set keywordPosts = collections.archives | archivePostsByKeyword(keyword) %}
+    {% for post in keywordPosts %}
+      <div class="col-md-6 col-lg-4 p-3 small p-md-5">
+        <h3 class="h5">
+          <a class="text-decoration-none" href="{{ post.url }}">{{ post.data.title or post.fileSlug }}</a>
+        </h3>
+        {% if post.data.author %}
+          <p class="small text-muted mb-1">{{ post.data.author }}</p>
+        {% endif %}
+        {% if post.data.description %}
+          <p class="small">{{ post.data.description | truncate(140) }}</p>
+        {% endif %}
+        <a href="{{ post.url }}" class="btn btn-primary btn-sm">View Article</a>
+      </div>
     {% endfor %}
   </div>
 

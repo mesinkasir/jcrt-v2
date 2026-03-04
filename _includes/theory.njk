@@ -59,7 +59,26 @@
   <link rel="icon" href="/img/logos/android-chrome-192x192.png" type="image/png" sizes="192x192" />
   <link rel="icon" href="/img/logos/android-chrome-512x512.png" type="image/png" sizes="512x512" />
   <link rel="apple-touch-icon" href="/img/logos/apple-touch-icon.png" sizes="180x180" />
-  <link rel="manifest" href="/img/logos/site.webmanifest" />
+  <script>
+  (() => {
+    const addManifest = () => {
+      if (document.querySelector('link[rel="manifest"]')) return;
+      const link = document.createElement("link");
+      link.rel = "manifest";
+      link.href = "/img/logos/site.webmanifest";
+      document.head.appendChild(link);
+    };
+    const schedule = () => {
+      if ("requestIdleCallback" in window) {
+        window.requestIdleCallback(addManifest, { timeout: 3000 });
+      } else {
+        setTimeout(addManifest, 1500);
+      }
+    };
+    if (document.readyState === "complete") schedule();
+    else window.addEventListener("load", schedule, { once: true });
+  })();
+  </script>
   <meta name="theme-color" content="#ffffff" />
 
   <!-- use application/atom+xml for an atom feed -->

@@ -18,8 +18,8 @@ layout: base.njk
 <p>
 {{b.data.description}}
 </p>
-<p><a href="{{b.url}}" class="btn  btn-primary p-2">
-Learn More
+<p><a href="{{b.url}}" class="btn  btn-primary p-2" aria-label="Read blog post: {{ b.data.title }}">
+Read: {{ b.data.title }}
 </a></p>
 </div>
 {% endfor %}
