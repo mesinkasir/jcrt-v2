@@ -1,7 +1,42 @@
+import fs from "node:fs";
+import path from "node:path";
+
+const issueYearCache = new Map();
+
+function readIssueYear(issue) {
+  if (!issue) return null;
+  if (issueYearCache.has(issue)) return issueYearCache.get(issue);
+
+  const issueIndexPath = path.join(process.cwd(), "content", "archives", issue, "index.njk");
+  if (!fs.existsSync(issueIndexPath)) {
+    issueYearCache.set(issue, null);
+    return null;
+  }
+
+  const src = fs.readFileSync(issueIndexPath, "utf8");
+  const match = src.match(/^\s*year:\s*['"]?(\d{4})['"]?\s*$/m);
+  const year = match ? Number.parseInt(match[1], 10) : null;
+  issueYearCache.set(issue, Number.isFinite(year) ? year : null);
+  return issueYearCache.get(issue);
+}
+
 export default {
   title: "Journal for Cultural and Religious Theory",
   layout: "archive-post.njk",
   eleventyComputed: {
+    date: (data) => {
+      if (data?.date) return data.date;
+      const directYear = Number.parseInt(data?.year, 10);
+      if (Number.isFinite(directYear) && directYear > 0) return `${directYear}-01-01`;
+
+      const stem = String(data?.page?.filePathStem || "");
+      const parts = stem.split("/");
+      const issue = parts.length >= 3 ? parts[parts.length - 2] : null;
+      const issueYear = readIssueYear(issue);
+      if (Number.isFinite(issueYear) && issueYear > 0) return `${issueYear}-01-01`;
+
+      return data?.page?.date || null;
+    },
     pdfUrl: (data) => {
       const slug = data.page.fileSlug;
       if (!slug || slug === "index") return null;

@@ -4,10 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    {% set pageTitle = title or pg.title or post.title or metadata.site.title %}
-  {% set pageDesc = description or pg.excerpt or post.excerpt or metadata.site.description %}
-  {% set pageImage = image or metadata.image or '/img/jcrt-open-graph.png' %}
-  {% set pageAuthor = author or pg.authorName or post.authorName or metadata.author.name %}
+  {% set pageTitle = title or pg.title or post.title or metadata.site.title %}
+  {% set pageDesc = description or excerpt or abstract or pg.excerpt or post.excerpt or (content | striptags | trim | truncate(160)) or metadata.site.description %}
+  {% set pageImageRaw = image or metadata.image or '/img/jcrt-open-graph.png' %}
+  {% set pageImage = pageImageRaw if "http" in pageImageRaw else metadata.url + pageImageRaw %}
+  {% set defaultAuthor = "Religious Theory Editors" %}
+  {% set pageAuthorCandidate = author or authors or pg.authorName or post.authorName or metadata.site.author or defaultAuthor %}
+  {% set pageAuthor = pageAuthorCandidate %}
+  {% if (not pageAuthor) or (pageAuthor | trim == "") or (pageAuthor | lower in ["editors", "editor", "editors_religioustheory"]) %}
+    {% set pageAuthor = defaultAuthor %}
+  {% endif %}
+  {% set publishedDateRaw = date or post.date or page.date %}
+  {% if (not publishedDateRaw) and year %}
+    {% set publishedDateRaw = year ~ "-01-01" %}
+  {% endif %}
+  {% set publishedDate = publishedDateRaw | isoDate if publishedDateRaw else metadata.buildTime %}
+  {% set modifiedDateRaw = lastmod or modified or updated or publishedDateRaw %}
+  {% set modifiedDate = modifiedDateRaw | isoDate if modifiedDateRaw else publishedDate %}
 
   <title>{{ pageTitle }}</title>
   <meta name="title" content="{{ pageTitle }}" />
@@ -36,7 +49,7 @@
   <meta property="twitter:author" content="{{ metadata.metasocial.twitteruser }}" />
 
   <meta property="dc:title" content="{{ pageTitle }}" />
-  <meta property="dc:creator" content="{{ metadata.author.name }}" />
+  <meta property="dc:creator" content="{{ pageAuthor }}" />
   <meta name="locale" content="{{ metadata.locale }}" />
 
   <link rel="icon" href="/img/logos/JCRT.svg" type="image/svg+xml" />
@@ -94,8 +107,8 @@
     "headline": "{{ pageTitle }}",
     "description": "{{ pageDesc | truncate(160) }}",
     "image": "{{ pageImage }}",
-    "datePublished": "{{ (date or post.date) | isoDate if (date or post.date) else metadata.buildTime }}",
-    "dateModified": "{{ (date or post.date) | isoDate if (date or post.date) else metadata.buildTime }}",
+    "datePublished": "{{ publishedDate }}",
+    "dateModified": "{{ modifiedDate }}",
     "author": {
       "@type": "Person",
       "name": "{{ pageAuthor }}"

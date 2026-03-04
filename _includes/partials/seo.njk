@@ -1,6 +1,20 @@
 {% set pageTitle = title or metadata.title %}
-{% set pageDesc = description or excerpt or metadata.description %}
-{% set pageImage = image or metadata.image or '/img/jcrt-open-graph.png' %}
+{% set pageDesc = description or excerpt or abstract or (content | striptags | trim | truncate(160)) or metadata.description %}
+{% set pageImageRaw = image or metadata.image or '/img/jcrt-open-graph.png' %}
+{% set pageImage = pageImageRaw if "http" in pageImageRaw else metadata.url + pageImageRaw %}
+{% set defaultAuthor = "Religious Theory Editors" if "/religioustheory/" in page.url else "JCRT Editors" %}
+{% set authorCandidate = author or authors or pg.authorName or post.authorName or metadata.site.author or defaultAuthor %}
+{% set authorName = authorCandidate %}
+{% if (not authorName) or (authorName | trim == "") or (authorName | lower in ["editors", "editor", "editors_religioustheory"]) %}
+  {% set authorName = defaultAuthor %}
+{% endif %}
+{% set publishedDateRaw = date or page.date or post.date %}
+{% if (not publishedDateRaw) and year %}
+  {% set publishedDateRaw = year ~ "-01-01" %}
+{% endif %}
+{% set publishedDate = publishedDateRaw | isoDate if publishedDateRaw else metadata.buildTime %}
+{% set modifiedDateRaw = lastmod or modified or updated or publishedDateRaw %}
+{% set modifiedDate = modifiedDateRaw | isoDate if modifiedDateRaw else publishedDate %}
 
 <title>{{ pageTitle }}</title>
 <meta content="{{ pageTitle }}" property="og:title" />
@@ -26,7 +40,7 @@
 <link rel="manifest" href="/img/logos/site.webmanifest" />
 <meta content="{{ metadata.metasocial.facebook }}" property="facebook:author" />
 <meta content="{{ metadata.metasocial.twitteruser }}" property="twitter:author" />
-<meta property="dc:creator" content="{{ metadata.author.name }}" />
+<meta property="dc:creator" content="{{ authorName }}" />
 <meta content="{{ metadata.metasocial.twitter }}" name="twitter:site" />
 <meta property="og:type" content="website" />
 <meta content="index, follow" name="robots">
@@ -82,11 +96,11 @@
   "headline": "{{ pageTitle }}",
   "description": "{{ pageDesc | truncate(160) }}",
   "image": "{{ pageImage }}",
-  "datePublished": "{{ date | isoDate if date else metadata.buildTime }}",
-  "dateModified": "{{ date | isoDate if date else metadata.buildTime }}",
+  "datePublished": "{{ publishedDate }}",
+  "dateModified": "{{ modifiedDate }}",
   "author": {
     "@type": "Person",
-    "name": "{{ author or pg.authorName or post.authorName or metadata.author.name }}"
+    "name": "{{ authorName }}"
   },
   "publisher": {
     "@type": "Organization",
