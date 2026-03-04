@@ -89,6 +89,7 @@
 </script>
 
 {% set isAcademic = "/archives/" in page.url %}
+{% set schemaAuthors = authorName | splitAuthors %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -98,10 +99,36 @@
   "image": "{{ pageImage }}",
   "datePublished": "{{ publishedDate }}",
   "dateModified": "{{ modifiedDate }}",
-  "author": {
-    "@type": "Person",
-    "name": "{{ authorName }}"
-  },
+  "author":
+  {% if isAcademic %}
+    {% if schemaAuthors and (schemaAuthors | length > 1) %}
+    [
+      {%- for aName in schemaAuthors %}
+      {% set authorObj = collections.authors | getAuthorObj(aName) %}
+      {% set authorPath = authorObj.url if authorObj and authorObj.url else ("/authors/" ~ (aName | authorSlug) ~ "/") %}
+      {
+        "@type": "Person",
+        "name": {{ (aName | trim) | dump | safe }},
+        "url": "{{ metadata.url }}{{ authorPath }}"
+      }{% if not loop.last %},{% endif %}
+      {%- endfor %}
+    ]
+    {% else %}
+    {% set singleName = (schemaAuthors[0] | trim) if (schemaAuthors and (schemaAuthors | length > 0)) else authorName %}
+    {% set singleAuthorObj = collections.authors | getAuthorObj(singleName) %}
+    {% set singleAuthorPath = singleAuthorObj.url if singleAuthorObj and singleAuthorObj.url else ("/authors/" ~ (singleName | authorSlug) ~ "/") %}
+    {
+      "@type": "Person",
+      "name": {{ singleName | dump | safe }},
+      "url": "{{ metadata.url }}{{ singleAuthorPath }}"
+    }
+    {% endif %}
+  {% else %}
+    {
+      "@type": "Person",
+      "name": {{ authorName | dump | safe }}
+    }
+  {% endif %},
   "publisher": {
     "@type": "Organization",
     "name": "The Whitestone Foundation",
