@@ -8,6 +8,7 @@
 		"start": "cross-env NODE_OPTIONS=--max-old-space-size=8192 eleventy --serve",
 		"dev": "cross-env QUICK_DEV=1 NODE_OPTIONS=--max-old-space-size=8192 eleventy --serve --incremental --port=4000",
 		"build:local": "cross-env NODE_OPTIONS=--max-old-space-size=8192 eleventy",
+		"build:bench": "cross-env BENCH_11TY=1 BENCH_ISSUE=24.2 FAST_BUILD=1 ELEVENTY_RUN_MODE=serve NODE_OPTIONS=--max-old-space-size=4096 eleventy --quiet",
 		"build": "rm -rf _site && cross-env NODE_OPTIONS=--max-old-space-size=8192 ELEVENTY_RUN_MODE=build eleventy && cross-env NODE_OPTIONS=--max-old-space-size=8192 node _config/minify-static.js && cross-env NODE_OPTIONS=--max-old-space-size=8192 node _config/generate-redirects.js && cross-env NODE_OPTIONS=--max-old-space-size=8192 pagefind --site _site",
 		"clear": "rm -rf _site .cache",
 		"build-nocolor": "cross-env NODE_DISABLE_COLORS=1 eleventy",

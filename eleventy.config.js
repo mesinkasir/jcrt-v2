@@ -184,7 +184,31 @@ export default async function (eleventyConfig) {
 	eleventyConfig.addPlugin(pluginFilters);
 	const isFastBuild = Boolean(process.env.FAST_BUILD);
 	const isBuildMode = process.env.ELEVENTY_RUN_MODE === "build";
+	const isBenchMode = process.env.BENCH_11TY === "1";
+	const benchIssue = String(process.env.BENCH_ISSUE || "24.2").trim();
 	eleventyConfig.addGlobalData("isFastBuild", isFastBuild);
+	eleventyConfig.addGlobalData("isBenchMode", isBenchMode);
+	eleventyConfig.addGlobalData("benchIssue", benchIssue);
+
+	if (isBenchMode) {
+		const archivesRoot = path.join(process.cwd(), "content", "archives");
+		try {
+			const issueDirs = fs
+				.readdirSync(archivesRoot, { withFileTypes: true })
+				.filter((d) => d.isDirectory())
+				.map((d) => d.name);
+			for (const issue of issueDirs) {
+				if (issue !== benchIssue) {
+					eleventyConfig.ignores.add(`archives/${issue}/**`);
+				}
+			}
+		} catch {
+			// Ignore if archives root is not readable.
+		}
+		eleventyConfig.ignores.add("blog/**");
+		eleventyConfig.ignores.add("religioustheory/**");
+		eleventyConfig.ignores.add("feed/**");
+	}
 	if (isBuildMode) {
 		eleventyConfig.addTransform("minifyHtmlOutput", function (content, outputPath) {
 			if (!outputPath || !outputPath.endsWith(".html")) return content;
@@ -199,7 +223,7 @@ export default async function (eleventyConfig) {
 		const runMode = process.env.ELEVENTY_RUN_MODE;
 		// In serve mode, skip heavyweight pre-build generation to prevent
 		// repeated high-memory rebuild cycles.
-		if (runMode !== "serve") {
+		if (runMode !== "serve" && !isBenchMode) {
 			await generateArchiveCitations(process.env.SITE_URL || "https://jcrt.org");
 			await generateReligiousTheoryCitations(process.env.SITE_URL || "https://jcrt.org");
 			await ensureFavicons();
@@ -210,6 +234,31 @@ export default async function (eleventyConfig) {
 	eleventyConfig.addPreprocessor("drafts", "*", (data) => {
 		if (!isPublishedItem(data)) return false;
 	});
+	if (isBenchMode) {
+		eleventyConfig.addPreprocessor("bench-scope", "*", (data) => {
+			const inputPath = String(data?.page?.inputPath || "").replaceAll("\\", "/");
+			const marker = "/content/";
+			const idx = inputPath.indexOf(marker);
+			const rel = idx >= 0 ? inputPath.slice(idx + marker.length) : "";
+			if (!rel) return;
+
+			if (rel.startsWith("blog/")) return false;
+			if (rel.startsWith("religioustheory/")) return false;
+			if (rel.startsWith("authors/")) return false;
+			if (rel.startsWith("feed/")) return false;
+
+			if (rel.startsWith("archives/")) {
+				const keepExact = new Set([
+					"archives/index.njk",
+					"archives/keywords/index.njk",
+					"archives/keywords/tag-pages.njk",
+				]);
+				if (keepExact.has(rel)) return;
+				if (rel.startsWith(`archives/${benchIssue}/`)) return;
+				return false;
+			}
+		});
+	}
 	
 	// dev mode
 	if (process.env.QUICK_DEV) {
@@ -240,10 +289,12 @@ export default async function (eleventyConfig) {
 		.addPassthroughCopy({ "public/img": "img" })
 		.addPassthroughCopy({ "public/admin": "admin" })
 		.addPassthroughCopy({ "public/docs": "docs" })
-		.addPassthroughCopy({ "public/citations": "citations" })
 		.addPassthroughCopy({ "public/_redirects": "_redirects" })
 		.addPassthroughCopy({ "css/bs.css": "css/bs.css" })
 		.addPassthroughCopy("./content/feed/pretty-atom-feed.xsl");
+	if (!isBenchMode) {
+		eleventyConfig.addPassthroughCopy({ "public/citations": "citations" });
+	}
 
 	eleventyConfig.addWatchTarget("css/**/*.css");
 	eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpg,jpeg,gif}");
@@ -542,7 +593,7 @@ export default async function (eleventyConfig) {
 	});
 		// Archives contain PDFs/scans that need to be copied, but the markdown is built into HTML.
 		// CI can pre-copy these via scripts/pre-copy-assets.sh (hardlinks), so allow skipping passthrough copy.
-		if (!process.env.PRECOPY_ARCHIVES) {
+		if (!process.env.PRECOPY_ARCHIVES && !isBenchMode) {
 			eleventyConfig.addPassthroughCopy("content/archives/**/*.pdf");
 		eleventyConfig.addPassthroughCopy("content/archives/**/*.jpg");
 		eleventyConfig.addPassthroughCopy("content/archives/**/*.jpeg");
@@ -552,6 +603,11 @@ export default async function (eleventyConfig) {
 		eleventyConfig.addPassthroughCopy("content/archives/**/*.tiff");
 	}
 	eleventyConfig.addCollection("archives", function (collectionApi) {
+		if (isBenchMode) {
+			return collectionApi
+				.getFilteredByGlob(`content/archives/${benchIssue}/**/*.md`)
+				.filter((item) => isPublishedItem(item?.data));
+		}
 		return collectionApi
 			.getFilteredByGlob("content/archives/**/*.md")
 			.filter((item) => isPublishedItem(item?.data));
@@ -560,9 +616,10 @@ export default async function (eleventyConfig) {
 	eleventyConfig.addCollection("archiveKeywordTags", function (collectionApi) {
 		const excluded = new Set(["all", "posts", "archives", "theoryPosts", "nav"]);
 		const tags = new Set();
-		const archives = collectionApi
-			.getFilteredByGlob("content/archives/**/*.md")
-			.filter((item) => isPublishedItem(item?.data));
+		const pattern = isBenchMode
+			? `content/archives/${benchIssue}/**/*.md`
+			: "content/archives/**/*.md";
+		const archives = collectionApi.getFilteredByGlob(pattern).filter((item) => isPublishedItem(item?.data));
 
 		for (const item of archives) {
 			const itemTags = Array.isArray(item?.data?.tags) ? item.data.tags : [];
@@ -705,54 +762,56 @@ export default async function (eleventyConfig) {
 
 	// creativitas code
 
-	eleventyConfig.addPlugin(feedPlugin, {
-		type: "atom", // or "rss", "json"
-		outputPath: "/feed/feed.xml",
-		stylesheet: "pretty-atom-feed.xsl",
-		templateData: {
-			eleventyNavigation: {
-				key: "Feed",
-				order: 10,
+	if (!isBenchMode) {
+		eleventyConfig.addPlugin(feedPlugin, {
+			type: "atom",
+			outputPath: "/feed/feed.xml",
+			stylesheet: "pretty-atom-feed.xsl",
+			templateData: {
+				eleventyNavigation: {
+					key: "Feed",
+					order: 10,
+				},
 			},
-		},
-		collection: {
-			name: "feed",
-			limit: 50,
-		},
-		metadata: {
-			language: "en",
-			title: "Editorial",
-			subtitle: "Editorial 11ty.",
-			base: process.env.SITE_URL || "http://localhost:8080",
-			author: {
-				name: "adamdjbrett",
+			collection: {
+				name: "feed",
+				limit: 50,
 			},
-		},
-	});
+			metadata: {
+				language: "en",
+				title: "Editorial",
+				subtitle: "Editorial 11ty.",
+				base: process.env.SITE_URL || "http://localhost:8080",
+				author: {
+					name: "adamdjbrett",
+				},
+			},
+		});
 
-	eleventyConfig.addPlugin(feedPlugin, {
-		type: "rss",
-		outputPath: "/feed/feed.rss",
-		templateData: {
-			eleventyNavigation: {
-				key: "Feed (RSS)",
-				order: 11,
+		eleventyConfig.addPlugin(feedPlugin, {
+			type: "rss",
+			outputPath: "/feed/feed.rss",
+			templateData: {
+				eleventyNavigation: {
+					key: "Feed (RSS)",
+					order: 11,
+				},
 			},
-		},
-		collection: {
-			name: "feed",
-			limit: 50,
-		},
-		metadata: {
-			language: "en",
-			title: "Editorial",
-			subtitle: "Editorial 11ty.",
-			base: process.env.SITE_URL || "http://localhost:8080",
-			author: {
-				name: "adamdjbrett",
+			collection: {
+				name: "feed",
+				limit: 50,
 			},
-		},
-	});
+			metadata: {
+				language: "en",
+				title: "Editorial",
+				subtitle: "Editorial 11ty.",
+				base: process.env.SITE_URL || "http://localhost:8080",
+				author: {
+					name: "adamdjbrett",
+				},
+			},
+		});
+	}
 	eleventyConfig.watchIgnores.add("errors.txt");
 	eleventyConfig.ignores.add("_drafts/**");
 	eleventyConfig.ignores.add("submissions/**");
