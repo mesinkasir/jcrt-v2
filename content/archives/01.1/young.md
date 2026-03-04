@@ -11,7 +11,7 @@ year: 1999
 ---
 Young - God and Derrida's Politics - JCRT 1.1
 
-# God and Derrida's Politics: At the Edge of Exemplarity
+## God and Derrida's Politics: At the Edge of Exemplarity
 
 William W. Young III  
 University of Virginia

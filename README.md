@@ -10,7 +10,8 @@ Developed by Adam DJ Brett
 5. idea: use RT for book reviews
 6. add pagination to 24.2 and 25.1 pdfs
 7. add deploy button to readme
-8.
+8. fix canonical url in netlify
+9. make headers and names title case not all caps
 
 ## EBSCO
 contact ebsco have link to pages or pdfs

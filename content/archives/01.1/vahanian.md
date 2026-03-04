@@ -11,7 +11,7 @@ year: 1999
 ---
 Vahanian - The Otherness of Time - JCRT 1.1
 
-# The Otherness of Time: Secularisation as Worlding of the Word and the Hallowing of Time
+## The Otherness of Time: Secularisation as Worlding of the Word and the Hallowing of Time
 
 Gabriel Vahanian
 

@@ -11,7 +11,7 @@ year: 1999
 ---
 Reinhard/Lupton - Jewish Studies and the Secular University - JCRT 1.1
 
-# Jewish Studies and the Secular University: Religion Between Culture and Philosophy
+## Jewish Studies and the Secular University: Religion Between Culture and Philosophy
 
 Kenneth Reinhard, UCLA  
 Julia Reinhard Lupton, UC Irvine

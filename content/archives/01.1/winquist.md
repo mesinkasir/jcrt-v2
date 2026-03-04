@@ -11,7 +11,7 @@ year: 1999
 ---
 Winquist - Ambiguous Gift of Desire - JCRT 1.1
 
-# The Ambiguous Gift of Desire
+## The Ambiguous Gift of Desire
 
 Charles E. Winquist  
 Syracuse University

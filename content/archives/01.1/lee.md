@@ -11,7 +11,7 @@ year: 1999
 ---
 Lee - Deconstructing the Great Chain of Being - JCRT 1.1
 
-# Deconstructing the Great Chain of Being
+## Deconstructing the Great Chain of Being
 
 Jonathan Lee  
 Colorado College

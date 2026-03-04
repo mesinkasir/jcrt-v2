@@ -11,7 +11,7 @@ year: 1999
 ---
 Lambert - The Work of Art - JCRT 1.1 
 
-# The Work of Art in the Age of Alien Reproduction
+## The Work of Art in the Age of Alien Reproduction
 
 Gregg Lambert  
 Syracuse University

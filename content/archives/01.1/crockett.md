@@ -36,7 +36,7 @@ pages:
 ---
 Crockett - Anxiety and the S(ub)lime Body of God - JCRT 1.1
 
-# Anxiety and the S(ub)lime Body of God
+## Anxiety and the S(ub)lime Body of God
 
 Clayton Crockett  
 Wesley College

@@ -11,7 +11,7 @@ year: 1999
 ---
 Raschke - Theorizing Religion at the Turn of the Millennium - JCRT 1.1
 
-# Theorizing Religion at the Turn of the Millennium: From the Sacred to the Semiotic
+## Theorizing Religion at the Turn of the Millennium: From the Sacred to the Semiotic
 
 Carl A. Raschke  
 University of Denver

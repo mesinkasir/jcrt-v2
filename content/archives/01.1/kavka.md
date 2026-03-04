@@ -11,7 +11,7 @@ year: 1999
 ---
 Kavka - Rationality of Derrida's Religion - JCRT 1.1 
 
-# The Rationality of Derrida's "Religion without Religion": A Phenomenological Gift for John D. Caputo
+## The Rationality of Derrida's "Religion without Religion": A Phenomenological Gift for John D. Caputo
 
 Martin Kavka  
 Rice University
