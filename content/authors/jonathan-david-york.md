@@ -1,6 +1,6 @@
 ---
 name: Jonathan David York
-affiliation: " South Dakota State University, Ame rican Univer sity in Bulgaria"
+affiliation: " South Dakota State University, American University in Bulgaria"
 bio:
 social:
   - title: "website"

@@ -4,7 +4,7 @@ description: Learn about JCRT and its Religious Theory feature, including scope,
 permalink: /about/
 ---
 ## About JCRT
-*The Journal for Cultural and Religious Theory (JCRT)* is a peer-reviewed journal devoted to disciplinary and interdisciplinary scholarship that engages religion, culture, and critical theory. JCRT publishes original research and special issues that advance the study of religion in contemporary intellectual, political, and social contexts. The journal is supported by the University of Denver and South Dakota State University.
+*The Journal for Cultural and Religious Theory (JCRT)* is a peer-reviewed journal devoted to disciplinary and interdisciplinary scholarship that engages religion, culture, and critical theory. JCRT publishes original research and special issues that advance the study of religion in contemporary intellectual, political, and social contexts. The journal is supported by the University of Denver and Syracuse University.
 
 ## About Religious Theory
 *Religious Theory* is a feature of JCRT that provides timely essays, commentary, and conversations. Articles accepted for *Religious Theory* may be published later in a regular JCRT issue as a paginated PDF with library cataloguing information. The minimum time between publication in *Religious Theory* and JCRT is 12 months; the maximum is 30 months.

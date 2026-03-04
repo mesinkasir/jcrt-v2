@@ -43,7 +43,7 @@ All submissions must **rigorously fit the mission of the JCRT** (see the [Submis
 JCRT is **free of charge** and is published **two to three times per year**.
 
 ### Institutional Sponsors
-Current institutional sponsors are the **University of Denver** and **South Dakota State University**.  
+Current institutional sponsors are the **University of Denver** and **Syracuse University**.  
 For information about institutional sponsorship, contact **Senior Editor Carl Raschke** at **carl.raschke@du.edu**.
 
 ### Copyright and Permissions
