@@ -26,7 +26,10 @@ permalink: /religioustheory/index.html
                      style="width: 100%; height: 100%; object-fit: cover;" 
                      alt="{{ post.data.title }}" 
                      src="{{ post.data.image if post.data.image and post.data.image != 'null' else '/img/default-theory.jpg' }}"
-                     onerror="this.onerror=null;this.src='/img/jcrt.jpg';">
+                     {% imageAttrs (post.data.image if post.data.image and post.data.image != 'null' else '/img/default-theory.jpg'), 640, 360 %}
+                     loading="lazy"
+                     decoding="async"
+                     onerror="this.onerror=null;this.src='/img/jcrt.svg';">
             </a>
         </div>
 

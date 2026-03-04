@@ -18,6 +18,92 @@ import fs from "node:fs";
 import path from "node:path";
 import os from "node:os";
 
+const imageDimensionCache = new Map();
+
+function readJpegSize(buffer) {
+	if (buffer.length < 4 || buffer[0] !== 0xff || buffer[1] !== 0xd8) return null;
+	let offset = 2;
+	while (offset + 9 < buffer.length) {
+		if (buffer[offset] !== 0xff) {
+			offset += 1;
+			continue;
+		}
+		const marker = buffer[offset + 1];
+		offset += 2;
+		if (marker === 0xd8 || marker === 0xd9) continue;
+		if (offset + 1 >= buffer.length) break;
+		const segmentLength = buffer.readUInt16BE(offset);
+		if (segmentLength < 2 || offset + segmentLength > buffer.length) break;
+		const isSof =
+			(marker >= 0xc0 && marker <= 0xc3) ||
+			(marker >= 0xc5 && marker <= 0xc7) ||
+			(marker >= 0xc9 && marker <= 0xcb) ||
+			(marker >= 0xcd && marker <= 0xcf);
+		if (isSof && offset + 7 < buffer.length) {
+			const height = buffer.readUInt16BE(offset + 3);
+			const width = buffer.readUInt16BE(offset + 5);
+			if (width > 0 && height > 0) return { width, height };
+		}
+		offset += segmentLength;
+	}
+	return null;
+}
+
+function readSvgSize(filePath) {
+	const raw = fs.readFileSync(filePath, "utf8");
+	const widthMatch = raw.match(/\bwidth=["']?([0-9.]+)(px)?["']?/i);
+	const heightMatch = raw.match(/\bheight=["']?([0-9.]+)(px)?["']?/i);
+	if (widthMatch && heightMatch) {
+		const width = Math.round(Number.parseFloat(widthMatch[1]));
+		const height = Math.round(Number.parseFloat(heightMatch[1]));
+		if (Number.isFinite(width) && Number.isFinite(height) && width > 0 && height > 0) {
+			return { width, height };
+		}
+	}
+	const viewBoxMatch = raw.match(/\bviewBox=["']\s*([0-9.+-]+)[,\s]+([0-9.+-]+)[,\s]+([0-9.+-]+)[,\s]+([0-9.+-]+)\s*["']/i);
+	if (viewBoxMatch) {
+		const width = Math.round(Number.parseFloat(viewBoxMatch[3]));
+		const height = Math.round(Number.parseFloat(viewBoxMatch[4]));
+		if (Number.isFinite(width) && Number.isFinite(height) && width > 0 && height > 0) {
+			return { width, height };
+		}
+	}
+	return null;
+}
+
+function getImageDimensionsFromPath(filePath) {
+	const ext = path.extname(filePath).toLowerCase();
+	if (ext === ".svg") return readSvgSize(filePath);
+
+	const buffer = fs.readFileSync(filePath);
+	if (ext === ".png" && buffer.length > 24) {
+		const width = buffer.readUInt32BE(16);
+		const height = buffer.readUInt32BE(20);
+		if (width > 0 && height > 0) return { width, height };
+	}
+	if (ext === ".gif" && buffer.length > 10) {
+		const width = buffer.readUInt16LE(6);
+		const height = buffer.readUInt16LE(8);
+		if (width > 0 && height > 0) return { width, height };
+	}
+	if (ext === ".jpg" || ext === ".jpeg") {
+		return readJpegSize(buffer);
+	}
+	return null;
+}
+
+function resolveImagePath(src) {
+	if (!src || typeof src !== "string") return null;
+	const normalized = src.split("?")[0].split("#")[0].trim();
+	if (!normalized || /^https?:\/\//i.test(normalized) || normalized.startsWith("data:")) return null;
+	const withoutLeadingSlash = normalized.startsWith("/") ? normalized.slice(1) : normalized;
+	const publicPath = path.join(process.cwd(), "public", withoutLeadingSlash);
+	if (fs.existsSync(publicPath)) return publicPath;
+	const rootPath = path.join(process.cwd(), withoutLeadingSlash);
+	if (fs.existsSync(rootPath)) return rootPath;
+	return null;
+}
+
 function archiveIssueSortKey(inputPath, url) {
 	// Prefer the directory segment under `content/archives/`.
 	// Examples:
@@ -97,7 +183,17 @@ function isPublishedItem(data = {}, runMode = process.env.ELEVENTY_RUN_MODE) {
 export default async function (eleventyConfig) {
 	eleventyConfig.addPlugin(pluginFilters);
 	const isFastBuild = Boolean(process.env.FAST_BUILD);
+	const isBuildMode = process.env.ELEVENTY_RUN_MODE === "build";
 	eleventyConfig.addGlobalData("isFastBuild", isFastBuild);
+	if (isBuildMode) {
+		eleventyConfig.addTransform("minifyHtmlOutput", function (content, outputPath) {
+			if (!outputPath || !outputPath.endsWith(".html")) return content;
+			return String(content)
+				.replace(/<!--(?!\[if).*?-->/gs, "")
+				.replace(/>\s+</g, "><")
+				.trim();
+		});
+	}
 
 	eleventyConfig.on("eleventy.before", async () => {
 		const runMode = process.env.ELEVENTY_RUN_MODE;
@@ -239,6 +335,22 @@ export default async function (eleventyConfig) {
 			.replace(/&/g, "&amp;")
 			.replace(/</g, "&lt;")
 			.replace(/>/g, "&gt;");
+	});
+	eleventyConfig.addShortcode("imageAttrs", function (src, fallbackWidth = 1200, fallbackHeight = 630) {
+		const fallback = {
+			width: Number.parseInt(fallbackWidth, 10) || 1200,
+			height: Number.parseInt(fallbackHeight, 10) || 630,
+		};
+		const cacheKey = `${src || ""}|${fallback.width}|${fallback.height}`;
+		if (imageDimensionCache.has(cacheKey)) return imageDimensionCache.get(cacheKey);
+
+		const filePath = resolveImagePath(src);
+		const dims = filePath ? getImageDimensionsFromPath(filePath) : null;
+		const width = dims?.width || fallback.width;
+		const height = dims?.height || fallback.height;
+		const attrs = `width="${width}" height="${height}"`;
+		imageDimensionCache.set(cacheKey, attrs);
+		return attrs;
 	});
 	eleventyConfig.addFilter("htmlEntityDecode", function (value) {
 		if (value === null || value === undefined) return "";

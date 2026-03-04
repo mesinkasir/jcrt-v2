@@ -28,7 +28,7 @@ layout: base.njk
       </div>
 
       {% if image %}
-        <img class="img-post mb-5 rounded" alt="{{ title }}" width="100%" height="auto" src="{{ image }}"/>
+        <img class="img-post mb-5 rounded" alt="{{ title }}" src="{{ image }}" {% imageAttrs image, 1200, 675 %} loading="lazy" decoding="async"/>
       {% endif %}
 
 	      <article class="col-md-8 mx-auto">

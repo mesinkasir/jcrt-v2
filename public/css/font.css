@@ -1,20 +1,24 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
+/* Local slab-serif stack for improved performance and consistent rendering */
+:root {
+  --jcrt-slab-stack: Rockwell, "Rockwell Nova", "Roboto Slab", "DejaVu Serif", "Sitka Small", serif;
+}
+
 body, input, select, textarea {
-  color: #7f888f;
-  font-family: "Open Sans", sans-serif;
+  color: #000000;
+  font-family: var(--jcrt-slab-stack);
   font-size: 22px;
-  font-weight: 400;
+  font-weight: normal;
   line-height: 1.65;
 }
 strong, b {
-  color: #3d4449;
+  color: #000000;
   font-weight: 600;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #3d4449;
-  font-family: "Roboto Slab", serif;
-  font-weight: 700;
+  color: #000000;
+  font-family: var(--jcrt-slab-stack);
+  font-weight: normal;
   line-height: 1.5;
   margin: 0 0 1em 0;
 }
@@ -27,9 +31,9 @@ h5 { font-size: 0.9em; }
 h6 { font-size: 0.7em; }
 
 header p {
-  font-family: "Roboto Slab", serif;
+  font-family: var(--jcrt-slab-stack);
   font-size: 1.3em;
-  font-weight: 400;
+  font-weight: normal;
   letter-spacing: 0.075em;
   margin-top: -0.5em;
   text-transform: uppercase;

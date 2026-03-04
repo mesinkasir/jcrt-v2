@@ -27,10 +27,13 @@
         <div class="col-md-4 mb-4">
           <div class="img-zoom-container mb-3 shadow-sm rounded" style="aspect-ratio: 16/9; overflow: hidden;">
             <a href="{{ post.url }}">
-              <img src="{{ post.data.image if post.data.image and post.data.image != 'null' else '/img/jcrt.jpg' }}" 
+              <img src="{{ post.data.image if post.data.image and post.data.image != 'null' else '/img/jcrt.svg' }}" 
                    class="img-fluid w-100 h-100" 
                    style="object-fit: cover;" 
-                   alt="{{ post.data.title }}">
+                   alt="{{ post.data.title }}"
+                   {% imageAttrs (post.data.image if post.data.image and post.data.image != 'null' else '/img/jcrt.svg'), 640, 360 %}
+                   loading="lazy"
+                   decoding="async">
             </a>
           </div>
           

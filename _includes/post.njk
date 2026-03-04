@@ -38,7 +38,7 @@ layout: base.njk
             <img class="img-post rounded" alt="{{ title }}" width="250" height="250" style="object-fit:cover" src="{{ image }}"/>
           </div>
         {% else %}
-          <img class="img-post mb-5 rounded" alt="{{ title }}" width="100%" height="auto" src="{{ image }}"/>
+          <img class="img-post mb-5 rounded" alt="{{ title }}" src="{{ image }}" {% imageAttrs image, 1200, 675 %} loading="lazy" decoding="async"/>
         {% endif %}
       {% endif %}
 
@@ -74,7 +74,10 @@ layout: base.njk
                         <img src="{{ currentAuthor.data.image or '/img/jcrt.svg' }}"
                              class="img-thumb rounded-circle w-100"
                              style="aspect-ratio: 1/1; object-fit: cover;" 
-                             alt="{{ currentAuthor.data.name or currentAuthor.data.title }}"/>
+                             alt="{{ currentAuthor.data.name or currentAuthor.data.title }}"
+                             {% imageAttrs (currentAuthor.data.image or '/img/jcrt.svg'), 300, 300 %}
+                             loading="lazy"
+                             decoding="async"/>
                       </a>
                     </div>
                     <div class="col-8 author-info">

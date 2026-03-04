@@ -26,11 +26,16 @@ layout: base.njk
               alt="{{ title or 'Journal issue cover image' }}"
               class="img-fluid rounded shadow-sm {% if issueImageWidth and issueImageHeight %}issue-index-cover issue-index-cover--custom{% else %}w-100{% endif %}"
               {% if issueImageWidth and issueImageHeight %}
+              width="{{ issueImageWidth }}"
+              height="{{ issueImageHeight }}"
               style="--issue-cover-width: {{ issueImageWidth }}px; --issue-cover-height: {{ issueImageHeight }}px;"
               {% else %}
+              {% imageAttrs issueImage, 1200, 675 %}
               style="max-height: 420px; object-fit: cover;"
               {% endif %}
-              loading="lazy"
+              loading="eager"
+              fetchpriority="high"
+              decoding="async"
               onerror="this.onerror=null;this.src='/img/logos/JCRT.svg';"
             >
           </div>

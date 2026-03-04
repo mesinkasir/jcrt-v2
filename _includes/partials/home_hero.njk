@@ -11,7 +11,7 @@
 </div>
 <div class="col-md-6 p-3 p-md-5 d-flex justify-content-center align-items-center">
 <div class="ratio ratio-1x1 rounded overflow-hidden">
-<img class="img-fluid w-100 h-100" alt="{{title}}" src="{{image}}" style="object-fit: cover;"/>
+<img class="img-fluid w-100 h-100" alt="{{title}}" src="{{image}}" {% imageAttrs image, 1200, 1200 %} loading="eager" fetchpriority="high" decoding="async" style="object-fit: cover;"/>
 </div>
 </div>
 {% else %}

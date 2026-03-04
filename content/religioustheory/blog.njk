@@ -29,11 +29,17 @@ permalink: "/religioustheory/blog/{% if pagination.pageNumber > 0 %}page-{{ pagi
             {% if post.data.image and post.data.image != 'null' and post.data.image != '' %}
               <img class="img-post img-fluid" style="width: 100%; height: 100%; object-fit: cover;" 
                    alt="{{ post.data.title }}" src="{{ post.data.image }}"
-                   onerror="this.onerror=null;this.src='/img/jcrt.jpg';">
+                   {% imageAttrs post.data.image, 640, 360 %}
+                   loading="lazy"
+                   decoding="async"
+                   onerror="this.onerror=null;this.src='/img/jcrt.svg';">
             {% else %}
               <img class="img-post img-fluid" style="width: 100%; height: 100%; object-fit: cover;" 
                    alt="{{ post.data.title }}" src="/img/se.jpg"
-                   onerror="this.onerror=null;this.src='/img/jcrt.jpg';">
+                   {% imageAttrs '/img/se.jpg', 640, 360 %}
+                   loading="lazy"
+                   decoding="async"
+                   onerror="this.onerror=null;this.src='/img/jcrt.svg';">
             {% endif %}
           </a>
         </div>

@@ -57,8 +57,7 @@ layout: base.njk
               <div class="col-md-4 col-lg-4 p-3 p-md-4"> 
                 <div class="img-zoom-container mb-3">
                   <a href="{{ b.url }}" title="{{ b.data.title }}">
-                    <img class="img-post rounded" width="100%" height="auto" 
-                         alt="{{ b.data.title }}" src="{{ b.data.image or metadata.image }}"/>
+                    <img class="img-post rounded" alt="{{ b.data.title }}" src="{{ b.data.image or '/img/jcrt.svg' }}" {% imageAttrs (b.data.image or '/img/jcrt.svg'), 640, 360 %} loading="lazy" decoding="async"/>
                   </a>
                 </div>
                 <h3 class="h5"><strong>{{ b.data.title }}</strong></h3>

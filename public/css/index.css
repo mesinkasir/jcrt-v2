@@ -5,6 +5,7 @@
     --default-padding: 50px;
     --primary-jcrt: #FF4136;
     --btn-margin-left: calc((100% - 1140px) / 2 - 60px);
+    --jcrt-slab-stack: Rockwell, "Rockwell Nova", "Roboto Slab", "DejaVu Serif", "Sitka Small", serif;
 }
 
 @media (max-width: 1200px) {
@@ -44,10 +45,10 @@
 
 .nav-item-editorial a {
     display: block;
-    font-family: Georgia, serif;
+    font-family: var(--jcrt-slab-stack);
     font-size: 1.1rem;
     font-weight: 700;
-    color: #15171a;
+    color: #000000;
     text-decoration: none;
     padding: 8px 0;
 }
@@ -82,7 +83,7 @@
 }
 .nav-item-editorial a {
     display: block;
-    font-family: "Georgia", serif;
+    font-family: var(--jcrt-slab-stack);
     font-size: 1.2rem;
     font-weight: 700;
     color: #15171a;
@@ -107,7 +108,7 @@
 }
 
 .menu-toggle-editorial:hover {
-    background: #ff00ff;
+    background: #FF4136;
 }
         #sidebar-menu {
             position: absolute; top: 0; bottom: 0;
@@ -150,8 +151,8 @@
 		
 		btn-trans {background-color: inherit;}
 		
-		.serif {
-    font-family: "Georgia", Times, serif;
+.serif {
+    font-family: var(--jcrt-slab-stack);
 }
 
 		/* desktop */
@@ -259,7 +260,9 @@ body.menu-open #sidebar-container {
 
 
 		a {color: #FF4136 !important;}
-		a:hover {color:  #9c4848;}
+		a:hover {color: #FF4136;}
+		.text-secondary, .text-muted { color: #000000 !important; }
+		.text-dark { color: #000000 !important; }
 		a.btn-primary, .btn-primary {
 			background-color: #FF4136 !important;
 			color: white !important;
