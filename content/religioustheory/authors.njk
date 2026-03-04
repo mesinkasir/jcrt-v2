@@ -30,11 +30,12 @@ eleventyComputed:
         <div class="col-md-6 col-lg-4 p-3 small p-md-5 d-flex flex-column"> 
             <div class="img-zoom-container rounded-4 shadow-sm mb-3" style="aspect-ratio: 16/9; overflow: hidden;">
                 <a href="{{ post.url }}">
+                    {% set authorCardImage = post.data.image or '/img/jcrt.svg' %}
                     <img class="img-post img-fluid" 
                          style="width: 100%; height: 100%; object-fit: cover;" 
                          alt="{{ post.data.title }}" 
-                         src="{{ post.data.image or '/img/jcrt.svg' }}"
-                         {% imageAttrs (post.data.image or '/img/jcrt.svg'), 640, 360 %}
+                         src="{{ authorCardImage }}"
+                         {% imageAttrs authorCardImage, 640, 360 %}
                          loading="lazy"
                          decoding="async"
                          onerror="this.onerror=null;this.src='/img/jcrt.svg';">

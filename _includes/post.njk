@@ -38,7 +38,7 @@ layout: base.njk
             <img class="img-post rounded" alt="{{ title }}" width="250" height="250" style="object-fit:cover" src="{{ image }}"/>
           </div>
         {% else %}
-          <img class="img-post mb-5 rounded" alt="{{ title }}" src="{{ image }}" {% imageAttrs image, 1200, 675 %} loading="lazy" decoding="async"/>
+          <img class="img-post mb-5 rounded" alt="{{ title }}" src="{{ image | preferWebp }}" data-fallback-src="{{ image }}" {% imageAttrs image, 1200, 675 %} loading="lazy" decoding="async" onerror="if(this.dataset.fallbackSrc&&this.src!==this.dataset.fallbackSrc){this.src=this.dataset.fallbackSrc;}"/>
         {% endif %}
       {% endif %}
 
@@ -71,13 +71,16 @@ layout: base.njk
                   <div class="row align-items-center">
                     <div class="col-4">
                       <a href="{{ currentAuthor.url }}">
-                        <img src="{{ currentAuthor.data.image or '/img/jcrt.svg' }}"
+                        {% set currentAuthorImage = currentAuthor.data.image or '/img/jcrt.svg' %}
+                        <img src="{{ currentAuthorImage | preferWebp }}"
+                             data-fallback-src="{{ currentAuthorImage }}"
                              class="img-thumb rounded-circle w-100"
                              style="aspect-ratio: 1/1; object-fit: cover;" 
                              alt="{{ currentAuthor.data.name or currentAuthor.data.title }}"
-                             {% imageAttrs (currentAuthor.data.image or '/img/jcrt.svg'), 300, 300 %}
+                             {% imageAttrs currentAuthorImage, 300, 300 %}
                              loading="lazy"
-                             decoding="async"/>
+                             decoding="async"
+                             onerror="if(this.dataset.fallbackSrc&&this.src!==this.dataset.fallbackSrc){this.src=this.dataset.fallbackSrc;}"/>
                       </a>
                     </div>
                     <div class="col-8 author-info">

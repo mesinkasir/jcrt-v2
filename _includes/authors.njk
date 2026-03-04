@@ -57,7 +57,8 @@ layout: base.njk
               <div class="col-md-4 col-lg-4 p-3 p-md-4"> 
                 <div class="img-zoom-container mb-3">
                   <a href="{{ b.url }}" title="{{ b.data.title }}">
-                    <img class="img-post rounded" alt="{{ b.data.title }}" src="{{ b.data.image or '/img/jcrt.svg' }}" {% imageAttrs (b.data.image or '/img/jcrt.svg'), 640, 360 %} loading="lazy" decoding="async"/>
+                    {% set authorPostImage = b.data.image or '/img/jcrt.svg' %}
+                    <img class="img-post rounded" alt="{{ b.data.title }}" src="{{ authorPostImage | preferWebp }}" data-fallback-src="{{ authorPostImage }}" {% imageAttrs authorPostImage, 640, 360 %} loading="lazy" decoding="async" onerror="if(this.dataset.fallbackSrc&&this.src!==this.dataset.fallbackSrc){this.src=this.dataset.fallbackSrc;}"/>
                   </a>
                 </div>
                 <h3 class="h5"><strong>{{ b.data.title }}</strong></h3>

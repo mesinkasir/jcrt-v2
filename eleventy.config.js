@@ -336,6 +336,16 @@ export default async function (eleventyConfig) {
 			.replace(/</g, "&lt;")
 			.replace(/>/g, "&gt;");
 	});
+	eleventyConfig.addFilter("preferWebp", function (value) {
+		if (!value) return value;
+		const src = String(value);
+		const m = src.match(/^([^?#]+)([?#].*)?$/);
+		if (!m) return src;
+		const pathname = m[1];
+		const suffix = m[2] || "";
+		if (!/\.(jpe?g|png)$/i.test(pathname)) return src;
+		return pathname.replace(/\.(jpe?g|png)$/i, ".webp") + suffix;
+	});
 	eleventyConfig.addShortcode("imageAttrs", function (src, fallbackWidth = 1200, fallbackHeight = 630) {
 		const fallback = {
 			width: Number.parseInt(fallbackWidth, 10) || 1200,

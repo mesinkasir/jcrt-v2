@@ -22,7 +22,8 @@ layout: base.njk
           {% set issueImageHeight = issue_image_height %}
           <div class="mb-4">
             <img
-              src="{{ issueImage }}"
+              src="{{ issueImage | preferWebp }}"
+              data-fallback-src="{{ issueImage }}"
               alt="{{ title or 'Journal issue cover image' }}"
               class="img-fluid rounded shadow-sm {% if issueImageWidth and issueImageHeight %}issue-index-cover issue-index-cover--custom{% else %}w-100{% endif %}"
               {% if issueImageWidth and issueImageHeight %}
@@ -36,7 +37,7 @@ layout: base.njk
               loading="eager"
               fetchpriority="high"
               decoding="async"
-              onerror="this.onerror=null;this.src='/img/logos/JCRT.svg';"
+              onerror="if(this.dataset.fallbackSrc&&this.src!==this.dataset.fallbackSrc){this.src=this.dataset.fallbackSrc;}else{this.onerror=null;this.src='/img/logos/JCRT.svg';}"
             >
           </div>
         {% endif %}
@@ -139,9 +140,9 @@ document.addEventListener("DOMContentLoaded", function() {
     display: block;
 }
 
-.hover-primary:hover { color: #f14e95 !important; text-decoration: underline !important; }
+.hover-primary:hover { color: #FF4136 !important; text-decoration: underline !important; }
 .italic { font-style: italic; }
-.border-primary { border-color: #f14e95 !important; }
+.border-primary { border-color: #FF4136 !important; }
 .archive-content img {
     display: block; 
     max-width: 100%;
@@ -155,7 +156,7 @@ document.addEventListener("DOMContentLoaded", function() {
     display: block;
     text-align: center;
     font-size: 0.9rem;
-    color: #666;
+    color: #000000;
     margin-top: -1.5rem;
     margin-bottom: 2rem;
 }

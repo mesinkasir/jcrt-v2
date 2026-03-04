@@ -33,7 +33,9 @@
         {% for i in section.list %}
             <div class="editorial-card">
                 <a href="{{i.url}}">
-                    <img class="editorial-img" src="{{i.image}}" alt="{{i.text}}" {% imageAttrs i.image, 400, 250 %} loading="lazy" decoding="async"/>
+                    {% set sideImg = i.image %}
+                    {% set sideImgPreferred = sideImg | preferWebp %}
+                    <img class="editorial-img" src="{{sideImgPreferred}}" data-fallback-src="{{sideImg}}" alt="{{i.text}}" {% imageAttrs sideImg, 400, 250 %} loading="lazy" decoding="async" onerror="if(this.dataset.fallbackSrc&&this.src!==this.dataset.fallbackSrc){this.src=this.dataset.fallbackSrc;}"/>
                 </a>
                 <p class="editorial-caption">{{i.text}}</p>
             </div>

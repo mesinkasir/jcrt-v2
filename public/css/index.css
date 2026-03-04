@@ -86,7 +86,7 @@
     font-family: var(--jcrt-slab-stack);
     font-size: 1.2rem;
     font-weight: 700;
-    color: #15171a;
+    color: #000000;
     text-decoration: none;
     padding: 8px 0;
     transition: color 0.2s;
@@ -176,7 +176,7 @@
   transition: background-color 0.3s ease;
 }
 .col-md-6.col-lg-4 h3 {
-    font-family: "Georgia", serif;
+    font-family: var(--jcrt-slab-stack);
     font-weight: 700;
     font-size: 1.4rem;
     line-height: 1.2;
@@ -477,7 +477,7 @@ blockquote{border-left:6px solid #ec5033;margin:1.5em 10px;padding:.5em 10px;quo
     letter-spacing: 0.25em !important;
     text-transform: uppercase !important;
     padding: 15px 0 !important;
-    color: #3d4449 !important;
+    color: #000000 !important;
     transition: color 0.2s ease;
 }
 
@@ -489,7 +489,7 @@ blockquote{border-left:6px solid #ec5033;margin:1.5em 10px;padding:.5em 10px;quo
     border-bottom: 1px solid rgba(0,0,0,0.05) !important;
 }
 #search .pagefind-ui__result-link {
-    font-family: "Georgia", serif !important;
+    font-family: var(--jcrt-slab-stack) !important;
     font-weight: 700 !important;
 }
 #menu-toggle-btn { 
@@ -652,7 +652,7 @@ body.menu-open #menu-toggle-btn {
     left: calc(var(--sidebar-width) + 20px) !important;
 }
 .pagination-editorial {
-    font-family: Georgia, serif;
+    font-family: var(--jcrt-slab-stack);
     letter-spacing: 1px;
 }
 
@@ -727,7 +727,7 @@ body.menu-open #menu-toggle-btn {
 }
 
 .ghost-title {
-    font-family: "Georgia", serif;
+    font-family: var(--jcrt-slab-stack);
     font-weight: 700;
     font-size: 1.75rem;
     margin-bottom: 0.5rem;
@@ -770,7 +770,7 @@ body.menu-open #menu-toggle-btn {
     border-bottom-width: 4px !important;
 }
 .col-md-6.col-lg-4 h3 {
-    font-family: "Georgia", serif;
+    font-family: var(--jcrt-slab-stack);
     font-weight: 700;
     font-size: 1.4rem;
     line-height: 1.2;
@@ -778,7 +778,7 @@ body.menu-open #menu-toggle-btn {
 }
 .col-md-6.col-lg-4 p {
     font-size: 0.95rem;
-    color: #555;
+    color: #000000;
     line-height: 1.6;
 }
 .mobile {

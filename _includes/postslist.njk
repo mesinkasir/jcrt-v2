@@ -3,15 +3,16 @@
 <div class="col-md-6 col-lg-4 p-3 small p-md-5"> 
     <div class="img-zoom-container rounded-4 shadow-sm mb-3" style="aspect-ratio: 16/9; overflow: hidden;">
         <a href="{{ post.url }}" title="{{ post.data.title }}">
-            {% set currentImg = post.data.image if post.data.image else '/img/se.jpg' %}
+            {% set currentImg = post.data.image if post.data.image else '/img/jcrt.svg' %}
             <img class="img-post img-fluid" 
                  style="width: 100%; height: 100%; object-fit: cover;" 
                  alt="{{ post.data.title }}" 
-                 src="{{ currentImg }}"
+                 src="{{ currentImg | preferWebp }}"
+                 data-fallback-src="{{ currentImg }}"
                  {% imageAttrs currentImg, 640, 360 %}
                  loading="lazy"
                  decoding="async"
-                 onerror="this.onerror=null;this.src='/img/jcrt.svg';">
+                 onerror="if(this.dataset.fallbackSrc&&this.src!==this.dataset.fallbackSrc){this.src=this.dataset.fallbackSrc;}else{this.onerror=null;this.src='/img/jcrt.svg';}">
         </a>
     </div>
 
