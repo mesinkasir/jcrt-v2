@@ -1,0 +1,26 @@
+---
+title: Search
+description: Search JCRT archives, blog posts, and Religious Theory content from a full-page search interface.
+permalink: /search/
+layout: post.njk
+---
+
+<section class="my-5 py-4">
+  <div class="col-md-8 mx-auto">
+    <div class="p-4 p-md-5 bg-light rounded border">
+      <p class="text-secondary mb-3">Search the site here, without using the sidebar.</p>
+      <div id="search-page"></div>
+    </div>
+  </div>
+</section>
+
+<script>
+  window.addEventListener("DOMContentLoaded", function () {
+    if (window.PagefindUI) {
+      new PagefindUI({
+        element: "#search-page",
+        showSubResults: true
+      });
+    }
+  });
+</script>

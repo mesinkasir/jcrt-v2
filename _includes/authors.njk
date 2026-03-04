@@ -15,11 +15,15 @@ layout: base.njk
             <img class="img-thumb rounded-circle mb-3" alt="{{ title }}" width="150" height="150" 
                  style="object-fit:cover;" src="{{ image or '/img/default-author.jpg' }}"/>
             <h1 class="p-name"><strong><span class="none text-dark">{{ title }}</span></strong></h1>
-            <h2 class="lead text-uppercase mb-3">{{ description }}</h2>
-            {% if affiliation %}
-            <h2 class="h5 text-primary text-uppercase mb-1">{{ affiliation }}</h2>
-          {% endif %}
-          <p class="lead italic mb-3">{{ description }}</p>
+            {% set authorMeta = affiliation or description %}
+            {% if authorMeta %}
+              <h2 class="h5 text-primary text-uppercase mb-3">{{ authorMeta }}</h2>
+            {% endif %}
+            {% if bio %}
+              <p class="lead italic mb-3">{{ bio }}</p>
+            {% elif description and description != authorMeta %}
+              <p class="lead italic mb-3">{{ description }}</p>
+            {% endif %}
           
           {% if orcid and orcid != "/" %}
             <div class="mb-3">

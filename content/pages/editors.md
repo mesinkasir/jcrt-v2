@@ -8,7 +8,7 @@ permalink: /editors/
 
 - *Senior Editor:* [**Carl Raschke**](mailto:carlraschke@gmail.com), University of Denver \| [articles by Raschke](/authors/carl-a-raschke/)
 - *Executive Editor:* [**Victor Taylor**](mailto:taylorve@gmail.com), Independent Scholar \|[articles by Taylor](/authors/victor-taylor/)
-- *Associate Editor* [**Adam DJ Brett**](https://adamdjbrett.com/contact/), American Indian Law Alliance & United Lutheran Seminary \|[articles by Brett](/authors/adam-dj-brett/)
+- *Associate Editor* [**Adam DJ Brett**](https://adamdjbrett.com/contact/), \|[articles by Brett](/authors/adam-dj-brett/)
 
 ## Assistant Editors
 

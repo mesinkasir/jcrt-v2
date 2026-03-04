@@ -7,6 +7,8 @@ Developed by Adam DJ Brett
 2. connect to Google Webmaster 
 3. connect to bing
 4. enable analytics
+5. idea: use RT for book reviews
+6. add pagination to 24.2 and 25.1
 
 ## EBSCO
 contact ebsco have link to pages or pdfs

@@ -275,6 +275,10 @@ body.menu-open #sidebar-container {
 		.text-primary { color: #FF4136 !important;}
 		.bgb-primary {border-bottom: solid 3px  #FF4136 !important;}
 		.bgb-primaris {border-bottom: solid 5px  #FF4136 !important;}
+		.bgb-primarys {
+			width: 100%;
+			border-bottom: solid 5px #FF4136 !important;
+		}
 		.btn-primary:hover {
 			background-color: #f98787 ;
 			color: white;

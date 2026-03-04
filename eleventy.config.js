@@ -334,8 +334,7 @@ export default async function (eleventyConfig) {
 			const authorField = post?.data?.author;
 			if (!authorField) return false;
 
-			const raw = String(authorField);
-			const parts = raw.includes(";") ? raw.split(";") : raw.split(",");
+			const parts = splitAuthors(authorField);
 
 			for (const part of parts) {
 				const name = String(part).trim();
@@ -479,14 +478,33 @@ export default async function (eleventyConfig) {
 			return Number.isFinite(ms) ? ms : 0;
 		};
 
-		const ensureTitle = (item, fallbackTitle) => {
-			const title = item?.data?.title ? String(item.data.title) : "";
-			if (title.trim()) return item;
+		const getSourcePriority = (item) => {
+			const url = String(item?.url || "");
+			if (url.startsWith("/archives/")) return 0;
+			if (url.startsWith("/blog/")) return 1;
+			if (url.startsWith("/religioustheory/")) return 2;
+			return 3;
+		};
 
+		const normalizeFeedItem = (item, fallbackTitle) => {
+			const title = item?.data?.title ? String(item.data.title) : "";
+			const sortMs = getSortTime(item);
+			const normalizedDate =
+				sortMs > 0
+					? new Date(sortMs)
+					: item?.date instanceof Date
+						? item.date
+						: new Date(0);
+			if (title.trim()) {
+				item.date = normalizedDate;
+				return item;
+			}
 			return {
 				url: item?.url,
-				date: item?.date,
+				date: normalizedDate,
 				data: { ...(item?.data || {}), title: fallbackTitle },
+				inputPath: item?.inputPath,
+				fileSlug: item?.fileSlug,
 			};
 		};
 
@@ -497,6 +515,7 @@ export default async function (eleventyConfig) {
 
 		const blog = collectionApi
 			.getFilteredByGlob("content/blog/*.md")
+			.filter((p) => isPublishedItem(p?.data))
 			.map((p) => {
 				if (p?.url) return p;
 				const slug =
@@ -516,48 +535,15 @@ export default async function (eleventyConfig) {
 			byKey.set(key, item);
 		}
 
-		const sortDesc = (a, b) => getSortTime(b) - getSortTime(a);
-		const sortedArchives = [...archives].sort(sortDesc);
-		const sortedBlog = [...blog].sort(sortDesc);
-		const sortedTheory = [...religioustheory].sort(sortDesc);
-		const allSorted = [...byKey.values()].sort(sortDesc);
-		const archiveSeed = sortedArchives[0] || {
-			url: "/archives/",
-			date: new Date(0),
-			data: { title: "Archives" },
-		};
-		const blogSeed = sortedBlog[0] || {
-			url: "/blog/",
-			date: new Date(0),
-			data: { title: "Blog" },
-		};
-		const theorySeed = sortedTheory[0] || {
-			url: "/religioustheory/",
-			date: new Date(0),
-			data: { title: "Religious Theory" },
-		};
-
-		// Ensure section representation while still keeping a newest-first feed.
-		const selected = [];
-		const selectedKeys = new Set();
-		for (const candidate of [archiveSeed, blogSeed, theorySeed]) {
-			const key = candidate?.url || candidate?.inputPath;
-			if (!key || selectedKeys.has(key)) continue;
-			selected.push(candidate);
-			selectedKeys.add(key);
-		}
-		for (const item of allSorted) {
-			if (selected.length >= 50) break;
-			const key = item?.url || item?.inputPath;
-			if (!key || selectedKeys.has(key)) continue;
-			selected.push(item);
-			selectedKeys.add(key);
-		}
-
-		const newestFirst = selected
-			.sort(sortDesc)
-			.slice(0, 50)
-			.map((item) => ensureTitle(item, item?.fileSlug || item?.url || "Untitled"));
+		const newestFirst = [...byKey.values()]
+			.sort((a, b) => {
+				const timeDiff = getSortTime(b) - getSortTime(a);
+				if (timeDiff !== 0) return timeDiff;
+				const priorityDiff = getSourcePriority(a) - getSourcePriority(b);
+				if (priorityDiff !== 0) return priorityDiff;
+				return String(a?.url || "").localeCompare(String(b?.url || ""));
+			})
+			.map((item) => normalizeFeedItem(item, item?.fileSlug || item?.url || "Untitled"));
 
 		// Feed plugin template reverses the collection before rendering entries.
 		return [...newestFirst].reverse();

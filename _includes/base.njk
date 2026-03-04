@@ -10,6 +10,13 @@
 <main class="h-entry" data-pagefind-body>
 {{ content | safe }}
 </main>
+<footer class="site-footer mt-5 pt-3" data-pagefind-ignore>
+  <div class="border-top pt-3" style="border-color: #b8b8b8 !important;">
+    <p class="small text-secondary mb-0">
+      {{ metadata.site_footer.text | safe }} {{ metadata.site_footer.year_start }}-{{ "" | currentYear }}.
+    </p>
+  </div>
+</footer>
 </div>
 <script src="/js/bs.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
