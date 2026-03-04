@@ -6,7 +6,7 @@
 
   {% set pageTitle = title or pg.title or post.title or metadata.site.title %}
   {% set pageDesc = description or excerpt or abstract or pg.excerpt or post.excerpt or (content | striptags | trim | truncate(160)) or metadata.site.description %}
-  {% set pageImageRaw = image or metadata.image or '/img/jcrt-open-graph.png' %}
+  {% set pageImageRaw = '/img/jcrt-open-graph.png' %}
   {% set pageImage = pageImageRaw if "http" in pageImageRaw else metadata.url + pageImageRaw %}
   {% set defaultAuthor = "Religious Theory Editors" %}
   {% set pageAuthorCandidate = author or authors or pg.authorName or post.authorName or metadata.site.author or defaultAuthor %}

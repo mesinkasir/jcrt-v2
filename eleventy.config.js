@@ -19,6 +19,17 @@ import path from "node:path";
 import os from "node:os";
 
 const imageDimensionCache = new Map();
+const metadataYamlPath = path.join(process.cwd(), "_data", "metadata.yaml");
+
+function getSiteUrlFromMetadata() {
+	const raw = fs.readFileSync(metadataYamlPath, "utf8");
+	const parsed = yaml.load(raw);
+	const url = String(parsed?.url || "").trim();
+	if (!url) {
+		throw new Error("Missing `url` in _data/metadata.yaml");
+	}
+	return url;
+}
 
 function readJpegSize(buffer) {
 	if (buffer.length < 4 || buffer[0] !== 0xff || buffer[1] !== 0xd8) return null;
@@ -221,6 +232,7 @@ export default async function (eleventyConfig) {
 	const isBuildMode = process.env.ELEVENTY_RUN_MODE === "build";
 	const isBenchMode = process.env.BENCH_11TY === "1";
 	const benchIssue = String(process.env.BENCH_ISSUE || "24.2").trim();
+	const siteBaseUrl = getSiteUrlFromMetadata();
 	eleventyConfig.addGlobalData("isFastBuild", isFastBuild);
 	eleventyConfig.addGlobalData("isBenchMode", isBenchMode);
 	eleventyConfig.addGlobalData("benchIssue", benchIssue);
@@ -259,8 +271,8 @@ export default async function (eleventyConfig) {
 		// In serve mode, skip heavyweight pre-build generation to prevent
 		// repeated high-memory rebuild cycles.
 		if (runMode !== "serve" && !isBenchMode) {
-			await generateArchiveCitations(process.env.SITE_URL || "https://jcrt.org");
-			await generateReligiousTheoryCitations(process.env.SITE_URL || "https://jcrt.org");
+			await generateArchiveCitations(siteBaseUrl);
+			await generateReligiousTheoryCitations(siteBaseUrl);
 			await ensureFavicons();
 		}
 	});
@@ -481,7 +493,7 @@ export default async function (eleventyConfig) {
 		return s;
 	});
 
-	eleventyConfig.addGlobalData("sitemapBaseUrl", () => process.env.SITE_URL || null);
+	eleventyConfig.addGlobalData("sitemapBaseUrl", () => siteBaseUrl);
 
 	const authorLookupCache = new WeakMap();
 	function getAuthorLookupMap(authorsCollection) {
@@ -797,7 +809,7 @@ export default async function (eleventyConfig) {
 		eleventyConfig.addPlugin(feedPlugin, {
 			type: "atom",
 			outputPath: "/feed/feed.xml",
-			stylesheet: "pretty-atom-feed.xsl",
+			stylesheet: "/feed/pretty-atom-feed.xsl",
 			templateData: {
 				eleventyNavigation: {
 					key: "Feed",
@@ -812,9 +824,9 @@ export default async function (eleventyConfig) {
 				language: "en",
 				title: "Editorial",
 				subtitle: "Editorial 11ty.",
-				base: process.env.SITE_URL || "https://jcrt.org",
+				base: siteBaseUrl,
 				author: {
-					name: "adamdjbrett",
+					name: "Editorial Board of JCRT",
 				},
 			},
 		});
@@ -836,9 +848,9 @@ export default async function (eleventyConfig) {
 				language: "en",
 				title: "Editorial",
 				subtitle: "Editorial 11ty.",
-				base: process.env.SITE_URL || "https://jcrt.org",
+				base: siteBaseUrl,
 				author: {
-					name: "adamdjbrett",
+					name: "Editorial Board of JCRT",
 				},
 			},
 		});

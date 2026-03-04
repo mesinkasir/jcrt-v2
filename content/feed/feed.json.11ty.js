@@ -15,7 +15,7 @@ export default class FeedJsonTemplate {
 	}
 
 	render(data) {
-		const siteUrl = data?.metadata?.url || "https://jcrt.org";
+		const siteUrl = data?.metadata?.url || "";
 		const items = [...(data?.collections?.feed || [])].reverse().slice(0, 50);
 
 		const payload = {

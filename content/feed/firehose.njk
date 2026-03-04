@@ -3,7 +3,7 @@ permalink: /feed/firehose.xml
 eleventyExcludeFromCollections: true
 layout: false
 ---
-{% set feedBaseUrl = metadata.url or "https://jcrt.org" %}
+{% set feedBaseUrl = metadata.url %}
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="/feed/pretty-atom-feed.xsl" type="text/xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
@@ -14,7 +14,7 @@ layout: false
   <updated>{{ page.date | isoDate }}</updated>
   <id>{{ feedBaseUrl }}/</id>
   <author>
-    <name>{{ metadata.author.name }}</name>
+    <name>Editorial Board of JCRT</name>
   </author>
 
   {%- for post in collections.all | reverse %}
