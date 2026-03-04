@@ -1,0 +1,40 @@
+---
+layout: base.njk
+pagination:
+  data: collections.archiveKeywordTags
+  size: 1
+  alias: keyword
+permalink: /archives/keywords/{{ keyword | slugify }}/index.html
+eleventyComputed:
+  title: "Archive Keyword: {{ keyword }}"
+eleventyExcludeFromCollections: true
+---
+<div class="container-fluid">
+  {% include "partials/nav_desktop.njk" %}
+  <h1 class="display-5 fw-bold mb-5 border-bottom pb-3">
+    <span class="border-bottom border-4 border-primary pb-2">Archive Keyword: {{ keyword }}</span>
+  </h1>
+
+  <div class="row mt-3 mb-3">
+    {% for post in collections.archives | reverse %}
+      {% set postTags = post.data.tags or [] %}
+      {% if keyword in postTags %}
+        <div class="col-md-6 col-lg-4 p-3 small p-md-5">
+          <h3 class="h5">
+            <a class="text-decoration-none" href="{{ post.url }}">{{ post.data.title or post.fileSlug }}</a>
+          </h3>
+          {% if post.data.author %}
+            <p class="small text-muted mb-1">{{ post.data.author }}</p>
+          {% endif %}
+          {% if post.data.description %}
+            <p class="small">{{ post.data.description | truncate(140) }}</p>
+          {% endif %}
+          <a href="{{ post.url }}" class="btn btn-primary btn-sm">View Article</a>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <hr class="mt-4">
+  <p><a href="/archives/keywords/" class="fw-bold text-primary text-decoration-none">View all archive keywords</a></p>
+</div>

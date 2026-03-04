@@ -8,7 +8,9 @@ Developed by Adam DJ Brett
 3. connect to bing
 4. enable analytics
 5. idea: use RT for book reviews
-6. add pagination to 24.2 and 25.1
+6. add pagination to 24.2 and 25.1 pdfs
+7. add deploy button to readme
+8.
 
 ## EBSCO
 contact ebsco have link to pages or pdfs

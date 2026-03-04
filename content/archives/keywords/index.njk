@@ -1,0 +1,20 @@
+---
+layout: base.njk
+title: Archive Keywords
+permalink: /archives/keywords/
+eleventyExcludeFromCollections: true
+---
+<div class="container-fluid">
+  {% include "partials/nav_desktop.njk" %}
+  <h1 class="display-5 fw-bold mb-5 border-bottom pb-3">
+    <span class="border-bottom border-4 border-primary pb-2">Archive Keywords</span>
+  </h1>
+
+  <div class="row p-3">
+    {% for keyword in collections.archiveKeywordTags %}
+      <div class="col-md-4 col-6 p-1">
+        <a class="btn btn-outline-primary p-2 w-100" href="/archives/keywords/{{ keyword | slugify }}/">{{ keyword }}</a>
+      </div>
+    {% endfor %}
+  </div>
+</div>

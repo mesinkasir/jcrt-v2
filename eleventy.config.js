@@ -232,16 +232,17 @@ export default async function (eleventyConfig) {
 	}
 
 	// Pagefind runs once in `npm run build` (after `_site` is built).
-	// If use sveltia cms
-	eleventyConfig.addPassthroughCopy("sveltia.config.js");
+	// Keep passthrough mappings non-overlapping to avoid copy/watch race conditions.
 	eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
 	eleventyConfig
-		.addPassthroughCopy({
-			"./public/": "/",
-		})
-		.addPassthroughCopy({
-			"./css/bs.css": "/css/bs.css",
-		})
+		.addPassthroughCopy({ "public/css": "css" })
+		.addPassthroughCopy({ "public/js": "js" })
+		.addPassthroughCopy({ "public/img": "img" })
+		.addPassthroughCopy({ "public/admin": "admin" })
+		.addPassthroughCopy({ "public/docs": "docs" })
+		.addPassthroughCopy({ "public/citations": "citations" })
+		.addPassthroughCopy({ "public/_redirects": "_redirects" })
+		.addPassthroughCopy({ "css/bs.css": "css/bs.css" })
 		.addPassthroughCopy("./content/feed/pretty-atom-feed.xsl");
 
 	eleventyConfig.addWatchTarget("css/**/*.css");
@@ -539,7 +540,6 @@ export default async function (eleventyConfig) {
 	      return !isRootIndex && isFile && hasTag;
 	    });
 	});
-		eleventyConfig.addPassthroughCopy({ "public/js": "js" });
 		// Archives contain PDFs/scans that need to be copied, but the markdown is built into HTML.
 		// CI can pre-copy these via scripts/pre-copy-assets.sh (hardlinks), so allow skipping passthrough copy.
 		if (!process.env.PRECOPY_ARCHIVES) {
@@ -555,6 +555,25 @@ export default async function (eleventyConfig) {
 		return collectionApi
 			.getFilteredByGlob("content/archives/**/*.md")
 			.filter((item) => isPublishedItem(item?.data));
+	});
+
+	eleventyConfig.addCollection("archiveKeywordTags", function (collectionApi) {
+		const excluded = new Set(["all", "posts", "archives", "theoryPosts", "nav"]);
+		const tags = new Set();
+		const archives = collectionApi
+			.getFilteredByGlob("content/archives/**/*.md")
+			.filter((item) => isPublishedItem(item?.data));
+
+		for (const item of archives) {
+			const itemTags = Array.isArray(item?.data?.tags) ? item.data.tags : [];
+			for (const tag of itemTags) {
+				const t = String(tag || "").trim();
+				if (!t || excluded.has(t)) continue;
+				tags.add(t);
+			}
+		}
+
+		return [...tags].sort((a, b) => a.localeCompare(b));
 	});
 
 	eleventyConfig.addCollection("archivesToc", function (collectionApi) {

@@ -95,9 +95,10 @@ layout: base.njk
       <footer class="mt-5 pt-4 border-top">
         <div class="d-flex flex-wrap gap-2 align-items-center">
           <span class="small text-muted text-uppercase fw-bold me-2">Keywords:</span>
+          {% set ignoredTags = ["all", "posts", "archives", "theoryPosts", "nav"] %}
           {% for tag in tags %}
-            {% if tag != "posts" %}
-              <span class="badge bg-light text-dark border fw-normal">{{ tag }}</span>
+            {% if tag not in ignoredTags %}
+              <a href="/archives/keywords/{{ tag | slugify }}/" class="badge bg-light text-dark border fw-normal text-decoration-none">{{ tag }}</a>
             {% endif %}
           {% endfor %}
         </div>

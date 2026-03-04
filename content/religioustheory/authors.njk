@@ -34,11 +34,12 @@ eleventyComputed:
                     <img class="img-post img-fluid" 
                          style="width: 100%; height: 100%; object-fit: cover;" 
                          alt="{{ post.data.title }}" 
-                         src="{{ authorCardImage }}"
+                         src="{{ authorCardImage | preferWebp }}"
+                         data-fallback-src="{{ authorCardImage }}"
                          {% imageAttrs authorCardImage, 640, 360 %}
                          loading="lazy"
                          decoding="async"
-                         onerror="this.onerror=null;this.src='/img/jcrt.svg';">
+                         onerror="if(this.dataset.fallbackSrc&&this.src!==this.dataset.fallbackSrc){this.src=this.dataset.fallbackSrc;}else{this.onerror=null;this.src='/img/jcrt.svg';}">
                 </a>
             </div>
 
