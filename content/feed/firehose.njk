@@ -3,15 +3,16 @@ permalink: /feed/firehose.xml
 eleventyExcludeFromCollections: true
 layout: false
 ---
+{% set feedBaseUrl = metadata.url or "https://jcrt.org" %}
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="/feed/pretty-atom-feed.xsl" type="text/xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{{ metadata.title }} Firehose</title>
   <subtitle>{{ metadata.description }}</subtitle>
-  <link href="{{ metadata.url }}/feed/firehose.xml" rel="self"/>
-  <link href="{{ metadata.url }}"/>
+  <link href="{{ feedBaseUrl }}/feed/firehose.xml" rel="self"/>
+  <link href="{{ feedBaseUrl }}"/>
   <updated>{{ page.date | isoDate }}</updated>
-  <id>{{ metadata.url }}/</id>
+  <id>{{ feedBaseUrl }}/</id>
   <author>
     <name>{{ metadata.author.name }}</name>
   </author>
@@ -19,7 +20,7 @@ layout: false
   {%- for post in collections.all | reverse %}
     {%- if post.url and post.url != permalink and post.data.title %}
       {%- if loop.index0 < 100 %}
-      {% set absoluteUrl %}{{ metadata.url }}{{ post.url }}{% endset %}
+      {% set absoluteUrl %}{{ feedBaseUrl }}{{ post.url }}{% endset %}
       <entry>
         <title>{{ post.data.title }}</title>
         <link href="{{ absoluteUrl }}"/>

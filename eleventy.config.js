@@ -812,7 +812,7 @@ export default async function (eleventyConfig) {
 				language: "en",
 				title: "Editorial",
 				subtitle: "Editorial 11ty.",
-				base: process.env.SITE_URL || "http://localhost:8080",
+				base: process.env.SITE_URL || "https://jcrt.org",
 				author: {
 					name: "adamdjbrett",
 				},
@@ -836,7 +836,7 @@ export default async function (eleventyConfig) {
 				language: "en",
 				title: "Editorial",
 				subtitle: "Editorial 11ty.",
-				base: process.env.SITE_URL || "http://localhost:8080",
+				base: process.env.SITE_URL || "https://jcrt.org",
 				author: {
 					name: "adamdjbrett",
 				},
