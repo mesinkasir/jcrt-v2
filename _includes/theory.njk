@@ -6,7 +6,7 @@
 
     {% set pageTitle = title or pg.title or post.title or metadata.site.title %}
   {% set pageDesc = description or pg.excerpt or post.excerpt or metadata.site.description %}
-  {% set pageImage = image or metadata.image %}
+  {% set pageImage = image or metadata.image or '/img/jcrt-open-graph.png' %}
   {% set pageAuthor = author or pg.authorName or post.authorName or metadata.author.name %}
 
   <title>{{ pageTitle }}</title>

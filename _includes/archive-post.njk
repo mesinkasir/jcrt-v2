@@ -18,12 +18,18 @@ layout: base.njk
 
         {% if isIssueIndex %}
           {% set issueImage = image or '/img/logos/JCRT.svg' %}
+          {% set issueImageWidth = issue_image_width %}
+          {% set issueImageHeight = issue_image_height %}
           <div class="mb-4">
             <img
               src="{{ issueImage }}"
               alt="{{ title or 'Journal issue cover image' }}"
-              class="img-fluid rounded shadow-sm w-100"
+              class="img-fluid rounded shadow-sm {% if issueImageWidth and issueImageHeight %}issue-index-cover issue-index-cover--custom{% else %}w-100{% endif %}"
+              {% if issueImageWidth and issueImageHeight %}
+              style="--issue-cover-width: {{ issueImageWidth }}px; --issue-cover-height: {{ issueImageHeight }}px;"
+              {% else %}
               style="max-height: 420px; object-fit: cover;"
+              {% endif %}
               loading="lazy"
               onerror="this.onerror=null;this.src='/img/logos/JCRT.svg';"
             >
@@ -41,17 +47,17 @@ layout: base.njk
             <span class="text-muted dt-published"><i class="bi bi-calendar3"></i> {{ displayDate | postDate }}</span>
           {% endif %}
           
-          {% if pdfUrl %}
+          {% if pdfUrl and not isIssueIndex %}
             <a href="{{ pdfUrl }}" title="Download Article as a PDF" class="btn btn-sm btn-primary px-4 rounded-0 shadow-sm" target="_blank">
               <i class="bi bi-file-earmark-pdf"></i> Download Article
             </a>
           {% endif %}
-          {% if risCitationUrl %}
+          {% if risCitationUrl and not isIssueIndex %}
             <a href="{{ risCitationUrl }}" title="Download citation as RIS" class="btn btn-sm btn-outline-primary px-4 rounded-0 shadow-sm" download>
               <i class="bi bi-journal-text"></i> Download Citation (RIS)
             </a>
           {% endif %}
-          {% if jsonCitationUrl %}
+          {% if jsonCitationUrl and not isIssueIndex %}
             <a href="{{ jsonCitationUrl }}" title="Download citation as CSL JSON" class="btn btn-sm btn-outline-secondary px-4 rounded-0 shadow-sm" download>
               <i class="bi bi-braces"></i> Download Citation (JSON)
             </a>
@@ -150,5 +156,22 @@ document.addEventListener("DOMContentLoaded", function() {
 }
 .archive-content p {
     margin-bottom: 1.5rem;
+}
+
+.issue-index-cover {
+    display: block;
+    width: 100%;
+    max-width: var(--issue-cover-width);
+    height: auto;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .issue-index-cover--custom {
+        width: var(--issue-cover-width);
+        height: var(--issue-cover-height);
+        max-width: none;
+    }
 }
 </style>

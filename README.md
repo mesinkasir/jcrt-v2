@@ -1,7 +1,20 @@
 # JCRT.ORG
-[![Deploy Eleventy to XMIT](https://github.com/adamdjbrett/jcrt.org/actions/workflows/deploy-xmit.yml/badge.svg?branch=main)](https://github.com/adamdjbrett/jcrt.org/actions/workflows/deploy-xmit.yml)
-## demo url [jcrt.xmit.dev](https://jcrt.xmit.dev)
-Develop by Adam Dj Brett
+
+Developed by Adam DJ Brett
+
+## Next Steps
+1. Implement decap CMS
+2. connect to Google Webmaster 
+3. connect to bing
+4. enable analytics
+
+## EBSCO
+contact ebsco have link to pages or pdfs
+
+## increase incoming links
+
+## CHANGELOG
+1. check author pages especially mine prove they are working
 
 ## Needs
 1. netlify integration

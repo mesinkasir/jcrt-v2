@@ -6,9 +6,15 @@ issue: '2'
 title: 'Dismantling White Supremacy in the Classroom and Beyond'
 author: 'Celinet Duran Jimenez'
 affiliation: ''
-description: ''
-keywords: []
+description: "Jimenez shows criminal justice education must confront white supremacy by centering race, power and oppression to transform teaching and policies now."
+keywords:
+  - white-supremacy
+  - criminal-justice-education
+  - higher-education
+  - structural-oppression
+  - diversity-equity-and-inclusion
+  - dei
 pdf: 'jimenez.pdf'
 ---
+This article examines the ubiquity of white supremacy and its impact on educational environments. White supremacy is an imminent threat to education at all levels; it shapes curricula that further marginalize non-white perspectives and distort historical accuracy. The current paper details the importance of confronting white supremacy in criminal justice education, specifically, as the U.S. criminal legal system is built by and for white supremacy. Criminal justice coursework only benefits from conversations centering race, power, and oppression, as these are the foundations that continue to reverberate throughout law and policy. Through a personalized lens, the author addresses the power of identity and representation in their pedagogical contributions to the field.
 
- 

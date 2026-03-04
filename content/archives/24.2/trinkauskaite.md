@@ -1,0 +1,22 @@
+---
+layout: archives.njk
+article_number: '12'
+volume: '24'
+issue: '2'
+title: 'Baltic Religion: The Sacred Things'
+author: 'Eglutė Trinkauskaitė and Ellen B. Cutler'
+affiliation: ''
+description: "Trinkauskaite explores Baltic sacred traditions and sutartinės, linking domestic deities and revivalist practice to collective ethics beyond hierarchy."
+keywords:
+  - baltic-religion
+  - sutartines
+  - domestic-spirits
+  - baltic-revival
+  - lithuania
+  - teutonic-knights
+pdf: 'trinkauskaitė.pdf'
+---
+In this chapter, I expand on the most vibrant traditional Baltic practices discussed in the *Mapping the Doctrine of Discovery* podcast and in my earlier work on edible mushroom gathering, sacred dimensions of wood, and the significance of beekeeping traditions (Trinkauskaitė 2008; 2019). Subjects include polyphonic songs called sutartinės, and traditional homesteads and their attendant deities. Baltic and Prussian domestic gods were believed to live with humans&mdash;in cellars, granaries, and barns, lurking in corners or behind a stove. Relationships with spirits and divinities often define home. Ethnomusicologists emphasize the egalitarian nature of polyphonic singing. In their rhetorical and performative strategy, sutartinės are similar to the Haudenosaunee Thanksgiving Address. Their modern resurgence signals the urgent need for more collective consensus in a society that values individualism and hierarchical social structures.
+
+Keywords: domestic spirits; Teutonic Knights Lithuania; Baltic religion; Baltic revival; Baltic crusades; polyphonic songs sutartinės;
+ 
