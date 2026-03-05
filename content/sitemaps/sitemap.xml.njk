@@ -14,7 +14,7 @@ eleventyExcludeFromCollections: true
 	{# All non-religioustheory template URLs #}
 	{% for entry in collections.all -%}
 		{%- if entry.url and not entry.url.startsWith("/religioustheory/") -%}
-			{%- if entry.data.sitemapIgnore !== true and not entry.data.draft -%}
+			{%- if entry.data.sitemapIgnore !== true and not entry.data.draft and entry.data.eleventyExcludeFromCollections !== true -%}
 				{% set path = entry.url | url %}
 				{% set skip = false %}
 				{% if path == "/sitemap.xml" or path.startsWith("/sitemaps/") %}{% set skip = true %}{% endif %}
@@ -67,7 +67,8 @@ eleventyExcludeFromCollections: true
 		"/feed/feed.rss",
 		"/feed/feed.json",
 		"/feed/twtxt.txt",
-		"/feed/religioustheory/feed.xml"
+		"/feed/religioustheory/feed.xml",
+		"/feed/pretty-atom-feed.xsl"
 	] -%}
 		{%- if path not in seen -%}
 			{% set seen = (seen.push(path), seen) %}
@@ -77,4 +78,14 @@ eleventyExcludeFromCollections: true
 			</url>
 		{%- endif -%}
 	{% endfor -%}
+
+	{# Link keyword sitemap for discoverability from this section sitemap #}
+	{% set keywordSitemapPath = "/sitemaps/keywords/keywords-sitemap.xml" %}
+	{% if keywordSitemapPath not in seen %}
+		{% set seen = (seen.push(keywordSitemapPath), seen) %}
+		<url>
+			<loc>{{ (baseUrl ~ keywordSitemapPath) | xmlEscape | safe }}</loc>
+			{% if defaultLastmod %}<lastmod>{{ defaultLastmod | htmlDateString }}</lastmod>{% endif %}
+		</url>
+	{% endif %}
 </urlset>

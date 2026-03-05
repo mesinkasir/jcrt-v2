@@ -1,0 +1,34 @@
+---
+permalink: /sitemaps/keywords/keywords-sitemap.xml
+layout: false
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/sitemaps/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	{% set baseUrl = sitemapBaseUrl or metadata.url or (site and site.url) or "" %}
+	{% set seen = [] %}
+
+	{# Keyword index page #}
+	{% set keywordsIndexPath = "/archives/keywords/" %}
+	<url>
+		<loc>{{ (baseUrl ~ keywordsIndexPath) | xmlEscape | safe }}</loc>
+		{% set idxLm = page.inputPath | lastModifiedDate %}
+		{% if idxLm %}<lastmod>{{ idxLm | htmlDateString }}</lastmod>{% endif %}
+	</url>
+	{% set seen = (seen.push(keywordsIndexPath), seen) %}
+
+	{# One URL per archive keyword page #}
+	{% for keyword in (collections.archiveKeywordTags or []) %}
+		{% set path = "/archives/keywords/" ~ (keyword | slugify) ~ "/" %}
+		{% if path not in seen %}
+			{% set seen = (seen.push(path), seen) %}
+			<url>
+				<loc>{{ (baseUrl ~ path) | xmlEscape | safe }}</loc>
+				{% set keywordPosts = collections.archives | archivePostsByKeyword(keyword) %}
+				{% set newest = keywordPosts | getNewestCollectionItemDate %}
+				{% if newest %}<lastmod>{{ newest | htmlDateString }}</lastmod>{% endif %}
+			</url>
+		{% endif %}
+	{% endfor %}
+</urlset>

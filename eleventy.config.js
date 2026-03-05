@@ -809,7 +809,7 @@ export default async function (eleventyConfig) {
 		eleventyConfig.addPlugin(feedPlugin, {
 			type: "atom",
 			outputPath: "/feed/feed.xml",
-			stylesheet: `${siteBaseUrl}/feed/pretty-atom-feed.xsl`,
+			stylesheet: "/feed/pretty-atom-feed.xsl",
 			templateData: {
 				eleventyNavigation: {
 					key: "Feed",
