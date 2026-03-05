@@ -51,7 +51,7 @@
           </p>
 
           <p class="text-secondary small">
-            {{ post.data.description | truncate(110) if post.data.description else post.templateContent | striptags | truncate(110) }}
+            {{ post.data.description | truncate(170) if post.data.description else post.templateContent | striptags | truncate(170) }}
           </p>
           
           {% set readTitle = post.data.title or "Document" %}
