@@ -1,5 +1,5 @@
 ---
-title: "DARWIN’S CATHEDRAL: EVOLUTION, RELIGION, AND THE NATURE OF SOCIETY"
+title: "Darwin’s Cathedral: Evolution, Religion, and the Nature of Society"
 author: "John Hinshaw"
 affilation:
 abstract:

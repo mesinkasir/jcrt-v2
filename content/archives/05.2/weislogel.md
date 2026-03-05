@@ -1,5 +1,5 @@
 ---
-title: "SCIENCE AND WISDOM"
+title: "Science and Wisdom"
 author: "Eric Weislogel"
 affilation:
 abstract:

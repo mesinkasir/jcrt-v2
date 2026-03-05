@@ -1,5 +1,5 @@
 ---
-title: "THE BENEFIT OF THE DOUBT: MEROLD WESTPHAL’S PROPHETIC PHILOSOPHY OF RELIGION"
+title: "The Benefit of the Doubt: Merold Westphal’s Prophetic Philosophy of Religion"
 article_number:
 author: "B Keith Putt"
 affilation:

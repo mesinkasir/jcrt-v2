@@ -1,6 +1,6 @@
 ---
-title: "TO NOT LOSE SIGHT OF THE GOOD: NOTES ON THE ZAPATISMO ETHIC."
-author: "MATT ROSEN"
+title: "To Not Lose Sight of the Good: Notes on the Zapatismo Ethic."
+author: "Matt Rosen"
 affilation:
 abstract:
 keywords:

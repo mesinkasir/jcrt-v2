@@ -1,5 +1,5 @@
 ---
-title: "FROM HUMAN BEING TO BEING HUMAN: AN IMPOSSIBLE SHORT-CUT. A REVIEW ESSAY ON ELISABETH ROUDINESCO, RETOUR SUR LA QUESTION JUIVE"
+title: "From Human Being to Being Human: an Impossible Short-Cut. a Review Essay on Elisabeth Roudinesco, Retour Sur La Question Juive"
 author: "Gabriel Vahanian"
 affilation:
 abstract:

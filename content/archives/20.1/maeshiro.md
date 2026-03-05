@@ -1,6 +1,6 @@
 ---
-title: "MODERN THEOLOGY AND THE DIALECTIC OF GOD."
-author: "KELLY MAESHIRO"
+title: "Modern Theology and the Dialectic of God."
+author: "Kelly Maeshiro"
 affilation:
 abstract:
 keywords:

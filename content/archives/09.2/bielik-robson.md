@@ -1,5 +1,5 @@
 ---
-title: "THE TRAPS OF THE SUBLIME"
+title: "The Traps of the Sublime"
 author: "Agata Bielik-Robson"
 affilation:
 abstract:

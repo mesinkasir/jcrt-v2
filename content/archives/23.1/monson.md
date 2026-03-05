@@ -1,5 +1,5 @@
 ---
-title: "SEATED AT THE CROSS: WHAT BLACK DISABLED BODIES CAN TEACH US ABOUT ENVIRONMENTAL JUSTICE"
+title: "Seated at the Cross: What Black Disabled Bodies Can Teach US About Environmental Justice"
 author: "Robert Monson"
 affilation:
 abstract: 

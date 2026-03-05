@@ -1,5 +1,5 @@
 ---
-title: "VARIETIES OF RELIGION TODAY: WILLIAM JAMES REVISITED"
+title: "Varieties of Religion Today: William James Revisited"
 author: "Todd Ream"
 affilation:
 abstract:

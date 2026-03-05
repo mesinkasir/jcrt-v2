@@ -1,6 +1,6 @@
 ---
-title: "EXPLORING THE DECOLONIAL IMAGINARY: FOUR TRANSNATIONAL LIVES."
-author: "KAREN BRAY"
+title: "Exploring the Decolonial Imaginary: Four Transnational Lives."
+author: "Karen Bray"
 affilation:
 abstract:
 keywords:

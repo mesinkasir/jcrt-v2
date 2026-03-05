@@ -1,5 +1,5 @@
 ---
-title: "GEMS FOR CREATURES: CARE AND NATALITY BETWEEN HANNAH ARENDT AND SHAKESPEARE"
+title: "Gems for Creatures: Care and Natality Between Hannah Arendt and Shakespeare"
 author: "Viola Kolarov"
 affilation:
 abstract:

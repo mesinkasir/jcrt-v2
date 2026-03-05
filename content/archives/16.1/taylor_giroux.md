@@ -1,5 +1,5 @@
 ---
-title: "AN INTERVIEW WITH HENRY GIROUX"
+title: "An Interview with Henry Giroux"
 author: "VICTOR TAYLOR; Henry Giroux"
 affilation:
 abstract: 

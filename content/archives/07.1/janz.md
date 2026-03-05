@@ -1,5 +1,5 @@
 ---
-title: "BODIES: THE EXHIBITION"
+title: "Bodies: the Exhibition"
 author: "Bruce Janz"
 affilation:
 abstract:

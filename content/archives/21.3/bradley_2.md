@@ -1,6 +1,6 @@
 ---
-title: "CAVEAT LECTOR: INTRODUCTION."
-author: "ARTHUR BRADLEY"
+title: "Caveat Lector: Introduction."
+author: "Arthur Bradley"
 affilation:
 abstract: 
 keywords:

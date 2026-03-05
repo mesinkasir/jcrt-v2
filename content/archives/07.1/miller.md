@@ -1,5 +1,5 @@
 ---
-title: "PHILOSOPHY & SCRIPTURE IN BOOK VII OF AUGUSTINE’S CONFESSIONS"
+title: "Philosophy & Scripture in Book VII of Augustine’s Confessions"
 author: "Adam S Miller"
 affilation:
 abstract:

@@ -1,6 +1,6 @@
 ---
 title: "Parenthesis"
-author: "ARTHUR BRADLEY"
+author: "Arthur Bradley"
 affilation:
 abstract:
 keywords: []

@@ -1,6 +1,6 @@
 ---
-title: "LARS VON TRIER: THE IMPOSSIBILITY OF THE GOOD AS A WORK."
-author: "TYLER TRITTEN"
+title: "Lars Von Trier: the Impossibility of the Good as a Work."
+author: "Tyler Tritten"
 affilation:
 abstract: "The article critiques the book"
 keywords:

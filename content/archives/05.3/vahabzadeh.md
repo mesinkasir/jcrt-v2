@@ -1,5 +1,5 @@
 ---
-title: "BROKEN HEGEMONIES"
+title: "Broken Hegemonies"
 author: "Peyman Vahabzadeh"
 affilation:
 abstract:

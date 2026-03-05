@@ -1,5 +1,5 @@
 ---
-title: "THEORY CHANGE"
+title: "Theory Change"
 article_number:
 author: "Jeffrey J Williams"
 affilation:

@@ -1,5 +1,5 @@
 ---
-title: "OF FLESH AND SPIRIT: RACE, REPRODUCTION, AND SEXUAL DIFFERENCE IN THE TURN TO PAUL."
+title: "Of Flesh and Spirit: Race, Reproduction, and Sexual Difference in the Turn to Paul."
 author: "Amaryah Armstrong"
 affilation:
 abstract:

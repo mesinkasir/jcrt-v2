@@ -1,5 +1,5 @@
 ---
-title: "PAIN AND THE PROBLEMS OF THE BODY: ‘ONTOLOGICAL FRAILTY’ AND A POLITICAL RECONSIDERATION OF THE CORPOREAL TURN IN THEOLOGY"
+title: "Pain and the Problems of the Body: ‘Ontological Frailty’ and a Political Reconsideration of the Corporeal Turn in Theology"
 author: "Robert Geroux"
 affilation:
 abstract:

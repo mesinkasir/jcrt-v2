@@ -1,5 +1,5 @@
 ---
-title: "BEYOND FOUNDATIONALISM: SHAPING THEOLOGY IN A POSTMODERN CONTEXT"
+title: "Beyond Foundationalism: Shaping Theology in a Postmodern Context"
 article_number:
 author: "Paul Lakeland"
 affilation:

@@ -1,5 +1,5 @@
 ---
-title: "THE CITY AND THE STARS: POLITICS AND ALTERITY IN HEIDEGGER, LEVINAS AND BLANCHOT"
+title: "The City and the Stars: Politics and Alterity in Heidegger, Levinas and Blanchot"
 article_number: 02
 author: "Lars Iyer"
 affilation:

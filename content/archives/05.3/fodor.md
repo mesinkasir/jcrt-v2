@@ -1,5 +1,5 @@
 ---
-title: "RELIGIOUS EXPERIENCE AND THE END OF METAPHYSICS"
+title: "Religious Experience and the End of Metaphysics"
 author: "Luke Fodor"
 affilation:
 abstract:

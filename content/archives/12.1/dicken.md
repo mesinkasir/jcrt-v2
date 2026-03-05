@@ -1,5 +1,5 @@
 ---
-title: "GRAFFITI THEOLOGY: CRITERIA AND AN AGENDA"
+title: "Graffiti Theology: Criteria and an Agenda"
 author: "Thomas M Dicken"
 affilation:
 abstract:

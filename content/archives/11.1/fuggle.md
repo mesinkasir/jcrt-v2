@@ -1,5 +1,5 @@
 ---
-title: "ON THE PERSISTENCE OF CYNIC MOTIFS"
+title: "On the Persistence of Cynic Motifs"
 author: "Sophie Fuggle"
 affilation:
 abstract: 

@@ -1,6 +1,6 @@
 ---
-title: "THERE’S A GIRL INSIDE."
-author: "JOSEPH VALENTE"
+title: "There’s a Girl Inside."
+author: "Joseph Valente"
 affilation:
 abstract: "The article critiques the film"
 keywords:

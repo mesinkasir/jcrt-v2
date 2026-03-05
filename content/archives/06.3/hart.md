@@ -1,5 +1,5 @@
 ---
-title: "ENCYCLOPEDIAS AND OTHER THINGS: SOME RECENT THEOLOGY"
+title: "Encyclopedias and Other Things: Some Recent Theology"
 author: "Kevin Hart"
 affilation:
 abstract:

@@ -1,6 +1,6 @@
 ---
-title: "OF THE OF: GENRE, GENERATION, AND THE CONTINENTAL PHILOSOPHY OF RELIGION."
-author: "MARY-JANE RUBENSTEIN"
+title: "Of the of: Genre, Generation, and the Continental Philosophy of Religion."
+author: "Mary-Jane Rubenstein"
 affilation:
 abstract:
 keywords:

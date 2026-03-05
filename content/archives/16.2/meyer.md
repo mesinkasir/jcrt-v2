@@ -1,6 +1,6 @@
 ---
-title: "BEYOND ECOLOGICAL DEMOCRACY: BLACK FEMINIST THOUGHT AND THE END OF MAN."
-author: "ERIC DARYL MEYER"
+title: "Beyond Ecological Democracy: Black Feminist Thought and the End of Man."
+author: "Eric Daryl Meyer"
 affilation:
 abstract:
 keywords:

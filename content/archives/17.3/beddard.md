@@ -1,6 +1,6 @@
 ---
-title: "RETHINKING ANSELM’S ATONEMENT THEORY - “UNMAKING” THE INDEBTED MAN"
-author: "RYNE BEDDARD"
+title: "Rethinking Anselm’s Atonement Theory - “Unmaking” the Indebted Man"
+author: "Ryne Beddard"
 affilation:
 abstract:
 keywords:

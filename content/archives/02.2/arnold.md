@@ -1,5 +1,5 @@
 ---
-title: "DIVERSITY IN THE HISTORY OF RELIGIONS"
+title: "Diversity in the History of Religions"
 article_number:
 author: "Philip P Arnold"
 affilation:

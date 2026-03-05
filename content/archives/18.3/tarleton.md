@@ -1,6 +1,6 @@
 ---
-title: "SPACED AND PLACED: HETERO-‘TOPIC’ INTERPRETATIONS OF THE WARSAW GHETTO."
-author: "MADISON TARLETON"
+title: "Spaced and Placed: Hetero-‘Topic’ Interpretations of the Warsaw Ghetto."
+author: "Madison Tarleton"
 affilation:
 abstract:
 keywords:

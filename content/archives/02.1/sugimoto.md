@@ -1,5 +1,5 @@
 ---
-title: "THE SCANDAL OF THE EVANGELICAL MIND"
+title: "The Scandal of the Evangelical Mind"
 article_number:
 author: "Michael Tadashi Sugimoto"
 affilation:

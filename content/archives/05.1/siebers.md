@@ -1,5 +1,5 @@
 ---
-title: "THE RETURN TO RITUAL: VIOLENCE AND ART IN THE MEDIA AGE"
+title: "The Return to Ritual: Violence and Art in the Media Age"
 author: "Tobin Siebers"
 affilation:
 abstract:

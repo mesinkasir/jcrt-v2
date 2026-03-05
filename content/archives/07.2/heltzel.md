@@ -1,5 +1,5 @@
 ---
-title: "THE WEAKNESS OF GOD: A THEOLOGY OF THE EVENT"
+title: "The Weakness of God: a Theology of the Event"
 author: "Peter Heltzel"
 affilation:
 abstract:

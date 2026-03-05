@@ -1,5 +1,5 @@
 ---
-title: "FROM REPRESENTATION TO CONSTITUENT POWER: RELIGION, OR SOMETHING LIKE IT, IN HARDT AND NEGRI’S EMPIRE"
+title: "From Representation to Constituent Power: Religion, or Something Like It, in Hardt and Negri’s Empire"
 author: "Chris Fox"
 affilation:
 abstract:

@@ -1,5 +1,5 @@
 ---
-title: "BATAILLE’S GIFT"
+title: "Bataille’s Gift"
 author: "Carl A. Raschke"
 affilation:
 abstract:

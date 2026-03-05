@@ -1,5 +1,5 @@
 ---
-title: "FLESH AND CONSCIOUSNESS: GEORGES BATAILLE AND THE DIONYSIAN"
+title: "Flesh and Consciousness: Georges Bataille and the Dionysian"
 author: "Jonathan David York"
 affilation:
 abstract:

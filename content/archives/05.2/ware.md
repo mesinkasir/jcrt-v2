@@ -1,5 +1,5 @@
 ---
-title: "DIALECTIC OF THE PAST / DISJUNCTURE OF THE FUTURE: DERRIDA AND BENJAMIN ON THE CONCEPT OF MESSIANISM"
+title: "Dialectic of the Past / Disjuncture of the Future: Derrida and Benjamin on the Concept of Messianism"
 author: "Owen Ware"
 affilation:
 abstract:

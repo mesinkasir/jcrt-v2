@@ -1,5 +1,5 @@
 ---
-title: "HISTORY, THEORY, TEXT: HISTORIANS AND THE LINGUISTIC TURN"
+title: "History, Theory, Text: Historians and the Linguistic Turn"
 author: "B C Knowlton"
 affilation:
 abstract:

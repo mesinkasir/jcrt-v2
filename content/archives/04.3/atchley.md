@@ -1,5 +1,5 @@
 ---
-title: "SENSIBLE ECSTASY: MYSTICISM, SEXUAL DIFFERENCE, AND THE DEMANDS OF HISTORY"
+title: "Sensible Ecstasy: Mysticism, Sexual Difference, and the Demands of History"
 author: "J Heath Atchley"
 affilation:
 abstract:

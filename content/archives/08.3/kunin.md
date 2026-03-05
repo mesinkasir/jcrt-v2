@@ -1,5 +1,5 @@
 ---
-title: "UNFINISHED BUSINESS: A RESPONSE TO THE SYMPOSIUM ‘THE MERCHANT OF VENICE AND CONTEMPORARY THEORY’"
+title: "Unfinished Business: a Response to the Symposium ‘the Merchant of Venice and Contemporary Theory’"
 author: "Aaron Kunin"
 affilation:
 abstract:

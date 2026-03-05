@@ -1,5 +1,5 @@
 ---
-title: "THE FLESH MIGHT LOOK FUNNY – IF YOU LOOK AT IT"
+title: "The Flesh Might Look Funny – If You Look at It"
 author: "Jennifer (Art Nelson"
 affilation:
 abstract:

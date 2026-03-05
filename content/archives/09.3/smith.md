@@ -1,5 +1,5 @@
 ---
-title: "THE THEATRE OF PRODUCTION: PHILOSOPHY AND INDIVIDUATION BETWEEN KANT AND DELEUZE"
+title: "The Theatre of Production: Philosophy and Individuation Between Kant and Deleuze"
 author: "Anthony Paul Smith"
 affilation:
 abstract:

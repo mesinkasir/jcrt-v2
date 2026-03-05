@@ -1,5 +1,5 @@
 ---
-title: "GOD, THE GIFT, AND POSTMODERNISM"
+title: "God, the Gift, and Postmodernism"
 article_number:
 author: "Jeffrey W Robbins"
 affilation:

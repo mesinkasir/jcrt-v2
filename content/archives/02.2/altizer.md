@@ -1,5 +1,5 @@
 ---
-title: "ABSOLUTE NOTHINGNESS AND TAYLOR’S IMAGOLOGY"
+title: "Absolute Nothingness and Taylor’s Imagology"
 article_number:
 author: "Thomas J J Altizer"
 affilation:

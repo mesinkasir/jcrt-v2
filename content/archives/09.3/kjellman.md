@@ -1,5 +1,5 @@
 ---
-title: "AGAINST WAR: VIEWS FROM THE UNDERSIDE OF MODERNITY"
+title: "Against War: Views from the Underside of Modernity"
 author: "Mark Kjellman"
 affilation:
 abstract:

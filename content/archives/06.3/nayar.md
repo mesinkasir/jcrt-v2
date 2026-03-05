@@ -1,5 +1,5 @@
 ---
-title: "THE WESTERN CONSTRUCTION OF RELIGION: MYTHS, KNOWLEDGE, AND IDEOLOGY"
+title: "The Western Construction of Religion: Myths, Knowledge, and Ideology"
 author: "Pramod K Nayar"
 affilation:
 abstract:

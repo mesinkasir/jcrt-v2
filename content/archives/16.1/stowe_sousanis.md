@@ -1,6 +1,6 @@
 ---
-title: "AN INTERVIEW WITH NICK SOUSANIS"
-author: "S. ANDREW STOWE; NICK SOUSANIS"
+title: "An Interview with Nick Sousanis"
+author: "S. Andrew Stowe; Nick Sousanis"
 affilation:
 abstract: 
 keywords:

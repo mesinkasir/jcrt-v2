@@ -1,5 +1,5 @@
 ---
-title: "TELEVISED MORALITY: THE CASE OF BUFFY THE VAMPIRE SLAYER"
+title: "Televised Morality: the Case of Buffy the Vampire Slayer"
 author: "Stephen Benko"
 affilation:
 abstract:

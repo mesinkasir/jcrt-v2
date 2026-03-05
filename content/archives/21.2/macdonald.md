@@ -1,6 +1,6 @@
 ---
-title: "RAPTURE MUSIC: INTENSITY AND ESCHATOLOGY WITHIN CHRISTIAN REVIVAL MOVEMENTS."
-author: "FRASER MACDONALD"
+title: "Rapture Music: Intensity and Eschatology Within Christian Revival Movements."
+author: "Fraser Macdonald"
 affilation:
 abstract:
 keywords:

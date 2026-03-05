@@ -1,5 +1,5 @@
 ---
-title: "MUSLIMS: THEIR RELIGIOUS BELIEFS AND PRACTICES"
+title: "Muslims: Their Religious Beliefs and Practices"
 article_number:
 author: "Liyakatali Takim"
 affilation:

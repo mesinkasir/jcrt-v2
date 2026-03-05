@@ -1,6 +1,6 @@
 ---
-title: "THE ONE IS NOT - ON THE FATE OF UNITY IN POST-METAPHYSICAL PHILOSOPHY."
-author: "JUSSI BACKMAN"
+title: "The One Is Not - on the Fate of Unity in Post-Metaphysical Philosophy."
+author: "Jussi Backman"
 affilation:
 abstract:
 keywords:

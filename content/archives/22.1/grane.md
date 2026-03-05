@@ -1,5 +1,5 @@
 ---
-title: "EVOLUTION OF COLONIAL GENDER ROLES"
+title: "Evolution of Colonial Gender Roles"
 author: "Kevin Grane"
 affilation:
 abstract: 

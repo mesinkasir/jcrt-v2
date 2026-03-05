@@ -1,5 +1,5 @@
 ---
-title: "HUMAN, LIFE, AND OTHER SACRED STUFF"
+title: "Human, Life, and Other Sacred Stuff"
 author: "William Robert"
 affilation:
 abstract:

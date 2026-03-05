@@ -1,5 +1,5 @@
 ---
-title: "ROBERT DUNCAN NOTEBOOK SCANS: SCAN 1"
+title: "Robert Duncan Notebook Scans: Scan 1"
 author: "Robert Duncan"
 affilation:
 abstract: 

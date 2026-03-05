@@ -1,5 +1,5 @@
 ---
-title: "PAST IMPERFECT, FUTURE UNKNOWN: THE DISCOURSE OF THEORY"
+title: "Past Imperfect, Future Unknown: the Discourse of Theory"
 article_number:
 author: "Gregory Flaxman"
 affilation:

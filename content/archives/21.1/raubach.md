@@ -1,6 +1,6 @@
 ---
-title: "THE BROKEN MIDDLE: GILLIAN ROSE AND PAUL AGAINST THE EMPTY SACRIFICES OF MODERNITY."
-author: "MICHAEL C. RAUBACH"
+title: "The Broken Middle: Gillian Rose and Paul Against the Empty Sacrifices of Modernity."
+author: "Michael C. Raubach"
 affilation:
 abstract:
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: "SIKHS AS SUBALTERNS: VOICE, INEQUALITY AND POWER"
+title: "Sikhs as Subalterns: Voice, Inequality and Power"
 author: "Nirvikar Singh"
 affilation:
 abstract: 

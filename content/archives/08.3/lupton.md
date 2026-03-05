@@ -1,5 +1,5 @@
 ---
-title: "SHYLOCK BETWEEN EXCEPTION AND EMANCIPATION: SHAKESPEARE, SCHMITT, ARENDT"
+title: "Shylock Between Exception and Emancipation: Shakespeare, Schmitt, Arendt"
 author: "Julia Reinhard Lupton"
 affilation:
 abstract:

@@ -1,5 +1,5 @@
 ---
-title: "HUMAN RIGHTS AS POLITICS AND IDOLATRY"
+title: "Human Rights as Politics and Idolatry"
 author: "Eric D Smaw"
 affilation:
 abstract:

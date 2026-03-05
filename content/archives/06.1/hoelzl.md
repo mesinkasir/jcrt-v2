@@ -1,5 +1,5 @@
 ---
-title: "RECOGNIZING THE SACRIFICIAL VICTIM: THE PROBLEM OF SOLIDARITY FOR CRITICAL SOCIAL THEORY"
+title: "Recognizing the Sacrificial Victim: the Problem of Solidarity for Critical Social Theory"
 author: "Michael Hoelzl"
 affilation:
 abstract:

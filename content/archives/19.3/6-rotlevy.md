@@ -1,5 +1,5 @@
 ---
-title: "CRITIQUE IN A POSTSECULAR AGE: MAKING ROOM FOR TRADITION AS A MEDIUM"
+title: "Critique in a Postsecular Age: Making Room for Tradition as a Medium"
 author: "Ori Rotlevy"
 affilation:
 abstract:

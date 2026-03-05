@@ -1,5 +1,5 @@
 ---
-title: "PIETY, POWER AND BARE LIFE: WHAT IN THE WORLD IS GOING ON IN THE NAME OF RELIGION?"
+title: "Piety, Power and Bare Life: What in the World Is Going on in the Name of Religion?"
 author: "Clayton Crockett"
 affilation:
 abstract:

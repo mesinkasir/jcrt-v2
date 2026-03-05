@@ -1,5 +1,5 @@
 ---
-title: "ANATHEISM: RETURNING TO GOD AFTER GOD"
+title: "Anatheism: Returning to God After God"
 author: "John Burkey"
 affilation:
 abstract:

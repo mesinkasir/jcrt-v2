@@ -1,5 +1,5 @@
 ---
-title: "GREENING AMERICA’S VIRTUES"
+title: "Greening America’s Virtues"
 author: "Nicholas Mather"
 affilation:
 abstract: 

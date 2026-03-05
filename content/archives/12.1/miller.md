@@ -1,5 +1,5 @@
 ---
-title: "PAULINE BIOPOLITICS"
+title: "Pauline Biopolitics"
 author: "Nichole E Miller"
 affilation:
 abstract:

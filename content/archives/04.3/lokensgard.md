@@ -1,5 +1,5 @@
 ---
-title: "NATIVE PRAGMATISM: RETHINKING THE ROOTS OF AMERICAN PHILOSOPHY"
+title: "Native Pragmatism: Rethinking the Roots of American Philosophy"
 author: "Ken Lokensgard"
 affilation:
 abstract:

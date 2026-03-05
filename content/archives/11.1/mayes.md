@@ -1,5 +1,5 @@
 ---
-title: "THE VIOLENCE OF CARE: AN ANALYSIS OF FOUCAULT’S PASTOR"
+title: "The Violence of Care: an Analysis of Foucault’s Pastor"
 author: "Christopher Mayes"
 affilation:
 abstract: 

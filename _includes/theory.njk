@@ -8,6 +8,8 @@
   {% set pageDesc = description or excerpt or abstract or pg.excerpt or post.excerpt or (content | striptags | trim | truncate(160)) or metadata.site.description %}
   {% set pageImageRaw = '/img/jcrt-open-graph.png' %}
   {% set pageImage = pageImageRaw if "http" in pageImageRaw else metadata.url + pageImageRaw %}
+  {% set canonicalPath = canonical_url or page.url %}
+  {% set canonicalUrl = canonicalPath if "http" in canonicalPath else metadata.url + canonicalPath %}
   {% set defaultAuthor = "Religious Theory Editors" %}
   {% set pageAuthorCandidate = author or authors or pg.authorName or post.authorName or metadata.site.author or defaultAuthor %}
   {% set pageAuthor = pageAuthorCandidate %}
@@ -28,10 +30,10 @@
   <meta name="language" content="{{ metadata.language }}" />
   <meta name="robots" content="index, follow">
   <meta name="generator" content="{{ eleventy.generator }}" />
-  <link rel="canonical" href="{{ metadata.url }}{{ page.url }}" />
+  <link rel="canonical" href="{{ canonicalUrl }}" />
 
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="{{ metadata.url }}{{ page.url }}" />
+  <meta property="og:url" content="{{ canonicalUrl }}" />
   <meta property="og:title" content="{{ pageTitle }}" />
   <meta property="og:description" content="{{ pageDesc }}" />
   <meta property="og:image" content="{{ pageImage }}" />
@@ -148,7 +150,7 @@
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "{{ metadata.url }}{{ page.url }}"
+      "@id": "{{ canonicalUrl }}"
     }
   }
   </script>
@@ -176,7 +178,7 @@
         "@type": "ListItem",
         "position": {{ 3 if (pg or post) else 2 }},
         "name": "{{ pageTitle }}",
-        "item": "{{ metadata.url }}{{ page.url }}"
+        "item": "{{ canonicalUrl }}"
       }
     ]
   }
@@ -200,7 +202,7 @@
               <a href="{{ risCitationUrl }}" title="Download citation as RIS" class="btn btn-outline-primary" download>Download RIS</a>
             {% endif %}
             {% if jsonCitationUrl %}
-              <a href="{{ jsonCitationUrl }}" title="Download citation as JSON" class="btn btn-outline-secondary" download>Download JSON</a>
+              <a href="{{ jsonCitationUrl }}" title="Download citation as CSL JSON" class="btn btn-outline-secondary" download>Download Citation (CSL JSON)</a>
             {% endif %}
           </div>
         </section>

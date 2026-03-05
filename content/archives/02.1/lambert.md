@@ -1,5 +1,5 @@
 ---
-title: "REDEMPTION: LACAN AVEC MARX"
+title: "Redemption: Lacan Avec Marx"
 article_number:
 author: "Gregg Lambert"
 affilation:

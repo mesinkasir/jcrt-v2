@@ -1,5 +1,5 @@
 ---
-title: "I AM THE TRUTH: TOWARD A PHILOSOPHY OF CHRISTIANITY"
+title: "I Am the Truth: Toward a Philosophy of Christianity"
 author: "Anthony L Macri"
 affilation:
 abstract:

@@ -1,5 +1,5 @@
 ---
-title: "THE FACE OF THE DEEP: A THEOLOGY OF BECOMING"
+title: "The Face of the Deep: a Theology of Becoming"
 author: "Derek Michaud"
 affilation:
 abstract:

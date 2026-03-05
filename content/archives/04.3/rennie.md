@@ -1,5 +1,5 @@
 ---
-title: "INDIAN PHILOSOPHERS AND POSTMODERN THINKERS"
+title: "Indian Philosophers and Postmodern Thinkers"
 author: "Bryan S Rennie"
 affilation:
 abstract:

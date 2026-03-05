@@ -1,5 +1,5 @@
 ---
-title: "TRAUMA IN EMMANUEL LEVINAS’ WRITING BODY"
+title: "Trauma in Emmanuel Levinas’ Writing Body"
 article_number:
 author: "Magdalena Sedmak"
 affilation:

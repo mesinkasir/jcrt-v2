@@ -1,6 +1,6 @@
 ---
-title: "“TEACH ME TO DO WHAT’S RIGHT”: FAITH, HOPE, AND LOVE AS POST-RELIGIOUS VIRTUES."
-author: "A. G. HOLDIER"
+title: "“Teach Me to Do What’s Right”: Faith, Hope, and Love as Post-Religious Virtues."
+author: "A. G. Holdier"
 affilation:
 abstract:
 keywords:

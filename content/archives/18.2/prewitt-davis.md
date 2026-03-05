@@ -1,6 +1,6 @@
 ---
-title: "ADMITTING A CERTAIN FEAR OF ŽIŽEK’S THEOLOGY: A MODEST PLEA FOR A DELEUZIAN READING OF THE DEATH OF GOD."
-author: "ELIJAH PREWITT-DAVIS"
+title: "Admitting a Certain Fear of ŽIŽEk’s Theology: a Modest Plea for a Deleuzian Reading of the Death of God."
+author: "Elijah Prewitt-Davis"
 affilation:
 abstract:
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: "THE DARE OF DEMOCRACY: FEAR, FAITH AND FREEDOM"
+title: "The Dare of Democracy: Fear, Faith and Freedom"
 author: "Catherine Keller"
 affilation:
 abstract:

@@ -1,5 +1,5 @@
 ---
-title: "TRANSMITTING CULTURE"
+title: "Transmitting Culture"
 author: "Pramod K Nayar"
 affilation:
 abstract:

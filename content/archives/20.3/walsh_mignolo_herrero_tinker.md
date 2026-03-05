@@ -1,6 +1,6 @@
 ---
-title: "WHAT DO WE MEAN BY"
-author: "CATHERINE WALSH; WALTER MIGNOLO; FERNANDO HERRERO; TINK TINKER"
+title: "What Do We Mean By"
+author: "Catherine Walsh; Walter Mignolo; Fernando Herrero; Tink Tinker"
 affilation:
 abstract: "The following is a transcript of the keynote panel session of a three-day international webinar"
 keywords:

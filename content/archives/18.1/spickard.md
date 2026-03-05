@@ -1,6 +1,6 @@
 ---
-title: "SLOW JOURNALISM? ETHNOGRAPHY AS A MEANS OF UNDERSTANDING RELIGIOUS SOCIAL ACTIVISM."
-author: "JAMES V. SPICKARD"
+title: "Slow Journalism? Ethnography as a Means of Understanding Religious Social Activism."
+author: "James V. Spickard"
 affilation:
 abstract: 
 keywords:

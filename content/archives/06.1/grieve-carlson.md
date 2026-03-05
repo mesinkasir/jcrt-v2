@@ -1,5 +1,5 @@
 ---
-title: "THE SEDUCTION OF UNREASON: THE INTELLECTUAL ROMANCE WITH FASCISM FROM NIETZSCHE TO POSTMODERNISM"
+title: "The Seduction of Unreason: the Intellectual Romance with Fascism from Nietzsche to Postmodernism"
 author: "Gary Grieve-Carlson"
 affilation:
 abstract:

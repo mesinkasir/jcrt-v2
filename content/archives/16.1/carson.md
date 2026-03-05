@@ -1,6 +1,6 @@
 ---
-title: "OWNING MY MASTERS: AN ARTIST’S INTRODUCTION."
-author: "A. D. CARSON"
+title: "Owning My Masters: an Artist’s Introduction."
+author: "A. D. Carson"
 affilation:
 abstract:
 keywords:

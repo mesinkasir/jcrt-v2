@@ -1,5 +1,5 @@
 ---
-title: "AN EXTRINSIC EAGLETON?"
+title: "An Extrinsic Eagleton?"
 author: "Roland Boer"
 affilation:
 abstract:

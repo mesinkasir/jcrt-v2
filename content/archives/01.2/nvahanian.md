@@ -1,5 +1,5 @@
 ---
-title: "REBELLIOUS NO"
+title: "Rebellious No"
 article_number:
 author: "Noëlle Vahanian"
 affilation:

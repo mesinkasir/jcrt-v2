@@ -1,5 +1,5 @@
 ---
-title: "LAUGHTER AS GESTURE: HILARITY AND THE ANTI-SUBLIME"
+title: "Laughter as Gesture: Hilarity and the Anti-Sublime"
 article_number:
 author: "Stephen G Nichols"
 affilation:

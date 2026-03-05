@@ -1,6 +1,6 @@
 ---
-title: "REUNITING ETHICS AND AESTHETICS: AUGUSTINIAN AND THOMISTIC AESTHETICS AND THE BUCK-PASSING ACCOUNT OF AESTHETIC VALUE."
-author: "PIERCE MARKS"
+title: "Reuniting Ethics and Aesthetics: Augustinian and Thomistic Aesthetics and the Buck-Passing Account of Aesthetic Value."
+author: "Pierce Marks"
 affilation:
 abstract:
 keywords:

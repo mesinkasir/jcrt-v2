@@ -1,6 +1,6 @@
 ---
-title: "BIOPOLITICS AND VAJRAYANA BUDDHISM."
-author: "PADRAIC FITZGERALD"
+title: "Biopolitics and Vajrayana Buddhism."
+author: "Padraic Fitzgerald"
 affilation:
 abstract:
 keywords:

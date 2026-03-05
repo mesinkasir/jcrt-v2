@@ -1,5 +1,5 @@
 ---
-title: "RADICAL ISLAM AND THE SPECTRE OF THE DESERT - OTHERWISE, THE CALL OF THEORY"
+title: "Radical Islam and the Spectre of the Desert - Otherwise, the Call of Theory"
 author: "Carl A. Raschke"
 affilation:
 abstract:

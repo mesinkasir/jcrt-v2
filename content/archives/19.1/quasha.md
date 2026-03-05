@@ -1,6 +1,6 @@
 ---
-title: "DIVINE REVELATION IN THE LITERAL EXPRESSION."
-author: "GEORGE QUASHA"
+title: "Divine Revelation in the Literal Expression."
+author: "George Quasha"
 affilation:
 abstract:
 keywords:

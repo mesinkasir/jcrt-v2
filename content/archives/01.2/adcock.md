@@ -1,5 +1,5 @@
 ---
-title: "XENA WARRIOR PRINCESS AND THE TEXTURE OF THE RELIGIOUS: RE-IMAGINING THE ROLE OF POPULAR CULTURE IN ACADEMIC DISCOURSE"
+title: "Xena Warrior Princess and the Texture of the Religious: Re-Imagining the Role of Popular Culture in Academic Discourse"
 article_number:
 author: "David A Adcock"
 affilation:

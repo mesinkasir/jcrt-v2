@@ -1,5 +1,5 @@
 ---
-title: "TIME AND MONEY: PHILOSOPHY OF RELIGION AND THE CRITIQUE OF CAPITAL"
+title: "Time and Money: Philosophy of Religion and the Critique of Capital"
 author: "William Large"
 affilation:
 abstract:

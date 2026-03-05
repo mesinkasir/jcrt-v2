@@ -1,5 +1,5 @@
 ---
-title: "EMBODIED RESTORATION: THE CULTIVATION OF QUALITY OF LIFE AND DEATH"
+title: "Embodied Restoration: the Cultivation of Quality of Life and Death"
 author: "Stella Indira Auer"
 affilation:
 abstract: 

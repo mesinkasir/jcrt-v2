@@ -1,5 +1,5 @@
 ---
-title: "CULTURE WARS, RELIGION, AND THE POSTMODERN SACRED"
+title: "Culture Wars, Religion, and the Postmodern Sacred"
 article_number:
 author: "Michael Strysick"
 affilation:

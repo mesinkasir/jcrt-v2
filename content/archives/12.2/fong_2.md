@@ -1,5 +1,5 @@
 ---
-title: "A REVIEW OF PETER SLOTERDIJK, SPHERES, VOLUME ONE: BUBBLES"
+title: "A Review of Peter Sloterdijk, Spheres, Volume One: Bubbles"
 author: "Benjamin Fong"
 affilation:
 abstract: 

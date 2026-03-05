@@ -1,6 +1,6 @@
 ---
-title: "NIDDAH AS INDEX OF JEWISH SEXUALITY: A THEORETICAL FOUNDATION FOR AN ANTHRPOLOGY OF MENSTRUAL RITUALS."
-author: "ISOBEL-MARIE JOHNSTON"
+title: "Niddah as Index of Jewish Sexuality: a Theoretical Foundation for an Anthrpology of Menstrual Rituals."
+author: "Isobel-Marie Johnston"
 affilation:
 abstract:
 keywords:

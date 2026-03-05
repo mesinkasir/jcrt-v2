@@ -1,5 +1,5 @@
 ---
-title: "THE PROBLEM OF EVIL AND THE PROBLEM OF GOD"
+title: "The Problem of Evil and the Problem of God"
 author: "Hermen Kroesbergen"
 affilation:
 abstract:

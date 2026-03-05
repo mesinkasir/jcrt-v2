@@ -1,5 +1,5 @@
 ---
-title: "HOW WE BECAME POSTHUMAN: VIRTUAL BODIES IN CYBERNETICS, LITERATURE, AND INFORMATICS"
+title: "How We Became Posthuman: Virtual Bodies in Cybernetics, Literature, and Informatics"
 article_number:
 author: "Dennis M Weiss"
 affilation:

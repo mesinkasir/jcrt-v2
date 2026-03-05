@@ -135,7 +135,7 @@ function makeRIS(entry) {
 	return `${lines.join("\n")}\n`;
 }
 
-function makeJSON(entry, id) {
+function makeCSL(entry, id) {
 	const obj = {
 		id,
 		type: "article-journal",
@@ -162,7 +162,7 @@ export default async function generateReligiousTheoryCitations(baseUrl) {
 	const priorManifest = loadManifest();
 	const nextManifestItems = {};
 	const normalizedBaseUrl = normalizeBaseUrl(baseUrl);
-	const citationVersion = sha256(`v1|${normalizedBaseUrl}`);
+	const citationVersion = sha256(`v2|${normalizedBaseUrl}`);
 
 	const files = fs
 		.readdirSync(postsRoot, { withFileTypes: true })
@@ -178,11 +178,11 @@ export default async function generateReligiousTheoryCitations(baseUrl) {
 		const signature = sha256(`${citationVersion}|${fileSlug}|${content}`);
 		nextManifestItems[fileSlug] = signature;
 		const risOutPath = path.join(outRoot, `${fileSlug}.ris`);
-		const jsonOutPath = path.join(outRoot, `${fileSlug}.json`);
+		const cslOutPath = path.join(outRoot, `${fileSlug}.csl.json`);
 		const upToDate =
 			priorManifest.items?.[fileSlug] === signature &&
 			fileExists(risOutPath) &&
-			fileExists(jsonOutPath);
+			fileExists(cslOutPath);
 		if (upToDate) {
 			skipped += 1;
 			continue;
@@ -200,21 +200,24 @@ export default async function generateReligiousTheoryCitations(baseUrl) {
 
 		const citationId = `religioustheory-${fileSlug}`.replace(/[^a-zA-Z0-9_.-]/g, "-");
 		fs.writeFileSync(risOutPath, makeRIS(entry), "utf8");
-		fs.writeFileSync(jsonOutPath, makeJSON(entry, citationId), "utf8");
+		fs.writeFileSync(cslOutPath, makeCSL(entry, citationId), "utf8");
+		// Clean legacy output extension.
+		removeIfExists(path.join(outRoot, `${fileSlug}.json`));
 		generated += 1;
 	}
 
 	for (const key of Object.keys(priorManifest.items || {})) {
 		if (key in nextManifestItems) continue;
 		const removedRis = removeIfExists(path.join(outRoot, `${key}.ris`));
-		const removedJson = removeIfExists(path.join(outRoot, `${key}.json`));
-		const removed = removedRis || removedJson;
+		const removedCsl = removeIfExists(path.join(outRoot, `${key}.csl.json`));
+		const removedJsonLegacy = removeIfExists(path.join(outRoot, `${key}.json`));
+		const removed = removedRis || removedCsl || removedJsonLegacy;
 		if (removed) deleted += 1;
 	}
 
 	saveManifest({ version: 1, generatedAt: new Date().toISOString(), items: nextManifestItems });
 	const total = Object.keys(nextManifestItems).length;
 	console.log(
-		`[Citations] ReligiousTheory RIS/JSON: total=${total}, generated=${generated}, skipped=${skipped}, deleted=${deleted}`
+		`[Citations] ReligiousTheory RIS/CSL: total=${total}, generated=${generated}, skipped=${skipped}, deleted=${deleted}`
 	);
 }

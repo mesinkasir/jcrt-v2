@@ -1,5 +1,5 @@
 ---
-title: "APOCALYPTIC MATERIALITY: RETURN(S) OF EARLY CHRISTIAN MOTIFS IN SLAVOJ ŽIŽEK’S DEPICTION OF THE MATERIALIST SUBJECT"
+title: "Apocalyptic Materiality: Return(S) of Early Christian Motifs in Slavoj ŽIŽEk’s Depiction of the Materialist Subject"
 author: "Ward Blanton"
 affilation:
 abstract:

@@ -1,6 +1,6 @@
 ---
-title: "NON-ORDINARY STATES, ENTHEOGENS, AND THE UNCONSCIOUS."
-author: "RODGER K. GREEN"
+title: "Non-Ordinary States, Entheogens, and the Unconscious."
+author: "Rodger K. Green"
 affilation:
 abstract:
 keywords:

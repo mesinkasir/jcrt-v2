@@ -1,5 +1,5 @@
 ---
-title: "RECLAIMING THE ENLIGHTENMENT: TOWARD A POLITICS OF RADICAL ENGAGEMENT"
+title: "Reclaiming the Enlightenment: Toward a Politics of Radical Engagement"
 author: "Gary Grieve-Carlson"
 affilation:
 abstract:

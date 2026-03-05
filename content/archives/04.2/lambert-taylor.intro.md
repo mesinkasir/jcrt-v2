@@ -1,5 +1,5 @@
 ---
-title: "THE FUTURE OF THEORY"
+title: "The Future of Theory"
 article_number:
 author: "Victor Taylor; Gregg Lambert"
 affilation:

@@ -1,6 +1,6 @@
 ---
-title: "WALTER BENJAMIN’S WORLD OF THINGS."
-author: "YAEL ALMOG"
+title: "Walter Benjamin’s World of Things."
+author: "Yael Almog"
 affilation:
 abstract:
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: "POLITICS OF FRIENDSHIP"
+title: "Politics of Friendship"
 article_number: 08
 author: "William W Young"
 affilation:

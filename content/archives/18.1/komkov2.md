@@ -1,6 +1,6 @@
 ---
-title: "THE VERTICAL FORM - THE ICONOLOGICAL DIMENSION ON 2OTH CENTURY RUSSIAN RELIGIOUS AESTHETICS AND LITERARY CRITICISM."
-author: "OLEG KOMKOV"
+title: "The Vertical Form - the Iconological Dimension on 2oth Century Russian Religious Aesthetics and Literary Criticism."
+author: "Oleg Komkov"
 affilation:
 abstract: 
 keywords:

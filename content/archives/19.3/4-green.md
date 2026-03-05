@@ -1,5 +1,5 @@
 ---
-title: "BENJAMIN, METHOD, AND WEAK MESSIANISM"
+title: "Benjamin, Method, and Weak Messianism"
 author: "Roger K Green"
 affilation:
 abstract:

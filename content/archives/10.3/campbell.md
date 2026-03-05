@@ -1,5 +1,5 @@
 ---
-title: "THE GERMAN DISCOVERY OF THE WORLD: RENAISSANCE DISCOVERIES WITH THE STRANGE AND MARVELOUS"
+title: "The German Discovery of the World: Renaissance Discoveries with the Strange and Marvelous"
 author: "Mary B Campbell"
 affilation:
 abstract:

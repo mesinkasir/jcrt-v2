@@ -1,5 +1,5 @@
 ---
-title: "THE SACREDNESS OF ‘SECULAR’ LITERATURE: A CASE STUDY IN WALTER BENJAMIN"
+title: "The Sacredness of ‘Secular’ Literature: a Case Study in Walter Benjamin"
 author: "Samuel Joseph Kessler"
 affilation:
 abstract:

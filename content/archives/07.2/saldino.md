@@ -1,5 +1,5 @@
 ---
-title: "WITTGENSTEIN AND JUDAISM: A TRIUMPH OF CONCEALMENT"
+title: "Wittgenstein and Judaism: a Triumph of Concealment"
 author: "Andrew Saldino"
 affilation:
 abstract:

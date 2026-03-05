@@ -1,5 +1,5 @@
 ---
-title: "WRITING: THE TRANSGRESSION OF RELIGION"
+title: "Writing: the Transgression of Religion"
 author: "David Hale"
 affilation:
 abstract:

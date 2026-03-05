@@ -1,6 +1,6 @@
 ---
-title: "RELIGIOUS SACRIFICIAL SYMPATHY: HOW MAN BECAME MORE VALUABLE THAN BEAST."
-author: "KEVIN S. GRANE"
+title: "Religious Sacrificial Sympathy: How Man Became More Valuable Than Beast."
+author: "Kevin S. Grane"
 affilation:
 abstract: 
 keywords:

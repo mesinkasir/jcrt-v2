@@ -1,6 +1,6 @@
 ---
-title: "THE MODERN PHILOSOPHERS‘ PAUL: RECLAIMING PAULINE INTROSPECTION AND REVIVING LEGACIES OF ANTI-JUDAISM."
-author: "OLE JAKOB LØLAND"
+title: "The Modern Philosophers‘ Paul: Reclaiming Pauline Introspection and Reviving Legacies of Anti-Judaism."
+author: "Ole Jakob LØLand"
 affilation:
 abstract: 
 keywords:

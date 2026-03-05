@@ -1,5 +1,5 @@
 ---
-title: "OUT OF THIS WORLD: DELEUZE AND THE PHILOSOPHY OF CREATION"
+title: "Out of This World: Deleuze and the Philosophy of Creation"
 author: "Joshua Delpech-Ramey"
 affilation:
 abstract:

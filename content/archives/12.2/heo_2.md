@@ -1,5 +1,5 @@
 ---
-title: "THREE CLASSIC READINGS OF ‘ETHNOGRAPHIC PRACTICE’ IN RELIGIOUS STUDIES‘"
+title: "Three Classic Readings of ‘Ethnographic Practice’ in Religious Studies‘"
 author: "Angie Heo"
 affilation:
 abstract: 

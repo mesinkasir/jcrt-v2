@@ -1,5 +1,5 @@
 ---
-title: "THE PARABLES OF DR. SEUSS"
+title: "The Parables of Dr. Seuss"
 author: "Michael J Gilmour"
 affilation:
 abstract:

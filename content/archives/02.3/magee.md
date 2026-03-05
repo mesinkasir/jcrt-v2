@@ -1,5 +1,5 @@
 ---
-title: "HEIDEGGER, RELIGION, AND THE TRANSIENCE OF DIGITAL MEMORY"
+title: "Heidegger, Religion, and the Transience of Digital Memory"
 article_number:
 author: "Neal Magee"
 affilation:

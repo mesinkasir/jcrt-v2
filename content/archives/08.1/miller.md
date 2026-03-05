@@ -1,5 +1,5 @@
 ---
-title: "BEING AND EVENT"
+title: "Being and Event"
 author: "Adam S Miller"
 affilation:
 abstract:

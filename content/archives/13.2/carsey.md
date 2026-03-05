@@ -1,6 +1,6 @@
 ---
-title: "BEYOND THE PULPIT: WOMEN’S RHETORICAL ROLES IN THE ANTEBELLUM RELIGIOUS PRESS."
-author: "KERRIE L. CARSEY"
+title: "Beyond the Pulpit: Women’s Rhetorical Roles in the Antebellum Religious Press."
+author: "Kerrie L. Carsey"
 affilation:
 abstract: 
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: "EVOLUTION AND ETHICS: HUMAN MORALITY IN BIOLOGICAL AND RELIGIOUS PERSPECTIVE"
+title: "Evolution and Ethics: Human Morality in Biological and Religious Perspective"
 author: "Anthony Shelton"
 affilation:
 abstract:

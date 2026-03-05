@@ -1,6 +1,6 @@
 ---
-title: "INVENTING EDEN: PRIMITIVISM, MILLENNIALISM, AND THE MAKING OF NEW ENGLAND."
-author: "SANNA MELIN SCHYLLERT"
+title: "Inventing Eden: Primitivism, Millennialism, and the Making of New England."
+author: "Sanna Melin Schyllert"
 affilation:
 abstract:
 keywords:

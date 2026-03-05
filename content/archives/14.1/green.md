@@ -1,6 +1,6 @@
 ---
-title: "“MOTHER IS GOD IN THE EYES OF A CHILD:” MARIOLOGY, REVELATION, AND MOTHERS IN SILENT HILL."
-author: "AMY M. GREEN"
+title: "“Mother Is God in the Eyes of a Child:” Mariology, Revelation, and Mothers in Silent Hill."
+author: "Amy M. Green"
 affilation:
 abstract: "The article critiques the film"
 keywords:

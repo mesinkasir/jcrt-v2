@@ -1,5 +1,5 @@
 ---
-title: "THE DEATH OF GOD: AN INVESTIGATION INTO THE HISTORY OF THE WESTERN CONCEPT OF GOD"
+title: "The Death of God: an Investigation into the History of the Western Concept of God"
 author: "Santiago Zabala"
 affilation:
 abstract:

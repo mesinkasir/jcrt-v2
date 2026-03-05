@@ -1,6 +1,6 @@
 ---
-title: "MORE THAN BELIEF: A MATERIALIST THEORY OF RELIGION."
-author: "ELIJAH PREWITT-DAVIS"
+title: "More Than Belief: a Materialist Theory of Religion."
+author: "Elijah Prewitt-Davis"
 affilation:
 abstract:
 keywords:

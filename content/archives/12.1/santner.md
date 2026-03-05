@@ -1,5 +1,5 @@
 ---
-title: "RESPONSE"
+title: "Response"
 author: "Eric L Santner"
 affilation:
 abstract:

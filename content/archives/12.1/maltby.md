@@ -1,5 +1,5 @@
 ---
-title: "KINKADE, KOONS, KITSCH"
+title: "Kinkade, Koons, Kitsch"
 author: "Paul Maltby"
 affilation:
 abstract:

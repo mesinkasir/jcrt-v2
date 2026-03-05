@@ -1,5 +1,5 @@
 ---
-title: "HOMOSEXUALITY AND THE CRISIS OF ANGLICANISM"
+title: "Homosexuality and the Crisis of Anglicanism"
 author: "Gavin Hyman"
 affilation:
 abstract:

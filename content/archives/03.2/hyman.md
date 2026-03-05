@@ -1,5 +1,5 @@
 ---
-title: "RADICAL ORTHODOXY, ETHICS AND AMBIVALENCE"
+title: "Radical Orthodoxy, Ethics and Ambivalence"
 article_number:
 author: "Gavin Hyman"
 affilation:

@@ -1,6 +1,6 @@
 ---
-title: "LIFE AS ART: AESTHETIC VIRTUE AND MORAL OBLIGATION."
-author: "JOCHEN SCHMIDT"
+title: "Life as Art: Aesthetic Virtue and Moral Obligation."
+author: "Jochen Schmidt"
 affilation:
 abstract:
 keywords:

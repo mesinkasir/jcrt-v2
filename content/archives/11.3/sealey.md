@@ -1,5 +1,5 @@
 ---
-title: "DESIRE AS DISRUPTION"
+title: "Desire as Disruption"
 author: "Kris Sealey"
 affilation:
 abstract:

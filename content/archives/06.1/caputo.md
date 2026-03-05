@@ -1,5 +1,5 @@
 ---
-title: "DERRIDA, JACQUES, 1930-2004"
+title: "Derrida, Jacques, 1930-2004"
 author: "John D Caputo"
 affilation:
 abstract:

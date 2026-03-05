@@ -1,5 +1,5 @@
 ---
-title: "THE LAST PROFESSORS: THE CORPORATE UNIVERSITY AND THE FATE OF THE HUMANITIES"
+title: "The Last Professors: the Corporate University and the Fate of the Humanities"
 author: "Gary Grieve-Carlson"
 affilation:
 abstract:

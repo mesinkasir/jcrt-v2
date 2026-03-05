@@ -1,6 +1,6 @@
 ---
-title: "ON LOST CRISITUNITIES, VANISHING POSTSOVIET AND DECOLONIZATION OF THINKING, BEING AND PERCEPTION."
-author: "MADINA TLOSTANOVA"
+title: "On Lost Crisitunities, Vanishing Postsoviet and Decolonization of Thinking, Being and Perception."
+author: "Madina Tlostanova"
 affilation:
 abstract: "The author shows the decolonial option as a pluriverse wherein even the colonial itself and the legacy of imperialism must be interrogated according to specific contours and locales."
 keywords:

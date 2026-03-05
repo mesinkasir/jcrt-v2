@@ -1,5 +1,5 @@
 ---
-title: "WHAT IS GNOSTICISM?"
+title: "What Is Gnosticism?"
 author: "Lisa R Holliday"
 affilation:
 abstract:

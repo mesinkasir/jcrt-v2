@@ -1,5 +1,5 @@
 ---
-title: "‘A LOVE AS STRONG AS DEATH’: RECONSTRUCTING A POLITICS OF CHRISTIAN LOVE"
+title: "‘A Love as Strong as Death’: Reconstructing a Politics of Christian Love"
 author: "Mario Costa"
 affilation:
 abstract:

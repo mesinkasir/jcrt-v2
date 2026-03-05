@@ -1,6 +1,6 @@
 ---
-title: "BUSHWHACKING DERRIDA: PERCEPTION"
-author: "GARY BEDFORD"
+title: "Bushwhacking Derrida: Perception"
+author: "Gary Bedford"
 affilation:
 abstract:
 keywords:

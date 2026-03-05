@@ -1,6 +1,6 @@
 ---
-title: "TRAVERSING W.H. AUDEN’S RELIGIOUS AND AESTHETIC STATES."
-author: "RAJI SINGH SONI"
+title: "Traversing W.H. Auden’s Religious and Aesthetic States."
+author: "Raji Singh Soni"
 affilation:
 abstract:
 keywords:

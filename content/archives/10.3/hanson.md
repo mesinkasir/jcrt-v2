@@ -1,5 +1,5 @@
 ---
-title: "A TALE OF TWO DOUBLETS: DERRIDA AND KIERKEGAARD"
+title: "A Tale of Two Doublets: Derrida and Kierkegaard"
 author: "Jeffrey Hanson"
 affilation: 
 abstract:

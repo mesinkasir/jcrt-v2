@@ -1,5 +1,5 @@
 ---
-title: "NIHILISM, AND EMANCIPATION: ETHICS, POLITICS, LAW"
+title: "Nihilism, and Emancipation: Ethics, Politics, Law"
 author: "Gavin Hyman"
 affilation:
 abstract:

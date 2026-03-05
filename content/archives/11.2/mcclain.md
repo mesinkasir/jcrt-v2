@@ -1,5 +1,5 @@
 ---
-title: "SACRAMENTAL POETICS AT THE DAWN OF SECULARISM: WHEN GOD LEFT THE WORLD"
+title: "Sacramental Poetics at the Dawn of Secularism: When God Left the World"
 author: "Daniel J McClain"
 affilation:
 abstract:

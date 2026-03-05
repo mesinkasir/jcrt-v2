@@ -1,5 +1,5 @@
 ---
-title: "LIFE AFTER LIFE: A FIGURE OF THOUGHT IN WALTER BENJAMIN"
+title: "Life After Life: a Figure of Thought in Walter Benjamin"
 author: "Daniel Weidner"
 affilation:
 abstract:

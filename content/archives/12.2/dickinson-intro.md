@@ -1,6 +1,6 @@
 ---
-title: "TEACHING WITH FEAR AND TREMBLING: THE TRIAL OF ABRAHAM, THE READER, AND THE PROFESSOR."
-author: "T. WILSON DICKINSON"
+title: "Teaching with Fear and Trembling: the Trial of Abraham, the Reader, and the Professor."
+author: "T. Wilson Dickinson"
 affilation:
 abstract: "The author suggests that teaching Danish philosopher Søren Kierkegaard's 1832 book"
 keywords:

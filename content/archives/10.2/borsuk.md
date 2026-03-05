@@ -1,5 +1,5 @@
 ---
-title: "‘THERE HAVE BEEN PICTURES HERE’: SPIRIT PHOTOGRAPHY AND PROJECTIVE MEDIUMSHIP IN TRIBUTE TO FREUD"
+title: "‘There Have Been Pictures Here’: Spirit Photography and Projective Mediumship in Tribute to Freud"
 author: "Amaranth Borsuk"
 affilation:
 abstract:

@@ -1,6 +1,6 @@
 ---
-title: "IS ACADEMIC THEOLOGY AN ANSWER TO THE PROBLEM OF PHILOSOPHY OF RELIGION?"
-author: "TAMSIN JONES"
+title: "Is Academic Theology an Answer to the Problem of Philosophy of Religion?"
+author: "Tamsin Jones"
 affilation:
 abstract:
 keywords:

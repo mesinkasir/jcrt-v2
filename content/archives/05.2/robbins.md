@@ -1,5 +1,5 @@
 ---
-title: "WEAK THEOLOGY"
+title: "Weak Theology"
 author: "Jeffrey W Robbins"
 affilation:
 abstract:

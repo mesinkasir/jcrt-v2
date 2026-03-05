@@ -1,6 +1,6 @@
 ---
-title: "THE MYTHOLOGY OF AFTERLIFE BELIEFS AND THEIR IMPACT ON RELIGIOUS CONFLICT."
-author: "BRIGID BURKE"
+title: "The Mythology of Afterlife Beliefs and Their Impact on Religious Conflict."
+author: "Brigid Burke"
 affilation:
 abstract: 
 keywords:

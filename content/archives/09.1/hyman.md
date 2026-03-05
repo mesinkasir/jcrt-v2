@@ -1,5 +1,5 @@
 ---
-title: "AUGUSTINE ON THE ‘NIHIL’: AN INTERROGATION"
+title: "Augustine on the ‘Nihil’: an Interrogation"
 author: "Gavin Hyman"
 affilation:
 abstract:

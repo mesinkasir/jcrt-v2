@@ -1,6 +1,6 @@
 ---
-title: "DECOLONIZING METHODOLOGIES: RESEARCH AND INDIGENOUS PEOPLES."
-author: "GEORGE SCHMIDT"
+title: "Decolonizing Methodologies: Research and Indigenous Peoples."
+author: "George Schmidt"
 affilation:
 abstract:
 keywords:

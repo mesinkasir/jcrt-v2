@@ -1,5 +1,5 @@
 ---
-title: "CREATION: LACAN IN KANSAS"
+title: "Creation: Lacan in Kansas"
 article_number:
 author: "Richard Halpern"
 affilation:

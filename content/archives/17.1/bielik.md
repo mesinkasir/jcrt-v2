@@ -1,6 +1,6 @@
 ---
-title: "LOVE STRONG AS DEATH: JEWS AGAINST HEIDEGGER, ON THE ISSUE OF FINITUDE."
-author: "AGATA BIELIK-ROBSON"
+title: "Love Strong as Death: Jews Against Heidegger, on the Issue of Finitude."
+author: "Agata Bielik-Robson"
 affilation:
 abstract:
 keywords:

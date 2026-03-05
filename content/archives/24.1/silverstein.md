@@ -1,5 +1,5 @@
 ---
-title: "MEDICAL PROCEDURE IN THE HEAT OF EMOTION: THE POSITIONS OF MILITARY RABBINATE PERSONNEL ON POSTHUMOUS SPERM RETRIEVAL (PSR) FOLLOWING THE OCTOBER 7, 2023 ATTACK"
+title: "Medical Procedure in the Heat of Emotion: the Positions of Military Rabbinate Personnel on Posthumous Sperm Retrieval (Psr) Following the October 7, 2023 Attack"
 author: "Yaron Silverstein"
 affilation:
 abstract:

@@ -1,5 +1,5 @@
 ---
-title: "A REFLECTION ON CHARLES H. LONG: RESISTING AND SHORTCIRCUITING THE DISCOURSES OF EXCLUSION IN THE THEORY AND PRACTICE OF ADMINISTRATION."
+title: "A Reflection on Charles H. Long: Resisting and Shortcircuiting the Discourses of Exclusion in the Theory and Practice of Administration."
 author: "Victor Taylor"
 affilation:
 abstract:

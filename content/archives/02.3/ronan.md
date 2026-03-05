@@ -1,5 +1,5 @@
 ---
-title: "BLESSED ARE THEY WHO MOURN: ROMAN CATHOLIC SEX/GENDER IDEOLOGY AFTER VATICAN II"
+title: "Blessed Are They Who Mourn: Roman Catholic Sex/Gender Ideology After Vatican II"
 article_number:
 author: "Marian Ronan"
 affilation:

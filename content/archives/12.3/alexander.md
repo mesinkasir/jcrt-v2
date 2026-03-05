@@ -1,6 +1,6 @@
 ---
-title: "CHRISTIANITY AND CONTEMPORARY POLITICS: THE CONDITIONS AND POSSIBILITY OF FAITHFUL WITNESS."
-author: "LAURA E. ALEXANDER"
+title: "Christianity and Contemporary Politics: the Conditions and Possibility of Faithful Witness."
+author: "Laura E. Alexander"
 affilation:
 abstract:
 keywords:

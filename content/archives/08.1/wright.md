@@ -1,5 +1,5 @@
 ---
-title: "DOES HUMAN RIGHTS NEED GOD?"
+title: "Does Human Rights Need God?"
 author: "David B Dillard-Wright"
 affilation:
 abstract:

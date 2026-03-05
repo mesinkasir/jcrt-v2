@@ -1,6 +1,6 @@
 ---
-title: "KELLER, RESPONSE TO CAPUTO AND MURACA COSMOPOETIC ENTANGLEMENTS."
-author: "CATHERINE KELLER"
+title: "Keller, Response to Caputo and Muraca Cosmopoetic Entanglements."
+author: "Catherine Keller"
 affilation:
 abstract:
 keywords:

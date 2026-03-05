@@ -1,6 +1,6 @@
 ---
-title: "HEIDEGGER, MACHINATION, AND THE JEWISH QUESTION: THE PROBLEM OF THE GIFT."
-author: "ANTHONY J. STEINBOCK"
+title: "Heidegger, Machination, and the Jewish Question: the Problem of the Gift."
+author: "Anthony J. Steinbock"
 affilation:
 abstract: "The article examines the explication by German philosopher Martin Heidegger (1889-1976) of giving and the gift in the context of overcoming metaphysics and calculative thinking and mentions topics such as machination, National Socialism, and Adolf Hitler."
 keywords:

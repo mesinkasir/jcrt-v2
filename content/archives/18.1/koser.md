@@ -1,6 +1,6 @@
 ---
-title: "OF THE TIES THAT B(L)IND."
-author: "NATE KOSER"
+title: "Of the Ties That B(L)Ind."
+author: "Nate Koser"
 affilation:
 abstract:
 keywords:

@@ -1,6 +1,6 @@
 ---
-title: "A/THEOLOGIES OF THE IMPOSSIBLE: ANTIGONE, WEIL, BADIOU AND THE STRANGE."
-author: "BENJAMIN P. DAVIS"
+title: "A/Theologies of the Impossible: Antigone, Weil, Badiou and the Strange."
+author: "Benjamin P. Davis"
 affilation:
 abstract:
 keywords:

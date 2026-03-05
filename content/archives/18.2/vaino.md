@@ -1,6 +1,6 @@
 ---
-title: "LUTHERAN THEOLOGY AND POSTMODERN PHILOSOPHY."
-author: "OLLI-PEKKA VAINO"
+title: "Lutheran Theology and Postmodern Philosophy."
+author: "Olli-Pekka Vaino"
 affilation:
 abstract:
 keywords:

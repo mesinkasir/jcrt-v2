@@ -1,6 +1,6 @@
 ---
-title: "THE THEOLOGICAL TURN OF PHENOMENOLOGY AS RETURN: HEDWIG CONRAD-MARTIUS AND MAX SCHELER VERSUS THE HUSSERLIAN SECULAR BREAKTHROUGH."
-author: "DRAGAN PROLE"
+title: "The Theological Turn of Phenomenology as Return: Hedwig Conrad-Martius and Max Scheler Versus the Husserlian Secular Breakthrough."
+author: "Dragan Prole"
 affilation:
 abstract: "The intent of this paper is to show that the"
 keywords:

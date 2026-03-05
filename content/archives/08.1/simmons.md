@@ -1,5 +1,5 @@
 ---
-title: "ABOVE ALL EARTHLY POW’RS, DAVID F. WELLS"
+title: "Above All Earthly Pow’rs, David F. Wells"
 author: "J Aaron Simmons"
 affilation:
 abstract:

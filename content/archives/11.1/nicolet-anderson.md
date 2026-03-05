@@ -1,5 +1,5 @@
 ---
-title: "BECOMING A SUBJECT: THE CASE OF MICHEL FOUCAULT AND PAUL"
+title: "Becoming a Subject: the Case of Michel Foucault and Paul"
 author: "Valérie Nicolet Anderson"
 affilation:
 abstract:

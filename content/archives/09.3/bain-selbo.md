@@ -1,5 +1,5 @@
 ---
-title: "TWO REVIEWS: MACINTYRE’S THE TASKS OF PHILOSOPHY AND ETHICS AND POLITICS"
+title: "Two Reviews: Macintyre’s the Tasks of Philosophy and Ethics and Politics"
 author: "Eric Bain-Selbo"
 affilation: "Western Kentucky University"
 abstract: | 

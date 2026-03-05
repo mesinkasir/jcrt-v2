@@ -1,5 +1,5 @@
 ---
-title: "AFTER GOD"
+title: "After God"
 author: "Lissa McCullough"
 affilation:
 abstract:

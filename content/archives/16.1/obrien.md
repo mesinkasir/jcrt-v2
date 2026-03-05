@@ -1,6 +1,6 @@
 ---
-title: "THE GHOSTS OF PENDLETON: ARTIST’S STATEMENT."
-author: "APRIL O'BRIEN"
+title: "The Ghosts of Pendleton: Artist’s Statement."
+author: "April O'Brien"
 affilation:
 abstract: 
 keywords:

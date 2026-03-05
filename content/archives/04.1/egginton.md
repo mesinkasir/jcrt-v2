@@ -1,5 +1,5 @@
 ---
-title: "THE CHRISTIANIZATION OF DECONSTRUCTION"
+title: "The Christianization of Deconstruction"
 article_number:
 author: "William Egginton"
 affilation:

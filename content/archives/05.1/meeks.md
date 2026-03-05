@@ -1,5 +1,5 @@
 ---
-title: "IN THE WAKE OF EDWARD SAID"
+title: "In the Wake of Edward Said"
 author: "John L Meeks"
 affilation:
 abstract:

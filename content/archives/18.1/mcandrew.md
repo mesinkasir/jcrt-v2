@@ -1,5 +1,5 @@
 ---
-title: "PSYCHOANALYSIS, VETERANS, AND THE PROBLEM OF THE REAL: OR, ON WAR AND ENUNCIATION."
+title: "Psychoanalysis, Veterans, and the Problem of the Real: or, on War and Enunciation."
 author: "MICHAEL McANDREW"
 affilation:
 abstract:

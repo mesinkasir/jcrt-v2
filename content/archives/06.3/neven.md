@@ -1,5 +1,5 @@
 ---
-title: "DOING THEOLOGY WITHOUT GOD?: ABOUT THE REALITY OF FAITH IN THE 21ST CENTURY"
+title: "Doing Theology without God?: About the Reality of Faith in the 21st Century"
 author: "Gerrit W Neven"
 affilation:
 abstract:

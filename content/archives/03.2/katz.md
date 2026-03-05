@@ -1,5 +1,5 @@
 ---
-title: "LEFT TRAUMATIZED: ZIZEK’S LENIN AND POLITICS AFTER 9/11"
+title: "Left Traumatized: Zizek’s Lenin and Politics After 9/11"
 article_number:
 author: "Adam Katz"
 affilation:

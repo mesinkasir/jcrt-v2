@@ -1,5 +1,5 @@
 ---
-title: "FOR LOVE OF THE THINGS THEMSELVES: DERRIDA’S HYPER-REALISM"
+title: "For Love of the Things Themselves: Derrida’s Hyper-Realism"
 article_number:
 author: "John D Caputo"
 affilation:

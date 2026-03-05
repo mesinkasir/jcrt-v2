@@ -1,5 +1,5 @@
 ---
-title: "DE(MA)CRACY"
+title: "De(Ma)Cracy"
 author: "Philipp Quell"
 affilation:
 abstract: 

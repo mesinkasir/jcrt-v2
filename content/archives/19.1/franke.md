@@ -1,6 +1,6 @@
 ---
-title: "ALTIZER AND THE CHRISTIAN EPIC TRADITION."
-author: "WILLIAM FRANKE"
+title: "Altizer and the Christian Epic Tradition."
+author: "William Franke"
 affilation:
 abstract:
 keywords:

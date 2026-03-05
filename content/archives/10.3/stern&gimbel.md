@@ -1,5 +1,5 @@
 ---
-title: "EINSTEIN’S JEWISH SCIENCE"
+title: "Einstein’s Jewish Science"
 author: "Stephen J Stern; Steven Gimbel"
 affilation:
 abstract:

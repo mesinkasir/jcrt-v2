@@ -1,5 +1,5 @@
 ---
-title: "ABSOLUTE CHRIST OR ‘WDCD?’: THE QUESTION OF CHRISTIAN MATERIALITY IN THE MONSTROSITY OF CHRIST: PARADOX OR DIALECTIC"
+title: "Absolute Christ or ‘Wdcd?’: the Question of Christian Materiality in the Monstrosity of Christ: Paradox or Dialectic"
 author: "Victor Taylor"
 affilation:
 abstract:

@@ -1,5 +1,5 @@
 ---
-title: "REDEEMING THE ICONS"
+title: "Redeeming the Icons"
 author: "Timothy (Timothy W) Stanley"
 affilation:
 abstract:

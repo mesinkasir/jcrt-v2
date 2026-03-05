@@ -1,6 +1,6 @@
 ---
-title: "“NAMING THE DARKNESS,” SPIRITUAL VIOLENCE, AND RADICAL INCOMPLETENESS: RESITUATING A POLITICAL THEOLOGY"
-author: "JAMES E. WILLIS III"
+title: "“Naming the Darkness,” Spiritual Violence, and Radical Incompleteness: Resituating a Political Theology"
+author: "James E. Willis III"
 affilation:
 abstract:
 keywords:

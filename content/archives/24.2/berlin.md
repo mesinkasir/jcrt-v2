@@ -27,6 +27,3 @@ materials, including diverse interpretations and accounts of the past in our cou
 shying away from the discomfort that confronting these systems will cause, educators in
 college settings can work against white supremacy and settler colonialism.
 
-Keywords: Doctrine of Christian Discovery, colonialism, papal bulls, crusade ideology, international
-law, Iberian monarchies, Indigenous dispossession
- 

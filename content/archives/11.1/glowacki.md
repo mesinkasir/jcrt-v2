@@ -1,5 +1,5 @@
 ---
-title: "ALL THINGS TO ALL PEOPLE: UNRAVELLING THE STRUCTURE OF THE APOSTOLIC PANOPTICON"
+title: "All Things to All People: Unravelling the Structure of the Apostolic Panopticon"
 author: "David R Glowacki"
 affilation:
 abstract: 

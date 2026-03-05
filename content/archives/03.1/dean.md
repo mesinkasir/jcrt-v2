@@ -1,5 +1,5 @@
 ---
-title: "THE PRIMAL ROOTS OF AMERICAN PHILOSOPHY: PRAGMATISM, PHENOMENOLOGY, AND NATIVE AMERICAN THOUGHT"
+title: "The Primal Roots of American Philosophy: Pragmatism, Phenomenology, and Native American Thought"
 article_number:
 author: "William D Dean"
 affilation:

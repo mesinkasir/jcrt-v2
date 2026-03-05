@@ -1,6 +1,6 @@
 ---
-title: "FROM THE CLASSICAL POLIS TO THE NEOLIBERAL CAMP: MAPPING THE BIOPOLITICAL REGIMES OF THE UNDEAD IN DAWN OF THE DEAD, ZOMBI 2 AND 28 DAYS LATER."
-author: "TAMAS NAGYPAL"
+title: "From the Classical Polis to the Neoliberal Camp: Mapping the Biopolitical Regimes of the Undead in Dawn of the Dead, Zombi 2 and 28 Days Later."
+author: "Tamas Nagypal"
 affilation:
 abstract: "The article explores the biopolitical conflicts surrounding the undead body in zombie films"
 keywords:

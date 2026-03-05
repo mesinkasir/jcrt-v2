@@ -1,5 +1,5 @@
 ---
-title: "SHYLOCK AFTER AUSCHWITZ: THE MERCHANT OF VENICE ON THE POST-HOLOCAUST STAGE – SUBVERSION, CONFRONTATION, AND PROVOCATION"
+title: "Shylock After Auschwitz: the Merchant of Venice on the Post-Holocaust Stage – Subversion, Confrontation, and Provocation"
 author: "Arthur Horowitz"
 affilation:
 abstract:

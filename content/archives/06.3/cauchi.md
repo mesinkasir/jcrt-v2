@@ -1,5 +1,5 @@
 ---
-title: "COUNTERPATH: TRAVELLING WITH JACQUES DERRIDA"
+title: "Counterpath: Travelling with Jacques Derrida"
 author: "Mark Cauchi"
 affilation:
 abstract:

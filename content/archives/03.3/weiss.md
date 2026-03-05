@@ -1,5 +1,5 @@
 ---
-title: "IN OUR IMAGE: ARTIFICIAL INTELLIGENCE AND THE HUMAN SPIRIT"
+title: "In Our Image: Artificial Intelligence and the Human Spirit"
 article_number:
 author: "Dennis M Weiss"
 affilation:

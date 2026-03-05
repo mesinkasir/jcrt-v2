@@ -1,5 +1,5 @@
 ---
-title: "GLOBOCHRIST: THE GREAT COMMISSION TAKES A POSTMODERN TURN"
+title: "Globochrist: the Great Commission Takes a Postmodern Turn"
 author: "Christopher D Rodkey"
 affilation:
 abstract:

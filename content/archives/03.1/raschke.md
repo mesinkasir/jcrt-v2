@@ -1,5 +1,5 @@
 ---
-title: "THE DEPOSITION OF THE SIGN: POSTMODERNISM AND THE CRISIS OF RELIGIOUS STUDIES"
+title: "The Deposition of the Sign: Postmodernism and the Crisis of Religious Studies"
 article_number:
 author: "Carl A. Raschke"
 affilation:

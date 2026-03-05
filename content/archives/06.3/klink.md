@@ -1,5 +1,5 @@
 ---
-title: "THE VALUE OF SOLITUDE: THE ETHICS AND SPIRITUALITY OF ALONENESS IN AUTOBIOGRAPHY"
+title: "The Value of Solitude: the Ethics and Spirituality of Aloneness in Autobiography"
 author: "Aaron Klink"
 affilation:
 abstract:

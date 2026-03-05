@@ -1,6 +1,6 @@
 ---
-title: "‘SCALE RELATIVE ONTOLOGY’ AND SIMONE WEIL’S SPIRITUAL PHILOSOPHY."
-author: "N. E. BOULTING"
+title: "‘Scale Relative Ontology’ and Simone Weil’s Spiritual Philosophy."
+author: "N. E. Boulting"
 affilation:
 abstract:
 keywords:

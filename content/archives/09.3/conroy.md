@@ -1,5 +1,5 @@
 ---
-title: "LACAN AND THE LIMITS OF LANGUAGE"
+title: "Lacan and the Limits of Language"
 author: "Melissa Conroy"
 affilation:
 abstract:

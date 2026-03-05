@@ -1,5 +1,5 @@
 ---
-title: "WORLD AND LIFE AS ONE: ETHICS AND ONTOLOGY IN WITTGENSTEIN’S EARLY THOUGHT"
+title: "World and Life as One: Ethics and Ontology in Wittgenstein’s Early Thought"
 author: "Andrew Saldino"
 affilation:
 abstract:

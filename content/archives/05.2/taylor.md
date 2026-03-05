@@ -1,5 +1,5 @@
 ---
-title: "THEORY FEVER: ARCHIVALISM AND THE FUTURE OF RELIGIOUS STUDIES"
+title: "Theory Fever: Archivalism and the Future of Religious Studies"
 author: "Victor Taylor"
 affilation:
 abstract:

@@ -1,6 +1,6 @@
 ---
-title: "TIME EMPTIED AND TIME RENEWED: THE DOMINION OF CAPITAL AND A THEO-POLITICS OF CONTRETEMPS."
-author: "DANIEL RHODES"
+title: "Time Emptied and Time Renewed: the Dominion of Capital and a Theo-Politics of Contretemps."
+author: "Daniel Rhodes"
 affilation:
 abstract:
 keywords:

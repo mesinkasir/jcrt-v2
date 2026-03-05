@@ -1,5 +1,5 @@
 ---
-title: "CHRIST, HISTORY AND APOCALYPTIC: THE POLITICS OF CHRISTIAN MISSION"
+title: "Christ, History and Apocalyptic: the Politics of Christian Mission"
 author: "Daniel Colucciello Barber"
 affilation:
 abstract:

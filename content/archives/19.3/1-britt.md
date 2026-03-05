@@ -1,5 +1,5 @@
 ---
-title: "BENJAMIN’S HABITS AND THE STUDY OF RELIGION"
+title: "Benjamin’s Habits and the Study of Religion"
 author: "Brian Britt"
 affilation:
 abstract:

@@ -1,5 +1,5 @@
 ---
-title: "CLAUDE LEFORT AND THE ILLEGITIMACY OF MODERNITY"
+title: "Claude Lefort and the Illegitimacy of Modernity"
 author: "Daniel Steinmetz-Jenkins"
 affilation:
 abstract:

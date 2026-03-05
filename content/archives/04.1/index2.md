@@ -1,5 +1,5 @@
 ---
-title: "JOURNAL FOR CULTURAL AND RELIGIOUS THEORY - ISSUE 4.2 - APRIL 2003"
+title: "Journal for Cultural and Religious Theory - Issue 4.2 - April 2003"
 article_number:
 author:
 affilation:

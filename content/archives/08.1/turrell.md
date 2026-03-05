@@ -1,5 +1,5 @@
 ---
-title: "THE END OF WORDS: THE LANGUAGE OF RECONCILIATION IN A CULTURE OF VIOLENCE"
+title: "The End of Words: the Language of Reconciliation in a Culture of Violence"
 author: "Ford Turrell"
 affilation:
 abstract:

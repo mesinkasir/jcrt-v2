@@ -1,6 +1,6 @@
 ---
-title: "A RECONSTRUCTION OF THE THEOLOGIES OF LIBERATION:THE LACANIAN CORRECTIVE TO THE ELLACURIAN SYNTHESIS"
-author: "MANUEL MEJIDO COSTOYA"
+title: "A Reconstruction of the Theologies of Liberation:the Lacanian Corrective to the Ellacurian Synthesis"
+author: "Manuel Mejido Costoya"
 affilation:
 abstract:
 keywords: []

@@ -1,5 +1,5 @@
 ---
-title: "THE RELIGION OF POLITICS: CONCERNING A POSTMODERN POLITICAL THEOLOGY ‘TO COME’"
+title: "The Religion of Politics: Concerning a Postmodern Political Theology ‘to Come’"
 author: "Carl A. Raschke"
 affilation:
 abstract:

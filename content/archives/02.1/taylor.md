@@ -1,5 +1,5 @@
 ---
-title: "ARTIST’S STATEMENT"
+title: "Artist’s Statement"
 article_number:
 author: "Christopher M Taylor; Christopher M Taylor"
 affilation:

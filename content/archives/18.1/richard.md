@@ -1,6 +1,6 @@
 ---
-title: "FREUD’S SOCIOGENESIS, AND OURS: THE"
-author: "ALAN JAY RICHARD"
+title: "Freud’s Sociogenesis, and Ours: The"
+author: "Alan Jay Richard"
 affilation:
 abstract:
 keywords:

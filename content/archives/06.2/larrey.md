@@ -1,5 +1,5 @@
 ---
-title: "THE FUTURE OF RELIGION"
+title: "The Future of Religion"
 author: "Philip Larrey"
 affilation:
 abstract:

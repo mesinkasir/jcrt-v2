@@ -1,5 +1,5 @@
 ---
-title: "SYMPTOM OR INSPIRATION?: H.D., FREUD AND, THE QUESTION OF VISION"
+title: "Symptom or Inspiration?: H.D., Freud and, the Question of Vision"
 author: "Merrill Cole"
 affilation:
 abstract:

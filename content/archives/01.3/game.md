@@ -1,5 +1,5 @@
 ---
-title: "FALLING"
+title: "Falling"
 article_number:
 author: "Ann Game"
 affilation:

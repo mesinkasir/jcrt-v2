@@ -1,6 +1,6 @@
 ---
-title: "ORIENTALISM, ONTOLOGY, AND ORIENTATION: A MUSLIM PERSPECTIVE ON CHARLES H. LONG."
-author: "MEHNAZ AFRIDI"
+title: "Orientalism, Ontology, and Orientation: a Muslim Perspective on Charles H. Long."
+author: "Mehnaz Afridi"
 affilation:
 abstract:
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: "A CONVERSATION WITH RICHARD KEARNEY"
+title: "A Conversation with Richard Kearney"
 author: "Victor Taylor; Richard Kearney"
 affilation:
 abstract:

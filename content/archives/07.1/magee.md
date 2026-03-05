@@ -1,5 +1,5 @@
 ---
-title: "STARE DECISIS: (FOREVER) LOST IN TRANSLATION"
+title: "Stare Decisis: (Forever) Lost in Translation"
 author: "Neal Magee"
 affilation:
 abstract:

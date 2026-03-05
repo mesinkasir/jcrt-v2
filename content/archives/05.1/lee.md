@@ -1,5 +1,5 @@
 ---
-title: "SEEING IS BELIEVING: WARHOL’S SPIRITUALIZING OF MATERIALITY AND THE NEED FOR THE HISTORICIZING OF POSTMODERNISM"
+title: "Seeing Is Believing: Warhol’s Spiritualizing of Materiality and the Need for the Historicizing of Postmodernism"
 author: "C Jason Lee"
 affilation:
 abstract:

@@ -1,5 +1,5 @@
 ---
-title: "PROSTHETIC GODS"
+title: "Prosthetic Gods"
 author: "Jacky Bowring"
 affilation:
 abstract:

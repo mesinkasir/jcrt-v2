@@ -1,6 +1,6 @@
 ---
-title: "ALTIZER: PRESENCE IN ABSENCE."
-author: "EDWARD S. CASEY"
+title: "Altizer: Presence in Absence."
+author: "Edward S. Casey"
 affilation:
 abstract:
 keywords:

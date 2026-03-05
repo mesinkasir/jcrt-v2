@@ -1,6 +1,6 @@
 ---
 title: "An Interview with Henry Giroux"
-author: "VICTOR TAYLOR"
+author: "Victor Taylor"
 affilation:
 abstract:
 keywords: []

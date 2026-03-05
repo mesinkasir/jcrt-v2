@@ -1,5 +1,5 @@
 ---
-title: "JEWISH STUDIES AND THE SECULAR UNIVERSITY: RELIGION BETWEEN CULTURE AND PHILOSOPHY"
+title: "Jewish Studies and the Secular University: Religion Between Culture and Philosophy"
 article_number: 06
 author: "Kenneth Reinhard; Julia Reinhard Lupton"
 affilation:

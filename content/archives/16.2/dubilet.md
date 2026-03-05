@@ -1,5 +1,5 @@
 ---
-title: "THE CATASTROPHIC JOY OF ABANDONING SALVATION: THINKING THE POSTSECULAR WITH GEORGES BATAILLE."
+title: "The Catastrophic Joy of Abandoning Salvation: Thinking the Postsecular with Georges Bataille."
 author: "Alex Dubilet"
 affilation:
 abstract:

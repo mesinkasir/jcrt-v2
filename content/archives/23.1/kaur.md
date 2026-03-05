@@ -1,5 +1,5 @@
 ---
-title: "SIKH ENVIRONMENTAL ETHICS: THEORY AND PRAXIS"
+title: "Sikh Environmental Ethics: Theory and Praxis"
 author: "Harpreet Kaur"
 affilation:
 abstract: 

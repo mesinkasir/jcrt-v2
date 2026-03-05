@@ -1,5 +1,5 @@
 ---
-title: "REBELLIOUS NO"
+title: "Rebellious No"
 author: "Nöelle Vahanian"
 affilation:
 abstract: 

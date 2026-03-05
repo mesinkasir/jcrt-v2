@@ -1,5 +1,5 @@
 ---
-title: "THE RELIGIOUS ROOTS OF ENVIRONMENTAL JUSTICE"
+title: "The Religious Roots of Environmental Justice"
 author: "Catherine Keller; Carl A. Raschke"
 affilation:
 abstract: 

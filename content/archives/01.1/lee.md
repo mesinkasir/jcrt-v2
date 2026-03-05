@@ -1,5 +1,5 @@
 ---
-title: "DECONSTRUCTING THE GREAT CHAIN OF BEING"
+title: "Deconstructing the Great Chain of Being"
 article_number: 09
 author: "Jonathan Scott Lee"
 affilation:

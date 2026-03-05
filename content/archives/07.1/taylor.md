@@ -1,5 +1,5 @@
 ---
-title: "A CONVERSATION WITH SLAVOJ ŽIŽEK"
+title: "A Conversation with Slavoj ŽIŽEk"
 author: "Victor Taylor; Slavoj Žižek"
 affilation:
 abstract: 

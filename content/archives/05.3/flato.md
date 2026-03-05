@@ -1,5 +1,5 @@
 ---
-title: "ON TRANSLATION"
+title: "On Translation"
 author: "Jason Flato"
 affilation:
 abstract:

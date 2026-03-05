@@ -1,6 +1,6 @@
 ---
 title: "Otherwise: A Response to Boštjan Nedoh"
-author: "ARTHUR BRADLEY"
+author: "Arthur Bradley"
 affilation:
 abstract:
 keywords: []

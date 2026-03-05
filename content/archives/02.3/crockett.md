@@ -1,5 +1,5 @@
 ---
-title: "CONTRIBUTIONS TO PHILOSOPHY (FROM ENOWNING)"
+title: "Contributions to Philosophy (from Enowning)"
 article_number:
 author: "Clayton Crockett"
 affilation:

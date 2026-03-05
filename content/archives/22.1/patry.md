@@ -1,6 +1,6 @@
 ---
-title: "THINKING – LIFE - ORGANIC."
-author: "TOBIAS PATRY"
+title: "Thinking – Life - Organic."
+author: "Tobias Patry"
 affilation:
 abstract: 
 keywords:

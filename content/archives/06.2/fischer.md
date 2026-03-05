@@ -1,5 +1,5 @@
 ---
-title: "IN THE BEGINNING WAS THE MURDER: DESTRUCTION OF NATURE AND INTERHUMAN VIOLENCE IN ADORNO’S CRITIQUE OF CULTURE"
+title: "In the Beginning Was the Murder: Destruction of Nature and Interhuman Violence in Adorno’s Critique of Culture"
 author: "Karsten Fischer"
 affilation:
 abstract:

@@ -1,5 +1,5 @@
 ---
-title: "ANOTHER INVESTIGATION OF POSTCOLONIAL FAILURE"
+title: "Another Investigation of Postcolonial Failure"
 author: "Bhrigupati Singh"
 affilation:
 abstract:

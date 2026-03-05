@@ -1,5 +1,5 @@
 ---
-title: "PARA/THEOLOGY: THE STUDY OF RELIGION AND THE SCIENCE OF THE NEGATIVE"
+title: "Para/Theology: the Study of Religion and the Science of the Negative"
 article_number:
 author: "Carl A. Raschke"
 affilation:

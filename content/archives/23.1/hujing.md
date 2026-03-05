@@ -1,6 +1,6 @@
 ---
-title: "TRANSFORMING SCHEMA: TOWARD AN INTEGRAL ECOLOGY."
-author: "KEVIN HUJING"
+title: "Transforming Schema: Toward an Integral Ecology."
+author: "Kevin Hujing"
 affilation:
 abstract: 
 keywords:

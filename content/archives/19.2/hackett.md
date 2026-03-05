@@ -1,6 +1,6 @@
 ---
-title: "THE CURIOUS WHITEHEADIAN PROCLIVITY IN SCHELER’S ACCOUNT OF GOD AND PERSONS."
-author: "J. EDWARD HACKETT"
+title: "The Curious Whiteheadian Proclivity in Scheler’s Account of God and Persons."
+author: "J. Edward Hackett"
 affilation:
 abstract:
 keywords:

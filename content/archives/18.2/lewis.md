@@ -1,6 +1,6 @@
 ---
-title: "MISCHIEF, IDOLATRY, AND THE DEMONIC: TOWARD A HERMENEUTIC OF PLAY."
-author: "KEVIN LEWIS"
+title: "Mischief, Idolatry, and the Demonic: Toward a Hermeneutic of Play."
+author: "Kevin Lewis"
 affilation:
 abstract:
 keywords:

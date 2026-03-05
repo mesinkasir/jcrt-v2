@@ -1,5 +1,5 @@
 ---
-title: "THE RETURN OF THE SACRED MAN: POLITICS, FUNDAMENTALISM AND FRIGHT"
+title: "The Return of the Sacred Man: Politics, Fundamentalism and Fright"
 author: "William Little"
 affilation:
 abstract:

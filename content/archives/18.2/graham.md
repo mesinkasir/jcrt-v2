@@ -1,6 +1,6 @@
 ---
-title: "PRAYER AFTER THE DEATH OF GOD."
-author: "ASHLEY GRAHAM"
+title: "Prayer After the Death of God."
+author: "Ashley Graham"
 affilation:
 abstract:
 keywords:

@@ -1,6 +1,6 @@
 ---
-title: "LOVE, PSYCHOANALYSIS, AND LEFTIST POLITICAL ONTOLOGY."
-author: "DANIEL TUTT"
+title: "Love, Psychoanalysis, and Leftist Political Ontology."
+author: "Daniel Tutt"
 affilation:
 abstract:
 keywords:

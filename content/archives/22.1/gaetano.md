@@ -1,5 +1,5 @@
 ---
-title: "THE IMAGINATION IN SPINOZA: THE MORAL GOOD BETWEEN PROPHECY AND THE AMOR DEI INTELLECTUALIS"
+title: "The Imagination in Spinoza: the Moral Good Between Prophecy and the Amor Dei Intellectualis"
 author: "Caterina Gaetano"
 affilation:
 abstract: 

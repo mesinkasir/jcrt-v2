@@ -1,6 +1,6 @@
 ---
-title: "#SUBJECTIVITIES: #BLACKLIVESMATTER, AFFROPESSIMISM AND ALAIN BADIOU."
-author: "RYNE BEDDARD"
+title: "#Subjectivities: #Blacklivesmatter, Affropessimism and Alain Badiou."
+author: "Ryne Beddard"
 affilation:
 abstract:
 keywords:

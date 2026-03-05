@@ -1,6 +1,6 @@
 ---
-title: "PEDAGOGY AND RADICAL EQUALITY: RANCIÈRE’S IGNORANT SCHOOLMASTER."
-author: "CLAYTON CROCKETT"
+title: "Pedagogy and Radical Equality: RanciÈRe’s Ignorant Schoolmaster."
+author: "Clayton Crockett"
 affilation:
 abstract: "The author discusses how the idea of intellectual emancipation developed in Jacques Rancière's book"
 keywords:

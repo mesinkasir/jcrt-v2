@@ -1,5 +1,5 @@
 ---
-title: "RELIGION, DEMOCRACY AND THE POLITICS OF FRIGHT: EDITORIAL INTRODUCTION"
+title: "Religion, Democracy and the Politics of Fright: Editorial Introduction"
 author: "Jeffrey W Robbins"
 affilation:
 abstract:

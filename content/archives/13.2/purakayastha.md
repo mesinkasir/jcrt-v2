@@ -1,6 +1,6 @@
 ---
-title: "RELIGION, POLITICS, AND THE EARTH: THE NEW MATERIALISM."
-author: "ANINDYA SEKHAR PURAKAYASTHA"
+title: "Religion, Politics, and the Earth: the New Materialism."
+author: "Anindya Sekhar Purakayastha"
 affilation:
 abstract:
 keywords:

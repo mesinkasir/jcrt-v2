@@ -1,5 +1,5 @@
 ---
-title: "DIFFERENCE AND REPETITION"
+title: "Difference and Repetition"
 article_number:
 author: "Oz Lorentzen"
 affilation:

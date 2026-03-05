@@ -1,5 +1,5 @@
 ---
-title: "THE PREDICAMENT OF POSTMODERN THEOLOGY: RADICAL ORTHODOXY OR NIHILIST TEXTUALISM?"
+title: "The Predicament of Postmodern Theology: Radical Orthodoxy or Nihilist Textualism?"
 author: "G Chad Snyder"
 affilation:
 abstract:

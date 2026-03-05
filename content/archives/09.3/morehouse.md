@@ -1,5 +1,5 @@
 ---
-title: "THUMPIN‘ IT: THE USE AND ABUSE OF THE BIBLE IN TODAY’S PRESIDENTIAL POLITICS"
+title: "Thumpin‘ It: the Use and Abuse of the Bible in Today’s Presidential Politics"
 author: "Nathaniel J Morehouse"
 affilation:
 abstract:

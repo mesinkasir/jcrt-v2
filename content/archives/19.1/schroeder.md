@@ -1,6 +1,6 @@
 ---
-title: "KENOTIC THEOLOGY, BUDDHISM, AND TIME."
-author: "BRIAN SHŪDŌ SCHROEDER"
+title: "Kenotic Theology, Buddhism, and Time."
+author: "Brian ShŪDŌ Schroeder"
 affilation:
 abstract:
 keywords:

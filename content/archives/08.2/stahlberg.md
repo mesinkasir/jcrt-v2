@@ -1,5 +1,5 @@
 ---
-title: "DEMOCRACY AND TRADITION"
+title: "Democracy and Tradition"
 author: "Ben Stahlberg"
 affilation:
 abstract:

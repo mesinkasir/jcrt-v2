@@ -1,6 +1,6 @@
 ---
-title: "ALTIZER’S APOCALYPTIC JESUS."
-author: "THEODORE W. JENNINGS"
+title: "Altizer’s Apocalyptic Jesus."
+author: "Theodore W. Jennings"
 affilation:
 abstract:
 keywords:

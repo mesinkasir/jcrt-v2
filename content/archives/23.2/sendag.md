@@ -1,5 +1,5 @@
 ---
-title: "HEALING AS MULTIMEDIA PRACTICE: CONTEMPORARY SPIRITUALITY IN TURKEY"
+title: "Healing as Multimedia Practice: Contemporary Spirituality in Turkey"
 author: "Duygu Sendag"
 affilation:
 abstract:

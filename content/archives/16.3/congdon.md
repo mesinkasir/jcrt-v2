@@ -1,6 +1,6 @@
 ---
-title: "“SEE WHAT IS COMING TO PASS AND NOT ONLY WHAT IS”: ALAIN BADIOU AND THE POSSIBILITY OF A POSTMETAPHYSICAL THEOLOGY."
-author: "DAVID W. CONGDON"
+title: "“See What Is Coming to Pass and Not Only What Is”: Alain Badiou and the Possibility of a Postmetaphysical Theology."
+author: "David W. Congdon"
 affilation:
 abstract:
 keywords:

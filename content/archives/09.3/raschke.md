@@ -1,5 +1,5 @@
 ---
-title: "THE NEW ORIENTALISTS: REPRESENTATIONS OF ISLAM FROM FOUCAULT TO BAUDRILLARD"
+title: "The New Orientalists: Representations of Islam from Foucault to Baudrillard"
 author: "Carl A. Raschke"
 affilation:
 abstract:

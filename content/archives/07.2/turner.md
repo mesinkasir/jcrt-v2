@@ -1,5 +1,5 @@
 ---
-title: "DERRIDA’S BIBLE: READING A PAGE OF SCRIPTURE WITH A LITTLE HELP FROM DERRIDA"
+title: "Derrida’s Bible: Reading a Page of Scripture with a Little Help from Derrida"
 author: "Donald L Turner"
 affilation:
 abstract:

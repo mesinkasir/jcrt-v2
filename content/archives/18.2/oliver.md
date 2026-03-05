@@ -1,6 +1,6 @@
 ---
-title: "HOW TO AVOID THE GOD WHO CHOOSES: DENIALS."
-author: "MICHAEL OLIVER"
+title: "How to Avoid the God Who Chooses: Denials."
+author: "Michael Oliver"
 affilation:
 abstract:
 keywords:

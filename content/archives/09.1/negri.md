@@ -1,5 +1,5 @@
 ---
-title: "SOVEREIGNTY: THAT DIVINE MINISTRY OF THE AFFAIRS OF EARTHLY LIFE"
+title: "Sovereignty: That Divine Ministry of the Affairs of Earthly Life"
 author: "Antonio Negri; Gabriele Fadini; Robert Valgenti"
 affilation:
 abstract:

@@ -1,6 +1,6 @@
 ---
-title: "TRANSCENDENTAL FRUSTRATION: A CRITICAL RE-EVALUATION OF THE HEGELIAN LEGACY FOR PHILOSOPHY OF RELIGION."
-author: "W. EZEKIEL GOGGIN"
+title: "Transcendental Frustration: a Critical Re-Evaluation of the Hegelian Legacy for Philosophy of Religion."
+author: "W. Ezekiel Goggin"
 affilation:
 abstract:
 keywords:

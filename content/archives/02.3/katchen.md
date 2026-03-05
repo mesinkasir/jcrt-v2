@@ -1,5 +1,5 @@
 ---
-title: "BLUEBIRD: DELIBERATE CREATION OF MULTIPLE PERSONALITY BY PSYCHIATRISTS"
+title: "Bluebird: Deliberate Creation of Multiple Personality by Psychiatrists"
 article_number:
 author: "Martin H Katchen"
 affilation:

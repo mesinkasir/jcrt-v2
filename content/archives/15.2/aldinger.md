@@ -1,6 +1,6 @@
 ---
-title: "NARRATIVES OF OVERCOMING: DISABILITY THEORY AND THE CRASH REEL."
-author: "JOSEPH M. M. ALDINGER"
+title: "Narratives of Overcoming: Disability Theory and the Crash Reel."
+author: "Joseph M. M. Aldinger"
 affilation:
 abstract: "The article critiques the film"
 keywords:

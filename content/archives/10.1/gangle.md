@@ -1,5 +1,5 @@
 ---
-title: "MESSIANIC MEDIA: BENJAMIN’S CINEMA, BADIOU’S MATHEME, NEGRI’S MULTITUDE"
+title: "Messianic Media: Benjamin’s Cinema, Badiou’s Matheme, Negri’s Multitude"
 author: "Rocco Gangle"
 affilation:
 abstract:

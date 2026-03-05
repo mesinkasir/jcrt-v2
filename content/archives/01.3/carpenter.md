@@ -1,5 +1,5 @@
 ---
-title: "THE RELIGIOUS ART OF ANDY WARHOL"
+title: "The Religious Art of Andy Warhol"
 article_number:
 author: "Benjamin Bennett-Carpenter"
 affilation:

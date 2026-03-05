@@ -1,6 +1,6 @@
 ---
-title: "FROM COLONIALISM TO AN-OTHER COMMUNITY: REFLECTIONS ON THE RADICAL THOUGHT OF CHARLES H. LONG."
-author: "MARK WOOD"
+title: "From Colonialism to an-Other Community: Reflections on the Radical Thought of Charles H. Long."
+author: "Mark Wood"
 affilation:
 abstract:
 keywords:

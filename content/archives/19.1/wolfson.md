@@ -1,6 +1,6 @@
 ---
-title: "APOTHEOSIS OF THE NOTHING IN ALTIZER’S KENOTIC ATHEOLOGY."
-author: "ELLIOT R. WOLFSON"
+title: "Apotheosis of the Nothing in Altizer’s Kenotic Atheology."
+author: "Elliot R. Wolfson"
 affilation:
 abstract: "Even what we have left undone weaves the fabric of the entire future: even nothingness itself is a master weaver and a woman spinning webs."
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: "THE PRAYERS AND TEARS OF JACQUES DERRIDA: RELIGION WITHOUT RELIGION"
+title: "The Prayers and Tears of Jacques Derrida: Religion without Religion"
 article_number: 07
 author: "Martin Kavka"
 affilation:

@@ -1,5 +1,5 @@
 ---
-title: "OPEN SPACES, LIMINAL PLACES: THE DEPLOYMENT OF THE SACRED IN THE OPEN CITY"
+title: "Open Spaces, Liminal Places: the Deployment of the Sacred in the Open City"
 author: "Jonathan David York"
 affilation:
 abstract:

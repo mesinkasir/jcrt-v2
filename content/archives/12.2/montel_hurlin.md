@@ -1,5 +1,5 @@
 ---
-title: "JESUS BEYOND CHRIST: ERRI DE LUCA AND THE ‘SELF AS STUMBLING BLOCK’"
+title: "Jesus Beyond Christ: Erri De Luca and the ‘Self as Stumbling Block’"
 author: "Elise Montel-Hurlin"
 affilation:
 abstract: 

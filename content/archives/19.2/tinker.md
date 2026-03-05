@@ -1,6 +1,6 @@
 ---
-title: "RELIGIOUS STUDIES: THE FINAL COLONIZATION OF THE AMERICAN INDIAN."
-author: "TINK TINKER; OSAGE NATION"
+title: "Religious Studies: the Final Colonization of the American Indian."
+author: "Tink Tinker; Osage Nation"
 affilation:
 abstract:
 keywords:

@@ -1,6 +1,6 @@
 ---
-title: "TOWARDS A NEW COMPARATIVE METHODOLOGY IN RELIGIOUS STUDIES."
-author: "KARA ROBERTS"
+title: "Towards a New Comparative Methodology in Religious Studies."
+author: "Kara Roberts"
 affilation:
 abstract:
 keywords:

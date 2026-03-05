@@ -1,6 +1,6 @@
 ---
-title: "MORMONISM AND THE WHITE POSSESSIVE: MOVING CRITICAL INDIGENOUS STUDIES THEORY INTO THE RELIGIOUS REALM."
-author: "HEMOPEREKI SIMON"
+title: "Mormonism and the White Possessive: Moving Critical Indigenous Studies Theory into the Religious Realm."
+author: "Hemopereki Simon"
 affilation:
 abstract:
 keywords:

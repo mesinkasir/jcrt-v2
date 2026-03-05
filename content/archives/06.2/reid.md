@@ -1,5 +1,5 @@
 ---
-title: "PORNOGRAPHY, THE THEORY: WHAT UTILITARIANISM DID TO ACTION"
+title: "Pornography, the Theory: What Utilitarianism Did to Action"
 author: "Colbey Emmerson-Reid"
 affilation:
 abstract:

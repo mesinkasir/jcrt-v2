@@ -1,6 +1,6 @@
 ---
-title: "THE SPIRITUALITY OF PSYCHONAUTICS: HOW ALICE IN WONDERLAND, THE MATRIX AND OTHER MODERN MYTHS SERVE AS MODELS FOR NEW AGE SEEKERSHIP AND IDENTITY FORMATION."
-author: "JOHN CUDA"
+title: "The Spirituality of Psychonautics: How Alice in Wonderland, the Matrix and Other Modern Myths Serve as Models for New Age Seekership and Identity Formation."
+author: "John Cuda"
 affilation:
 abstract:
 keywords:

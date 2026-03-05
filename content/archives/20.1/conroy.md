@@ -1,6 +1,6 @@
 ---
-title: "SEXUAL DIFFERENCE AND THE VATICAN: A LACANIAN RESPONSE."
-author: "MELISSA CONROY"
+title: "Sexual Difference and the Vatican: a Lacanian Response."
+author: "Melissa Conroy"
 affilation:
 abstract:
 keywords:

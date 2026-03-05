@@ -1,6 +1,6 @@
 ---
 title: "Against Thanatopolitics: A Marrano Intervention"
-author: "ARTHUR BRADLEY"
+author: "Arthur Bradley"
 affilation:
 abstract:
 keywords: []

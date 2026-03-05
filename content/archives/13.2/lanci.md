@@ -1,6 +1,6 @@
 ---
-title: "ZOMBIE 2.0: SUBJECTIVATION IN TIMES OF APOCALYPSE."
-author: "YARI LANCI"
+title: "Zombie 2.0: Subjectivation in Times of Apocalypse."
+author: "Yari Lanci"
 affilation:
 abstract: "An essay on the collapse of civilization featured in contemporary zombie narratives and emergence of fast zombies, based on the analysis of neoliberal economics by the late philosopher Michel Foucault, in films"
 keywords:

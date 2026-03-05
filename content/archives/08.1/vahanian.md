@@ -1,5 +1,5 @@
 ---
-title: "THÉORIE-RÉBELLION: UN ULTIMATUM"
+title: "ThÉOrie-RÉBellion: UN Ultimatum"
 author: "Nöelle Vahanian"
 affilation:
 abstract:

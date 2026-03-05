@@ -1,6 +1,6 @@
 ---
-title: "ESSENCE, ALIENATION, AND THE ECONOMICS OF LIBIDO."
-author: "TREVOR PEDERSON"
+title: "Essence, Alienation, and the Economics of Libido."
+author: "Trevor Pederson"
 affilation:
 abstract:
 keywords:

@@ -1,6 +1,6 @@
 ---
-title: "PLUNDERING A THEORY OF TRAUMA - CONFESSIONS OF A NOVICE AUTHOR ON LACAN AND THEOLOGY."
-author: "TAD DELAY"
+title: "Plundering a Theory of Trauma - Confessions of a Novice Author on Lacan and Theology."
+author: "Tad Delay"
 affilation:
 abstract:
 keywords:

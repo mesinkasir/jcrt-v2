@@ -1,6 +1,6 @@
 ---
-title: "ALTIZER AND DELEUZE: MATERIAL METAPHYSICS FOR DISASTROUS TIMES."
-author: "PETRA CARLSSON REDELL"
+title: "Altizer and Deleuze: Material Metaphysics for Disastrous Times."
+author: "Petra Carlsson Redell"
 affilation:
 abstract:
 keywords:

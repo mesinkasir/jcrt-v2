@@ -1,5 +1,5 @@
 ---
-title: "APOLOGY AND THE POSSIBILITY OF ETHICAL POLITICS"
+title: "Apology and the Possibility of Ethical Politics"
 author: "Danielle Celermajer"
 affilation:
 abstract:

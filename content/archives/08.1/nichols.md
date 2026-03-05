@@ -1,5 +1,5 @@
 ---
-title: "THE MAN BEHIND THE IRON MASK: MARX AND ST. JOHN ON REPETITION, REVELATION AND REVOLUTION"
+title: "The Man Behind the Iron Mask: Marx and St. John on Repetition, Revelation and Revolution"
 author: "Joshua Nichols"
 affilation:
 abstract:

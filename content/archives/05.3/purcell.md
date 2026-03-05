@@ -1,5 +1,5 @@
 ---
-title: "ON ESCAPE"
+title: "On Escape"
 author: "Michael Purcell"
 affilation:
 abstract:

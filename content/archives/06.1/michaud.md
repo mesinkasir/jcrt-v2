@@ -1,5 +1,5 @@
 ---
-title: "A THEOLOGY OF ENGAGEMENT"
+title: "A Theology of Engagement"
 author: "Derek Michaud"
 affilation:
 abstract:

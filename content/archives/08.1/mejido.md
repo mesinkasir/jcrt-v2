@@ -1,5 +1,5 @@
 ---
-title: "A RECONSTRUCTION OF THE THEOLOGIES OF LIBERATION: THE LACANIAN CORRECTION TO THE ELLACURIAN SYNTHESIS"
+title: "A Reconstruction of the Theologies of Liberation: the Lacanian Correction to the Ellacurian Synthesis"
 author: "Manuel Jesús Mejido"
 affilation:
 abstract: 

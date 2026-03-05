@@ -1,5 +1,5 @@
 ---
-title: "RELIGION AND MEDIA"
+title: "Religion and Media"
 author: "Melissa Conroy"
 affilation:
 abstract:

@@ -1,5 +1,5 @@
 ---
-title: "THE CAMBRIDGE COMPANION TO POSTMODERN THEOLOGY"
+title: "The Cambridge Companion to Postmodern Theology"
 author: "James K A Smith"
 affilation:
 abstract:

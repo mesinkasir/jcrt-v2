@@ -1,5 +1,5 @@
 ---
-title: "MIRCEA ELIADE AND THE IMAGINATION OF MATTER"
+title: "Mircea Eliade and the Imagination of Matter"
 article_number:
 author: "Charles H Long"
 affilation:

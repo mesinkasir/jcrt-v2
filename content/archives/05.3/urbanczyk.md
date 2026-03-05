@@ -1,5 +1,5 @@
 ---
-title: "BODY AND SOUL: A SYMPATHETIC HISTORY OF AMERICAN SPIRITUALISM"
+title: "Body and Soul: a Sympathetic History of American Spiritualism"
 author: "Aaron Urbanczyk"
 affilation:
 abstract:

@@ -1,5 +1,5 @@
 ---
-title: "ACROSS THE BOUNDARIES OF BELIEF: CONTEMPORARY ISSUES IN THE ANTHROPOLOGY OF RELIGION"
+title: "Across the Boundaries of Belief: Contemporary Issues in the Anthropology of Religion"
 article_number:
 author: "Carol S Anderson"
 affilation:

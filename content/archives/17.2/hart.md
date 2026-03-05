@@ -1,6 +1,6 @@
 ---
-title: "TRANS-SORTAL KNOWING IN THE CLOUD OF UNKNOWING AND BOOK OF PRIVY COUNSELLING: SOME PHENOMENOLOGICAL CONSIDERATIONS."
-author: "JAMES G. HART"
+title: "Trans-Sortal Knowing in the Cloud of Unknowing and Book of Privy Counselling: Some Phenomenological Considerations."
+author: "James G. Hart"
 affilation:
 abstract: "The overall theme of"
 keywords:

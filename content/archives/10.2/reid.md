@@ -1,5 +1,5 @@
 ---
-title: "H.D. AND THE ARCHAEOLOGY OF RELIGION"
+title: "H.D. and the Archaeology of Religion"
 author: "Colbey Emmerson-Reid"
 affilation:
 abstract:

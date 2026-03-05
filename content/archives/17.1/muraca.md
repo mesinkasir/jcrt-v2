@@ -1,6 +1,6 @@
 ---
-title: "THEOLOGY AS THE PRACTICE OF (RADICAL) ALTERNATIVES: A CHOREOGRAPHIC ENCOUNTER WITH CLOUD OF THE IMPOSSIBLE."
-author: "BARBARA MURACA"
+title: "Theology as the Practice of (Radical) Alternatives: a Choreographic Encounter with Cloud of the Impossible."
+author: "Barbara Muraca"
 affilation:
 abstract:
 keywords:

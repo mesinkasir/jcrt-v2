@@ -1,5 +1,5 @@
 ---
-title: "LONG TIME COMING: THEOLOGY, METHODOLOGY, CULTURAL THEORY"
+title: "Long Time Coming: Theology, Methodology, Cultural Theory"
 author: "Clayton Crockett"
 affilation:
 abstract:

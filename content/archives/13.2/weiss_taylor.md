@@ -1,5 +1,5 @@
 ---
-title: "THE CULTURAL UN/LIFE OF ZOMBIES."
+title: "The Cultural UN/Life of Zombies."
 author: "DENNIS M. WEISS; Victor Taylor"
 affilation:
 abstract: "An introduction is presented in which the editor discusses reports within the issue including evolution of the zombie in mainstream and gay films, contrast between films"

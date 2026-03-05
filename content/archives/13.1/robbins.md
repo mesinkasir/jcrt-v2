@@ -1,6 +1,6 @@
 ---
-title: "DECOLONIALITY AND CRISIS INTRODUCTION"
-author: "NIKOLAY KARKOV; JEFFREY W. ROBBINS"
+title: "Decoloniality and Crisis Introduction"
+author: "Nikolay Karkov; Jeffrey W. Robbins"
 affilation:
 abstract: "An introduction to a special issue on decoloniality and crisis is presented including articles on radical multiculturalism and decolonial feminism, the rendering of Latino/a immigrants, and the Christian logic of conversion."
 keywords:

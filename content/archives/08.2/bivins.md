@@ -1,5 +1,5 @@
 ---
-title: "THE RELIGION OF FEAR: CONSERVATIVE EVANGELICALS, IDENTITY, AND ANTILIBERAL POP"
+title: "The Religion of Fear: Conservative Evangelicals, Identity, and Antiliberal Pop"
 author: "Jason Bivins"
 affilation:
 abstract:

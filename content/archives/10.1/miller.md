@@ -1,5 +1,5 @@
 ---
-title: "PRAISE OF THE SECULAR"
+title: "Praise of the Secular"
 author: "David LeRoy Miller"
 affilation:
 abstract:

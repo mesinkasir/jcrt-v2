@@ -1,5 +1,5 @@
 ---
-title: "CAPITALISM AND RELIGION: THE PRICE OF PIETY"
+title: "Capitalism and Religion: the Price of Piety"
 author: "Lars Iyer"
 affilation:
 abstract:

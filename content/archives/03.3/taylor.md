@@ -1,5 +1,5 @@
 ---
-title: "THE CITY OF K: FRANZ KAFKA AND PRAGUE"
+title: "The City of K: Franz Kafka and Prague"
 article_number:
 author: "Victor Taylor"
 affilation:

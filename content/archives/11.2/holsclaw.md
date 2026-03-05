@@ -1,5 +1,5 @@
 ---
-title: "CHRIST IN CIRCULATION: THE EUCHARISTIC EXCHANGE AND MONEY"
+title: "Christ in Circulation: the Eucharistic Exchange and Money"
 author: "Geoffrey Holsclaw"
 affilation:
 abstract:

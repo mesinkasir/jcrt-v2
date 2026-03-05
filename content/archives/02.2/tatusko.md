@@ -1,5 +1,5 @@
 ---
-title: "THE THEOLOGICAL CHALLENGE OF CYBERSPACE AND THE LOGIC OF SIMULATION"
+title: "The Theological Challenge of Cyberspace and the Logic of Simulation"
 article_number:
 author: "Andrew Tatusko"
 affilation:

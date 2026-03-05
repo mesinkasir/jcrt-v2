@@ -1,5 +1,5 @@
 ---
-title: "THE POLITICS OF FEAR AND THE GOSPEL OF LIFE"
+title: "The Politics of Fear and the Gospel of Life"
 author: "Daniel M Jr Bell"
 affilation:
 abstract:

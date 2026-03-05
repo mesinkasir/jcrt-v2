@@ -1,5 +1,5 @@
 ---
-title: "THE WORD OF FREUD: OUR GOD IS LOGOS"
+title: "The Word of Freud: Our God Is Logos"
 article_number:
 author: "Robert Metcalf"
 affilation:

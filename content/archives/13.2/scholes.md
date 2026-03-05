@@ -1,6 +1,6 @@
 ---
-title: "THE PROBLEM WITH GRACE: RECONFIGURING POLITICAL THEOLOGY."
-author: "JEFFREY SCHOLES"
+title: "The Problem with Grace: Reconfiguring Political Theology."
+author: "Jeffrey Scholes"
 affilation:
 abstract:
 keywords:

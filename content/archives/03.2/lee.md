@@ -1,5 +1,5 @@
 ---
-title: "DEAD MAN"
+title: "Dead Man"
 article_number:
 author: "C Jason Lee"
 affilation:

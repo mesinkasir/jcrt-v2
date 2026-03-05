@@ -1,6 +1,6 @@
 ---
-title: "BEYOND RELIGIOUS IDEAS: THE LEGACY OF MAX WEBER IN CRITICAL THEORY AND CRITICAL RELIGION."
-author: "JOEL HARRISON"
+title: "Beyond Religious Ideas: the Legacy of Max Weber in Critical Theory and Critical Religion."
+author: "Joel Harrison"
 affilation:
 abstract:
 keywords:

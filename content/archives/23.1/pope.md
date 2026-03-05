@@ -1,5 +1,5 @@
 ---
-title: "THE IMAGE OF GOD AND OUR VOCATION OF THE SOIL"
+title: "The Image of God and Our Vocation of the Soil"
 author: "Mick Pope"
 affilation:
 abstract: 

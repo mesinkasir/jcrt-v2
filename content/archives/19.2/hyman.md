@@ -1,6 +1,6 @@
 ---
-title: "THE “NEW HEGEL” AND THE QUESTION OF GOD"
-author: "GAVIN HYMAN"
+title: "The “New Hegel” and the Question of God"
+author: "Gavin Hyman"
 affilation:
 abstract:
 keywords:

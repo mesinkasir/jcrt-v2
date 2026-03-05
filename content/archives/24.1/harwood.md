@@ -1,5 +1,5 @@
 ---
-title: "RECONSIDERING THE SIGNIFICANCE OF BIOGENETIC TIES"
+title: "Reconsidering the Significance of Biogenetic Ties"
 author: "Karey Harwood"
 affilation:
 abstract:

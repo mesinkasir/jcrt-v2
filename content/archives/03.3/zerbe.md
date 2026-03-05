@@ -1,5 +1,5 @@
 ---
-title: "ANAXIMANDER AND THE ARCHITECTS: THE CONTRIBUTIONS OF EGYPTIAN AND GREEK ARCHITECTURAL TECHNOLOGIES TO THE ORIGINS OF GREEK PHILOSOPHY"
+title: "Anaximander and the Architects: the Contributions of Egyptian and Greek Architectural Technologies to the Origins of Greek Philosophy"
 article_number:
 author: "Michael J Zerbe"
 affilation:

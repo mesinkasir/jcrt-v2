@@ -1,5 +1,5 @@
 ---
-title: "ACCURATE MYSTERY: ROBERT DUNCAN’S H. D. BIBLIOGRAPHY CRITICALLY ANNOTATED"
+title: "Accurate Mystery: Robert Duncan’s H. D. Bibliography Critically Annotated"
 author: "Robert Duncan; Amy Evans"
 affilation:
 abstract: 

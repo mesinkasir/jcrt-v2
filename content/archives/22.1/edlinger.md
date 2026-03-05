@@ -1,6 +1,6 @@
 ---
-title: "THE SACRED AS BORDERING PRACTICE"
-author: "ANNA-MARIA EDLINGER"
+title: "The Sacred as Bordering Practice"
+author: "Anna-Maria Edlinger"
 affilation:
 abstract: 
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: "REFUSING THEORY: AVITAL RONELL AND THE STRUCTURE OF STUPIDITY"
+title: "Refusing Theory: Avital Ronell and the Structure of Stupidity"
 article_number:
 author: "Victor Taylor"
 affilation:

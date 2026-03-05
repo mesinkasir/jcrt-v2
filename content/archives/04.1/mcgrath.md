@@ -1,5 +1,5 @@
 ---
-title: "PHÄNOMENOLOGIE DES RELIGIÖSEN LEBENS"
+title: "PhÄNomenologie Des ReligiÖSen Lebens"
 article_number:
 author: "Sean J McGrath"
 affilation:

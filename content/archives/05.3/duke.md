@@ -1,5 +1,5 @@
 ---
-title: "THE MAKING OF AMERICAN LIBERAL THEOLOGY 2 IDEALISM, REALISM, AND MODERNITY 1900-1950"
+title: "The Making of American Liberal Theology 2 Idealism, Realism, and Modernity 1900-1950"
 author: "James O Duke"
 affilation:
 abstract:

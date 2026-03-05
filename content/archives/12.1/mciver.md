@@ -1,5 +1,5 @@
 ---
-title: "SHAME WITHOUT SHAME: WHAT REMAINS OF MODERNIST AESTHETICS"
+title: "Shame without Shame: What Remains of Modernist Aesthetics"
 author: "Mia L McIver"
 affilation:
 abstract:

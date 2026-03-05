@@ -1,6 +1,6 @@
 ---
-title: "SOMETHING TO DO WITH A GIRL NAMED MARLA: EROS AND GENDER IN FINCHER’S FIGHT CLUB."
-author: "VERNON W. CISNEY"
+title: "Something to Do with a Girl Named Marla: Eros and Gender in Fincher’s Fight Club."
+author: "Vernon W. Cisney"
 affilation:
 abstract:
 keywords:

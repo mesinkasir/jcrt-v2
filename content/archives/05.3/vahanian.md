@@ -1,5 +1,5 @@
 ---
-title: "ARISTOTLE’S CHILDREN: HOW CHRISTIANS, MUSLIMS, AND JEWS REDISCOVERED ANCIENT WISDOM AND ILLUMINATED THE DARK AGES"
+title: "Aristotle’s Children: How Christians, Muslims, and Jews Rediscovered Ancient Wisdom and Illuminated the Dark Ages"
 author: "Nöelle Vahanian"
 affilation:
 abstract:

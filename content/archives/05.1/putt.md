@@ -1,5 +1,5 @@
 ---
-title: "CITIES OF GOD"
+title: "Cities of God"
 author: "B Keith Putt"
 affilation:
 abstract:

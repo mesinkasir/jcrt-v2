@@ -1,5 +1,5 @@
 ---
-title: "‘REAPPEARANCE OF PAUL, ’SICK”: FOUCAULT’S BIOPOLITICS AND THE SIGNIFICANCE OF PASOLINI’S APOSTLE"
+title: "‘Reappearance of Paul, ’Sick”: Foucault’s Biopolitics and the Significance of Pasolini’s Apostle"
 author: "Ward Blanton"
 affilation:
 abstract: 

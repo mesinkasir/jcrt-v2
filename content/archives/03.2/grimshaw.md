@@ -1,5 +1,5 @@
 ---
-title: "PREACHER"
+title: "Preacher"
 article_number:
 author: "Mike Grimshaw"
 affilation:

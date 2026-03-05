@@ -1,5 +1,5 @@
 ---
-title: "TEACHING FOR SOCIAL JUSTICE: CREATING A CONTEXT FOR EDUCATION"
+title: "Teaching for Social Justice: Creating a Context for Education"
 author: "Rebecca Todd Peters"
 affilation:
 abstract: 

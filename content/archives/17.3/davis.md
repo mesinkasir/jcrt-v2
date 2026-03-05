@@ -1,6 +1,6 @@
 ---
-title: "HEGEMONY AND TECHNO-RATIONALITY - TOWARD AN AESTHETIC SOTERIOLOGY."
-author: "MASON DAVIS"
+title: "Hegemony and Techno-Rationality - Toward an Aesthetic Soteriology."
+author: "Mason Davis"
 affilation:
 abstract:
 keywords:

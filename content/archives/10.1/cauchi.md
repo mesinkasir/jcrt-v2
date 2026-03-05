@@ -1,5 +1,5 @@
 ---
-title: "THE SECULAR TO COME: INTERROGATING THE DERRIDEAN ‘SECULAR’"
+title: "The Secular to Come: Interrogating the Derridean ‘Secular’"
 author: "Mark Cauchi"
 affilation:
 abstract:

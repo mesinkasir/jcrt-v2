@@ -1,6 +1,6 @@
 ---
-title: "NOT YOUR GRANDMOTHER’S THEORY OF RELIGION: AN INTERVIEW WITH CARL RASCHKE."
-author: "CARL RASCHKE; DAVID HALE"
+title: "Not Your Grandmother’s Theory of Religion: an Interview with Carl Raschke."
+author: "Carl Raschke; David Hale"
 affilation:
 abstract: "The article presents an interview with journal editor Carl A. Raschke who discusses his book"
 keywords:

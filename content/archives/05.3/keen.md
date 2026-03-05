@@ -1,5 +1,5 @@
 ---
-title: "PREDICTING RELIGION: CHRISTIAN, SECULAR AND ALTERNATIVE FUTURES"
+title: "Predicting Religion: Christian, Secular and Alternative Futures"
 author: "Daniel E Rossi Keen"
 affilation:
 abstract:

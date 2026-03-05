@@ -1,5 +1,5 @@
 ---
-title: "SLOW READING: LEARNING THE TIME OF THE BODY"
+title: "Slow Reading: Learning the Time of the Body"
 author: "Karmen MacKendrick"
 affilation:
 abstract: 

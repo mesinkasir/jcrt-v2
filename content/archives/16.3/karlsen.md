@@ -1,6 +1,6 @@
 ---
-title: "THE TRUTH OF PAUL ACCORDING TO ALAIN BADIOU."
-author: "MADS PETER KARLSEN"
+title: "The Truth of Paul According to Alain Badiou."
+author: "Mads Peter Karlsen"
 affilation:
 abstract:
 keywords:

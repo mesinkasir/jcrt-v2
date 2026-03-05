@@ -1,5 +1,5 @@
 ---
-title: "SPOOKY NOISES: GHOSTS IN THE MUSIC MACHINE OF PAUL D. MILLER (AKA DJ SPOOKY)"
+title: "Spooky Noises: Ghosts in the Music Machine of Paul D. Miller (Aka Dj Spooky)"
 author: "Joshua Delpech-Ramey; DJ Spooky That Subliminal Kid"
 affilation:
 abstract:

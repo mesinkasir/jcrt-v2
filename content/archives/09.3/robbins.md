@@ -1,5 +1,5 @@
 ---
-title: "LIBERAL THEOLOGY: A RADICAL VISION"
+title: "Liberal Theology: a Radical Vision"
 author: "Jeffrey W Robbins"
 affilation:
 abstract:

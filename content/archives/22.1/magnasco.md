@@ -1,5 +1,5 @@
 ---
-title: "THE RE-ENCHANTMENT OF BODIES: THE TRANSFORMATIVE POWER OF CHARISMATIC HEALINGS IN THE “WORLD OF PHENOMENA”"
+title: "The Re-Enchantment of Bodies: the Transformative Power of Charismatic Healings in the “World of Phenomena”"
 author: "Anna-Maria Magnasco"
 affilation:
 abstract: 

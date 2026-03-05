@@ -1,5 +1,5 @@
 ---
-title: "ABOUT ABOUT RELIGION: A CONVERSATION WITH MARK C. TAYLOR"
+title: "About About Religion: a Conversation with Mark C. Taylor"
 article_number:
 author: "Mark C Taylor; Carl A. Raschke"
 affilation:

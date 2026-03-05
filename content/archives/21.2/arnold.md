@@ -1,6 +1,6 @@
 ---
-title: "WHY THE WHITE GUY?"
-author: "PHILIP P. ARNOLD"
+title: "Why the White Guy?"
+author: "Philip P. Arnold"
 affilation:
 abstract:
 keywords:

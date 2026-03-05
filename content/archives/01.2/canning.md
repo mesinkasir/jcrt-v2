@@ -1,5 +1,5 @@
 ---
-title: "JESUS CHRIST HOLOCAUST: FABULATION OF THE JEWS IN CHRISTIAN AND NAZI NISTORY"
+title: "Jesus Christ Holocaust: Fabulation of the Jews in Christian and Nazi Nistory"
 article_number:
 author: "Peter Canning"
 affilation:

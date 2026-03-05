@@ -1,5 +1,5 @@
 ---
-title: "THE CRITIQUE OF THEOLOGICAL REASON"
+title: "The Critique of Theological Reason"
 article_number:
 author: "David Hale"
 affilation:

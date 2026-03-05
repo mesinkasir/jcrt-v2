@@ -1,6 +1,6 @@
 ---
-title: "THE BELL JAR’S NEW LOOK - SYLVIA PLATH, SIMONE DE BEAUVOIR, AND THE VISUAL REPRESENTATION OF FEMINIST DISCOURSE."
-author: "MADELINE YONKER"
+title: "The Bell Jar’s New Look - Sylvia Plath, Simone De Beauvoir, and the Visual Representation of Feminist Discourse."
+author: "Madeline Yonker"
 affilation:
 abstract:
 keywords:

@@ -1,6 +1,6 @@
 ---
-title: "TSIMTSUM IN LIFE OF PI."
-author: "DANIEL REISER"
+title: "Tsimtsum in Life of Pi."
+author: "Daniel Reiser"
 affilation:
 abstract:
 keywords:

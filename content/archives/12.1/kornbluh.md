@@ -1,5 +1,5 @@
 ---
-title: "ENJOYING LAW: PSYCHOANALYSIS AND SOVEREIGN BODIES"
+title: "Enjoying Law: Psychoanalysis and Sovereign Bodies"
 author: "Anna Kornbluh"
 affilation:
 abstract:

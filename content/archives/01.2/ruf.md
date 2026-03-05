@@ -1,5 +1,5 @@
 ---
-title: "THE RIDE OF PASSAGE: THE PURSUIT OF DANGER, TRANCE, AND FAILURE IN MARK TWAIN, PAUL BOWLES, AND US"
+title: "The Ride of Passage: the Pursuit of Danger, Trance, and Failure in Mark Twain, Paul Bowles, and US"
 article_number:
 author: "Frederick J Ruf"
 affilation:

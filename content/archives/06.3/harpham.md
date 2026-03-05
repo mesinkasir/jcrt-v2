@@ -1,5 +1,5 @@
 ---
-title: "DERRIDA, SAID, AND INFINITY"
+title: "Derrida, Said, and Infinity"
 author: "Geoffrey Galt Harpham"
 affilation:
 abstract:

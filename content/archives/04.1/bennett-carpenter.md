@@ -1,5 +1,5 @@
 ---
-title: "QUOTING MIEKE BAL’S NAVEL: CONTEMPORARY THEORY, PREPOSTEROUS RELIGION"
+title: "Quoting Mieke Bal’s Navel: Contemporary Theory, Preposterous Religion"
 article_number:
 author: "Benjamin Bennett-Carpenter"
 affilation:

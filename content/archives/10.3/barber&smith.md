@@ -1,5 +1,5 @@
 ---
-title: "TOO POOR FOR MEASURE: WORKING WITH NEGRI ON POVERTY AND FABULATION"
+title: "Too Poor for Measure: Working with Negri on Poverty and Fabulation"
 author: "Daniel Colucciello Barber; Anthony Paul Smith"
 affilation:
 abstract:

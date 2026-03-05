@@ -1,6 +1,6 @@
 ---
-title: "THE END OF THEOLOGY AND THE EVENT OF TRUTH: AN INTRODUCTION"
-author: "CARL RASCHKE"
+title: "The End of Theology and the Event of Truth: an Introduction"
+author: "Carl Raschke"
 affilation:
 abstract: 
 keywords:

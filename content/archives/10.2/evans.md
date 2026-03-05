@@ -1,5 +1,5 @@
 ---
-title: "TRANSCRIPTION NOTES"
+title: "Transcription Notes"
 author: "Amy Evans"
 affilation:
 abstract: 

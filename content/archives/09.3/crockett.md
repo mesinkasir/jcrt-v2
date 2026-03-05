@@ -1,5 +1,5 @@
 ---
-title: "THE THEOLOGY OF MONEY"
+title: "The Theology of Money"
 author: "Clayton Crockett"
 affilation:
 abstract:

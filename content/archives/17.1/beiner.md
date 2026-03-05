@@ -1,6 +1,6 @@
 ---
-title: "BENJAMIN’S CONCEPT OF HISTORY AS A SOURCE OF ARENDT’S IDEA OF JUDGMENT."
-author: "RONALD BEINER"
+title: "Benjamin’s Concept of History as a Source of Arendt’s Idea of Judgment."
+author: "Ronald Beiner"
 affilation:
 abstract:
 keywords:

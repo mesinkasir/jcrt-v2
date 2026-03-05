@@ -1,5 +1,5 @@
 ---
-title: "THE ASSUMPTION OF DESIRE: KIERKEGAARD, LACAN, AND THE TRAUMA OF THE EUCHARIST"
+title: "The Assumption of Desire: Kierkegaard, Lacan, and the Trauma of the Eucharist"
 author: "Marcus Pound"
 affilation:
 abstract:

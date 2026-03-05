@@ -1,5 +1,5 @@
 ---
-title: "THE SOLAR NUN: THE PROPHETIC ACTION AND THOUGHT OF SR. PAULA GONZALEZ, S.C"
+title: "The Solar Nun: the Prophetic Action and Thought of Sr. Paula Gonzalez, S.C"
 author: "Elijah Prewitt-Davis"
 affilation:
 abstract: 

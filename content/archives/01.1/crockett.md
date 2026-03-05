@@ -1,5 +1,5 @@
 ---
-title: "ANXIETY AND THE S(UB)LIME BODY OF GOD"
+title: "Anxiety and the S(Ub)Lime Body of God"
 tags: 
   - cat
 author: "Clayton Crockett"

@@ -1,6 +1,6 @@
 ---
-title: "HORIZON, TRANSCENDENCE, AND CORRELATION: SOME PHENOMENOLOGICAL CONSIDERATIONS."
-author: "BRANKO KLUN"
+title: "Horizon, Transcendence, and Correlation: Some Phenomenological Considerations."
+author: "Branko Klun"
 affilation:
 abstract:
 keywords:

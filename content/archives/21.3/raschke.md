@@ -1,5 +1,5 @@
 ---
-title: "A CRITICAL CONVERSATION ON “POLITICAL ERASURE”"
+title: "A Critical Conversation on “Political Erasure”"
 author: "Arthur Bradley; Carl A. Raschke; Roger Green"
 affilation:
 abstract:

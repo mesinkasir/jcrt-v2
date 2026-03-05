@@ -1,6 +1,6 @@
 ---
-title: "THE HOLLOW CHRISTIANS OF END TIMES FICTION."
-author: "PAUL MALTBY"
+title: "The Hollow Christians of End Times Fiction."
+author: "Paul Maltby"
 affilation:
 abstract:
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: "TRAGIC THOUGHTS AT THE END OF PHILOSOPHY: LANGUAGE, LITERATURE AND ETHICAL THEORY"
+title: "Tragic Thoughts at the End of Philosophy: Language, Literature and Ethical Theory"
 author: "Daniel L Tate"
 affilation:
 abstract:

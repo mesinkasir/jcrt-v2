@@ -1,5 +1,5 @@
 ---
-title: "PEDAGOGY AND RADICAL EQUALITY: RANCIÈRE’S IGNORANT SCHOOLMASTER"
+title: "Pedagogy and Radical Equality: RanciÈRe’s Ignorant Schoolmaster"
 author: "Clayton Crockett"
 affilation:
 abstract: 

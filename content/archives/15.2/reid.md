@@ -1,6 +1,6 @@
 ---
-title: "THE GROTTESCHE DESIGNS OF H.G. WELLS (OR, CRIPPING STYLE)."
-author: "COLBEY EMMERSON REID"
+title: "The Grottesche Designs of H.G. Wells (or, Cripping Style)."
+author: "Colbey Emmerson Reid"
 affilation:
 abstract: "An essay is presented on related to neoclassical pattern design grottesche which was featured in the science fiction novel"
 keywords:

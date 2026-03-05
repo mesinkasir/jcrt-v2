@@ -1,5 +1,5 @@
 ---
-title: "BINDING FREEDOM: EMBODIMENT OF THE SECULAR AND RELIGIOUS"
+title: "Binding Freedom: Embodiment of the Secular and Religious"
 author: "Kevin Hujing"
 affilation:
 abstract: 

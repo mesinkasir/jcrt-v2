@@ -1,5 +1,5 @@
 ---
-title: "PARENTHESIS"
+title: "Parenthesis"
 author: "Niall Gildea"
 affilation:
 abstract: 

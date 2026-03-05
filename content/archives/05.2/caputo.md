@@ -1,5 +1,5 @@
 ---
-title: "LOVE AMONG THE DECONSTRUCTIBLES: A RESPONSE TO GREGG LAMBERT"
+title: "Love Among the Deconstructibles: a Response to Gregg Lambert"
 author: "John D Caputo"
 affilation:
 abstract:

@@ -1,5 +1,5 @@
 ---
-title: "THE SLEEPING GIANT HAS AWOKEN: THE NEW POLITICS OF RELIGION IN THE UNITED STATES"
+title: "The Sleeping Giant Has Awoken: the New Politics of Religion in the United States"
 author: "Aaron Klink"
 affilation:
 abstract:

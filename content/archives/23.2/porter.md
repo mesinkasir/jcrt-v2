@@ -1,5 +1,5 @@
 ---
-title: "DIS/ORDERED LIBERTY: ISLAMIC AND CATHOLIC FEMINIST PERSPECTIVES ON NATURAL LAW AFTER DOBBS"
+title: "Dis/Ordered Liberty: Islamic and Catholic Feminist Perspectives on Natural Law After Dobbs"
 author: "Andrew Stone Porter"
 affilation:
 abstract:

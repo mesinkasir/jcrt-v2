@@ -1,5 +1,5 @@
 ---
-title: "THE SECRET THAT GOD KEEPS FROM US: ON THE NECESSARY PLURALITY OF RELIGIONS IN KANT"
+title: "The Secret That God Keeps from US: on the Necessary Plurality of Religions in Kant"
 author: "Cory Stockwell"
 affilation:
 abstract:

@@ -1,5 +1,5 @@
 ---
-title: "KNOCKING ON HEAVEN’S DOOR: AMERICAN RELIGION IN THE AGE OF COUNTERCULTURE"
+title: "Knocking on Heaven’s Door: American Religion in the Age of Counterculture"
 author: "Michael J Gilmour"
 affilation:
 abstract:

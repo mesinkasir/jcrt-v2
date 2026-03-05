@@ -1,5 +1,5 @@
 ---
-title: "THE AMBIGUOUS GIFT OF DESIRE"
+title: "The Ambiguous Gift of Desire"
 article_number: 02
 author: "Charles E Winquist"
 affilation:

@@ -30,7 +30,11 @@
     <div class="row">
       {% for item in sorted_items %}
         {% set entry = item.entry %}
-        {% set toc_number = ("00" + loop.index0).slice(-2) %}
+        {% if use_article_number and entry.data.article_number %}
+          {% set toc_number = entry.data.article_number %}
+        {% else %}
+          {% set toc_number = ("00" + loop.index0).slice(-2) %}
+        {% endif %}
         <div class="col-12 border-bottom pb-3 mb-3 article-item">
           <h3 class="h5 serif fw-bold mb-1">
             <span class="text-muted me-2">{{ toc_number }}</span>

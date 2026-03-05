@@ -1,6 +1,6 @@
 ---
-title: "UNIVOCITY FOR MILITANTS: SET-THEORETICAL ONTOLOGY AND THE DEATH OF THE ONE."
-author: "KING-HO LEUNG"
+title: "Univocity for Militants: Set-Theoretical Ontology and the Death of the One."
+author: "King-Ho Leung"
 affilation:
 abstract:
 keywords:

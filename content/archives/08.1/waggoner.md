@@ -1,5 +1,5 @@
 ---
-title: "THE FRANKFURT SCHOOL ON RELIGION: KEY WRITINGS BY THE MAJOR THINKERS"
+title: "The Frankfurt School on Religion: Key Writings by the Major Thinkers"
 author: "Matthew Waggoner"
 affilation:
 abstract:

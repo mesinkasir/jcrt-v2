@@ -1,6 +1,6 @@
 ---
-title: "THE BORDERLINES OF THEODICY."
-author: "MARTIN WOESSNER"
+title: "The Borderlines of Theodicy."
+author: "Martin Woessner"
 affilation:
 abstract:
 keywords:

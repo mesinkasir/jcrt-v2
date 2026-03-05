@@ -1,5 +1,5 @@
 ---
-title: "NIHILISM ON A ROLLERCOASTER?"
+title: "Nihilism on a Rollercoaster?"
 author: "Ian McPherson"
 affilation:
 abstract:

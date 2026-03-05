@@ -1,6 +1,6 @@
 ---
-title: "DREAMING INNOCENCE IN AMERICA: PAUL TILLICH’S RADICAL THEOLOGY OF LIBERATION."
-author: "ALAN JAY RICHARD"
+title: "Dreaming Innocence in America: Paul Tillich’s Radical Theology of Liberation."
+author: "Alan Jay Richard"
 affilation:
 abstract:
 keywords:

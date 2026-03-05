@@ -1,5 +1,5 @@
 ---
-title: "OF GHOSTS AND ANGELS: DERRIDA, KUSHNER, AND THE IMPOSSIBILITY OF FORGIVENESS"
+title: "Of Ghosts and Angels: Derrida, Kushner, and the Impossibility of Forgiveness"
 author: "Mary-Jane Rubenstein"
 affilation:
 abstract:

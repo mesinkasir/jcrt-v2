@@ -1,5 +1,5 @@
 ---
-title: "RELIGION AND PSYCHOANALYSIS: THREE FUNDAMENTAL CONCEPTS"
+title: "Religion and Psychoanalysis: Three Fundamental Concepts"
 author: "Julia Reinhard Lupton"
 affilation:
 abstract: 

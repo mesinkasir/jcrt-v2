@@ -1,6 +1,6 @@
 ---
-title: "PHILOSOPHICAL ANTHROPOLOGY OR PHILOSOPHY OF PRAXIS? AXEL HONNETH AND ANDREW FEENBERG ON LUKACS‘ THEORY OF REIFICATION."
-author: "KONSTANTINOS KAVOULAKOS"
+title: "Philosophical Anthropology or Philosophy of Praxis? Axel Honneth and Andrew Feenberg on Lukacs‘ Theory of Reification."
+author: "Konstantinos Kavoulakos"
 affilation:
 abstract:
 keywords:

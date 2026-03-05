@@ -1,5 +1,5 @@
 ---
-title: "THE VACCINATION OF THE INFINITE: LEVINAS‘ METAPHYSICAL DESIRE AND THE CALL OF THE OTHER"
+title: "The Vaccination of the Infinite: Levinas‘ Metaphysical Desire and the Call of the Other"
 author: "Drew M Dalton"
 affilation:
 abstract:

@@ -1,6 +1,6 @@
 ---
-title: "RELIGION, SECULARITY, GENDER, VIOLENCE, & DEATH."
-author: "BEATRICE MAROVICH"
+title: "Religion, Secularity, Gender, Violence, & Death."
+author: "Beatrice Marovich"
 affilation:
 abstract:
 keywords:

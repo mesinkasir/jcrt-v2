@@ -1,6 +1,6 @@
 ---
-title: "FETISHISM AND THE ERASURE OF INDIGENEITY."
-author: "ROGER K. GREEN"
+title: "Fetishism and the Erasure of Indigeneity."
+author: "Roger K. Green"
 affilation:
 abstract:
 keywords:

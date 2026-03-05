@@ -1,5 +1,5 @@
 ---
-title: "AUTHENTIC FAKES: RELIGION AND AMERICAN POPULAR CULTURE"
+title: "Authentic Fakes: Religion and American Popular Culture"
 author: "Eric Bain-Selbo"
 affilation:
 abstract:

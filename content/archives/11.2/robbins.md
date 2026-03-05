@@ -1,5 +1,5 @@
 ---
-title: "OPERATION NEPTUNE SPEAR"
+title: "Operation Neptune Spear"
 author: "Jeffrey W Robbins"
 affilation:
 abstract:

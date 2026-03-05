@@ -1,5 +1,5 @@
 ---
-title: "SECULARISMS"
+title: "Secularisms"
 author: "Jonathan A Seitz"
 affilation:
 abstract:

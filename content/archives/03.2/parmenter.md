@@ -1,5 +1,5 @@
 ---
-title: "THE BOOK OF THE HEART"
+title: "The Book of the Heart"
 article_number:
 author: "Dorina Miller Parmenter"
 affilation:

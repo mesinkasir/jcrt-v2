@@ -1,6 +1,6 @@
 ---
-title: "THE FUNCTION OF FAITH: THEOLOGICAL CONSTITUENTS IN PROCESSUAL UTOPIAN METHODOLOGY."
-author: "JERRY BURKETTE"
+title: "The Function of Faith: Theological Constituents in Processual Utopian Methodology."
+author: "Jerry Burkette"
 affilation:
 abstract:
 keywords:

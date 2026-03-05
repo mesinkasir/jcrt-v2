@@ -1,6 +1,6 @@
 ---
-title: "THE RELUCTANT FUNDAMENTALIST“ AND THE INHOSPITABLE STATE - ABRAHAMIC HOSPITALITY AND THE LIMITS OF MULTICULTURALISM"
-author: "EMILY MCAVAN"
+title: "The Reluctant Fundamentalist“ and the Inhospitable State - Abrahamic Hospitality and the Limits of Multiculturalism"
+author: "Emily McAvan"
 affilation:
 abstract:
 keywords:

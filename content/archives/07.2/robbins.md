@@ -1,5 +1,5 @@
 ---
-title: "BEGINNING TO THINK"
+title: "Beginning to Think"
 author: "Jeffrey W Robbins"
 affilation:
 abstract:

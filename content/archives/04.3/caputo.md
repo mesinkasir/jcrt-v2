@@ -1,5 +1,5 @@
 ---
-title: "WITHOUT SOVEREIGNTY, WITHOUT BEING: UNCONDITIONALITY, THE COMING OF GOD AND DERRIDA’S DEMOCRACY TO COME"
+title: "Without Sovereignty, without Being: Unconditionality, the Coming of God and Derrida’s Democracy to Come"
 author: "John D Caputo"
 affilation:
 abstract:

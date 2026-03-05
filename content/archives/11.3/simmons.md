@@ -1,5 +1,5 @@
 ---
-title: "IN WHOM, THEN, DO WE PUT TRUST?"
+title: "In Whom, Then, Do We Put Trust?"
 author: "J Aaron Simmons"
 affilation:
 abstract:

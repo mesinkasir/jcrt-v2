@@ -1,6 +1,6 @@
 ---
-title: "“PERFECT INTERINDEPENDENCY”: REPRESENTING CRIP FUTURITY IN BECKETT’S MERCIER AND CAMIER"
-author: "REBECCA SANCHEZ"
+title: "“Perfect Interindependency”: Representing Crip Futurity in Beckett’s Mercier and Camier"
+author: "Rebecca Sanchez"
 affilation:
 abstract: "An essay is presented on the representations of crip futurity in the novel"
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: "GESCHLECHT III: AUTHENTIC FAITH, RELIGION, AND POLITICS IN DERRIDA’S READING OF HEIDEGGER’S GEIST"
+title: "Geschlecht III: Authentic Faith, Religion, and Politics in Derrida’s Reading of Heidegger’s Geist"
 author: "Jake S Sirota"
 affilation:
 abstract:

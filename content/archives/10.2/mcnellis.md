@@ -1,5 +1,5 @@
 ---
-title: "‘AN UNUSUAL WAY TO THINK’: TRILOGY’S ORACULAR POETICS"
+title: "‘An Unusual Way to Think’: Trilogy’s Oracular Poetics"
 author: "Erin M McNellis"
 affilation:
 abstract:

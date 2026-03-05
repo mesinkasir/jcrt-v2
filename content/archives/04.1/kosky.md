@@ -1,5 +1,5 @@
 ---
-title: "ICONIC REVISIONS OF THE MODERN WORLD PICTURE"
+title: "Iconic Revisions of the Modern World Picture"
 article_number:
 author: "Jeffrey L Kosky"
 affilation:

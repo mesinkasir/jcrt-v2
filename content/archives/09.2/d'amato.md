@@ -1,5 +1,5 @@
 ---
-title: "BUDDHISM, APOPHASIS, TRUTH"
+title: "Buddhism, Apophasis, Truth"
 author: "Mario D'Amato"
 affilation:
 abstract:

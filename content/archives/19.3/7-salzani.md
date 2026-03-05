@@ -1,5 +1,5 @@
 ---
-title: "FALSE RELIGIONS AND TRUE POLITICS: COUNTERING CAPITALISM AS RELIGION"
+title: "False Religions and True Politics: Countering Capitalism as Religion"
 author: "Carlo Salzani"
 affilation:
 abstract:

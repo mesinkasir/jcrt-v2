@@ -1,5 +1,5 @@
 ---
-title: "WALTER BENJAMIN, RELIGION, AND AESTHETICS: RETHINKING RELIGION THROUGH THE ARTS"
+title: "Walter Benjamin, Religion, and Aesthetics: Rethinking Religion Through the Arts"
 author: "Will Buckingham"
 affilation:
 abstract:

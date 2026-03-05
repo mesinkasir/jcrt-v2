@@ -1,5 +1,5 @@
 ---
-title: "WHY GOD WON’T GO AWAY: BRAIN SCIENCE AND THE BIOLOGY OF BELIEF"
+title: "Why God Won’t Go Away: Brain Science and the Biology of Belief"
 article_number:
 author: "Noel Dane Scott"
 affilation:

@@ -1,6 +1,6 @@
 ---
-title: "THINKING THE ABSOLUTE EDGE BETWEEN ALTIZER AND LEAHY."
-author: "ALINA N. FELD"
+title: "Thinking the Absolute Edge Between Altizer and Leahy."
+author: "Alina N. Feld"
 affilation:
 abstract:
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: "THEOLOGY AND THE POLITICAL: THE NEW DEBATE"
+title: "Theology and the Political: the New Debate"
 author: "Anthony Paul Smith"
 affilation:
 abstract:

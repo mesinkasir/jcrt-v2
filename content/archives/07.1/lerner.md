@@ -1,5 +1,5 @@
 ---
-title: "ON BULLSHIT"
+title: "On Bullshit"
 author: "Berel Dov Lerner"
 affilation:
 abstract:

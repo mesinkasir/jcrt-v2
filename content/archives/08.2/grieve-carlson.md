@@ -1,5 +1,5 @@
 ---
-title: "GLIMMER OF A NEW LEVIATHAN: TOTAL WAR IN THE REALISM OF NIEBUHR, MORGENTHAU, AND WALTZ"
+title: "Glimmer of a New Leviathan: Total War in the Realism of Niebuhr, Morgenthau, and Waltz"
 author: "Gary Grieve-Carlson"
 affilation:
 abstract:

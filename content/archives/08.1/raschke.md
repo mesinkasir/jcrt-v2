@@ -1,5 +1,5 @@
 ---
-title: "THE WEAKNESS OF GOD...AND OF THEOLOGICAL THOUGHT FOR THAT MATTER: ACTA EST FABULA PLAUDITE"
+title: "The Weakness of God...and of Theological Thought for That Matter: Acta Est Fabula Plaudite"
 author: "Carl A. Raschke"
 affilation:
 abstract:

@@ -1,5 +1,5 @@
 ---
-title: "AFTER JACQUES DERRIDA COMES THE FUTURE"
+title: "After Jacques Derrida Comes the Future"
 article_number:
 author: "John D Caputo"
 affilation:

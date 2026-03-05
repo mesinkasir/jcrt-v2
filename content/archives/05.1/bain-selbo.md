@@ -1,5 +1,5 @@
 ---
-title: "RELIGION AND RATIONALITY: ESSAYS ON REASON, GOD, AND MODERNITY"
+title: "Religion and Rationality: Essays on Reason, God, and Modernity"
 author: "Eric Bain-Selbo"
 affilation:
 abstract:

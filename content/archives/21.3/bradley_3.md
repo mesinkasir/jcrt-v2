@@ -1,6 +1,6 @@
 ---
-title: "A RESPONSE TO NIALL GILDEA."
-author: "ARTHUR BRADLEY"
+title: "A Response to Niall Gildea."
+author: "Arthur Bradley"
 affilation:
 abstract: 
 keywords:

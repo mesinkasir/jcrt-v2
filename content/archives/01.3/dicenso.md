@@ -1,5 +1,5 @@
 ---
-title: "SPLITTING RELIGION: HETERONOMY, AUTONOMY, AND REFLECTION"
+title: "Splitting Religion: Heteronomy, Autonomy, and Reflection"
 article_number:
 author: "James J DiCenso"
 affilation:

@@ -1,5 +1,5 @@
 ---
-title: "THE FIGURE OF THE STRANGER: A POSSIBILITY FOR TRANSCENDENTAL MINIMALISM OR RADICAL SUBJECTIVITY"
+title: "The Figure of the Stranger: a Possibility for Transcendental Minimalism or Radical Subjectivity"
 author: "Katerina Kolozova"
 affilation:
 abstract:

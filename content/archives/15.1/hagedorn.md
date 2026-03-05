@@ -1,6 +1,6 @@
 ---
-title: "RENÉ GIRARD’S THEORY OF SACRIFICE, OR: WHAT IS THE GIFT OF DEATH?"
-author: "LUDGER HAGEDORN"
+title: "RenÉ Girard’s Theory of Sacrifice, or: What Is the Gift of Death?"
+author: "Ludger Hagedorn"
 affilation:
 abstract: "The article discusses a study by French historian René Girard (1923-2015) titled"
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: "REGIONALISM OR PROVINCIALISM?: THEOLOGY AND THE SEEMINGLY CONTINUAL CRISIS IN RELIGIOUS STUDIES"
+title: "Regionalism or Provincialism?: Theology and the Seemingly Continual Crisis in Religious Studies"
 author: "Mike Grimshaw"
 affilation:
 abstract:

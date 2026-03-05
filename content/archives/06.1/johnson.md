@@ -1,5 +1,5 @@
 ---
-title: "PLAYING POKER WITH PASCAL: THEOLOGY IN THE AMERICAN CASINO"
+title: "Playing Poker with Pascal: Theology in the American Casino"
 author: "Bradley A Johnson"
 affilation:
 abstract:

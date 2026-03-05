@@ -1,5 +1,5 @@
 ---
-title: "THE SEMIOTICS OF EMBODIMENT: RADICAL ORTHODOXY AND JEWISH-CHRISTIAN RELATIONS"
+title: "The Semiotics of Embodiment: Radical Orthodoxy and Jewish-Christian Relations"
 article_number:
 author: "Randi Rashkover"
 affilation:

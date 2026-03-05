@@ -1,6 +1,6 @@
 ---
-title: "REORIENTATION IN THE FIELD: WHY RELIGION MATTERS."
-author: "WENDY FELESE"
+title: "Reorientation in the Field: Why Religion Matters."
+author: "Wendy Felese"
 affilation:
 abstract:
 keywords:

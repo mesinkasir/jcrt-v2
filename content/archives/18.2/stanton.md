@@ -1,6 +1,6 @@
 ---
-title: "IF THE QUR’AN IS GOD’S SPEECH, HOW DOES GOD SPEAK? DIVINE SPEAKING IN CONTEMPORARY MUSLIM DISCOURSE."
-author: "ANDREA L. STANTON"
+title: "If the Qur’an Is God’s Speech, How Does God Speak? Divine Speaking in Contemporary Muslim Discourse."
+author: "Andrea L. Stanton"
 affilation:
 abstract:
 keywords:

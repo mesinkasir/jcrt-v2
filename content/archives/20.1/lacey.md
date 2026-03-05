@@ -1,6 +1,6 @@
 ---
-title: "LONGING FOR AN IMPOSSIBLE PAST: DIFFÉRANCE, DISTANCE, AND THE CORONAVIRUS AS THE INAUGURATION OF AN AGE OF WRITING."
-author: "JARED LACEY"
+title: "Longing for an Impossible Past: DiffÉRance, Distance, and the Coronavirus as the Inauguration of an Age of Writing."
+author: "Jared Lacey"
 affilation:
 abstract:
 keywords:

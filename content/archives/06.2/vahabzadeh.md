@@ -1,5 +1,5 @@
 ---
-title: "THE LESSER EVIL: POLITICAL ETHICS IN THE AGE OF TERROR"
+title: "The Lesser Evil: Political Ethics in the Age of Terror"
 author: "Peyman Vahabzadeh"
 affilation:
 abstract:

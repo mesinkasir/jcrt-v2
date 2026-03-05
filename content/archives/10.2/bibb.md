@@ -1,5 +1,5 @@
 ---
-title: "VISION, PARANOIA, AND THE CREATIVE POWER OF OBSESSIVE INTERPRETATION"
+title: "Vision, Paranoia, and the Creative Power of Obsessive Interpretation"
 author: "Aaron Bibb"
 affilation:
 abstract:

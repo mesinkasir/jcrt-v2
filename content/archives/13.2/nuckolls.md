@@ -1,6 +1,6 @@
 ---
-title: "THE WALKING DEAD AS CONSERVATIVE CULTURAL CRITIQUE."
-author: "CHARLES NUCKOLLS"
+title: "The Walking Dead as Conservative Cultural Critique."
+author: "Charles Nuckolls"
 affilation:
 abstract: "The article explores the television (TV) series"
 keywords:

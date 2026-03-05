@@ -1,5 +1,5 @@
 ---
-title: "BIO-PAULITICS"
+title: "Bio-Paulitics"
 author: "Arne De Boever"
 affilation:
 abstract:

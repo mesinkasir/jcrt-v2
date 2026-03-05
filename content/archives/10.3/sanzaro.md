@@ -1,5 +1,5 @@
 ---
-title: "GOD IN THE GALLERY: A CHRISTIAN EMBRACE OF MODERN ART"
+title: "God in the Gallery: a Christian Embrace of Modern Art"
 author: "Francis Sanzaro"
 affilation:
 abstract:

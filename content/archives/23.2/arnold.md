@@ -1,5 +1,5 @@
 ---
-title: "A CONVERSATION WITH PHILIP P. ARNOLD ON THE URGENCY OF INDIGENOUS VALUES"
+title: "A Conversation with Philip P. Arnold on the Urgency of Indigenous Values"
 author: "Philip P Arnold; Victor Taylor"
 affilation:
 abstract:

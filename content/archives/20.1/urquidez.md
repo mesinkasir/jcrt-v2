@@ -1,6 +1,6 @@
 ---
-title: "THE RELIGIOUS SIGNIFICANCE OF MIRACLES: WHY HUME’S CRITIQUE OF MIRACLES IS SUPERFLUOUS."
-author: "ALBERTO URQUIDEZ"
+title: "The Religious Significance of Miracles: Why Hume’s Critique of Miracles Is Superfluous."
+author: "Alberto Urquidez"
 affilation:
 abstract:
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: "AMERICA AND THE CHALLENGES OF RELIGIOUS DIVERSITY"
+title: "America and the Challenges of Religious Diversity"
 author: "Robert E Alvis"
 affilation:
 abstract:

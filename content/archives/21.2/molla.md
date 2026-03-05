@@ -1,5 +1,5 @@
 ---
-title: "FROM HOLISTIC TO IN-BETWEEN THEOLOGY: THE ETHIOPIAN EVANGELICAL CHURCH MEKANE YESUS"
+title: "From Holistic to in-Between Theology: the Ethiopian Evangelical Church Mekane Yesus"
 author: "Rode Molla"
 affilation:
 abstract:

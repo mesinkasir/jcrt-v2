@@ -1,5 +1,5 @@
 ---
-title: "A CONVERSATION ON THE FUTURE OF THEORY"
+title: "A Conversation on the Future of Theory"
 article_number:
 author: "Jean-Michel Rabaté; Gregg Lambert"
 affilation:

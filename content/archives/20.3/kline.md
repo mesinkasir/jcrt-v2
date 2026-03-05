@@ -1,6 +1,6 @@
 ---
-title: "ANTINOMIAN FLESH."
-author: "DAVID KLINE"
+title: "Antinomian Flesh."
+author: "David Kline"
 affilation:
 abstract:
 keywords:

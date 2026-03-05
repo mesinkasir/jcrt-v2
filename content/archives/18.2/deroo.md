@@ -1,6 +1,6 @@
 ---
-title: "THE DANGERS OF DEALING WITH DERRIDA: REVISITING THE CAPUTO-HÄGGLUND DEBATE ON THE"
-author: "NEAL DEROO"
+title: "The Dangers of Dealing with Derrida: Revisiting the Caputo-HÄGglund Debate on The"
+author: "Neal Deroo"
 affilation:
 abstract:
 keywords:

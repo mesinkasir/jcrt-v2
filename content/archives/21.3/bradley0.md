@@ -1,6 +1,6 @@
 ---
 title: "A Critical Conversation on “Political Erasure”"
-author: "ARTHUR BRADLEY"
+author: "Arthur Bradley"
 affilation:
 abstract:
 keywords: []

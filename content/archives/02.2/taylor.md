@@ -1,5 +1,5 @@
 ---
-title: "THE METAPHYSICS OF INDETERMINACY: POSTMODERN RELIGIOUS THEORY AND THE RUIN OF REFERENTIALITY"
+title: "The Metaphysics of Indeterminacy: Postmodern Religious Theory and the Ruin of Referentiality"
 article_number:
 author: "Victor Taylor"
 affilation:

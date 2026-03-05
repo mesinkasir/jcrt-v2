@@ -1,6 +1,6 @@
 ---
-title: "CRUSADERS WITHOUT A CROSS: BIOPOLITICAL AND SECULAR RECONFIGURATION OF COSMIC WAR."
-author: "DONNIE FEATHERSTON"
+title: "Crusaders without a Cross: Biopolitical and Secular Reconfiguration of Cosmic War."
+author: "Donnie Featherston"
 affilation:
 abstract: "The article offers the insights of American scholar Mark Juergensmeyer which include understanding contemporary terrorism, resurgence of religious identity, and the motif of cosmic war."
 keywords:

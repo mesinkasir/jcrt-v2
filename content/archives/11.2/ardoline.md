@@ -1,5 +1,5 @@
 ---
-title: "DELEUZE AND NEW TECHNOLOGY"
+title: "Deleuze and New Technology"
 author: "Michael J Ardoline"
 affilation:
 abstract:

@@ -1,5 +1,5 @@
 ---
-title: "UNDEAD"
+title: "Undead"
 author: "Boštjan Nedoh"
 affilation:
 abstract: 

@@ -1,5 +1,5 @@
 ---
-title: "GLOBALIZATION AND ITS ENEMIES"
+title: "Globalization and Its Enemies"
 author: "Diane E Johnson"
 affilation:
 abstract:

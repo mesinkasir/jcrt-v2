@@ -1,6 +1,6 @@
 ---
-title: "LACAN, LEVINAS, AND THE POLITICS OF THE SUBJECT."
-author: "JOSHUA LAWRENCE"
+title: "Lacan, Levinas, and the Politics of the Subject."
+author: "Joshua Lawrence"
 affilation:
 abstract:
 keywords:

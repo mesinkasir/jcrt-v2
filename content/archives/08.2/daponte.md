@@ -1,5 +1,5 @@
 ---
-title: "SEPTEMBER 11: RELIGIOUS PERSPECTIVES ON THE CAUSES AND CONSEQUENCES"
+title: "September 11: Religious Perspectives on the Causes and Consequences"
 author: "Paul J DaPonte"
 affilation:
 abstract:

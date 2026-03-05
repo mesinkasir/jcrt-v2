@@ -12,7 +12,7 @@ export default {
 		jsonCitationUrl: (data) => {
 			const slug = data?.page?.fileSlug;
 			if (!slug) return null;
-			return `/citations/religioustheory/${slug}.json`;
+			return `/citations/religioustheory/${slug}.csl.json`;
 		},
 	},
 };

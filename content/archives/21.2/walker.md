@@ -1,6 +1,6 @@
 ---
-title: "AFRICANS MAKING THE MODERN WORLD: ACCORDING TO DR. CHARLES H. LONG."
-author: "SHEILA S. WALKER"
+title: "Africans Making the Modern World: According to Dr. Charles H. Long."
+author: "Sheila S. Walker"
 affilation:
 abstract:
 keywords:

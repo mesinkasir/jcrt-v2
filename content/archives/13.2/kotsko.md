@@ -1,6 +1,6 @@
 ---
-title: "OUT OF THE WOODS ? ON ŽIŽEK’S LESS THAN NOTHING."
-author: "ADAM KOTSKO"
+title: "Out of the Woods ? on ŽIŽEk’s Less Than Nothing."
+author: "Adam Kotsko"
 affilation:
 abstract: "The article explores"
 keywords:

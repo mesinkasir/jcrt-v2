@@ -1,6 +1,6 @@
 ---
-title: "REFRAMING THE ADWA VICTORY AS A DECOLONIZING PRAXIS: DISCOURSE AROUND COLONIZATION IN THE ETHIOPIAN CONTEXT."
-author: "RODE MOLLA"
+title: "Reframing the Adwa Victory as a Decolonizing Praxis: Discourse Around Colonization in the Ethiopian Context."
+author: "Rode Molla"
 affilation:
 abstract:
 keywords:

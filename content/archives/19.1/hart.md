@@ -1,6 +1,6 @@
 ---
-title: "AFTERTHINKING ALTIZER: REDEMPTION AND THE DIVINE RECUSAL."
-author: "RAY L. HART"
+title: "Afterthinking Altizer: Redemption and the Divine Recusal."
+author: "Ray L. Hart"
 affilation:
 abstract:
 keywords:

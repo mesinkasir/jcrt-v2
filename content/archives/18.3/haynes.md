@@ -1,6 +1,6 @@
 ---
-title: "TOWARD DECOLONIZING PHILOSOPHY OF RELIGION: THINKING HERETICALLY WITH AFRICAN INDIGENOUS RELIGIONS."
-author: "PATRICE HAYNES"
+title: "Toward Decolonizing Philosophy of Religion: Thinking Heretically with African Indigenous Religions."
+author: "Patrice Haynes"
 affilation:
 abstract:
 keywords:

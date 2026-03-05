@@ -1,6 +1,6 @@
 ---
-title: "THEOPRAXESIS AND THE FUTURE OF H’MMM IN THE UNIVERSITY: AN INTERVIEW WITH GREGORY L. ULMER"
-author: "SERGIO C.FIGUEIREDO"
+title: "Theopraxesis and the Future of H’mmm in the University: an Interview with Gregory L. Ulmer"
+author: "Sergio C.figueiredo"
 affilation:
 abstract:
 keywords: []

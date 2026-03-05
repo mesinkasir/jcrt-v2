@@ -1,5 +1,5 @@
 ---
-title: "RETHINKING FUNDAMENTALISM: RUHOLLAH KNOMEINI, MAWLANA MAWDUDI, AND THE FUNDAMENTALIST MODEL"
+title: "Rethinking Fundamentalism: Ruhollah Knomeini, Mawlana Mawdudi, and the Fundamentalist Model"
 author: "Simon A Wood"
 affilation:
 abstract:

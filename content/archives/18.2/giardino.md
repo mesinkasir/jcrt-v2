@@ -1,6 +1,6 @@
 ---
-title: "DIVINE ABSENCE AS DIVINE PRESENCE."
-author: "JOSHUA GIARDINO"
+title: "Divine Absence as Divine Presence."
+author: "Joshua Giardino"
 affilation:
 abstract:
 keywords:

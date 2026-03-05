@@ -1,6 +1,6 @@
 ---
 title: "The Beautiful Marrano: A Response to Agata Blielik-Robson"
-author: "ARTHUR BRADLEY"
+author: "Arthur Bradley"
 affilation:
 abstract:
 keywords: []

@@ -1,5 +1,5 @@
 ---
-title: "CHOSEN"
+title: "Chosen"
 author: "Christopher D Rodkey"
 affilation:
 abstract:

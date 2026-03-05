@@ -1,6 +1,6 @@
 ---
-title: "ON IGNORANT AND INSIGHTFUL CHICKENS: WHY ŽIŽEKIAN POST SECULARITY NEEDS HALBERSTAM’S SHADOW FEMINISM."
-author: "KAREN BRAY"
+title: "On Ignorant and Insightful Chickens: Why ŽIŽEkian Post Secularity Needs Halberstam’s Shadow Feminism."
+author: "Karen Bray"
 affilation:
 abstract:
 keywords:

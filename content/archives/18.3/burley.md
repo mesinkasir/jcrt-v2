@@ -1,6 +1,6 @@
 ---
-title: "“A LANGUAGE IN WHICH TO THINK OF THE WORLD” – ANIMISM, INDIGENOUS TRADITIONS, AND THE DEPROVINCIALIZATION OF PHILOSOPHY OF RELIGION."
-author: "MIKEL BURLEY"
+title: "“A Language in Which to Think of the World” – Animism, Indigenous Traditions, and the Deprovincialization of Philosophy of Religion."
+author: "Mikel Burley"
 affilation:
 abstract:
 keywords:

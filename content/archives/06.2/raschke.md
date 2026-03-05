@@ -1,5 +1,5 @@
 ---
-title: "DERRIDA AND THE RETURN OF RELIGION: RELIGIOUS THEORY AFTER POSTMODERNISM"
+title: "Derrida and the Return of Religion: Religious Theory After Postmodernism"
 author: "Carl A. Raschke"
 affilation:
 abstract:

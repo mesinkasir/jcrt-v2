@@ -1,5 +1,5 @@
 ---
-title: "MEASURE AND DEMOCRACY IN THE AGE OF POLITICS OF FRIGHT"
+title: "Measure and Democracy in the Age of Politics of Fright"
 author: "Peyman Vahabzadeh"
 affilation:
 abstract:

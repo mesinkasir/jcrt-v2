@@ -1,6 +1,6 @@
 ---
-title: "GOD’S ABSENCE AS TEXTUAL PRESENCE: THE RADICAL (LITERARY) THEOLOGY OF NORTHROP FRYE."
-author: "DANIEL FISHLEY"
+title: "God’s Absence as Textual Presence: the Radical (Literary) Theology of Northrop Frye."
+author: "Daniel Fishley"
 affilation:
 abstract:
 keywords:

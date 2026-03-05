@@ -1,5 +1,5 @@
 ---
-title: "NEITHER/NOR: THE MUTUAL NEGATION OF S ØREN KIERKEGAARD’S EARLY PSEUDONYMOUS VOICES"
+title: "Neither/Nor: the Mutual Negation of S ØRen Kierkegaard’s Early Pseudonymous Voices"
 author: "Jochen Schmidt"
 affilation:
 abstract:

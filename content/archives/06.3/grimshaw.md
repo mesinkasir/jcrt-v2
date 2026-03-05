@@ -1,5 +1,5 @@
 ---
-title: "DID GOD DIE IN THE CHRISTIAN CENTURY?"
+title: "Did God Die in the Christian Century?"
 author: "Mike Grimshaw"
 affilation:
 abstract:

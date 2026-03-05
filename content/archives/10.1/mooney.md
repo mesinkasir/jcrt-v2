@@ -1,5 +1,5 @@
 ---
-title: "MEDITATIONS ON DEATH AND THE SUBLIME: HENRY BUGBEE’S IN DEMONSTRATION OF SPIRIT"
+title: "Meditations on Death and the Sublime: Henry Bugbee’s in Demonstration of Spirit"
 author: "Edward F Mooney"
 affilation:
 abstract:

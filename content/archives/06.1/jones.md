@@ -1,5 +1,5 @@
 ---
-title: "WHAT THE DOING DOES: RELIGIOUS PRACTICE & THE PROBLEM OF MEANING"
+title: "What the Doing Does: Religious Practice & the Problem of Meaning"
 author: "Andrea Sun-Mee Jones"
 affilation:
 abstract:

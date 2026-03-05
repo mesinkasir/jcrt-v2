@@ -1,5 +1,5 @@
 ---
-title: "RADICAL NARCISSISM AND THE FREEDOM TO CHOOSE OTHERWISE: A CRITIQUE OF HÄGGLUND’S DERRIDA"
+title: "Radical Narcissism and the Freedom to Choose Otherwise: a Critique of HÄGglund’s Derrida"
 author: "Daniel M Finer"
 affilation:
 abstract:

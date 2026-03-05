@@ -1,6 +1,6 @@
 ---
-title: "NORMATIVE ENCOUNTERS: A RADICAL PROPOSAL FOR PHILOSOPHY OF RELIGION."
-author: "BRADLEY ONISHI"
+title: "Normative Encounters: a Radical Proposal for Philosophy of Religion."
+author: "Bradley Onishi"
 affilation:
 abstract:
 keywords:

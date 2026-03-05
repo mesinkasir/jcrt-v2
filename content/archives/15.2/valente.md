@@ -1,6 +1,6 @@
 ---
-title: "IS THE AU IN AUTISM THE AU IN AUTONOMY?"
-author: "JOSEPH VALENTE"
+title: "Is the Au in Autism the Au in Autonomy?"
+author: "Joseph Valente"
 affilation:
 abstract: "The author discusses how culture can sentimentalize autism as disabled stereotype, as liberal myth of individualism, and as the after image of ego ideal."
 keywords:

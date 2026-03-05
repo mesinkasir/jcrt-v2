@@ -1,5 +1,5 @@
 ---
-title: "THE MATTER OF RESPONSIBILITY: DERRIDA AND GIFTING ACROSS CULTURES"
+title: "The Matter of Responsibility: Derrida and Gifting Across Cultures"
 article_number:
 author: "Ken Lokensgard"
 affilation:

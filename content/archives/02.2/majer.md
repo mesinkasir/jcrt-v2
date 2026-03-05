@@ -1,5 +1,5 @@
 ---
-title: "ON CONTAGIONS: LEVITICUS AND THE FASCINATION OF THE ABOMINATION"
+title: "On Contagions: Leviticus and the Fascination of the Abomination"
 article_number:
 author: "Gerald Majer"
 affilation:

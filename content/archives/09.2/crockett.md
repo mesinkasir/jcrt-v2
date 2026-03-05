@@ -1,5 +1,5 @@
 ---
-title: "THE SUBLIME AND THE MESSIANIC: A REPLY TO AGATA BIELEK-ROBSON"
+title: "The Sublime and the Messianic: a Reply to Agata Bielek-Robson"
 author: "Clayton Crockett"
 affilation:
 abstract:

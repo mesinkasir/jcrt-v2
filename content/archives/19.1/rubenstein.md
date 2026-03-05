@@ -1,6 +1,6 @@
 ---
-title: "ON BECOMING A RADICAL THEOLOGIAN."
-author: "RICHARD L. RUBENSTEIN"
+title: "On Becoming a Radical Theologian."
+author: "Richard L. Rubenstein"
 affilation:
 abstract:
 keywords:

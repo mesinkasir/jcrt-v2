@@ -1,5 +1,5 @@
 ---
-title: "TRUE TO LIFE: WHY TRUTH MATTERS"
+title: "True to Life: Why Truth Matters"
 author: "Eric Bain-Selbo"
 affilation:
 abstract:

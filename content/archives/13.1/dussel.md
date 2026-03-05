@@ -1,6 +1,6 @@
 ---
-title: "ANTI-CARTESIAN MEDITATIONS: ON THE ORIGN OF THE PHILOSOPHICAL ANTI-DISCOURSE OF MODERNITY."
-author: "ENRIQUE DUSSEL"
+title: "Anti-Cartesian Meditations: on the Orign of the Philosophical Anti-Discourse of Modernity."
+author: "Enrique Dussel"
 affilation:
 abstract: "The article discusses the origin of the philosophical anti-discourse of modernity."
 keywords:

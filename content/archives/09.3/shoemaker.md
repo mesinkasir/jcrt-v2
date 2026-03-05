@@ -1,5 +1,5 @@
 ---
-title: "THE FIRE SPREADS: HOLINESS AND PENTECOSTALISM IN THE AMERICAN SOUTH"
+title: "The Fire Spreads: Holiness and Pentecostalism in the American South"
 author: "Stephen P Shoemaker"
 affilation:
 abstract:

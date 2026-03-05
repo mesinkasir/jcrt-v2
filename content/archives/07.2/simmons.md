@@ -1,5 +1,5 @@
 ---
-title: "GIVING AN ACCOUNT OF ONESELF"
+title: "Giving an Account of Oneself"
 author: "J Aaron Simmons"
 affilation:
 abstract:

@@ -1,5 +1,5 @@
 ---
-title: "OF SPECTACULARIZATION: WRITING NEW MEDIA THEORY"
+title: "Of Spectacularization: Writing New Media Theory"
 article_number:
 author: "Craig J Saper"
 affilation:

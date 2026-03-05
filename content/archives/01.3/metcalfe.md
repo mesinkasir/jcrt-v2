@@ -1,5 +1,5 @@
 ---
-title: "WONDER, CREATIVITY AND KNOWLEDGE"
+title: "Wonder, Creativity and Knowledge"
 article_number:
 author: "Andrew W Metcalfe"
 affilation:

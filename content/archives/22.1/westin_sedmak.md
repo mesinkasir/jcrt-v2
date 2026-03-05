@@ -1,5 +1,5 @@
 ---
-title: "EMBODIED TRAUMA AND HEALING"
+title: "Embodied Trauma and Healing"
 author: "Anna Westin; Magdalena Sedmak"
 affilation:
 abstract: 

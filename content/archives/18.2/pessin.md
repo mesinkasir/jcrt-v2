@@ -1,6 +1,6 @@
 ---
-title: "KENOSIS, EMANCIPATION, PASTNESS: REFLECTIONS FROM A JEW."
-author: "SARAH PESSIN"
+title: "Kenosis, Emancipation, Pastness: Reflections from a Jew."
+author: "Sarah Pessin"
 affilation:
 abstract:
 keywords:

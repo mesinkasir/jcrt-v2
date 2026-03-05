@@ -1,5 +1,5 @@
 ---
-title: "MINIMAL DIFFERENCE WITH MAXIMAL IMPORT: ‘DEEP PRAGMATISM’ AND GLOBAL RELIGION: AN INTERVIEW WITH HENT DE VRIES"
+title: "Minimal Difference with Maximal Import: ‘Deep Pragmatism’ and Global Religion: an Interview with Hent De Vries"
 author: "Victor Taylor; Hent de Vries"
 affilation:
 abstract:

@@ -1,5 +1,5 @@
 ---
-title: "CHRISTIANITY IN JEWISH TERMS"
+title: "Christianity in Jewish Terms"
 article_number:
 author: "Jason M Flato"
 affilation:

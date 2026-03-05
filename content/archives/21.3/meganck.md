@@ -1,6 +1,6 @@
 ---
-title: "PHILOSOPHY AS LOVE: UNBLOCKING THE ROAD FROM ATHENS TO JERUSALEM."
-author: "ERIK MEGANCK"
+title: "Philosophy as Love: Unblocking the Road from Athens to Jerusalem."
+author: "Erik Meganck"
 affilation:
 abstract:
 keywords:

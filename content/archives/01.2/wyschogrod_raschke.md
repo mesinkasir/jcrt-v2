@@ -1,5 +1,5 @@
 ---
-title: "HETEROLOGICAL HISTORY: A CONVERSATION"
+title: "Heterological History: a Conversation"
 article_number:
 author: "Edith Wyschogrod; Carl A. Raschke"
 affilation:

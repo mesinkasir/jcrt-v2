@@ -1,6 +1,6 @@
 ---
-title: "SPHERES, VOLUME ONE: BUBBLES."
-author: "BENJAMIN FONG"
+title: "Spheres, Volume One: Bubbles."
+author: "Benjamin Fong"
 affilation:
 abstract: "The article reviews the book"
 keywords:

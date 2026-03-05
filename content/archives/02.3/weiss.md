@@ -1,5 +1,5 @@
 ---
-title: "A. I: ARTIFICIAL INTELLIGENCE"
+title: "A. I: Artificial Intelligence"
 article_number:
 author: "Dennis M Weiss"
 affilation:

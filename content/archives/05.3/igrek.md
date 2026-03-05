@@ -1,5 +1,5 @@
 ---
-title: "IMPOSSIBLE GOD: DERRIDA’S THEOLOGY"
+title: "Impossible God: Derrida’s Theology"
 author: "Apple Zefelius Igrek"
 affilation:
 abstract:

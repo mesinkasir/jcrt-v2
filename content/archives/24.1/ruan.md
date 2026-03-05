@@ -1,5 +1,5 @@
 ---
-title: "THE VIOLENCE OF CLASSIFICATION AND ETHICS OF SUICIDE: A REFLECTION ON QIU JIN’S DEATH"
+title: "The Violence of Classification and Ethics of Suicide: a Reflection on Qiu Jin’s Death"
 author: "Genn Ruan; Xiaoqian Zhang"
 affilation:
 abstract:

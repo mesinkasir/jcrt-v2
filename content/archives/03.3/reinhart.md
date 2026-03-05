@@ -1,5 +1,5 @@
 ---
-title: "ON COSMOPOLITANISM AND FORGIVENESS"
+title: "On Cosmopolitanism and Forgiveness"
 article_number:
 author: "David Reinhart"
 affilation:

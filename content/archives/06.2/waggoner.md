@@ -1,5 +1,5 @@
 ---
-title: "GIVING UP THE GOOD: ADORNO, KIERKEGAARD AND THE CRITIQUE OF POLITICAL CULTURE"
+title: "Giving up the Good: Adorno, Kierkegaard and the Critique of Political Culture"
 author: "Matthew Waggoner"
 affilation:
 abstract:

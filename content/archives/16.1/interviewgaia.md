@@ -1,6 +1,6 @@
 ---
-title: "STREET ART AND CIVIC DIALOGUE: AN INTERVIEW WITH GAIA"
-author: "SHELLY CLAY-ROBINSON"
+title: "Street Art and Civic Dialogue: an Interview with Gaia"
+author: "Shelly Clay-Robinson"
 affilation:
 abstract:
 keywords: []

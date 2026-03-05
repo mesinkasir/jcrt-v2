@@ -1,5 +1,5 @@
 ---
-title: "A POST-NATIONAL THEOLOGY OF EMPIRE"
+title: "A Post-National Theology of Empire"
 author: "Jeffrey W Robbins"
 affilation:
 abstract:

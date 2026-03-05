@@ -1,5 +1,5 @@
 ---
-title: "HOLY SUPERHEROES!: EXPLORING THE SACRED IN COMICS, GRAPHIC NOVELS, AND FILM"
+title: "Holy Superheroes!: Exploring the Sacred in Comics, Graphic Novels, and Film"
 author: "A Davis Lewis"
 affilation:
 abstract:

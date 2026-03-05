@@ -1,5 +1,5 @@
 ---
-title: "RELIGION: BEYOND A CONCEPT"
+title: "Religion: Beyond a Concept"
 author: "Matthew T Powell"
 affilation:
 abstract:

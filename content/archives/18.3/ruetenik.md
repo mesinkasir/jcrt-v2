@@ -1,6 +1,6 @@
 ---
-title: "JONATHAN EDWARDS AND THE VEGAN ELECT: AN UNCONVENTIONAL CALVINIST READING."
-author: "TADD RUETENIK"
+title: "Jonathan Edwards and the Vegan Elect: an Unconventional Calvinist Reading."
+author: "Tadd Ruetenik"
 affilation:
 abstract:
 keywords:

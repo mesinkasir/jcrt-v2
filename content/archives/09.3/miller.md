@@ -1,5 +1,5 @@
 ---
-title: "THEOLOGY, PSYCHOANALYSIS, AND TRAUMA"
+title: "Theology, Psychoanalysis, and Trauma"
 author: "Adam S Miller"
 affilation:
 abstract:

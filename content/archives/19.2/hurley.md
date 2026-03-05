@@ -1,6 +1,6 @@
 ---
-title: "HORROR FICTION AND CATHOLIC THEOLOGY - A RHETORICAL SYNTHESIS."
-author: "GAVIN HURLEY"
+title: "Horror Fiction and Catholic Theology - a Rhetorical Synthesis."
+author: "Gavin Hurley"
 affilation:
 abstract:
 keywords:

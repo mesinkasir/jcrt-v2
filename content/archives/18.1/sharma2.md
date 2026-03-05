@@ -1,6 +1,6 @@
 ---
-title: "FRAMING RELIGIOUS CONFLICT AND VIOLENCE - INSIGHTS FROM HISTORICAL INSTITUTIONALISM."
-author: "VIVEK SWAROOP SHARMA"
+title: "Framing Religious Conflict and Violence - Insights from Historical Institutionalism."
+author: "Vivek Swaroop Sharma"
 affilation:
 abstract: 
 keywords:

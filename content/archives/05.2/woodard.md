@@ -1,5 +1,5 @@
 ---
-title: "THE PUPPET AND THE DWARF: THE PERVERSE CORE OF CHRISTIANITY"
+title: "The Puppet and the Dwarf: the Perverse Core of Christianity"
 author: "Jared Woodard"
 affilation:
 abstract:

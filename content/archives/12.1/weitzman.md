@@ -1,5 +1,5 @@
 ---
-title: "ODRADEK’S LAUGHTER"
+title: "Odradek’s Laughter"
 author: "Erica Weitzman"
 affilation:
 abstract:

@@ -1,6 +1,6 @@
 ---
-title: "CHANNELING HATE: BELIEF SYSTEM FACILITATION OF EGODEFENSE MECHANISMS IN THE 1935 RISE OF SOCIAL CREDIT IN ALBERTA."
-author: "DEREK COOK"
+title: "Channeling Hate: Belief System Facilitation of Egodefense Mechanisms in the 1935 Rise of Social Credit in Alberta."
+author: "Derek Cook"
 affilation:
 abstract: 
 keywords:

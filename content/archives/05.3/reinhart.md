@@ -1,5 +1,5 @@
 ---
-title: "PHILOSOPHY IN A TIME OF TERROR: DIALOGUES WITH JÜRGEN HABERMAS AND JACQUES DERRIDA"
+title: "Philosophy in a Time of Terror: Dialogues with JÜRgen Habermas and Jacques Derrida"
 author: "David Reinhart"
 affilation:
 abstract:

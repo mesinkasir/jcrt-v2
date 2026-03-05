@@ -1,6 +1,6 @@
 ---
-title: "WHAT’S MISSING IN THE TURN TO PAUL?: IDENTITY AND DIFFERENCE IN POSTSECULAR THEOLOGY."
-author: "KATHARINE SARAH MOODY"
+title: "What’s Missing in the Turn to Paul?: Identity and Difference in Postsecular Theology."
+author: "Katharine Sarah Moody"
 affilation:
 abstract:
 keywords:

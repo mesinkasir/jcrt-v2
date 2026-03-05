@@ -1,6 +1,6 @@
 ---
-title: "RELIGIOUS FAITH IN PURSUIT OF ENVIRONMENTAL JUSTICE."
-author: "CHRIS DURANTE"
+title: "Religious Faith in Pursuit of Environmental Justice."
+author: "Chris Durante"
 affilation:
 abstract:
 keywords:

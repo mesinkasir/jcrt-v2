@@ -1,5 +1,5 @@
 ---
-title: "INFINITELY DEMANDING: ETHICS OF COMMITMENT, POLITICS OF RESISTANCE"
+title: "Infinitely Demanding: Ethics of Commitment, Politics of Resistance"
 author: "Nathan S Hilberg"
 affilation:
 abstract:

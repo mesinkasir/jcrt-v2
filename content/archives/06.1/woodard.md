@@ -1,5 +1,5 @@
 ---
-title: "MULTITUDE: WAR AND DEMOCRACY IN THE AGE OF EMPIRE"
+title: "Multitude: War and Democracy in the Age of Empire"
 author: "Jared Woodard"
 affilation:
 abstract:

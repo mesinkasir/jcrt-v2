@@ -1,5 +1,5 @@
 ---
-title: "THE SEXUAL POLITICS OF PAIN: HANNAH ARENDT MEETS SHAKESPEARE’S SHREW"
+title: "The Sexual Politics of Pain: Hannah Arendt Meets Shakespeare’s Shrew"
 author: "Nichole E Miller"
 affilation:
 abstract:

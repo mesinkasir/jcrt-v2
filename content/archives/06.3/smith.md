@@ -1,5 +1,5 @@
 ---
-title: "FORMATIONS OF THE SECULAR: CHRISTIANITY, ISLAM, MODERNITY"
+title: "Formations of the Secular: Christianity, Islam, Modernity"
 author: "James K A Smith"
 affilation:
 abstract:

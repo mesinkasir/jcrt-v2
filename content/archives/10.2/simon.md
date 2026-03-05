@@ -1,5 +1,5 @@
 ---
-title: "THE ANTHROPOLOGIC EYE: H.D.‘S CALL FOR A NEW POETICS"
+title: "The Anthropologic Eye: H.D.‘S Call for a New Poetics"
 author: "Lisa Simon"
 affilation:
 abstract:

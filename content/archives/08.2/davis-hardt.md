@@ -1,5 +1,5 @@
 ---
-title: "A CONVERSATION WITH MICHAEL HARDT"
+title: "A Conversation with Michael Hardt"
 author: "Michael Hardt; Creston Davis; Christopher W Haley; Jason Craig"
 affilation:
 abstract:

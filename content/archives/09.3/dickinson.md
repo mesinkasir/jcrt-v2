@@ -1,5 +1,5 @@
 ---
-title: "GOD AFTER METAPHYSICS: A THEOLOGICAL AESTHETIC"
+title: "God After Metaphysics: a Theological Aesthetic"
 author: "Wilson Dickinson"
 affilation:
 abstract:

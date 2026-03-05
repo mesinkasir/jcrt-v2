@@ -1,5 +1,5 @@
 ---
-title: "READING THE MERCHANT OF VENICE THROUGH ADORNO"
+title: "Reading the Merchant of Venice Through Adorno"
 author: "Zdravko Planinc"
 affilation:
 abstract:

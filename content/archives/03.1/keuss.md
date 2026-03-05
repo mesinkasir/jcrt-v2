@@ -1,5 +1,5 @@
 ---
-title: "DIFFÉRANCE THAT COMES AS ONE UNKNOWN: CHRISTOLOGY AFTER DERRIDA’S ‘STRUCTURE, SIGN, AND PLAY IN THE DISCOURSE OF THE HUMAN SCIENCES’"
+title: "DiffÉRance That Comes as One Unknown: Christology After Derrida’s ‘Structure, Sign, and Play in the Discourse of the Human Sciences’"
 article_number:
 author: "Jeffrey F Keuss"
 affilation:

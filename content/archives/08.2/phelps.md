@@ -1,5 +1,5 @@
 ---
-title: "RELIGION, POLITICS, AND THE CHRISTIAN RIGHT: POST-9/11 POWERS AND AMERICAN EMPIRE"
+title: "Religion, Politics, and the Christian Right: Post-9/11 Powers and American Empire"
 author: "Hollis Phelps"
 affilation:
 abstract:

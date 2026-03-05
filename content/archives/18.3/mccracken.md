@@ -1,6 +1,6 @@
 ---
-title: "A NOTE ON PRE-POSITIONS: METHODOLOGY IN THE CONTINENTAL PHILOSOPHY OF RELIGION."
-author: "LUCAS MCCRACKEN"
+title: "A Note on Pre-Positions: Methodology in the Continental Philosophy of Religion."
+author: "Lucas McCracken"
 affilation:
 abstract:
 keywords:

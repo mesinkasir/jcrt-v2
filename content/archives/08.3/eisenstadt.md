@@ -1,5 +1,5 @@
 ---
-title: "HEART’S BLOOD: DERRIDA AND PORTIA ON TRANSLATION"
+title: "Heart’s Blood: Derrida and Portia on Translation"
 author: "Oona Eisenstadt"
 affilation:
 abstract: 

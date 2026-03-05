@@ -1,5 +1,5 @@
 ---
-title: "A ‘SOCIAL CONSTRUCTIONIST’ APPROACH TO ‘MUSLIM BIOMEDICAL ETHICS’: EXAMINING ‘MUSLIM’ OPPOSITION TO PHYSICIAN-ASSISTED SUICIDE"
+title: "A ‘Social Constructionist’ Approach to ‘Muslim Biomedical Ethics’: Examining ‘Muslim’ Opposition to Physician-Assisted Suicide"
 author: "Hossein Godazgar"
 affilation:
 abstract:

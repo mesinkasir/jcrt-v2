@@ -1,5 +1,5 @@
 ---
-title: "DOUBLE EXPOSURE: CUTTING ACROSS BUDDHIST AND WESTERN DISCOURSES"
+title: "Double Exposure: Cutting Across Buddhist and Western Discourses"
 author: "Eric Bain-Selbo"
 affilation:
 abstract:

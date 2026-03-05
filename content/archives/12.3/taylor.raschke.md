@@ -1,6 +1,6 @@
 ---
-title: "FROM ALCHEMY TO REVOLUTION: A CONVERSATION WITH CARL A. RASCHKE."
-author: "CARL A. RASCHKE; VICTOR TAYLOR"
+title: "From Alchemy to Revolution: a Conversation with Carl A. Raschke."
+author: "Carl A. Raschke; Victor Taylor"
 affilation:
 abstract: "An interview of University of Denver's professor Carl A. Raschke that includes depiction of postmodern approaches in deconstruction literature; collaboration of diferent literary discourses in the"
 keywords:

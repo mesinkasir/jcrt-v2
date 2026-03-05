@@ -1,5 +1,5 @@
 ---
-title: "‘CREATE, SHE SAID’: DELEUZE AND FEMINISM (ON DOROTHEA OLKOWSKI’S GILLES DELEUZE AND THE RUIN OF REPRESENTATION)"
+title: "‘Create, She Said’: Deleuze and Feminism (on Dorothea Olkowski’s Gilles Deleuze and the Ruin of Representation)"
 article_number:
 author: "Gregg Lambert"
 affilation:

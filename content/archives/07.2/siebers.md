@@ -1,5 +1,5 @@
 ---
-title: "DISABILITY AESTHETICS"
+title: "Disability Aesthetics"
 author: "Tobin Siebers"
 affilation:
 abstract:

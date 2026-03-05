@@ -1,6 +1,6 @@
 ---
 title: "Response"
-author: "ARTHUR BRADLEY"
+author: "Arthur Bradley"
 affilation:
 abstract:
 keywords: []

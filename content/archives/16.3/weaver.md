@@ -1,6 +1,6 @@
 ---
-title: "BADIOU AND PAULINE THEOLOGY: DETECTING A THEOLOGY OF DEATH."
-author: "TAYLOR WEAVER"
+title: "Badiou and Pauline Theology: Detecting a Theology of Death."
+author: "Taylor Weaver"
 affilation:
 abstract:
 keywords:

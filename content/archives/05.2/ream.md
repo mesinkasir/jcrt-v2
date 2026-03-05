@@ -1,5 +1,5 @@
 ---
-title: "AUGUSTINE AND MODERNITY"
+title: "Augustine and Modernity"
 author: "Todd Ream"
 affilation:
 abstract:

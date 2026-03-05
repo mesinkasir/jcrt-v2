@@ -1,5 +1,5 @@
 ---
-title: "THE MONSTROSITY OF THE OTHER"
+title: "The Monstrosity of the Other"
 author: "Clayton Crockett"
 affilation:
 abstract:

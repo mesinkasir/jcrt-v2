@@ -1,5 +1,5 @@
 ---
-title: "QUEERING KIERKEGAARD: SIN, SEX, AND CRITICAL THEORY"
+title: "Queering Kierkegaard: Sin, Sex, and Critical Theory"
 author: "Ada S Jaarsma"
 affilation:
 abstract:

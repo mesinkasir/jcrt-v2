@@ -1,6 +1,6 @@
 ---
 title: "Undead"
-author: "ARTHUR BRADLEY"
+author: "Arthur Bradley"
 affilation:
 abstract:
 keywords: []

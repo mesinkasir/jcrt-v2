@@ -1,5 +1,5 @@
 ---
-title: "INTRODUCING SPIRIT DANCE: RECONSTRUCTED / SPIRITUAL PRACTICES"
+title: "Introducing Spirit Dance: Reconstructed / Spiritual Practices"
 author: "Joshua M Hall"
 affilation:
 abstract: 

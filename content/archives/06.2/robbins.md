@@ -1,5 +1,5 @@
 ---
-title: "THE POLITICS OF PAUL"
+title: "The Politics of Paul"
 author: "Jeffrey W Robbins"
 affilation:
 abstract:

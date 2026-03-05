@@ -1,5 +1,5 @@
 ---
-title: "FAITH, GRACE, AND THE DESTRUCTION OF TRADITION: A HERMENEUTIC-GENEALOGICAL READING OF THE PAULINE LETTERS"
+title: "Faith, Grace, and the Destruction of Tradition: a Hermeneutic-Genealogical Reading of the Pauline Letters"
 author: "Hans Ruin"
 affilation:
 abstract:

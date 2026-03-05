@@ -1,5 +1,5 @@
 ---
-title: "SHYLOCK: THE KNIGHT OF FAITH?"
+title: "Shylock: the Knight of Faith?"
 author: "Kenneth S Jackson"
 affilation:
 abstract:

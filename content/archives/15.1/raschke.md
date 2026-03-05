@@ -1,6 +1,6 @@
 ---
-title: "WHAT GIVES? FORCE, GIFT, AND THE ONGOING"
-author: "CARL RASCHKE"
+title: "What Gives? Force, Gift, and the Ongoing"
+author: "Carl Raschke"
 affilation:
 abstract: "The article discusses the efforts of German philosopher Edmund Husserl to find the roots of philosophy, which he located in the transcendental method, in his book"
 keywords:

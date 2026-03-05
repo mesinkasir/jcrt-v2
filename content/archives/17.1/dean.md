@@ -1,6 +1,6 @@
 ---
-title: "COLLECTIVE DESIRE AND THE PATHOLOGY OF THE INDIVIDUAL."
-author: "JODI DEAN"
+title: "Collective Desire and the Pathology of the Individual."
+author: "Jodi Dean"
 affilation:
 abstract:
 keywords:

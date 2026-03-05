@@ -1,6 +1,6 @@
 ---
-title: "LOCATING THE OCEANIC IN SYLVIA WYNTER’S"
-author: "JUSTINE M. BAKKER"
+title: "Locating the Oceanic in Sylvia Wynter’s"
+author: "Justine M. Bakker"
 affilation:
 abstract:
 keywords:

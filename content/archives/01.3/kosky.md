@@ -1,5 +1,5 @@
 ---
-title: "CONTEMPORARY ENCOUNTERS WITH APOPHATIC THEOLOGY: THE CASE OF EMMANUEL LEVINAS"
+title: "Contemporary Encounters with Apophatic Theology: the Case of Emmanuel Levinas"
 article_number:
 author: "Jeffrey L Kosky"
 affilation:

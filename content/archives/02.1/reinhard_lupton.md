@@ -1,5 +1,5 @@
 ---
-title: "REVELATION: LACAN AND THE TEN COMMANDMENTS"
+title: "Revelation: Lacan and the Ten Commandments"
 article_number:
 author: "Kenneth Reinhard; Julia Reinhard Lupton"
 affilation:

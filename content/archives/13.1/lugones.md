@@ -1,6 +1,6 @@
 ---
-title: "RADICAL MULTICULTURALISM AND WOMEN OF COLOR FEMINISMS."
-author: "MARIA LUGONES"
+title: "Radical Multiculturalism and Women of Color Feminisms."
+author: "Maria Lugones"
 affilation:
 abstract: "The article discusses the resistances to inclusion in dominant feminisms by Women of Color feminists."
 keywords:

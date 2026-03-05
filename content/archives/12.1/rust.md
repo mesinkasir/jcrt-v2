@@ -1,5 +1,5 @@
 ---
-title: "POLITICAL THEOLOGY: SACRED FLESH AND SOCIAL FORM"
+title: "Political Theology: Sacred Flesh and Social Form"
 author: "Jennifer R Rust"
 affilation:
 abstract:

@@ -1,6 +1,6 @@
 ---
-title: "REWRITING EXODUS: AMERICAN FUTURES FROM DU BOIS TO OBAMA."
-author: "BO EBERLE"
+title: "Rewriting Exodus: American Futures from Du Bois to Obama."
+author: "Bo Eberle"
 affilation:
 abstract:
 keywords:

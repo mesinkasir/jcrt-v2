@@ -1,5 +1,5 @@
 ---
-title: "THE TASK OF THE CRITIC: POETICS, PHILOSOPHY, RELIGION"
+title: "The Task of the Critic: Poetics, Philosophy, Religion"
 author: "Robert Savino Oventile"
 affilation:
 abstract:

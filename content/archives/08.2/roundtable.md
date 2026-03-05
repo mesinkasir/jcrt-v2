@@ -1,5 +1,5 @@
 ---
-title: "A ROUNDTABLE ON GLOBALIZATION"
+title: "A Roundtable on Globalization"
 author: "Gianni Vattimo; Charles Taylor; Richard Rorty"
 affilation:
 abstract: 

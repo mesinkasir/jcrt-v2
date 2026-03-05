@@ -1,5 +1,5 @@
 ---
-title: "DIVISIBLE DERRIDAS"
+title: "Divisible Derridas"
 author: "Victor Taylor"
 affilation:
 abstract:

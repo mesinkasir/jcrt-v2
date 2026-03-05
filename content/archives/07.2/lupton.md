@@ -1,5 +1,5 @@
 ---
-title: "HANNAH ARENDT’S RENAISSANCE: REMARKS ON NATALITY"
+title: "Hannah Arendt’s Renaissance: Remarks on Natality"
 author: "Julia Reinhard Lupton"
 affilation:
 abstract:

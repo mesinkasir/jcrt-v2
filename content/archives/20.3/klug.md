@@ -1,6 +1,6 @@
 ---
-title: "TRUTH AND IRONY: THE CONCEPTION OF TRUTH BEYOND BINARY PATTERNS AND THE USE OF IRONY FOR THEOLOGICAL REASONING."
-author: "FLORIAN KLUG"
+title: "Truth and Irony: the Conception of Truth Beyond Binary Patterns and the Use of Irony for Theological Reasoning."
+author: "Florian Klug"
 affilation:
 abstract:
 keywords:

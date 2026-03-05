@@ -1,6 +1,6 @@
 ---
-title: "APOCALYPTICISM AS POLITICAL THEOLOGY."
-author: "LISSA MCCULLOUGH"
+title: "Apocalypticism as Political Theology."
+author: "Lissa McCullough"
 affilation:
 abstract:
 keywords:

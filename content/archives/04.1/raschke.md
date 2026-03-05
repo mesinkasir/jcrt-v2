@@ -1,5 +1,5 @@
 ---
-title: "FROM RELIGION TO FAITH: LEVINASIAN ETHICS AND THE GRAMMAR OF ADDRESS"
+title: "From Religion to Faith: Levinasian Ethics and the Grammar of Address"
 article_number:
 author: "Carl A. Raschke"
 affilation:

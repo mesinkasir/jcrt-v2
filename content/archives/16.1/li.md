@@ -1,6 +1,6 @@
 ---
-title: "CIVIC ENGAGEMENTS THROUGH A TRANSDUCTIVE DISCOURSE OF CARE."
-author: "HUI-CHUN LI"
+title: "Civic Engagements Through a Transductive Discourse of Care."
+author: "Hui-Chun Li"
 affilation:
 abstract:
 keywords:

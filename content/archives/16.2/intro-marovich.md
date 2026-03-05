@@ -1,6 +1,6 @@
 ---
-title: "NEGOTIATING TERRAIN: GENDER AND THE POSTSECULAR?"
-author: "BEATRICE MAROVICH; ALEX DUBILET"
+title: "Negotiating Terrain: Gender and the Postsecular?"
+author: "Beatrice Marovich; Alex Dubilet"
 affilation:
 abstract:
 keywords:

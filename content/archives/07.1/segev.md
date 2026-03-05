@@ -1,5 +1,5 @@
 ---
-title: "THOUGHT AND BELIEF: THE ATTEMPT AT SPECULATIVE SEEING IN HEGEL"
+title: "Thought and Belief: the Attempt at Speculative Seeing in Hegel"
 author: "Alon Segev"
 affilation:
 abstract:

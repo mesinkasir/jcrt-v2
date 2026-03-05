@@ -1,6 +1,6 @@
 ---
-title: "HEXIS AND GRACE: THE FORMATION OF SOULS AT PORT ROYAL AND ELSEWHERE."
-author: "RICH COCHRANE"
+title: "Hexis and Grace: the Formation of Souls at Port Royal and Elsewhere."
+author: "Rich Cochrane"
 affilation:
 abstract: "The author discusses how Aristotle's concept of hexis (commonly translated as"
 keywords:

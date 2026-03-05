@@ -1,5 +1,5 @@
 ---
-title: "AN ETHICS OF REMEMBERING: HISTORY, HETEROLOGY, AND THE NAMELESS OTHERS"
+title: "An Ethics of Remembering: History, Heterology, and the Nameless Others"
 article_number:
 author: "Steven G Smith"
 affilation:

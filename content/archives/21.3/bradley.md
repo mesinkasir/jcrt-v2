@@ -1,5 +1,5 @@
 ---
-title: "THE BEAUTIFUL MARRANO: A RESPONSE TO AGATA BIELIK-ROBSON"
+title: "The Beautiful Marrano: a Response to Agata Bielik-Robson"
 author: "Arthur Bradley"
 affilation:
 abstract: 

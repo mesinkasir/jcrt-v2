@@ -1,5 +1,5 @@
 ---
-title: "ST. PAUL AND THE EVENT"
+title: "St. Paul and the Event"
 author: "Clayton Crockett"
 affilation:
 abstract:

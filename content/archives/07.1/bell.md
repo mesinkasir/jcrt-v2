@@ -1,5 +1,5 @@
 ---
-title: "HOLINESS, SPEECH AND SILENCE: REFLECTIONS ON THE QUESTIONS OF GOD"
+title: "Holiness, Speech and Silence: Reflections on the Questions of God"
 author: "Daniel M Jr Bell"
 affilation:
 abstract:

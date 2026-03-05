@@ -1,5 +1,5 @@
 ---
-title: "TEACHING WITH FEAR AND TREMBLING: THE TRIAL OF ABRAHAM, THE READER, AND THE PROFESSOR"
+title: "Teaching with Fear and Trembling: the Trial of Abraham, the Reader, and the Professor"
 author: "T Wilson Dickinson"
 affilation:
 abstract: 

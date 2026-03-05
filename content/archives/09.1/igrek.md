@@ -1,5 +1,5 @@
 ---
-title: "KIERKEGAARD AND SOCRATES: A STUDY IN PHILOSOPHY AND FAITH"
+title: "Kierkegaard and Socrates: a Study in Philosophy and Faith"
 author: "Apple Zefelius Igrek"
 affilation:
 abstract:

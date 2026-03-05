@@ -1,5 +1,5 @@
 ---
-title: "SAYING “YOU”: THE GRAMMAR OF ADDRESS AND THE LIMITATIONS OF COGNITIVE THEORIES OF RELIGION"
+title: "Saying “You”: the Grammar of Address and the Limitations of Cognitive Theories of Religion"
 author: "Carl A. Raschke"
 affilation:
 abstract:

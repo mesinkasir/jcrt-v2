@@ -1,5 +1,5 @@
 ---
-title: "DELEUZE AND GEOPHILOSOPHY: A GUIDE AND GLOSSARY"
+title: "Deleuze and Geophilosophy: a Guide and Glossary"
 author: "Brian Buchanan"
 affilation:
 abstract:

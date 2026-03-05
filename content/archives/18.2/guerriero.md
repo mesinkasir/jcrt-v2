@@ -1,6 +1,6 @@
 ---
-title: "NEW RELIGIONS IN BRAZIL: A GAME BETWEEN RELATIVISM AND FUNDAMENTALISM."
-author: "SILAS GUERRIERO"
+title: "New Religions in Brazil: a Game Between Relativism and Fundamentalism."
+author: "Silas Guerriero"
 affilation:
 abstract:
 keywords:

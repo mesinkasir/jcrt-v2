@@ -1,5 +1,5 @@
 ---
-title: "A CONVERSATION WITH CATHERINE MALABOU"
+title: "A Conversation with Catherine Malabou"
 author: "Nöelle Vahanian; Catherine Malabou; Carissa Devine"
 affilation:
 abstract:

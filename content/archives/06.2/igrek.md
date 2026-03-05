@@ -1,5 +1,5 @@
 ---
-title: "GODHEAD AND THE NOTHING"
+title: "Godhead and the Nothing"
 author: "Apple Zefelius Igrek"
 affilation:
 abstract:

@@ -1,5 +1,5 @@
 ---
-title: "SHOPPING MALLS AND OTHER SACRED SPACES: PUTTING GOD IN PLACE"
+title: "Shopping Malls and Other Sacred Spaces: Putting God in Place"
 author: "Christopher D Rodkey"
 affilation:
 abstract:

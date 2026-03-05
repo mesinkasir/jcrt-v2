@@ -1,5 +1,5 @@
 ---
-title: "THE USE AND ABUSE OF THE EXPRESSION “CHRISTIAN NATIONALISM”"
+title: "The Use and Abuse of the Expression “Christian Nationalism”"
 author: "Carl A. Raschke"
 affilation:
 abstract: 

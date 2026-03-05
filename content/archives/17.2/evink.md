@@ -1,6 +1,6 @@
 ---
-title: "RELIGIOUS LIFE AFTER RELIGION: JAN PATOČKA’S CARE FOR THE SOUL AND ITS RELATION TO RELIGION."
-author: "EDDO EVINK"
+title: "Religious Life After Religion: Jan PatoČKa’s Care for the Soul and Its Relation to Religion."
+author: "Eddo Evink"
 affilation:
 abstract: "The much debated allegation of the"
 keywords:

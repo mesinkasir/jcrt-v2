@@ -1,5 +1,5 @@
 ---
-title: "RELIGIOUS PLURALISM AND THE QUESTION OF RELIGIOUS TRUTH IN WILFRED C. SMITH"
+title: "Religious Pluralism and the Question of Religious Truth in Wilfred C. Smith"
 author: "James C. (James Craig) Livingston"
 affilation:
 abstract:

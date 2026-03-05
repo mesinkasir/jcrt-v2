@@ -1,5 +1,5 @@
 ---
-title: "APPROACHES TO AUSCHWITZ: THE HOLOCAUST AND ITS LEGACY"
+title: "Approaches to Auschwitz: the Holocaust and Its Legacy"
 author: "Christopher D Rodkey"
 affilation:
 abstract:

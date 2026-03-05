@@ -1,5 +1,5 @@
 ---
-title: "JUDAISM AND ALTERITY IN BLANCHOT AND LEVINAS"
+title: "Judaism and Alterity in Blanchot and Levinas"
 author: "Michael J Brogan"
 affilation:
 abstract:

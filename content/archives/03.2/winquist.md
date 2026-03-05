@@ -1,5 +1,5 @@
 ---
-title: "IN MEMORIAM: DR. CHARLES E. WINQUIST - JCRT 3.2"
+title: "In Memoriam: Dr. Charles E. Winquist - JCRT 3.2"
 article_number:
 author:
 affilation:

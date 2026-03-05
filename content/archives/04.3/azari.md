@@ -1,5 +1,5 @@
 ---
-title: "GEORGES BATAILLE: A THEORETICAL RESOURCE FOR SCIENTIFIC INVESTIGATION OF RELIGIOUS EXPERIENCE"
+title: "Georges Bataille: a Theoretical Resource for Scientific Investigation of Religious Experience"
 author: "Nina P Azari"
 affilation:
 abstract:

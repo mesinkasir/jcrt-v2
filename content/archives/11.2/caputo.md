@@ -1,5 +1,5 @@
 ---
-title: "THE RETURN OF ANTI-RELIGION: FROM RADICAL ATHEISM TO RADICAL THEOLOGY"
+title: "The Return of Anti-Religion: from Radical Atheism to Radical Theology"
 author: "John D Caputo"
 affilation:
 abstract:

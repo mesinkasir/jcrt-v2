@@ -1,6 +1,6 @@
 ---
-title: "RELIGIOUS AUTONOMY AS SECULARISM’S SILENT PARTNER."
-author: "DARSHAN DATAR"
+title: "Religious Autonomy as Secularism’s Silent Partner."
+author: "Darshan Datar"
 affilation:
 abstract: 
 keywords:

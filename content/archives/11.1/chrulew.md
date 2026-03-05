@@ -1,5 +1,5 @@
 ---
-title: "THE PAULINE ELLIPSIS IN FOUCAULT’S GENEALOGY OF CHRISTIANITY"
+title: "The Pauline Ellipsis in Foucault’s Genealogy of Christianity"
 author: "Matthew Chrulew"
 affilation:
 abstract: 

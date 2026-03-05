@@ -1,6 +1,6 @@
 ---
-title: "“REAL CIRCUMCISION IS A MATTER OF THE HEART”: ON BADIOU’S PAUL AND BOYARIN’S JEWISH QUESTION."
-author: "JORDAN OSSERMAN"
+title: "“Real Circumcision Is a Matter of the Heart”: on Badiou’s Paul and Boyarin’s Jewish Question."
+author: "Jordan Osserman"
 affilation:
 abstract:
 keywords:

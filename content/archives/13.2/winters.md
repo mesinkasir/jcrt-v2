@@ -1,6 +1,6 @@
 ---
-title: "RELIGION AND HIP HOP."
-author: "JOSEPH WINTERS"
+title: "Religion and Hip Hop."
+author: "Joseph Winters"
 affilation:
 abstract:
 keywords:

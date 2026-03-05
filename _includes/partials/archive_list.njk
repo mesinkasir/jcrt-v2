@@ -54,7 +54,14 @@
             {{ post.data.description | truncate(110) if post.data.description else post.templateContent | striptags | truncate(110) }}
           </p>
           
-          <a href="{{ post.url }}" class="btn btn-link p-0 text-primary text-decoration-none fw-bold small text-uppercase">View Document</a>
+          {% set readTitle = post.data.title or "Document" %}
+          {% if ":" in readTitle %}
+            {% set readTitle = (readTitle | split(":"))[0] %}
+          {% endif %}
+          {% if ";" in readTitle %}
+            {% set readTitle = (readTitle | split(";"))[0] %}
+          {% endif %}
+          <a href="{{ post.url }}" class="btn btn-link p-0 text-primary text-decoration-none fw-bold small">Read {{ readTitle | trim | lower }}</a>
         </div>
       {% endfor %}
     </div>

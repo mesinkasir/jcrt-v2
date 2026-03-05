@@ -1,5 +1,5 @@
 ---
-title: "HEGEL CONTRA GOD: REPLYING TO GAVIN HYMAN’S ‘NEW HEGEL’"
+title: "Hegel Contra God: Replying to Gavin Hyman’s ‘New Hegel’"
 article_number:
 author: "Rebekah Howes"
 affilation:

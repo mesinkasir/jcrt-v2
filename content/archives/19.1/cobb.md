@@ -1,6 +1,6 @@
 ---
-title: "ALTIZER, MY THEOLOGICAL CONTEMPORARY."
-author: "JOHN B. COBB JR."
+title: "Altizer, My Theological Contemporary."
+author: "John B. Cobb Jr."
 affilation:
 abstract:
 keywords:

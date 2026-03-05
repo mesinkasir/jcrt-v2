@@ -1,5 +1,5 @@
 ---
-title: "AGAINST RELIGION (‘WITHOUT RELIGION’): A NEW RATIONALIST REPLY TO JOHN D. CAPUTO’S ON RELIGION"
+title: "Against Religion (‘without Religion’): a New Rationalist Reply to John D. Caputo’s on Religion"
 author: "Gregg Lambert"
 affilation:
 abstract:

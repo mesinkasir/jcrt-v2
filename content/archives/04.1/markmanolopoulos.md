@@ -1,5 +1,5 @@
 ---
-title: "WHEN MARION’S THEOLOGY SEEKS CERTAINTY"
+title: "When Marion’s Theology Seeks Certainty"
 article_number:
 author:
 affilation:

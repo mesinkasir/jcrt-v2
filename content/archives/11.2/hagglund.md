@@ -1,5 +1,5 @@
 ---
-title: "THE RADICAL EVIL OF DECONSTRUCTION: A REPLY TO JOHN CAPUTO"
+title: "The Radical Evil of Deconstruction: a Reply to John Caputo"
 author: "Martin Hägglund"
 affilation:
 abstract: 

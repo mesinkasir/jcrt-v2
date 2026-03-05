@@ -1,6 +1,6 @@
 ---
-title: "THE SECULARIZING ETHOS AND THE END OF BIBLICAL AUTHORITY: HOW TODAY’S EVANGELICALS ABANDONED EVANGELICALISM."
-author: "JOSHUA RAMOS"
+title: "The Secularizing Ethos and the End of Biblical Authority: How Today’s Evangelicals Abandoned Evangelicalism."
+author: "Joshua Ramos"
 affilation:
 abstract: 
 keywords:

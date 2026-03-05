@@ -1,5 +1,5 @@
 ---
-title: "LOOSENING PHILOSOPHY’S TONGUE: A CONVERSATION WITH JACK CAPUTO"
+title: "Loosening Philosophy’s Tongue: a Conversation with Jack Caputo"
 article_number:
 author: "John D Caputo; Carl A. Raschke"
 affilation:

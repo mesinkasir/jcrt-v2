@@ -1,5 +1,5 @@
 ---
-title: "I, INSECT; OR, BATAILLE AND THE CRUSH FREAKS"
+title: "I, Insect; or, Bataille and the Crush Freaks"
 author: "Jeremy Biles"
 affilation:
 abstract:

@@ -1,5 +1,5 @@
 ---
-title: "RELIGION’S RELATIONSHIP WITH PUBLIC BIOETHICS: A CRITICAL HISTORICAL ASSESSMENT AND PRAGMATIC METHOD FOR INCLUSIVE DISCOURSE"
+title: "Religion’s Relationship with Public Bioethics: a Critical Historical Assessment and Pragmatic Method for Inclusive Discourse"
 author: "Christopher Durante"
 affilation:
 abstract:

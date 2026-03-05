@@ -1,5 +1,5 @@
 ---
-title: "ANCESTRAL DEVOTION, NEW ENGLAND CONSERVATION, AND THE CHALLENGE OF ENVIRONMENTAL JUSTICE"
+title: "Ancestral Devotion, New England Conservation, and the Challenge of Environmental Justice"
 author: "Daniel Mckanan"
 affilation:
 abstract: 

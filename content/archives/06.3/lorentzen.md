@@ -1,5 +1,5 @@
 ---
-title: "WILLIAM JAMES AND THE SCIENCE OF RELIGIONS: REEXPERIENCING THE VARIETIES OF RELIGIOUS EXPERIENCE"
+title: "William James and the Science of Religions: Reexperiencing the Varieties of Religious Experience"
 author: "Oz Lorentzen"
 affilation:
 abstract:

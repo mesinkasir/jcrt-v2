@@ -1,5 +1,5 @@
 ---
-title: "THE ENVIRONMENTAL ETHICS OF POPE FRANCIS: PARSING KEY TERMS AND CLAIMS IN LAUDATO SI"
+title: "The Environmental Ethics of Pope Francis: Parsing Key Terms and Claims in Laudato Si"
 author: "Thomas Massaro"
 affilation:
 abstract: 

@@ -1,5 +1,5 @@
 ---
-title: "TRUTH AND GENESIS: PHILOSOPHY AS DIFFERENTIAL ONTOLOGY"
+title: "Truth and Genesis: Philosophy as Differential Ontology"
 author: "Matthew S Linck"
 affilation:
 abstract:

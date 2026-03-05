@@ -1,5 +1,5 @@
 ---
-title: "DIGITAL NATION: TOWARD AN INCLUSIVE INFORMATION SOCIETY"
+title: "Digital Nation: Toward an Inclusive Information Society"
 author: "Jeff Ritchie"
 affilation:
 abstract:

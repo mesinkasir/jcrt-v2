@@ -1,6 +1,6 @@
 ---
-title: "JOHN THE POSSIBILIZER: THE PROMISE OF A KEARNIAN BAPTISMAL HERMENEUTIC."
-author: "ERIC TROZZO"
+title: "John the Possibilizer: the Promise of a Kearnian Baptismal Hermeneutic."
+author: "Eric Trozzo"
 affilation:
 abstract:
 keywords:

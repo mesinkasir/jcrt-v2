@@ -1,5 +1,5 @@
 ---
-title: "ME++: THE CYBORG SELF AND THE NETWORKED CITY"
+title: "Me++: the Cyborg Self and the Networked City"
 author: "Pramod K Nayar"
 affilation:
 abstract:

@@ -1,5 +1,5 @@
 ---
-title: "THE EPISTEMIC STATUS OF VALUE-COGNITION IN MAX SCHELER’S PHILOSOPHY OF RELIGION"
+title: "The Epistemic Status of Value-Cognition in Max Scheler’s Philosophy of Religion"
 article_number:
 author: "Todd A Gooch"
 affilation:

@@ -1,6 +1,6 @@
 ---
-title: "JEAN-PAUL SARTRE, NOTEBOOKS FOR AN ETHICS: THE ONTOLOGY OF THE GIFT."
-author: "RUUD WELTEN"
+title: "Jean-Paul Sartre, Notebooks for an Ethics: the Ontology of the Gift."
+author: "Ruud Welten"
 affilation:
 abstract: "The article examines some passages on the gift as they appear in the book"
 keywords:

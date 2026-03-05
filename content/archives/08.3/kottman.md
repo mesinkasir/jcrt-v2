@@ -1,5 +1,5 @@
 ---
-title: "AVOIDING TRAGEDY IN THE MERCHANT OF VENICE"
+title: "Avoiding Tragedy in the Merchant of Venice"
 author: "Paul A Kottman"
 affilation:
 abstract:

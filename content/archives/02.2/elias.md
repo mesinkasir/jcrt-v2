@@ -1,5 +1,5 @@
 ---
-title: "EKPHRASTIC PLASTIC FRAGMENTS: MARK C. TAYLOR IN AND OUT OF CONTEXT"
+title: "Ekphrastic Plastic Fragments: Mark C. Taylor in and Out of Context"
 article_number:
 author: "Camelia Elias"
 affilation:

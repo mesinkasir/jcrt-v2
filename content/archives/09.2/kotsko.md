@@ -1,5 +1,5 @@
 ---
-title: "POLITICS AND PERVERSION: SITUATING ŽIŽEK’S PAUL"
+title: "Politics and Perversion: Situating ŽIŽEk’s Paul"
 author: "Adam Kotsko"
 affilation:
 abstract:

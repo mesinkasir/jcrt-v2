@@ -1,5 +1,5 @@
 ---
-title: "THINKING THROUGH THE DEATH OF GOD: A CRITICAL COMPANION TO THOMAS J. J. ALTIZER"
+title: "Thinking Through the Death of God: a Critical Companion to Thomas J. J. Altizer"
 author: "Christopher Demuth Rodkey"
 affilation:
 abstract:

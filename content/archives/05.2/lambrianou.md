@@ -1,5 +1,5 @@
 ---
-title: "‘A PHILOSOPHY AND THEOLOGY OF HYPERINFLATION’: WALTER BENJAMIN, WEIMAR AND THE NEW THINKING"
+title: "‘A Philosophy and Theology of Hyperinflation’: Walter Benjamin, Weimar and the New Thinking"
 author: "Nikolas Lambrianou"
 affilation:
 abstract:

@@ -1,5 +1,5 @@
 ---
-title: "WHO OWNS NATIVE CULTURE?"
+title: "Who Owns Native Culture?"
 author: "Kenneth H Lokensgard"
 affilation:
 abstract:

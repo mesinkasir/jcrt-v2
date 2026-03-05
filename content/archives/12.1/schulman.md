@@ -1,5 +1,5 @@
 ---
-title: "SORTING OUT BIOPOLITICS"
+title: "Sorting Out Biopolitics"
 author: "Alex Schulman"
 affilation:
 abstract:

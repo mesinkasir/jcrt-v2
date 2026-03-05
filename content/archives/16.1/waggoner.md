@@ -1,6 +1,6 @@
 ---
-title: "JUDITH BUTLER’S SENSES OF THE SUBJECT."
-author: "MATT WAGGONER"
+title: "Judith Butler’s Senses of the Subject."
+author: "Matt Waggoner"
 affilation:
 abstract: 
 keywords:

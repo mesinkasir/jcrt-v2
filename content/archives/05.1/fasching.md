@@ -1,5 +1,5 @@
 ---
-title: "ANONYMOUS GOD"
+title: "Anonymous God"
 author: "Darrell J Fasching"
 affilation:
 abstract:

@@ -1,5 +1,5 @@
 ---
-title: "THEORIZING RELIGION AT THE TURN OF THE MILLENNIUM: FROM THE SACRED TO THE SEMIOTIC"
+title: "Theorizing Religion at the Turn of the Millennium: from the Sacred to the Semiotic"
 article_number: 01
 author: "Carl A. Raschke"
 affilation:

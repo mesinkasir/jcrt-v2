@@ -1,5 +1,5 @@
 ---
-title: "CONFRONTING THE POLITICS OF EVASION IN AN AGE OF FRIGHT: DEMOCRACY, RELIGIOUS ENTHUSIASM, AND THE STATE"
+title: "Confronting the Politics of Evasion in an Age of Fright: Democracy, Religious Enthusiasm, and the State"
 author: "Matthew Abrahams"
 affilation:
 abstract: 

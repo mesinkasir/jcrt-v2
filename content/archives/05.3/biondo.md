@@ -1,5 +1,5 @@
 ---
-title: "FREEDOM AND ORTHODOXY: ISLAM AND DIFFERENCE IN THE POST-ANDALUSIAN AGE"
+title: "Freedom and Orthodoxy: Islam and Difference in the Post-Andalusian Age"
 author: "Vincent F Biondo"
 affilation:
 abstract:

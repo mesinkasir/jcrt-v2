@@ -1,6 +1,6 @@
 ---
-title: "RESEARCHING THE PAST TO WRITE THE PRESENT: ARCHIVAL RESEARCH, CIVIC ENGAGEMENT, AND LIBERAL ARTS ADVOCACY."
-author: "LYDIA E. FERGUSON"
+title: "Researching the Past to Write the Present: Archival Research, Civic Engagement, and Liberal Arts Advocacy."
+author: "Lydia E. Ferguson"
 affilation:
 abstract:
 keywords:

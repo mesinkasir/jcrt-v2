@@ -1,6 +1,6 @@
 ---
-title: "INTRODUCTION TO THE JOURNAL OF CULTURAL AND RELIGIOUS THEORY SPECIAL ISSUE ON"
-author: "SERGIO C. FIGUEIREDO"
+title: "Introduction to the Journal of Cultural and Religious Theory Special Issue On"
+author: "Sergio C. Figueiredo"
 affilation:
 abstract: 
 keywords:

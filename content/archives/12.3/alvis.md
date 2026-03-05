@@ -1,6 +1,6 @@
 ---
-title: "THE INDISCRETE IMAGE: INFINITUDE AND CREATION OF THE HUMAN."
-author: "JASON ALVIS"
+title: "The Indiscrete Image: Infinitude and Creation of the Human."
+author: "Jason Alvis"
 affilation:
 abstract:
 keywords:

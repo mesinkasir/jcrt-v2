@@ -1,5 +1,5 @@
 ---
-title: "FAITH AND TRANSITIONS: RELIGIOUS NOTIONS OF ACCOUNTABILITY AND GENDER AFFIRMING CARE FOR YOUTH"
+title: "Faith and Transitions: Religious Notions of Accountability and Gender Affirming Care for Youth"
 author: "Kevin Grane"
 affilation:
 abstract:

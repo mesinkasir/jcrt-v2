@@ -1,6 +1,6 @@
 ---
-title: "HANGING GARLANDS OF FLOWERS ON THE CHAINS THAT BIND: THE SOFT TOTALITARIANISM OF TECHNOLOGICAL RATIONALITY AND THE POSSIBILITIES FOR EMANCIPATORY PRAXIS."
-author: "JEFF APPEL"
+title: "Hanging Garlands of Flowers on the Chains That Bind: the Soft Totalitarianism of Technological Rationality and the Possibilities for Emancipatory Praxis."
+author: "Jeff Appel"
 affilation:
 abstract:
 keywords:

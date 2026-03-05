@@ -1,5 +1,5 @@
 ---
-title: "STRANGE ANIMAL"
+title: "Strange Animal"
 author: "Lissa McCullough"
 affilation:
 abstract:

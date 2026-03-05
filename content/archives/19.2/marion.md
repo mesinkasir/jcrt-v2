@@ -1,6 +1,6 @@
 ---
-title: "THE IRREDUCIBLE."
-author: "JEAN-LUC MARION"
+title: "The Irreducible."
+author: "Jean-Luc Marion"
 affilation:
 abstract:
 keywords:

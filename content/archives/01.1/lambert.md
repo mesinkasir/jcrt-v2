@@ -1,5 +1,5 @@
 ---
-title: "THE WORK OF ART IN THE AGE OF ALIEN REPRODUCTION"
+title: "The Work of Art in the Age of Alien Reproduction"
 article_number:
 author: "Gregg Lambert; Jorge Sicre"
 affilation: 03

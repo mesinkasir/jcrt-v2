@@ -1,6 +1,6 @@
 ---
-title: "FROM KANT TO HÖLDERLIN: POETRY AND RELIGION IN THE WAKE OF PHILOSOPHICAL AESTHETICS."
-author: "JAKOB DEIBL"
+title: "From Kant to HÖLderlin: Poetry and Religion in the Wake of Philosophical Aesthetics."
+author: "Jakob Deibl"
 affilation:
 abstract:
 keywords:

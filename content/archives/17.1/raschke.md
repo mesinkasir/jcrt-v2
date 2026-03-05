@@ -1,6 +1,6 @@
 ---
-title: "A PREFACE TO THE GENEALOGY OF NEOLIBERALISM."
-author: "CARL RASCHKE"
+title: "A Preface to the Genealogy of Neoliberalism."
+author: "Carl Raschke"
 affilation:
 abstract:
 keywords:

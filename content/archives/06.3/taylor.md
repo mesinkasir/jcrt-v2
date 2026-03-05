@@ -1,5 +1,5 @@
 ---
-title: "THEORIZING RELIGION II"
+title: "Theorizing Religion II"
 author: "Victor Taylor"
 affilation:
 abstract:

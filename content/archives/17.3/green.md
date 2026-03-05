@@ -1,6 +1,6 @@
 ---
-title: "THE SEMIOTICS OF THE UNCONSCIOUS IN GILLES DELEUZE AND ROLAND BARTHES."
-author: "ROGER GREEN"
+title: "The Semiotics of the Unconscious in Gilles Deleuze and Roland Barthes."
+author: "Roger Green"
 affilation:
 abstract:
 keywords:

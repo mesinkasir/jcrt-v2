@@ -1,5 +1,5 @@
 ---
-title: "SACRED PAIN: HURTING THE BODY FOR THE SAKE OF THE SOUL"
+title: "Sacred Pain: Hurting the Body for the Sake of the Soul"
 article_number:
 author: "Perri Druen"
 affilation:

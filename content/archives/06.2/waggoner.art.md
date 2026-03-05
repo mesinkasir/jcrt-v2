@@ -1,5 +1,5 @@
 ---
-title: "DEATH OF A DISCIPLINE"
+title: "Death of a Discipline"
 author: "Matthew Waggoner"
 affilation:
 abstract:

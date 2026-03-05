@@ -1,6 +1,6 @@
 ---
-title: "THE DARKER SIDE OF WESTERN MODERNITY: GLOBAL FUTURES, DECOLONIAL OPTIONS."
-author: "JORDAN E. MILLER"
+title: "The Darker Side of Western Modernity: Global Futures, Decolonial Options."
+author: "Jordan E. Miller"
 affilation:
 abstract:
 keywords:

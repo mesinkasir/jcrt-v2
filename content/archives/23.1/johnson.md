@@ -1,5 +1,5 @@
 ---
-title: "METAPHYSICAL PROTESTANTISM: A COMPARATIVE LITERARY ECOLOGY"
+title: "Metaphysical Protestantism: a Comparative Literary Ecology"
 author: "Zane Johnson"
 affilation:
 abstract: 

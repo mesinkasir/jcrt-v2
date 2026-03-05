@@ -1,5 +1,5 @@
 ---
-title: "DÉCONSTRUCTION DU CHRISTIANISME 1 LA DÉCLOSION"
+title: "DÉConstruction Du Christianisme 1 La DÉClosion"
 author: "Adam Kotsko"
 affilation:
 abstract:

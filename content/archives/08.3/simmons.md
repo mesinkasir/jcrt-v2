@@ -1,5 +1,5 @@
 ---
-title: "GOD, TRUTH, AND WITNESS: ENGAGING STANLEY HAUERWAS"
+title: "God, Truth, and Witness: Engaging Stanley Hauerwas"
 author: "J Aaron Simmons"
 affilation:
 abstract:

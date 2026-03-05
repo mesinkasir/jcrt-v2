@@ -1,5 +1,5 @@
 ---
-title: "ARISTOTLE AND RELIGIOUS THEORY"
+title: "Aristotle and Religious Theory"
 article_number:
 author: "Alan J Richard"
 affilation:

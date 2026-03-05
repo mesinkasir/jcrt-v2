@@ -1,5 +1,5 @@
 ---
-title: "THE OTHERNESS OF TIME: SECULARISATION AS WORLDING OF THE WORD AND THE HALLOWING OF TIME"
+title: "The Otherness of Time: Secularisation as Worlding of the Word and the Hallowing of Time"
 article_number: 04
 author: "Gabriel Vahanian; Warren Clarnette"
 affilation:

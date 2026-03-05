@@ -1,5 +1,5 @@
 ---
-title: "THE AMERICAN SPIRITUAL CULTURE AND THE INVENTION OF JAZZ, FOOTBALL, AND THE MOVIES"
+title: "The American Spiritual Culture and the Invention of Jazz, Football, and the Movies"
 author: "Jenifer Whiting"
 affilation:
 abstract:

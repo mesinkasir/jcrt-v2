@@ -1,5 +1,5 @@
 ---
-title: "RELIGION AND MODERNITY IN CURRENT DEBATE"
+title: "Religion and Modernity in Current Debate"
 article_number:
 author: "Vincent P Pecora"
 affilation:

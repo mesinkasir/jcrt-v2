@@ -1,6 +1,6 @@
 ---
-title: "FROM CHRISTOLOGY TO POLITICAL THEOLOGY."
-author: "CYRIL HOVORUN"
+title: "From Christology to Political Theology."
+author: "Cyril Hovorun"
 affilation:
 abstract:
 keywords:

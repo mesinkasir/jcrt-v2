@@ -1,6 +1,6 @@
 ---
 title: "Book Forum: The Poetics of Disappearance"
-author: "ARTHUR BRADLEY"
+author: "Arthur Bradley"
 affilation:
 abstract:
 keywords: []

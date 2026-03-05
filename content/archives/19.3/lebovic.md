@@ -1,5 +1,5 @@
 ---
-title: "BENJAMIN: TO THE RHYTHM OF THEOLOGICAL CONCEPTS"
+title: "Benjamin: to the Rhythm of Theological Concepts"
 author: "Nitzan Lebovic"
 affilation:
 abstract: 

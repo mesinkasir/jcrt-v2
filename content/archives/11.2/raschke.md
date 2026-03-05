@@ -1,5 +1,5 @@
 ---
-title: "THE MONSTROSITY OF ŽIŽEK’S CHRISTIANITY"
+title: "The Monstrosity of ŽIŽEk’s Christianity"
 author: "Carl A. Raschke"
 affilation:
 abstract:

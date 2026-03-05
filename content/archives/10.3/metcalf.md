@@ -1,5 +1,5 @@
 ---
-title: "FOLLOWING THE WORDS: HEIDEGGER’S ACCOUNT OF RELIGION AS NACHFOLGE"
+title: "Following the Words: Heidegger’s Account of Religion as Nachfolge"
 author: "Robert D Metcalf"
 affilation:
 abstract:

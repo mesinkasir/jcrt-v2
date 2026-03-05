@@ -1,6 +1,6 @@
 ---
-title: "CONTINENTAL DIVIDE: HEIDEGGER, CASSIRER, DAVOS."
-author: "LESLIE C. MILLER"
+title: "Continental Divide: Heidegger, Cassirer, Davos."
+author: "Leslie C. Miller"
 affilation:
 abstract:
 keywords:

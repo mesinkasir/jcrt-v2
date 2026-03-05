@@ -1,6 +1,6 @@
 ---
-title: "LACAN AND PNEUMATOLOGY."
-author: "MARK MURPHY"
+title: "Lacan and Pneumatology."
+author: "Mark Murphy"
 affilation:
 abstract:
 keywords:

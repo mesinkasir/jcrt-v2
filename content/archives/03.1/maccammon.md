@@ -1,5 +1,5 @@
 ---
-title: "THE JUST"
+title: "The Just"
 article_number:
 author: "Linda M MacCammon"
 affilation:

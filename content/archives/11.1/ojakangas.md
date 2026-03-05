@@ -1,5 +1,5 @@
 ---
-title: "ON THE PAULINE ROOTS OF BIOPOLITICS: APOSTLE PAUL IN COMPANY WITH FOUCAULT AND AGAMBEN"
+title: "On the Pauline Roots of Biopolitics: Apostle Paul in Company with Foucault and Agamben"
 author: "Mika Ojakangas"
 affilation:
 abstract:

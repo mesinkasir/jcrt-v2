@@ -1,6 +1,6 @@
 ---
-title: "LIVING IN THE LAND OF THE DEAD: GEORGE ROMERO, GILLES DELEUZE, AND THE QUESTION OF THE ZOMBIE."
-author: "VERNON W. CISNEY"
+title: "Living in the Land of the Dead: George Romero, Gilles Deleuze, and the Question of the Zombie."
+author: "Vernon W. Cisney"
 affilation:
 abstract: "The article discusses the characterization of zombies by filmmaker George A. Romero in films including"
 keywords:

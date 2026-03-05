@@ -1,5 +1,5 @@
 ---
-title: "MOMENTS OF INTENSE PRESENCE: A CONVERSATION WITH DAVID WOOD"
+title: "Moments of Intense Presence: a Conversation with David Wood"
 author: "David C Wood; J Aaron Simmons"
 affilation:
 abstract:

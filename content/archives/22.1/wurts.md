@@ -1,6 +1,6 @@
 ---
-title: "JOHN BOSWELL’S HISTORY OF (EUROCHRISTIAN) SEXUALITY AND THE CASE FOR TRANSCENDENTAL SOMATICS."
-author: "KIERYN E. WURTS"
+title: "John Boswell’s History of (Eurochristian) Sexuality and the Case for Transcendental Somatics."
+author: "Kieryn E. Wurts"
 affilation:
 abstract: 
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: "THE PASSION OF THE CHRIST"
+title: "The Passion of the Christ"
 author: "Gabriel Vahanian"
 affilation:
 abstract:

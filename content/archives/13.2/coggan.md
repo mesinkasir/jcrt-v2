@@ -1,6 +1,6 @@
 ---
-title: "BEYOND RELIGION: FROM SHAMANISM TO RELIGION TO POST-RELIGIOUS SPIRITUALITY."
-author: "SHARON L. COGGAN"
+title: "Beyond Religion: from Shamanism to Religion to Post-Religious Spirituality."
+author: "Sharon L. Coggan"
 affilation:
 abstract:
 keywords:

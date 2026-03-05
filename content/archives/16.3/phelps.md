@@ -1,6 +1,6 @@
 ---
-title: "BADIOU AND THE NECESSITY OF FABLES: OR, THEOLOGY AS FABULATION."
-author: "HOLLIS PHELPS"
+title: "Badiou and the Necessity of Fables: or, Theology as Fabulation."
+author: "Hollis Phelps"
 affilation:
 abstract:
 keywords:
