@@ -1,6 +1,6 @@
 ---
 title: "Theodor Adorno and the Unhopeless Work of the Negative."
-author: "JOSEPH fallS"
+author: "Joseph Falls"
 affilation:
 abstract: "The article offers the author's insights on the thoughts of philosopher Theodor Adorno on hope and the claims that his thought leads to negativism."
 keywords:

@@ -1,6 +1,6 @@
 ---
 title: "Spring in Italy: Anna Karenina and the God Who May Be."
-author: "EMILY McAVAN"
+author: "Emily McAvan"
 affilation:
 abstract:
 keywords:
