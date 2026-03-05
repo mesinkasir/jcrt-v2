@@ -5,7 +5,7 @@ pagination:
   size: 25
   reverse: true
   alias: postlist
-permalink: "/religioustheory/posts/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber }}/{% endif %}index.html"
+permalink: "/religioustheory/posts/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1 }}/{% endif %}index.html"
 ---
 <div class="container-fluid">
   <div class="row">
@@ -40,10 +40,24 @@ permalink: "/religioustheory/posts/{% if pagination.pageNumber > 0 %}page-{{ pag
             </h3>
             
             <div class="mb-2">
+              {% set postAuthorRaw = post.data.author or "Editors" %}
+              {% set postAuthorNames = postAuthorRaw | splitAuthors %}
               <p class="text-muted x-small text-uppercase fw-bold mb-1" style="font-size: 0.7rem; letter-spacing: 0.5px;">
                 {{ post.date | postDate if post.date else "Recently Published" }} 
                 — By 
-                <span class="text-primary">{{ post.data.author or "Editors" }}</span>
+                <span class="text-primary">
+                  {%- for aName in postAuthorNames -%}
+                    {% set authorObj = collections.authors | getAuthorObj(aName) %}
+                    {%- if (aName | lower) in ["editors", "editor"] -%}
+                      <a href="/editors/" class="text-primary text-decoration-none hover-primary">{{ aName }}</a>
+                    {%- elif authorObj and authorObj.url -%}
+                      <a href="{{ authorObj.url }}" class="text-primary text-decoration-none hover-primary">{{ aName }}</a>
+                    {%- else -%}
+                      <a href="/authors/{{ aName | authorSlug }}/" class="text-primary text-decoration-none hover-primary">{{ aName }}</a>
+                    {%- endif -%}
+                    {%- if not loop.last -%}; {% endif -%}
+                  {%- endfor -%}
+                </span>
               </p>
 
               {% if post.data.categories %}
