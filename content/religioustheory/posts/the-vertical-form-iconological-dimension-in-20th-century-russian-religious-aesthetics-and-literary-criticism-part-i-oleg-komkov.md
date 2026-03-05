@@ -2,6 +2,7 @@
 title: >-
   The Vertical Form – The Iconological Dimension in 20th Century Russian
   Religious Aesthetics and Literary Criticism, Part I (Oleg Komkov)
+description: "The following is the first part in a two-part installment. This article is an attempt to highlight and reflect on several interrelated issues that seem to be"
 date: '2018-03-21T00:19:44.000Z'
 author: editors
 image: >-

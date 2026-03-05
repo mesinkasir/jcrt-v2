@@ -2,6 +2,7 @@
 title: >-
   “Teach Me To Do What’s Right” – Faith, Hope, And Love As Post-Religious
   Virtues, Part 1 (A.G. Holdier)
+description: "> “God is the ‘beyond’ in the midst of our life.” > > – Dietrich Bonhoeffer > > “Are you lost, Father?” > > “Sorry?” > > “Are you lost?” > > “No It highlights"
 date: '2021-09-08T16:01:19.000Z'
 author: editors
 image: /images/2021/09/The_Theological_Virtues-_Faith_Charity_Hope_MET_DT7354.jpg

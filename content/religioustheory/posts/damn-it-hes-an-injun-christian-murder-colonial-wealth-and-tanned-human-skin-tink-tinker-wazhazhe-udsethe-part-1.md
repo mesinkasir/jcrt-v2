@@ -2,6 +2,7 @@
 title: >-
   “Damn It, He’s An Injun!” Christian Murder, Colonial Wealth, And Tanned Human
   Skin (Tink Tinker, wazhazhe udsethe), Part 1
+description: "The following is the first of a three-part installment. The article in full originally appeared in The New Polis in January, 2019 It highlights key arguments"
 date: '2019-03-14T04:08:10.000Z'
 author: editors
 image: /images/2019/03/1600px-thumbnail.jpg

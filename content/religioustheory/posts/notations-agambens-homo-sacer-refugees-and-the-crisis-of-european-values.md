@@ -1,5 +1,6 @@
 ---
 title: 'NOTATIONS – Agamben’s Homo Sacer, Refugees, and the Crisis of European Values'
+description: "This Notations essay reads refugee politics through Agamben's Homo Sacer, examining sovereignty, exception, and the moral crisis revealed by Europe's border"
 date: '2016-03-03T17:19:55.000Z'
 author: editors
 image: /images/2016/03/Refugee_march_Hungary_2015-09-04_02.jpg

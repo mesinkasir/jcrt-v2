@@ -2,6 +2,7 @@
 title: >-
   Review – Neoliberalsm Is Nowhere – Wendy Brown’s Undoing the Demos (Isaiah
   Dylan Ellis)
+description: "* Brown, Wendy. Undoing the Demos: Neoliberalism’s Stealth Revolution. New York: Zone Books, 2015. ISBN-10: 1935408534. Hardcover Hardcover. It highlights"
 date: '2017-02-16T10:00:53.000Z'
 author: Books
 image: /images/2017/02/charles_hope-thatcher_tina.jpg

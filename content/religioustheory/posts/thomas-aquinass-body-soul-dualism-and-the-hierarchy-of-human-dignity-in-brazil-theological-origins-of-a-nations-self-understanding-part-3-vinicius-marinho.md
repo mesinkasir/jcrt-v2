@@ -3,6 +3,7 @@ title: >-
   Thomas Aquinas’s Body-Soul Dualism And The Hierarchy Of Human Dignity In
   Brazil – Theological Origins Of A Nation’s Self-Understanding, Part 3
   (Vinicius Marinho)
+description: "The following is the second of a three-part series.The first can be found here, the second here. In sum, Boff proposes that a person is an indivisible body-soul"
 date: '2021-08-16T23:10:00.000Z'
 author: editors
 image: /images/2021/08/HagiaSophia_Dome_pixinn.net_-1210x642.jpg

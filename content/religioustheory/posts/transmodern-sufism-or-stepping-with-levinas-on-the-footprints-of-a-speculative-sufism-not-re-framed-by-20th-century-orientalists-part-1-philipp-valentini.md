@@ -3,6 +3,7 @@ title: >-
   Transmodern Sufism, Or Stepping With Levinas On The Footprints Of A
   Speculative Sufism Not Re-Framed By 20th Century Orientalists, Part 1 (Philipp
   Valentini)
+description: "> I am wondering if the agony of years > Could be traced to the seed of an hour > If the roots that spread out in the swamp > Ran too deep for the issuing"
 date: '2018-09-06T00:35:47.000Z'
 author: editors
 image: /images/2018/09/dervish-ceremony.jpg

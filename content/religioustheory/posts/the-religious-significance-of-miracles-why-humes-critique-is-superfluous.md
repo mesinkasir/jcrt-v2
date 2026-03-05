@@ -2,6 +2,7 @@
 title: >-
   The Religious Significance Of Miracles – Why Hume’s Critique Is Superfluous,
   Part 1 (Alberto Urquidez)
+description: "The argument from miracles seeks to prove that a religious deity (such as God) exists on the premise that only God could have caused a miracle to occur"
 date: '2020-07-14T01:46:44.000Z'
 author: editors
 image: /images/2020/07/Rubens-Les_miracles_de_saint_Benoi%CC%82t.jpg

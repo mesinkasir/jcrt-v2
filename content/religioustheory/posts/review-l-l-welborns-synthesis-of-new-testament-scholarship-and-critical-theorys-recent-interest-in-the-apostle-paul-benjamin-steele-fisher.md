@@ -2,6 +2,7 @@
 title: >-
   Review – L.L. Welborn’s Synthesis of New Testament Scholarship and Critical
   Theory’s Recent Interest in the Apostle Paul (Benjamin Steele-Fisher)
+description: "*Welborn, Larry L. Paul’s Summons to Messianic Life: Political Theology and the Coming Awakening (Insurrections: Critical Studies in Religion, Politics, and"
 date: '2016-08-25T08:00:16.000Z'
 author: Books
 image: /images/2016/08/487px-Caravaggio_-_Conversione_di_San_Paolo_Odescalchi.jpg

@@ -2,6 +2,7 @@
 title: >-
   From Kant to Hölderlin – Poetry And Religion In The Wake Of Philosophical
   Aesthetics, Part 3 (Jakob Deibl)
+description: "The following is the second installment of a three-part series. The first one can be found here, the second one here. Translated by Philipp Schlögl It"
 date: '2019-05-17T10:38:04.000Z'
 author: editors
 image: /images/2019/05/IMG_4233.jpeg

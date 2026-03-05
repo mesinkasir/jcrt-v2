@@ -2,6 +2,7 @@
 title: >-
   Review – Jean-Pierre Couture Brings To Life The Ongoing Oeuvre of Peter
   Sloterdijk
+description: "*Couture, Jean-Pierre. Sloterdijk (Key Contemporary Thinkers). Boston: Polity, 2015. 208 pages. ISBN-10: 0745663818. Hardback, paperback, e-book, 208 pages"
 date: '2016-04-15T15:15:37.000Z'
 author: editors
 image: /images/2016/04/open_no09_djong_02_walkingcity.jpg

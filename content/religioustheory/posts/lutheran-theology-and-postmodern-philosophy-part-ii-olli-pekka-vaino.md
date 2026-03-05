@@ -1,5 +1,6 @@
 ---
 title: 'Lutheran Theology and Postmodern Philosophy, Part II (Olli-Pekka Vaino)'
+description: "The following is the second part in a two-part installment. The first part can be found here. Postmodern thinking is generally suspicious against It highlights"
 date: '2018-05-09T07:22:26.000Z'
 author: editors
 image: /images/2018/05/IMG_0946.jpg

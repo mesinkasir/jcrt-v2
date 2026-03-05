@@ -2,6 +2,7 @@
 title: >-
   Religious Studies – The Final Colonization Of American Indians, Part 1 (Tink
   Tinker, wazhazhe udsethe)
+description: "The following is the first of a two-part series. The second can be found here. In late 2019 I was invited to deliver a paper at an international symposium"
 date: '2020-06-01T02:25:41.000Z'
 author: editors
 image: /images/2020/06/Screen-Shot-2020-06-08-at-9.34.57-PM.png

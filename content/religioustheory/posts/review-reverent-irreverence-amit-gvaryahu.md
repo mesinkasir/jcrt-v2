@@ -1,5 +1,6 @@
 ---
 title: Review – Reverent Irreverence (Amit Gvaryahu)
+description: "**Pious Irreverence: Confronting God in Rabbinic Judaism. Weiss, Dov. Philadelphia: University of Pennsylvania Press, 2017. ISBN 9780812293050 Hardcover, ebook."
 date: '2018-04-05T22:34:41.000Z'
 author: Books
 image: /images/2018/03/Alexej_von_Jawlensky_-_The_old_Jew_1893.jpg

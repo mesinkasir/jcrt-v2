@@ -2,6 +2,7 @@
 title: >-
   The Mythology of Afterlife Beliefs and Their Impact on Religious Conflict,
   Part 1 (Brigid Burke)
+description: "The question of whether there is life after death, and what that life might be like, is probably one of religion’s oldest questions It highlights key arguments"
 date: '2017-11-01T12:05:42.000Z'
 author: editors
 image: /images/2017/10/afterlife.jpg

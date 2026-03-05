@@ -2,6 +2,7 @@
 title: >-
   Introducing Spirit/Dance – Social Justice And Reconstructed Spiritual
   Practices, Part 2 (Joshua Hall)
+description: "The following is the second of a three-part series. The first can be found here. As to the purpose of this spirit dancing, Kopenawa constantly emphasizes that"
 date: '2023-03-31T03:31:41.000Z'
 author: editors
 image: /images/2023/04/800px-Mongol_Shaman_just_before_rituals..jpg

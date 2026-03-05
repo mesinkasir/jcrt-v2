@@ -2,6 +2,7 @@
 title: >-
   Traversing W.H. Auden’s Religious And Aesthetic States, Part 3 (Raji Singh
   Soni)
+description: "The following is the final installment of a three-part series. The first one can be found here, the second one here. As Julia Reinhard Lupton argues It"
 date: '2017-08-13T03:32:03.000Z'
 author: editors
 image: /images/2017/08/Style-img_7932-Kanagawa-0.4MP.jpg

@@ -2,6 +2,7 @@
 title: >-
   The Re-Enchantment Of Bodies – The Transformative Power Of Charismatic
   Healings, Part 1 (Anna Magnasco)
+description: "Part 1 investigates charismatic healing as embodied practice, arguing that affect, ritual, and perception can reconfigure modern assumptions about agency and"
 date: '2023-11-28T16:40:43.000Z'
 author: editors
 image: >-

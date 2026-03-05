@@ -2,6 +2,7 @@
 title: >-
   Critical Conversations – A Conversation With Arthur Bradley On Sovereignty,
   Part 1
+description: "The following is the first part of a transcript of one of our ongoing “Critical Conversations” with distinguished British political philosopher Arthur Bradley"
 date: '2022-05-27T18:59:19.000Z'
 author: editors
 image: /images/2022/06/Leviathan_-_Hobbes_Leviathan_1651_title_page_-_BL-1016x642.jpg

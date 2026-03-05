@@ -2,6 +2,7 @@
 title: >-
   Mischief, Idolatry, And The Demonic – Toward A Hermeneutic Of Play, Part I
   (Kevin Lewis)
+description: "Biblical hermeneutics, studied reflection upon interpretation of scriptural passages, has not remained static in method or approach over the centuries"
 date: '2018-05-19T17:37:39.000Z'
 author: editors
 image: /images/2018/05/IMG_0921-1.jpg

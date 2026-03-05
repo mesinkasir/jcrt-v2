@@ -2,6 +2,7 @@
 title: >-
   Framing Religious Conflict and Violence – Insights from Historical
   Institutionalism, Part 1 (Vivek Swaroop Sharma)
+description: "Killing hundreds of people in the name of “cow protection” would, at first glance, appear to be a headline drawn from a Monty Python skit It highlights"
 date: '2017-09-12T18:15:22.000Z'
 author: editors
 image: /images/2017/09/7e40f143e74c385ee290c7e279d9897f.jpg

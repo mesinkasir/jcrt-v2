@@ -2,6 +2,7 @@
 title: >-
   The Secularizing Ethos and the End of Biblical Authority – How Today’s
   Evangelicals Abandoned Evangelicalism
+description: "So reads the title of a recent article in the Los Angeles Review of Books. The author, Jim Hinch, begins his piece with the conversion story of A. J J."
 date: '2016-03-02T15:38:11.000Z'
 author: editors
 image: >-

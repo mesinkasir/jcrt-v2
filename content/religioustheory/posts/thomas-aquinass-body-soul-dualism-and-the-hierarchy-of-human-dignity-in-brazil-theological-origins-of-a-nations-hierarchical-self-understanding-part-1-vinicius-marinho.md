@@ -3,6 +3,7 @@ title: >-
   Thomas Aquinas’s Body-Soul Dualism And The Hierarchy Of Human Dignity in
   Brazil –  Theological Origins Of A Nation’s Self-Understanding, Part 1
   (Vinicius Marinho)
+description: "“Manda quem pode, obedece quem tem juízo” is an old Brazilian proverb. It synthetizes, in two clauses, the dominant value of the Brazilian political culture:"
 date: '2021-08-03T00:25:53.000Z'
 author: editors
 image: /images/2021/08/Menina_da_etnia_Terena-1-1210x642.jpg

@@ -1,5 +1,6 @@
 ---
 title: Call For Papers – Special Issue On Walter Benjamin And Religion
+description: "What does Walter Benjamin’s work suggest about religion and the methods of studying it? This special issue of The Journal for Cultural and Religious Studies"
 date: '2019-04-30T17:00:54.000Z'
 author: editors
 image: /images/2019/04/kirsh_1-071014.jpg

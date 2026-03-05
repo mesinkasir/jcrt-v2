@@ -1,5 +1,6 @@
 ---
 title: 'Tsimtsum In Life Of Pi, Part 4 (Daniel Reiser)'
+description: "The following is the last of a four-part series. The first can be found here, the second here, the third here. Is what Martel presents his readers only a"
 date: '2020-12-22T05:53:55.000Z'
 author: editors
 image: /images/2020/12/Albert_Bierstadt_Farallon_Island_1887_Oil_on_Canvas.jpg

@@ -2,6 +2,7 @@
 title: >-
   The Unbroken Middle: Overcoming The Empty Sacrifices Of Modernity With Gillian
   Rose And Paul, Part 2 (Michael C. Raubach)
+description: "The following is the second of a two-part series. The first can be found here Is it not true, though, that many individuals of different races, creeds, and"
 date: '2021-11-18T15:52:31.000Z'
 author: editors
 image: >-

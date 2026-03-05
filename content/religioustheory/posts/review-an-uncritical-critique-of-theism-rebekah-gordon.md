@@ -1,5 +1,6 @@
 ---
 title: Review – An Uncritical Critique of Theism (Rebekah Gordon)
+description: "Religion Within Reason. Cahn, Steven M. New York: Columbia University Press, 2017. ISBN: 9780231181617. Paperback. 93 pages.** It is amazing that a book of less"
 date: '2018-03-07T14:45:41.000Z'
 author: Books
 image: /images/2018/03/jbcol.png

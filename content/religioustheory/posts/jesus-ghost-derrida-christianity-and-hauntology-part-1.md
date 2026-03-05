@@ -1,5 +1,6 @@
 ---
 title: 'Jesus’ Ghost – Derrida, Christianity, and “Hauntology” – Part 1'
+description: "> Jesus, who was concerned till manhood with his own personal development, was free from the contagious sickness of his age and his people; free from the"
 date: '2016-04-27T01:19:32.000Z'
 author: editors
 image: /images/2016/04/Hamlets-ghost.jpg

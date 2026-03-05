@@ -2,6 +2,7 @@
 title: >-
   Conference on Populism, Nationalism, and the Future of Democracy
   (Announcement)
+description: "Sponsored by the Journal for Cultural and Religious Theory in Collaboration with the University of Denver You must register in order to receive a participation"
 date: '2025-09-07T02:59:34.000Z'
 author: editors
 image: >-

@@ -2,6 +2,7 @@
 title: >-
   Reframing The Adwa Victory As A Decolonizing Praxis – Discourse Around
   Colonization In The Ethiopian Context, Part 2 (Rode Molla)
+description: "The following is the second of a two-part series. The first can be found here. Foucault, in his book, Discipline, and Punish, describes how the human body is"
 date: '2020-02-04T23:01:58.000Z'
 author: editors
 image: /images/2020/02/1599px-Ethiopian_mothers_with_babies.jpg

@@ -2,6 +2,7 @@
 title: >-
   Review – Ontic Flows: From Digital Humanities to Posthumanities (Dean
   Dettloff)
+description: "*Bernico, Matt, and Kölke, Manuela (Eds.). Ontic Flows: From Digital Humanities to Posthumanities. New York: Atropos Press, 2016. ISBN-10: 1940813085 It"
 date: '2017-05-25T01:00:00.000Z'
 author: Books
 image: /images/2017/05/IMG_1445.jpg

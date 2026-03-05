@@ -2,6 +2,7 @@
 title: >-
   NOTATIONS – The “Unacculturable” – Refugee Flux Spurs Crisis of European
   Belief
+description: "This Notations piece analyzes how refugee discourse destabilizes European self-understanding, linking cultural panic, theological residue, and political"
 date: '2016-03-06T01:21:01.000Z'
 author: editors
 image: /images/2016/03/Syrian-Refugees.jpg

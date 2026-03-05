@@ -2,6 +2,7 @@
 title: >-
   The Legacy Of Charles H. Long – Resisting and Short-Circuiting the Discourses
   Of Exclusion In The Theory And Practice Of Administration (Victor E. Taylor)
+description: "The following essay introduces the upcoming volume of the Journal for Cultural and Religious Theory featuring reflections on the work of renowned religious"
 date: '2022-06-23T21:34:57.000Z'
 author: editors
 image: /images/2022/06/Charles-H.-Long.png

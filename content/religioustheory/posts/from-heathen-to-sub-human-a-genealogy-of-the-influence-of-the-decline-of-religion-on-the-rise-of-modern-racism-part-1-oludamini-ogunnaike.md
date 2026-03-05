@@ -2,6 +2,7 @@
 title: >-
   From Heathen to Sub-Human – A Genealogy of the Influence of the Decline of
   Religion on the Rise of Modern Racism, Part 1 (Oludamini Ogunnaike)
+description: "The following is the first part of an article that appeared in July 2016 in Open Theology 2:2016 785-203. It is republished here with the permission of the"
 date: '2016-09-19T15:12:06.000Z'
 author: editors
 image: /images/2016/09/Absalom-Jones_Peale.jpg

@@ -2,6 +2,7 @@
 title: >-
   Let’s Get Real About Race – Two Very Timely Upcoming Online Seminars
   (Announcement)
+description: "It’s time to get real when we talk these days about race and racism. Ever since the murder of George Floyd in Minneapolis in the late spring of 2020 at the"
 date: '2021-08-23T04:05:04.000Z'
 author: editors
 image: /images/2021/08/race.jpg

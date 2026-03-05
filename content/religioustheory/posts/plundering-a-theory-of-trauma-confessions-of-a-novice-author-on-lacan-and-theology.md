@@ -2,6 +2,7 @@
 title: >-
   Plundering A Theory of Trauma – Confessions of A Novice Author on Lacan and
   Theology
+description: "Nietzsche’s advice to young authors was to never admit error, for our critics will neither give an inch nor forgive our humility in siding against ourselves"
 date: '2016-03-23T20:57:15.000Z'
 author: editors
 image: /images/2016/03/andalou1.jpg

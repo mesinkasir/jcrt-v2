@@ -2,6 +2,7 @@
 title: >-
   Critical Conversations – 2020 And The Catastrophe Of The Global Neoliberal
   Order (Announcement)
+description: "Participants are invited to join us live in the fourth of a monthly series of “Critical Conversations” (Zoom webinars) with eminent scholars from around the"
 date: '2020-11-03T02:30:54.000Z'
 author: editors
 image: /images/2020/11/Crisis-City.jpeg

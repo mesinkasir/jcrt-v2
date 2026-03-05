@@ -2,6 +2,7 @@
 title: >-
   “Scale Relative Ontology” And Simone Weil’s Spiritual Philosophy, Part 1 (N.E.
   Boulting)
+description: "Can the debilitating effects of Scientism – identifying knowledge solely “with science” – be overcome? To answer that question, Simone Weil’s treatment of her"
 date: '2021-05-11T02:35:23.000Z'
 author: editors
 image: /images/2021/05/2014-08-25-SimoneWeilCroquis-byTh.Rioult.jpg

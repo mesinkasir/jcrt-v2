@@ -1,5 +1,6 @@
 ---
 title: Inventing Afterlives – Review (Camille Grace Leon Angelo)
+description: "Janes, Regina M. Inventing Afterlives: The Stories We Tell Ourselves About Life After Death. New York, NY: Columbia University Press, 2018. 384 pages 384 pages."
 date: '2018-10-22T13:31:58.000Z'
 author: editors
 image: /images/2018/10/Anna_Sahlste%CC%81n_-_Passage-1.jpg

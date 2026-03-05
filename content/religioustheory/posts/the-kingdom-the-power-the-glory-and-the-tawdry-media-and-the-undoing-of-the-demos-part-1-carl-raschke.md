@@ -2,6 +2,7 @@
 title: >-
   The Kingdom, The Power, The Glory, And The Tawdry – Media And The Undoing Of
   The Demos, Part 1 (Carl Raschke)
+description: "This article appears in three installments. It was originally a paper given at the international conference “The Crisis of Representation” at Melk Conference"
 date: '2017-07-04T20:51:08.000Z'
 author: editors
 image: /images/2017/07/IMG_1588.jpg

@@ -2,6 +2,7 @@
 title: >-
   The Curious Whiteheadian Proclivity In Scheler’s Account Of God And Persons,
   Part 1 (J. Edward Hackett)
+description: "Before explicating the underlying structure of Scheler’s panentheism, I wanted to take some time and explain what Scheler’s phenomenological method entails and"
 date: '2020-04-16T19:17:35.000Z'
 author: editors
 image: /images/2020/04/Scheler_max.jpg

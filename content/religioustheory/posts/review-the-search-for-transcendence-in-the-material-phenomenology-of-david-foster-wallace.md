@@ -2,6 +2,7 @@
 title: >-
   Review – The Search For Transcendence In The “Material Phenomenology” of David
   Foster Wallace (Jeff Appel)
+description: "*Miller, Adam S. The Gospel According to David Foster Wallace: Boredom and Addiction in an Age of Distraction. New York: Bloomsburg Academic, 2016 It highlights"
 date: '2016-07-07T00:19:50.000Z'
 author: editors
 image: /images/2016/07/DavidFosterWallace1.jpg

@@ -2,6 +2,7 @@
 title: >-
   The Unbroken Middle: Overcoming The Empty Sacrifices Of Modernity With Gillian
   Rose And Paul, Part 1 (Michael C. Raubach)
+description: "In her 1992 masterpiece, The Broken Middle, the philosopher Gillian Rose explored what she saw as a baleful crisis of ethics in modern political discourse"
 date: '2021-11-04T15:40:15.000Z'
 author: editors
 image: >-

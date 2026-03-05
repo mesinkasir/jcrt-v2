@@ -2,6 +2,7 @@
 title: >-
   Religious Studies – The Final Colonization Of American Indians, Part 2 (Tink
   Tinker, wazhazhe udsethe)
+description: "The following is the second of a two-part series. The first can be found here. Indian cultures are very complex, and Osage culture is no different in that"
 date: '2020-06-09T02:47:11.000Z'
 author: editors
 image: /images/2020/06/Shonka_Sabe.jpg

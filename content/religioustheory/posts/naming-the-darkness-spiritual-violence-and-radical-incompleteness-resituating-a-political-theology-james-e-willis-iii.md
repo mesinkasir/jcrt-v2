@@ -2,6 +2,7 @@
 title: >-
   “Naming The Darkness,” Spiritual Violence, And Radical Incompleteness – 
   Resituating A Political Theology, Part 1 (James E. Willis, III)
+description: "The Death of God theological movement of the mid-twentieth century serves as a productive starting place to consider spiritual violence in our time, or the"
 date: '2020-05-01T22:22:01.000Z'
 author: editors
 image: /images/2020/05/IMG_4279.jpeg

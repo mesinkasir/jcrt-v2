@@ -2,6 +2,7 @@
 title: >-
   Force in Religious Thought – Carl Raschke and Victoria Kahn in Dialogue, Part
   3 (Roger Green)
+description: "The following is the last of a three-part series. The first part was published on May 31, 2016. The second part was published on June 17 It highlights"
 date: '2016-06-26T19:30:03.000Z'
 author: editors
 image: /images/2016/06/NASA-space-colony-11.jpg

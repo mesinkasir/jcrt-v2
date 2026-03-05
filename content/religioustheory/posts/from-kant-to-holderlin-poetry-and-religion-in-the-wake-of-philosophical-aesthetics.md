@@ -2,6 +2,7 @@
 title: >-
   From Kant to Hölderlin – Poetry And Religion In The Wake Of Philosophical
   Aesthetics, Part 1 (Jakob Deibl)
+description: "The following is the first installment of a three-part series. Translated by Philipp Schlögl. Friederich Hölderlin’s famous quote “Thus all Religion would be"
 date: '2019-04-30T03:15:25.000Z'
 author: editors
 image: /images/2019/04/Ho%CC%88lderlin.jpg

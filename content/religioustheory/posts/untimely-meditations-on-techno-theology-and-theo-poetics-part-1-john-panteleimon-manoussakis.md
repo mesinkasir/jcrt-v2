@@ -2,6 +2,7 @@
 title: >-
   Untimely Meditations on Techno-Theology and Theo-Poetics, Part 1 (John
   Panteleimon Manoussakis)
+description: "The following is the first half of the article. The second installment can be found here. Philosophy’s very first utterance, according to Aristotle, present us"
 date: '2017-03-22T13:22:18.000Z'
 author: editors
 image: /images/2017/03/Mesopotamia.jpg

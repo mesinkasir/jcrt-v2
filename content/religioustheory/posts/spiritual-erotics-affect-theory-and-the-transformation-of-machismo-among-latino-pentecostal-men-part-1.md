@@ -2,6 +2,7 @@
 title: >-
   Spiritual Erotics, Part 1 – Affect Theory and the Transformation of Machismo
   Among Latino Pentecostal Men
+description: "From time to time Religious Theory (RT) invites well-known academic authors to outline current book projects that have not yet been published S. It highlights"
 date: '2016-03-30T00:42:20.000Z'
 author: editors
 image: /images/2016/03/20120503nw1179.jpg

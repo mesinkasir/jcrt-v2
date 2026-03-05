@@ -2,6 +2,7 @@
 title: >-
   Untimely Meditations on Techno-Theology and Theo-Poetics, Part 2 (John
   Panteleimon Manoussakis)
+description: "**The following is the second half of the article. The first installment can be found here.** Richard Kearney’s theopoetics offers an alternative to the"
 date: '2017-04-01T01:41:57.000Z'
 author: editors
 image: /images/2017/04/under-den-linden.jpg

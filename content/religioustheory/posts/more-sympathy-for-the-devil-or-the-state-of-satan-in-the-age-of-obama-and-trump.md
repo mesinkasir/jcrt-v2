@@ -2,6 +2,7 @@
 title: >-
   More Sympathy for the Devil, or The State of Satan in The Age of Obama and
   Trump
+description: "Fifty years ago this weekend in the year 1966, according to lore and legend, San Francisco showman, musician, and self-professed huckster Howard Stanton Levey"
 date: '2016-05-01T21:22:52.000Z'
 author: editors
 image: /images/2016/03/Satan-comedy.gif

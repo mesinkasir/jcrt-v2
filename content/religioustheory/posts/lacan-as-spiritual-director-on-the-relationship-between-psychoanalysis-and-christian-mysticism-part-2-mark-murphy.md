@@ -2,6 +2,7 @@
 title: >-
   Lacan As “Spiritual Director” – On The Relationship Between Psychoanalysis And
   Christian Mysticism, Part 2 (Mark Murphy)
+description: "The following is the second installment of a three-part series. The first can be found here. What Does Lacan Mean When He Says That Spiritual Direction is a"
 date: '2018-08-08T02:58:53.000Z'
 author: editors
 image: /images/2018/08/IMG_1270.jpg

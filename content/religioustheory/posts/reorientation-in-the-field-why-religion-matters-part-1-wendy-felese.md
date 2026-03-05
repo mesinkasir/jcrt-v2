@@ -1,5 +1,6 @@
 ---
 title: 'Reorientation In The Field – Why Religion Matters, Part 1 (Wendy Felese)'
+description: "The following is the first of a two-part series. It was originally published at a 2019 conference in Athens, Greece.1 When teaching classes like World Religions"
 date: '2021-03-15T04:40:52.000Z'
 author: editors
 image: /images/2021/03/Inuit-Kleidung_1.jpg

@@ -2,6 +2,7 @@
 title: >-
   Time Emptied And Time Renewed – The Dominion Of Capital And A Theo-Politics Of
   Contretemps, Part 2 (Daniel Rhodes)
+description: "The following is the second installment of a three-part series. The link to the first portion can be found here. As the source of productivity, time rendered as"
 date: '2016-12-06T05:15:13.000Z'
 author: editors
 image: /images/2016/12/earthquake.jpg

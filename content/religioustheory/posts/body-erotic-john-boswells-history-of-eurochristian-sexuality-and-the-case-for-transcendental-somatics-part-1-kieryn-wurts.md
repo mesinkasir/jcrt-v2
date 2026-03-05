@@ -2,6 +2,7 @@
 title: >-
   Body Erotic –  John Boswell’s History Of Eurochristian Sexuality And The Case
   For Transcendental Somatics, Part 1 (Kieryn Wurts)
+description: "John Boswell (1947-94) was a Yale philologist who published two major studies betweeen 1980 and 1994 which, considered together, constitute an extended and"
 date: '2023-04-24T16:52:35.000Z'
 author: editors
 image: /images/2023/05/Homosexuality_in_Khajuraho_sculpture-1200x642.jpg

@@ -2,6 +2,7 @@
 title: >-
   Review – Badiou’s Conversations About Theatre Offer Light-Hearted And Quirky
   Insight Into Mind Of Philosopher (Ryne Beddard)
+description: "*Badiou, Alain (with Nicolas Truong). In Praise of Theatre. New York: Polity, 2015. ISBN 10: 978-0-7456-8697-4. Hardback, paperback, e-book It highlights"
 date: '2016-06-13T03:19:28.000Z'
 author: editors
 image: /images/2016/06/dec_18_the-tank-robots_0108.jpg

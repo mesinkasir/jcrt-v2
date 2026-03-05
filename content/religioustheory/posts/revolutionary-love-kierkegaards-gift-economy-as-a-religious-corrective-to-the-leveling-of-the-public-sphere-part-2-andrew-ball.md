@@ -2,6 +2,7 @@
 title: >-
   Revolutionary Love – Kierkegaard’s Gift Economy As A Religious Corrective To
   The Leveling Of The Public Sphere, Part 2 (Andrew Ball)
+description: "The following is the second insatallment of a three-part series. The first can be found here. In his late authorship Kierkegaard articulates the social ontology"
 date: '2020-05-23T18:38:10.000Z'
 author: editors
 image: /images/2020/05/IMG_6506.jpeg

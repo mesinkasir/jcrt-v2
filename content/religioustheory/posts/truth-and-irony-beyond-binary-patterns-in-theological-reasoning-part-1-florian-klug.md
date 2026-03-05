@@ -2,6 +2,7 @@
 title: >-
   Truth And Irony –  Beyond Binary Patterns In Theological Reasoning, Part 1
   (Florian Klug)
+description: "The following is the first of a three-part series. It will appear as a full article in the Fall 2021 issue of the Journal for Cultural and Religious Theory"
 date: '2021-06-28T16:50:19.000Z'
 author: editors
 image: /images/2021/07/Screen-Shot-2021-07-14-at-11.56.23-AM.png

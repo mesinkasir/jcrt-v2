@@ -1,5 +1,6 @@
 ---
 title: Conference on Religion and Bioethics – Call for Proposals
+description: "This call for proposals frames a conference on religion and bioethics, inviting interdisciplinary work on ethics, theology, policy, and emerging The argument"
 date: '2024-09-26T02:18:17.000Z'
 author: editors
 image: /images/2024/09/Human_genome.png

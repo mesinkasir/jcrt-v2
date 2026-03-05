@@ -2,6 +2,7 @@
 title: >-
   To Not Lose Sight Of The Good – Notes On The Zapatismo Ethic, Part 2 (Matt
   Rosen)
+description: "The following is the second of a two-part series. The first can be found here. The recasting of the field of three against the field of two, which is the field"
 date: '2020-01-21T04:07:07.000Z'
 author: editors
 image: /images/2020/01/Lacanja_burn_crop.jpg

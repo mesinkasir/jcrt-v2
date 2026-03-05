@@ -2,6 +2,7 @@
 title: >-
   The One Is Not – On the Fate Of Unity in Post-Metaphysical Philosophy (Jussi
   Backman)
+description: "*A Turkish translation of a version of this essay has been published as “Bir, bir şey değildir: post-metafizik düşüncede birlik ve çokluğun akıbeti,” trans"
 date: '2017-05-09T20:06:50.000Z'
 author: editors
 image: /images/2017/05/Aristotle-metaphysics.jpg

@@ -3,6 +3,7 @@ title: >-
   Critical Conversations  – American Indian Worldview And The Twinned Cosmos Of
   Indigenous America  (Barbara Alice Mann, Onondawaga, Bear Clan And Tink
   Tinker, Wazhazhe, Osage Nation, Eagle Clan)
+description: "The following is the video and transcript of the fifth “Critical Conversation”, a monthly Zoom seminar with advance registration sponsored by Whitestone"
 date: '2021-01-22T16:07:52.000Z'
 author: editors
 image: /images/2021/01/1133px-1949_Hudson_mound_builders_2831253030.jpg

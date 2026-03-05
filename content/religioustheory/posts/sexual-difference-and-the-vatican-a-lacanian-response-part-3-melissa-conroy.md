@@ -2,6 +2,7 @@
 title: >-
   Sexual Difference And The Vatican – A Lacanian Response, Part 3 (Melissa
   Conroy)
+description: "The following is the second of a three-part series. The first can be found here, the second here. Likewise, Teresa de Lauretis argues that gender is best"
 date: '2020-10-12T02:55:20.000Z'
 author: editors
 image: /images/2020/10/Candi_Ceto_Lingam_and_Yoni_1259.jpg

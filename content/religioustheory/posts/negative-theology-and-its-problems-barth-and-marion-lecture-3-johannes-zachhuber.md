@@ -2,6 +2,7 @@
 title: >-
   Negative Theology And Its Problems: Barth And Marion, Lecture 3 (Johannes
   Zachhuber)
+description: "The following is the third lecture in an eight-lecture series. I have described in last week’s lecture how, during the 19th century, some serious challenges"
 date: '2018-07-26T22:43:26.000Z'
 author: editors
 image: /images/2018/07/thumb_IMG_2156_1024.jpg

@@ -2,6 +2,7 @@
 title: >-
   Announcing “The New Polis” – An E-Publication On Critical Theory, Cultural
   Analysis, And Political Thought
+description: "The directors of The Whitestone Foundation, the Colorado-based 501(c)3 non-profit corporation that has published The Journal for Cultural and Religious Theory"
 date: '2018-03-16T17:14:06.000Z'
 author: editors
 image: /images/2018/03/unnamed-14.jpg

@@ -2,6 +2,7 @@
 title: >-
   Review – Carl Raschke’s Force of God Hammers Out A Political Theology Of
   Insurrection/Resurrection For Our Times
+description: "Raschke, Carl. Force of God: Political Theology and the Crisis of Liberal Democracy. New York: Columbia University Press, 2015. ISBN-978-0231-17384-1 It"
 date: '2016-04-20T05:45:56.000Z'
 author: editors
 image: /images/2016/04/lightning_strikes_volcano-770x425.jpg

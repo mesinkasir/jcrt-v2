@@ -2,6 +2,7 @@
 title: >-
   The Mythology of Afterlife Beliefs and Their Impact on Religious Conflict,
   Part 2 (Brigid Burke)
+description: "The following is the second installment of a two-part series. The first installment can be found here. Zoroastrianism is believed to be an outgrowth of an"
 date: '2017-11-07T22:29:04.000Z'
 author: editors
 image: /images/2017/10/Genrich_Ippolitovich_Semiradsky_-_Roma_1889.jpg

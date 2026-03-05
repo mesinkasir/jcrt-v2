@@ -2,6 +2,7 @@
 title: >-
   Benjamin’s Concept of History As A Source of Arendt’s Idea of Judgment – Part
   1 (Ronald Beiner)
+description: "Part 1 traces how Walter Benjamin's theses on history inform Hannah Arendt's account of judgment, emphasizing temporality, critique, and political The"
 date: '2016-08-08T06:37:39.000Z'
 author: editors
 image: /images/2016/08/Benjamins-Angel-of-History.jpg

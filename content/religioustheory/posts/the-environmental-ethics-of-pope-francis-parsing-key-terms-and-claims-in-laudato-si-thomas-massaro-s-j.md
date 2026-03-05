@@ -2,6 +2,7 @@
 title: >-
   The Environmental Ethics of Pope Francis – Parsing Key Terms and Claims In
   Laudato Si’ (Thomas Massaro, S.J.)
+description: "On October 4, 2023, Pope Francis published the apostolic exhortation Laudate Deum (“Praise God”), an 8000-word document advocating for urgent action to counter"
 date: '2024-04-17T14:02:56.000Z'
 author: editors
 image: /images/2024/09/15448438025_31e8467aa3_b-1024x642.jpg

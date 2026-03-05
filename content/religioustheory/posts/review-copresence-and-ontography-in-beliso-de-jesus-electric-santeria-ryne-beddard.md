@@ -2,6 +2,7 @@
 title: >-
   Review – The Metaphysics of Copresence in Beliso-De Jesùs’ Electric Santeria
   (Ryne Beddard)
+description: "* Beliso-De Jesús, Aisha M. Electric Santería: Racial and Sexual Assemblages of Transnational Religion. New York: Columbia University Press, 2015 It highlights"
 date: '2017-03-17T08:00:26.000Z'
 author: Books
 image: /images/2017/03/santeria-cover.jpg

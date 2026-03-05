@@ -2,6 +2,7 @@
 title: >-
   Shamanism and Entheogens – Toward A Psychoanalysis Of The New “Dream Time”
   (Roger Green)
+description: "There is no reason why therapy rooms for psychedelic sessions must be adorned with the default Buddha icons, fractal posters, and Indian drapes It highlights"
 date: '2016-10-24T06:12:04.000Z'
 author: editors
 image: /images/2016/10/sorrowing-old-man-psilocybin-depression.jpg

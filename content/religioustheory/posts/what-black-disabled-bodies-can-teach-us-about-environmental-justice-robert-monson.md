@@ -2,6 +2,7 @@
 title: >-
   What Black Disabled Bodies Can Teach Us About Environmental Justice (Robert
   Monson)
+description: "As early as 2014, governmental officials in the city of Flint, Michigan made a series of decisions that would prove to have deleterious effects on the people"
 date: '2024-07-10T12:13:39.000Z'
 author: editors
 image: /images/2024/07/Disabled_BIPOC_in_front_of_pride_flag-1210x642.jpg

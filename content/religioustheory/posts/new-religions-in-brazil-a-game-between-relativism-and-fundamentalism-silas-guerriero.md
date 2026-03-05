@@ -2,6 +2,7 @@
 title: >-
   New Religions in Brazil – A Game Between Relativism and Fundamentalism (Silas
   Guerriero)
+description: "Speaking of new religious movements in Brazil implies, above all, in defining what we refer to when we speak of “new religions.” We have already had an"
 date: '2018-03-10T04:59:57.000Z'
 author: editors
 image: >-

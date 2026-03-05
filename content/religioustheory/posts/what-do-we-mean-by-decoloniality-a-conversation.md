@@ -1,5 +1,6 @@
 ---
 title: 'What Do We Mean By “Decoloniality”? A Discussion, Part 1'
+description: "Part 1 records a keynote discussion defining decoloniality, foregrounding coloniality's persistence, divergent methods, and disputes over politics, knowledge"
 date: '2021-04-26T17:02:02.000Z'
 author: editors
 image: /images/2021/05/Tikal_mayan_ruins_2009.jpg

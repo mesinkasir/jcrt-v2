@@ -1,5 +1,6 @@
 ---
 title: Speaking (Or Not Speaking) Of God – Call For Proposals
+description: "Where: University of Denver, Denver, Colorado Sponsors: Department of Religious Studies, Journal for Cultural and Religious Theory It highlights key arguments"
 date: '2017-05-03T17:07:06.000Z'
 author: editors
 image: /images/2017/05/IMG_1275.jpg

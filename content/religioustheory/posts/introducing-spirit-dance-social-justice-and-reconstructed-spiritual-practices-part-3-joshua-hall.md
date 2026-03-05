@@ -2,6 +2,7 @@
 title: >-
   Introducing Spirit/Dance – Social Justice And Reconstructed Spiritual
   Practices, Part 3 (Joshua Hall)
+description: "The following is the last of a three-part series.The first can be found here, the second here. Understandable fears to the contrary notwithstanding, a cult, by"
 date: '2023-04-10T03:48:00.000Z'
 author: editors
 image: /images/2023/04/Screenshot-2023-04-09-at-10.45.25-PM.jpg

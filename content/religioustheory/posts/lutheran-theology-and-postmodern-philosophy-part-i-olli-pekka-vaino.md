@@ -1,5 +1,6 @@
 ---
 title: 'Lutheran Theology And Postmodern Philosophy, Part I (Olli-Pekka Vaino)'
+description: "Recently, Martin Luther and the Lutheran Reformation has received heavy criticism in various theological and philosophical circles It highlights key arguments"
 date: '2018-05-01T02:54:39.000Z'
 author: editors
 image: /images/2018/01/Luther95theses.jpg

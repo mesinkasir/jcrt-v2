@@ -2,6 +2,7 @@
 title: >-
   John the Possibilizer: The Promise of a Kearnian Baptismal Hermeneutic, Part I
   (Eric Trozzo)
+description: "The wild hair, the scratchy clothing, the grit and body odor, and the exotic diet. All of these images typically come to mind when one mentions John the"
 date: '2018-01-21T21:20:32.000Z'
 author: editors
 image: >-

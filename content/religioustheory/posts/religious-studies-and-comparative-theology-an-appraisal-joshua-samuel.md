@@ -1,5 +1,6 @@
 ---
 title: Religious Studies and Comparative Theology – An Appraisal (Joshua Samuel)
+description: "The title “religious scholar,” it must be remembered, is a very ambiguous categorization. It could either mean those who are engaged in academic work in the"
 date: '2017-10-09T02:29:56.000Z'
 author: editors
 image: /images/2017/10/pdr.jpg

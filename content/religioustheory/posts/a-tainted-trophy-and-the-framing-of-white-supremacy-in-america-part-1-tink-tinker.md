@@ -2,6 +2,7 @@
 title: >-
   A Tainted Trophy And The Framing Of White Supremacy In America, Part 1 (Tink
   Tinker)
+description: "The following is the first of a three-part series. The entire article appears in the fall 2022 issue of The New Polis Journal It highlights key arguments"
 date: '2022-10-15T04:12:37.000Z'
 author: editors
 image: >-

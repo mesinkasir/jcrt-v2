@@ -1,5 +1,6 @@
 ---
 title: 'God And Language, Lecture 6 (Johannes Zachhuber)'
+description: "The following is the sixth lecture in an eight-lecture series. The most recent one can be found here. I started the last couple of lectures with elaborate"
 date: '2019-04-02T04:06:03.000Z'
 author: editors
 image: /images/2019/04/Ludwig-Wittgenstein.jpg

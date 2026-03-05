@@ -2,6 +2,7 @@
 title: >-
   Horror Fiction And Catholic Theology – A Rhetorical Synthesis, Part 1 (Gavin
   Hurley)
+description: "Catholic horror—horror fiction that integrates Catholic perspectives into the fiction itself—is often be seen by Catholics to be incompatible with the mission"
 date: '2019-12-29T21:37:41.000Z'
 author: editors
 image: /images/2019/12/Ossuary-Bones.jpg

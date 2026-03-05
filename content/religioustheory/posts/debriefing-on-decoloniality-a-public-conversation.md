@@ -1,5 +1,6 @@
 ---
 title: 'Debriefing On Decoloniality – A Public Conversation, Part 1'
+description: "Part 1 presents a transcripted debrief from participants in the decoloniality conference, mapping core disagreements, shared concerns, and conceptual stakes"
 date: '2021-06-15T02:55:34.000Z'
 author: editors
 image: /images/2021/06/speakers_latino.jpg

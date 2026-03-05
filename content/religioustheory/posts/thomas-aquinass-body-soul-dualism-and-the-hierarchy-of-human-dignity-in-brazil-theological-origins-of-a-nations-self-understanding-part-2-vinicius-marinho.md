@@ -3,6 +3,7 @@ title: >-
   Thomas Aquinas’s Body-Soul Dualism And The Hierarchy Of Human Dignity In
   Brazil – Theological Origins Of A Nation’s Self-Understanding, Part 2
   (Vinicius Marinho)
+description: "The following is the second of a three-part series. The first can be found here. The Ecclesial Endeavor to Define the Brazilian Soul: a Summa of the Colonial"
 date: '2021-08-09T23:05:23.000Z'
 author: editors
 image: /images/2021/08/800px-Bororo004.jpg

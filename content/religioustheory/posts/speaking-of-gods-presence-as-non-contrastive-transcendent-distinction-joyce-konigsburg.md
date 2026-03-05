@@ -2,6 +2,7 @@
 title: >-
   Speaking Of God’s Presence As Non-Contrastive Transcendent Distinction (Joyce
   Konigsburg)
+description: "To speak or not to speak of God is an important yet rather uncomfortable question that participants encounter during interreligious and interdisciplinary"
 date: '2019-07-28T01:42:10.000Z'
 author: editors
 image: >-

@@ -2,6 +2,7 @@
 title: >-
   Traversing W.H. Auden’s Religious And Aesthetic States, Part 1 (Raji Singh
   Soni)
+description: "The following is part one of an article that will be published in three successive installments. > TRINCULO Servant-monster! The folly of this island!"
 date: '2017-07-28T22:17:23.000Z'
 author: editors
 image: /images/2017/07/pda44.jpg

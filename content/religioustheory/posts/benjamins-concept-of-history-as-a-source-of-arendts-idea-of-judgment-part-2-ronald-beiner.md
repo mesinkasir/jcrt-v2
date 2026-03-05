@@ -2,6 +2,7 @@
 title: >-
   Benjamin’s Concept of History As A Source of Arendt’s Idea of Judgment – Part
   2 (Ronald Beiner)
+description: "Part 2 extends the Benjamin-Arendt comparison by testing judgment against crisis and memory, clarifying how historical rupture reshapes political discernment"
 date: '2016-08-15T05:34:31.000Z'
 author: editors
 image: >-

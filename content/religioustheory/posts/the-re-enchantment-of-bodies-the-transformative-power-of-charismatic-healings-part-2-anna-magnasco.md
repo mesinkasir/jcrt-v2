@@ -2,6 +2,7 @@
 title: >-
   The Re-Enchantment Of Bodies – The Transformative Power Of Charismatic
   Healings, Part 2 (Anna Magnasco)
+description: "The following is the first of a two-part series. The first installment can be found here. It was originally published in issue 22.1 of the Journal for Cultural"
 date: '2023-12-12T16:56:00.000Z'
 author: editors
 image: /images/2023/12/Screenshot-2023-12-25-at-5.56.48-PM-1210x642.png

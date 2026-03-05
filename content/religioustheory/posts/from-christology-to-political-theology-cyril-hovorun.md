@@ -1,5 +1,6 @@
 ---
 title: From Christology to Political Theology (Cyril Hovorun)
+description: "In the Christian Antiquity and later on during the Middle Ages, there was neither separation nor much distinction between the theological and the political"
 date: '2018-02-26T18:03:11.000Z'
 author: editors
 image: /images/2018/02/Style-8022831138_b3bf36a30d_b-Wavy-Lines-0.4MP.jpg

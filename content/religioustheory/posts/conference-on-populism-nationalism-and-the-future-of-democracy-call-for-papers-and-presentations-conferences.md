@@ -2,6 +2,7 @@
 title: >-
   Conference on Populism, Nationalism, and the Future of Democracy – Call for
   Papers and Presentations (Conferences)
+description: "This call invites interdisciplinary papers on populism, nationalism, and democratic futures, outlining themes, participation details, and deadlines for"
 date: '2025-04-18T20:11:47.000Z'
 author: editors
 image: >-

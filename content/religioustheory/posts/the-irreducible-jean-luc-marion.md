@@ -1,5 +1,6 @@
 ---
 title: The Irreducible (Jean-Luc Marion)
+description: "Of that which we cannot speak, must we remain silent? Probably—especially if we understand why we cannot say anything about it, and have good reason for not"
 date: '2019-08-06T02:16:13.000Z'
 author: editors
 image: >-

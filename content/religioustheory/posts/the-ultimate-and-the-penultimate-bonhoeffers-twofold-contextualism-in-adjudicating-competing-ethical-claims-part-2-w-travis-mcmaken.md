@@ -2,6 +2,7 @@
 title: >-
   The Ultimate And The Penultimate – Bonhoeffer’s Twofold Contextualism In
   Adjudicating Competing Ethical Claims, Part 2 (W. Travis McMaken)
+description: "The following is the second of a two-part series. The first can be found here. Reflecting on the development of Bonhoeffer’s ethical thought, Rasmussen notes"
 date: '2020-08-23T20:44:58.000Z'
 author: editors
 image: /images/2020/08/IMG_5070-1.jpeg

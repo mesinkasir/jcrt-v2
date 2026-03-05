@@ -2,6 +2,7 @@
 title: >-
   Beyond Religious Ideas – The Legacy Of Max Weber In Critical Theory And
   Critical Religion (Joel Harrison)
+description: "This article was initially published in The New Polis, March 23, 2018. In his essay “The Failure of Nerve in the Academic Study of Religion,” Donald Wiebe"
 date: '2018-06-19T14:31:30.000Z'
 author: editors
 image: /images/2018/06/Max-Weber.jpg

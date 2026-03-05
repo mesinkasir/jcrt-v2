@@ -2,6 +2,7 @@
 title: >-
   To Not Lose Sight Of The Good – Notes On The Zapatismo Ethic, Part 1 (Matt
   Rosen)
+description: "On the first of January 1994, as the North American Free Trade Agreement (NAFTA) went into effect, the Ejército Zapatista de Liberación Nacional (Zapatista Army"
 date: '2020-01-14T05:31:14.000Z'
 author: editors
 image: /images/2020/01/Zapatismo_Picture_Marcos.jpg

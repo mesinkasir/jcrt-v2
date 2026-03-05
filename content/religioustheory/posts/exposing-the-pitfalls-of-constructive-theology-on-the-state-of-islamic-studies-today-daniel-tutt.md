@@ -1,5 +1,6 @@
 ---
 title: Review – Aaron Hughes’ ‘Islam and the Tyranny of Authenticity’ (Daniel Tutt)
+description: "*Hughes, Aaron. Islam and the Tyranny of Authenticity: An Inquiry into Disciplinary Apologetics and Self-Deception. London: Equinox Publishing, 2016 It"
 date: '2016-09-22T08:00:31.000Z'
 author: Books
 image: /images/2016/09/hajj.jpg

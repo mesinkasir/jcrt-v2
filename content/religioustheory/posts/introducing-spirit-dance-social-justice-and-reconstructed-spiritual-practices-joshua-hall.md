@@ -2,6 +2,7 @@
 title: >-
   Introducing Spirit/Dance – Social Justice And Reconstructed Spiritual
   Practices, Part 1 (Joshua Hall)
+description: "This project was provoked by the almost nonexistent pushback from the Democratic liberal establishment to the (2020) exoneration of Kyle Rittenhouse, despite"
 date: '2023-03-16T03:14:11.000Z'
 author: editors
 image: >-

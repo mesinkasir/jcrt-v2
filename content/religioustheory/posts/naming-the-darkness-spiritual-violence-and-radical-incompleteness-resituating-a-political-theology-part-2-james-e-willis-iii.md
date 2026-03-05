@@ -2,6 +2,7 @@
 title: >-
   “Naming The Darkness,” Spiritual Violence, And Radical Incompleteness –
   Resituating A Political Theology, Part 2 (James E. Willis, III)
+description: "The following is the second of a two-part series. The first can be found here. A philosophy of finite human time is one way to read Martin Hägglund’s recent"
 date: '2020-05-09T01:10:59.000Z'
 author: editors
 image: /images/2020/05/IMG_4260.jpeg

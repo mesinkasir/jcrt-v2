@@ -1,5 +1,6 @@
 ---
 title: Conferences and CFPs – Upcoming
+description: "Beyond Habermas? Critical Theory, Political Theology, and Interreligious Dialogue “Habermas’ postsecular perspective of socio-political integration has had a"
 date: '2016-02-26T20:48:25.000Z'
 author: editors
 image: /images/2016/02/William-Pynchon.png

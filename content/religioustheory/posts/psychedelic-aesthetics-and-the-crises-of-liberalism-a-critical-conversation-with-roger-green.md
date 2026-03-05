@@ -2,6 +2,7 @@
 title: >-
   Psychedelic Aesthetics And The Crises Of Liberalism – A “Critical
   Conversation” With Roger Green
+description: "The following Critical Conversation took place on February 17, 2022 with Roger Green, author of A Transatlantic Political Theology of Psychedelic Aesthetics:"
 date: '2022-03-29T19:40:35.000Z'
 author: editors
 image: >-

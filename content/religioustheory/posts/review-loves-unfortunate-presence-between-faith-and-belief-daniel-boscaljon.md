@@ -2,6 +2,7 @@
 title: >-
   Review – Love’s Unfortunate Presence between Faith and Belief (Daniel
   Boscaljon)
+description: "*Schrijvers, Joeri. Between Faith and Belief: Toward a Contemporary Phenomenology of Religious Life (SUNY Series in Theology and Continental Thought) It"
 date: '2016-08-18T08:00:50.000Z'
 author: Books
 image: /images/2016/08/Phenomenological-Psychology.jpg

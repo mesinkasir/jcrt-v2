@@ -2,6 +2,7 @@
 title: >-
   Time Emptied And Time Renewed – The Dominion Of Capital And A Theo-Politics Of
   Contretemps, Part 3 (Daniel Rhodes)
+description: "The following is the third installment of a three-part series. The link to the first portion can be found here. The link to the second is here It highlights"
 date: '2016-12-12T07:33:28.000Z'
 author: editors
 image: /images/2016/12/IMG_0632.jpg

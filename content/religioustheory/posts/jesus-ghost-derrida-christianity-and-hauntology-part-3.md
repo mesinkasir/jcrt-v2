@@ -1,5 +1,6 @@
 ---
 title: 'Jesus’ Ghost – Derrida, Christianity, and “Hauntology”, Part 3'
+description: "The following is Part 3 of a 3-part series by Victor Taylor on how one might reflect theologically on Jesus and the Christian message from a Derridean"
 date: '2016-05-14T21:41:02.000Z'
 author: editors
 image: /images/2016/05/brain-facs.jpg

@@ -2,6 +2,7 @@
 title: >-
   Philosophy As Love – Unblocking The Road From Athens To Jerusalem, Part 2
   (Erik Meganck)
+description: "The following is the second of a three part-series. The first can be found here. Love is not the opposite of planning; openness is not the opposite of"
 date: '2022-12-15T12:17:29.000Z'
 author: editors
 image: /images/2022/12/Retro-futurism.jpg

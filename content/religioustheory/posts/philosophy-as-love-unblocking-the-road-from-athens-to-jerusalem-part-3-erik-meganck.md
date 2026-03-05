@@ -2,6 +2,7 @@
 title: >-
   Philosophy As Love – Unblocking The Road From Athens To Jerusalem, Part 3
   (Erik Meganck)
+description: "The following is the third of a three part-series. The first can be found here, the second here. Where planning fails, despair grows Planning is also faithless."
 date: '2022-12-29T12:32:18.000Z'
 author: editors
 image: /images/2022/12/Rodin_The_Thinker_p1070090-800x642.jpg

@@ -2,6 +2,7 @@
 title: >-
   Rethinking Anselm’s Atonement Theory –  “Unmaking” The Indebted Man (Ryne
   Beddard)
+description: "Throughout Church history Christians have used various images and illustrations to explain why God became a human and died, and why these actions have been"
 date: '2017-01-03T20:16:03.000Z'
 author: editors
 image: /images/2017/01/atonement-lg.jpg
