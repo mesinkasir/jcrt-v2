@@ -44,7 +44,7 @@ permalink: /religioustheory/index.html
         </p>
 
         <p class="text-secondary">
-            {{ post.data.excerpt | truncate(120) if post.data.excerpt else "Explore this latest article..." }}
+            {{ post.data.description | truncate(160) if post.data.description else (post.data.excerpt | truncate(120) if post.data.excerpt else "Explore this latest article...") }}
         </p>
 
         <p><a href="{{ post.url }}" class="btn btn-primary px-4 py-2 fw-bold text-uppercase" style="font-size: 0.75rem; letter-spacing: 1px;">

@@ -74,7 +74,7 @@ permalink: "/religioustheory/posts/{% if pagination.pageNumber > 0 %}page/{{ pag
             </div>
 
             <p class="text-secondary small">
-              {{ post.data.excerpt | truncate(110) if post.data.excerpt else "Explore this latest article from our religious theory archive..." }}
+              {{ post.data.description | truncate(160) if post.data.description else (post.data.excerpt | truncate(110) if post.data.excerpt else "Explore this latest article from our religious theory archive...") }}
             </p>
 
             <p class="mt-auto">
