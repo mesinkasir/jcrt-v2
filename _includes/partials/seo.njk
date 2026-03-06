@@ -2,7 +2,15 @@
 {% set pageDesc = description or excerpt or abstract or (content | striptags | trim | truncate(160)) or metadata.description %}
 {% set pageImageRaw = '/img/jcrt-open-graph.png' %}
 {% set pageImage = pageImageRaw if "http" in pageImageRaw else metadata.url + pageImageRaw %}
-{% set canonicalPath = canonical_url or page.url %}
+{% set robotsDirective = "index, follow" %}
+{% if robots %}
+  {% set robotsDirective = robots %}
+{% elif noindex or draft %}
+  {% set robotsDirective = "noindex, follow" %}
+{% elif nofollow %}
+  {% set robotsDirective = "index, nofollow" %}
+{% endif %}
+{% set canonicalPath = (canonical_url or page.url) | stripQueryAndHash %}
 {% set canonicalUrl = canonicalPath if "http" in canonicalPath else metadata.url + canonicalPath %}
 {% set defaultAuthor = "Religious Theory Editors" if "/religioustheory/" in page.url else "JCRT Editors" %}
 {% set authorCandidate = author or authors or pg.authorName or post.authorName or metadata.site.author or defaultAuthor %}
@@ -65,7 +73,7 @@
 <meta property="dc:creator" content="{{ authorName }}" />
 <meta content="{{ metadata.metasocial.twitter }}" name="twitter:site" />
 <meta property="og:type" content="website" />
-<meta content="index, follow" name="robots">
+<meta content="{{ robotsDirective }}" name="robots">
 <link rel="canonical" href="{{ canonicalUrl }}" />
 <link rel="alternate" type="application/atom+xml" title="{{ metadata.title }}" href="{{ metadata.url }}/feed/feed.xml" />
 <link rel="alternate" type="application/rss+xml" title="{{ metadata.title }}" href="{{ metadata.url }}/feed/feed.rss" />

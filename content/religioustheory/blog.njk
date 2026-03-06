@@ -26,20 +26,22 @@ permalink: "/religioustheory/blog/{% if pagination.pageNumber > 0 %}page-{{ pagi
       <div class="col-md-6 col-lg-4 p-3 small p-md-5"> 
         <div class="img-zoom-container rounded-4 shadow-sm mb-3" style="aspect-ratio: 16/9; overflow: hidden;">
           <a href="{{ post.url }}" title="{{ post.data.title }}">
-            {% if post.data.image and post.data.image != 'null' and post.data.image != '' %}
+            {% set defaultCardImage = '/img/jcrt-open-graph.webp' %}
+            {% set blogCardImage = (post.data.image | ensureImage(defaultCardImage)) %}
+            {% if blogCardImage != defaultCardImage %}
               <img class="img-post img-fluid" style="width: 100%; height: 100%; object-fit: cover;" 
-                   alt="{{ post.data.title }}" src="{{ post.data.image | preferWebp }}" data-fallback-src="{{ post.data.image }}"
-                   {% imageAttrs post.data.image, 640, 360 %}
+                   alt="{{ post.data.title }}" src="{{ blogCardImage | preferWebp }}" data-fallback-src="{{ defaultCardImage }}"
+                   {% imageAttrs blogCardImage, 640, 360 %}
                    loading="lazy"
                    decoding="async"
-                   onerror="if(this.dataset.fallbackSrc&&this.src!==this.dataset.fallbackSrc){this.src=this.dataset.fallbackSrc;}else{this.onerror=null;this.src='/img/jcrt.svg';}">
+                   onerror="if(this.dataset.fallbackSrc&&this.src!==this.dataset.fallbackSrc){this.src=this.dataset.fallbackSrc;}else{this.onerror=null;this.src='/img/jcrt-open-graph.webp';}">
             {% else %}
               <img class="img-post img-fluid" style="width: 100%; height: 100%; object-fit: cover;" 
-                   alt="{{ post.data.title }}" src="/img/jcrt.svg"
-                   {% imageAttrs '/img/jcrt.svg', 640, 360 %}
+                   alt="{{ post.data.title }}" src="{{ defaultCardImage }}"
+                   {% imageAttrs defaultCardImage, 640, 360 %}
                    loading="lazy"
                    decoding="async"
-                   onerror="this.onerror=null;this.src='/img/jcrt.svg';">
+                   onerror="this.onerror=null;this.src='/img/jcrt-open-graph.webp';">
             {% endif %}
           </a>
         </div>

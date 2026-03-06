@@ -20,7 +20,7 @@ permalink: "/religioustheory/posts/{% if pagination.pageNumber > 0 %}page/{{ pag
             <div class="img-zoom-container rounded-4 shadow-sm mb-3" style="aspect-ratio: 16/9; overflow: hidden;">
               <a href="{{ post.url }}" title="{{ post.data.title }}">
                 {% set defaultCardImage = '/img/jcrt-open-graph.webp' %}
-                {% set currentImg = post.data.image if post.data.image and post.data.image != 'null' else defaultCardImage %}
+                {% set currentImg = (post.data.image | ensureImage(defaultCardImage)) %}
                 <img class="img-post img-fluid" 
                      style="width: 100%; height: 100%; object-fit: cover;" 
                      alt="{{ post.data.title }}" 
@@ -74,7 +74,8 @@ permalink: "/religioustheory/posts/{% if pagination.pageNumber > 0 %}page/{{ pag
             </div>
 
             <p class="text-secondary small">
-              {{ post.data.description | truncate(160) if post.data.description else (post.data.excerpt | truncate(110) if post.data.excerpt else "Explore this latest article from our religious theory archive...") }}
+              {% set postSummary = post.data.description or post.data.excerpt or post.data.abstract %}
+              {{ postSummary | truncate(160) if postSummary else "Explore this latest article from our religious theory archive..." }}
             </p>
 
             <p class="mt-auto">

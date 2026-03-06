@@ -465,6 +465,16 @@ export default async function (eleventyConfig) {
 		if (!/\.(jpe?g|png)$/i.test(pathname)) return src;
 		return pathname.replace(/\.(jpe?g|png)$/i, ".webp") + suffix;
 	});
+	eleventyConfig.addFilter("ensureImage", function (value, fallback = "/img/jcrt-open-graph.webp") {
+		const defaultImage = String(fallback || "/img/jcrt-open-graph.webp");
+		if (!value) return defaultImage;
+
+		const src = String(value).trim();
+		if (!src || src === "null" || src === "undefined") return defaultImage;
+		if (/^(https?:)?\/\//i.test(src) || src.startsWith("data:")) return src;
+
+		return resolveImagePath(src) ? src : defaultImage;
+	});
 	eleventyConfig.addShortcode("imageAttrs", function (src, fallbackWidth = 1200, fallbackHeight = 630) {
 		const fallback = {
 			width: Number.parseInt(fallbackWidth, 10) || 1200,
@@ -509,8 +519,14 @@ export default async function (eleventyConfig) {
 				} catch {
 					return _;
 				}
-			});
+		});
 		return s;
+	});
+	eleventyConfig.addFilter("stripQueryAndHash", function (value) {
+		if (value === null || value === undefined) return "";
+		const s = String(value).trim();
+		if (!s) return s;
+		return s.split("#")[0].split("?")[0];
 	});
 
 	eleventyConfig.addGlobalData("sitemapBaseUrl", () => siteBaseUrl);

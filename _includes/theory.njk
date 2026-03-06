@@ -8,7 +8,15 @@
   {% set pageDesc = description or excerpt or abstract or pg.excerpt or post.excerpt or (content | striptags | trim | truncate(160)) or metadata.site.description %}
   {% set pageImageRaw = '/img/jcrt-open-graph.png' %}
   {% set pageImage = pageImageRaw if "http" in pageImageRaw else metadata.url + pageImageRaw %}
-  {% set canonicalPath = canonical_url or page.url %}
+  {% set robotsDirective = "index, follow" %}
+  {% if robots %}
+    {% set robotsDirective = robots %}
+  {% elif noindex or draft %}
+    {% set robotsDirective = "noindex, follow" %}
+  {% elif nofollow %}
+    {% set robotsDirective = "index, nofollow" %}
+  {% endif %}
+  {% set canonicalPath = (canonical_url or page.url) | stripQueryAndHash %}
   {% set canonicalUrl = canonicalPath if "http" in canonicalPath else metadata.url + canonicalPath %}
   {% set defaultAuthor = "Religious Theory Editors" %}
   {% set pageAuthorCandidate = author or authors or pg.authorName or post.authorName or metadata.site.author or defaultAuthor %}
@@ -28,7 +36,7 @@
   <meta name="title" content="{{ pageTitle }}" />
   <meta name="description" content="{{ pageDesc }}" />
   <meta name="language" content="{{ metadata.language }}" />
-  <meta name="robots" content="index, follow">
+  <meta name="robots" content="{{ robotsDirective }}">
   <meta name="generator" content="{{ eleventy.generator }}" />
   <link rel="canonical" href="{{ canonicalUrl }}" />
 
@@ -197,7 +205,7 @@
       {% set isTheoryPostDetail = page and page.inputPath and ("/content/religioustheory/posts/" in page.inputPath) %}
       {% if isTheoryPostDetail %}
         {% set defaultPostImage = "/img/jcrt-open-graph.webp" %}
-        {% set postImage = image if image and image != "null" else defaultPostImage %}
+        {% set postImage = (image | ensureImage(defaultPostImage)) %}
         {% set postAuthorRaw = author or authors %}
         {% set postAuthorNames = postAuthorRaw | splitAuthors if postAuthorRaw else [] %}
         {% set postDate = date or page.date %}
@@ -303,6 +311,31 @@
       {% endif %}
     </main>
   </div>
+  <script>
+    (function () {
+      const fallback = "/img/jcrt-open-graph.webp";
+      function applyImageFallbacks() {
+        const images = document.querySelectorAll("img");
+        images.forEach((img) => {
+          if (!img.dataset.fallbackSrc) {
+            img.dataset.fallbackSrc = fallback;
+          }
+          if (img.dataset.fallbackBound === "1") return;
+          img.dataset.fallbackBound = "1";
+          img.addEventListener("error", function () {
+            const target = this.dataset.fallbackSrc || fallback;
+            if (this.src.endsWith(target)) return;
+            this.src = target;
+          });
+        });
+      }
+      if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", applyImageFallbacks);
+      } else {
+        applyImageFallbacks();
+      }
+    })();
+  </script>
   <script defer src="/js/bs.js"></script>
 </body>
 </html>

@@ -23,7 +23,7 @@ permalink: /religioustheory/index.html
         <div class="img-zoom-container rounded-4 shadow-sm mb-3" style="aspect-ratio: 16/9; overflow: hidden;">
             <a href="{{ post.url }}" title="{{ post.data.title }}">
                 {% set defaultCardImage = '/img/jcrt-open-graph.webp' %}
-                {% set cardImage = post.data.image if post.data.image and post.data.image != 'null' else defaultCardImage %}
+                {% set cardImage = (post.data.image | ensureImage(defaultCardImage)) %}
                 <img class="img-post img-fluid" 
                      style="width: 100%; height: 100%; object-fit: cover;" 
                      alt="{{ post.data.title }}" 

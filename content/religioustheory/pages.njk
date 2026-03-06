@@ -5,6 +5,18 @@ permalink: /religioustheory/pages/index.html
 <div class="container-fluid">
   {% include "partials/nav_desktop.njk" %}
 <h1>Static Pages</h1>
+<div class="mb-4">
+  <img
+    src="/img/jcrt-open-graph.webp"
+    data-fallback-src="/img/jcrt-open-graph.webp"
+    alt="Religious Theory"
+    {% imageAttrs '/img/jcrt-open-graph.webp', 1200, 675 %}
+    class="img-fluid rounded shadow-sm w-100"
+    loading="lazy"
+    decoding="async"
+    style="max-height: 320px; object-fit: cover;"
+    onerror="this.onerror=null;this.src='/img/jcrt-open-graph.webp';">
+</div>
 
 <ul>
 {% for pg in collections.theoryPages %}

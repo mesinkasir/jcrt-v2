@@ -13,6 +13,18 @@ permalink: "/religioustheory/{{ pg.fileSlug | slugify }}/index.html"
   <header style="margin-bottom: 30px;">
     <h1>{{ pg.title }}</h1>
   </header>
+  <div class="mb-4">
+    <img
+      src="/img/jcrt-open-graph.webp"
+      data-fallback-src="/img/jcrt-open-graph.webp"
+      alt="{{ pg.title }}"
+      {% imageAttrs '/img/jcrt-open-graph.webp', 1200, 675 %}
+      class="img-fluid rounded shadow-sm w-100"
+      loading="lazy"
+      decoding="async"
+      style="max-height: 320px; object-fit: cover;"
+      onerror="this.onerror=null;this.src='/img/jcrt-open-graph.webp';">
+  </div>
 
   <div class="content-body">
     {{ pg.content | md | safe }}

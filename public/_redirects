@@ -1,3 +1,54 @@
+# Legacy archive extension redirects
+/contact.shtml /contact/ 301
+/searchengine.shtml /search/ 301
+/archives/02.1/intro_reinhard_lupton.shtml /archives/02.1/lupton/ 301
+/archives/01.2/wyschograd_raschke.shtml /archives/01.2/wyschogrod_raschke/ 301
+/archives/:issue/index.shtml /archives/:issue/ 301
+/archives/:issue/index.htm /archives/:issue/ 301
+/archives/:issue/index.xhtml /archives/:issue/ 301
+/archives/:issue/index.htmx /archives/:issue/ 301
+/archives/:issue/:slug.shtml /archives/:issue/:slug/ 301
+/archives/:issue/:slug.htm /archives/:issue/:slug/ 301
+/archives/:issue/:slug.xhtml /archives/:issue/:slug/ 301
+/archives/:issue/:slug.htmx /archives/:issue/:slug/ 301
+
+# Cleanup malformed bookmark-suffix URLs (e.g. Word/bookmark app "\l "_bookmarkX")
+/religioustheory/:year/:month/:day /religioustheory/posts/ 301
+/religioustheory/:year/:month/:day/ /religioustheory/posts/ 301
+/religioustheory/:year/:month/:day/:slug/* /religioustheory/posts/:slug/ 301
+/religioustheory/tag/:tag/feed/* /religioustheory/tags/:tag/ 301
+
+# Legacy WordPress embed URL redirects
+/religioustheory/orientalism-ontology-and-orientation-a-muslim-perspective-on-charles-h-long-part-1-mehnaz-afridi/ /religioustheory/posts/orientalism-ontology-and-orientation/ 301
+/religioustheory/2017/11/01/the-mythology-of-afterlife-beliefs-and-their-impacton-religious-conflict-part-1-brigid-burke/ /religioustheory/posts/the-mythology-of-afterlife-beliefs-and-their-impact-on-religious-conflict-part-1-brigid-burke/ 301
+/religioustheory/:year/:month/:day/:slug/embed /religioustheory/posts/:slug/ 301
+/religioustheory/:year/:month/:day/:slug/embed/ /religioustheory/posts/:slug/ 301
+/religioustheory/:slug/embed /religioustheory/posts/:slug/ 301
+/religioustheory/:slug/embed/ /religioustheory/posts/:slug/ 301
+
+# Legacy WordPress feed URL redirects
+/religioustheory/submissions-2/ https://www.jcrt.org/submissions/ 301
+/religioustheory/:year/:month/:day/:slug/feed /posts/religioustheory/:slug/ 301
+/religioustheory/:year/:month/:day/:slug/feed/ /posts/religioustheory/:slug/ 301
+/religioustheory/:slug/feed /posts/religioustheory/:slug/ 301
+/religioustheory/:slug/feed/ /posts/religioustheory/:slug/ 301
+
+# Legacy religioustheory tag and tag feed redirects
+/religioustheory/tag/:tag /religioustheory/tags/:tag/ 301
+/religioustheory/tag/:tag/ /religioustheory/tags/:tag/ 301
+/religioustheory/tag/:tag/feed /religioustheory/tags/:tag/ 301
+/religioustheory/tag/:tag/feed/ /religioustheory/tags/:tag/ 301
+
+# Legacy index2 page redirects
+/index2.shtml / 301
+/index2.html / 301
+/archives/:issue/index2.shtml /archives/:issue/ 301
+/archives/:issue/index2.html /archives/:issue/ 301
+/*/index.php / 301
+/*/indexx.php / 301
+/*/index2.shtml /:splat/ 301
+/*/index2.html /:splat/ 301
+
 /archives/24.2/trinkauskaitė.pdf /archives/24.2/trinkauskaite/ 301
 /archives/24.2/trinkauskait%C4%97.pdf /archives/24.2/trinkauskaite/ 301
 /archives/24.2/trinkauskaitė/ /archives/24.2/trinkauskaite/ 301

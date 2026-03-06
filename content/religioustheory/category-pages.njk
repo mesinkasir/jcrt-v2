@@ -44,16 +44,17 @@
             
             <div class="img-zoom-container rounded-4 shadow-sm mb-3" style="aspect-ratio: 16/9; overflow: hidden;">
                 <a href="{{ post.url }}">
-                    {% set categoryCardImage = post.data.image or '/img/jcrt.svg' %}
+                    {% set defaultCardImage = '/img/jcrt-open-graph.webp' %}
+                    {% set categoryCardImage = (post.data.image | ensureImage(defaultCardImage)) %}
                     <img class="img-post img-fluid" 
                          style="width: 100%; height: 100%; object-fit: cover;" 
                          alt="{{ post.data.title }}" 
                          src="{{ categoryCardImage | preferWebp }}"
-                         data-fallback-src="{{ categoryCardImage }}"
+                         data-fallback-src="{{ defaultCardImage }}"
                          {% imageAttrs categoryCardImage, 640, 360 %}
                          loading="lazy"
                          decoding="async"
-                         onerror="if(this.dataset.fallbackSrc&&this.src!==this.dataset.fallbackSrc){this.src=this.dataset.fallbackSrc;}else{this.onerror=null;this.src='/img/jcrt.svg';}">
+                         onerror="if(this.dataset.fallbackSrc&&this.src!==this.dataset.fallbackSrc){this.src=this.dataset.fallbackSrc;}else{this.onerror=null;this.src='/img/jcrt-open-graph.webp';}">
                 </a>
             </div>
 
@@ -83,7 +84,8 @@
             </div>
 
             <p class="text-secondary small">
-                {{ post.data.excerpt | truncate(110) if post.data.excerpt else "Explore this article..." }}
+                {% set postSummary = post.data.description or post.data.excerpt or post.data.abstract %}
+                {{ postSummary | truncate(160) if postSummary else "Explore this article..." }}
             </p>
 
             <p class="mt-auto">
