@@ -22,7 +22,7 @@ tags:
   - theoryPosts
 ---
 
-*![](/images/2017/10/ahura-mazda-300x225.jpg)The following is the second installment of a two-part series. The first installment can be found [here]( /01/the-mythology-of-afterlife-beliefs-and-their-impact-on-religious-conflict-part-1-brigid-burke/).*
+*![](/images/2017/10/ahura-mazda-300x225.jpg)The following is the second installment of a two-part series. The first installment can be found [here]( /posts/the-mythology-of-afterlife-beliefs-and-their-impact-on-religious-conflict-part-1-brigid-burke/).*
 
 ## Zoroastrianism
 
