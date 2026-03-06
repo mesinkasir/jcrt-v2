@@ -34,6 +34,7 @@ keywords:
   - religious-revivalism
   - doctrine-of-discovery
 pdf: 'barry.pdf'
+date: 2026-03-03
 ---
 In its bicentennial year, the Erie Canal is widely celebrated as a triumph of American
 ingenuity, economic growth, and national identity. This essay interrogates how that identity is

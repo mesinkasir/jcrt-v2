@@ -17,9 +17,11 @@ import generateReligiousTheoryCitations from "./_config/generate-religioustheory
 import fs from "node:fs";
 import path from "node:path";
 import os from "node:os";
+import { DateTime } from "luxon";
 
 const imageDimensionCache = new Map();
 const metadataYamlPath = path.join(process.cwd(), "_data", "metadata.yaml");
+const TIME_ZONE = "America/New_York";
 
 function getSiteUrlFromMetadata() {
 	const raw = fs.readFileSync(metadataYamlPath, "utf8");
@@ -227,6 +229,24 @@ function isPublishedItem(data = {}, runMode = process.env.ELEVENTY_RUN_MODE) {
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function (eleventyConfig) {
+	eleventyConfig.addDateParsing(function (dateValue) {
+		let localDate;
+		if (dateValue instanceof Date) {
+			localDate = DateTime.fromJSDate(dateValue, { zone: "utc" }).setZone(TIME_ZONE, { keepLocalTime: true });
+		} else if (typeof dateValue === "string") {
+			const trimmedDate = dateValue.trim();
+			const isIsoLike = /^\d{4}-\d{2}-\d{2}(?:[T\s].*)?$/.test(trimmedDate);
+			if (!isIsoLike) return undefined;
+			localDate = DateTime.fromISO(trimmedDate, { zone: TIME_ZONE });
+		}
+		if (localDate?.isValid === false) {
+			throw new Error(
+				`Invalid \`date\` value (${dateValue}) is invalid for ${this.page.inputPath}: ${localDate.invalidReason}`
+			);
+		}
+		return localDate;
+	});
+
 	eleventyConfig.addPlugin(pluginFilters);
 	const isFastBuild = Boolean(process.env.FAST_BUILD);
 	const isBuildMode = process.env.ELEVENTY_RUN_MODE === "build";

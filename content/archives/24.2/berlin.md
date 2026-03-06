@@ -16,6 +16,7 @@ keywords:
   - iberian-monarchies
   - indigenous-dispossession
 pdf: 'berlin.pdf'
+date: 2026-03-03
 ---
 College educators have a duty to confront the lived realities of white supremacy and settler
 colonialism as they present themselves in the classroom, the historical record, and the academy

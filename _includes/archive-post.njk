@@ -10,8 +10,22 @@ layout: base.njk
   <div class="container-fluid">
     <article class="py-4">
       <header class="mb-5 pb-2">
-        {% if article_number %}
-          <div class="text-primary fw-bold small text-uppercase mb-2">Article No. {{ article_number }}</div>
+        {% set displayVolume = jsonEntry.volume or volume %}
+        {% set displayIssue = jsonEntry.issue or issue %}
+        {% set displaySeason = jsonEntry.season or season %}
+        {% set displayDate = jsonEntry.date or date %}
+        {% set hasIssueNumber = displayVolume or displayIssue %}
+
+        {% if hasIssueNumber or displaySeason or article_number %}
+          <div class="text-primary fw-bold small text-uppercase mb-2">
+            {% if isIssueIndex %}
+              {% if hasIssueNumber %}Issue {{ displayVolume }}.{{ displayIssue }}{% endif %}
+              {% if displaySeason %}{% if hasIssueNumber %} {% endif %}{{ displaySeason }}{% endif %}
+            {% else %}
+              {% if hasIssueNumber %}Issue {{ displayVolume }}.{{ displayIssue }}{% endif %}
+              {% if article_number %}{% if hasIssueNumber %} | {% endif %}Article No. {{ article_number }}{% endif %}
+            {% endif %}
+          </div>
         {% endif %}
 
         <h1 class="serif fw-bold display-4 mb-3 p-name">{{ jsonEntry.title or title }}</h1>
@@ -47,28 +61,33 @@ layout: base.njk
           {% if affilation %}<br><small class="text-secondary">{{ affilation }}</small>{% endif %}
         </div>
 
-        <div class="d-flex flex-wrap gap-3 align-items-center small mt-3">
-          {% set displayDate = jsonEntry.date or date %}
+        <div class="d-flex flex-wrap gap-2 align-items-center small mt-3 text-muted">
           {% if displayDate %}
-            <span class="text-muted dt-published"><i class="bi bi-calendar3"></i> {{ displayDate | postDate }}</span>
-          {% endif %}
-          
-          {% if pdfUrl and not isIssueIndex %}
-            <a href="{{ pdfUrl }}" title="Download Article as a PDF" class="btn btn-sm btn-primary px-4 rounded-0 shadow-sm" target="_blank">
-              <i class="bi bi-file-earmark-pdf"></i> Download Article
-            </a>
-          {% endif %}
-          {% if risCitationUrl and not isIssueIndex %}
-            <a href="{{ risCitationUrl }}" title="Download citation as RIS" class="btn btn-sm btn-outline-primary px-4 rounded-0 shadow-sm" download>
-              <i class="bi bi-journal-text"></i> Download Citation (RIS)
-            </a>
-          {% endif %}
-          {% if jsonCitationUrl and not isIssueIndex %}
-            <a href="{{ jsonCitationUrl }}" title="Download citation as CSL JSON" class="btn btn-sm btn-outline-secondary px-4 rounded-0 shadow-sm" download>
-              <i class="bi bi-braces"></i> Download Citation (JSON)
-            </a>
+            <span class="dt-published"><i class="bi bi-calendar3"></i> {{ displayDate | postDate }}</span>
           {% endif %}
         </div>
+
+        {% if not isIssueIndex and (pdfUrl or risCitationUrl or jsonCitationUrl) %}
+          <div class="d-flex flex-wrap gap-3 align-items-center small mt-3">
+            {% if pdfUrl %}
+              <a href="{{ pdfUrl }}" title="Download Article as a PDF" class="btn btn-sm btn-primary px-4 rounded-0 shadow-sm" target="_blank">
+                <i class="bi bi-file-earmark-pdf"></i> Download Article
+              </a>
+            {% endif %}
+            {% if risCitationUrl %}
+              <a href="{{ risCitationUrl }}" title="Download citation as RIS" class="btn btn-sm btn-outline-primary px-4 rounded-0 shadow-sm" download>
+                <i class="bi bi-journal-text"></i> Download Citation (RIS)
+              </a>
+            {% endif %}
+            {% if jsonCitationUrl %}
+              <a href="{{ jsonCitationUrl }}" title="Download citation as CSL JSON" class="btn btn-sm btn-outline-secondary px-4 rounded-0 shadow-sm" download>
+                <i class="bi bi-braces"></i> Download Citation (JSON)
+              </a>
+            {% endif %}
+          </div>
+        {% endif %}
+        
+        
       </header>
 
       {% if abstract %}

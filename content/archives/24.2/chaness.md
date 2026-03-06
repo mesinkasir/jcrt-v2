@@ -12,6 +12,7 @@ keywords:
 - teaching
 - indigenous-studies
 pdf: 'chaness.pdf'
+date: 2026-03-03
 ---
 This article examines the tentacles between white supremacy, settler colonialism, and anti-Indian racism through the lens of “utopian ideologies” (Mohawk) and “cartographies of refusal” (Simpson). The paper is the result of the author's close collaboration with contemporary Haudenosaunee communities and living and working on the ancestral lands of the Onondaga Nation. Special attention is paid to how course design, visual art, and Indigenous values can help students understand how the legacies of white supremacy, settler colonialism, and anti-Indian racism continue to affect prevailing legal, political, religious, and media institutions in the United States of America.
  

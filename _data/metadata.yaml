@@ -3,6 +3,7 @@ description: "Journal for Cultural and Religious Theory (JCRT), whitestone found
 image: "/img/logos/favicon.svg"
 language: "en"
 locale: en_US
+timezone: America/New_York
 favicon: "/img/logos/favicon.svg"
 #url: http://localhost:8080 #localhost
 #url: https://jcrt.netlify.app #development

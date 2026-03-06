@@ -1,23 +1,39 @@
 import fs from "node:fs";
 import path from "node:path";
 
-const issueYearCache = new Map();
+const issueMetaCache = new Map();
 
-function readIssueYear(issue) {
+function readIssueMetadata(issue) {
   if (!issue) return null;
-  if (issueYearCache.has(issue)) return issueYearCache.get(issue);
+  if (issueMetaCache.has(issue)) return issueMetaCache.get(issue);
 
   const issueIndexPath = path.join(process.cwd(), "content", "archives", issue, "index.njk");
   if (!fs.existsSync(issueIndexPath)) {
-    issueYearCache.set(issue, null);
+    issueMetaCache.set(issue, null);
     return null;
   }
 
   const src = fs.readFileSync(issueIndexPath, "utf8");
-  const match = src.match(/^\s*year:\s*['"]?(\d{4})['"]?\s*$/m);
-  const year = match ? Number.parseInt(match[1], 10) : null;
-  issueYearCache.set(issue, Number.isFinite(year) ? year : null);
-  return issueYearCache.get(issue);
+  const yearMatch = src.match(/^\s*year:\s*['"]?(\d{4})['"]?\s*$/m);
+  const seasonMatch = src.match(/^\s*season:\s*['"]?(.+?)['"]?\s*$/m);
+  const volumeMatch = src.match(/^\s*volume:\s*['"]?(.+?)['"]?\s*$/m);
+  const issueMatch = src.match(/^\s*issue:\s*['"]?(.+?)['"]?\s*$/m);
+
+  const year = yearMatch ? Number.parseInt(yearMatch[1], 10) : null;
+  const meta = {
+    year: Number.isFinite(year) ? year : null,
+    season: seasonMatch ? seasonMatch[1].trim() : null,
+    volume: volumeMatch ? volumeMatch[1].trim() : null,
+    issue: issueMatch ? issueMatch[1].trim() : null
+  };
+  issueMetaCache.set(issue, meta);
+  return meta;
+}
+
+function getIssueFromData(data) {
+  const stem = String(data?.page?.filePathStem || "");
+  const parts = stem.split("/");
+  return parts.length >= 3 ? parts[parts.length - 2] : null;
 }
 
 export default {
@@ -29,13 +45,29 @@ export default {
       const directYear = Number.parseInt(data?.year, 10);
       if (Number.isFinite(directYear) && directYear > 0) return `${directYear}-01-01`;
 
-      const stem = String(data?.page?.filePathStem || "");
-      const parts = stem.split("/");
-      const issue = parts.length >= 3 ? parts[parts.length - 2] : null;
-      const issueYear = readIssueYear(issue);
-      if (Number.isFinite(issueYear) && issueYear > 0) return `${issueYear}-01-01`;
+      const issue = getIssueFromData(data);
+      const issueMeta = readIssueMetadata(issue);
+      if (Number.isFinite(issueMeta?.year) && issueMeta.year > 0) return `${issueMeta.year}-01-01`;
 
       return data?.page?.date || null;
+    },
+    season: (data) => {
+      if (data?.season) return data.season;
+      const issue = getIssueFromData(data);
+      const issueMeta = readIssueMetadata(issue);
+      return issueMeta?.season || null;
+    },
+    volume: (data) => {
+      if (data?.volume) return data.volume;
+      const issue = getIssueFromData(data);
+      const issueMeta = readIssueMetadata(issue);
+      return issueMeta?.volume || null;
+    },
+    issue: (data) => {
+      if (data?.issue) return data.issue;
+      const issue = getIssueFromData(data);
+      const issueMeta = readIssueMetadata(issue);
+      return issueMeta?.issue || null;
     },
     pdfUrl: (data) => {
       const slug = data.page.fileSlug;
