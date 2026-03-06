@@ -5,14 +5,14 @@
 /archives/01.2/wyschograd_raschke.shtml /archives/01.2/wyschogrod_raschke/ 301
 /archives/01.2/vahanian /archives/01.2/nvahanian/ 301
 /archives/01.2/vahanian/ /archives/01.2/nvahanian/ 301
-/archives/:issue/index.shtml /archives/:issue/ 301
-/archives/:issue/index.htm /archives/:issue/ 301
-/archives/:issue/index.xhtml /archives/:issue/ 301
-/archives/:issue/index.htmx /archives/:issue/ 301
-/archives/:issue/:slug.shtml /archives/:issue/:slug/ 301
-/archives/:issue/:slug.htm /archives/:issue/:slug/ 301
-/archives/:issue/:slug.xhtml /archives/:issue/:slug/ 301
-/archives/:issue/:slug.htmx /archives/:issue/:slug/ 301
+/archives/:issue/index.shtml /archives/:issue/ 301!
+/archives/:issue/index.htm /archives/:issue/ 301!
+/archives/:issue/index.xhtml /archives/:issue/ 301!
+/archives/:issue/index.htmx /archives/:issue/ 301!
+/archives/:issue/*.shtml /archives/:issue/:splat/ 301
+/archives/:issue/*.htm /archives/:issue/:splat/ 301
+/archives/:issue/*.xhtml /archives/:issue/:splat/ 301
+/archives/:issue/*.htmx /archives/:issue/:splat/ 301
 
 # Specific legacy religioustheory typo-slug redirects
 /religioustheory/2016/09/19/from-heathen-to-sub-human-a-genealogy-of-theinfluence-of-the-decline-of-religion-on-the-rise-of-modern-racism-part-1-oludamini-ogunnaike/ /religioustheory/posts/from-heathen-to-sub-human-a-genealogy-of-the-influence-of-the-decline-of-religion-on-the-rise-of-modern-racism-part-1-oludamini-ogunnaike/ 301
@@ -21,11 +21,138 @@
 /religioustheory/2017/11/01/the-mythology-of-afterlife-beliefs-and-theirimpact-on-religious-conflict-part-1-brigid-burke/ /religioustheory/posts/the-mythology-of-afterlife-beliefs-and-their-impact-on-religious-conflict-part-1-brigid-burke/ 301
 /religioustheory/2019/02/28/thinking-with-ones-feet-lacanian-theories-of-textual-engagement-part-3-william-j-urban/ /religioustheory/posts/ 301
 
+
+# Auto-mapped truncated religioustheory URL redirects
+/religioustheory/2016/04/27/jesus-ghost-derrida-christianity-and- /religioustheory/posts/jesus-ghost-derrida-christianity-and-hauntology-part-1/ 301
+/religioustheory/2016/05/31/force-in-religious- /religioustheory/posts/force-in-religious-thought-carl-raschke-and-victoria-kahn-in-dialogue-part-1/ 301
+/religioustheory/2016/05/31/force-in-religious-thought-carl-raschke-and-victoria-kahn /religioustheory/posts/force-in-religious-thought-carl-raschke-and-victoria-kahn-in-dialogue-part-1/ 301
+/religioustheory/2016/07/11/what-is-a /religioustheory/posts/what-is-a-dispositif-part-1/ 301
+/religioustheory/2016/07/14/review- /religioustheory/posts/review-digital-technologies-and-religion-in-the-postmodern-era/ 301
+/religioustheory/2016/07/25/love-strong-as-death-jews-against-heidegger-on- /religioustheory/posts/love-strong-as-death-jews-against-heidegger-on-the-issue-of-finitude-part-1-agata-bielik-robson/ 301
+/religioustheory/2016/07/25/love-strong-as-death-jews-against-heidegger-on-the- /religioustheory/posts/love-strong-as-death-jews-against-heidegger-on-the-issue-of-finitude-part-1-agata-bielik-robson/ 301
+/religioustheory/2016/08/01/love-strong-as-death-jews-against-heidegger-on- /religioustheory/posts/love-strong-as-death-jews-against-heidegger-on-the-issue-of-finitude-part-2-agata-bielik-robson/ 301
+/religioustheory/2016/08/01/love-strong-as-death-jews-against-heidegger-on-the- /religioustheory/posts/love-strong-as-death-jews-against-heidegger-on-the-issue-of-finitude-part-2-agata-bielik-robson/ 301
+/religioustheory/2016/08/08/benjamins-concept-of-history-as-a-source-of- /religioustheory/posts/benjamins-concept-of-history-as-a-source-of-arendts-idea-of-judgment-ronald-beiner/ 301
+/religioustheory/2016/08/08/benjamins-concept-of-history-as-a-source-of-arendts- /religioustheory/posts/benjamins-concept-of-history-as-a-source-of-arendts-idea-of-judgment-ronald-beiner/ 301
+/religioustheory/2016/08/15/benjamins-concept-of-history-as-a-source-of- /religioustheory/posts/benjamins-concept-of-history-as-a-source-of-arendts-idea-of-judgment-part-2-ronald-beiner/ 301
+/religioustheory/2016/09/19/from-heathen-to- /religioustheory/posts/from-heathen-to-sub-human-a-genealogy-of-the-influence-of-the-decline-of-religion-on-the-rise-of-modern-racism-part-1-oludamini-ogunnaike/ 301
+/religioustheory/2016/12/19/the- /religioustheory/posts/the-semiotics-of-the-unconscious-in-gilles-deleuze-and-roland-barthes-roger-green/ 301
+/religioustheory/2016/12/19/the-semiotics-of- /religioustheory/posts/the-semiotics-of-the-unconscious-in-gilles-deleuze-and-roland-barthes-roger-green/ 301
+/religioustheory/2016/12/19/the-semiotics-of-the-unconscious-in-gilles- /religioustheory/posts/the-semiotics-of-the-unconscious-in-gilles-deleuze-and-roland-barthes-roger-green/ 301
+/religioustheory/2017/02/06/philoso /religioustheory/posts/philosophy-as-interdisciplinary-intensity-an-interview-with-giorgio-agamben-antonio-gnolioido-govrin/ 301
+/religioustheory/2017/02/06/philosophy- /religioustheory/posts/philosophy-as-interdisciplinary-intensity-an-interview-with-giorgio-agamben-antonio-gnolioido-govrin/ 301
+/religioustheory/2017/02/06/philosophy-as- /religioustheory/posts/philosophy-as-interdisciplinary-intensity-an-interview-with-giorgio-agamben-antonio-gnolioido-govrin/ 301
+/religioustheory/2017/03/17/review- /religioustheory/posts/review-copresence-and-ontography-in-beliso-de-jesus-electric-santeria-ryne-beddard/ 301
+/religioustheory/2017/09/12/framing /religioustheory/posts/framing-religious-conflict-and-violence-insights-from-historical-institutionalism-part-1-vivek-swaroop-sharma/ 301
+/religioustheory/2017/11/01/the-mythology- /religioustheory/posts/the-mythology-of-afterlife-beliefs-and-their-impact-on-religious-conflict-part-1-brigid-burke/ 301
+/religioustheory/2017/11/01/the-mythology-of-afterlife /religioustheory/posts/the-mythology-of-afterlife-beliefs-and-their-impact-on-religious-conflict-part-1-brigid-burke/ 301
+/religioustheory/2017/11/01/the-mythology-of-afterlife-beliefs- /religioustheory/posts/the-mythology-of-afterlife-beliefs-and-their-impact-on-religious-conflict-part-1-brigid-burke/ 301
+/religioustheory/2017/11/01/the-mythology-of-afterlife-beliefs-and- /religioustheory/posts/the-mythology-of-afterlife-beliefs-and-their-impact-on-religious-conflict-part-1-brigid-burke/ 301
+/religioustheory/2017/11/01/the-mythology-of-afterlife-beliefs-and-their- /religioustheory/posts/the-mythology-of-afterlife-beliefs-and-their-impact-on-religious-conflict-part-1-brigid-burke/ 301
+/religioustheory/2017/11/01/the-mythology-of-afterlife-beliefs-and-their-impact- /religioustheory/posts/the-mythology-of-afterlife-beliefs-and-their-impact-on-religious-conflict-part-1-brigid-burke/ 301
+/religioustheory/2017/11/07/the-mythology-of-afterlife-beliefs-and-their- /religioustheory/posts/the-mythology-of-afterlife-beliefs-and-their-impact-on-religious-conflict-part-2-brigid-burke/ 301
+/religioustheory/2017/11/07/the-mythology-of-afterlife-beliefs-and-their-impact- /religioustheory/posts/the-mythology-of-afterlife-beliefs-and-their-impact-on-religious-conflict-part-2-brigid-burke/ 301
+/religioustheory/2017/11/07/the-mythology-of-afterlife-beliefs-and-their-impact-on- /religioustheory/posts/the-mythology-of-afterlife-beliefs-and-their-impact-on-religious-conflict-part-2-brigid-burke/ 301
+/religioustheory/2018/04/05/review- /religioustheory/posts/review-reverent-irreverence-amit-gvaryahu/ 301
+/religioustheory/2018/06/19/beyond-religious-ideas-the-legacy-of-max- /religioustheory/posts/beyond-religious-ideas-the-legacy-of-max-weber-in-critical-theory-and-critical-religion-joel-harrison/ 301
+/religioustheory/2018/06/26/the-dangers-of- /religioustheory/posts/the-dangers-of-dealing-with-derrida-revisiting-the-caputo-hagglund-debate-on-the-religious-reading-of-deconstruction-part-1-neal-deroo/ 301
+/religioustheory/2018/06/26/the-dangers-of-de /religioustheory/posts/the-dangers-of-dealing-with-derrida-revisiting-the-caputo-hagglund-debate-on-the-religious-reading-of-deconstruction-part-1-neal-deroo/ 301
+/religioustheory/2018/06/26/the-dangers-of-dealing-with-derrida- /religioustheory/posts/the-dangers-of-dealing-with-derrida-revisiting-the-caputo-hagglund-debate-on-the-religious-reading-of-deconstruction-part-1-neal-deroo/ 301
+/religioustheory/2018/06/26/the-dangers-of-dealing-with-derrida-revisiting-the-caputo- /religioustheory/posts/the-dangers-of-dealing-with-derrida-revisiting-the-caputo-hagglund-debate-on-the-religious-reading-of-deconstruction-part-1-neal-deroo/ 301
+/religioustheory/2018/07/31/lacan-as /religioustheory/posts/lacan-as-spiritual-director-on-the-relationship-between-psychoanalysis-and-christian-mysticism-part-1-mark-murphy/ 301
+/religioustheory/2018/07/31/lacan-as-spiritual- /religioustheory/posts/lacan-as-spiritual-director-on-the-relationship-between-psychoanalysis-and-christian-mysticism-part-1-mark-murphy/ 301
+/religioustheory/2018/07/31/lacan-as-spiritual-director-on-the-relationship-between- /religioustheory/posts/lacan-as-spiritual-director-on-the-relationship-between-psychoanalysis-and-christian-mysticism-part-1-mark-murphy/ 301
+/religioustheory/2018/08/08/lacan-as-spiritual- /religioustheory/posts/lacan-as-spiritual-director-on-the-relationship-between-psychoanalysis-and-christian-mysticism-part-2-mark-murphy/ 301
+/religioustheory/2018/08/08/lacan-as-spiritual-director-on- /religioustheory/posts/lacan-as-spiritual-director-on-the-relationship-between-psychoanalysis-and-christian-mysticism-part-2-mark-murphy/ 301
+/religioustheory/2018/08/15/lacan-as-spiritual- /religioustheory/posts/lacan-as-spiritual-director-on-the-relationship-between-psychoanalysis-and-christian-mysticism-part-3-mark-murphy/ 301
+/religioustheory/2018/10/02/re- /religioustheory/posts/re-envisioning-religious-studies-as-a-global-discipline-a-pre-aar-symposium/ 301
+/religioustheory/2019/02/22/review-the- /religioustheory/posts/review-the-enigmatic-absolute-stanimir-panayotov/ 301
+/religioustheory/2019/07/08/fetishism-and-the-erasure-of-identity- /religioustheory/posts/fetishism-and-the-erasure-of-identity-part-1-roger-green/ 301
+/religioustheory/2019/07/08/fetishism-and-the-erasure-of-identity-part-1- /religioustheory/posts/fetishism-and-the-erasure-of-identity-part-1-roger-green/ 301
+/religioustheory/2019/08/19/christianity-as-a-new-humanism-historical- /religioustheory/posts/christianity-as-a-new-humanism/ 301
+/religioustheory/christianity-as-a-new-humanism-historical- /religioustheory/posts/christianity-as-a-new-humanism/ 301
+/religioustheory/2019/12/29/horror- /religioustheory/posts/horror-fiction-and-catholic-theology-a-rhetorical-synthesis-gavin-hurley/ 301
+/religioustheory/2020/01/30/reframing /religioustheory/posts/reframing-the-adwa-victory-as-a-decolonizing-praxis-discourse-around-colonization-in-the-ethiopian-context/ 301
+/religioustheory/2020/02/04/reframing /religioustheory/posts/reframing-the-adwa-victory-as-a-decolonizing-praxis-discourse-around-colonization-in-the-ethiopian-context-part-2-rode-molla/ 301
+/religioustheory/2020/06/01/religious-studies-the-final-colonization /religioustheory/posts/religious-studies-the-final-colonization-of-american-indians-part-1-tink-tinker-wazhazhe-udsethe/ 301
+/religioustheory/2020/06/01/religious-studies-the-final-colonization-of /religioustheory/posts/religious-studies-the-final-colonization-of-american-indians-part-1-tink-tinker-wazhazhe-udsethe/ 301
+/religioustheory/religious-studies-the-final--colonization-of-american-indians-part-1-tink-tinker-wazhazhe-udsethe /religioustheory/posts/religious-studies-the-final-colonization-of-american-indians-part-1-tink-tinker-wazhazhe-udsethe/ 301
+/religioustheory/2020/08/17/the-ultimate-and-the-penultimate- /religioustheory/posts/the-ultimate-and-the-penultimate-bonhoeffers-twofold-contextualism-in-adjudicating-competing-ethical-claims-part-1-w-travis-mcmaken/ 301
+/religioustheory/2020/08/17/the-ultimate-and-the-penultimate-bonhoeffers-twofold- /religioustheory/posts/the-ultimate-and-the-penultimate-bonhoeffers-twofold-contextualism-in-adjudicating-competing-ethical-claims-part-1-w-travis-mcmaken/ 301
+/religioustheory/review-caputo-the-unconditional-the-folly-of-god-richard- /religioustheory/posts/review-caputo-the-unconditional-the-folly-of-god-richard-m-allen/ 301
+/religioustheory/2021/04/26/what-do-we-mean-by-decoloniality-a- /religioustheory/posts/what-do-we-mean-by-decoloniality-a-conversation/ 301
+/religioustheory/2021/06/22/debrie /religioustheory/posts/debriefing-on-decoloniality-a-public-conversation-part-2/ 301
+/religioustheory/2021/06/22/debriefing-on-decoloniality-a-p /religioustheory/posts/debriefing-on-decoloniality-a-public-conversation-part-2/ 301
+/religioustheory/2021/08/16/thomas-aquinass-body-soul-dualism-an /religioustheory/posts/thomas-aquinass-body-soul-dualism-and-the-hierarchy-of-human-dignity-in-brazil-theological-origins-of-a-nations-hierarchical-self-understanding-part-1-vinicius-marinho/ 301
+/religioustheory/2022/01/17/locating-the-oceanic-in-sylvia-wynters- /religioustheory/posts/locating-the-oceanic-in-sylvia-wynters-demonic-ground-part-2-justine-m-bakker/ 301
+/religioustheory/2023/10/11/what-exactly-is-postmodernism-and- /religioustheory/posts/what-exactly-is-postmodernism-and-how-did-it-change-the-landscape-of-religious-studies-part-2-carl-raschke/ 301
+/religioustheory/2024/08/07/sikh- /religioustheory/posts/sikh-environmental-ethics-theory-and-praxis-part-1-harpreet-kaur/ 301
+/religioustheory/2024/08/24/sikh-environmental- /religioustheory/posts/sikh-environmental-ethics-theory-and-praxis-part-2-harpreet-kaur/ 301
+/religioustheory/conferences-and-call- /religioustheory/posts/ 301
+/religioustheory/beyond-religious-ideas-the-legacy-of-max- /religioustheory/posts/beyond-religious-ideas-the-legacy-of-max-weber-in-critical-theory-and-critical-religion-joel-harrison/ 301
+/religioustheory/fetishism-and-the-erasure-of-identity-part-1- /religioustheory/posts/fetishism-and-the-erasure-of-identity-part-1-roger-green/ 301
+/religioustheory/thomas-aquinass-body-soul-dualism-an /religioustheory/posts/thomas-aquinass-body-soul-dualism-and-the-hierarchy-of-human-dignity-in-brazil-theological-origins-of-a-nations-hierarchical-self-understanding-part-1-vinicius-marinho/ 301
+
+# Auto-mapped truncated religioustheory URL redirects (2nd pass)
+/religioustheory/2018/07/26/negative-theology-and-its-problems-barth-and /religioustheory/posts/negative-theology-and-its-problems-barth-and-marion-lecture-3-johannes-zachhuber/ 301
+/religioustheory/2018/09/30/religion-and-mental-health-the-therapeutic-val /religioustheory/posts/religion-and-mental-health-the-therapeutic-value-of-the-teachings-of-jesus-part-1-thomas-roberts-and-delbert-hayden/ 301
+/religioustheory/2020/07/05/progressive-neoliberalism-symbolic-capitalism-and-the-global-reproduction-of-the-precariat-interview /religioustheory/posts/progressive-neoliberalism-symbolic-capitalism-and-the-global-reproduction-of-the-precariat-interview-with-carl-raschke/ 301
+/religioustheory/2016/08/04/review-a-darker- /religioustheory/posts/review-a-darker-grittier-deleuze/ 301
+/religioustheory/2017/02/06/philosophy-as-interdisciplinary-i /religioustheory/posts/philosophy-as-interdisciplinary-intensity-an-interview-with-giorgio-agamben-antonio-gnolioido-govrin/ 301
+/religioustheory/2020/03/22/lacan-and-pneumatology-mark- /religioustheory/posts/lacan-and-pneumatology-mark-murphy/ 301
+/religioustheory/2016/03/03/notations-agambens-homo-sacer-refugees-and-the-crisis-of- /religioustheory/posts/notations-agambens-homo-sacer-refugees-and-the-crisis-of-european-values/ 301
+/religioustheory/2018/02/26/from-c /religioustheory/posts/from-christology-to-political-theology-cyril-hovorun/ 301
+/religioustheory/2018/10/09/religion-and-mental-health-the-therapuetic- /religioustheory/posts/religion-and-mental-health-the-therapuetic-value-of-the-teachings-of-jesus-part-2-thomas-roberts-and-delbert-hayden/ 301
+/religioustheory/2018/10/09/religion-and-mental-health-the-therapuetic-value-of-the-teachings-of-jesus-part-2- /religioustheory/posts/religion-and-mental-health-the-therapuetic-value-of-the-teachings-of-jesus-part-2-thomas-roberts-and-delbert-hayden/ 301
+/religioustheory/2017/05/25/review-ontic-flows-from-digital-humanities-to-posthum /religioustheory/posts/review-ontic-flows-from-digital-humanities-to-posthumanities-dean-dettloff/ 301
+/religioustheory/2016/12/08/review-the-greatest-trick-god-ever-pulled-benjamin-steele /religioustheory/posts/review-the-greatest-trick-god-ever-pulled-benjamin-steele-fisher/ 301
+/religioustheory/2017/02/06/philosophy-as-interdisciplinary-intensity-an-interview- /religioustheory/posts/philosophy-as-interdisciplinary-intensity-an-interview-with-giorgio-agamben-antonio-gnolioido-govrin/ 301
+/religioustheory/2017/01/03/rethinking-anselms- /religioustheory/posts/rethinking-anselms-atonement-theory-unmaking-the-indebted-man-ryne-beddard/ 301
+/religioustheory/2018/02/06/review-three-agambens-on- /religioustheory/posts/review-three-agambens-on-display-the-metaphysical-political-and-literary-components-of-agambens-philosophical-lineage-sj-cowan/ 301
+/religioustheory/2017/05/23/review-economy-and-ontology-from /religioustheory/posts/review-economy-and-ontology-from-agamben-to-nancy-taylor-weaver/ 301
+/religioustheory/2016/07/21/review-agambens- /religioustheory/posts/review-agambens-political-reading-of-the-trial-of-jesus/ 301
+/religioustheory/review-agambens-political-reading-of-the-trial-of-jes /religioustheory/posts/review-agambens-political-reading-of-the-trial-of-jesus/ 301
+/religioustheory/2016/03/10/review-essay-peter-sloterdijk-on- /religioustheory/posts/review-essay-peter-sloterdijk-on-social-bonds-freedom-and-religion/ 301
+/religioustheory/2016/03/10/review-essay- /religioustheory/posts/review-essay-peter-sloterdijk-on-social-bonds-freedom-and-religion/ 301
+/religioustheory/2017/03/01/the-bell- /religioustheory/posts/the-bell-jars-new-look-sylvia-plath-simone-de-beauvoir-and-the-visual-representation-of-feminist-discourse-madeline-yonker/ 301
+/religioustheory/2017/03/01/the-bell-jars-new-look-sylvia-plath-s /religioustheory/posts/the-bell-jars-new-look-sylvia-plath-simone-de-beauvoir-and-the-visual-representation-of-feminist-discourse-madeline-yonker/ 301
+/religioustheory/2016/03/10/review-essay-peter-sloterdijk-on-social-bonds-freedom-and- /religioustheory/posts/review-essay-peter-sloterdijk-on-social-bonds-freedom-and-religion/ 301
+/religioustheory/2016/03/23/plundering-a-theory- /religioustheory/posts/plundering-a-theory-of-trauma-confessions-of-a-novice-author-on-lacan-and-theology/ 301
+/religioustheory/2018/01/14/review-hear-no-evil-see-no-evil-speak-no-evil- /religioustheory/posts/review-hear-no-evil-see-no-evil-speak-no-evil-negative-reactions-to-jewish-people-pre-and-post-holocaust-madison-tarleton/ 301
+/religioustheory/2016/07/28/review-altered-states-buddhism-and-psychedelic- /religioustheory/posts/review-altered-states-buddhism-and-psychedelic-spirituality-in-america/ 301
+/religioustheory/2018/05/12/thinkin /religioustheory/posts/thinking-about-god-in-a-pluralistic-world-the-challenge-of-modern-theology-lecture-1-johannes-zuchaber/ 301
+/religioustheory/2018/05/12/thinking-about-god-in-a /religioustheory/posts/thinking-about-god-in-a-pluralistic-world-the-challenge-of-modern-theology-lecture-1-johannes-zuchaber/ 301
+/religioustheory/2018/05/12/thinking-about-god-in-a- /religioustheory/posts/thinking-about-god-in-a-pluralistic-world-the-challenge-of-modern-theology-lecture-1-johannes-zuchaber/ 301
+/religioustheory/2016/07/07/review-the-search-for-transcendence- /religioustheory/posts/review-the-search-for-transcendence-in-the-material-phenomenology-of-david-foster-wallace/ 301
+/religioustheory/2016/08/18/review-loves-unfortunate-presence- /religioustheory/posts/review-loves-unfortunate-presence-between-faith-and-belief-daniel-boscaljon/ 301
+/religioustheory/2017/02/06/philosophy-as-interdisciplinary-intensity- /religioustheory/posts/philosophy-as-interdisciplinary-intensity-an-interview-with-giorgio-agamben-antonio-gnolioido-govrin/ 301
+/religioustheory/2016/02/24/life-as-art-aesthetic-virtue-and- /religioustheory/posts/life-as-art-aesthetic-virtue-and-moral-obligation/ 301
+/religioustheory/2016/07/28/review-altered-states- /religioustheory/posts/review-altered-states-buddhism-and-psychedelic-spirituality-in-america/ 301
+/religioustheory/2016/04/06/spiritual-erotics-part-2-the-nature-a /religioustheory/posts/spiritual-erotics-part-2-the-nature-and-history-of-machismo-and-its-feminine-counterpart-as-marianismo/ 301
+/religioustheory/2016/07/28/review-altered-states-buddhism-and- /religioustheory/posts/review-altered-states-buddhism-and-psychedelic-spirituality-in-america/ 301
+/religioustheory/2016/02/24/life-as-art-aesthetic-virtue- /religioustheory/posts/life-as-art-aesthetic-virtue-and-moral-obligation/ 301
+/religioustheory/2016/02/24/life-as-art-aesthetic-virtue-and-moral- /religioustheory/posts/life-as-art-aesthetic-virtue-and-moral-obligation/ 301
+/religioustheory/2016/07/07/review-the-search-for- /religioustheory/posts/review-the-search-for-transcendence-in-the-material-phenomenology-of-david-foster-wallace/ 301
+/religioustheory/2016/08/25/review-l-l-welborns-synthesis-of-new-testament-scholarshi /religioustheory/posts/review-l-l-welborns-synthesis-of-new-testament-scholarship-and-critical-theorys-recent-interest-in-the-apostle-paul-benjamin-steele-fisher/ 301
+/religioustheory/2016/04/08/renegade- /religioustheory/posts/renegade-hinduism-scholar-featured-in-nortons-anthology-of-world-religions/ 301
+/religioustheory/renegade-hinduism-scholar-featured-in-nortons-anthology- /religioustheory/posts/renegade-hinduism-scholar-featured-in-nortons-anthology-of-world-religions/ 301
+/religioustheory/2016/10/24/shamanism-and-entheogens-toward-a- /religioustheory/posts/shamanism-and-entheogens-toward-a-psychoanalysis-of-the-new-dream-time-roger-green/ 301
+/religioustheory/2016/04/15/review-jean-pierre-couture-brings-to-life-for-first-time-the- /religioustheory/posts/review-jean-pierre-couture-brings-to-life-for-first-time-the-entire-works-of-sloterdijk/ 301
+/religioustheory/2018/02/26/from-christology-to-political-theology-cyril- /religioustheory/posts/from-christology-to-political-theology-cyril-hovorun/ 301
+/religioustheory/2017/05/03/speaking-or-not-speaking-of-god-call-for-proposals /religioustheory/posts/speaking-or-not-speaking-of-god-call-for-proposals2/ 301
+/religioustheory/2016/10/24/shamanism-and- /religioustheory/posts/shamanism-and-entheogens-toward-a-psychoanalysis-of-the-new-dream-time-roger-green/ 301
+/religioustheory/2017/05/03/speaking-or-not-speaking- /religioustheory/posts/speaking-or-not-speaking-of-god-call-for-proposals2/ 301
+/religioustheory/2016/10/24/shamanism-and-entheogens-toward-a-psychoanalysis- /religioustheory/posts/shamanism-and-entheogens-toward-a-psychoanalysis-of-the-new-dream-time-roger-green/ 301
+/religioustheory/2020/07/05/progressive-neoliberalism-symbolic- /religioustheory/posts/progressive-neoliberalism-symbolic-capitalism-and-the-global-reproduction-of-the-precariat-interview-with-carl-raschke/ 301
+/religioustheory/2017/02/06/philosophy-as-interdisciplinary-intensity-an-interview-with-giorgio- /religioustheory/posts/philosophy-as-interdisciplinary-intensity-an-interview-with-giorgio-agamben-antonio-gnolioido-govrin/ 301
+/religioustheory/2016/03/03/notations-agambens-homo-sacer- /religioustheory/posts/notations-agambens-homo-sacer-refugees-and-the-crisis-of-european-values/ 301
+/religioustheory/2016/06/13/review-badious- /religioustheory/posts/review-badious-conversations-about-theatre-offer-light-hearted-and-quirky-insight-into-mind-of-philosopher/ 301
+/religioustheory/2016/04/20/review-carl-raschkes-force-of-god- /religioustheory/posts/review-carl-raschkes-force-of-god-hammers-out-a-political-theology-of-insurrection-resurrection-for-our-times/ 301
 # Cleanup malformed bookmark-suffix URLs (e.g. Word/bookmark app "\l "_bookmarkX")
+/religioustheory/tag/:tag/feed/* /religioustheory/tags/:tag/ 301
 /religioustheory/:year/:month/:day /religioustheory/posts/ 301
 /religioustheory/:year/:month/:day/ /religioustheory/posts/ 301
 /religioustheory/:year/:month/:day/:slug/* /religioustheory/posts/:slug/ 301
-/religioustheory/tag/:tag/feed/* /religioustheory/tags/:tag/ 301
 
 # Legacy WordPress embed URL redirects
 /religioustheory/orientalism-ontology-and-orientation-a-muslim-perspective-on-charles-h-long-part-1-mehnaz-afridi/ /religioustheory/posts/orientalism-ontology-and-orientation/ 301
@@ -37,6 +164,12 @@
 
 # Legacy WordPress feed URL redirects
 /religioustheory/submissions-2/ https://www.jcrt.org/submissions/ 301
+/religioustheory/submissions https://www.jcrt.org/submissions/ 301
+/religioustheory/submissions/ https://www.jcrt.org/submissions/ 301
+/religioustheory/page/:page /religioustheory/posts/ 301
+/religioustheory/page/:page/ /religioustheory/posts/ 301
+/religioustheory/... /religioustheory/posts/ 301
+/religioustheory/.../* /religioustheory/posts/ 301
 /religioustheory/:year/:month/:day/:slug/feed /posts/religioustheory/:slug/ 301
 /religioustheory/:year/:month/:day/:slug/feed/ /posts/religioustheory/:slug/ 301
 /religioustheory/:slug/feed /posts/religioustheory/:slug/ 301
@@ -47,6 +180,8 @@
 /religioustheory/tag/:tag/ /religioustheory/tags/:tag/ 301
 /religioustheory/tag/:tag/feed /religioustheory/tags/:tag/ 301
 /religioustheory/tag/:tag/feed/ /religioustheory/tags/:tag/ 301
+/religioustheory/author/assistant-editor/ /editors/ 301
+/religioustheory/staff/* /editors/ 301
 
 # Legacy index2 page redirects
 /index2.shtml / 301
@@ -55,6 +190,7 @@
 /archives/:issue/index2.html /archives/:issue/ 301
 /*/index.php / 301
 /*/indexx.php / 301
+/*/mdex.shtml / 301
 /*/index2.shtml /:splat/ 301
 /*/index2.html /:splat/ 301
 
