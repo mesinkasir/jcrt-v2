@@ -10,6 +10,11 @@ layout: theory.njk
 slug: the-hollow-christians-of-end-times-fiction-part-2-paul-maltby
 tags:
   - theoryPosts
+  - fiction
+  - spiritual
+  - experience
+  - subjectivity
+  - subject
 ---
 
 *The following is the second of a three-part series. The first can be found [here]( /18/the-hollow-christians-of-end-times-fiction-part-1-paul-maltby/).*

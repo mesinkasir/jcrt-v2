@@ -13,6 +13,11 @@ slug: >-
   the-reluctant-fundamentalist-and-the-inhospitable-state-abrahamic-hospitality-and-the-limits-of-multiculturalism-emily-mcavan
 tags:
   - theoryPosts
+  - hospitality
+  - reluctant
+  - religion
+  - abrahamic
+  - multiculturalism
 ---
 
 ## The following is the first of a two-part series.

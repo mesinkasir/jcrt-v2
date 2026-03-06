@@ -15,6 +15,11 @@ slug: >-
   economic-theology-and-the-indebtedness-of-everyday-life-philip-goodchild-and-devin-singh
 tags:
   - theoryPosts
+  - justice
+  - economy
+  - economic
+  - want
+  - different
 ---
 
 *The following is the transcript of “Critical Conversations” No. 9, an ongoing series of Zoom seminars conducted by Whitestone Publications with distinguished international academics. This seminar on economics, theology, debt, and the religious origins of the modern economy was held on May 18, 2021.*

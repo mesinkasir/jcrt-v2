@@ -12,6 +12,11 @@ layout: theory.njk
 slug: entheogens-spirituality-and-modern-myths-part-3-john-cuda
 tags:
   - theoryPosts
+  - spirituality
+  - reality
+  - spiritual
+  - magical
+  - economic
 ---
 
 *The following is the third of a three-part* series. *The [first]( /04/entheogens-spirituality-and-modern-myths/) and [second](https://jcrt.org/religioustheory/2021/10/13/entheogens,-spirituality,-and-modern-myths,-part-2-\(john-cuda\)/\(opens%20in%20a%20new%20tab\)) can be found here*.

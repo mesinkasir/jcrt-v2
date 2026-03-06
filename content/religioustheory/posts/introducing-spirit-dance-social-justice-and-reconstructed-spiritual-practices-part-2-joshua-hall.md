@@ -14,6 +14,11 @@ slug: >-
   introducing-spirit-dance-social-justice-and-reconstructed-spiritual-practices-part-2-joshua-hall
 tags:
   - theoryPosts
+  - dance
+  - magic
+  - social
+  - philosophy
+  - spiritual
 ---
 
 *The following is the second of a three-part series.* *The first can be found [here]( /16/introducing-spirit-dance-social-justice-and-reconstructed-spiritual-practices-joshua-hall/).*

@@ -10,6 +10,11 @@ layout: theory.njk
 slug: re-envisioning-religious-studies-as-a-global-discipline-a-pre-aar-symposium
 tags:
   - theoryPosts
+  - religious
+  - global
+  - religion
+  - theology
+  - continental
 ---
 
 #### When?  Nov. 15-16

@@ -12,6 +12,11 @@ layout: theory.njk
 slug: review-loves-unfortunate-presence-between-faith-and-belief-daniel-boscaljon
 tags:
   - theoryPosts
+  - religious
+  - contemporary
+  - phenomenology
+  - theology
+  - religion
 ---
 
 **Schrijvers, Joeri. *Between Faith and Belief: Toward a Contemporary Phenomenology of Religious Life* (SUNY Series in Theology and Continental Thought). New York: State University of New York Press, 2016. ISBN-10: 143846021X Hardcover, e-book. 398 pages.**

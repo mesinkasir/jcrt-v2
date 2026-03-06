@@ -12,6 +12,11 @@ layout: theory.njk
 slug: review-reverent-irreverence-amit-gvaryahu
 tags:
   - theoryPosts
+  - rabbinic
+  - irreverence
+  - confrontation
+  - theology
+  - comparative
 ---
 
 ***Pious Irreverence: Confronting God in Rabbinic Judaism*. Weiss, Dov.  Philadelphia: University of Pennsylvania Press, 2017.  ISBN 9780812293050. Hardcover, ebook. ix+291 pages.**

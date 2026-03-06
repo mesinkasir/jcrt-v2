@@ -15,6 +15,11 @@ slug: >-
   from-holistic-to-in-between-theology-the-ethiopian-evangelical-church-mekane-yesus-part-3-rode-molla
 tags:
   - theoryPosts
+  - theology
+  - identity
+  - theological
+  - holistic
+  - ethnic
 ---
 
 The comparison between evangelical Christianity and EOC Christianity is their approach to the language. The Westerners use the mother tongue to translate Christianity to the Oromo and other ethnic groups to be converted to evangelical Christianity. The Amharas use the Amharic language and liturgical language *Geez*, the liturgical language of the EOC, to evangelize and dominate the Oromo and others. Many believe that even though the evangelical faith tradition requires conversion as a practice to join the Christian community, it was a liberating experience, not a dominating one.

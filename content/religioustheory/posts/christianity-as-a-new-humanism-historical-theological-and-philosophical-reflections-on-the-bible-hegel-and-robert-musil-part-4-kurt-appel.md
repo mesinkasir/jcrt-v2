@@ -3,6 +3,11 @@ title: "Christianity As A New Humanism – Historical, Theological, And Philosop
 description: ""
 date: '2019-09-13T17:00:54.000Z'
 author: editors
+tags:
+  - theoryPosts
+  - historical
+  - philosophical
+  - theological
 layout: theory.njk
 slug: christianity-as-a-new-humanism
 ---

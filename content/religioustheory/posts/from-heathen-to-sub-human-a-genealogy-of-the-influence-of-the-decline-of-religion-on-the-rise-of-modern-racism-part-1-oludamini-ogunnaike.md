@@ -14,6 +14,11 @@ slug: >-
   from-heathen-to-sub-human-a-genealogy-of-the-influence-of-the-decline-of-religion-on-the-rise-of-modern-racism-part-1-oludamini-ogunnaike
 tags:
   - theoryPosts
+  - rational
+  - intellectual
+  - medieval
+  - racism
+  - nous
 ---
 
 *The following is the first part of an article that appeared in July 2016 in Open Theology 2:2016 785-203*.  *It is republished here with the permission of the author.  The second and third installments will be published in the coming weeks.*

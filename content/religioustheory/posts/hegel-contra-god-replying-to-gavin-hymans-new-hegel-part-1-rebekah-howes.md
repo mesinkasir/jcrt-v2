@@ -14,6 +14,11 @@ layout: theory.njk
 slug: hegel-contra-god-replying-to-gavin-hymans-new-hegel-part-1-rebekah-howes
 tags:
   - theoryPosts
+  - question
+  - immanence
+  - philosophy
+  - transcendence
+  - logic
 ---
 
 *The following is the first of a three-part series. The earlier article by Prof. Hyman to which the author replies can be found* [*here*]( /2019/06/08/the-new-hegel-and-the-question-of-god-part-3-gavin-hyman/)*.*

@@ -16,6 +16,11 @@ slug: >-
   from-holistic-to-in-between-theology-the-ethiopian-evangelical-church-mekane-yesus-part-2-rode-molla
 tags:
   - theoryPosts
+  - political
+  - holistic
+  - theology
+  - theological
+  - social
 ---
 
 *The following is the second of a three-part series.* *The first can be found [here]( /15/from-holistic-to-in-between-theology-the-ethiopian-evangelical-church-mekane-yesus/).*

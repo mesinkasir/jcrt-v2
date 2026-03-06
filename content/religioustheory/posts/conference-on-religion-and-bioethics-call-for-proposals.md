@@ -10,6 +10,11 @@ layout: theory.njk
 slug: conference-on-religion-and-bioethics-call-for-proposals
 tags:
   - theoryPosts
+  - religious
+  - ethical
+  - religion
+  - moral
+  - submission
 ---
 
 **When**: Jan. 9-10, 2025

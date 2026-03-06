@@ -10,6 +10,11 @@ layout: theory.njk
 slug: the-hollow-christians-of-end-times-fiction-part-3-paul-maltby
 tags:
   - theoryPosts
+  - fiction
+  - spiritual
+  - social
+  - subjectivity
+  - natural
 ---
 
 *The following is the third of a three-part series. The first can be found [here]( /02/18/the-hollow-christians-of-end-times-fiction-part-1-paul-maltby/)*, *the second* [*here*]( /02/25/the-hollow-christians-of-end-times-fiction-part-2-paul-maltby/)*.*

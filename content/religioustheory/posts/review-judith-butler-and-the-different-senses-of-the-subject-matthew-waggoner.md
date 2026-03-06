@@ -12,6 +12,11 @@ layout: theory.njk
 slug: review-judith-butler-and-the-different-senses-of-the-subject-matthew-waggoner
 tags:
   - theoryPosts
+  - subject
+  - ethical
+  - relation
+  - condition
+  - materiality
 ---
 
 *Note:  This review is [also published simultaneously](https://jcrt.org/archives/16.1/ReviewButler) in the PDF special issue of JCRT 16.1.*

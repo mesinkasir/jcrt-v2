@@ -15,6 +15,11 @@ layout: theory.njk
 slug: what-is-a-dispositif-part-1
 tags:
   - theoryPosts
+  - general
+  - question
+  - critical
+  - social
+  - theory
 ---
 
 *The following article by internationally known theory scholar Gregg Lambert is the first of a two-part series.*

@@ -16,6 +16,11 @@ slug: >-
   philosophy-as-love-unblocking-the-road-from-athens-to-jerusalem-part-1-erik-meganck
 tags:
   - theoryPosts
+  - philosophy
+  - science
+  - charity
+  - theology
+  - christianity
 ---
 
 ## The following is the first of a three-part series.

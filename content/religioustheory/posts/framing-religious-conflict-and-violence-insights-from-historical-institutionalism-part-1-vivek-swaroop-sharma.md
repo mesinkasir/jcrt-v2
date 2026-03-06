@@ -18,6 +18,11 @@ slug: >-
   framing-religious-conflict-and-violence-insights-from-historical-institutionalism-part-1-vivek-swaroop-sharma
 tags:
   - theoryPosts
+  - violence
+  - religious
+  - political
+  - social
+  - individual
 ---
 
 ## The following is the first installment of a two-part series.

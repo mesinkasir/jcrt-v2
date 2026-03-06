@@ -15,6 +15,11 @@ slug: >-
   horror-fiction-and-catholic-theology-a-rhetorical-synthesis-part-2-gavin-hurley
 tags:
   - theoryPosts
+  - catholic
+  - fiction
+  - spiritual
+  - rhetorical
+  - violence
 ---
 
 *The following is the second of a two-part-series. The first can be read [here]( /2019/12/29/horror-fiction-and-catholic-theology-a-rhetorical-synthesis-gavin-hurley/).*

@@ -10,6 +10,11 @@ layout: theory.njk
 slug: review-power-after-biopower-or-the-colonizing-of-perception-adam-loch
 tags:
   - theoryPosts
+  - preemption
+  - operative
+  - perception
+  - military
+  - logic
 ---
 
 **Massumi, Brian.  *Ontopower: War, Powers, and the State of Perception*.  Durham NC: Duke University Press, 2015.  Hardcover, Paperback, E-book, ix + 320 pages.**

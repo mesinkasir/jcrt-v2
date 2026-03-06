@@ -15,6 +15,11 @@ slug: >-
   the-ultimate-and-the-penultimate-bonhoeffers-twofold-contextualism-in-adjudicating-competing-ethical-claims-part-2-w-travis-mcmaken
 tags:
   - theoryPosts
+  - ethics
+  - ethical
+  - action
+  - natural
+  - contextualism
 ---
 
 *The following is the second of a two-part series. The first can be found [here]( /17/the-ultimate-and-the-penultimate-bonhoeffers-twofold-contextualism-in-adjudicating-competing-ethical-claims-part-1-w-travis-mcmaken/).*

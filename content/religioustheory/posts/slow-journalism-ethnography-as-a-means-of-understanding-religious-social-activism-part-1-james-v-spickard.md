@@ -17,6 +17,11 @@ slug: >-
   slow-journalism-ethnography-as-a-means-of-understanding-religious-social-activism-part-1-james-v-spickard
 tags:
   - theoryPosts
+  - religion
+  - religious
+  - social
+  - journalism
+  - spiritual
 ---
 
 *The following is a talk presented at the Weatherhead Center for International Affairs, Harvard University, and is the first installment of a two-part series.*

@@ -10,6 +10,11 @@ layout: theory.njk
 slug: speaking-or-not-speaking-of-god-call-for-proposals2
 tags:
   - theoryPosts
+  - religious
+  - absence
+  - presence
+  - cultural
+  - dialectic
 ---
 
 ## Speaking (Or Not Speaking) of God

@@ -18,6 +18,11 @@ slug: >-
   critical-conversations-the-power-of-political-erasure-a-seminar-with-arthur-bradley-announcements
 tags:
   - theoryPosts
+  - political
+  - critical
+  - sovereignty
+  - hegemony
+  - subject
 ---
 
 *Sign up for this online seminar with distinguished British political philosopher Arthur Bradley on the compelling and most timely issue of “political erasure.*“

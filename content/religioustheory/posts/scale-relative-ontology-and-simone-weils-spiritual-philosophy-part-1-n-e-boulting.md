@@ -14,6 +14,11 @@ slug: >-
   scale-relative-ontology-and-simone-weils-spiritual-philosophy-part-1-n-e-boulting
 tags:
   - theoryPosts
+  - science
+  - classical
+  - necessity
+  - philosophy
+  - theory
 ---
 
 ## The following is the first of a two-part series.

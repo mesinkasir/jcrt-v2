@@ -16,6 +16,11 @@ slug: >-
   critical-conversations-9-economic-theology-and-the-indebtedness-of-everyday-life-announcement
 tags:
   - theoryPosts
+  - theology
+  - economic
+  - philosophy
+  - religion
+  - critical
 ---
 
 *Participants are invited to join us live in the ninth of a monthly series of “Critical Conversations” (Zoom webinars) with eminent scholars from around the globe. You may sign up through the registration link below.*

@@ -12,6 +12,11 @@ layout: theory.njk
 slug: from-the-gift-of-mortality-to-the-name-of-god-jakob-helmut-deibl
 tags:
   - theoryPosts
+  - story
+  - history
+  - narrative
+  - biblical
+  - mortality
 ---
 
 *The following is a continuation of* *a series of articles corresponding to chapters of the book* Preis der Sterblichkeit: Christentum und Neuer Humanismus *(Freiburg im Bresgau: Verlag Herder, 2015), edited by Kurt Appel, translated by Rachel Thomas.  English editor, Carl Raschke.  This volume of essays represents one of the major works in the new Catholic “cultural humanism” from Central Europe.* 

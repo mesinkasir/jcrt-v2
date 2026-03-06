@@ -15,6 +15,11 @@ slug: >-
   spiritual-erotics-affect-theory-and-the-transformation-of-machismo-among-latino-pentecostal-men-part-1
 tags:
   - theoryPosts
+  - pentecostal
+  - pentecostalism
+  - theory
+  - religion
+  - religious
 ---
 
 *From time to time Religious Theory (RT) invites well-known academic authors to outline current book projects that have not yet been published.  This article, released in three parts, reflects a recent talk by Prof. Luis Leon, a well-known author of several key books on the theory of Latino religions and borderlands theory.*

@@ -15,6 +15,11 @@ slug: >-
   geschlecht-iii-authentic-faith-religion-and-politics-in-derridas-readings-of-heideggers-geist-part-3-jake-sirota
 tags:
   - theoryPosts
+  - religion
+  - political
+  - deconstruction
+  - religious
+  - politics
 ---
 
 *The following is the third of a three-part series. The first can be found* [*here*]( /07/geschlecht-iii-authentic-faith-religion-and-politics-in-derridas-readings-of-heideggers-geist-part-1-jake-sirota/)*, the second* [*here*]( /15/geschlecht-iii-authentic-faith-religion-and-politics-in-derridas-readings-of-heideggers-geist-part-2-jake-sirota/)*.*

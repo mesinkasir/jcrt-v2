@@ -18,6 +18,11 @@ layout: theory.njk
 slug: religious-studies-as-the-state-religion-of-neoliberalism-carl-raschke
 tags:
   - theoryPosts
+  - religion
+  - religious
+  - neoliberalism
+  - social
+  - neoliberal
 ---
 
 ## The following is the first of a three-part series.

@@ -14,6 +14,11 @@ layout: theory.njk
 slug: hegemony-and-techno-rationality-toward-an-aesthetic-soteriology-mason-davis
 tags:
   - theoryPosts
+  - aesthetic
+  - aesthetics
+  - difference
+  - productive
+  - hegemony
 ---
 
 To speak of aesthetics is not simply to consign art to its effects on sensibility, but to open up the configurations of experience that create new modalities of perception and new forms of subjectivity.

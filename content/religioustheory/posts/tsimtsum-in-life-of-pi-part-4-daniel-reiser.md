@@ -10,6 +10,11 @@ layout: theory.njk
 slug: tsimtsum-in-life-of-pi-part-4-daniel-reiser
 tags:
   - theoryPosts
+  - judaism
+  - religion
+  - religious
+  - story
+  - postmodernism
 ---
 
 *The following is the last of a four-part series. The first can be found [here]( /11/25/tsimtsum-in-life-of-pi-part-1-daniel-reiser/)*, *the second [here]( /08/tsimtsum-in-life-of-pi-part-2-daniel-reiser/)*, *the third [here]( /15/tsimtsum-in-life-of-pi-part-3-daniel-reiser/).*

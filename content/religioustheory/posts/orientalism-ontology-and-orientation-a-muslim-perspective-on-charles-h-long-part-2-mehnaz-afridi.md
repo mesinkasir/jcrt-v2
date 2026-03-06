@@ -16,6 +16,11 @@ slug: >-
   orientalism-ontology-and-orientation-a-muslim-perspective-on-charles-h-long-part-2-mehnaz-afridi
 tags:
   - theoryPosts
+  - colonialism
+  - different
+  - religion
+  - orientation
+  - ontology
 ---
 
 *The following is the second of a two-part series. The first can be found [here]( /09/orientalism-ontology-and-orientation/). The full article is published in the spring 2022 issue of the* [Journal for Cultural and Religious Theory](https://jcrt.org)*.*

@@ -14,6 +14,11 @@ slug: >-
   review-badious-conversations-about-theatre-offer-light-hearted-and-quirky-insight-into-mind-of-philosopher
 tags:
   - theoryPosts
+  - philosophical
+  - politics
+  - dance
+  - entertainment
+  - relationship
 ---
 
 **Badiou, Alain (with Nicolas Truong).  [*In Praise of Theatre*](http://www.wiley.com/WileyCDA/WileyTitle/productCd-0745686974.html).  New York: Polity, 2015.  ISBN 10: 978-0-7456-8697-4.   Hardback, paperback, e-book.  90 pages.**

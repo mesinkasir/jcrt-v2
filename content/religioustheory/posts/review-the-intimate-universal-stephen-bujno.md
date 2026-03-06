@@ -11,6 +11,11 @@ layout: theory.njk
 slug: review-the-intimate-universal-stephen-bujno
 tags:
   - theoryPosts
+  - universal
+  - political
+  - religion
+  - porosity
+  - politics
 ---
 
 **William Desmond, *The Intimate Universal: The Hidden Porosity Among Religion, Art, Philosophy, and Politics*. Columbia University Press, 2016. 520 pages. ISBN 9780231178761**

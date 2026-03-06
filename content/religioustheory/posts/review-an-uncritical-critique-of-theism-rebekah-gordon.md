@@ -13,6 +13,11 @@ layout: theory.njk
 slug: review-an-uncritical-critique-of-theism-rebekah-gordon
 tags:
   - theoryPosts
+  - religion
+  - theism
+  - religious
+  - uncritical
+  - critique
 ---
 
 ***Religion Within Reason***. Cahn, Steven M. New York: Columbia University Press, 2017. ISBN: 9780231181617. Paperback. 93 pages.**

@@ -15,6 +15,11 @@ slug: >-
   shamanism-and-entheogens-toward-a-psychoanalysis-of-the-new-dream-time-roger-green
 tags:
   - theoryPosts
+  - psychedelic
+  - unconscious
+  - psychoanalysis
+  - experience
+  - cultural
 ---
 
 *There is no reason why therapy rooms for psychedelic sessions must be adorned with the default Buddha icons, fractal posters, and Indian drapes. Who says these are the hallmarks of psychedelia? Why* not *have pictures of Lamborghinis, pop stars, and football teams – or any other power objects our patients choose to bring?*  \-Ben Sessa[^1]

@@ -13,6 +13,11 @@ layout: theory.njk
 slug: lutheran-theology-and-postmodern-philosophy-part-i-olli-pekka-vaino
 tags:
   - theoryPosts
+  - theology
+  - philosophy
+  - metaphysics
+  - theological
+  - philosophical
 ---
 
 ## The following is the first installment of a two-part series.

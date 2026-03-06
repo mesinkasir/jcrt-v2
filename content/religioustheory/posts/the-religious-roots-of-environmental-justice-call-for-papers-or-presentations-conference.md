@@ -15,6 +15,11 @@ slug: >-
   the-religious-roots-of-environmental-justice-call-for-papers-or-presentations-conference
 tags:
   - theoryPosts
+  - environmental
+  - religious
+  - justice
+  - specific
+  - submission
 ---
 
 #### **[Submit proposal](mailto:whitestone.pubs@gmail.com)**

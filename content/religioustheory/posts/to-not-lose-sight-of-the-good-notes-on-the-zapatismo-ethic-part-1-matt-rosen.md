@@ -17,6 +17,11 @@ layout: theory.njk
 slug: to-not-lose-sight-of-the-good-notes-on-the-zapatismo-ethic-part-1-matt-rosen
 tags:
   - theoryPosts
+  - abnegation
+  - indigenous
+  - representation
+  - political
+  - resistance
 ---
 
 ## The following is the first of a two-part series.

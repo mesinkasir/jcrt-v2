@@ -17,6 +17,11 @@ slug: >-
   critical-conversations-10-tenderness-or-putting-neoliberalism-on-the-analysts-couch-announcement
 tags:
   - theoryPosts
+  - philosophy
+  - neoliberalism
+  - theology
+  - critical
+  - religion
 ---
 
 **When:** Tuesday, June 29, 10am Mountain Standard Time

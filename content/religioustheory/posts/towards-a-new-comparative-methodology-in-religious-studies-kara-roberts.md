@@ -14,6 +14,11 @@ layout: theory.njk
 slug: towards-a-new-comparative-methodology-in-religious-studies-kara-roberts
 tags:
   - theoryPosts
+  - comparative
+  - religious
+  - religion
+  - magic
+  - postmodernism
 ---
 
 *Author Note: The following was originally written as the introduction to a much longer comparative project between two religious myths. Additionally, the creation of the following model for comparative methodology in religious studies could not have been possible without the help and guidance of Dr. Amy Balogh.* 

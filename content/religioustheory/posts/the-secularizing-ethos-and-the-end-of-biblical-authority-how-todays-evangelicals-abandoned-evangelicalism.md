@@ -14,6 +14,11 @@ slug: >-
   the-secularizing-ethos-and-the-end-of-biblical-authority-how-todays-evangelicals-abandoned-evangelicalism
 tags:
   - theoryPosts
+  - authority
+  - evangelical
+  - religion
+  - religious
+  - biblical
 ---
 
 So reads the title of a recent article in the *Los Angeles Review of Books.* The author, Jim Hinch, begins his piece with the conversion story of A. J. Zimmerman, a 25 year old graduate of divinity school who is now a youth pastor and works for a Pentecostal seminary in San Diego, California.

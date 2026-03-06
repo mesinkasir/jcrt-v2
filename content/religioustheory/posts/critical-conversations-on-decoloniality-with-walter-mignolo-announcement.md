@@ -13,6 +13,11 @@ layout: theory.njk
 slug: critical-conversations-on-decoloniality-with-walter-mignolo-announcement
 tags:
   - theoryPosts
+  - decoloniality
+  - critical
+  - coloniality
+  - decolonial
+  - hegemony
 ---
 
 *An earlier version of this posting had the date listed as “December,” which would imply the webinar had already occurred. It is still scheduled for **January, 12 2021.***

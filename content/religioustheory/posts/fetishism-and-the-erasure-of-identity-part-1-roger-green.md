@@ -11,6 +11,11 @@ layout: theory.njk
 slug: fetishism-and-the-erasure-of-identity-part-1-roger-green
 tags:
   - theoryPosts
+  - indigenous
+  - fetishism
+  - religion
+  - history
+  - colonial
 ---
 
 *The following is the first of a two-part series.  The second installment can be found [here]( /16/fetishism-and-the-erasure-of-identity-part-2-roger-green/).*

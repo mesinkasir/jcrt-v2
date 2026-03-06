@@ -11,6 +11,11 @@ layout: theory.njk
 slug: review-a-stranger-thought-for-stranger-times-liam-burrell
 tags:
   - theoryPosts
+  - philosophy
+  - philosophical
+  - identity
+  - generic
+  - immanence
 ---
 
 **Smith, Anthony Paul. *Laruelle: A Stranger Thought*. Cambridge: Polity, 2016. ISBN-10: 0745671233. Hardcover, paperback, e-book. 240 pages.** 

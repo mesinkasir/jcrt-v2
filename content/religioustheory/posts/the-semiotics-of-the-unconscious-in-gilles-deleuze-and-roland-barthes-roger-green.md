@@ -16,6 +16,11 @@ slug: >-
   the-semiotics-of-the-unconscious-in-gilles-deleuze-and-roland-barthes-roger-green
 tags:
   - theoryPosts
+  - unconscious
+  - semiology
+  - linguistics
+  - difference
+  - france
 ---
 
 ## The following is the first of a two-part series.

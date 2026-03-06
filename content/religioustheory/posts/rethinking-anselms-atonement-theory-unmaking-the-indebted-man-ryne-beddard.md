@@ -16,6 +16,11 @@ layout: theory.njk
 slug: rethinking-anselms-atonement-theory-unmaking-the-indebted-man-ryne-beddard
 tags:
   - theoryPosts
+  - humanity
+  - theory
+  - atonement
+  - gregory
+  - salvation
 ---
 
 Throughout Church history Christians have used various images and illustrations to explain why God became a human and died, and why these actions have been considered by the tradition to be salvific. These are referred to as atonement theories, and in general they seek to answer three questions: How is humanity saved through Jesus? Who or what is humanity saved from? And what is the scope of this salvation? These theories have developed and adapted over time but we can group them in three main categories.

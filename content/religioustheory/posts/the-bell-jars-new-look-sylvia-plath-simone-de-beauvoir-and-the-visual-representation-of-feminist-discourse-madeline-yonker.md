@@ -13,6 +13,11 @@ slug: >-
   the-bell-jars-new-look-sylvia-plath-simone-de-beauvoir-and-the-visual-representation-of-feminist-discourse-madeline-yonker
 tags:
   - theoryPosts
+  - representation
+  - visual
+  - discourse
+  - edition
+  - rhetoric
 ---
 
 *The following article is republished from an earlier edition of The Journal for Cultural Theory.  The link to the original article [can be found here](https://jcrt.org/archives/14.1/yonker.pdf).*

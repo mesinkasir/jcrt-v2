@@ -11,6 +11,11 @@ layout: theory.njk
 slug: entheogens-spirituality-and-modern-myths-part-2-john-cuda
 tags:
   - theoryPosts
+  - identity
+  - spirituality
+  - narrative
+  - religion
+  - different
 ---
 
 *The following is the second of a three-part series. The [first]( /04/entheogens-spirituality-and-modern-myths/) can be found here*.

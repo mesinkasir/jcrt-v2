@@ -14,6 +14,11 @@ slug: >-
   revolutionary-love-kierkegaards-gift-economy-as-a-religious-corrective-to-the-leveling-of-the-public-sphere-andrew-ball
 tags:
   - theoryPosts
+  - public
+  - religious
+  - relation
+  - individual
+  - inwardness
 ---
 
 ## The following is the first of a three-part series.

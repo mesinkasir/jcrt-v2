@@ -11,6 +11,11 @@ layout: theory.njk
 slug: the-new-hegel-and-the-question-of-god-part-3-gavin-hyman
 tags:
   - theoryPosts
+  - transcendence
+  - empirical
+  - unity
+  - immanence
+  - subject
 ---
 
 *The following is the last installment of a three-part series.  The first one can be found [here]( /05/24/the-new-hegel-and-the-question-of-god-part-1-gavin-hyman/).  The second one can be found [here]( /05/31/the-new-hegel-and-the-question-of-god-part-2-gavin-hyman/).*

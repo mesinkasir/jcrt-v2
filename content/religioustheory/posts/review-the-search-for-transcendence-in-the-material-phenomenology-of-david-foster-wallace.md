@@ -15,6 +15,11 @@ slug: >-
   review-the-search-for-transcendence-in-the-material-phenomenology-of-david-foster-wallace
 tags:
   - theoryPosts
+  - transcendence
+  - phenomenology
+  - religion
+  - religious
+  - immanence
 ---
 
 **Miller, Adam S.  *The Gospel According to David Foster Wallace: Boredom and Addiction in an Age of Distraction*.   New York:  Bloomsburg Academic, 2016.  ISBN-10: 1474236979.  Hardcover, paperback, e-book.  136 pages.**

@@ -10,6 +10,11 @@ layout: theory.njk
 slug: review-whither-philosophy-of-religion-benjamin-steele-fisher
 tags:
   - theoryPosts
+  - philosophy
+  - religion
+  - religious
+  - continental
+  - theology
 ---
 
 ***Religion and European Philosophy: Key Thinkers from Kant to Zizek.* Edited by Philip Goodchild and Hollis Phelps. New York: Routledge, 2017. ISBN 10: 1138188530. Hardcover, Paperback, E-Book. 512 pages.**

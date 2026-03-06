@@ -13,6 +13,11 @@ layout: theory.njk
 slug: biopolitics-and-vajranayana-buddhism-part-1
 tags:
   - theoryPosts
+  - deity
+  - biopolitical
+  - ritual
+  - biopolitics
+  - individual
 ---
 
 ## The following* *is the first of a 3-part series.

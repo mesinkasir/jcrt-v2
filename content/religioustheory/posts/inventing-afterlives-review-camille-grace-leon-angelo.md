@@ -11,6 +11,11 @@ layout: theory.njk
 slug: inventing-afterlives-review-camille-grace-leon-angelo
 tags:
   - theoryPosts
+  - morality
+  - cultural
+  - ancient
+  - discourse
+  - religious
 ---
 
 Janes, Regina M. *Inventing Afterlives: The Stories We Tell Ourselves About Life After Death*. New York, NY: Columbia University Press, 2018. 384 pages. ISBN: 9780231185714.

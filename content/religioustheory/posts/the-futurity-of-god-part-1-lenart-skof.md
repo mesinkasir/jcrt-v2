@@ -11,6 +11,11 @@ layout: theory.njk
 slug: the-futurity-of-god-part-1-lenart-skof
 tags:
   - theoryPosts
+  - philosophy
+  - mormonism
+  - consciousness
+  - present
+  - primary
 ---
 
 ## The following article is published in two parts.

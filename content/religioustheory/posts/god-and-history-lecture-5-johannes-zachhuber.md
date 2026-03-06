@@ -12,6 +12,11 @@ layout: theory.njk
 slug: god-and-history-lecture-5-johannes-zachhuber
 tags:
   - theoryPosts
+  - history
+  - theology
+  - historical
+  - theological
+  - revelation
 ---
 
 *The following is the fifth lecture in an eight-lecture series.  The most recent one can be found [here]( /08/29/god-and-existence-lecture-4-johannes-zachhuber/).*

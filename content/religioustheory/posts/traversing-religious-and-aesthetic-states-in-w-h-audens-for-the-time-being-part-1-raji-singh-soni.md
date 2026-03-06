@@ -13,6 +13,11 @@ slug: >-
   traversing-religious-and-aesthetic-states-in-w-h-audens-for-the-time-being-part-1-raji-singh-soni
 tags:
   - theoryPosts
+  - religious
+  - citizenship
+  - secular
+  - aesthetic
+  - commentary
 ---
 
 *The following is part one of an article that will be published in three successive installments.*

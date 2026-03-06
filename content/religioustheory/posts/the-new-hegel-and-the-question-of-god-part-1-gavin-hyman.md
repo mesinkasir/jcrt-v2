@@ -13,6 +13,11 @@ layout: theory.njk
 slug: the-new-hegel-and-the-question-of-god-part-1-gavin-hyman
 tags:
   - theoryPosts
+  - question
+  - theology
+  - philosophy
+  - religion
+  - metaphysical
 ---
 
 ## The following is the first installment of a three-part series.

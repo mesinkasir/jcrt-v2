@@ -11,6 +11,11 @@ layout: theory.njk
 slug: sikhs-as-subalterns-voice-inequality-and-power
 tags:
   - theoryPosts
+  - community
+  - tradition
+  - history
+  - evolution
+  - religious
 ---
 
 *The following article is the first of three installments.* *It is [published](https://jcrt.org/archives/22.2/Singh.pdf) as a catalogued .PDF in article in the latest issue of the* Journal for Cultural and Religious Theory ([22.2](https://jcrt.org/archives/22.2/)).

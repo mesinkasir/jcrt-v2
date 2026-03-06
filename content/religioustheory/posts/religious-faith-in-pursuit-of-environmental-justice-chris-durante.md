@@ -10,6 +10,11 @@ layout: theory.njk
 slug: religious-faith-in-pursuit-of-environmental-justice-chris-durante
 tags:
   - theoryPosts
+  - global
+  - local
+  - social
+  - economic
+  - ecological
 ---
 
 ## Introduction

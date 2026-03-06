@@ -13,6 +13,11 @@ slug: >-
   teach-me-to-do-whats-right-faith-hope-and-love-as-post-religious-virtues-part-1-a-g-holdier
 tags:
   - theoryPosts
+  - theological
+  - religion
+  - post-religious
+  - religious
+  - cardinal
 ---
 
 ## The following is the first of a two-part series.

@@ -13,6 +13,11 @@ slug: >-
   hanging-garlands-of-flowers-on-the-chains-that-bind-soft-totalitarianism-and-techno-rationality-jeff-appel
 tags:
   - theoryPosts
+  - technological
+  - real
+  - repression
+  - subject
+  - unconscious
 ---
 
 *This article was originally a paper delivered at the conference “Reclaiming the Unconscious – On The Intersection of Psychoanalysis With the Humanities,” October 21-23, at the University of Denver, Denver, Colorado.*

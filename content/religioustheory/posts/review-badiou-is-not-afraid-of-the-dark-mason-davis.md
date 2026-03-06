@@ -10,6 +10,11 @@ layout: theory.njk
 slug: review-badiou-is-not-afraid-of-the-dark-mason-davis
 tags:
   - theoryPosts
+  - darkness
+  - dialectic
+  - anthropology
+  - critical
+  - theory
 ---
 
 **Badiou, Alain. *Black: The Brilliance of a Non-Color.* Translated by Susan Spitzer. New Jersey: Polity, 2016. ISBN-10: 1509512071. Hardcover, paperback, e-book. 80 pages.** 

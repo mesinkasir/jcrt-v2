@@ -10,6 +10,11 @@ layout: theory.njk
 slug: review-bahai-religion-and-religious-cycles-rebekah-gordon
 tags:
   - theoryPosts
+  - religion
+  - religious
+  - theory
+  - morality
+  - enlightenment
 ---
 
 **Sergeev, Mikhail.  Theory of Religious Cycles: Tradition, Modernity, and the Baha’i Faith.  Amsterdam:  Brill Rodopi, 2015.  ISBN-10:9004300031.  Paperback.  176 pages.**

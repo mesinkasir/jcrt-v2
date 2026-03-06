@@ -17,6 +17,11 @@ layout: theory.njk
 slug: love-psychoanalysis-and-leftist-political-ontology-part-2-daniel-tutt
 tags:
   - theoryPosts
+  - subject
+  - difference
+  - ethical
+  - theory
+  - political
 ---
 
 *The following is the second installment of a two-part article by Daniel Tutt entitled “Love, Psychoanalysis, and Leftist Political Ontology.”  It [has been published concurrently as part of an anthology](http://us.karnacbooks.com/product/sex-and-nothing-bridges-from-psychoanalysis-to-philosophy/37318/) entitled Sex and Nothing: Bridges from Psychoanalysis to Philosophy, edited by [Alejandro Cerda-Rueda](http://us.karnacbooks.com/Author.asp?AID=21559) (New York: Karnac Books, 2016).  The first part of the article as it appears in* Religious Theory *[can be found here]( /05/love-psychoanalysis-and-leftist-political-ontology-part-1-daniel-tutt/).*

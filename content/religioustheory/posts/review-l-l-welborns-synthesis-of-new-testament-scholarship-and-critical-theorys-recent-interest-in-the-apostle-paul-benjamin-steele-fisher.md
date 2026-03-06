@@ -13,6 +13,11 @@ slug: >-
   review-l-l-welborns-synthesis-of-new-testament-scholarship-and-critical-theorys-recent-interest-in-the-apostle-paul-benjamin-steele-fisher
 tags:
   - theoryPosts
+  - critical
+  - theory
+  - political
+  - social
+  - community
 ---
 
 **Welborn, Larry L. *Paul’s Summons to Messianic Life: Political Theology and the Coming Awakening (Insurrections: Critical Studies in Religion, Politics, and Culture).* New York: Columbia University Press, 2015. ISBN 9780231171311. Hardcover, paperback, e-book. 154 pages.**

@@ -12,6 +12,11 @@ layout: theory.njk
 slug: modern-theology-and-the-dialectic-of-god-part-4-kelly-maeshiro
 tags:
   - theoryPosts
+  - theology
+  - liberal
+  - kant
+  - subject
+  - relation
 ---
 
 *The following is the last of a four-part series. The first can be found [here]( /02/01/modern-theology-and-the-dialectic-of-god-part-1-kelly-maeshiro/)*, *the second [here]( /02/08/modern-theology-and-the-dialectic-of-god-part-2-kelly-maeshiro/)*, *the third* [*here*]( /02/22/modern-theology-and-the-dialectic-of-god-part-3-kelly-maeshiro/index%EF%B9%96preview=true&_thumbnail_id=3460.html)*.*

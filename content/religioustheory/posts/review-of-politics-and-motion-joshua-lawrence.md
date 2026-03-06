@@ -10,6 +10,11 @@ layout: theory.njk
 slug: review-of-politics-and-motion-joshua-lawrence
 tags:
   - theoryPosts
+  - social
+  - motion
+  - political
+  - movement
+  - politics
 ---
 
 **![vortex_in_draining_bottle_of_water](/images/2016/09/Vortex_in_draining_bottle_of_water-201x300.jpg)Nail, Thomas. *The Figure of the Migrant*. Stanford: Stanford University Press, 2015. ISBN-10: 0804796580. 312 pages.**

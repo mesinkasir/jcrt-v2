@@ -12,6 +12,11 @@ layout: theory.njk
 slug: review-altered-states-buddhism-and-psychedelic-spirituality-in-america
 tags:
   - theoryPosts
+  - psychedelic
+  - buddhism
+  - religious
+  - spirituality
+  - experience
 ---
 
 **![buddhabrot](/images/2016/07/buddhabrot-278x300.jpg)Osto, Douglas. *Altered States: Buddhism and Psychedelic Spirituality in America.* New York: Columbia University Press, 2016. ISNB 10:** **0231177305 Hardcover, e-book. 328 pages.**

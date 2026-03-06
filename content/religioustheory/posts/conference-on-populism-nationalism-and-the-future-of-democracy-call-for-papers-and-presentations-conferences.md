@@ -15,6 +15,11 @@ slug: >-
   conference-on-populism-nationalism-and-the-future-of-democracy-call-for-papers-and-presentations-conferences
 tags:
   - theoryPosts
+  - populism
+  - democracy
+  - nationalism
+  - religious
+  - political
 ---
 
 **When**: Sept. 25-26, 2025

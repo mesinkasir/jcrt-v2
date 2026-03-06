@@ -10,6 +10,11 @@ layout: theory.njk
 slug: debriefing-on-decoloniality-a-public-conversation
 tags:
   - theoryPosts
+  - decoloniality
+  - question
+  - history
+  - conversation
+  - colonial
 ---
 
 *The following is a transcript of a [community-wide debriefing](https://thenewpolis.com/2021/06/15/debriefing-on-decoloniality-a-public-conversation/) by participants for the online conference “*[*Decoloniality and the Disintegration of Cognitive Empire – Rethinking Sovereignty and Territoriality in the 21st Century.”*](https://thenewpolis.com/conferences-and-calls-for-presentations/)  *The conference was held April 14-16, 2021 and featured such international luminaries as Walter Mignolo, Catherine Walsh, and Tink Tinker. Because of the length of the conversation, it is in two parts.*

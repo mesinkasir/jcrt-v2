@@ -17,6 +17,11 @@ slug: >-
   the-unbroken-middle-overcoming-the-empty-sacrifices-of-modernity-with-gillian-rose-and-paul-michael-c-raubach
 tags:
   - theoryPosts
+  - violence
+  - political
+  - ethical
+  - modernity
+  - ritual
 ---
 
 ## The following is the first of a two-part series.

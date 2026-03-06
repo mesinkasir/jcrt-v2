@@ -12,6 +12,11 @@ layout: theory.njk
 slug: locating-yhe-oceanic-in-sylvia-wynters-demonic-ground
 tags:
   - theoryPosts
+  - demonic
+  - religion
+  - position
+  - oceanic
+  - coloniality
 ---
 
 *The following article will appear next month in the Winter 2021-22 issue of the* Journal for Cultural and Religious Theory. *It is published in three installments.*

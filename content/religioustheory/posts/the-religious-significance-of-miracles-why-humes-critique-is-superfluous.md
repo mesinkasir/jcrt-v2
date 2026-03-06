@@ -13,6 +13,11 @@ layout: theory.njk
 slug: the-religious-significance-of-miracles-why-humes-critique-is-superfluous
 tags:
   - theoryPosts
+  - religious
+  - event
+  - argument
+  - definition
+  - natural
 ---
 
 ## The following is the first of a three-part series.

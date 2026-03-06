@@ -14,6 +14,11 @@ slug: >-
   time-emptied-and-time-renewed-the-dominion-of-capital-and-a-theo-politics-of-contretemps-part-2-daniel-rhodes
 tags:
   - theoryPosts
+  - capital
+  - kant
+  - political
+  - history
+  - accumulation
 ---
 
 *The following is the second installment of a three-part series.  The link to the first portion can be found [here]( /01/time-emptied-and-time-renewed-the-dominion-of-capital-and-a-theo-politics-of-contretemps-part-1-daniel-rhodes/).*

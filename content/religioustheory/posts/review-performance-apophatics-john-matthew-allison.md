@@ -14,6 +14,11 @@ layout: theory.njk
 slug: review-performance-apophatics-john-matthew-allison
 tags:
   - theoryPosts
+  - performance
+  - negative
+  - philosophy
+  - apophatics
+  - theology
 ---
 
 **Claire Maria Chambers. *Performance Studies and Negative Epistemology: Performance Apophatics*. Palgrave Macmillan, 2017. Hardback. 301 pages.**

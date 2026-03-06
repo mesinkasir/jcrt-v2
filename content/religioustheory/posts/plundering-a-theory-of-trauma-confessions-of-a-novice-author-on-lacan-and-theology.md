@@ -14,6 +14,11 @@ slug: >-
   plundering-a-theory-of-trauma-confessions-of-a-novice-author-on-lacan-and-theology
 tags:
   - theoryPosts
+  - theory
+  - theology
+  - trauma
+  - psychoanalysis
+  - public
 ---
 
 Nietzsche’s advice to young authors was to never admit error, for our critics will neither give an inch nor forgive our humility in siding against ourselves. The aphorism’s *hubris* stands in stark contrast to the insecurity all -too-commonly felt when publishing for the first time.

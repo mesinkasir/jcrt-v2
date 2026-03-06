@@ -16,6 +16,11 @@ slug: >-
   what-exactly-is-postmodernism-and-how-did-it-change-the-landscape-of-religious-studies-part-1-carl-raschke
 tags:
   - theoryPosts
+  - theology
+  - postmodernism
+  - deconstruction
+  - religious
+  - philosophy
 ---
 
 *Almost a half century ago a change took place in the humanities, and by extension in the fledgling field of religious studies. By the 1990s that change had been a sea change. By the mid-1980s the change had come to be known as “postmodernism”. Today the expression, which is just as vague and polysemic as it was forty years, is still thrown around with abandon, especially in theological studies. Ex-evangelicals, for example, promiscuously and ignorantly misuse the term “deconstruction”, introduced by the doyen of the movement Jacques Derrida, in a way that is largely meaningless and unrelated to what postmodernism was all about. This essay is intended to provide some historical and insight and clarity.*

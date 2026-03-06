@@ -15,6 +15,11 @@ slug: >-
   reframing-the-adwa-victory-as-a-decolonizing-praxis-discourse-around-colonization-in-the-ethiopian-context-part-2-rode-molla
 tags:
   - theoryPosts
+  - education
+  - political
+  - religion
+  - religious
+  - social
 ---
 
 *The following is the second of a two-part series. The first can be found [here]( /01/30/reframing-the-adwa-victory-as-a-decolonizing-praxis-discourse-around-colonization-in-the-ethiopian-context/).*

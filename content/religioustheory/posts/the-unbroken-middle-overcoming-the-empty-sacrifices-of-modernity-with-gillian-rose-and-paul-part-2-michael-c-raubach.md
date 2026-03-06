@@ -14,6 +14,11 @@ slug: >-
   the-unbroken-middle-overcoming-the-empty-sacrifices-of-modernity-with-gillian-rose-and-paul-part-2-michael-c-raubach
 tags:
   - theoryPosts
+  - universal
+  - subject
+  - individual
+  - ethical
+  - city
 ---
 
 *The following is the second of a two-part series. The first can be found [here]( /04/the-unbroken-middle-overcoming-the-empty-sacrifices-of-modernity-with-gillian-rose-and-paul-michael-c-raubach/index%EF%B9%96preview=true&_thumbnail_id=3721.html)*

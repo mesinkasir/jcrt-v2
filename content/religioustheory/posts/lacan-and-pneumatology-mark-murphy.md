@@ -14,6 +14,11 @@ layout: theory.njk
 slug: lacan-and-pneumatology-mark-murphy
 tags:
   - theoryPosts
+  - subject
+  - experience
+  - theology
+  - symbolic
+  - imaginary
 ---
 
 There has been much work on Lacan in describing his relationship to a Christological theology. We see this in work such as Žižek’s *The Fragile Absolute* and also in his dual work with John Milbank, *The Monstrosity of Christ*.[^1] We also see a Christological perspective on the value of Lacan’s work in Marcus Pound’s *Theology, Psychoanalysis and Trauma*.[^2] However, there has generally been less of a focus on the explicitly Pneumatological value of Lacan’s work concerning theology. This is obviously discounting Žižek’s work on the community of the Holy Spirit and Badiou’s *Paul’s New moment*.[^3]

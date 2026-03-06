@@ -15,6 +15,11 @@ slug: >-
   thomas-aquinass-body-soul-dualism-and-the-hierarchy-of-human-dignity-in-brazil-theological-origins-of-a-nations-hierarchical-self-understanding-part-1-vinicius-marinho
 tags:
   - theoryPosts
+  - dignity
+  - natural
+  - indigenous
+  - existence
+  - social
 ---
 
 ## The following is the first of a three-part series.

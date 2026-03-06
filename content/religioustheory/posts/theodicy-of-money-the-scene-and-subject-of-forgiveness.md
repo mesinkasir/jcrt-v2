@@ -11,6 +11,11 @@ layout: theory.njk
 slug: theodicy-of-money-the-scene-and-subject-of-forgiveness
 tags:
   - theoryPosts
+  - forgiveness
+  - capitalism
+  - christianity
+  - subject
+  - identity
 ---
 
 Today the question of debt forgiveness has become an eminently practical, not to mention political, question.  From sovereign debt crises in Greece, Spain, Puerto Rico and elsewhere, to ballooning student debt bubbles, to the aftermath of the mortgage crisis, it seems like everyone is talking about forgiveness.

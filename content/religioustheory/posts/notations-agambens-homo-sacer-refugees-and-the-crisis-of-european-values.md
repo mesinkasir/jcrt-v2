@@ -10,6 +10,11 @@ layout: theory.njk
 slug: notations-agambens-homo-sacer-refugees-and-the-crisis-of-european-values
 tags:
   - theoryPosts
+  - religious
+  - legal
+  - political
+  - question
+  - territory
 ---
 
 ***Notations is a feature of the JCRT’s*** **Religious Theory** ***weblog.  From time to time we solicit pieces from contributors who are on the scene and able to theorize from the actual site of major world events.  This week we publish a series of contributions from observers and scholars who have witnessed first-hand the European refugee crisis.***

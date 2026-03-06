@@ -15,6 +15,11 @@ layout: theory.njk
 slug: locating-the-oceanic-in-sylvia-wynters-demonic-ground-part-3-justine-m-bakker
 tags:
   - theoryPosts
+  - blackness
+  - demonic
+  - oceanic
+  - mysticism
+  - subject
 ---
 
 *The following article will appear next month in the Winter 2021-22 issue of the* Journal for Cultural and Religious Theory. *It is published in three installments*. *The first installment can be found [here]( /07/locating-yhe-oceanic-in-sylvia-wynters-demonic-ground/)*, the second [here]( /17/locating-the-oceanic-in-sylvia-wynters-demonic-ground-part-2-justine-m-bakker/).

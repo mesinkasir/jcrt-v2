@@ -15,6 +15,11 @@ slug: >-
   spiritual-erotics-part-2-the-nature-and-history-of-machismo-and-its-feminine-counterpart-as-marianismo
 tags:
   - theoryPosts
+  - religious
+  - spiritual
+  - pentecostalism
+  - discourse
+  - social
 ---
 
 *From time to time Religious Theory (RT) invites well-known academic authors to outline current book projects that have not yet been published.  This second installment of the article, released in three parts, reflects a recent talk in California by Prof. Luis Leon, a well-known author of several key books on the theory of Latino religions and borderlands theory.*

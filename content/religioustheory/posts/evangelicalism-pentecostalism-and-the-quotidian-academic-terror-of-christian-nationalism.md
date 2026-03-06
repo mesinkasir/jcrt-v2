@@ -16,6 +16,11 @@ slug: >-
   evangelicalism-pentecostalism-and-the-quotidian-academic-terror-of-christian-nationalism
 tags:
   - theoryPosts
+  - nationalism
+  - political
+  - religion
+  - religious
+  - politics
 ---
 
 *The following essay appeared recently in* [The New Polis](http://thenewpolis.com)*. It is republished here because of its timeliness and importance.*

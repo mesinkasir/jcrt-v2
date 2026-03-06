@@ -15,6 +15,11 @@ slug: >-
   decoloniality-and-disintegration-of-western-cognitive-empire-rethinking-sovereignty-and-territoriality-in-the-21st-century-international-conference
 tags:
   - theoryPosts
+  - decoloniality
+  - sovereignty
+  - cognitive
+  - indigenous
+  - theology
 ---
 
 ## **April 14-16, 2021**

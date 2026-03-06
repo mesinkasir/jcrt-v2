@@ -14,6 +14,11 @@ slug: >-
   the-curious-whiteheadian-proclivity-in-schelers-account-of-god-and-persons-part-2-j-edward-hackett
 tags:
   - theoryPosts
+  - impulsion
+  - personal
+  - philosophy
+  - reality
+  - metaphysics
 ---
 
 *The following is the second installment of a two-part series. The first can be found [here]( /16/the-curious-whiteheadian-proclivity-in-schelers-account-of-god-and-persons-j-edward-hackett/).*

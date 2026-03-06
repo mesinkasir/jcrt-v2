@@ -11,6 +11,11 @@ layout: theory.njk
 slug: review-francois-laruelles-general-theory-of-victims-john-matthew-allison
 tags:
   - theoryPosts
+  - real
+  - philosophy
+  - theory
+  - generic
+  - general
 ---
 
 **Laruelle, François. *General Theory of Victims*. Translated by Jessie Hock and Alex Dubilet. Malden, MA: Polity Press, 2015. ISBN-10: 0745679617. Hardcover, paperback, e-book. 161 Pages.**

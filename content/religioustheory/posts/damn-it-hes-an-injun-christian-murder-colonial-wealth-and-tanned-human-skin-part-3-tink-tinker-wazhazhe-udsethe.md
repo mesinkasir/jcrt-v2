@@ -13,6 +13,11 @@ slug: >-
   damn-it-hes-an-injun-christian-murder-colonial-wealth-and-tanned-human-skin-part-3-tink-tinker-wazhazhe-udsethe
 tags:
   - theoryPosts
+  - narrative
+  - history
+  - native
+  - colonial
+  - military
 ---
 
 *The following is the final of a three-part series.  The first installation can be found [here]( /14/damn-it-hes-an-injun-christian-murder-colonial-wealth-and-tanned-human-skin-tink-tinker-wazhazhe-udsethe-part-1/), the second [here]( /21/damn-it-hes-an-injun-christian-murder-colonial-wealth-and-tanned-human-skin-part-2-tink-tinker-wazhazhe-udsethe/).  The article in full originally appeared in The New Polis in January, 2019.*

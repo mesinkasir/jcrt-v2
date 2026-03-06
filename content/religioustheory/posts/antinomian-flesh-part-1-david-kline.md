@@ -10,6 +10,11 @@ layout: theory.njk
 slug: antinomian-flesh-part-1-david-kline
 tags:
   - theoryPosts
+  - political
+  - social
+  - economic
+  - biological
+  - economy
 ---
 
 ## The following is the first of a three-part series.

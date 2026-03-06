@@ -14,6 +14,11 @@ slug: >-
   more-sympathy-for-the-devil-or-the-state-of-satan-in-the-age-of-obama-and-trump
 tags:
   - theoryPosts
+  - satanism
+  - satanic
+  - academic
+  - panic
+  - religious
 ---
 
 Fifty years ago this weekend in the year 1966, according to lore and legend, San Francisco showman, musician, and self-professed huckster Howard Stanton Levey a.k.a. Anton Szandor LaVey founded the Church of Satan, proclaiming at the same time the advent of the Age of Satan (coinciding roughly with the immense popularity of the Rolling Stones song “Sympathy for the Devil”).

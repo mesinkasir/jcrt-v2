@@ -11,6 +11,11 @@ layout: theory.njk
 slug: entheogens-spirituality-and-modern-myths
 tags:
   - theoryPosts
+  - social
+  - spirituality
+  - spiritual
+  - theory
+  - religion
 ---
 
 *The following is the first of a three-part* series.

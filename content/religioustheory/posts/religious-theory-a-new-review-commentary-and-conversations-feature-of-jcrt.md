@@ -15,6 +15,9 @@ layout: theory.njk
 slug: religious-theory-a-new-review-commentary-and-conversations-feature-of-jcrt
 tags:
   - theoryPosts
+  - religious
+  - theory
+  - commentary
 ---
 
 *Religious Theory* is the new commentary, review, and conversation blog for [The Journal for Cultural and Religious Theory](https://jcrt.org).  We plan to go live no later than the middle of February, 2016.

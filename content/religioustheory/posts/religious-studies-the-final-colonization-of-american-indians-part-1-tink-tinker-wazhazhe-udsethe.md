@@ -13,6 +13,11 @@ slug: >-
   religious-studies-the-final-colonization-of-american-indians-part-1-tink-tinker-wazhazhe-udsethe
 tags:
   - theoryPosts
+  - religion
+  - religious
+  - native
+  - community
+  - colonial
 ---
 
 *The following is the first of a two-part series.* *The second can be found [here]( /09/religious-studies-the-final-colonization-of-american-indians-part-1-tink-tinker-wazhazhe-udsethe-2/).*

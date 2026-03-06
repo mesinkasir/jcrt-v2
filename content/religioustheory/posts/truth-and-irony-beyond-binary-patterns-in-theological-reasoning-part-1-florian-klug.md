@@ -16,6 +16,11 @@ slug: >-
   truth-and-irony-beyond-binary-patterns-in-theological-reasoning-part-1-florian-klug
 tags:
   - theoryPosts
+  - existence
+  - social
+  - revelation
+  - salvation
+  - philosophical
 ---
 
 *The following is the first of a three-part series.* *It will appear as a full article in the Fall 2021 issue of the* [Journal for Cultural and Religious Theory](https://jcrt.org).

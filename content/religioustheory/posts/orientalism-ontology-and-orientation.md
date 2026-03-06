@@ -15,6 +15,11 @@ layout: theory.njk
 slug: orientalism-ontology-and-orientation
 tags:
   - theoryPosts
+  - religious
+  - religion
+  - orientalism
+  - colonial
+  - ontology
 ---
 
 *The following is the first of a two-part series. The full article is published in the spring 2022 issue of the* [Journal for Cultural and Religious Theory](https://jcrt.org)*.*

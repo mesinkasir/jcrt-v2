@@ -12,6 +12,11 @@ layout: theory.njk
 slug: god-and-language-lecture-6-johannes-zachhuber
 tags:
   - theoryPosts
+  - theology
+  - reality
+  - philosophy
+  - philosophical
+  - traditional
 ---
 
 *The following is the sixth lecture in an eight-lecture series. The most recent one can be found [here.]( /2018/11/13/god-and-history-lecture-5-johannes-zachhuber/)*

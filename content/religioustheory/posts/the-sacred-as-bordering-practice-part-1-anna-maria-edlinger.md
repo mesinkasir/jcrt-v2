@@ -11,6 +11,11 @@ layout: theory.njk
 slug: the-sacred-as-bordering-practice-part-1-anna-maria-edlinger
 tags:
   - theoryPosts
+  - migration
+  - religion
+  - declaration
+  - political
+  - national
 ---
 
 *The following is the first of a two-part series. It was originally published in issue [22.1](https://jcrt.org/archives/22.1/) of the Journal for Cultural and Religious Studies.*

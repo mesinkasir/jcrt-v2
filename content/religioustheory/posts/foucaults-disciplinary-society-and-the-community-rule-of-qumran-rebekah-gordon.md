@@ -16,6 +16,11 @@ layout: theory.njk
 slug: foucaults-disciplinary-society-and-the-community-rule-of-qumran-rebekah-gordon
 tags:
   - theoryPosts
+  - community
+  - punishment
+  - exclusion
+  - expulsion
+  - individual
 ---
 
 ## Foregrounding the Problem

@@ -18,6 +18,11 @@ slug: >-
   beyond-religious-ideas-the-legacy-of-max-weber-in-critical-theory-and-critical-religion-joel-harrison
 tags:
   - theoryPosts
+  - religion
+  - religious
+  - critical
+  - historical
+  - segal
 ---
 
 *This article was [initially published in The New Polis](http://thenewpolis.com/2018/03/23/beyond-religious-ideas-the-legacy-of-max-weber-in-critical-theory-and-critical-religion-joel-harrison/), March 23, 2018.*

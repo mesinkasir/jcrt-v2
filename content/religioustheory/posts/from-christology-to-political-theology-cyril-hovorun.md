@@ -12,6 +12,11 @@ layout: theory.njk
 slug: from-christology-to-political-theology-cyril-hovorun
 tags:
   - theoryPosts
+  - political
+  - theological
+  - christological
+  - unity
+  - christology
 ---
 
 In the Christian Antiquity and later on during the Middle Ages, there was neither separation nor much distinction between the theological and the political matters. It was common that theological doctrines induced political philosophy and practice, and *vice versa*. Theological interpretations of the Incarnation as they developed during the Late Antiquity, had political extrapolations and correlated with the corresponding models of the church-state relations.

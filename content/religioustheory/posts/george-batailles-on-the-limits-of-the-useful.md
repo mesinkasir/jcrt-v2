@@ -13,6 +13,11 @@ layout: theory.njk
 slug: george-batailles-on-the-limits-of-the-useful
 tags:
   - theoryPosts
+  - surrealism
+  - economy
+  - capitalism
+  - nonproductive
+  - religion
 ---
 
 **Georges Bataille,** ***The Limit of the Useful***. Translated and edited by Corey Austin Knudson and Tomas Elliott. Cambridge: The MIT Press, 2022. Hardback. 360 pages. ISBN 978-0-262-04733-3.**

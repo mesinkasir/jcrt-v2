@@ -10,6 +10,11 @@ layout: theory.njk
 slug: review-essay-peter-sloterdijk-on-social-bonds-freedom-and-religion
 tags:
   - theoryPosts
+  - social
+  - religion
+  - religious
+  - theory
+  - liberalism
 ---
 
 ![](http://www.bookforum.com/archive/feb_05/stry.imgs/funcke.gif)

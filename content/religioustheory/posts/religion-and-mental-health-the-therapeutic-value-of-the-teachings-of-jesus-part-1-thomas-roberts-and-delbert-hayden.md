@@ -17,6 +17,11 @@ slug: >-
   religion-and-mental-health-the-therapeutic-value-of-the-teachings-of-jesus-part-1-thomas-roberts-and-delbert-hayden
 tags:
   - theoryPosts
+  - religion
+  - religious
+  - mental
+  - social
+  - spirituality
 ---
 
 *The following is the first part in a two-part installment. The second part can be found [here]( /10/09/religion-and-mental-health-the-therapuetic-value-of-the-teachings-of-jesus-part-2-thomas-roberts-and-delbert-hayden/).*

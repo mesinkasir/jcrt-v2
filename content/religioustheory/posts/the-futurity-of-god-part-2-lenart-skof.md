@@ -11,6 +11,11 @@ layout: theory.njk
 slug: the-futurity-of-god-part-2-lenart-skof
 tags:
   - theoryPosts
+  - magic
+  - theory
+  - humanity
+  - theological
+  - magical
 ---
 
 *The following is the second of a two-part series. The first can be found [here.]( /02/the-futurity-of-god-part-1-lenart-skof/)*

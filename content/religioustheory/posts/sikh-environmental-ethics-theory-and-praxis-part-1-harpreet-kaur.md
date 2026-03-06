@@ -10,6 +10,11 @@ layout: theory.njk
 slug: sikh-environmental-ethics-theory-and-praxis-part-1-harpreet-kaur
 tags:
   - theoryPosts
+  - environmental
+  - religion
+  - ecology
+  - ecological
+  - ethics
 ---
 
 ## The following is the first installment of a two-part series.

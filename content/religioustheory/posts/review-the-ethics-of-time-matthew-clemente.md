@@ -13,6 +13,11 @@ layout: theory.njk
 slug: review-the-ethics-of-time-matthew-clemente
 tags:
   - theoryPosts
+  - ethics
+  - phenomenology
+  - aesthetic
+  - experience
+  - movement
 ---
 
 ***The Ethics of Time.*** **Manoussakis, John. New York: Bloomsbury Press, 2017. ISBN: 9781474299169. Hardback. 232 pages.**

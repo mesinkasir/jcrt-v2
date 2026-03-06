@@ -18,6 +18,11 @@ slug: >-
   naming-the-darkness-spiritual-violence-and-radical-incompleteness-resituating-a-political-theology-part-2-james-e-willis-iii
 tags:
   - theoryPosts
+  - political
+  - spiritual
+  - theology
+  - incompleteness
+  - violence
 ---
 
 *The following is the second of a two-part series. The first can be found [here]( /01/naming-the-darkness-spiritual-violence-and-radical-incompleteness-resituating-a-political-theology-james-e-willis-iii/)*[.]( /01/naming-the-darkness-spiritual-violence-and-radical-incompleteness-resituating-a-political-theology-james-e-willis-iii/)

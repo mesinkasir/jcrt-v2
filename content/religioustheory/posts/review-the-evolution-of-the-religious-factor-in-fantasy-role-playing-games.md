@@ -13,6 +13,11 @@ layout: theory.njk
 slug: review-the-evolution-of-the-religious-factor-in-fantasy-role-playing-games
 tags:
   - theoryPosts
+  - religious
+  - moral
+  - religion
+  - panic
+  - hegemony
 ---
 
 **Laycock, Joseph P.  *Dangerous Games: What the Moral Panic over Role-Playing Games Says about Play, Religion, and Imagined Worlds*. Berkeley CA: University of California Press, 2015.  ISBN-10: 0520284925.  Hardback, paperback, e-book.  368 pp.**

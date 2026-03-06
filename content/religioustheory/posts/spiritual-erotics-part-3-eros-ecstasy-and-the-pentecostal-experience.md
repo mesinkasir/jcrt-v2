@@ -12,6 +12,11 @@ layout: theory.njk
 slug: spiritual-erotics-part-3-eros-ecstasy-and-the-pentecostal-experience
 tags:
   - theoryPosts
+  - spiritual
+  - religious
+  - pentecostal
+  - spirituality
+  - erotic
 ---
 
 In [the first installment]( /03/30/spiritual-erotics-affect-theory-and-the-transformation-of-machismo-among-latino-pentecostal-men-part-1/) of this three-part book preview of my forthcoming work on machismo in Latino culture I explored the role of the new, and “hot”, methodology of affect theory as a lens through which to achieve a radical, new set of insights about a somewhat contested phenomenon.  In [the second part]( /06/spiritual-erotics-part-2-the-nature-and-history-of-machismo-and-its-feminine-counterpart-as-marianismo/) I discussed the nature and history of machismo and its relationship to Marianismo, its feminine counterpart.  In this third, and final, essay I talk about the meaning of the concept of *spiritual erotics* itself, and how it serves to frame the problem of machismo.  I conclude with a brief effort to contextualize my research with respect to other current literature.

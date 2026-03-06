@@ -15,6 +15,11 @@ slug: >-
   untimely-meditations-on-techno-theology-and-theo-poetics-part-1-john-panteleimon-manoussakis
 tags:
   - theoryPosts
+  - religion
+  - philosophy
+  - theological
+  - theology
+  - magical
 ---
 
 *The following is the first half of the article*.  *The second installment [can be found here]( /04/01/untimely-meditations-on-techno-theology-and-theo-poetics-part-2-john-panteleimon-manoussakis/).*

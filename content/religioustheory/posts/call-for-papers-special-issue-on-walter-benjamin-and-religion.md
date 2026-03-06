@@ -14,6 +14,11 @@ layout: theory.njk
 slug: call-for-papers-special-issue-on-walter-benjamin-and-religion
 tags:
   - theoryPosts
+  - religion
+  - special
+  - religious
+  - metaphysics
+  - modernity
 ---
 
 What does Walter Benjamin’s work suggest about religion and the methods of studying it? This special issue of *[The Journal for Cultural and Religious Studies (JCRT](https://jcrt.org))* offers new perspectives on Benjamin and religion.  Many studies consider Benjamin’s engagement with Judaism.  Others, fewer in number, consider the role of Christianity, usually framed as theology, in his work. A third area of research been the religious dimensions of Benjamin’s modernity.

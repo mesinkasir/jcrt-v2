@@ -12,6 +12,11 @@ layout: theory.njk
 slug: reorientation-in-the-field-why-religion-matters-part-1-wendy-felese
 tags:
   - theoryPosts
+  - religion
+  - indigenous
+  - native
+  - colonial
+  - historical
 ---
 
 *The following is the first of a two-part series. It was originally published at a 2019 conference in Athens, Greece.1*

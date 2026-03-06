@@ -13,6 +13,11 @@ layout: theory.njk
 slug: review-ontic-flows-from-digital-humanities-to-posthumanities-dean-dettloff
 tags:
   - theoryPosts
+  - digital
+  - ontic
+  - religious
+  - theory
+  - critical
 ---
 
 **Bernico, Matt, and Kölke, Manuela (Eds.). *Ontic Flows: From Digital Humanities to Posthumanities.* New York: Atropos Press, 2016. ISBN-10: 1940813085. Hardcover, paperback, e-book. 296 pages.** 

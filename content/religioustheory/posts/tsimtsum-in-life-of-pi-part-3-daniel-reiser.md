@@ -10,6 +10,11 @@ layout: theory.njk
 slug: tsimtsum-in-life-of-pi-part-3-daniel-reiser
 tags:
   - theoryPosts
+  - story
+  - religious
+  - experience
+  - religion
+  - psychological
 ---
 
 *The following is the third of a four-part series. The first can be found [here]( /11/25/tsimtsum-in-life-of-pi-part-1-daniel-reiser/)*, *the second [here.]( /08/tsimtsum-in-life-of-pi-part-2-daniel-reiser/)*

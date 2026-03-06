@@ -13,6 +13,11 @@ slug: >-
   review-copresence-and-ontography-in-beliso-de-jesus-electric-santeria-ryne-beddard
 tags:
   - theoryPosts
+  - religious
+  - electric
+  - transnational
+  - metaphysics
+  - authenticity
 ---
 
 **![seven-orishas](/images/2017/03/seven-orishas-300x232.jpg)Beliso-De Jesús, Aisha M. *Electric Santería: Racial and Sexual Assemblages of Transnational Religion*. New York: Columbia University Press, 2015. ISBN-10:** **0231173172** **Hardcover, paperback, e-book. 304 pages.**

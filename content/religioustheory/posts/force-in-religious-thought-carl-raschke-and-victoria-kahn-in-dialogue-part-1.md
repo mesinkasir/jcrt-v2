@@ -13,6 +13,11 @@ layout: theory.njk
 slug: force-in-religious-thought-carl-raschke-and-victoria-kahn-in-dialogue-part-1
 tags:
   - theoryPosts
+  - political
+  - liberalism
+  - politics
+  - theology
+  - notion
 ---
 
 ## The following is the first of a three-part series.

@@ -15,6 +15,11 @@ slug: >-
   the-religious-significance-of-miracles-why-humes-critique-is-superfluous-part-2-alberto-urquidez
 tags:
   - theoryPosts
+  - religious
+  - significance
+  - event
+  - ascription
+  - argument
 ---
 
 *The following is the second of a three-part series. The first can be found [here]( /14/the-religious-significance-of-miracles-why-humes-critique-is-superfluous/).*

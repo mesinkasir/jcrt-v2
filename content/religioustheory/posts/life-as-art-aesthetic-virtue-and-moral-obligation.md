@@ -11,6 +11,11 @@ layout: theory.njk
 slug: life-as-art-aesthetic-virtue-and-moral-obligation
 tags:
   - theoryPosts
+  - moral
+  - aesthetic
+  - ethics
+  - ethical
+  - philosophy
 ---
 
 Virtue ethics has received much attention throughout the last decades. While some of the corresponding works are dealing with questions of aesthetics, there appear to be only very few discussions that devote themselves to what could be called *aesthetic virtue*. And yet aesthetic virtue might inspire ethical debates in more than one respect.

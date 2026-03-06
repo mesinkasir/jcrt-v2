@@ -10,6 +10,11 @@ layout: theory.njk
 slug: review-whence-and-whither-posthumanism-bo-eberle
 tags:
   - theoryPosts
+  - posthumanism
+  - modernity
+  - community
+  - theory
+  - pragmatism
 ---
 
 **White, Ryan. *The Hidden God: Pragmatism and Posthumanism in American Thought.* New York: Columbia University Press, 2015. ISBN-10: 0231171005. Hardcover, e-book. 248 pages.** 

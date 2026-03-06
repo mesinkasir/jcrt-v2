@@ -13,6 +13,11 @@ layout: theory.njk
 slug: sexual-difference-and-the-vatican-a-lacanian-response-part-2-melissa-conroy
 tags:
   - theoryPosts
+  - sexual
+  - identity
+  - subject
+  - animal
+  - symbolic
 ---
 
 *The following is the second of a three-part series. The first can be found [here]( /09/28/sexual-difference-and-the-vatican-a-lacanian-response-part-1-melissa-conroy/)*.

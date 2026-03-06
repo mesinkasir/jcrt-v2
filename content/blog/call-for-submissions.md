@@ -9,7 +9,7 @@ author: editors_religioustheory
 ---
 ## Call for Submissions — JCRT.org Blog
 
-[**Submit your article here.**](/submit/)
+[**Submit your article here.**](/submissions/)
 
 The [**Journal for Cultural and Religious Theory (JCRT)**](/) invites submissions on a **rolling basis**. JCRT is a **peer-reviewed** journal devoted to both disciplinary and interdisciplinary scholarship of a cutting-edge nature that engages the phenomenon of **religious and cultural theory** broadly construed.
 
@@ -54,4 +54,4 @@ Founded in **1999**, JCRT is an early pioneer in **electronic, open source publi
 
 As a non-profit entity, JCRT actively resists these trends and invites authors to resist them as well. We are also happy to provide **letters of support** to faculty and administrators confirming that published pieces have been **thoroughly peer-reviewed** and selected for their genuine quality.
 
-[**Submit your article here.**](/submit/)
+[**Submit your article here.**](/submissions/)

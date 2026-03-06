@@ -17,6 +17,9 @@ layout: theory.njk
 slug: new-book-titles-looking-for-reviewers
 tags:
   - theoryPosts
+  - cultural
+  - religious
+  - theory
 ---
 
 ![](/images/2017/04/woman-face-in-shadow-300x211.jpg)We are looking for authors to review the a variety books in different topic areas related to religious and cultural theory.  Current books for which we need reviewers are listed [here](https://jcrt.org/religioustheory/books-for-review/).

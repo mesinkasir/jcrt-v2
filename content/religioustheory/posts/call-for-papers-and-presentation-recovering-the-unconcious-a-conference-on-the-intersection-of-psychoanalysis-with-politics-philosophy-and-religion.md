@@ -14,6 +14,11 @@ slug: >-
   call-for-papers-and-presentation-recovering-the-unconcious-a-conference-on-the-intersection-of-psychoanalysis-with-politics-philosophy-and-religion
 tags:
   - theoryPosts
+  - psychoanalysis
+  - religion
+  - politics
+  - philosophy
+  - unconscious
 ---
 
 ## Recovering the Unconscious

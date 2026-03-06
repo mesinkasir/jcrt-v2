@@ -11,6 +11,11 @@ layout: theory.njk
 slug: prayer-after-the-death-of-god-part-i-ashley-gay-graham
 tags:
   - theoryPosts
+  - event
+  - theology
+  - absence
+  - presence
+  - experience
 ---
 
 ## The following is the first part in a two-part installment.

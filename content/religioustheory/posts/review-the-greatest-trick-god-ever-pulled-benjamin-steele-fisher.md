@@ -10,6 +10,11 @@ layout: theory.njk
 slug: review-the-greatest-trick-god-ever-pulled-benjamin-steele-fisher
 tags:
   - theoryPosts
+  - christianity
+  - political
+  - demonic
+  - modernity
+  - theology
 ---
 
 **Kotsko, Adam. *The Prince of this World.* Stanford: Stanford University Press, 2017. ISBN-10: 1503600203. Hardcover, paperback, e-book. 225 pages.**

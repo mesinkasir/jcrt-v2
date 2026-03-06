@@ -15,6 +15,11 @@ slug: >-
   psychedelic-aesthetics-and-the-crises-of-liberalism-a-critical-conversation-with-roger-green
 tags:
   - theoryPosts
+  - political
+  - psychedelic
+  - aesthetics
+  - indigenous
+  - enchantment
 ---
 
 *The following Critical Conversation took place on February 17, 2022 with Roger Green, author of* [A Transatlantic Political Theology of Psychedelic Aesthetics: Enchanted Citizens](https://www.google.com/books/edition/A_Transatlantic_Political_Theology_of_Ps/VQGQDwAAQBAJ?hl=en&gbpv=1&dq=roger+green+transatlantic&printsec=frontcover).

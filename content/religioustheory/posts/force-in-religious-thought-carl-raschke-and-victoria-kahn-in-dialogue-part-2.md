@@ -12,6 +12,11 @@ layout: theory.njk
 slug: force-in-religious-thought-carl-raschke-and-victoria-kahn-in-dialogue-part-2
 tags:
   - theoryPosts
+  - kant
+  - political
+  - individual
+  - theology
+  - history
 ---
 
 *The following is the second of a three-part series.  [The first part]( /05/31/force-in-religious-thought-carl-raschke-and-victoria-kahn-in-dialogue-part-1/) was published on May 31, 2016.*

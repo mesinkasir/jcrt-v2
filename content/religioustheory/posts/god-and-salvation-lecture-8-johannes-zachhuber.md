@@ -11,6 +11,11 @@ layout: theory.njk
 slug: god-and-salvation-lecture-8-johannes-zachhuber
 tags:
   - theoryPosts
+  - salvation
+  - trinity
+  - theology
+  - economic
+  - religion
 ---
 
 *This is the eighth lecture in an eight-lecture series.  The most recent lecture can be found [here]( /10/god-as-person-and-trinity-lecture-7-johannes-zachhuber/).*

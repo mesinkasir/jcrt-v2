@@ -13,6 +13,11 @@ layout: theory.njk
 slug: religious-studies-and-comparative-theology-an-appraisal-joshua-samuel
 tags:
   - theoryPosts
+  - religion
+  - theology
+  - religious
+  - comparative
+  - category
 ---
 
 The title “religious scholar,” it must be remembered, is a very ambiguous categorization. It could either mean those who are engaged in academic work in the religious department of a university or it could also include those involved in subjective religious study, like in a seminary.

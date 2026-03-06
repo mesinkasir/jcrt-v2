@@ -13,6 +13,11 @@ slug: >-
   truth-and-irony-beyond-binary-patterns-in-theological-reasoning-part-3-florian-klug
 tags:
   - theoryPosts
+  - confession
+  - sacrament
+  - existential
+  - relationship
+  - public
 ---
 
 *The following is the last of a three-part series. The first can be found [here]( /06/28/truth-and-irony-beyond-binary-patterns-in-theological-reasoning-part-1-florian-klug/), the second [here]( /12/truth-and-irony-beyond-binary-patterns-in-theological-reasoning-part-2-florian-klug/). It will appear as a full article in the Fall 2021 issue of the* [Journal for Cultural and Religious Theory](https://jcrt.org).

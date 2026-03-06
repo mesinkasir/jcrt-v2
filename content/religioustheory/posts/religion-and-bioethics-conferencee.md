@@ -12,6 +12,11 @@ layout: theory.njk
 slug: religion-and-bioethics-conferencee
 tags:
   - theoryPosts
+  - religion
+  - religious
+  - ethical
+  - moral
+  - medical
 ---
 
 #### **When**: Jan. 9-10, 2025

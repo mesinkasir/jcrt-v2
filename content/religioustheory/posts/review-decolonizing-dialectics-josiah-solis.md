@@ -10,6 +10,11 @@ layout: theory.njk
 slug: review-decolonizing-dialectics-josiah-solis
 tags:
   - theoryPosts
+  - dialectics
+  - dialectical
+  - dialectic
+  - decolonial
+  - decolonization
 ---
 
 **Ciccariello-Maher, George. *Decolonizing Dialectics*. Durham NC: Duke University Press, 2017.  256 pages.  ISBN-10: 0822362430.  Hardcover, paperback, e-book.**

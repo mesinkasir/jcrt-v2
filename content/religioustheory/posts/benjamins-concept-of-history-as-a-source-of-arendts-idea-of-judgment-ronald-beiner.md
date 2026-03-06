@@ -15,6 +15,11 @@ slug: >-
   benjamins-concept-of-history-as-a-source-of-arendts-idea-of-judgment-ronald-beiner
 tags:
   - theoryPosts
+  - historical
+  - history
+  - materialism
+  - materialist
+  - historicism
 ---
 
 *“Benjamin’s Concept of History As A Source of Arendt’s Idea of Judgment” by Ronald Beiner is published in two parts during successive weeks.  The following is the first portion.*

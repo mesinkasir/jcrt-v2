@@ -10,6 +10,11 @@ layout: theory.njk
 slug: biopolitics-and-vajrayana-buddhism-part-2
 tags:
   - theoryPosts
+  - ritual
+  - individual
+  - biopolitical
+  - deity
+  - biopolitics
 ---
 
 *The following is the second installment in a three-part series.  The first installment was published on May 27, 2016 and can be found [here]( /05/27/biopolitics-and-vajranayana-buddhism-part-1/).*

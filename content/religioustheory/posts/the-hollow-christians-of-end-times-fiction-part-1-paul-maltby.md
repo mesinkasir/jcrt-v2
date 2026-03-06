@@ -10,6 +10,11 @@ layout: theory.njk
 slug: the-hollow-christians-of-end-times-fiction-part-1-paul-maltby
 tags:
   - theoryPosts
+  - fiction
+  - salvation
+  - spiritual
+  - experience
+  - subjectivity
 ---
 
 ## The following is the first of a three-part series.

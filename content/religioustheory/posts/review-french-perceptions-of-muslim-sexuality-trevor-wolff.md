@@ -11,6 +11,11 @@ layout: theory.njk
 slug: review-french-perceptions-of-muslim-sexuality-trevor-wolff
 tags:
   - theoryPosts
+  - sexuality
+  - france
+  - cultural
+  - immigrant
+  - sexual
 ---
 
 **Mack, Mehammed Amadeus.** ***Sexagon: Muslims, France, and the Sexualization of National Culture.*** **New York City NY: Fordham University Press, 2017. ISBN-10: 0823274616. Hardcover, Paperback, E-book.**

@@ -10,6 +10,11 @@ layout: theory.njk
 slug: review-the-enigmatic-absolute-stanimir-panayotov
 tags:
   - theoryPosts
+  - philosophy
+  - religion
+  - enigmatic
+  - continental
+  - ineffability
 ---
 
 **Joshua Ramey and Matthew S. Haar Farris (Eds.), *Speculation, Heresy, and Gnosis in Contemporary Philosophy of Religion: The Enigmatic Absolute*. Lanham, MD: Rowman and Littlefield, 2016. 299 pages. ISBN: 9781786601414**

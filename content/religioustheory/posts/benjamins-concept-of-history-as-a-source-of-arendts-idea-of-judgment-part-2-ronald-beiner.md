@@ -15,6 +15,11 @@ slug: >-
   benjamins-concept-of-history-as-a-source-of-arendts-idea-of-judgment-part-2-ronald-beiner
 tags:
   - theoryPosts
+  - history
+  - historical
+  - political
+  - judgment
+  - materialism
 ---
 
 *“Benjamin’s Concept of History As A Source of Arendt’s Idea of Judgment” by Ronald Beiner is published in two parts during successive weeks.  The following is the second portion.  The first installment [can be found here]( /08/benjamins-concept-of-history-as-a-source-of-arendts-idea-of-judgment-ronald-beiner/).  

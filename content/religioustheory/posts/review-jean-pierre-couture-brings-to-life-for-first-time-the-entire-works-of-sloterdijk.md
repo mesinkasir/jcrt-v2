@@ -13,6 +13,11 @@ slug: >-
   review-jean-pierre-couture-brings-to-life-for-first-time-the-entire-works-of-sloterdijk
 tags:
   - theoryPosts
+  - political
+  - theory
+  - critical
+  - philosophy
+  - religious
 ---
 
 **Couture, Jean-Pierre. [*Sloterdijk*](http://www.wiley.com/WileyCDA/WileyTitle/productCd-074566380X.html) (Key Contemporary Thinkers). Boston: Polity, 2015. 208 pages. ISBN-***10: 0745663818.  Hardback, paperback, e-book, 208 pages.  

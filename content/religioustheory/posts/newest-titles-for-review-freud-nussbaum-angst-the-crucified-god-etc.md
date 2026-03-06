@@ -15,6 +15,11 @@ layout: theory.njk
 slug: newest-titles-for-review-freud-nussbaum-angst-the-crucified-god-etc
 tags:
   - theoryPosts
+  - religious
+  - epistemic
+  - justice
+  - radical
+  - theory
 ---
 
 *Religious Theory* has just added new titles for which we are looking for reviewers (listed below).

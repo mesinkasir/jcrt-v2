@@ -10,6 +10,11 @@ layout: theory.njk
 slug: special-issue-on-religion-and-bioethics-call-for-papers
 tags:
   - theoryPosts
+  - religious
+  - religion
+  - special
+  - bioethical
+  - cultural
 ---
 
 *The Journal for Cultural and Religious Theory* (*JCRT*) invites submissions for a special issue dedicated to the intersection of religion and bioethics. This issue seeks to explore how religious beliefs, ethical frameworks, and cultural values intersect with the challenges of medical and biotechnological advancements. We welcome contributions that offer theoretical insights, critique existing paradigms, and propose new avenues for understanding the role of religion in bioethical decision-making.

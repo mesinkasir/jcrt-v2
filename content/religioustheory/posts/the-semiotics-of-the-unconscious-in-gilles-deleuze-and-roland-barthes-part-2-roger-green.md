@@ -17,6 +17,11 @@ slug: >-
   the-semiotics-of-the-unconscious-in-gilles-deleuze-and-roland-barthes-part-2-roger-green
 tags:
   - theoryPosts
+  - capitalism
+  - semiotics
+  - unconscious
+  - political
+  - component
 ---
 
 *The following is the second of a two-part series.  The first installment, published on Dec. 19, 2016, can be [found here]( /19/the-semiotics-of-the-unconscious-in-gilles-deleuze-and-roland-barthes-roger-green/).*  

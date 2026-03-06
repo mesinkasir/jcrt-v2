@@ -14,6 +14,11 @@ slug: >-
   a-tainted-trophy-and-the-framing-of-white-supremacy-in-america-part-2-tink-tinker
 tags:
   - theoryPosts
+  - history
+  - native
+  - narrative
+  - theology
+  - annual
 ---
 
 *The following is the third of a three-part series. The first can be found [here]( /15/a-tainted-trophy-and-the-framing-of-white-supremacy-in-america-part-1-tink-tinker/). The entire article appears in the fall 2022 issue of [The New Polis Journal.](http://journal.thenewpolis.com/)*

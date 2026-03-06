@@ -11,6 +11,11 @@ layout: theory.njk
 slug: a-preface-to-the-genealogy-of-neoliberalism-part-1-carl-raschke
 tags:
   - theoryPosts
+  - political
+  - neoliberalism
+  - social
+  - economic
+  - theory
 ---
 
 *The following is the first installment of a lecture delivered to the faculty and students of the Research Platform on Religion and Transformation from the University of Vienna at Melk Monastery (Austria) on July 26, 2016.  The second installment will be published on Aug. 29.  Select portions of this essay appeared earlier in the online publication* [Political Theology Today](http://www.politicaltheology.com/blog)*.*

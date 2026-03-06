@@ -12,6 +12,11 @@ layout: theory.njk
 slug: modern-theology-and-the-dialectic-of-god-part-1-kelly-maeshiro
 tags:
   - theoryPosts
+  - kant
+  - theology
+  - metaphysics
+  - philosophy
+  - subject
 ---
 
 ## The following is the first of a four-part series.

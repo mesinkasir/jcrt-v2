@@ -17,6 +17,11 @@ layout: theory.njk
 slug: to-not-lose-sight-of-the-good-notes-on-the-zapatismo-ethic-part-2-matt-rosen
 tags:
   - theoryPosts
+  - abnegation
+  - resistance
+  - ethic
+  - ethics
+  - recollection
 ---
 
 *The following is the second of a two-part series. The first can be found [here]( /14/to-not-lose-sight-of-the-good-notes-on-the-zapatismo-ethic-part-1-matt-rosen/).*

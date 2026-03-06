@@ -14,6 +14,11 @@ slug: >-
   rapture-music-intensity-and-eschatology-within-christian-revival-movements-part-1-fraser-macdonald
 tags:
   - theoryPosts
+  - music
+  - religious
+  - intensity
+  - musical
+  - revival
 ---
 
 *The following is the first of a three-part series. The full article is also available in the Spring 2022 issue of the* [*Journal for Cultural and Religious Theory*](https://jcrt.org/archives/21.2/)*.*

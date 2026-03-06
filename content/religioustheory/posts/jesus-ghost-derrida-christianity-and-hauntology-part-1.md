@@ -13,6 +13,11 @@ layout: theory.njk
 slug: jesus-ghost-derrida-christianity-and-hauntology-part-1
 tags:
   - theoryPosts
+  - dialectical
+  - spectral
+  - subject
+  - history
+  - aporetic
 ---
 
 > Jesus, who was concerned till manhood with his own personal development, was free from the contagious sickness of his age and his people; free from the inhibited inertia which expends its one activity on the common needs and conveniences of life; free too from the ambition and other desires whose satisfaction, once craved, would have compelled him to make terms with prejudice and vice.

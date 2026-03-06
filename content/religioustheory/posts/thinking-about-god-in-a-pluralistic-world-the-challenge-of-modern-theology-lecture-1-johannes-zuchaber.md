@@ -15,6 +15,11 @@ slug: >-
   thinking-about-god-in-a-pluralistic-world-the-challenge-of-modern-theology-lecture-1-johannes-zuchaber
 tags:
   - theoryPosts
+  - theology
+  - theological
+  - religion
+  - christianity
+  - atheism
 ---
 
 *The following is the first lecture in an eight lecture series.* 

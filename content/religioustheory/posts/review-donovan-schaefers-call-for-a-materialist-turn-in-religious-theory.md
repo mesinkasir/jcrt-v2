@@ -14,6 +14,11 @@ layout: theory.njk
 slug: review-donovan-schaefers-call-for-a-materialist-turn-in-religious-theory
 tags:
   - theoryPosts
+  - religion
+  - religious
+  - affective
+  - theory
+  - animal
 ---
 
 **Schaefer, Donovan O.  [*Religious Affects: Animality, Evolution, and Power*](https://www.dukeupress.edu/religious-affects).  Durham NC:  Duke University Press, 2015.  ISBN 10: 978-0-8223-5982-1, 10: 978-0-8223-5990-6.  Hardback, paperback, e-book.  304 pages.**

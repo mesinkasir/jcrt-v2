@@ -15,6 +15,11 @@ slug: >-
   from-kant-to-holderlin-poetry-and-religion-in-the-wake-of-philosophical-aesthetics
 tags:
   - theoryPosts
+  - kant
+  - religion
+  - subject
+  - philosophy
+  - intuition
 ---
 
 *The following is the first installment of a three-part series.  Translated by Philipp Schlögl.*

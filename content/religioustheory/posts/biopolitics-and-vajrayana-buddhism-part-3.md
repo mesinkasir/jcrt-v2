@@ -11,6 +11,11 @@ layout: theory.njk
 slug: biopolitics-and-vajrayana-buddhism-part-3
 tags:
   - theoryPosts
+  - ritual
+  - biopolitics
+  - invocation
+  - religious
+  - biopolitical
 ---
 
 *The following is the third and final installment in a three-part series.  The first installment was published on May 27, 2016 and can be found [here]( /05/27/biopolitics-and-vajranayana-buddhism-part-1/).  The [second installment]( /08/biopolitics-and-vajrayana-buddhism-part-2/) was published on June 13.  

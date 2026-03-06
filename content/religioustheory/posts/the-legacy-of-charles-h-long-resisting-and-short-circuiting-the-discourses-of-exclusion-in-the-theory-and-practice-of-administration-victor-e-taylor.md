@@ -16,6 +16,11 @@ slug: >-
   the-legacy-of-charles-h-long-resisting-and-short-circuiting-the-discourses-of-exclusion-in-the-theory-and-practice-of-administration-victor-e-taylor
 tags:
   - theoryPosts
+  - community
+  - religion
+  - exclusion
+  - administration
+  - intellectual
 ---
 
 *The following essay introduces the upcoming volume of the Journal for Cultural and Religious Theory featuring reflections on the work of renowned religious studies scholar Charles H. Long (1926-2020). It will be published in July 2022.*

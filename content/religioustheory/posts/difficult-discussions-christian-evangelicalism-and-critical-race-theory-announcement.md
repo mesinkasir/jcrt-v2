@@ -19,6 +19,11 @@ slug: >-
   difficult-discussions-christian-evangelicalism-and-critical-race-theory-announcement
 tags:
   - theoryPosts
+  - critical
+  - theory
+  - discussion
+  - political
+  - social
 ---
 
 **When:** Thursday, September 23, 2021, 10 am-12 pm (Mountain Daylight Time)

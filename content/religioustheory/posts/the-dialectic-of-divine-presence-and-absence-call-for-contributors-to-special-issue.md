@@ -15,6 +15,11 @@ slug: >-
   the-dialectic-of-divine-presence-and-absence-call-for-contributors-to-special-issue
 tags:
   - theoryPosts
+  - absence
+  - presence
+  - dialectic
+  - special
+  - religious
 ---
 
 Since the philosopher Nietzsche announced the “death of God” over a century ago, the specter of divine absence has hovered over Western civilization.

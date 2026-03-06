@@ -15,6 +15,11 @@ slug: >-
   embodiment-a-conference-on-the-crisis-in-contemporary-theory-and-the-humanities-announcement
 tags:
   - theoryPosts
+  - embodiment
+  - theory
+  - religion
+  - cultural
+  - religious
 ---
 
 ### **September 28-29**, 2022

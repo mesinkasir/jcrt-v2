@@ -13,6 +13,11 @@ layout: theory.njk
 slug: collective-desire-and-the-pathology-of-the-individual-jodi-dean
 tags:
   - theoryPosts
+  - individual
+  - capitalism
+  - collective
+  - cognitive
+  - pathology
 ---
 
 ## The following is the first installment of a two-part series.

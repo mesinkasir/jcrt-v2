@@ -11,6 +11,11 @@ layout: theory.njk
 slug: review-the-origins-of-neoliberalism-a-racialized-review-adam-f-braun
 tags:
   - theoryPosts
+  - economy
+  - neoliberalism
+  - subject
+  - genealogy
+  - political
 ---
 
 **Leshem, Dotan. *The Origins of Neoliberalism: Modeling the Economy from Jesus to Foucault.* New York: Columbia University Press, 2016. ISBN-10: 0231177763. Hardcover, paperback, e-book. 248 pages.** 

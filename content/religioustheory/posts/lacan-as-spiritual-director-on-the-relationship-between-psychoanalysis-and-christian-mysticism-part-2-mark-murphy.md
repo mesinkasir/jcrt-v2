@@ -16,6 +16,11 @@ slug: >-
   lacan-as-spiritual-director-on-the-relationship-between-psychoanalysis-and-christian-mysticism-part-2-mark-murphy
 tags:
   - theoryPosts
+  - spiritual
+  - psychoanalysis
+  - direction
+  - experience
+  - discourse
 ---
 
 *The following is the second installment of a three-part series.  The first can be found [here]( /07/31/lacan-as-spiritual-director-on-the-relationship-between-psychoanalysis-and-christian-mysticism-part-1-mark-murphy/).*

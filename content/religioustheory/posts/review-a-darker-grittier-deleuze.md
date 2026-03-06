@@ -11,6 +11,11 @@ layout: theory.njk
 slug: review-a-darker-grittier-deleuze
 tags:
   - theoryPosts
+  - negativity
+  - political
+  - politics
+  - radical
+  - capitalism
 ---
 
 **Culp, Andrew. *Dark Deleuze* (Forerunners: Ideas First). Minneapolis: University of Minnesota Press, 2016. ISBN 10:** **1517901332** **Paperback, e-book. 90 pages.**

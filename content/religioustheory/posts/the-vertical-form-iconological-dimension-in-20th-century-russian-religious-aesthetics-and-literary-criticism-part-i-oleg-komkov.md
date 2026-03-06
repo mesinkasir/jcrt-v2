@@ -18,6 +18,11 @@ slug: >-
   the-vertical-form-iconological-dimension-in-20th-century-russian-religious-aesthetics-and-literary-criticism-part-i-oleg-komkov
 tags:
   - theoryPosts
+  - aesthetic
+  - religious
+  - aesthetics
+  - ontological
+  - poetic
 ---
 
 *The following is the first part in a two-part installment.* 

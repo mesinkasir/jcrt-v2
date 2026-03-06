@@ -14,6 +14,11 @@ slug: >-
   philosophy-as-love-unblocking-the-road-from-athens-to-jerusalem-part-2-erik-meganck
 tags:
   - theoryPosts
+  - secularization
+  - philosophy
+  - desecularization
+  - modernity
+  - theological
 ---
 
 *The following is the second of a three part-series. The first can be found* [*here*]( /11/29/philosophy-as-love-unblocking-the-road-from-athens-to-jerusalem-part-1-erik-meganck/)*.*

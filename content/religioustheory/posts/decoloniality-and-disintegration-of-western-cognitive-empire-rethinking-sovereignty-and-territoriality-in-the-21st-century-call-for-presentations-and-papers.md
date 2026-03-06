@@ -21,6 +21,11 @@ slug: >-
   decoloniality-and-disintegration-of-western-cognitive-empire-rethinking-sovereignty-and-territoriality-in-the-21st-century-call-for-presentations-and-papers
 tags:
   - theoryPosts
+  - decoloniality
+  - sovereignty
+  - cognitive
+  - disintegration
+  - indigenous
 ---
 
 The *New Polis* in collaboration with the *[Journal for Cultural and Religious Theory](http://www.thenewpolis.com/)* (part of The Whitestone Foundation of publications) announces a webinar-based online conference in April 2021. The conference is entitled “Decoloniality And Disintegration Of Western Cognitive Empire – Rethinking Sovereignty And Territoriality In The 21st Century.”

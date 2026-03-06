@@ -23,6 +23,11 @@ slug: >-
   the-fracturing-of-world-order-a-series-of-international-and-interdisciplinary-online-mini-conferences-call-for-papers-and-presentations-announcement
 tags:
   - theoryPosts
+  - international
+  - globalization
+  - economic
+  - global
+  - political
 ---
 
 [The *Journal for Cultural and Religious Theory*](https://jcrt.org) and *[The New Polis](http://journal.thenewpolis.com/)* in collaboration with representatives of the University of Denver announces a call for papers and presentations for a set of international and interdisciplinary online mini-conferences on the topic of “The Fracturing of World Order.” *JCRT* and *The New Polis* are part of the family of [Whitestone Publications](http://www.thewhitestonefoundation.org/). The schedule of mini-conferences, which will be for one day only, is as follows:

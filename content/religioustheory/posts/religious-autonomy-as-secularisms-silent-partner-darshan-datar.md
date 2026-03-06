@@ -12,6 +12,11 @@ layout: theory.njk
 slug: religious-autonomy-as-secularisms-silent-partner-darshan-datar
 tags:
   - theoryPosts
+  - religious
+  - religion
+  - secularism
+  - constitutional
+  - liberal
 ---
 
 Scholarship has noted that the genealogical trajectory of a state has consistently had an impact on the evolution of state-church relationships. Philosophers have conceded that historically, as a sociological fact, religion was not purged from the public as much as it gradually lost its relevance to public life.

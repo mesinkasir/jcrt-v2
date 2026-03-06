@@ -13,6 +13,11 @@ layout: theory.njk
 slug: conference-on-populism-nationalism-and-the-future-of-democracy-announcement
 tags:
   - theoryPosts
+  - populism
+  - democracy
+  - nationalism
+  - political
+  - religion
 ---
 
 **When**: Sept. 26-27, 2025

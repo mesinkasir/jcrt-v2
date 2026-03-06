@@ -10,6 +10,11 @@ layout: theory.njk
 slug: review-economy-and-ontology-from-agamben-to-nancy-taylor-weaver
 tags:
   - theoryPosts
+  - community
+  - political
+  - economy
+  - politics
+  - ontology
 ---
 
 **Bird, Greg. *Containing Community: From Political Economy to Ontology in Agamben, Esposito, and Nancy*. Albany NY: SUNY Press, 2016. ISBN 978-1-4384-6185-4. Hardcover.**

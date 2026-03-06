@@ -13,6 +13,11 @@ layout: theory.njk
 slug: collective-desire-and-the-pathology-of-the-individual-part-2-jodi-dean
 tags:
   - theoryPosts
+  - individual
+  - collective
+  - subject
+  - personal
+  - individuation
 ---
 
 *The following is the second installment of a two-part series.  The first installment was published on October 10 and can be [accessed here.]( /10/collective-desire-and-the-pathology-of-the-individual-jodi-dean/)  

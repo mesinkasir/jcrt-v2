@@ -14,6 +14,11 @@ slug: >-
   reframing-the-adwa-victory-as-a-decolonizing-praxis-discourse-around-colonization-in-the-ethiopian-context
 tags:
   - theoryPosts
+  - victory
+  - colonization
+  - identity
+  - discourse
+  - praxis
 ---
 
 ## The following is the first installment of a two-part series.

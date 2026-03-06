@@ -16,6 +16,11 @@ slug: >-
   transmodern-sufism-or-stepping-with-levinas-on-the-footprints-of-a-speculative-sufism-not-re-framed-by-20th-century-orientalists-part-1-philipp-valentini
 tags:
   - theoryPosts
+  - sufism
+  - religious
+  - spiritual
+  - philosophy
+  - present
 ---
 
 ## The following article will be published in three installments.

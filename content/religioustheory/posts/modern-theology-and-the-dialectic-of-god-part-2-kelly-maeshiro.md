@@ -13,6 +13,11 @@ layout: theory.njk
 slug: modern-theology-and-the-dialectic-of-god-part-2-kelly-maeshiro
 tags:
   - theoryPosts
+  - consciousness
+  - kant
+  - subject
+  - notion
+  - idealism
 ---
 
 *The following is the second of a four-part series. The first can be found* [*here*]( /01/modern-theology-and-the-dialectic-of-god-part-1-kelly-maeshiro/)*.*

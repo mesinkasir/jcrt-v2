@@ -14,6 +14,11 @@ slug: >-
   a-tainted-trophy-and-the-framing-of-white-supremacy-in-america-part-3-tink-tinker
 tags:
   - theoryPosts
+  - native
+  - narrative
+  - history
+  - domination
+  - fractal
 ---
 
 *The following is the third of a three-part series. The first can be found [](https://thenewpolis.com/2022/10/19/a-tainted-trophy-and-the-framing-of-white-supremacy-in-america-part-1-tink-tinker/)[here]( /10/15/a-tainted-trophy-and-the-framing-of-white-supremacy-in-america-part-1-tink-tinker/), the second [here]( /10/31/a-tainted-trophy-and-the-framing-of-white-supremacy-in-america-part-2-tink-tinker/). The entire article appears in the fall 2022 issue of [The New Polis Journal.](http://journal.thenewpolis.com/)*

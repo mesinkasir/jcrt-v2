@@ -11,6 +11,11 @@ layout: theory.njk
 slug: review-caputos-spooky-call-to-theology-rob-kennedy
 tags:
   - theoryPosts
+  - theology
+  - political
+  - radical
+  - religion
+  - contribution
 ---
 
 **Caputo, John D., Moody, Sarah, and DeLay, Tad., *It Spooks: Living In Response To An Unheard Call.*  Rapid City SD: Shelter50 Publishing Collective, 2015.  ISBN-10: 0986249505. Paperback. 260 pages.**

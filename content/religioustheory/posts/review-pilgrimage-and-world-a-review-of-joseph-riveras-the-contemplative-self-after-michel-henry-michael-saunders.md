@@ -11,6 +11,11 @@ slug: >-
   review-pilgrimage-and-world-a-review-of-joseph-riveras-the-contemplative-self-after-michel-henry-michael-saunders
 tags:
   - theoryPosts
+  - contemplative
+  - theological
+  - justice
+  - radical
+  - eschatological
 ---
 
 **Rivera, Joseph. *The Contemplative Self After Michel Henry: A Phenomenological Theology*. Notre Dame: Notre Dame Press, 2015. ISBN-10: 0268040605. 408 pages. Paperback.**

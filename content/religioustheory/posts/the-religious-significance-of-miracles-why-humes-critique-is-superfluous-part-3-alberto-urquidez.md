@@ -15,6 +15,11 @@ slug: >-
   the-religious-significance-of-miracles-why-humes-critique-is-superfluous-part-3-alberto-urquidez
 tags:
   - theoryPosts
+  - religious
+  - event
+  - significance
+  - supernatural
+  - normative
 ---
 
 ## The Sense of “miracle” That Matters

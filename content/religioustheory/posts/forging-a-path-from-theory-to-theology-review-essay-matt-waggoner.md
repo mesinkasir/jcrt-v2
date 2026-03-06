@@ -12,6 +12,11 @@ layout: theory.njk
 slug: forging-a-path-from-theory-to-theology-review-essay-matt-waggoner
 tags:
   - theoryPosts
+  - theology
+  - theory
+  - political
+  - radical
+  - politics
 ---
 
 **Blanton, Ward.  Crockett, Clayton.  Robbins, Jeffrey.  Vahanian, Noëlle.    *An Insurrectionist Manifesto: Four New Gospels for a Radical Politics* (Insurrections: Critical Studies in Religion, Politics, and Culture).   New York: Columbia University Press, 2016.  ISBN: 0231176236.  Hardcover, paperback, e-book.**

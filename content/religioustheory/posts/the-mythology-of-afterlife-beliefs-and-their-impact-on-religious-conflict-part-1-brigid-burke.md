@@ -17,6 +17,11 @@ slug: >-
   the-mythology-of-afterlife-beliefs-and-their-impact-on-religious-conflict-part-1-brigid-burke
 tags:
   - theoryPosts
+  - ancient
+  - religious
+  - immortality
+  - conception
+  - punishment
 ---
 
 ## The following is the first installment of a two-part series.

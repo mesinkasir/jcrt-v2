@@ -10,6 +10,11 @@ layout: theory.njk
 slug: review-mysticism-as-language-game-adam-loch
 tags:
   - theoryPosts
+  - mysticism
+  - propositional
+  - religion
+  - egocentricity
+  - different
 ---
 
 **Tugendhat, Ernst. *Egocentricity and Mysticism: An Anthropological Study.*  Translated by Alexei Procyshyn and Mario Wenning.  New York: Columbia University Press, 2016. ISBN-10: 0231169124.  Hardcover, e-book.  200 pages.**

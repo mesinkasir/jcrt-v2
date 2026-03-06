@@ -11,6 +11,11 @@ layout: theory.njk
 slug: sikhs-as-subalterns-voice-inequality-and-power-part-3-nirvikar-singh
 tags:
   - theoryPosts
+  - tradition
+  - history
+  - religious
+  - religion
+  - social
 ---
 
 *The following is the third installment of a three part series. The first can be found [here]( /01/10/sikhs-as-subalterns-voice-inequality-and-power/), the second [here]( /01/26/sikhs-as-subalterns-voice-inequality-and-power-part-2-nirvikar-singh/). It is [published](https://jcrt.org/archives/22.2/Singh.pdf) as a catalogued .PDF in article in the latest issue of the* Journal for Cultural and Religious Theory ([22.2](https://jcrt.org/archives/22.2/)).

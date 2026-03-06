@@ -15,6 +15,11 @@ layout: theory.njk
 slug: the-image-of-god-and-our-vocation-of-the-soil-part-2-mick-pope
 tags:
   - theoryPosts
+  - creation
+  - hence
+  - vocation
+  - environmental
+  - sanctuary
 ---
 
 *The article is published in two installments*. *The first can be found [here]( /03/the-image-of-god-and-our-vocation-of-the-soil-mike-pope/).*

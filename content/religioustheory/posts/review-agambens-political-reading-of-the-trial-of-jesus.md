@@ -10,6 +10,11 @@ layout: theory.njk
 slug: review-agambens-political-reading-of-the-trial-of-jesus
 tags:
   - theoryPosts
+  - trial
+  - judgment
+  - legal
+  - political
+  - historical
 ---
 
 **Agamben, Giorgio. *Pilate and Jesus* (Meridian: Crossing Aesthetics). Translated by Adam Kotsko. Stanford: Stanford University Press, 2015. ISBN 10: 0804794545 Hardcover, paperback, e-book. 88 pages.**

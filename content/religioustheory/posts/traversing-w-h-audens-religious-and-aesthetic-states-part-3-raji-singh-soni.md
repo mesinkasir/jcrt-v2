@@ -12,6 +12,11 @@ layout: theory.njk
 slug: traversing-w-h-audens-religious-and-aesthetic-states-part-3-raji-singh-soni
 tags:
   - theoryPosts
+  - aesthetic
+  - religious
+  - real
+  - theology
+  - poetic
 ---
 
 *The following is the final installment of a three-part series.  The first one [can be found here]( /07/28/traversing-religious-and-aesthetic-states-in-w-h-audens-for-the-time-being-part-1-raji-singh-soni/), the second one [here]( /04/traversing-w-h-audens-religious-and-aesthetic-states-part-2-raji-singh-soni/).*

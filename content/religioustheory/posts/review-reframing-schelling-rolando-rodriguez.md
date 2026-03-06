@@ -13,6 +13,11 @@ layout: theory.njk
 slug: review-reframing-schelling-rolando-rodriguez
 tags:
   - theoryPosts
+  - symbolic
+  - romantic
+  - philosophical
+  - theology
+  - theory
 ---
 
 **Daniel Whistler,** ***Schelling’s Theory of Symbolic Language: Forming the System of Identity* (Oxford, UK: Oxford University Press, 2013), 261 ppgs + xi**

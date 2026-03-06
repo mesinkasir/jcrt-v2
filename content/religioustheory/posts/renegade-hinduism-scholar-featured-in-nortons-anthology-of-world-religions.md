@@ -12,6 +12,11 @@ layout: theory.njk
 slug: renegade-hinduism-scholar-featured-in-nortons-anthology-of-world-religions
 tags:
   - theoryPosts
+  - religious
+  - hinduism
+  - anthology
+  - religion
+  - spiritual
 ---
 
 The just-released, multi-volume *[Norton Anthology of World Religions](http://books.wwnorton.com/books/the-norton-anthology-of-world-religions/)* is a major project of substance undertaken by a group of world-renowned scholars in comparative religions.   However, what makes it stand out is the contribution of Professor Kancha Ilaiah, who hails from an illiterate s*udra* shepherd family.

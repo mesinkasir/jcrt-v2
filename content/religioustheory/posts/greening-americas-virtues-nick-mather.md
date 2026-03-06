@@ -10,6 +10,11 @@ layout: theory.njk
 slug: greening-americas-virtues-nick-mather
 tags:
   - theoryPosts
+  - environmental
+  - political
+  - moral
+  - republic
+  - ethics
 ---
 
 The United States likes to present itself as a global leader, yet, when it comes to tackling what is arguably the greatest crisis facing humanity, global climate change, we have fallen woefully short of that idea. The nation’s failure to adequately address the climate crisis is in part the product of an American vision of the good life predicated on endless cycles of consumption that drives environmental destruction and contributes to a changing climate.

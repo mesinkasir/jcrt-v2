@@ -14,6 +14,11 @@ layout: theory.njk
 slug: horror-fiction-and-catholic-theology-a-rhetorical-synthesis-gavin-hurley
 tags:
   - theoryPosts
+  - catholic
+  - fiction
+  - theology
+  - catholicism
+  - rhetorical
 ---
 
 ## The following is the first installment of a two-part series.

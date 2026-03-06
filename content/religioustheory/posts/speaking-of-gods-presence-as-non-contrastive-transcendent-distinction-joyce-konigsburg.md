@@ -14,6 +14,11 @@ slug: >-
   speaking-of-gods-presence-as-non-contrastive-transcendent-distinction-joyce-konigsburg
 tags:
   - theoryPosts
+  - presence
+  - transcendence
+  - creation
+  - distinction
+  - immanence
 ---
 
 To speak or not to speak of God is an important yet rather uncomfortable question that participants encounter during interreligious and interdisciplinary dialogue. Several Eastern religions, philosophers, and scientists claim God is either non–existent, absent, or “dead” in relation to the cosmos. Conversely, other faiths believe God’s absolute presence embraces everything.

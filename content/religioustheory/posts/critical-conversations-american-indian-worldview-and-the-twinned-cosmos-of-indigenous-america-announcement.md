@@ -14,6 +14,11 @@ slug: >-
   critical-conversations-american-indian-worldview-and-the-twinned-cosmos-of-indigenous-america-announcement
 tags:
   - theoryPosts
+  - critical
+  - native
+  - theology
+  - identity
+  - politics
 ---
 
 *Participants are invited to join us live in the fifth of a monthly series of “Critical Conversations” (Zoom webinars) with eminent scholars from around the globe.* ***If you are interested in joining us, please contact us by email at*** [***editor.thenewpolis@gmail.com***](mailto:editor.thenewpolis@gmail.com)*. If you have not participated in previous seminars, please provide us with a brief sentence or two explaining your interest in this particular “Critical Conversation”. Or you may simply sign up through the registration link below.*

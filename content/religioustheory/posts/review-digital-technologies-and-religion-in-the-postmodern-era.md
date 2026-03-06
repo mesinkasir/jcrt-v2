@@ -14,6 +14,11 @@ layout: theory.njk
 slug: review-digital-technologies-and-religion-in-the-postmodern-era
 tags:
   - theoryPosts
+  - religion
+  - digital
+  - religious
+  - technology
+  - social
 ---
 
 **Han, Sam. *Technologies of Religion: Spheres of the Sacred in a Post-Secular Modernity*. Routledge Research in Information Technology and Society 19. New York: Routledge, 2016.  **ISBN-10:** 1138855863.  Hardback, e-book.  142 pages.  

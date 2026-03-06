@@ -10,6 +10,11 @@ layout: theory.njk
 slug: sikh-environmental-ethics-theory-and-praxis-part-2-harpreet-kaur
 tags:
   - theoryPosts
+  - environmental
+  - spiritual
+  - saryal
+  - community
+  - justice
 ---
 
 *The following is the second installment of a two-part series.* *The first can be found [here]( /07/sikh-environmental-ethics-theory-and-praxis-part-1-harpreet-kaur/)*.

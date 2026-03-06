@@ -10,6 +10,11 @@ layout: theory.njk
 slug: metaphysical-protestantism-a-comparative-literary-ecology-zane-johnson
 tags:
   - theoryPosts
+  - metaphysical
+  - renaissance
+  - religion
+  - religious
+  - environmental
 ---
 
 The influence of religions on human attitudes toward the non-human, whether beneficent or deleterious, has been the subject of serious scholarly debate since at least the publication of Lynn White Jr.’s important essay, “The Historical Roots of Our Ecological Crisis”[^1] in the 1960s. This essay issued a near-wholesale condemnation of western Christianity for providing the fallow ground upon which the western world would cultivate its abuse of the non-human. Some have looked to the early modern period to corroborate this, finding supporting evidence from the late Middle Ages to the Enlightenment and sometimes a brief but potent organic worldview in the humanism of the 16th and early 17th centuries.[^2]

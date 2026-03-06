@@ -13,6 +13,11 @@ slug: >-
   bushwhacking-derrida-perception-context-of-context-the-hunter-and-the-hunted-gary-bedford
 tags:
   - theoryPosts
+  - perception
+  - textual
+  - ontology
+  - critique
+  - difference
 ---
 
 After Derrida, how can philosophy continue to think critically, and for our task here, *ontologically2*…? Can a critique of the context of perception via its textual traces render insight into the presumed meta-context of perception itself, of how we perceive our world? What occurs when perception, or its textual thought, *defer?* Is the question of the “nature of being,” or ontology, merely a metaphysic, or can an internal critique of perception render a revised working “order” of the context of perception and its textual thought? If so, where does that hunt lead us?

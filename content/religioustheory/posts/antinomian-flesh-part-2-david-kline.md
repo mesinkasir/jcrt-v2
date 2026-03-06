@@ -11,6 +11,11 @@ layout: theory.njk
 slug: antinomian-flesh-part-2-david-kline
 tags:
   - theoryPosts
+  - racial
+  - political
+  - economic
+  - colonial
+  - biopolitical
 ---
 
 *The following is the second of a three-part series. The first can be found* [*here*]( /19/antinomian-flesh-part-1-david-kline/)*.*

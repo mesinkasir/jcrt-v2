@@ -17,6 +17,11 @@ slug: >-
   from-holistic-to-in-between-theology-the-ethiopian-evangelical-church-mekane-yesus
 tags:
   - theoryPosts
+  - evangelical
+  - movement
+  - mission
+  - theological
+  - theology
 ---
 
 ## The following is the first of a three-part series.

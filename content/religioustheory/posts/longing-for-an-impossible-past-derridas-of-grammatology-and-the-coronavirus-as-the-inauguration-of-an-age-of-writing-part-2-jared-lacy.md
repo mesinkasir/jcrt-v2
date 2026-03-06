@@ -15,6 +15,11 @@ slug: >-
   longing-for-an-impossible-past-derridas-of-grammatology-and-the-coronavirus-as-the-inauguration-of-an-age-of-writing-part-2-jared-lacy
 tags:
   - theoryPosts
+  - presence
+  - grammatology
+  - berlant
+  - supplement
+  - tertiary
 ---
 
 *The following is the second of a two-part series. The first can be found [here.]( /17/longing-for-an-impossible-past-derridas-of-grammatology-and-the-coronavirus-as-the-inauguration-of-an-age-of-writing-part-1-jared-lacy/)*

@@ -12,6 +12,11 @@ slug: >-
   review-three-agambens-on-display-the-metaphysical-political-and-literary-components-of-agambens-philosophical-lineage-sj-cowan
 tags:
   - theoryPosts
+  - philosophical
+  - philosophy
+  - literary
+  - political
+  - sovereignty
 ---
 
 ***Agamben’s Philosophical Lineage***. Edited by Adam Kotsko and Carlo Salzani. Edinburgh: Edinburgh University Press, 2017. ISBN-10: 1474423647. Hardcover, Paperback. 352 pages.**

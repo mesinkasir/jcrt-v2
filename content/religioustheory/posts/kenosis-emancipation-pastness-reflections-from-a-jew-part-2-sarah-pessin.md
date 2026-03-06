@@ -12,6 +12,11 @@ layout: theory.njk
 slug: kenosis-emancipation-pastness-reflections-from-a-jew-part-2-sarah-pessin
 tags:
   - theoryPosts
+  - christianity
+  - liberalism
+  - pastness
+  - justice
+  - critical
 ---
 
 Emphasized in a temporalized modality, and bringing together elements of our phenomenological and political reflections above, we may specifically unpack the hegemony of White Christianity as a blow against pastness: Where pastness signals the facts and facticity of a fettered social and historical situation (with parameters imposed from outside, a need to escape those parameters felt on the inside, and all-in-all a lived limit to freedom and presence), White Christian hegemony signals at the very worst the desire and at the very least the ability to live unfettered by chains of the past.

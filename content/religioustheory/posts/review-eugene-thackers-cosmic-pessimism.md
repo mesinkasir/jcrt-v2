@@ -11,6 +11,11 @@ layout: theory.njk
 slug: review-eugene-thackers-cosmic-pessimism
 tags:
   - theoryPosts
+  - pessimism
+  - philosophy
+  - cosmic
+  - religion
+  - futility
 ---
 
  **Thacker, Eugene. *Cosmic Pessimism*. Minneapolis: Univocal Publishing, 2015. ISBN-10: 193756147X. E-book, paperback. 55 pages.**

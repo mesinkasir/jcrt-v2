@@ -12,6 +12,11 @@ layout: theory.njk
 slug: kenosis-emancipation-pastness-reflections-from-a-jew-part-1-sarah-pessin
 tags:
   - theoryPosts
+  - subjectivity
+  - christianity
+  - phenomenological
+  - relation
+  - pastness
 ---
 
 *The following is the first of a two-part installment.  This article can also be [downloaded in PDF format](https://jcrt.org/archives/18.2/Pessin.pdf) from the Spring 2019 issue (Vol. 18, No. 2) of the J*ournal for Cultural and Religious Theory.

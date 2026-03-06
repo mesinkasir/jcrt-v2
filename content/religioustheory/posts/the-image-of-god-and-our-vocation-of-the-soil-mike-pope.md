@@ -10,6 +10,11 @@ layout: theory.njk
 slug: the-image-of-god-and-our-vocation-of-the-soil-mike-pope
 tags:
   - theoryPosts
+  - creation
+  - agricultural
+  - hence
+  - environmental
+  - holiness
 ---
 
 ## The article is published in two installments.

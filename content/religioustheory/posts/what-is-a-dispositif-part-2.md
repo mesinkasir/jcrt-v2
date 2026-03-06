@@ -17,6 +17,11 @@ layout: theory.njk
 slug: what-is-a-dispositif-part-2
 tags:
   - theoryPosts
+  - mechanism
+  - organism
+  - function
+  - tactics
+  - politics
 ---
 
 *The following article by internationally known theory scholar Gregg Lambert is the second of a two-part series.  The first part was published on July 11, 2016 and can be found [here]( /11/what-is-a-dispositif-part-1/).  

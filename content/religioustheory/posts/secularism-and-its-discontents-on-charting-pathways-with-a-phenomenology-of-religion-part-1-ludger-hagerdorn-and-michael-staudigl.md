@@ -15,6 +15,11 @@ slug: >-
   secularism-and-its-discontents-on-charting-pathways-with-a-phenomenology-of-religion-part-1-ludger-hagerdorn-and-michael-staudigl
 tags:
   - theoryPosts
+  - religion
+  - religious
+  - social
+  - globalization
+  - phenomenology
 ---
 
 **The following is the introductory article for the [Spring 2018 issue (Vol. 17, No. 2)](https://jcrt.org/archives/17.2/) of the *[Journal for Cultural and Religious Theory](https://jcrt.org).*  It is published in two installments.  The whole .pdf version can be found [here](https://jcrt.org/archives/17.2/Hagedorn%20and%20Staudigl.pdf).  The article was conceived and written with the generous support of two research grants from the [Austrian Science Fund (FWF)](https://www.fwf.ac.at/en/). It was conceived in framework of the project ‘Religion beyond Myth and Enlightenment’ \[grant number P 23255\], and concluded in the project ‘The Return of Religion as a Challenge for Thinking’ \[grant number I 2785\].**

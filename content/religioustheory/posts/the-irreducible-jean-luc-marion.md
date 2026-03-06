@@ -13,6 +13,11 @@ layout: theory.njk
 slug: the-irreducible-jean-luc-marion
 tags:
   - theoryPosts
+  - existence
+  - question
+  - impossibility
+  - essence
+  - statement
 ---
 
 ## Translated by Jason Alvis

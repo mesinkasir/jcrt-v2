@@ -19,6 +19,11 @@ slug: >-
   the-critique-of-theism-kant-hegel-feuerbach-nietzsche-lecture-2-johannes-zachhuber
 tags:
   - theoryPosts
+  - kant
+  - theology
+  - religion
+  - theological
+  - critique
 ---
 
 *The following is the second lecture in an eight-lecture series.   The first can be found [here.]( /05/12/thinking-about-god-in-a-pluralistic-world-the-challenge-of-modern-theology-lecture-1-johannes-zuchaber/)*

@@ -15,6 +15,11 @@ slug: >-
   john-the-possibilizer-the-promise-of-a-kearnian-baptismal-hermeneutic-part-ii-eric-trozzo
 tags:
   - theoryPosts
+  - baptism
+  - possibility
+  - transfiguration
+  - hermeneutic
+  - wilderness
 ---
 
 *The following is the second part in a two-part installment. The first  part can be found [here]( /21/john-the-possibilizer-the-promise-of-a-kearnian-baptismal-hermeneutic-part-i-eric-trozzo/).*

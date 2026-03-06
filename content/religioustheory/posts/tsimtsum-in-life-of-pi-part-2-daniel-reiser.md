@@ -11,6 +11,11 @@ layout: theory.njk
 slug: tsimtsum-in-life-of-pi-part-2-daniel-reiser
 tags:
   - theoryPosts
+  - absence
+  - experience
+  - story
+  - existence
+  - theological
 ---
 
 *The following is the second of a four-part series. The first can be found* [*here*]( /11/25/tsimtsum-in-life-of-pi-part-1-daniel-reiser/)*.*

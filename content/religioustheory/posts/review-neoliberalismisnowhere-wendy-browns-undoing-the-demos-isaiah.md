@@ -12,6 +12,11 @@ layout: theory.njk
 slug: review-neoliberalismisnowhere-wendy-browns-undoing-the-demos-isaiah
 tags:
   - theoryPosts
+  - neoliberalism
+  - economic
+  - political
+  - neoliberal
+  - social
 ---
 
 **![reagan thatcher](/images/2017/02/reagan-thatcher.jpeg)Brown, Wendy. *Undoing the Demos: Neoliberalism’s Stealth Revolution.* New York: Zone Books, 2015. ISBN-10: 1935408534. Hardcover. 296 pages.** 

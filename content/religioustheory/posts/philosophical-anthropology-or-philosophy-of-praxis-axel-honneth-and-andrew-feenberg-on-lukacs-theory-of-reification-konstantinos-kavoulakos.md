@@ -16,6 +16,11 @@ slug: >-
   philosophical-anthropology-or-philosophy-of-praxis-axel-honneth-and-andrew-feenberg-on-lukacs-theory-of-reification-konstantinos-kavoulakos
 tags:
   - theoryPosts
+  - reification
+  - social
+  - philosophy
+  - theory
+  - praxis
 ---
 
 Axel Honneth’s [*Reification. A New Look at an Old Idea*](https://books.google.com/books?id=TYGrnFL737UC&printsec=frontcover&dq=Reification.+A+New+Look+at+an+Old+Idea&hl=en&sa=X&ved=0ahUKEwjKtdCB1dbSAhXqhlQKHUIDA-8Q6AEIHDAA#v=onepage&q=Reification.%20A%20New%20Look%20at%20an%20Old%20Idea&f=false) (2008) and [Andrew Feenberg’s *Philosophy of Praxis*](https://books.google.com/books?id=KcRNBAAAQBAJ&printsec=frontcover&dq=feenberg+philosophy+of+praxis&hl=en&sa=X&ved=0ahUKEwii-9uU1dbSAhVJiVQKHat5Du4Q6AEIHDAA#v=onepage&q=feenberg%20philosophy%20of%20praxis&f=false) (2014) represent two recent publications, which give a clear indication of the revived theoretical interest in a classical concept of critical theory. It is the concept of reification as was shaped by Georg Lukács in his legendary book [*History and Class Consciousness*](https://books.google.com/books?id=SfcylisIu4gC&printsec=frontcover&dq=Lukacs+history+and+class+consciousness&hl=en&sa=X&ved=0ahUKEwjG7dSv1dbSAhXJgVQKHe6LBO8Q6AEIHDAA#v=onepage&q=Lukacs%20history%20and%20class%20consciousness&f=false) (1923), to whose analyses both theorists refer.

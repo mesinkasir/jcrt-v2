@@ -11,6 +11,11 @@ layout: theory.njk
 slug: trauma-in-emmanuel-levinas-writing-body-part-1-magdalena-sedmak
 tags:
   - theoryPosts
+  - trauma
+  - otherness
+  - relation
+  - ethics
+  - totality
 ---
 
 *The following is the first of a two part series. [The entire article](https://jcrt.org/archives/22.1/Sedmak.pdf) appears in Issue 22.1 of the* Journal for Cultural and Religious Theor*y.*

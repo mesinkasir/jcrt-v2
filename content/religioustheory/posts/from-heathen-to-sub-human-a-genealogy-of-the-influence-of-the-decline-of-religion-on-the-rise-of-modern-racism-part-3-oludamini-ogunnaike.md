@@ -14,6 +14,11 @@ slug: >-
   from-heathen-to-sub-human-a-genealogy-of-the-influence-of-the-decline-of-religion-on-the-rise-of-modern-racism-part-3-oludamini-ogunnaike
 tags:
   - theoryPosts
+  - enlightenment
+  - racism
+  - racial
+  - humanity
+  - kant
 ---
 
 *The following is the third part of an article in three installments that initially appeared in July 2016 in Open Theology 2:2016 785-203*.  *It is republished here with the permission of the author.  The first installment can be [accessed here]( /09/19/from-heathen-to-sub-human-a-genealogy-of-the-influence-of-the-decline-of-religion-on-the-rise-of-modern-racism-part-1-oludamini-ogunnaike/),* the second installment [here]( /09/27/from-heathen-to-sub-human-a-genealogy-of-the-influence-of-the-decline-of-religion-on-the-rise-of-modern-racism-part-2-oludamini-ogunnaike/).

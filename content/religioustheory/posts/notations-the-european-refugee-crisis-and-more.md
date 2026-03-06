@@ -21,6 +21,8 @@ layout: theory.njk
 slug: notations-the-european-refugee-crisis-and-more
 tags:
   - theoryPosts
+  - religious
+  - theory
 ---
 
 ![951986_stock-photo-music-notes-on-old-paper-sheet-to-use-for-the-background](/images/2016/02/951986_stock-photo-music-notes-on-old-paper-sheet-to-use-for-the-background-2-300x184.jpg)In addition to reviews and commentaries, the new JCRT feature “religious theory” ([jcrt.org/religioustheory]( /)), updated regularly, will publish in an ongoing sequence short analysis or reflections that respond to certain burning issues or questions of the day, or at least those issues or questions where there are hot coals or embers.  For more information, go to [https://jcrt.org/religioustheory/notations/]( /2016/03/03/notations-agambens-homo-sacer-refugees-and-the-crisis-of-european-values/).

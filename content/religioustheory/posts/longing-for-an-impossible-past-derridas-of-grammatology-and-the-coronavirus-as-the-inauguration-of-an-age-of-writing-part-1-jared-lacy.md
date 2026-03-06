@@ -15,6 +15,11 @@ slug: >-
   longing-for-an-impossible-past-derridas-of-grammatology-and-the-coronavirus-as-the-inauguration-of-an-age-of-writing-part-1-jared-lacy
 tags:
   - theoryPosts
+  - grammatology
+  - presence
+  - religioustheory
+  - representation
+  - social
 ---
 
 ## The following is the first installment of a two-part series.

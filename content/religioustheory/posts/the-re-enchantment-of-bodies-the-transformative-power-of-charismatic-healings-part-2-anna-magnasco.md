@@ -14,6 +14,11 @@ slug: >-
   the-re-enchantment-of-bodies-the-transformative-power-of-charismatic-healings-part-2-anna-magnasco
 tags:
   - theoryPosts
+  - charismatic
+  - pentecostal
+  - religious
+  - spiritual
+  - therapeutic
 ---
 
 *The following is the first of a two-part series. The first installment can be found [here]( /11/28/the-re-enchantment-of-bodies-the-transformative-power-of-charismatic-healings-part-1-anna-magnasco/). It was originally published in issue [22.1](https://jcrt.org/archives/22.1/) of the Journal for Cultural and Religious Studies*.

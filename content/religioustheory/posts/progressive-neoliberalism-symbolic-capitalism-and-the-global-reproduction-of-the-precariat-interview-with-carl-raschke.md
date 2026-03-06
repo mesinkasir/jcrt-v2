@@ -13,6 +13,11 @@ slug: >-
   progressive-neoliberalism-symbolic-capitalism-and-the-global-reproduction-of-the-precariat-interview-with-carl-raschke
 tags:
   - theoryPosts
+  - neoliberalism
+  - capitalism
+  - political
+  - progressive
+  - economic
 ---
 
 **Raschke, Carl.  *[Neoliberalism and Political Theology: From Kant to Identity Politics](https://books.google.com/books?id=uCTBwgEACAAJ&dq=neoliberalism+and+political+theology&hl=en&newbks=1&newbks_redir=0&sa=X&ved=2ahUKEwj4mPvmiPTlAhVG4qwKHaqYAhgQ6AEwAXoECAIQAg).*  Edinburgh: Edinburgh University Press, 2019.  ISBN-13: 978-1474454551.**

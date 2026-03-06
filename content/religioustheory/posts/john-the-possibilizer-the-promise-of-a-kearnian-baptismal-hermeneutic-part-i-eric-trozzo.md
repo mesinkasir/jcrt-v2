@@ -16,6 +16,11 @@ slug: >-
   john-the-possibilizer-the-promise-of-a-kearnian-baptismal-hermeneutic-part-i-eric-trozzo
 tags:
   - theoryPosts
+  - possibility
+  - transfiguration
+  - hermeneutic
+  - ethical
+  - theological
 ---
 
 ## The following is the first installment of a two-part series.

@@ -15,6 +15,11 @@ slug: >-
   jonathan-edwards-and-the-vegan-elect-an-unconventional-calvinist-reading-part-1
 tags:
   - theoryPosts
+  - religious
+  - conversion
+  - religion
+  - cultural
+  - spiritual
 ---
 
 ## The following is the first installment of a two-part series.

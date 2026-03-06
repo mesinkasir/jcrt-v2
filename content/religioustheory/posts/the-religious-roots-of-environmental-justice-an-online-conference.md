@@ -11,6 +11,11 @@ layout: theory.njk
 slug: the-religious-roots-of-environmental-justice-an-online-conference
 tags:
   - theoryPosts
+  - theology
+  - justice
+  - environmental
+  - religious
+  - ecological
 ---
 
 #### **Sponsored by** ***[The Journal for Cultural and Religious Theory](https://jcrt.org)*** **and** ***[The New Polis](http://thenewpolis.com/)*** **in co-operation with the University of Denver**

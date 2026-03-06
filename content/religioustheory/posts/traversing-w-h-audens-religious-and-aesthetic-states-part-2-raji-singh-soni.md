@@ -12,6 +12,11 @@ layout: theory.njk
 slug: traversing-w-h-audens-religious-and-aesthetic-states-part-2-raji-singh-soni
 tags:
   - theoryPosts
+  - aesthetic
+  - religious
+  - kant
+  - ethical
+  - secular
 ---
 
 *The following is the second installment of a three-part series.  The first one [can be found here]( /07/28/traversing-religious-and-aesthetic-states-in-w-h-audens-for-the-time-being-part-1-raji-singh-soni/).*

@@ -17,6 +17,11 @@ slug: >-
   the-one-is-not-on-the-fate-of-unity-in-post-metaphysical-philosophy-jussi-backman
 tags:
   - theoryPosts
+  - unity
+  - philosophy
+  - metaphysics
+  - metaphysical
+  - multiplicity
 ---
 
 **A Turkish translation of a version of this essay has been published as “Bir, bir şey değildir: post-metafizik düşüncede birlik ve çokluğun akıbeti,” trans. Mustafa Yalçınkaya, *Sabah Ülkesi: Üç aylık kültür-sanat ve felsefe dergisi*, no. 51, Nisan 2017, 16–19. Available online at [http://www.sabahulkesi.com/sayi.php?no=51](http://www.sabahulkesi.com/sayi.php?no=51), retrieved 27 April 2017. The themes of this essay are discussed in more detail, with a special focus on Heidegger, in Jussi Backman, *Complicated Presence: Heidegger and the Postmetaphysical Unity of Being* (Albany, NY: State University of New York Press, 2015).**

@@ -10,6 +10,11 @@ layout: theory.njk
 slug: review-medicinal-religion-aaron-klink
 tags:
   - theoryPosts
+  - religion
+  - clinical
+  - medical
+  - theological
+  - theology
 ---
 
 **Balboni, Michael J. and Peteet, John R. eds. *Spirituality and Religion Within the Culture of Medicine: From Evidence to Practice*. Oxford, UK and New York, NY: Oxford University Press 2017. ISBN 9780190272432  Hardcover. 419 pages.**

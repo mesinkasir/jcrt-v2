@@ -14,6 +14,11 @@ layout: theory.njk
 slug: the-sacred-as-bordering-practice-part-2-anna-maria-edlinger
 tags:
   - theoryPosts
+  - political
+  - democratic
+  - secular
+  - religion
+  - politics
 ---
 
 *The following is the second of a two-part series. The first portion can be found [here.]( /10/25/the-sacred-as-bordering-practice-part-1-anna-maria-edlinger/) It was originally published in issue [22.1](https://jcrt.org/archives/22.1/) of the Journal for Cultural and Religious Studies.*

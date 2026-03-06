@@ -10,6 +10,11 @@ layout: theory.njk
 slug: spinozas-theory-of-religion-stabilized-superstition-ehud-benor
 tags:
   - theoryPosts
+  - religion
+  - superstition
+  - theory
+  - religious
+  - authority
 ---
 
 The best interpretations of Spinoza’s philosophy would lead us to believe that, for Spinoza, religion is superstition. Henry Allison’s account is an excellent example.1 As he proceeds to discuss Spinoza’s views concerning revelation, scripture and religion, the subject matter of the *Tractatus Theologico-Politicus*, Allison writes:

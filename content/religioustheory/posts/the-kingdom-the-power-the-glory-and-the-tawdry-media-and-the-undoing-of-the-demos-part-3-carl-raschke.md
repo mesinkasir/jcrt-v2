@@ -14,6 +14,11 @@ slug: >-
   the-kingdom-the-power-the-glory-and-the-tawdry-media-and-the-undoing-of-the-demos-part-3-carl-raschke
 tags:
   - theoryPosts
+  - social
+  - cultural
+  - theory
+  - desublimation
+  - capitalism
 ---
 
 *This article is the last of three installments. It was originally a paper given at the international conference “The Crisis of Representation” at Melk Conference Center (Stift Melk, Austria) sponsored by the [Religion and Transformation in Contemporary Society Platform at the University of Vienna](http://sowi.univie.ac.at/en/research/research-platforms/religion-and-transformation-in-contemporary-society/) (June 27, 2017). The [first installment can be found here]( /04/the-kingdom-the-power-the-glory-and-the-tawdry-media-and-the-undoing-of-the-demos-part-1-carl-raschke/), the [second one here]( /12/the-kingdom-the-power-the-glory-and-the-tawdry-media-and-the-undoing-of-the-demos-part-2-carl-raschke/).*

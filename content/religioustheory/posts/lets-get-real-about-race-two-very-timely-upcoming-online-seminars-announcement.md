@@ -20,6 +20,11 @@ layout: theory.njk
 slug: lets-get-real-about-race-two-very-timely-upcoming-online-seminars-announcement
 tags:
   - theoryPosts
+  - critical
+  - political
+  - majority
+  - identity
+  - social
 ---
 
 It’s time to get real when we talk these days about race and racism.

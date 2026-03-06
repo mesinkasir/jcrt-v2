@@ -14,6 +14,11 @@ slug: >-
   from-kant-to-holderlin-poetry-and-religion-in-the-wake-of-philosophical-aesthetics-part-3-jakob-deibl-2
 tags:
   - theoryPosts
+  - religion
+  - repetition
+  - philosophical
+  - mediation
+  - necessity
 ---
 
 *The following is the second installment of a three-part series.  The first one can be found [here,]( /04/30/from-kant-to-holderlin-poetry-and-religion-in-the-wake-of-philosophical-aesthetics/) the second one [here]( /07/from-kant-to-holderlin-poetry-and-religion-in-the-wake-of-philosophical-aesthetics-part-3-jakob-deibl/). Translated by Philipp Schlögl.*

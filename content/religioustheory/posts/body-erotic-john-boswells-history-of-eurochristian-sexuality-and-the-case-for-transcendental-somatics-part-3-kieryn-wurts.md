@@ -13,6 +13,11 @@ slug: >-
   body-erotic-john-boswells-history-of-eurochristian-sexuality-and-the-case-for-transcendental-somatics-part-3-kieryn-wurts
 tags:
   - theoryPosts
+  - sexuality
+  - transcendental
+  - sexual
+  - somatics
+  - emotional
 ---
 
 *The following is the last of a three-part series.The first can be found [here]( /04/24/body-erotic-john-boswells-history-of-eurochristian-sexuality-and-the-case-for-transcendental-somatics-part-1-kieryn-wurts/)*, the second [here]( /08/body-erotic-john-boswells-history-of-eurochristian-sexuality-and-the-case-for-transcendental-somatics-part-2-kieryn-wurts/).

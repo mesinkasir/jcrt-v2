@@ -14,6 +14,11 @@ slug: >-
   revolutionary-love-kierkegaards-gift-economy-as-a-religious-corrective-to-the-leveling-of-the-public-sphere-part-2-andrew-ball
 tags:
   - theoryPosts
+  - economy
+  - givenness
+  - relation
+  - revolutionary
+  - kenotic
 ---
 
 *The following is the second insatallment of a three-part series. The first can be found [here]( /16/revolutionary-love-kierkegaards-gift-economy-as-a-religious-corrective-to-the-leveling-of-the-public-sphere-andrew-ball/).*

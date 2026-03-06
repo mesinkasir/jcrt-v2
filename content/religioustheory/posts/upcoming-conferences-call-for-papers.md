@@ -12,6 +12,11 @@ layout: theory.njk
 slug: upcoming-conferences-call-for-papers
 tags:
   - theoryPosts
+  - philosophy
+  - religion
+  - secularism
+  - ethics
+  - political
 ---
 
 **Beyond Habermas?  Critical Theory, Political Theology, and Interreligious Dialogue** 

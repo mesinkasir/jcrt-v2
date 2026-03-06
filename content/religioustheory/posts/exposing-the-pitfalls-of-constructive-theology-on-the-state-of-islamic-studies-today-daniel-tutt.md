@@ -11,6 +11,11 @@ slug: >-
   exposing-the-pitfalls-of-constructive-theology-on-the-state-of-islamic-studies-today-daniel-tutt
 tags:
   - theoryPosts
+  - islamic
+  - scholarship
+  - religion
+  - critical
+  - religious
 ---
 
 **Hughes, Aaron. *Islam and the Tyranny of Authenticity: An Inquiry into Disciplinary Apologetics and Self-Deception.* London: Equinox Publishing, 2016. ISBN-10: 1781792178. Hardcover, paperback. 256 pages.** 

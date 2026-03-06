@@ -13,6 +13,11 @@ slug: >-
   what-black-disabled-bodies-can-teach-us-about-environmental-justice-robert-monson
 tags:
   - theoryPosts
+  - disability
+  - environmental
+  - justice
+  - religious
+  - christianity
 ---
 
 As early as 2014, governmental officials in the city of Flint, Michigan made a series of decisions that would prove to have deleterious effects on the people and environment of Flint. As officials sought to make room in the budget, they decided to switch the city’s water supply to the polluted Flint River without a plan to treat the water appropriately. The fallout from citizens being poisoned has largely impacted the city’s Black population in disastrous ways. In fact, one study has found that: 

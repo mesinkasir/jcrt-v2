@@ -14,6 +14,11 @@ slug: >-
   healing-as-a-multimedia-practice-contemporary-spirituality-in-turkey-part-1-duygu-sendag
 tags:
   - theoryPosts
+  - religious
+  - therapeutic
+  - contemporary
+  - spiritual
+  - religion
 ---
 
 ## The following article is published in three installments.

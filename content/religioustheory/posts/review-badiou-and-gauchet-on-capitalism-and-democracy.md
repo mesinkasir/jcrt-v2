@@ -13,6 +13,11 @@ layout: theory.njk
 slug: review-badiou-and-gauchet-on-capitalism-and-democracy
 tags:
   - theoryPosts
+  - communism
+  - democracy
+  - capitalism
+  - discussion
+  - globalization
 ---
 
 **Badiou, Alain and Gauchet, Marcel.   [*What Is To Be Done?: A Dialogue on Communism, Capitalism, and the Future of Democracy*](https://books.google.com/books?id=yB98CwAAQBAJ&printsec=frontcover&dq=badiou+what+is+to+be+done&hl=en&sa=X&ved=0ahUKEwjSqoW8udXMAhWMKiYKHV4OBpwQ6AEIHTAA#v=onepage&q=badiou%20what%20is%20to%20be%20done&f=false). Translated by Susan Spitzer.  Cambridge, UK: Polity Press, 2016.  **ISBN:** 1509501703.  Hardback, paperback, e-book, 168 pages.  

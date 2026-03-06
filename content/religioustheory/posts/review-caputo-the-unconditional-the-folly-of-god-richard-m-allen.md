@@ -10,6 +10,11 @@ layout: theory.njk
 slug: review-caputo-the-unconditional-the-folly-of-god-richard-m-allen
 tags:
   - theoryPosts
+  - theology
+  - unconditional
+  - event
+  - weakness
+  - radical
 ---
 
 **Caputo, John D. *The Folly of God: A Theology of the Unconditional*. Salem, OR: Polebridge Press, 2016. ISBN-10: 1598151711. Paperback, e-book. 148 pages.**

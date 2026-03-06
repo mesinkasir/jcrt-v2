@@ -13,6 +13,11 @@ slug: >-
   teach-me-to-do-whats-right-faith-hope-and-love-as-post-religious-virtues-part-2-a-g-holdier
 tags:
   - theoryPosts
+  - theological
+  - perceptual
+  - post-religious
+  - philosophy
+  - absence
 ---
 
 *The following is the second of a two-part series. The first can be found [here.]( /08/teach-me-to-do-whats-right-faith-hope-and-love-as-post-religious-virtues-part-1-a-g-holdier/)*

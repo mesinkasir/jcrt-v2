@@ -13,6 +13,11 @@ layout: theory.njk
 slug: review-new-trends-in-the-theory-and-methods-for-studying-religion-david-kim
 tags:
   - theoryPosts
+  - religion
+  - theory
+  - religious
+  - historical
+  - social
 ---
 
 Kovács, Ábrahám, and James L. Cox, Editors. *New Trends and Recurring Issues in the Study of Religion: Context and Overview*. Budapest: L’Harmattan, 2014. ISBN-10: 9632368509 Hardcover, e-book. 249 pages.

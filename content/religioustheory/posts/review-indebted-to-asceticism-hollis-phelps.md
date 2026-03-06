@@ -10,6 +10,11 @@ layout: theory.njk
 slug: review-indebted-to-asceticism-hollis-phelps
 tags:
   - theoryPosts
+  - asceticism
+  - capitalism
+  - economy
+  - christianity
+  - theological
 ---
 
 ![](https://theeconomiccollapseblog.com/wp-content/uploads/2017/01/Dollar-Spiral-Public-Domain-460x296.jpg)**Stimilli, Elettra.** ***The Debt of the Living: Ascesis and Capitalism*. Translated by Arianna Bove. Albany: SUNY Press, 2017. ISBN 9781438464152. Hardcover, xvi + 199 pages.**

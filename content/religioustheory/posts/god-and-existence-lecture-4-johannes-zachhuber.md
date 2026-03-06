@@ -11,6 +11,11 @@ layout: theory.njk
 slug: god-and-existence-lecture-4-johannes-zachhuber
 tags:
   - theoryPosts
+  - theology
+  - existence
+  - philosophy
+  - theological
+  - fundamental
 ---
 
 *The following is the fourth lecture in an eight-part lecture series.  Readers can also refer to lectures [one]( /05/12/thinking-about-god-in-a-pluralistic-world-the-challenge-of-modern-theology-lecture-1-johannes-zuchaber/), [two]( /06/09/the-critique-of-theism-kant-hegel-feuerbach-nietzsche-lecture-2-johannes-zachhuber/), and [three]( /07/26/negative-theology-and-its-problems-barth-and-marion-lecture-3-johannes-zachhuber/).*

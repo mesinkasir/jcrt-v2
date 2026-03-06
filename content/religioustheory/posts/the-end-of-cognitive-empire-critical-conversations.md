@@ -17,6 +17,11 @@ layout: theory.njk
 slug: the-end-of-cognitive-empire-critical-conversations
 tags:
   - theoryPosts
+  - want
+  - question
+  - political
+  - kant
+  - eurocentric
 ---
 
 The following is the video and transcript of the first of “Critical Conversations”, a monthly Zoom seminar with advance registration sponsored by *The New Polis* and Whitestone Publications and involving international scholars. The seminar took place on August 18, 2020. It is republished here.

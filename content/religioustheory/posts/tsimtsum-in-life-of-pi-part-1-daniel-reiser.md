@@ -10,6 +10,11 @@ layout: theory.njk
 slug: tsimtsum-in-life-of-pi-part-1-daniel-reiser
 tags:
   - theoryPosts
+  - story
+  - hasidic
+  - kabbalistic
+  - essence
+  - hasidism
 ---
 
 ## The following is the first of a four-part series.

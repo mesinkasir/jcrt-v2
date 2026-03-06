@@ -14,6 +14,11 @@ slug: >-
   critical-conversations-american-indian-worldview-and-the-twinned-cosmos-of-indigenous-america-transcript-barbara-alice-mann-onondawaga-bear-clan-and-tink-tinker-wazhazhe-osage-nation
 tags:
   - theoryPosts
+  - want
+  - important
+  - government
+  - question
+  - balance
 ---
 
 *The following is the video and transcript of the fifth “Critical Conversation”, a monthly Zoom seminar with advance registration sponsored by  Whitestone Publications and involving indigenous and international scholars. The seminar took place on December 8, 2020*.

@@ -17,6 +17,11 @@ slug: >-
   mischief-idolatry-and-the-demonic-toward-a-hermeneutic-of-play-part-i-kevin-lewis
 tags:
   - theoryPosts
+  - religious
+  - hermeneutic
+  - demonic
+  - biblical
+  - scriptural
 ---
 
 ## The following is the first part in a two-part installment.

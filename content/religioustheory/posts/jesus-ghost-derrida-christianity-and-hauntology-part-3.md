@@ -14,6 +14,11 @@ layout: theory.njk
 slug: jesus-ghost-derrida-christianity-and-hauntology-part-3
 tags:
   - theoryPosts
+  - plasticity
+  - deconstruction
+  - theological
+  - subject
+  - subjectivity
 ---
 
 *The following is Part 3 of a 3-part series by Victor Taylor on how one might reflect theologically on Jesus and the Christian message from a Derridean perspective that departs significantly from the work of John D. Caputo. [The first part was published]( /04/27/jesus-ghost-derrida-christianity-and-hauntology-part-1/) in* Religious Theory *on April 27, 2016.  The [second part was published]( /06/jesus-ghost-derrida-christianity-and-hauntology-part-2/) on May 6 and considers the meaning of the term “heritage.”  This final section explores what is implied by the concept of “plasticity” as applied to Jesus.*

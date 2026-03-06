@@ -11,6 +11,11 @@ layout: theory.njk
 slug: review-the-evangelicals-the-struggle-to-shape-america-rebekah-gordon
 tags:
   - theoryPosts
+  - evangelical
+  - movement
+  - religious
+  - evangelicalism
+  - history
 ---
 
 **Fitzgerald, Francis. *The Evangelicals: The Struggle to Shape America.* New York City, New York: Simon & Schuster, 2017. ISBN-10: 1439131333. Hardcover. 637 pages.**

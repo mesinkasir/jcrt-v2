@@ -15,6 +15,11 @@ slug: >-
   the-place-of-das-ding-psychoanalysis-phenomenology-religion-part-2-john-panteleimon-manoussakis
 tags:
   - theoryPosts
+  - phenomenology
+  - psychoanalysis
+  - relation
+  - story
+  - philosophy
 ---
 
 *The following is the second installment of a two-part series.  The first part can be found [here]( /13/the-place-of-das-ding-psychoanalysis-phenomenology-religion-part-1-john-panteleimon-manoussakis/).*

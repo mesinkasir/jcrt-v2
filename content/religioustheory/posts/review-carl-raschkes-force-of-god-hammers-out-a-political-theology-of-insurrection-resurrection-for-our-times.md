@@ -14,6 +14,11 @@ slug: >-
   review-carl-raschkes-force-of-god-hammers-out-a-political-theology-of-insurrection-resurrection-for-our-times
 tags:
   - theoryPosts
+  - political
+  - theology
+  - liberal
+  - insurrection
+  - democracy
 ---
 
 **Ra***schke, Carl.   [*Force of God: Political Theology and the Crisis of Liberal Democracy.*](http://cup.columbia.edu/book/force-of-god/9780231173841)  New York: Columbia University Press, 2015.  ISBN-978-0231-17384-1.  Hardback, e-book.  202 pages.**

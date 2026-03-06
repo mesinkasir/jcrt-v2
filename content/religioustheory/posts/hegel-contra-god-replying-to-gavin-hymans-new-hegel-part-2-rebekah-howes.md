@@ -14,6 +14,11 @@ layout: theory.njk
 slug: hegel-contra-god-replying-to-gavin-hymans-new-hegel-part-2-rebekah-howes
 tags:
   - theoryPosts
+  - logic
+  - necessity
+  - political
+  - ethical
+  - philosophy
 ---
 
 *The following is the second of a three-part series. The first can be found [here]( /12/hegel-contra-god-replying-to-gavin-hymans-new-hegel-part-1-rebekah-howes/). The earlier article by Prof. Hyman to which the author replies can be found* [*here*]( /2019/06/08/the-new-hegel-and-the-question-of-god-part-3-gavin-hyman/)*.*

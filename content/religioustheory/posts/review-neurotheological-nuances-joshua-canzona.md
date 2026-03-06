@@ -12,6 +12,11 @@ layout: theory.njk
 slug: review-neurotheological-nuances-joshua-canzona
 tags:
   - theoryPosts
+  - religion
+  - neurotheology
+  - spirituality
+  - religious
+  - neurotheological
 ---
 
 ***Neurotheology: How Science Can Enlighten Us About Spirituality.*** **Newberg, Andrew. New York: Columbia University Press, 2018. ISBN 9780231179041**. **Hardback. 321 pages.**

@@ -13,6 +13,11 @@ layout: theory.njk
 slug: sexual-difference-and-the-vatican-a-lacanian-response-part-1-melissa-conroy
 tags:
   - theoryPosts
+  - sexual
+  - reality
+  - identity
+  - difference
+  - real
 ---
 
 ## The following is the first of a three-part series.
