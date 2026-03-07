@@ -1,5 +1,6 @@
 import fs from "node:fs/promises";
 import path from "node:path";
+import crypto from "node:crypto";
 
 const IMAGE_EXTS = new Set([
 	".avif",
@@ -15,6 +16,7 @@ const IMAGE_EXTS = new Set([
 const PDF_EXTS = new Set([".pdf"]);
 const RIS_EXTS = new Set([".ris"]);
 const CSL_JSON_EXTS = new Set([".json"]);
+const CACHE_PATH = path.join(process.cwd(), ".cache", "assets-index.json");
 
 let serveCache = null;
 
@@ -35,6 +37,44 @@ async function walkFiles(dirAbs) {
 		}
 	}
 	return out;
+}
+
+async function readJsonIfExists(filePath) {
+	try {
+		const raw = await fs.readFile(filePath, "utf8");
+		return JSON.parse(raw);
+	} catch {
+		return null;
+	}
+}
+
+async function writeJson(filePath, value) {
+	await fs.mkdir(path.dirname(filePath), { recursive: true });
+	await fs.writeFile(filePath, `${JSON.stringify(value, null, 2)}\n`, "utf8");
+}
+
+async function fingerprintDirectoryTree(dirAbs) {
+	try {
+		const chunks = [];
+		const walk = async (currentDir) => {
+			const entries = await fs.readdir(currentDir, { withFileTypes: true });
+			entries.sort((a, b) => a.name.localeCompare(b.name));
+			for (const entry of entries) {
+				if (entry.name.startsWith(".")) continue;
+				const full = path.join(currentDir, entry.name);
+				const rel = normalizeSlashes(path.relative(dirAbs, full));
+				const stat = await fs.stat(full);
+				chunks.push(`${entry.isDirectory() ? "d" : "f"}|${rel}|${Math.trunc(stat.mtimeMs)}|${stat.size}`);
+				if (entry.isDirectory()) {
+					await walk(full);
+				}
+			}
+		};
+		await walk(dirAbs);
+		return crypto.createHash("sha256").update(chunks.join("\n")).digest("hex");
+	} catch {
+		return "missing";
+	}
 }
 
 function toAssetList({ baseDir, urlPrefix }, filesAbs) {
@@ -64,6 +104,23 @@ export default async function () {
 		{ baseDir: "public", urlPrefix: "/" },
 		{ baseDir: "content/archives", urlPrefix: "/archives/" },
 	];
+	const fingerprintPieces = await Promise.all(
+		roots.map(async (root) => {
+			const dirAbs = path.join(process.cwd(), root.baseDir);
+			const fp = await fingerprintDirectoryTree(dirAbs);
+			return `${root.baseDir}:${fp}`;
+		})
+	);
+	const fingerprint = crypto
+		.createHash("sha256")
+		.update(fingerprintPieces.join("|"))
+		.digest("hex");
+
+	const cached = await readJsonIfExists(CACHE_PATH);
+	if (cached?.fingerprint === fingerprint && cached?.result) {
+		if (isServeLike) serveCache = cached.result;
+		return cached.result;
+	}
 
 	let images = [];
 	let pdfs = [];
@@ -105,6 +162,7 @@ export default async function () {
 	csljson = dedupeByUrl(csljson).sort((a, b) => a.url.localeCompare(b.url));
 
 	const result = { images, pdfs, ris, csljson };
+	await writeJson(CACHE_PATH, { fingerprint, result });
 	if (isServeLike) {
 		serveCache = result;
 	}

@@ -2,6 +2,7 @@ import { DateTime } from "luxon";
 import { authorSlug, splitAuthors } from "./authorSlug.js";
 
 export default function(eleventyConfig) {
+    const isLeanBuild = Boolean(process.env.LEAN_BUILD);
     // --- Date Filters ---
     eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
         if (!dateObj) return "";
@@ -161,6 +162,7 @@ eleventyConfig.addFilter("hasCategoryTheory", function(post, targetCategory) {
     return Array.isArray(categories) && categories.includes(targetCategory);
 });
   
+if (!isLeanBuild) {
 eleventyConfig.addCollection("issueList", function(collectionApi) {
     const allEntries = collectionApi.getAll();
     const issues = [];
@@ -190,10 +192,9 @@ eleventyConfig.addCollection("onlyIssues", function(collectionApi) {
         return bKey.localeCompare(aKey);
     });
 });
+}
 eleventyConfig.addCollection("archivesSorted", function(collectionApi) {
   const items = collectionApi.getFilteredByGlob("content/archives/**/*.md");
-  
-  console.log(`🔍 Debug: Found ${items.length} files in archives`);
 
   return items.sort((a, b) => {
     const vA = a.data.volume || 0;

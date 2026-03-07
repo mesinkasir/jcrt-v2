@@ -10,7 +10,7 @@ Tags
 </span></h1>
 
 <div class="row p-3">
-{% for tag in collections | getKeys | filterTagList | sortAlphabetically %}
+{% for tag in collections.tagPageList %}
 	{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
 	<div class="col-md-4 col-4 p-1">
 		{% if isLeanBuild %}

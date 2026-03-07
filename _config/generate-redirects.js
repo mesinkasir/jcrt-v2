@@ -14,6 +14,7 @@ const redirectsFile = path.join(siteDir, '_redirects');
 const indexExtensions = ['htm', 'shtml', 'xhtml', 'htmx'];
 const archiveExtensions = ['html', 'htm', 'shtml', 'xhtml', 'htmx'];
 const brokenArchiveWildcardPattern = /^\/archives\/:issue\/\*\.(?:htm|shtml|xhtml|htmx)\s+/;
+const whitespacePattern = /\s/;
 
 async function findIndexFiles(dir, base = '') {
   const files = [];
@@ -35,6 +36,22 @@ async function findIndexFiles(dir, base = '') {
   }
   
   return files;
+}
+
+function hasWhitespace(value) {
+  return whitespacePattern.test(String(value || ''));
+}
+
+function dedupeRules(rules) {
+  const seen = new Set();
+  const deduped = [];
+  for (const rule of rules) {
+    const normalized = String(rule || '').trim();
+    if (!normalized || seen.has(normalized)) continue;
+    seen.add(normalized);
+    deduped.push(normalized);
+  }
+  return deduped;
 }
 
 function extractFrontMatter(raw) {
@@ -130,8 +147,13 @@ async function main() {
     const indexFiles = await findIndexFiles(siteDir);
     const rules = [];
     
+    let skippedWhitespaceRules = 0;
     for (const file of indexFiles) {
       const webBase = file.webPath === '/' ? '/' : `/${file.webPath}/`;
+      if (hasWhitespace(webBase)) {
+        skippedWhitespaceRules += indexExtensions.length;
+        continue;
+      }
       
       for (const ext of indexExtensions) {
         rules.push(`${webBase}index.${ext} ${webBase}index.html 301!`);
@@ -140,10 +162,13 @@ async function main() {
 
     const archiveRedirects = await buildArchiveLegacyRedirects();
     const theoryRedirects = await buildTheoryLegacyRedirects();
-    const allRules = [...baseRules, ...rules, ...archiveRedirects, ...theoryRedirects];
+    const allRules = dedupeRules([...baseRules, ...rules, ...archiveRedirects, ...theoryRedirects]);
     await fs.writeFile(redirectsFile, `${allRules.join('\n')}\n`, 'utf8');
 
     console.log(`✅ Generated ${allRules.length} Netlify redirect rules (${baseRules.length} base rules, ${rules.length} extension redirects, ${archiveRedirects.length} archive legacy redirects, ${theoryRedirects.length} theory legacy redirects)`);
+    if (skippedWhitespaceRules > 0) {
+      console.log(`ℹ️ Skipped ${skippedWhitespaceRules} extension redirects with whitespace in URL paths`);
+    }
   } catch (error) {
     console.error('❌ Error generating Netlify redirects:', error);
     process.exit(1);

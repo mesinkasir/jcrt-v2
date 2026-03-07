@@ -17,10 +17,14 @@ import generateReligiousTheoryCitations from "./_config/generate-religioustheory
 import fs from "node:fs";
 import path from "node:path";
 import os from "node:os";
+import crypto from "node:crypto";
 import { DateTime } from "luxon";
 
 const imageDimensionCache = new Map();
+const resolveImagePathCache = new Map();
 const metadataYamlPath = path.join(process.cwd(), "_data", "metadata.yaml");
+const cacheDirPath = path.join(process.cwd(), ".cache");
+const citationSignaturePath = path.join(cacheDirPath, "citations-input-signatures.json");
 const TIME_ZONE = "America/New_York";
 
 function getSiteUrlFromMetadata() {
@@ -108,13 +112,73 @@ function getImageDimensionsFromPath(filePath) {
 function resolveImagePath(src) {
 	if (!src || typeof src !== "string") return null;
 	const normalized = src.split("?")[0].split("#")[0].trim();
+	if (resolveImagePathCache.has(normalized)) {
+		return resolveImagePathCache.get(normalized);
+	}
 	if (!normalized || /^https?:\/\//i.test(normalized) || normalized.startsWith("data:")) return null;
 	const withoutLeadingSlash = normalized.startsWith("/") ? normalized.slice(1) : normalized;
 	const publicPath = path.join(process.cwd(), "public", withoutLeadingSlash);
-	if (fs.existsSync(publicPath)) return publicPath;
+	if (fs.existsSync(publicPath)) {
+		resolveImagePathCache.set(normalized, publicPath);
+		return publicPath;
+	}
 	const rootPath = path.join(process.cwd(), withoutLeadingSlash);
-	if (fs.existsSync(rootPath)) return rootPath;
+	if (fs.existsSync(rootPath)) {
+		resolveImagePathCache.set(normalized, rootPath);
+		return rootPath;
+	}
+	resolveImagePathCache.set(normalized, null);
 	return null;
+}
+
+function createMemoizedRenderer(renderFn, maxEntries = 2000) {
+	const cache = new Map();
+	return (input) => {
+		const key = String(input || "");
+		if (cache.has(key)) return cache.get(key);
+		const rendered = renderFn(key);
+		cache.set(key, rendered);
+		if (cache.size > maxEntries) cache.clear();
+		return rendered;
+	};
+}
+
+function loadJson(filePath, fallback = {}) {
+	try {
+		return JSON.parse(fs.readFileSync(filePath, "utf8"));
+	} catch {
+		return fallback;
+	}
+}
+
+function saveJson(filePath, value) {
+	fs.mkdirSync(path.dirname(filePath), { recursive: true });
+	fs.writeFileSync(filePath, `${JSON.stringify(value, null, 2)}\n`, "utf8");
+}
+
+function hashForFiles(rootDir, extensions = [".md"]) {
+	if (!fs.existsSync(rootDir)) return "missing";
+	const exts = new Set(extensions.map((ext) => String(ext).toLowerCase()));
+	const files = [];
+	const walk = (dir) => {
+		for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+			if (entry.name.startsWith(".")) continue;
+			const fullPath = path.join(dir, entry.name);
+			if (entry.isDirectory()) {
+				walk(fullPath);
+				continue;
+			}
+			if (!entry.isFile()) continue;
+			const ext = path.extname(entry.name).toLowerCase();
+			if (!exts.has(ext)) continue;
+			const stat = fs.statSync(fullPath);
+			const rel = path.relative(rootDir, fullPath).replace(/\\/g, "/");
+			files.push(`${rel}|${stat.size}|${Math.trunc(stat.mtimeMs)}`);
+		}
+	};
+	walk(rootDir);
+	files.sort((a, b) => a.localeCompare(b));
+	return crypto.createHash("sha256").update(files.join("\n")).digest("hex");
 }
 
 function archiveIssueSortKey(inputPath, url) {
@@ -293,8 +357,26 @@ export default async function (eleventyConfig) {
 		// In serve mode, skip heavyweight pre-build generation to prevent
 		// repeated high-memory rebuild cycles.
 		if (runMode !== "serve" && !isBenchMode) {
-			await generateArchiveCitations(siteBaseUrl);
-			await generateReligiousTheoryCitations(siteBaseUrl);
+			const nextSignatures = {
+				baseUrl: siteBaseUrl,
+				archives: hashForFiles(path.join(process.cwd(), "content", "archives"), [".md"]),
+				religioustheory: hashForFiles(path.join(process.cwd(), "content", "religioustheory", "posts"), [".md"]),
+			};
+			const prevSignatures = loadJson(citationSignaturePath, {});
+			const citationsChanged =
+				prevSignatures.baseUrl !== nextSignatures.baseUrl ||
+				prevSignatures.archives !== nextSignatures.archives ||
+				prevSignatures.religioustheory !== nextSignatures.religioustheory;
+
+			if (citationsChanged) {
+				await generateArchiveCitations(siteBaseUrl);
+				await generateReligiousTheoryCitations(siteBaseUrl);
+				saveJson(citationSignaturePath, nextSignatures);
+			} else {
+				console.log(
+					"[Citations] Skipped generation: no content changes detected in /archives or /religioustheory/posts"
+				);
+			}
 			await ensureFavicons();
 		}
 	});
@@ -413,9 +495,6 @@ export default async function (eleventyConfig) {
 		html: true,
 		breaks: true,
 		linkify: true,
-	});
-	eleventyConfig.addFilter("md", function (content) {
-		return md.render(content);
 	});
 
 	let options = {
@@ -853,10 +932,12 @@ export default async function (eleventyConfig) {
 		breaks: true,
 		linkify: true,
 	});
-	eleventyConfig.addFilter("md", (content) => mdLib.render(content || ""));
+	const renderMd = createMemoizedRenderer((content) => mdLib.render(content || ""));
+	const renderMarkdownify = createMemoizedRenderer((content) => md.render(content));
+	eleventyConfig.addFilter("md", (content) => renderMd(content || ""));
 	eleventyConfig.addFilter("markdownify", (content) => {
 		if (!content) return "";
-		return md.render(String(content));
+		return renderMarkdownify(content);
 	});
 
 	// creativitas code
@@ -914,6 +995,7 @@ export default async function (eleventyConfig) {
 	eleventyConfig.watchIgnores.add("errors.txt");
 	eleventyConfig.ignores.add("_drafts/**");
 	eleventyConfig.ignores.add("submissions/**");
+	eleventyConfig.ignores.add("**/* copy.md");
 
 	eleventyConfig.addShortcode("currentBuildDate", () => {
 		return new Date().toISOString();
