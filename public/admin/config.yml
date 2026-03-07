@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  repo: adamdjbrett/jcrt.org
+  repo: The-Whitestone-Foundation/jcrt-v2
   branch: main
 #  base_url: https://jcrt-auth.adam.workers.dev
 #  auth_endpoint: auth
