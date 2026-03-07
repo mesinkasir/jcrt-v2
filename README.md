@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/738f8dd4-3a98-4ce6-9857-537c268780a8/deploy-status)](https://app.netlify.com/projects/jcrt/deploys)
 # JCRT.ORG
 
 Developed by Adam DJ Brett
