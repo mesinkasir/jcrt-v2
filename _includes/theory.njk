@@ -6,7 +6,7 @@
 
   {% set pageTitle = title or pg.title or post.title or metadata.site.title %}
   {% set pageDesc = description or excerpt or abstract or pg.excerpt or post.excerpt or (content | striptags | trim | truncate(160)) or metadata.site.description %}
-  {% set pageImageRaw = '/img/jcrt-open-graph.png' %}
+  {% set pageImageRaw = '/img/jcrt-open-graph.jpg' %}
   {% set pageImage = pageImageRaw if "http" in pageImageRaw else metadata.url + pageImageRaw %}
   {% set robotsDirective = "index, follow" %}
   {% if robots %}
