@@ -2,6 +2,7 @@
 layout: theory.njk
 title: "Religious Theory Tags"
 permalink: /religioustheory/tags/index.html
+searchIndex: false
 ---
 
 <article class="container-fluid mt-5">
@@ -35,7 +36,11 @@ permalink: /religioustheory/tags/index.html
           {% endfor %}
 
           <li class="mb-2 col-md-3 col-6">
+            {% if isLeanBuild %}
+            <span>#{{ tag }}</span>
+            {% else %}
             <a class="text-decoration-none" href="/religioustheory/tags/{{ tag | slugify }}/">#{{ tag }}</a>
+            {% endif %}
             <span class="text-muted small">({{ count }})</span>
           </li>
         {%- endfor %}

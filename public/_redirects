@@ -1,24 +1,34 @@
 # Legacy archive extension redirects
 /contact.shtml /contact/ 301
 /searchengine.shtml /search/ 301
+/Literaturecfp.pdf / 301
+/bookmarks.shtml /about/ 301
+/booksforreview.shtml /submissions/ 301
+/papers/IJCRT2007222.pdf /archives/ 301
+/papers/* /archives/ 301
+/adv/crockett.splash.8.2.shtml / 301
+/adv/* / 301
 /archives/02.1/intro_reinhard_lupton.shtml /archives/02.1/lupton/ 301
 /archives/01.2/wyschograd_raschke.shtml /archives/01.2/wyschogrod_raschke/ 301
 /archives/01.2/vahanian /archives/01.2/nvahanian/ 301
 /archives/01.2/vahanian/ /archives/01.2/nvahanian/ 301
+/archives/06.3/blanton.pdf /archives/06.1/blanton.pdf 301
+/archives/09.1/Malabou.pdf. /archives/09.1/Malabou.pdf 301
+/archives/18.3/Ruetenik.pdf%C2%A0%C2%B7%20PDF%20file /archives/18.3/Ruetenik.pdf 301
+/archives/15.2/valente2 /archives/15.2/valente/ 301
+/archives/07.2/mdex.shtml /archives/07.2/ 301
 /archives/:issue/index.shtml /archives/:issue/ 301!
 /archives/:issue/index.htm /archives/:issue/ 301!
 /archives/:issue/index.xhtml /archives/:issue/ 301!
 /archives/:issue/index.htmx /archives/:issue/ 301!
-/archives/:issue/*.shtml /archives/:issue/:splat/ 301
-/archives/:issue/*.htm /archives/:issue/:splat/ 301
-/archives/:issue/*.xhtml /archives/:issue/:splat/ 301
-/archives/:issue/*.htmx /archives/:issue/:splat/ 301
 
 # Specific legacy religioustheory typo-slug redirects
 /religioustheory/2016/09/19/from-heathen-to-sub-human-a-genealogy-of-theinfluence-of-the-decline-of-religion-on-the-rise-of-modern-racism-part-1-oludamini-ogunnaike/ /religioustheory/posts/from-heathen-to-sub-human-a-genealogy-of-the-influence-of-the-decline-of-religion-on-the-rise-of-modern-racism-part-1-oludamini-ogunnaike/ 301
 /religioustheory/2019/10/23/review-genealogies-of-mahayana-buddhism-ananda-abeysekara/ /religioustheory/posts/ 301
 /religioustheory/2016/04/27/jesus-ghost-derrida-christianity-and-hauntologypart-1/ /religioustheory/posts/jesus-ghost-derrida-christianity-and-hauntology-part-1/ 301
 /religioustheory/2017/11/01/the-mythology-of-afterlife-beliefs-and-theirimpact-on-religious-conflict-part-1-brigid-burke/ /religioustheory/posts/the-mythology-of-afterlife-beliefs-and-their-impact-on-religious-conflict-part-1-brigid-burke/ 301
+/religioustheory/posts/the-mythology-of-afterlife-beliefsand-their-impact-on-religious-conflict-part-1-brigid-burke/ /religioustheory/posts/the-mythology-of-afterlife-beliefs-and-their-impact-on-religious-conflict-part-1-brigid-burke/ 301
+/religioustheory/submissions/editor.jcrt@gmail.com /religioustheory/submissions/ 301
 /religioustheory/2019/02/28/thinking-with-ones-feet-lacanian-theories-of-textual-engagement-part-3-william-j-urban/ /religioustheory/posts/ 301
 
 

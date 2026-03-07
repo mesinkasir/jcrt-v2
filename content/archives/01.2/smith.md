@@ -11,7 +11,7 @@ year: 2000
 ---
 Smith - Difficult History - JCRT 1.2 
 
-# Difficult History
+## Difficult History
 
 Steven G. Smith  
 Millsaps College

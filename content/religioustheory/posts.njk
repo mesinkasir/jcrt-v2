@@ -63,11 +63,18 @@ permalink: "/religioustheory/posts/{% if pagination.pageNumber > 0 %}page/{{ pag
               {% if post.data.categories %}
               <div class="d-flex flex-wrap gap-1 mb-2">
                 {% for cat in post.data.categories %}
+                {% if isLeanBuild %}
+                <span class="text-primary fw-bold x-small border-end pe-1 me-1" 
+                   style="font-size: 0.7rem; border-color: var(--primary-jcrt) !important;">
+                  {{ cat }}
+                </span>
+                {% else %}
                 <a href="/religioustheory/categories/{{ cat | slugify }}/" 
                    class="text-primary fw-bold text-decoration-none x-small border-end pe-1 me-1" 
                    style="font-size: 0.7rem; border-color: var(--primary-jcrt) !important;">
                   {{ cat }}
                 </a>
+                {% endif %}
                 {% endfor %}
               </div>
               {% endif %}

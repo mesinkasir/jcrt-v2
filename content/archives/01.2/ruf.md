@@ -11,7 +11,7 @@ year: 2000
 ---
 Ruf - Ride of Passage - JCRT 1.2
 
-# The Ride of Passage: The Pursuit of Danger, Trance, and Failure in Mark Twain, Paul Bowles, and Us
+## The Ride of Passage: The Pursuit of Danger, Trance, and Failure in Mark Twain, Paul Bowles, and Us
 
 Frederick J. Ruf  
 Georgetown University

@@ -30,9 +30,15 @@
     <div class="mt-2 mb-3">
         {%- for tag in post.data.tags | filterTagList %}
             {%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+            {% if isLeanBuild %}
+            <span class="badge bg-light text-primary border border-primary me-1" style="font-size: 0.7rem;">
+                #{{ tag }}
+            </span>
+            {% else %}
             <a href="{{ tagUrl }}" class="badge bg-light text-primary border border-primary text-decoration-none me-1" style="font-size: 0.7rem;">
                 #{{ tag }}
             </a>
+            {% endif %}
         {%- endfor %}
     </div>
     {% endif %}

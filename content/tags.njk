@@ -1,5 +1,6 @@
 ---
 layout: base.njk
+searchIndex: false
 ---
 <div class="container-fluid">
 
@@ -12,7 +13,12 @@ Tags
 {% for tag in collections | getKeys | filterTagList | sortAlphabetically %}
 	{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
 	<div class="col-md-4 col-4 p-1">
-		<a class="btn btn-outline-primary p-2" href="{{ tagUrl }}" class="post-tag">{{ tag }}</a></div>
+		{% if isLeanBuild %}
+		<span class="btn btn-outline-primary p-2 disabled">{{ tag }}</span>
+		{% else %}
+		<a class="btn btn-outline-primary p-2" href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>
+		{% endif %}
+	</div>
 {% endfor %}
 </ul>
 

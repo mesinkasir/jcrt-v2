@@ -18,17 +18,19 @@ eleventyExcludeFromCollections: true
 	</url>
 	{% set seen = (seen.push(keywordsIndexPath), seen) %}
 
-	{# One URL per archive keyword page #}
-	{% for keyword in (collections.archiveKeywordTags or []) %}
-		{% set path = "/archives/keywords/" ~ (keyword | slugify) ~ "/" %}
-		{% if path not in seen %}
-			{% set seen = (seen.push(path), seen) %}
-			<url>
-				<loc>{{ (baseUrl ~ path) | xmlEscape | safe }}</loc>
-				{% set keywordPosts = collections.archives | archivePostsByKeyword(keyword) %}
-				{% set newest = keywordPosts | getNewestCollectionItemDate %}
-				{% if newest %}<lastmod>{{ newest | htmlDateString }}</lastmod>{% endif %}
-			</url>
-		{% endif %}
-	{% endfor %}
+	{% if not isLeanBuild %}
+		{# One URL per archive keyword page #}
+		{% for keyword in (collections.archiveKeywordTags or []) %}
+			{% set path = "/archives/keywords/" ~ (keyword | slugify) ~ "/" %}
+			{% if path not in seen %}
+				{% set seen = (seen.push(path), seen) %}
+				<url>
+					<loc>{{ (baseUrl ~ path) | xmlEscape | safe }}</loc>
+					{% set keywordPosts = collections.archives | archivePostsByKeyword(keyword) %}
+					{% set newest = keywordPosts | getNewestCollectionItemDate %}
+					{% if newest %}<lastmod>{{ newest | htmlDateString }}</lastmod>{% endif %}
+				</url>
+			{% endif %}
+		{% endfor %}
+	{% endif %}
 </urlset>

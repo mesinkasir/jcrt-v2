@@ -3,6 +3,7 @@ layout: base.njk
 title: Archive Keywords
 permalink: /archives/keywords/
 eleventyExcludeFromCollections: true
+searchIndex: false
 ---
 <div class="container-fluid">
   {% include "partials/nav_desktop.njk" %}
@@ -13,7 +14,11 @@ eleventyExcludeFromCollections: true
   <div class="row p-3">
     {% for keyword in collections.archiveKeywordTags %}
       <div class="col-md-4 col-6 p-1">
+        {% if isLeanBuild %}
+        <span class="btn btn-outline-primary p-2 w-100 disabled">{{ keyword }}</span>
+        {% else %}
         <a class="btn btn-outline-primary p-2 w-100" href="/archives/keywords/{{ keyword | slugify }}/">{{ keyword }}</a>
+        {% endif %}
       </div>
     {% endfor %}
   </div>

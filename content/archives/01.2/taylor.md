@@ -15,7 +15,7 @@ The Journal of Cultural and Religious Theory is committed to advancing critical 
 
 _
 
-# The Division of Religion With Signs Following
+## The Division of Religion With Signs Following
 
 Victor E. Taylor  
 York College of Pennsylvania.

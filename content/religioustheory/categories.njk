@@ -2,6 +2,7 @@
 layout: theory.njk
 title: All Topics
 permalink: /religioustheory/categories/index.html
+searchIndex: false
 ---
 <article class="container-fluid mt-5">
   {% include "partials/nav_desktop.njk" %}
@@ -30,6 +31,24 @@ permalink: /religioustheory/categories/index.html
 
     {% for c in theoryCats | sort %}
       <div class="col-md-4 col-6">
+        {% if isLeanBuild %}
+        <div class="text-decoration-none">
+          <div class="card h-100 shadow-sm border-0 bg-light">
+            <div class="card-body p-4 d-flex justify-content-between align-items-center">
+              <div>
+                <h3 class="h5 fw-bold mb-0 text-dark">{{ c | capitalize }}</h3>
+                {% set count = 0 %}
+                {% for p in collections.theoryPosts %}
+                  {% if p.data.categories and c in p.data.categories %}
+                    {% set count = count + 1 %}
+                  {% endif %}
+                {% endfor %}
+                <span class="text-muted small">({{ count }} Articles)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% else %}
         <a href="/religioustheory/categories/{{ c | slugify }}/" class="text-decoration-none">
           <div class="card h-100 shadow-sm border-0 bg-light transition-all hover-shadow">
             <div class="card-body p-4 d-flex justify-content-between align-items-center">
@@ -48,6 +67,7 @@ permalink: /religioustheory/categories/index.html
             </div>
           </div>
         </a>
+        {% endif %}
       </div>
     {% else %}
       <div class="col-12 text-center py-5">

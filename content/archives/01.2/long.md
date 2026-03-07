@@ -12,7 +12,7 @@ year: 2000
 Long - Mircea Eliade and the Imagination of Matter - JCRT 1.2
 
 
-# Mircea Eliade and the Imagination of Matter
+## Mircea Eliade and the Imagination of Matter
 
 Charles H. Long  
 University of North Carolina

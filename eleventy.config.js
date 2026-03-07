@@ -249,11 +249,13 @@ export default async function (eleventyConfig) {
 
 	eleventyConfig.addPlugin(pluginFilters);
 	const isFastBuild = Boolean(process.env.FAST_BUILD);
+	const isLeanBuild = Boolean(process.env.LEAN_BUILD);
 	const isBuildMode = process.env.ELEVENTY_RUN_MODE === "build";
 	const isBenchMode = process.env.BENCH_11TY === "1";
 	const benchIssue = String(process.env.BENCH_ISSUE || "24.2").trim();
 	const siteBaseUrl = getSiteUrlFromMetadata();
 	eleventyConfig.addGlobalData("isFastBuild", isFastBuild);
+	eleventyConfig.addGlobalData("isLeanBuild", isLeanBuild);
 	eleventyConfig.addGlobalData("isBenchMode", isBenchMode);
 	eleventyConfig.addGlobalData("benchIssue", benchIssue);
 
@@ -324,6 +326,22 @@ export default async function (eleventyConfig) {
 				if (rel.startsWith(`archives/${benchIssue}/`)) return;
 				return false;
 			}
+		});
+	}
+	if (isLeanBuild) {
+		const leanSkippedInputs = new Set([
+			"tag-pages.njk",
+			"archives/keywords/tag-pages.njk",
+			"religioustheory/tag-pages.njk",
+			"religioustheory/category-pages.njk",
+			"religioustheory/legacy-date-redirects.11ty.js",
+		]);
+		eleventyConfig.addPreprocessor("lean-build-scope", "*", (data) => {
+			const inputPath = String(data?.page?.inputPath || "").replaceAll("\\", "/");
+			const marker = "/content/";
+			const idx = inputPath.indexOf(marker);
+			const rel = idx >= 0 ? inputPath.slice(idx + marker.length) : "";
+			if (leanSkippedInputs.has(rel)) return false;
 		});
 	}
 	
@@ -570,64 +588,28 @@ export default async function (eleventyConfig) {
 		return lookup.get(rawKey) || lookup.get(authorSlug(rawKey)) || null;
 	});
 	const postsByAuthorCache = new WeakMap();
-	eleventyConfig.addFilter("getPostsByAuthor", (allPosts, authorKey) => {
-		if (!Array.isArray(allPosts) || !authorKey) return [];
+	function buildPostsByAuthorMap(allPosts) {
+		const cached = postsByAuthorCache.get(allPosts);
+		if (cached) return cached;
 
-		const rawKey = String(authorKey).trim();
-		if (!rawKey) return [];
-
-		let perCollection = postsByAuthorCache.get(allPosts);
-		if (!perCollection) {
-			perCollection = new Map();
-			postsByAuthorCache.set(allPosts, perCollection);
-		}
-		const cacheKey = authorSlug(rawKey) || rawKey.toLowerCase();
-		if (perCollection.has(cacheKey)) {
-			return perCollection.get(cacheKey);
-		}
-
-		const normalizedKey = rawKey.toLowerCase();
-		const normalizedSlug = authorSlug(rawKey);
-
-		const postsByAuthor = allPosts.filter((post) => {
-			if (!isPublishedItem(post?.data)) return false;
+		const byAuthor = new Map();
+		for (const post of allPosts) {
+			if (!isPublishedItem(post?.data)) continue;
 			const authorField = post?.data?.author;
-			if (!authorField) return false;
+			if (!authorField) continue;
 
 			const parts = splitAuthors(authorField);
-
 			for (const part of parts) {
-				const name = String(part).trim();
-				if (!name) continue;
-
-				if (name.toLowerCase() === normalizedKey) return true;
-				if (authorSlug(name) === normalizedSlug) return true;
-			}
-			return false;
-		});
-
-		const groups = {
-			archives: [],
-			religioustheory: [],
-			blog: [],
-			other: [],
-		};
-
-		for (const post of postsByAuthor) {
-			const url = post?.url || "";
-			const inputPath = post?.inputPath || "";
-
-			if (url.startsWith("/archives/") || inputPath.includes("/content/archives/")) {
-				groups.archives.push(post);
-			} else if (
-				url.startsWith("/religioustheory/") ||
-				inputPath.includes("/content/religioustheory/")
-			) {
-				groups.religioustheory.push(post);
-			} else if (url.startsWith("/blog/") || inputPath.includes("/content/blog/")) {
-				groups.blog.push(post);
-			} else {
-				groups.other.push(post);
+				const rawName = String(part).trim();
+				if (!rawName) continue;
+				const keys = new Set([
+					rawName.toLowerCase(),
+					authorSlug(rawName),
+				].filter(Boolean));
+				for (const key of keys) {
+					if (!byAuthor.has(key)) byAuthor.set(key, []);
+					byAuthor.get(key).push(post);
+				}
 			}
 		}
 
@@ -637,19 +619,57 @@ export default async function (eleventyConfig) {
 			return bTime - aTime;
 		};
 
-		groups.archives.sort(sortByDateDesc);
-		groups.religioustheory.sort(sortByDateDesc);
-		groups.blog.sort(sortByDateDesc);
-		groups.other.sort(sortByDateDesc);
+		for (const posts of byAuthor.values()) {
+			const groups = {
+				archives: [],
+				religioustheory: [],
+				blog: [],
+				other: [],
+			};
+			for (const post of posts) {
+				const url = post?.url || "";
+				const inputPath = post?.inputPath || "";
 
-		const result = [
-			...groups.archives,
-			...groups.religioustheory,
-			...groups.blog,
-			...groups.other,
-		];
-		perCollection.set(cacheKey, result);
-		return result;
+				if (url.startsWith("/archives/") || inputPath.includes("/content/archives/")) {
+					groups.archives.push(post);
+				} else if (
+					url.startsWith("/religioustheory/") ||
+					inputPath.includes("/content/religioustheory/")
+				) {
+					groups.religioustheory.push(post);
+				} else if (url.startsWith("/blog/") || inputPath.includes("/content/blog/")) {
+					groups.blog.push(post);
+				} else {
+					groups.other.push(post);
+				}
+			}
+
+			groups.archives.sort(sortByDateDesc);
+			groups.religioustheory.sort(sortByDateDesc);
+			groups.blog.sort(sortByDateDesc);
+			groups.other.sort(sortByDateDesc);
+
+			const ordered = [
+				...groups.archives,
+				...groups.religioustheory,
+				...groups.blog,
+				...groups.other,
+			];
+			posts.length = 0;
+			posts.push(...ordered);
+		}
+
+		postsByAuthorCache.set(allPosts, byAuthor);
+		return byAuthor;
+	}
+	eleventyConfig.addFilter("getPostsByAuthor", (allPosts, authorKey) => {
+		if (!Array.isArray(allPosts) || !authorKey) return [];
+
+		const rawKey = String(authorKey).trim();
+		if (!rawKey) return [];
+		const cacheKey = authorSlug(rawKey) || rawKey.toLowerCase();
+		const byAuthor = buildPostsByAuthorMap(allPosts);
+		return byAuthor.get(cacheKey) || [];
 	});
 	eleventyConfig.addCollection("authors", function (collectionApi) {
 		return collectionApi

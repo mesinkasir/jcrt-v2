@@ -117,7 +117,11 @@ layout: base.njk
           {% set ignoredTags = ["all", "posts", "archives", "theoryPosts", "nav"] %}
           {% for tag in tags %}
             {% if tag not in ignoredTags %}
+              {% if isLeanBuild %}
+              <span class="badge bg-light text-dark border fw-normal">{{ tag }}</span>
+              {% else %}
               <a href="/archives/keywords/{{ tag | slugify }}/" class="badge bg-light text-dark border fw-normal text-decoration-none">{{ tag }}</a>
+              {% endif %}
             {% endif %}
           {% endfor %}
         </div>

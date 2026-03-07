@@ -9,13 +9,10 @@ pdf:
 sort_id: 02
 year: 2000
 ---
- Wyschogrod & Raschke - Heterological History - JCRT 1.2 
-
-# Heterological History: A Conversation
-
+Wyschogrod & Raschke - Heterological History - JCRT 1.2 
 Edith Wyschogrod  
 Rice University
-
+&
 Carl Raschke  
 University of Denver
 

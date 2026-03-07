@@ -24,7 +24,7 @@ pages:
 ---
 Vahanian - Rebellious No - JCRT 1.2
 
-# Rebellious No
+## Rebellious No
 
 Noëlle Vahanian,  
 LeMoyne College

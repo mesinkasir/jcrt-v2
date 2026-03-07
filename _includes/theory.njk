@@ -201,7 +201,7 @@
 </div>
 
     {% include "partials/nav_mobile.njk" %}
-    <main class="h-entry" data-pagefind-body>
+    <main class="h-entry"{% if searchIndex == false %} data-pagefind-ignore{% else %} data-pagefind-body{% endif %}>
       {% set isTheoryPostDetail = page and page.inputPath and ("/content/religioustheory/posts/" in page.inputPath) %}
       {% if isTheoryPostDetail %}
         {% set defaultPostImage = "/img/jcrt-open-graph.webp" %}
@@ -270,7 +270,11 @@
                     <div class="d-flex flex-wrap gap-2">
                       {% if postCategories and postCategories.length > 0 %}
                         {% for cat in postCategories %}
+                          {% if isLeanBuild %}
+                          <span class="badge bg-light text-dark border fw-normal">{{ cat }}</span>
+                          {% else %}
                           <a href="/religioustheory/categories/{{ cat | slugify }}/" class="badge bg-light text-dark border fw-normal text-decoration-none">{{ cat }}</a>
+                          {% endif %}
                         {% endfor %}
                       {% else %}
                         <span class="small text-muted">None</span>
@@ -282,7 +286,11 @@
                     <div class="d-flex flex-wrap gap-2">
                       {% if postTags and postTags.length > 0 %}
                         {% for tag in postTags %}
+                          {% if isLeanBuild %}
+                          <span class="badge bg-light text-dark border fw-normal">{{ tag }}</span>
+                          {% else %}
                           <a href="/religioustheory/tags/{{ tag | slugify }}/" class="badge bg-light text-dark border fw-normal text-decoration-none">{{ tag }}</a>
+                          {% endif %}
                         {% endfor %}
                       {% else %}
                         <span class="small text-muted">None</span>

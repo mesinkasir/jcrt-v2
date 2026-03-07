@@ -12,7 +12,7 @@ year: 2000
 Lorentzen - Re-Constructing Theological Thought with Deleuze - JCRT 1.2
 
 
-# Re-Constructing Theological Thought with Deleuze
+## Re-Constructing Theological Thought with Deleuze
 
 Oz Lorentzen  
 St. John Fisher College
