@@ -16,34 +16,15 @@ searchIndex: false
   </header>
 
   <div class="row g-4 mb-5">
-    {% set theoryCats = [] %}
-    
-    {# Ambil data murni dari Markdown #}
-    {% for post in collections.theoryPosts %}
-      {% if post.data.categories %}
-        {% for cat in post.data.categories %}
-          {% if cat not in theoryCats %}
-            {% set theoryCats = (theoryCats.push(cat), theoryCats) %}
-          {% endif %}
-        {% endfor %}
-      {% endif %}
-    {% endfor %}
-
-    {% for c in theoryCats | sort %}
+    {% for c in tagIndex.theory.categories.list %}
       <div class="col-md-4 col-6">
-        {% if isLeanBuild %}
+        {% if isLeanBuild and (c not in tagIndex.theory.categories.affected) %}
         <div class="text-decoration-none">
           <div class="card h-100 shadow-sm border-0 bg-light">
             <div class="card-body p-4 d-flex justify-content-between align-items-center">
               <div>
                 <h3 class="h5 fw-bold mb-0 text-dark">{{ c | capitalize }}</h3>
-                {% set count = 0 %}
-                {% for p in collections.theoryPosts %}
-                  {% if p.data.categories and c in p.data.categories %}
-                    {% set count = count + 1 %}
-                  {% endif %}
-                {% endfor %}
-                <span class="text-muted small">({{ count }} Articles)</span>
+                <span class="text-muted small">({{ tagIndex.theory.categories.counts[c] or 0 }} Articles)</span>
               </div>
             </div>
           </div>
@@ -54,14 +35,7 @@ searchIndex: false
             <div class="card-body p-4 d-flex justify-content-between align-items-center">
               <div>
                 <h3 class="h5 fw-bold mb-0 text-dark">{{ c | capitalize }}</h3>
-                {# Hitung jumlah post secara akurat #}
-                {% set count = 0 %}
-                {% for p in collections.theoryPosts %}
-                  {% if p.data.categories and c in p.data.categories %}
-                    {% set count = count + 1 %}
-                  {% endif %}
-                {% endfor %}
-                <span class="text-muted small">({{ count }} Articles)</span>
+                <span class="text-muted small">({{ tagIndex.theory.categories.counts[c] or 0 }} Articles)</span>
               </div>
               <span class="text-primary fw-bold">&rarr;</span>
             </div>

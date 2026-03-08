@@ -91,12 +91,17 @@ export default {
       return `/citations/archives/${issue}/${slug}.csl.json`;
     },
     articleNumber: (data) => parseInt(data.article_number, 10) || 999,
-    tags: (data) => {
-      const manualTags = Array.isArray(data.tags) ? data.tags : [];
+    archiveKeywords: (data) => {
       const keywords = data.keywords ?? [];
       const keywordArray = Array.isArray(keywords) ? keywords : String(keywords).split(",");
+      return [...new Set(keywordArray.map((t) => String(t).trim()).filter(Boolean))];
+    },
+    tags: (data) => {
+      const manualTags = Array.isArray(data.tags) ? data.tags : [];
       const essentialTags = ["archives"];
-      const combined = [...manualTags, ...keywordArray, ...essentialTags];
+      // Keep archive keywords out of Eleventy tag collections.
+      // Keyword pages are powered by the incremental `tagIndex.archiveKeywords` data.
+      const combined = [...manualTags, ...essentialTags];
       return [...new Set(combined.map(t => String(t).trim()).filter(Boolean))];
     }
   }

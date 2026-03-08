@@ -12,9 +12,9 @@ searchIndex: false
   </h1>
 
   <div class="row p-3">
-    {% for keyword in collections.archiveKeywordTags %}
+    {% for keyword in tagIndex.archiveKeywords.list %}
       <div class="col-md-4 col-6 p-1">
-        {% if isLeanBuild %}
+        {% if isLeanBuild and (keyword not in tagIndex.archiveKeywords.affected) %}
         <span class="btn btn-outline-primary p-2 w-100 disabled">{{ keyword }}</span>
         {% else %}
         <a class="btn btn-outline-primary p-2 w-100" href="/archives/keywords/{{ keyword | slugify }}/">{{ keyword }}</a>

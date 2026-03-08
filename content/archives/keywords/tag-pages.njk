@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 pagination:
-  data: collections.archiveKeywordTags
+  data: tagIndex.archiveKeywords.paginationList
   size: 1
   alias: keyword
 permalink: /archives/keywords/{{ keyword | slugify }}/index.html
@@ -16,17 +16,17 @@ eleventyExcludeFromCollections: true
   </h1>
 
   <div class="row mt-3 mb-3">
-    {% set keywordPosts = collections.archives | archivePostsByKeyword(keyword) %}
+    {% set keywordPosts = tagIndex.archiveKeywords.map[keyword] %}
     {% for post in keywordPosts %}
       <div class="col-md-6 col-lg-4 p-3 small p-md-5">
         <h3 class="h5">
-          <a class="text-decoration-none" href="{{ post.url }}">{{ post.data.title or post.fileSlug }}</a>
+          <a class="text-decoration-none" href="{{ post.url }}">{{ post.title }}</a>
         </h3>
-        {% if post.data.author %}
-          <p class="small text-muted mb-1">{{ post.data.author }}</p>
+        {% if post.author %}
+          <p class="small text-muted mb-1">{{ post.author }}</p>
         {% endif %}
-        {% if post.data.description %}
-          <p class="small">{{ post.data.description | truncate(140) }}</p>
+        {% if post.description %}
+          <p class="small">{{ post.description | truncate(140) }}</p>
         {% endif %}
         <a href="{{ post.url }}" class="btn btn-primary btn-sm">View Article</a>
       </div>

@@ -20,14 +20,14 @@ eleventyExcludeFromCollections: true
 
 	{% if not isLeanBuild %}
 		{# One URL per archive keyword page #}
-		{% for keyword in (collections.archiveKeywordTags or []) %}
+		{% for keyword in (tagIndex.archiveKeywords.list or []) %}
 			{% set path = "/archives/keywords/" ~ (keyword | slugify) ~ "/" %}
 			{% if path not in seen %}
 				{% set seen = (seen.push(path), seen) %}
 				<url>
 					<loc>{{ (baseUrl ~ path) | xmlEscape | safe }}</loc>
-					{% set keywordPosts = collections.archives | archivePostsByKeyword(keyword) %}
-					{% set newest = keywordPosts | getNewestCollectionItemDate %}
+					{% set keywordPosts = tagIndex.archiveKeywords.map[keyword] or [] %}
+					{% set newest = keywordPosts[0].date if keywordPosts and keywordPosts[0] else null %}
 					{% if newest %}<lastmod>{{ newest | htmlDateString }}</lastmod>{% endif %}
 				</url>
 			{% endif %}

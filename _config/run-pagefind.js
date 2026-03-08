@@ -23,7 +23,15 @@ async function fileExists(filePath) {
 
 async function runPagefind() {
 	const binPath = pagefindBinPath();
-	const args = ["--site", "_site", "--force-language", "en"];
+	const args = [
+		"--site",
+		"_site",
+		"--force-language",
+		"en",
+		"--root-selector",
+		"[data-pagefind-body]",
+		"--quiet",
+	];
 
 	await new Promise((resolve, reject) => {
 		const child = spawn(binPath, args, {

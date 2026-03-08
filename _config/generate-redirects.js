@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import crypto from 'node:crypto';
 import yaml from 'js-yaml';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -11,6 +12,7 @@ const sourceRedirectsFile = path.join(__dirname, '../public/_redirects');
 const archivesDir = path.join(__dirname, '../content/archives');
 const theoryPostsDir = path.join(__dirname, '../content/religioustheory/posts');
 const redirectsFile = path.join(siteDir, '_redirects');
+const redirectsCacheFile = path.join(__dirname, '../.cache/redirects-cache.json');
 const indexExtensions = ['htm', 'shtml', 'xhtml', 'htmx'];
 const archiveExtensions = ['html', 'htm', 'shtml', 'xhtml', 'htmx'];
 const brokenArchiveWildcardPattern = /^\/archives\/:issue\/\*\.(?:htm|shtml|xhtml|htmx)\s+/;
@@ -52,6 +54,58 @@ function dedupeRules(rules) {
     deduped.push(normalized);
   }
   return deduped;
+}
+
+function sha256(input) {
+  return crypto.createHash('sha256').update(String(input)).digest('hex');
+}
+
+async function hashTree(rootDir, extensions) {
+  const extSet = new Set((extensions || []).map((ext) => String(ext).toLowerCase()));
+  const rows = [];
+
+  async function walk(dir) {
+    const entries = await fs.readdir(dir, { withFileTypes: true });
+    for (const entry of entries) {
+      if (entry.name.startsWith('.')) continue;
+      const fullPath = path.join(dir, entry.name);
+      if (entry.isDirectory()) {
+        await walk(fullPath);
+        continue;
+      }
+      if (!entry.isFile()) continue;
+      const ext = path.extname(entry.name).toLowerCase();
+      if (!extSet.has(ext)) continue;
+      const stat = await fs.stat(fullPath);
+      const rel = path.relative(rootDir, fullPath).replace(/\\/g, '/');
+      rows.push(`${rel}|${stat.size}|${Math.trunc(stat.mtimeMs)}`);
+    }
+  }
+
+  await walk(rootDir);
+  rows.sort((a, b) => a.localeCompare(b));
+  return sha256(rows.join('\n'));
+}
+
+async function loadRedirectCache() {
+  try {
+    const raw = await fs.readFile(redirectsCacheFile, 'utf8');
+    const parsed = JSON.parse(raw);
+    if (parsed && typeof parsed === 'object') return parsed;
+  } catch {
+    // ignore missing/invalid cache
+  }
+  return {
+    theoryInputHash: '',
+    archiveInputHash: '',
+    theoryRedirects: null,
+    archiveRedirects: null,
+  };
+}
+
+async function saveRedirectCache(cache) {
+  await fs.mkdir(path.dirname(redirectsCacheFile), { recursive: true });
+  await fs.writeFile(redirectsCacheFile, `${JSON.stringify(cache, null, 2)}\n`, 'utf8');
 }
 
 function extractFrontMatter(raw) {
@@ -160,12 +214,48 @@ async function main() {
       }
     }
 
-    const archiveRedirects = await buildArchiveLegacyRedirects();
-    const theoryRedirects = await buildTheoryLegacyRedirects();
+    const cache = await loadRedirectCache();
+    const [archiveInputHash, theoryInputHash] = await Promise.all([
+      hashTree(archivesDir, ['.md']),
+      hashTree(theoryPostsDir, ['.md']),
+    ]);
+
+    let archiveRedirects = Array.isArray(cache.archiveRedirects) ? cache.archiveRedirects : null;
+    if (cache.archiveInputHash !== archiveInputHash || !archiveRedirects) {
+      archiveRedirects = await buildArchiveLegacyRedirects();
+    }
+
+    let theoryRedirects = Array.isArray(cache.theoryRedirects) ? cache.theoryRedirects : null;
+    if (cache.theoryInputHash !== theoryInputHash || !theoryRedirects) {
+      theoryRedirects = await buildTheoryLegacyRedirects();
+    }
+
     const allRules = dedupeRules([...baseRules, ...rules, ...archiveRedirects, ...theoryRedirects]);
-    await fs.writeFile(redirectsFile, `${allRules.join('\n')}\n`, 'utf8');
+    const nextContent = `${allRules.join('\n')}\n`;
+    let wroteFile = true;
+    try {
+      const currentContent = await fs.readFile(redirectsFile, 'utf8');
+      if (currentContent === nextContent) {
+        wroteFile = false;
+      }
+    } catch {
+      wroteFile = true;
+    }
+    if (wroteFile) {
+      await fs.writeFile(redirectsFile, nextContent, 'utf8');
+    }
+    await saveRedirectCache({
+      archiveInputHash,
+      theoryInputHash,
+      archiveRedirects,
+      theoryRedirects,
+      generatedAt: new Date().toISOString(),
+    });
 
     console.log(`✅ Generated ${allRules.length} Netlify redirect rules (${baseRules.length} base rules, ${rules.length} extension redirects, ${archiveRedirects.length} archive legacy redirects, ${theoryRedirects.length} theory legacy redirects)`);
+    if (!wroteFile) {
+      console.log('ℹ️ _redirects unchanged (skipped file write)');
+    }
     if (skippedWhitespaceRules > 0) {
       console.log(`ℹ️ Skipped ${skippedWhitespaceRules} extension redirects with whitespace in URL paths`);
     }

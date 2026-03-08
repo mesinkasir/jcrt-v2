@@ -198,41 +198,6 @@ function archiveIssueSortKey(inputPath, url) {
 	return { major, minor, issue, url: url || "" };
 }
 
-const archiveKeywordMemo = new WeakMap();
-
-function buildArchiveKeywordIndex(archiveItems) {
-	const cached = archiveKeywordMemo.get(archiveItems);
-	if (cached) return cached;
-
-	const excluded = new Set(["all", "posts", "archives", "theoryPosts", "nav"]);
-	const byTag = new Map();
-
-	for (const item of archiveItems) {
-		const itemTags = Array.isArray(item?.data?.tags) ? item.data.tags : [];
-		for (const rawTag of itemTags) {
-			const tag = String(rawTag || "").trim();
-			if (!tag || excluded.has(tag)) continue;
-			if (!byTag.has(tag)) byTag.set(tag, []);
-			byTag.get(tag).push(item);
-		}
-	}
-
-	const byDateDesc = (a, b) => {
-		const aTime = a?.date instanceof Date ? a.date.getTime() : 0;
-		const bTime = b?.date instanceof Date ? b.date.getTime() : 0;
-		return bTime - aTime;
-	};
-
-	for (const list of byTag.values()) {
-		list.sort(byDateDesc);
-	}
-
-	const tags = [...byTag.keys()].sort((a, b) => a.localeCompare(b));
-	const built = { tags, byTag };
-	archiveKeywordMemo.set(archiveItems, built);
-	return built;
-}
-
 async function ensureFavicons() {
 	// `@11ty/eleventy-img` requires Node versions that implement `os.availableParallelism()`.
 	// If you run the build on an older Node (e.g. v18.12.x), skip generation.
@@ -412,10 +377,6 @@ export default async function (eleventyConfig) {
 	}
 	if (isLeanBuild) {
 		const leanSkippedInputs = new Set([
-			"tag-pages.njk",
-			"archives/keywords/tag-pages.njk",
-			"religioustheory/tag-pages.njk",
-			"religioustheory/category-pages.njk",
 			"religioustheory/legacy-date-redirects.11ty.js",
 		]);
 		eleventyConfig.addPreprocessor("lean-build-scope", "*", (data) => {
@@ -513,6 +474,16 @@ export default async function (eleventyConfig) {
 		.use(markdownItTableOfContents);
 	eleventyConfig.setLibrary("md", markdownLib);
 	eleventyConfig.amendLibrary("md", (mdLib) => {
+		const slugifyFilter = eleventyConfig.getFilter("slugify");
+		const slugifyCache = new Map();
+		const cachedSlugify = (text) => {
+			const key = String(text || "");
+			if (slugifyCache.has(key)) return slugifyCache.get(key);
+			const value = slugifyFilter(key);
+			slugifyCache.set(key, value);
+			if (slugifyCache.size > 10000) slugifyCache.clear();
+			return value;
+		};
 		mdLib.use(markdownItAnchor, {
 			permalink: markdownItAnchor.permalink.ariaHidden({
 				placement: "after",
@@ -521,7 +492,7 @@ export default async function (eleventyConfig) {
 				ariaHidden: false,
 			}),
 			level: [1, 2, 3, 4],
-			slugify: eleventyConfig.getFilter("slugify"),
+			slugify: cachedSlugify,
 		});
 	});
 	eleventyConfig.addPlugin(pluginTOC, {
@@ -793,22 +764,6 @@ export default async function (eleventyConfig) {
 		return collectionApi
 			.getFilteredByGlob("content/archives/**/*.md")
 			.filter((item) => isPublishedItem(item?.data));
-	});
-
-	eleventyConfig.addCollection("archiveKeywordTags", function (collectionApi) {
-		const pattern = isBenchMode
-			? `content/archives/${benchIssue}/**/*.md`
-			: "content/archives/**/*.md";
-		const archives = collectionApi
-			.getFilteredByGlob(pattern)
-			.filter((item) => isPublishedItem(item?.data));
-		return buildArchiveKeywordIndex(archives).tags;
-	});
-
-	eleventyConfig.addFilter("archivePostsByKeyword", function (archiveItems, keyword) {
-		if (!Array.isArray(archiveItems) || !keyword) return [];
-		const idx = buildArchiveKeywordIndex(archiveItems);
-		return idx.byTag.get(String(keyword)) || [];
 	});
 
 	eleventyConfig.addCollection("archivesToc", function (collectionApi) {

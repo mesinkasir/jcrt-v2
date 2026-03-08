@@ -1,23 +1,9 @@
 ---js
 {
   pagination: {
-    data: "collections.theoryPosts",
+    data: "tagIndex.theory.categories.paginationList",
     size: 1,
-    alias: "category",
-    before: function(posts) {
-      if (!posts || posts.length === 0) return [];
-      const catSet = new Set();
-      for (const post of posts) {
-        // Akses data melalui post.data
-        const cats = post.data?.categories || [];
-        for (const c of cats) {
-          if (typeof c === 'string') {
-            catSet.add(c);
-          }
-        }
-      }
-      return Array.from(catSet).sort();
-    }
+    alias: "category"
   },
   layout: "theory.njk",
   eleventyComputed: {
@@ -37,18 +23,17 @@
   </header>
 
   <div class="row mt-3 mb-3">
-    {%- for post in collections.theoryPosts %}
-      {%- set postCats = post.data.categories or [] -%}
-      {%- if category in postCats %}
+    {%- set categoryPosts = tagIndex.theory.categories.map[category] or [] -%}
+    {%- for post in categoryPosts %}
         <div class="col-md-6 col-lg-4 p-3 small p-md-5 d-flex flex-column"> 
             
             <div class="img-zoom-container rounded-4 shadow-sm mb-3" style="aspect-ratio: 16/9; overflow: hidden;">
                 <a href="{{ post.url }}">
                     {% set defaultCardImage = '/img/jcrt-open-graph.webp' %}
-                    {% set categoryCardImage = (post.data.image | ensureImage(defaultCardImage)) %}
+                    {% set categoryCardImage = (post.image | ensureImage(defaultCardImage)) %}
                     <img class="img-post img-fluid" 
                          style="width: 100%; height: 100%; object-fit: cover;" 
-                         alt="{{ post.data.title }}" 
+                         alt="{{ post.title }}" 
                          src="{{ categoryCardImage | preferWebp }}"
                          data-fallback-src="{{ defaultCardImage }}"
                          {% imageAttrs categoryCardImage, 640, 360 %}
@@ -60,32 +45,21 @@
 
             <h3 class="serif fw-bold h5">
                 <a class="text-decoration-none text-dark hover-primary" href="{{ post.url }}">
-                    {{ post.data.title }}
+                    {{ post.title }}
                 </a>
             </h3>
             
             <div class="mb-2">
                 <p class="text-muted x-small text-uppercase fw-bold mb-1" style="font-size: 0.7rem; letter-spacing: 0.5px;">
                     {{ post.date | postDate if post.date else "Recently Published" }}
-                    {% if post.data.author %}
-                      — By <span class="text-primary">{{ post.data.author }}</span>
+                    {% if post.author %}
+                      — By <span class="text-primary">{{ post.author }}</span>
                     {% endif %}
                 </p>
-
-                <div class="d-flex flex-wrap gap-1 mb-2">
-                    {% for cat in postCats %}
-                        <a href="/religioustheory/categories/{{ cat | slugify }}/" 
-                           class="text-primary fw-bold text-decoration-none x-small border-end pe-1 me-1" 
-                           style="font-size: 0.7rem; border-color: var(--primary-jcrt) !important;">
-                            {{ cat }}
-                        </a>
-                    {% endfor %}
-                </div>
             </div>
 
             <p class="text-secondary small">
-                {% set postSummary = post.data.description or post.data.excerpt or post.data.abstract %}
-                {{ postSummary | truncate(160) if postSummary else "Explore this article..." }}
+                {{ post.description | truncate(160) if post.description else "Explore this article..." }}
             </p>
 
             <p class="mt-auto">
@@ -94,7 +68,6 @@
                 </a>
             </p>
         </div>
-      {%- endif %}
     {%- endfor %}
   </div>
 </div>

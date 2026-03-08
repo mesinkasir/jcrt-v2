@@ -34,19 +34,6 @@ export default function(eleventyConfig) {
 
     eleventyConfig.addFilter("filterTagList", filterTagList);
 
-    eleventyConfig.addCollection("tagPageList", function (collectionApi) {
-        const tagSet = new Set();
-        for (const item of collectionApi.getAll()) {
-            const tags = item?.data?.tags;
-            if (!Array.isArray(tags)) continue;
-            for (const tag of tags) {
-                if (tag !== undefined && tag !== null) tagSet.add(String(tag));
-            }
-        }
-        return filterTagList([...tagSet]).sort((a, b) =>
-            String(a ?? "").localeCompare(String(b ?? ""))
-        );
-    });
 	eleventyConfig.addCollection("theoryAuthors", function (collectionApi) {
 		const posts = collectionApi.getFilteredByTag("theoryPosts");
 		const bySlug = new Map();
