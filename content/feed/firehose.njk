@@ -3,30 +3,32 @@ permalink: /feed/firehose.xml
 eleventyExcludeFromCollections: true
 layout: false
 ---
-{% set feedBaseUrl = metadata.url %}
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="/feed/pretty-atom-feed.xsl" type="text/xsl"?>
+{% set feedBaseUrl = metadata.url %}
+{% set items = collections.feed | reverse %}
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{{ metadata.title }} Firehose</title>
   <subtitle>{{ metadata.description }}</subtitle>
   <link href="{{ feedBaseUrl }}/feed/firehose.xml" rel="self"/>
   <link href="{{ feedBaseUrl }}"/>
-  <updated>{{ page.date | isoDate }}</updated>
+  <updated>{{ ((items[0] and items[0].date) or page.date) | isoDate }}</updated>
   <id>{{ feedBaseUrl }}/</id>
   <author>
     <name>Editorial Board of JCRT</name>
   </author>
 
-  {%- for post in collections.all | reverse %}
-    {%- if post.url and post.url != permalink and post.data.title %}
+  {%- for post in items %}
+    {%- if post.url and post.url != permalink and post.data and post.data.title %}
       {%- if loop.index0 < 100 %}
       {% set absoluteUrl %}{{ feedBaseUrl }}{{ post.url }}{% endset %}
+      {% set entryHtml = (post.templateContent or post.content or post.data.description or "") | trim %}
       <entry>
         <title>{{ post.data.title }}</title>
         <link href="{{ absoluteUrl }}"/>
         <updated>{{ post.date | isoDate }}</updated>
         <id>{{ absoluteUrl }}</id>
-        <content type="html"><![CDATA[{{ post.content | safe }}]]></content>
+        <content type="html"><![CDATA[{{ entryHtml | replace("]]>", "]]]]><![CDATA[>") | safe }}]]></content>
       </entry>
       {%- endif %}
     {%- endif %}
