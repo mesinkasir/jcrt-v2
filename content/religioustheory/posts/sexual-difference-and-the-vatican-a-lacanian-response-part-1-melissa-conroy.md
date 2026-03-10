@@ -5,7 +5,7 @@ title: >-
 description: "In June 2019 the Congregation for Catholic Education released a document entitled “Male and Female He Created Them: Towards a Path of Dialogue on the Question"
 date: '2020-09-28T15:09:36.000Z'
 author: editors
-image: /images/2020/10/Pair_of_mandarin_ducks.jpg
+image: /images/2020/10/pair_of_mandarin_ducks.webp
 categories:
   - Sexuality and Religion
   - Psychology of Religion

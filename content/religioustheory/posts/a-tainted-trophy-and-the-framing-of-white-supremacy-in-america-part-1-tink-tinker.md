@@ -6,7 +6,7 @@ description: "The following is the first of a three-part series. The entire arti
 date: '2022-10-15T04:12:37.000Z'
 author: editors
 image: >-
-  /images/2022/11/1600px-John_Wesley_preaching_to_native_American_Indians._Engraving._Wellcome_V0006867-1210x642.jpg
+  /images/2022/11/1600px-john_wesley_preaching_to_native_american_indians-_engraving-_wellcome_v0006867-1210x642.webp
 categories:
   - Indigenous Religions
   - Postcolonial Theory

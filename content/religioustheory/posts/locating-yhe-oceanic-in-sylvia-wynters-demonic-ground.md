@@ -5,7 +5,7 @@ title: >-
 description: "Part 1 introduces an oceanic reading of Sylvia Wynter's “Demonic Ground,” developing the conceptual frame and tracing how embodiment, race, and poetics"
 date: '2022-01-07T19:38:39.000Z'
 author: editors
-image: /images/2022/01/Irish-ruins-1210x642.jpg
+image: /images/2022/01/irish-ruins.webp
 categories:
   - Critical Race Theory
 layout: theory.njk

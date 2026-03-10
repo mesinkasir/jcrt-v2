@@ -5,7 +5,7 @@ title: >-
 description: "You must register in advance (see below) whereupon you will automatically receive a participation link. If you are having trouble, please email us It highlights"
 date: '2022-08-25T20:39:16.000Z'
 author: editors
-image: /images/2022/08/IMG_0123-2-739x642.jpg
+image: /images/2022/08/img_0123-2.webp
 categories:
   - Announcements
   - Conferences

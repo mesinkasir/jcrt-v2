@@ -5,7 +5,7 @@ title: >-
 description: "The following is the second installment of a two-part series. The first installment can be found here. Zoroastrianism is believed to be an outgrowth of an"
 date: '2017-11-07T22:29:04.000Z'
 author: editors
-image: /images/2017/10/Genrich_Ippolitovich_Semiradsky_-_Roma_1889.jpg
+image: /images/2017/10/genrich_ippolitovich_semiradsky_-_roma_1889.webp
 categories:
   - Mythology
   - Philosophy of Religion
@@ -27,7 +27,7 @@ tags:
   - influence
 ---
 
-*![](/images/2017/10/ahura-mazda-300x225.jpg)The following is the second installment of a two-part series. The first installment can be found [here]( /posts/the-mythology-of-afterlife-beliefs-and-their-impact-on-religious-conflict-part-1-brigid-burke/).*
+*![](/images/2017/10/ahura-mazda.webp)The following is the second installment of a two-part series. The first installment can be found [here]( /posts/the-mythology-of-afterlife-beliefs-and-their-impact-on-religious-conflict-part-1-brigid-burke/).*
 
 ## Zoroastrianism
 
@@ -43,7 +43,7 @@ In 586 BCE, the Babylonian exile of the Israelites began. Babylon was eventually
 
 The writings of Ezekiel reflect this belief, especially his vision of “a vast plain covered with human bones bleached by the sun,” which resembles a Zoroastrian burial ground. Ezekiel focused on the restoration of Israel rather than resurrection of the body, but this likely represents the first time the idea came into Israelite thinking.[^1]
 
-*Mystery Cults![](/images/2017/10/Genrich_Ippolitovich_Semiradsky_-_Roma_1889-300x151.jpg)*
+*Mystery Cults![](/images/2017/10/genrich_ippolitovich_semiradsky_-_roma_1889.webp)*
 
 The oldest known mystery cults in Ancient Greece were the Cult of Eleusis, the Cult of Dionysus, and the Cult of Orpheus, also known as Orphism. The cults may have been older than the 6th century BCE, but this is the first time they are documented.
 
@@ -85,7 +85,7 @@ He goes on to say:
 
 As it was noted earlier, Egypt had a much more developed idea about the afterlife centuries before these ideas penetrated Greece and Rome. There was certainly a greater involvement with Egypt and Egyptian culture by the Hellenistic world around this time, just before the Roman conquest of Egypt. Cults of Isis and Osiris, two deities intimately bound up with Egyptian underworld myths, became prevalent in Greece, and often the two were interchanged for Demeter or Persephone and Dionysus.
 
-## ![](/images/2017/10/Blake_-_angel_of_revelation-199x300.jpg)Monotheism
+## ![](/images/2017/10/blake_-_angel_of_revelation.webp)Monotheism
 
 The Hebrews were originally a henotheistic people. They worshipped many of the Canaanite deities, but also worshipped Yahweh in Abrahamic times. By about the year 1000 BCE, Yahweh had become their only deity, though many Jews slipped back into habitual pagan practices. At that time, Yahweh was only the god of the Israelites, and was thought to have no control over Sheol, the Hebraic underworld.
 
@@ -105,7 +105,7 @@ While I would be cautious about drawing too many conclusions from the contempora
 
 While many philosophers scorned the idea of Hades as superstitious, they did have ideas about the survival of a “soul” after death that were not part of the original idea of the “psyche” or “nefesh met” of a person. Plato theorized that the soul was made of air and fire, and that the more humans clung to base, “material” ways, the more their soul would be weighted down with earth, and therefore not able to rise to the moon or any other planets or heavenly bodies, where he theorized the Isles of the Blessed actually existed
 
-## III. Part Two![](/images/2017/10/Carl-Jung-190x300.jpg)
+## III. Part Two![](/images/2017/10/carl-jung.webp)
 
 When considering the underworld from the Jungian point of view, one must consider the influence of the collective unconscious. Jung identified three levels of consciousness—conscious awareness, which is our normal day-to-day thinking and decision-making state; the personal unconscious, made up of experiences, memories, traumas, and complexes gained throughout our life; and the collective unconscious, which is the unconscious memory and experience we share with all other human beings back to the beginning of the species.
 
@@ -131,7 +131,7 @@ Consider Jung’s discussion of the rituals of Dionysus and their later equivale
 
 > The medieval carnivals and jeux de paume in the Church were abolished relatively early; consequently, the carnival became secularized, and with it divine intoxication vanished from the sacred precincts. Mourning, earnestness, severity, and well-tempered spiritual joy remained. But intoxication, that most direct and dangerous form of possession, turned away from the gods and enveloped the human world with its exuberance and pathos. The pagan religions met this danger by giving drunken ecstasy a place within their cult…Our solution, however, has served to throw the gates of hell wide open.[^13]
 
-![](/images/2017/10/collective-unconscious-300x210.jpg)While speaking of the devil may seem excessive, it should be noted that the same process by which we project our “shadow” onto individuals can also happen in large groups. The result is what Erik Erikson terms “pseudospeciation,” the false creation of categories of greater and lesser human beings.
+![](/images/2017/10/collective-unconscious.webp)While speaking of the devil may seem excessive, it should be noted that the same process by which we project our “shadow” onto individuals can also happen in large groups. The result is what Erik Erikson terms “pseudospeciation,” the false creation of categories of greater and lesser human beings.
 
 When such a hierarchy is created, one of these supposedly “inferior” groups always loses—they may suffer economically, they may have curtailed rights, they may be ignored and forgotten by supposedly “superior” groups. The process of demonization leads to justification for wars, and in extreme cases, genocide. One only has to look at the Nazi profiling of the Jews—even going as far as to suggest that some of their darker physical features were part of their inferior attributes.
 
@@ -151,7 +151,7 @@ For Jung and the Jungian therapist, dealing with the “shadow” involves succe
 
 > Recognizing the Shadow is the reason for humility, for genuine fear of the abysmal depths of man. This caution is most expedient, since the man without a shadow thinks himself harmless precisely because he is ignorant of his Shadow. The man who recognizes his Shadow knows very well that he is not harmless…the advantage of the situation, despite all its dangers, is that once the naked truth has been revealed, the discussion can get down to essentials; Ego and Shadow are no longer divided, but are brought together in an—admittedly precarious—unity.[^17]
 
-## IV. Conclusion![](/images/2017/10/hell-300x232.jpg)
+## IV. Conclusion![](/images/2017/10/hell.webp)
 
 There appears to be a meaningful relationship between attitudes towards otherness and cultural conceptions of the afterlife. By looking back to archaic times in our civilization, and examining the beliefs about the dead and the underworld, it seems apparent that there was a shift in attitudes around the 6th century BCE that gradually lead to our modern “split” between reward and punishment, good and evil. This split is collective as well as individual, as it is ingrained in Western religious ideas, which influence the believer and the atheist alike.
 

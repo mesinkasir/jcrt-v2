@@ -3,7 +3,7 @@ title: 'God As Person and Trinity, Lecture 7 (Johannes Zachhuber)'
 description: "The following is the seventh lecture in an eight-lecture series. The most recent one can be found here. The possibility that God is person has often been"
 date: '2019-04-10T10:23:29.000Z'
 author: editors
-image: /images/2019/04/800px-Holy_Trinity_Column_-_top.jpg
+image: /images/2019/04/800px-holy_trinity_column_-_top.webp
 categories:
   - Theology
   - Philosophy of Religion

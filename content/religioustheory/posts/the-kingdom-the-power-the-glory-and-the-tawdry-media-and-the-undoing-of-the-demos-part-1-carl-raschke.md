@@ -5,7 +5,7 @@ title: >-
 description: "This article appears in three installments. It was originally a paper given at the international conference “The Crisis of Representation” at Melk Conference"
 date: '2017-07-04T20:51:08.000Z'
 author: editors
-image: /images/2017/07/IMG_1588.jpg
+image: /images/2017/07/img_1588.webp
 categories:
   - Political Economy
   - Political Theory
@@ -49,7 +49,7 @@ Agamben notably argues that the paradigms of both sovereignty and *oikonomia* de
 
 The theological provenance of both transcendent sovereignty and an “immanent ordering” is the Trinitarian formulation at Nicea, which from the historical standpoint can be interpreted as a compromise to reconcile the Caesaro-papal instincts of Christianity’s new imperial benefactor Constantine, seeking to unify the empire under one common faith, with the “pastoral” apparatus that the underground and previously persecuted church had already achieved with its remarkable, organizational prowess over nearly three centuries.  It was also the sophisticated outworking at both a political and philosophical level of the inherent “incarnational” synthesis of pagan and Jewish thought brilliantly articulated from 50 to approximately 65 A.D. by the apostle Paul.
 
-Without such a synthesis, Christianity would not only have failed to develop over time, especially after the debacle of the ![](/images/2017/07/IMG_1521-300x224.jpg)Jewish War, but would have been inadequate for a true “state religion” designed to hold the fractious and centrifugal forces of a decaying Roman empire together, an initiative which a succession of Caesars just prior to Constantine had unsuccessfully attempted under the guise of an innovative form of unitary “solar monothesism” by leveraging the glamor of the soldier’s god *Sol Invictus*.[^6]
+Without such a synthesis, Christianity would not only have failed to develop over time, especially after the debacle of the ![](/images/2017/07/img_1521.webp)Jewish War, but would have been inadequate for a true “state religion” designed to hold the fractious and centrifugal forces of a decaying Roman empire together, an initiative which a succession of Caesars just prior to Constantine had unsuccessfully attempted under the guise of an innovative form of unitary “solar monothesism” by leveraging the glamor of the soldier’s god *Sol Invictus*.[^6]
 
 The prestige of the militarized Roman state had already been in decline since the disasters on the frontiers a century earlier.  Hence, Constantine needed a new, religio-symbolic order that embraced the pieties of the already sprawling and largely literate clerical classes, which were heavily populated by Christians.  The Christianity of antiquity from the outset was what Foucault terms “governmental”, and it came to be secularized, especially in the France of the seventeenth and eighteenth centuries as well as Prussia during the nineteenth century, which invented through the ministrations of the Lutheran *Landeskirche* what has come to be known as “state socialism”.
 
@@ -63,7 +63,7 @@ How would, therefore, the “economic” model of human relationships be placed 
 
 It is a commonplace among historians that the Christian church arose during and throughout the pre-Constantinian era as a kind of shadow state purposed in important respects for the general “care of souls” that filled an enormous social as well
 
-![](/images/2017/07/download.jpg)
+![](/images/2017/07/download.webp)
 
 Constantine the Great
 
@@ -87,7 +87,7 @@ Agamben writes:
 
 The instrumentality of “glory,” which was used routinely by both kings and clergy up until early twentieth century and became the flash point for the kind of sectarian conflict that eventually morphed into anti-clerical political revolutions, served as the precursor, according to Agamben, for the *aestheticization* of mass politics that found its most demonic expression in the various totalitarianisms of the twentieth century.  “We find here, as we find at the hidden root of all aestheticisms,” Agamben notes, “the need to cover and dignify what is in itself pure force and domination.[^10]  But this “aesthetic” subterfuge can also be understood in terms of the virtualization of politics through both earlier and later forms of media and the manipulation of what once were material interests through the idealizing mechanisms of a “symbolic economies,” about which I have written in my book *Force of God*.[^11]
 
-![](/images/2017/07/IMG_1578-300x225.jpg)The idea of a purely symbolic economics was advanced during the 1970s by a lesser known French post-structuralist theorist named Jean-Joseph Goux, roughly about the same time as Foucault began his decade of lectures at the College de France, wherein he elaborated many of the intricate ramifications of the “biopolitical.”  It is Goux’s overarching approach, adapted from Marx’s analysis of the fetishism of commodities in Book I of *Capital* as the generative principle in the formation of surplus value, that helps us frame a general theory of neoliberalism as *global governance by autonomous signifiers*.
+![](/images/2017/07/img_1578.webp)The idea of a purely symbolic economics was advanced during the 1970s by a lesser known French post-structuralist theorist named Jean-Joseph Goux, roughly about the same time as Foucault began his decade of lectures at the College de France, wherein he elaborated many of the intricate ramifications of the “biopolitical.”  It is Goux’s overarching approach, adapted from Marx’s analysis of the fetishism of commodities in Book I of *Capital* as the generative principle in the formation of surplus value, that helps us frame a general theory of neoliberalism as *global governance by autonomous signifiers*.
 
 These signifiers are not so much a cover for “pure force and domination” as they are they are *the force of domination itself*.   Goux relies on Marx’s observations about how commodification serves as an anticipation of the ultimate epiphany of alienated labor under the aspect of money.  Political economy, not only for Marx but for a number of his predecessors, comes down to the issue of how value is created.
 

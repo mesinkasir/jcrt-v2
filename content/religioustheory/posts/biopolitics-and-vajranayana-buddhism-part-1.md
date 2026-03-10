@@ -4,7 +4,7 @@ description: "Biopolitics, as Michel Foucault argued, views populations through 
 date: '2016-05-27T00:43:59.000Z'
 author: editors
 image: >-
-  /images/2016/05/BuddhistprayerflagsinNepalatopstupawithBuddhaWisdomEyesbyKarnevilflickr.png
+  /images/2016/05/buddhistprayerflagsinnepalatopstupawithbuddhawisdomeyesbykarnevilflickr.webp
 categories:
   - Political Theology
   - World Religions
@@ -42,7 +42,7 @@ This economy and its associated regulations and laws directed towards the mainte
 
 Further, according to the concept of *raison d’etat*, or the “art of government” which originated in the police state as described by Foucault[^4] , the modern objective of these economic states, as in the form of the modern liberal democratic government, is to maintain an atmosphere of competition with no state rising too far above or below its peers, in other words, political economy[^5] . This particular
 
-![Portrait of French philosopher Michel Foucault taken on December 16, 1981 at the radio broadcast studio Europe 1 in Paris, France. (AP Photo/Alexis Duclos)/APHSL/AP8112160125_1/1309051648](/images/2016/05/sipa_ap21450348_000002-300x150.jpg)
+![Portrait of French philosopher Michel Foucault taken on December 16, 1981 at the radio broadcast studio Europe 1 in Paris, France. (AP Photo/Alexis Duclos)/APHSL/AP8112160125_1/1309051648](/images/2016/05/sipa_ap21450348_000002.webp)
 
 Portrait of French philosopher Michel Foucault taken on December 16, 1981 at the radio broadcast studio Europe 1 in Paris, France. (AP Photo/Alexis Duclos)/APHSL/AP8112160125\_1/1309051648
 
@@ -98,7 +98,7 @@ Through ritual practices such as deity yoga, an individual can veritably if not 
 
 This realization allows one to break samsara, the cycle of rebirth and re-death in this lifetime, but also allows one to circumvent an existing biopolitical regime.  Through the practice of Deity Yoga, one realizes true nature, that of not self. By realizing one’s true nature, one realizes that it is only their mind that potentially binds them to the world and subsequently, a biopolitical regime by the notion of clinging to the physical form, which is one of the roots of worldly suffering[^15] .
 
-![Shamanism in Mongolia](/images/2016/05/top-of-ovoo-mongolia-861x1148-225x300.jpg)
+![Shamanism in Mongolia](/images/2016/05/top-of-ovoo-mongolia.webp)
 
 Shamanism in Mongolia
 
@@ -144,7 +144,7 @@ One may see similarities with modern concepts of genetics in the seed syllable o
 
 With concerns towards the biopolitical, the contemporary fields of genetics and medicine can open up a debate concerning the wholeness of the human body; current advancements in genetics and other medical technologies that allow human modification such as organ transplants and various grafting techniques allow for the alteration and modification of existing human beings seen as whole individuals, thus bringing the wholeness of the individual into question.
 
-![yoga-657051_960_720](/images/2016/05/yoga-657051_960_720-300x169.jpg)This quandary coincides with Buddhist thought as far as the theory of no-self is concerned, as it teaches that very few things, human beings especially, can be thought of as ultimately real and permanent fixtures of reality. The deity yoga ritual can thus serve to draw attention to a metaphysical aspect of modern biopolitics in relation to contemporary biomedical pursuits which highlight the interchangeability of forms inherent to both the deity yoga ritual and the modern medical sciences. With current advances in the biomedical field there has come a “rupture with the perception of an integral body. The body is increasingly seen not as an organic substratum but as molecular software that can be read and rewritten”[^32] .
+![yoga-657051_960_720](/images/2016/05/yoga-657051_960_720.webp)This quandary coincides with Buddhist thought as far as the theory of no-self is concerned, as it teaches that very few things, human beings especially, can be thought of as ultimately real and permanent fixtures of reality. The deity yoga ritual can thus serve to draw attention to a metaphysical aspect of modern biopolitics in relation to contemporary biomedical pursuits which highlight the interchangeability of forms inherent to both the deity yoga ritual and the modern medical sciences. With current advances in the biomedical field there has come a “rupture with the perception of an integral body. The body is increasingly seen not as an organic substratum but as molecular software that can be read and rewritten”[^32] .
 
 The practitioner envisioning the summoned deity and all the beings of the universe dissolving into his or herself and granting their collective attributes to the practitioner can be seen as spiritually modifying the practitioner’s body with the ideal, perfected attributes of the summoned deity. This can be seen as the rewriting of one’s “spiritual” DNA by which one’s inner nature is altered[^33] .
 

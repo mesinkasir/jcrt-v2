@@ -5,7 +5,7 @@ title: >-
 description: "The following is the first of a two-part series. The entire article appears in Issue 22.1 of the Journal for Cultural and Religious Theory It highlights"
 date: '2023-07-27T16:21:05.000Z'
 author: editors
-image: /images/2023/08/Baruch_Spinoza_plaque_Budapest07_cropped-917x642.jpg
+image: /images/2023/08/baruch_spinoza_plaque_budapest07_cropped.webp
 categories:
   - Philosophy of Religion
 layout: theory.njk

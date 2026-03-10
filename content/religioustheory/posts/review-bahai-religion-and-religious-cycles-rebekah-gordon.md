@@ -3,7 +3,7 @@ title: Review – Bahai Religion And Religious Cycles (Rebekah Gordon)
 description: "Sergeev, Mikhail. Theory of Religious Cycles: Tradition, Modernity, and the Baha’i Faith. Amsterdam: Brill Rodopi, 2015. ISBN-10:9004300031. Paperback"
 date: '2017-06-07T05:18:55.000Z'
 author: editors
-image: /images/2017/06/churches-of-the-world.jpg
+image: /images/2017/06/churches-of-the-world.webp
 categories:
   - Reviews
 layout: theory.njk
@@ -43,7 +43,7 @@ Sergeev criticizes modernity for what he sees as its persistent moral decline, s
 
 Suggesting culture originates in any one place is highly reductive. Culture entails language, religion, food, dress, and many many other factors. To equate the complex entity that is culture to only one factor lacks the breadth of scope an all-encompassing theory of religion needs.
 
-This third thesis functionally bridges the divide between the first and second parts of the book. Part one of the book ![](/images/2017/06/4125h4r5XHL._SR600315_PIWhiteStripBottomLeft035_PIAmznPrimeBottomLeft0-5_PIStarRatingFIVEBottomLeft360-6_SR600315_SCLZZZZZZZ_.jpg)deals with pre-Enlightenment religions and their cycles, and part two covers Baha’i – which Sergeev uses as a model for good post-Enlightenment religion. This third thesis introduces the shift from traditional religions to “a new paradigm”.
+This third thesis functionally bridges the divide between the first and second parts of the book. Part one of the book ![](/images/2017/06/4125h4r5xhl-_sr600315_piwhitestripbottomleft035_piamznprimebottomleft0-5_pistarratingfivebottomleft360-6_sr600315_sclzzzzzzz.webp)deals with pre-Enlightenment religions and their cycles, and part two covers Baha’i – which Sergeev uses as a model for good post-Enlightenment religion. This third thesis introduces the shift from traditional religions to “a new paradigm”.
 
 *Thesis 4* – “The Baha’i ideology in many significant ways represents an extension of the modern worldview.” (116)
 

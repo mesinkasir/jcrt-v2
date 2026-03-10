@@ -6,7 +6,7 @@ description: "The following is the second of a two-part series. The first can be
 date: '2021-11-18T15:52:31.000Z'
 author: editors
 image: >-
-  /images/2021/11/Abrahams_Sacrifice_The_Sacrifice_of_Isaac_Met_DP888579-1119x642.jpg
+  /images/2021/11/abrahams_sacrifice_the_sacrifice_of_isaac_met_dp888579-1119x642.webp
 categories:
   - Philosophy of Religion
 layout: theory.njk

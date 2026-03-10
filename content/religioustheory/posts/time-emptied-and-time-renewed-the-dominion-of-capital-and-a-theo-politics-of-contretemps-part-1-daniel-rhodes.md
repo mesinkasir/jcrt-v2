@@ -5,7 +5,7 @@ title: >-
 description: "In his long-awaited interjection into the debates on the future of Marxism after the collapse of Soviet state communism, Jacques Derrida introduces the notion"
 date: '2016-12-01T05:48:01.000Z'
 author: editors
-image: /images/2016/12/capitalism_0.jpg
+image: /images/2016/12/capitalism_0.webp
 categories:
   - Philosophy
   - Political Theology
@@ -44,7 +44,7 @@ As a dominant time, it also informs rationality and orders history, establishing
 
 In order to better understand how capital captures time and thereby establishes its reign across social and
 
-![Karl Marx](/images/2016/12/Karl_Marx-300x150.jpg)
+![Karl Marx](/images/2016/12/karl_marx.webp)
 
 Karl Marx
 
@@ -68,7 +68,7 @@ Furthermore, for Plotinus, the harmonization of the soul to the intellect within
 
 Working within and at points against this Neo-Platonic conception, Augustine reconceived time in a decisive way for the Western tradition.[^19] It would be impossible to do complete justice to the complexity of Augustine’s thought in the small amount of space I have here to cover it, but for the purpose of my argument one main aspect that emerges from Augustine’s rendition of time must be mentioned. Theologically Augustine’s conception of time is influenced by his sense of salvation history, wherein time is not rendered circular but instead drives forward with a clear sense of direction.[^20]
 
-![Plotinus](/images/2016/12/Plotinus-214x300.jpg)
+![Plotinus](/images/plotinus.webp)
 
 Plotinus
 
@@ -94,7 +94,7 @@ Combined with a growing sense of progress, derived from the secularization of sa
 
 Again to glimpse the cultural manifestation of this emerging experience of time, Montesquieu’s *Letters from Paris* is illustrative. The epistolary novel at one and the same time shows how a growing sense of alienation accompanies the burgeoning sense of historical progress correlated to the emerging capital time that is becoming more pervasive and yet remains, because of uneven development, somewhat strange. Presenting European society to itself through the eyes of a foreigner, Montesquieu not only captures in representative form this inherent alienation but is also able in the same representation to communicate its sense of advancing civilization.
 
-At the center of industrial capitalism, Marx realized, “time as the measure of the exchange value of labor ![70208aed022875306c7d1c075490bd33](/images/2016/12/70208aed022875306c7d1c075490bd33-233x300.jpg)power renders its varied expressions homogenous and comparable from the point of view of the market.”[^30] By quantifying time “capital ‘usurps’ time,” liberating it from all other determinations so as to claim all time for itself. In this process, the central paradox of capital emerges whereby in its dedication to minimizing all constrictions on time and liberating it for production it also harnesses and “binds the time of human beings.”[^31] Rendering time quantifiable, capital transmogrifies the heterogeneous qualities of life (use, enjoyment, rest, mourning, etc.) into homogenous and exchangeable components, conforming them to a common measure.
+At the center of industrial capitalism, Marx realized, “time as the measure of the exchange value of labor ![70208aed022875306c7d1c075490bd33](/images/2016/12/70208aed022875306c7d1c075490bd33.webp)power renders its varied expressions homogenous and comparable from the point of view of the market.”[^30] By quantifying time “capital ‘usurps’ time,” liberating it from all other determinations so as to claim all time for itself. In this process, the central paradox of capital emerges whereby in its dedication to minimizing all constrictions on time and liberating it for production it also harnesses and “binds the time of human beings.”[^31] Rendering time quantifiable, capital transmogrifies the heterogeneous qualities of life (use, enjoyment, rest, mourning, etc.) into homogenous and exchangeable components, conforming them to a common measure.
 
 In contrast to a culture oriented by the stable calendric rhythm of holy days and ecclesial seasons, or the stable rotation of the cosmos and polis, within capitalist culture all moments are interchangeable, allowing them more easily to be captured within its circulatory flows. For, as Marx reminds us, “Moments are the elements of profits.”[^32] As the source of productivity, time rendered as quantifiable and rectilinear not only orders the social and political to accumulation but orients and shapes the human subject to this experience as well. Its disjointed time, configured as a series of homogenous and irreversible units ordered to growth and accumulation becomes the culturally dominant experience of time under the imperial sign of money.
 

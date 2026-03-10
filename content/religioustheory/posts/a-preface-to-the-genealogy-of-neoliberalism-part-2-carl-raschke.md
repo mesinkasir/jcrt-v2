@@ -3,7 +3,7 @@ title: 'A Preface To The Genealogy of Neoliberalism, Part 2 (Carl Raschke)'
 description: "The following is the second installment of a lecture delivered to the faculty and students of the Research Platform on Religion and Transformation from the"
 date: '2016-08-29T17:47:24.000Z'
 author: editors
-image: /images/2016/08/debt-slave.jpg
+image: /images/2016/08/debt-slave.webp
 categories:
   - Political Theology
   - Critical Conversations
@@ -32,7 +32,7 @@ The university “expropriates” the individual self-worth as well as the fina
 
 The uneducated –  the now obsolete menial laborers who still inhabit the economically faltering knowledge societies – are cast as the moral scapegoats in the same way people of color were throughout the colonialist and industrial eras, as David H. Freedman notes in his [caustic article in The Atlantic entitled “The War on Stupid People.](http://www.theatlantic.com/magazine/archive/2016/07/the-war-on-stupid-people/485618/)” Because these “useless”, uneducated holdovers from a bygone era of industrial production have frequently retained the chauvinism and biases that were systematically employed to set them against other wage earners in previous generations, the same divide-and-conquer strategy has now been ruthlessly engineered by the neoliberal elites themselves to camouflage the reality of the new system of exploitation, which casts its net over peoples of all colors.
 
-Just as Marx called religion the “opium” of the masses a century and a half ago, so excessive types of ![Mcmumms_PD](/images/2016/08/Mcmumms_PD-300x231.jpg)secular idealistic political crusading could in many instances be considered the heroin of the degreed classes. As various writers have emphasized in recent months, the promise of neoliberalism was always that  worker sacrifices, including the breakup of unions, longer working hours, deferred employment through a commitment to higher education would “lift all boats,” as the saying went, and usher in a new era of productivity and prosperity. While productivity has increased, prosperity has not, and it is those who are the bottom of the economic food chain who are the ones who are showing the first, real signs of rebellion.
+Just as Marx called religion the “opium” of the masses a century and a half ago, so excessive types of ![Mcmumms_PD](/images/2016/08/mcmumms_pd.webp)secular idealistic political crusading could in many instances be considered the heroin of the degreed classes. As various writers have emphasized in recent months, the promise of neoliberalism was always that  worker sacrifices, including the breakup of unions, longer working hours, deferred employment through a commitment to higher education would “lift all boats,” as the saying went, and usher in a new era of productivity and prosperity. While productivity has increased, prosperity has not, and it is those who are the bottom of the economic food chain who are the ones who are showing the first, real signs of rebellion.
 
 Although such an “economy” had been interwoven for centuries with the “pastorate” itself — a phenomenon which when driven to excess by the Renaissance popes helped to spark the Protestant Reformation — there was always within all variations of Christianity the built-in breaker of Jesus’ ethical and spiritual teachings of the Sermon on the Mount. In other words, the pastorate in its “cure” of bodies and souls was always compelled to temper the pain of debt with forgiveness.   Secular biopolitics as the heir to the pastorate has never had such a constraint. In fact, according to Lazzarato, the biopolitics of the neoliberal order is incorporated at its very power centers on the dispensation, regulation, perpetuation, and discursive dissimulation of indebtedness.
 
@@ -56,7 +56,7 @@ At the same time, it hybridized this libertarian proclivities with the newfound 
 
 The result, Harvey argues, was the creation of a new more “socially conscious”, meritocratic ruling class which, particularly after the collapse of Communism, employed various political “wedge issues” to gain political dominance and gradually economic hegemony, which became the adhesive for its new, expanding global empire.
 
-![Robot-Public-Domain-520x245](/images/2016/08/Robot-Public-Domain-520x245-300x141.jpg)The financial crisis of 2008 was indeed the output of predatory lending practices.  But it was also promoted by both the Clinton and Bush administrations as a strategy for increasing home ownership among previously marginalized groups – a classic tactic of neoliberalism.  The fact that the banks which had sponsored this predatory lending were immediately bailed out by the very government that had backed them (unlike in previous crises where financial institutions take the hit) under the pretext of forestalling the social chaos which its very practices had engendered.
+![Robot-Public-Domain-520x245](/images/2016/08/robot-public-domain.webp)The financial crisis of 2008 was indeed the output of predatory lending practices.  But it was also promoted by both the Clinton and Bush administrations as a strategy for increasing home ownership among previously marginalized groups – a classic tactic of neoliberalism.  The fact that the banks which had sponsored this predatory lending were immediately bailed out by the very government that had backed them (unlike in previous crises where financial institutions take the hit) under the pretext of forestalling the social chaos which its very practices had engendered.
 
 Neoliberalism seduces with the promise of freedom, but ends up disenfranchising those who are caught up within it while slapping on the irons of debt servitude. In the end, according to Lazzarato, it can only “govern the economy through drastic limits to democracy and a no less drastic drop in the expectations of the governed.”6  Lazzarato draws on the anthropology of Nietzsche to make the case that the substitution within the neoliberal order of the much vaunted mechanism of exchange (so-called “democratic capitalism”) for the debt regime is the direct result of this seduction. There is no “zero point” from which economic relationships historically emanate. They all begin with initial conditions of dependency and domination.
 
@@ -84,7 +84,7 @@ Ronald Reagan’s infamous “supply side” economic policies, though it was sh
 
 The belief that Reagan and his conservative successors somehow “reduced” federal hegemony
 
-![John Maynard Keynes](/images/2016/08/John-Maynard-Keynes-300x234.jpg)
+![John Maynard Keynes](/images/2016/08/john-maynard-keynes.webp)
 
 John Maynard Keynes
 

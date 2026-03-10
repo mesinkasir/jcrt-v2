@@ -5,7 +5,7 @@ title: >-
 description: "The following is the first of a three-part series. The full article is also available in the Spring 2022 issue of the Journal for Cultural and Religious Theory"
 date: '2022-07-04T02:37:00.000Z'
 author: editors
-image: /images/2022/08/Iaptdbras.jpg
+image: /images/2022/08/iaptdbras.webp
 categories:
   - Anthropology of Religion
   - Art Theory

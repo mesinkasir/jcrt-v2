@@ -3,7 +3,7 @@ title: 'A Preface To The Genealogy of Neoliberalism, Part 1 (Carl Raschke)'
 description: "The following is the first installment of a lecture delivered to the faculty and students of the Research Platform on Religion and Transformation from the"
 date: '2016-08-22T06:04:22.000Z'
 author: editors
-image: /images/2016/08/Malabon-City.jpg
+image: /images/2016/08/malabon-city.webp
 categories:
   - Political Theology
   - Critical Conversations
@@ -42,7 +42,7 @@ In the political and social such a disarticulation has profound practical conseq
 
 II.
 
-What we are witnessing today is not only the climax of a long-burgeoning crisis of liberal democracy itself but the tremors of a gigantic crackup of an international system of previously well-functioning ideals and values, which are as much cultural and political as they are economic.   The global crisis of ![freedom-of-speech-public-domain-national-archive-records-administration-photo-750](/images/2016/08/freedom-of-speech-public-domain-national-archive-records-administration-photo-750-300x168.png)political democracy, therefore, emanates from the jumbling of categories used in the machinery of the most “sacred’ referencing systems that delineate fundamental world views and constitute the semiotic cement of human solidarity — the idioms of “justice”, the language of God, or the discursive norms for how we talk meaningfully about the “political” as a whole.
+What we are witnessing today is not only the climax of a long-burgeoning crisis of liberal democracy itself but the tremors of a gigantic crackup of an international system of previously well-functioning ideals and values, which are as much cultural and political as they are economic.   The global crisis of ![freedom-of-speech-public-domain-national-archive-records-administration-photo-750](/images/2016/08/freedom-of-speech-public-domain-national-archive-records-administration-photo-750.webp)political democracy, therefore, emanates from the jumbling of categories used in the machinery of the most “sacred’ referencing systems that delineate fundamental world views and constitute the semiotic cement of human solidarity — the idioms of “justice”, the language of God, or the discursive norms for how we talk meaningfully about the “political” as a whole.
 
 Everything is up for grabs. Multiculturalism, for example, undermines the sense of identity that hitherto had been the bedrock of national consciousness. Amid the so-called “clash of civilizations”, therefore, even so-called “human rights” are relativized and regarded merely as “Western.” They can be contrasted, for instance, with the “Islamic” take of what it means not only to be human, but also to have such “rights.” Instead they are regarded as “colonial” or “Orientalist” constructs that must be unmasked as mere ideologies.
 
@@ -66,7 +66,7 @@ Radicals and those who call themselves “progressives” these days are accusto
 
 Neoliberalism is really not about economics, but about *values,* (as I argued extensively in *Force of God*) instantiating them in almost invisible routines of symbolic exchange that have profound economic effects. The “economic” form of neoliberalism, as we are beginning to realize, is a merely a contingent manifestation of what Foucault dubbed the biopolitical means of “governmentality”.  Ever since Adam Smith we have derived the familiar types of political organization from economic means of production and distribution (as implied in the eighteenth century concept of “political economy).”
 
-Thus a productive analysis of neoliberalism requires in many ways, as Maurizio Lazzarato has made ![Open](/images/2016/08/Open-300x225.jpg)clear to us, an investigation into the value-sources of our social and economic condition — a good, old-fashioned, Nietzschean “genealogy of morals.” According to such theorists as Foucault, Harvey, and Lazzarato, neoliberalism (taking into account their different degrees of emphasis) amounts to a configuration of power relations in an expressive articulation of embedded social valuations which, in turn, frequently employ the rhetoric of economicism — and economic “well-being” — both to mask the reality of elite domination and to exploit the humane instincts of those who are dominated. In short. *homo neoliberalismus* only wears the colorful costumes of classical *homo economicus*.
+Thus a productive analysis of neoliberalism requires in many ways, as Maurizio Lazzarato has made ![Open](/images/2016/08/open.webp)clear to us, an investigation into the value-sources of our social and economic condition — a good, old-fashioned, Nietzschean “genealogy of morals.” According to such theorists as Foucault, Harvey, and Lazzarato, neoliberalism (taking into account their different degrees of emphasis) amounts to a configuration of power relations in an expressive articulation of embedded social valuations which, in turn, frequently employ the rhetoric of economicism — and economic “well-being” — both to mask the reality of elite domination and to exploit the humane instincts of those who are dominated. In short. *homo neoliberalismus* only wears the colorful costumes of classical *homo economicus*.
 
 Like Frank Baum’s Wizard of Oz, *homo neoliberalismus* is a grand illusionist who manipulates our willingness to be enchanted by what Nietzsche called the “highest values” to our ultimate servitude. Every historical form whereby this articulation is made manifest consists in what Foucault called a dispositif, an “apparatus” whereby power, knowledge, discourse, and personal inclination are mobilized and intercalated to produce such a magic theater of signs, what [Michael Lerner has termed without irony the “politics of meaning.”](https://books.google.com/books?id=mfvWAAAAMAAJ&q=lerner+the+politics+of+meaning&dq=lerner+the+politics+of+meaning&hl=en&sa=X&ved=0ahUKEwiN-8aMrtbOAhUW5WMKHeVcC5cQ6AEIHjAA)
 
@@ -78,7 +78,7 @@ These defenses are not merely virtual. They involve real weaponry, usually to pr
 
 Kantian morality in its more diffuse and global-political guises becomes the subtle template for a new *universalistic* biopolitics rotating around the Foucaldian double axis of “power/knowledge”. The same
 
-![Michel Foucault](/images/2016/08/foucault-298x300.jpg)
+![Michel Foucault](/images/2016/08/foucault.webp)
 
 Michel Foucault
 

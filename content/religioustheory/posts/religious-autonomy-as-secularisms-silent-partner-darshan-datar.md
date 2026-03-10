@@ -3,7 +3,7 @@ title: Religious Autonomy As Secularism’s Silent Partner (Darshan Datar)
 description: "Scholarship has noted that the genealogical trajectory of a state has consistently had an impact on the evolution of state-church relationships It highlights"
 date: '2017-05-31T04:39:51.000Z'
 author: editors
-image: /images/2017/05/IMG_1444.jpg
+image: /images/2017/05/img_1444.webp
 categories:
   - Political Theology
   - Political Theory
@@ -45,7 +45,7 @@ Perhaps it would, at this stage, be prudent to demonstrate how courts understand
 
 > \[S\]ecularism is the civil organizer of political, social and cultural life, based on national sovereignty, democracy, freedom and science. Secularism is the principle which offers the individual the possibility to affirm his or her own personality through freedom of thought and which, by the distinction it makes between politics and religious beliefs, renders freedom of conscience and religion effective. In societies based on religion, which function with religious thought and religious rules, political organization is religious in character. In a secular regime religion is shielded from a political role. It is not a tool of the authorities and remains in its respectable place, to be determined by the conscience of each and every one.[^10]
 
-This form of secularism as understood by liberal courts emerged from social revolutions, which underpinned the notion of a Christian Dualism that constructed a secular and a religious sphere.[^11] The revolutions set out the contours for a very traditional view of secularism, which largely gave rise to the proposition that religion was an evil that plagued governance and in turn threated popular sovereignty through its function as a social organizer. The concept of secularism that emerged through these revolutions, specifically the French revolution, advocated for a radical separation of religion from![](/images/2017/05/8ff38ec147286a86949fe70761e2005c-272x300.jpg) politics. This separation signified a rupture between ecclesiastical sphere and political sphere. The goal that this radical form of secularism seeks to achieve is to prevent religion from dominating public life. It further ensures that the seat of sovereignty is not based on an ecclesiastical order but with a constitutionally approved sovereign. To put it flamboyantly: It was the victory of a constitution over theology.
+This form of secularism as understood by liberal courts emerged from social revolutions, which underpinned the notion of a Christian Dualism that constructed a secular and a religious sphere.[^11] The revolutions set out the contours for a very traditional view of secularism, which largely gave rise to the proposition that religion was an evil that plagued governance and in turn threated popular sovereignty through its function as a social organizer. The concept of secularism that emerged through these revolutions, specifically the French revolution, advocated for a radical separation of religion from![](/images/2017/05/8ff38ec147286a86949fe70761e2005c.webp) politics. This separation signified a rupture between ecclesiastical sphere and political sphere. The goal that this radical form of secularism seeks to achieve is to prevent religion from dominating public life. It further ensures that the seat of sovereignty is not based on an ecclesiastical order but with a constitutionally approved sovereign. To put it flamboyantly: It was the victory of a constitution over theology.
 
 This specific radical separation continues to be seen in certain liberal secular regimes. The first regime that comes to mind is the regime in France, which was consolidated by the law in 1905. The French system predicates itself on a radical dominance over religion. As mentioned by Michel Trooper, the 1905 law does not form much of a rupture or deviation from the previous regime under Napoleon.[^12] The argument I derive from this is that all forms of secularism have within them an inherent urge for the domination of religion by the state apparatus.[^13]
 
@@ -73,7 +73,7 @@ At this point we must understand what religious autonomy is to fully grasp why i
 
 Dane further observed that the problem of religious autonomy arises from secular law trying to make sense of an ecclesiastical order and structurally protects the ecclesiastical order from a complete domination by the secular order.[^30] It is therefore not surprising that cases of religious autonomy seem to consistently arise out of the law exerting normative superiority over a religious order. What the secular order aims to do is to restructure a religious order’s internal functioning in line with the universal values derived from secular values.[^31] It would thus be prudent to conclude that religious
 
-![](/images/2017/05/anticatholicriots-300x161.jpg)
+![](/images/2017/05/anticatholicriots.webp)
 
 Anti-catholic riots in Philadelphia, 1844.
 
@@ -97,7 +97,7 @@ What is plainly apparent from the aforementioned decisions is that there is a li
 
 The strand of legal thought which has advocated for the reversion to militant secularism to engage with the threat of the reemergence of religion in the public sphere has perhaps misunderstood what is at stake in this issue. They have neglected to fully theorize the relationship between secularism in a liberal constitutionalist setting and its relationship with the liberal order as well as the world of ecclesiastical politics.
 
-By assuming that secularism is a tool of governance that enables the state to exert dominance over religion without any formal checks and balances other than rights based measures, we do not appreciate that secularism itself is a structural check on governmental authority. It is not merely a structural check against the excessive influence of religion in government but also a check on the excessive influence of government over the working of an ecclesiastical order.![](/images/2017/05/constitutionalism-300x125.jpg)
+By assuming that secularism is a tool of governance that enables the state to exert dominance over religion without any formal checks and balances other than rights based measures, we do not appreciate that secularism itself is a structural check on governmental authority. It is not merely a structural check against the excessive influence of religion in government but also a check on the excessive influence of government over the working of an ecclesiastical order.![](/images/2017/05/constitutionalism.webp)
 
 By thinking about secularism as a structural check, on the capacity of government to make decisions—much in the same way as separation of powers between the executive, the legislative and the executive—we may better appreciate how pivotal religious autonomy is as a necessary component of secularism in liberal democratic regimes.  By understanding secularism as a structural check we understand that religious autonomy is its silent unwritten partner, and this prevents the contortion of secularism in liberal states to justify the violation of religious freedoms in the name of neutrality.
 

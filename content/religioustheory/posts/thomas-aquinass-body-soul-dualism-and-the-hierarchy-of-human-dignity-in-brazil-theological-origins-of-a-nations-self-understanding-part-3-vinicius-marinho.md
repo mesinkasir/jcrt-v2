@@ -6,7 +6,7 @@ title: >-
 description: "The following is the second of a three-part series.The first can be found here, the second here. In sum, Boff proposes that a person is an indivisible body-soul"
 date: '2021-08-16T23:10:00.000Z'
 author: editors
-image: /images/2021/08/HagiaSophia_Dome_pixinn.net_-1210x642.jpg
+image: /images/2021/08/hagiasophia_dome_pixinn-net.webp
 categories:
   - Indigenous Religions
 layout: theory.njk

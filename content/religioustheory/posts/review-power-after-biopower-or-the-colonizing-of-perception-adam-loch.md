@@ -3,7 +3,7 @@ title: 'Review – Power After Biopower, Or The Colonizing Of Perception (Adam L
 description: "*Massumi, Brian. Ontopower: War, Powers, and the State of Perception. Durham NC: Duke University Press, 2015. Hardcover, Paperback, E-book, ix + 320 pages.* A"
 date: '2017-11-28T14:09:56.000Z'
 author: editors
-image: /images/2017/11/PicassoGuernica.jpg
+image: /images/2017/11/picassoguernica.webp
 categories:
   - Reviews
 layout: theory.njk
@@ -29,7 +29,7 @@ In this penetrating erudition of process philosophy-meets-affect theory, Massumi
 
 This task is not without it’s own challenges given that this kind of logic operates below the threshold of conscious awareness. However, the piecemeal organization of chapters does not help in distinguishing preemption from the broader genus of ontopowerful, transhistorical tendencies called operative logics. Though the challenge of wading through this dense thicket of profound insight calls for a familiarity with Massumi’s previous works or with some of the above mentioned authors, *Ontopower* equips readers with conceptual tools for identifying mechanisms of preemptive power and for evaluating events as power expressions of the singular, abstract forces (e.g. pragmatism of concepts) that govern the actual working-out of an operative logic.
 
-Massumi organizes the text into three parts with an afterword which warrants reading twice over to digest. In “Part One: ![](/images/2017/11/IMG_2543-300x225.jpg)Powers,” Massumi compares preemption to Cold War era logics of deterrence and prevention and furthermore lays out key concepts for grappling with preemption as an operative logic of power— the “universal accident,” “singular-generic,” “prototerritory,” and “bare activity,” to name a few.
+Massumi organizes the text into three parts with an afterword which warrants reading twice over to digest. In “Part One: ![](/images/2017/11/img_2543.webp)Powers,” Massumi compares preemption to Cold War era logics of deterrence and prevention and furthermore lays out key concepts for grappling with preemption as an operative logic of power— the “universal accident,” “singular-generic,” “prototerritory,” and “bare activity,” to name a few.
 
 Chapters three and four of “Part Two: Powers of Perception” develop these concepts further by describing how perception itself is weaponized and, with reference to key texts in military theory, how the U.S. war-machine evolves to operate in the complex and uncertain threat-environment of a post-9/11 reality.  Chapters six and seven of “Part Three: The Power to Affect” return to the domestic front in a discussion of the ontogenetic effectiveness of the color-coded terror alert system and how threat is affectively self-causing in lieu of a “clear and present danger.”
 
@@ -43,7 +43,7 @@ This event-logic, which posits the subject (knower) and object (known) as co-eme
 
 Preemption then orders itself ontogenetically around the uncertainty of threat (taking power to the edge at the level of emergence), making the virtuality of future threat felt in the present moment affectively as fear and, in turn, effectively poising bodies for action before it emerges. This self-renewing momentum of preemption unfurls as a life cycle of the threat-event—virtuality of future threat produces present affect of fear (effectively poising bodies for action), preemptive action catches the threat before it emerges, and actions retroactively legitimized because if it could have happened it would have, looping *ad infinitum* with an indefinite reach.
 
-![](/images/2017/11/623529446_aefb3892c3_b-300x200.jpg)An example of these threat-events is the 2003 invasion of Iraq on the premise “to disarm Iraq of weapons of mass destruction,” which were later found to be nonexistent, only to be retroactively legitimized because of the double conditional would-have/could-have: “Saddam Hussein *could have* had weapons of mass destruction and *if* he had had them, he *would have* used them” (13, italics from original text). The operative logic of preemption is therefore dangerously proliferative because it’s object and cause converge in the uncertainty of enemy attack, generating a self-renewing circuitry of preemptive action that is affectively driven by the virtuality of future threat (e.g. the affect of fear in present moment).
+![](/images/2017/11/623529446_aefb3892c3_b.webp)An example of these threat-events is the 2003 invasion of Iraq on the premise “to disarm Iraq of weapons of mass destruction,” which were later found to be nonexistent, only to be retroactively legitimized because of the double conditional would-have/could-have: “Saddam Hussein *could have* had weapons of mass destruction and *if* he had had them, he *would have* used them” (13, italics from original text). The operative logic of preemption is therefore dangerously proliferative because it’s object and cause converge in the uncertainty of enemy attack, generating a self-renewing circuitry of preemptive action that is affectively driven by the virtuality of future threat (e.g. the affect of fear in present moment).
 
 It’s this self-causing aspect of operative logics which make them so ontopowerful and its the logic of preemption which marks an unprecedented exercise of power. Nature itself is redefined as a menacing, indiscriminate threat wherein “the overall environment of life now appears as a complex, systematic threat environment, composed of subsystems that are not only complex in their own right but are complexly interconnected” (29). With nature now appearing as a complex and uncertain threat-environment war powers telescope to the infra-level of bare activity so as to ontopowerfully leverage the indeterminate potential of threat to reemerge on less aleatory and more manageable grounds.
 
@@ -55,7 +55,7 @@ Notwithstanding how *Ontopower* expertly deconstructs military theory and advanc
 
 What is the affective drive propelling the self-renewing momentum of neoliberalism and neoconservatism, if any? Given the visceral potency of fear and concomitant susceptibility of bodies to be innervated by fear (chapter 6), is it possible to have an operative logic not predicated on fear? Are there other “dispositional angles of affectivity” capable of governing alternative operative logics? Seeing as five of the chapters had been published prior to composing *Ontopower* (chapters 1, 2, 3, 6, and 7), it’s up to the reader to extract themes which cut across the text as a whole. Key concepts like affectivity can consequently fall through the cracks, lacking a comprehensiveness that leaves its role in operative logics (other than preemption) somewhat unclear. Although Massumi goes to great lengths in the preface and afterword to elucidate the complexity of ontopower and operative logics thereof, the piecemeal organization of the book could benefit from the addition of transitional summaries in each chapter to improve accessibility.
 
-![](/images/2017/11/Brian-Massum-public-domain-300x180.jpg)
+![](/images/2017/11/brian-massum-public-domain.webp)
 
 Brian Massumi
 

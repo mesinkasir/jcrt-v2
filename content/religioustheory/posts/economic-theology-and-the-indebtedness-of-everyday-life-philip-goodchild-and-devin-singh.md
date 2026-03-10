@@ -5,7 +5,7 @@ title: >-
 description: "The following is the transcript of “Critical Conversations” No. 9, an ongoing series of Zoom seminars conducted by Whitestone Publications with distinguished"
 date: '2021-05-31T03:33:35.000Z'
 author: editors
-image: /images/2021/06/bancnotes.png
+image: /images/2021/06/bancnotes.webp
 categories:
   - Political Theology
   - Political Theory

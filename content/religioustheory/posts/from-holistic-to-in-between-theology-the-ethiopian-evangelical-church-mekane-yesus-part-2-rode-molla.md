@@ -5,7 +5,7 @@ title: >-
 description: "The following is the second of a three-part series. The first can be found here. Tumsa, as a theologian, focused on social justice and the hermeneutical"
 date: '2022-04-30T14:21:06.000Z'
 author: editors
-image: /images/2022/05/Dassanech_Girl_Omerate_Ethiopia_21073880372-1-1200x642.jpg
+image: /images/2022/05/dassanech_girl_omerate_ethiopia_21073880372-1.webp
 categories:
   - Postcolonial Theory
   - Theology

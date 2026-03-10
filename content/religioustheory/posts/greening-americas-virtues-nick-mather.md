@@ -3,7 +3,7 @@ title: Greening America’s Virtues (Nick Mather)
 description: "The United States likes to present itself as a global leader, yet, when it comes to tackling what is arguably the greatest crisis facing humanity, global"
 date: '2024-10-02T11:59:01.000Z'
 author: editors
-image: /images/2024/10/Rockymountainnps_1-1210x642.jpg
+image: /images/2024/10/rockymountainnps_1.webp
 categories:
   - Religion and Ecology
 layout: theory.njk

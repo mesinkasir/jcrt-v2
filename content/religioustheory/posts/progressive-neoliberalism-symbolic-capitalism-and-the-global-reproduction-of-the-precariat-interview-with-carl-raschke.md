@@ -5,7 +5,7 @@ title: >-
 description: "*Raschke, Carl. Neoliberalism and Political Theology: From Kant to Identity Politics. Edinburgh: Edinburgh University Press, 2019 It highlights key arguments"
 date: '2020-07-05T20:19:28.000Z'
 author: editors
-image: /images/2020/07/IMG_6855.jpeg
+image: /images/2020/07/img_6855.webp
 categories:
   - Interviews
 layout: theory.njk
@@ -22,7 +22,7 @@ tags:
 
 **Raschke, Carl.  *[Neoliberalism and Political Theology: From Kant to Identity Politics](https://books.google.com/books?id=uCTBwgEACAAJ&dq=neoliberalism+and+political+theology&hl=en&newbks=1&newbks_redir=0&sa=X&ved=2ahUKEwj4mPvmiPTlAhVG4qwKHaqYAhgQ6AEwAXoECAIQAg).*  Edinburgh: Edinburgh University Press, 2019.  ISBN-13: 978-1474454551.**
 
-![](/images/2020/07/IMG_5428-689x1024.jpg)
+![](/images/2020/07/img_5428.webp)
 
 **NP:** *What was your motivation to write Neoliberalism and Political Theology: From Kant to Identity Politics?  We all know that neoliberalism is something that has been at top of the charts among progressive thinkers for the past two decades.  Do you really have anything new to contribute?*
 

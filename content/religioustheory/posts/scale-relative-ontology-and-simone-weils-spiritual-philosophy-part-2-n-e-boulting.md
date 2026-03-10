@@ -5,7 +5,7 @@ title: >-
 description: "The following is the second of a two-part series. The first can be found here. Two not unrelated factors result in her rejection of ‘the New Science’ besides"
 date: '2021-05-18T13:32:16.000Z'
 author: editors
-image: /images/2021/05/Fishing-pole.png
+image: /images/2021/05/fishing-pole.webp
 categories:
   - Philosophical Theology
 layout: theory.njk

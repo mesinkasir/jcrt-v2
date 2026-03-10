@@ -5,7 +5,7 @@ title: >-
 description: "The following is the second of a two-part series. The first installment, published on Dec. 19, 2016, can be found here. In Writing Degree Zero, Barthes suggests"
 date: '2016-12-26T20:34:30.000Z'
 author: editors
-image: /images/2016/12/selfport.jpg
+image: /images/2016/12/selfport.webp
 categories:
   - Philosophy
   - Philosophy of Religion
@@ -42,7 +42,7 @@ The big “event” of the late 1960s France, was of course May of 1968, which b
 
 Moreover, Badiou claims that “Political sequences, bearing the stamp of the event, are one thing; philosophical eternity, even if, in its construction, it is conditioned by politics, is another.”[^6]  In Deleuze’s language, “philosophical eternity” would be the occupied space of *aion* against *chronos*. But aion occupies an envelope around the linear projection of the political, attempting a critique of the very shaping of articulation itself and how it comes to be.  In this sense, Deleuze’s paradoxical tandem to Badiou’s
 
-![Paris 1968](/images/2016/12/Paris-1968-200x300.jpg)
+![Paris 1968](/images/2016/12/paris-1968.webp)
 
 Paris 1968
 
@@ -78,7 +78,7 @@ A musical analogy is helpful here. Deleuze and Guattari keenly describe how the 
 
 The zero degree element sees the objectivity of the language, its medium, etc. in contradistinction to the idiolect which would relate to some sort of authorial style.  The abstract machine is able to see the linguistic performance as a manifestation of *langue* or the unconscious rather than parole, or speech.
 
-![tesla](/images/2016/12/Tesla-300x242.jpg)Finally, I would equate the ability to analyze the machinic component of a text to the ability to see it as potentially schizophrenic rupture, as a limit or gap in the otherwise seamless and normative flow of capitalism.  One thinks of the holes in time and the map in the Terry Gilliam film, *Time Bandits*.  Or, as a brilliant keyboard player I know once referred to an LSD experience: “I could hear *behind* the music.”  Deleuze and Guattari refer to something quite similar, though cryptically in their discussion of Artaud in their chapter, “How to Make Yourself a Body without Organs.” Explicitly citing Artaud’s discussion of *Ciguri* from *The Peyote Dance*, they write:
+![tesla](/images/2016/12/tesla.webp)Finally, I would equate the ability to analyze the machinic component of a text to the ability to see it as potentially schizophrenic rupture, as a limit or gap in the otherwise seamless and normative flow of capitalism.  One thinks of the holes in time and the map in the Terry Gilliam film, *Time Bandits*.  Or, as a brilliant keyboard player I know once referred to an LSD experience: “I could hear *behind* the music.”  Deleuze and Guattari refer to something quite similar, though cryptically in their discussion of Artaud in their chapter, “How to Make Yourself a Body without Organs.” Explicitly citing Artaud’s discussion of *Ciguri* from *The Peyote Dance*, they write:
 
 But there is in human existence another plane, obscure and formless, where consciousness has not entered, and which surrounds it like an unlimited extension or a menace, as the case may be.  And which itself gives off adventurous sensations, perceptions.  These are those shameless fantasies which affect an unhealthy conscious…I too have had false sensations and perceptions and I have believed in them.
 
@@ -92,7 +92,7 @@ Let me return now to the last sentence of my thesis.  I made the claim that the
 
 What, exactly, am I claiming is non-existent?  Along with François Cusset, I think I would claim that the political ties that structuralism had to Marxian critique by way of Althusser, as Deleuze points out in *Difference and Repetition*, are non-existent in contemporary American society, despite the attempts of Occupy movements and Bernie Sanders supporters.  They, like their more conservative liberal peers who backed Hillary Clinton, are still addicted to a logic of the externalized wish-fulfillment of individual and subjective “wills.”
 
-Those perspectives mistake their privileged liberal fantasies for reality and when confronted with the ![283f036e4a31383bb7b7c01c420b47d7](/images/2016/12/283f036e4a31383bb7b7c01c420b47d7-200x300.jpg)bubble they live in attempt change the rules of a game they agreed to and lost after the fact.  This “do-over” mentality achieves nothing but a normalized, capitalistic buffer blinded to the ejaculations of the schizophrenic.  Even the president who is about to leave office encouraged the nation in a condescendingly paternalistic voice that “we” Americans would show “the world” what a peaceful transition to rightwing power ought to be: submit through a politics of respectability to the cocks they will shove down your throats.  And the flipside, which some predict, that an impeachment will occur before the first term is up, only rely on a politics of respectability and not a demand for justice, which would be forming barricades like the Paris commune.
+Those perspectives mistake their privileged liberal fantasies for reality and when confronted with the ![283f036e4a31383bb7b7c01c420b47d7](/images/2016/12/283f036e4a31383bb7b7c01c420b47d7.webp)bubble they live in attempt change the rules of a game they agreed to and lost after the fact.  This “do-over” mentality achieves nothing but a normalized, capitalistic buffer blinded to the ejaculations of the schizophrenic.  Even the president who is about to leave office encouraged the nation in a condescendingly paternalistic voice that “we” Americans would show “the world” what a peaceful transition to rightwing power ought to be: submit through a politics of respectability to the cocks they will shove down your throats.  And the flipside, which some predict, that an impeachment will occur before the first term is up, only rely on a politics of respectability and not a demand for justice, which would be forming barricades like the Paris commune.
 
 We are not becoming animals, in Deleuze’s terms, we are already domesticated chattel.
 

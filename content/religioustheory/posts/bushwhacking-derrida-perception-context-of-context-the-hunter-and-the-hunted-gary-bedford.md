@@ -5,7 +5,7 @@ title: >-
 description: "After Derrida, how can philosophy continue to think critically, and for our task here, ontologically2…? Can a critique of the context of perception via its"
 date: '2020-08-10T21:54:19.000Z'
 author: editors
-image: /images/2020/08/Screen-Shot-2020-08-17-at-5.00.03-PM.png
+image: /images/2020/08/screen-shot-2020-08-17-at-5-00-03-pm.webp
 categories:
   - Philosophy
 layout: theory.njk

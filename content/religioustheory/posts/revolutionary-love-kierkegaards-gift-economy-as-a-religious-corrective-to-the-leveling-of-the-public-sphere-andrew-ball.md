@@ -5,7 +5,7 @@ title: >-
 description: "Though Kierkegaard is typically considered to be the consummate philosopher of the single individual, his critique of secular modernity and institutional"
 date: '2020-05-16T18:21:11.000Z'
 author: editors
-image: /images/2020/05/876px-S%C3%B8ren_Kierkegaard_1813-1855_-_9645353110.jpg
+image: /images/2020/05/876px-s-ren_kierkegaard_1813-1855_-_9645353110.webp
 categories:
   - Philosophical Theology
   - Philosophy of Religion

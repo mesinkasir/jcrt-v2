@@ -5,7 +5,7 @@ title: >-
 description: "The following is the second of a three-part series. The first can be found here. At this point Derrida’s appraisal of Heidegger’s Introduction to Metaphysics"
 date: '2022-02-15T22:42:32.000Z'
 author: editors
-image: /images/2022/02/Holsweg.png
+image: /images/2022/02/holsweg.webp
 categories:
   - Philosophy of Religion
   - Mythology

@@ -5,7 +5,7 @@ title: >-
 description: "*Schaefer, Donovan O. Religious Affects: Animality, Evolution, and Power. Durham NC: Duke University Press, 2015. ISBN 10: 978-0-8223-5982-1, 10: It highlights"
 date: '2016-06-03T04:17:59.000Z'
 author: editors
-image: /images/2016/06/Busy-Fall.jpg
+image: /images/2016/06/busy-fall.webp
 categories:
   - Reviews
   - Philosophy

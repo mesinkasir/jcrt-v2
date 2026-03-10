@@ -5,7 +5,7 @@ title: >-
 description: "The following is part one of an article that will be published in three successive installments. > TRINCULO Servant-monster! The folly of this island!"
 date: '2017-07-28T22:17:23.000Z'
 author: editors
-image: /images/2017/07/pda44.jpg
+image: /images/2017/07/pda44.webp
 categories:
   - Religion and Literature
 layout: theory.njk
@@ -44,7 +44,7 @@ To underline the appositeness of such cross-referencing, I would counterpoise Mu
 
 Auden, even as he turns from one national citizenship to another, acts out…a conversion of citizenship itself, a new
 
-![](/images/2017/07/wh-auden-pangur-224x300.png)
+![](/images/2017/07/wh-auden-pangur.webp)
 
 W.H. Auden
 
@@ -92,7 +92,7 @@ In its “Preface (*The Stage Manager to the Critics*),” “The Sea and the Mi
 > 
 > Our wonder, our terror remains.
 
-The Stage Manager’s stanzas in “The Sea and the Mirror” complicate the stakes of Joseph’s plea. Whereas in “For ![](/images/2017/07/hamlet_performance-300x151.jpg)the Time Being” the Holy Family flees from an authority that is chiefly political,[^32] in “The Sea and the Mirror” authority pertains instantly to “Existence” and its more existentialist air of “surprise,” “wonder,” and “terror.” Notably, as affects that crisscross the threshold between secularity and religiosity, these nouns extend the oratorio’s theological focus on embodied anxiety, which Auden inflects via Kierkegaard’s *The Concept of Anxiety* and its anthropological trinity.[^33] In the commentary’s Preface, more specifically, surprise, wonder, and terror presuppose anxiety insofar as the latter ventures with the apprehensive Holy Family from the oratorio’s texts of religious epiphany through the aesthetic plane of the commentary’s mirror.
+The Stage Manager’s stanzas in “The Sea and the Mirror” complicate the stakes of Joseph’s plea. Whereas in “For ![](/images/2017/07/hamlet_performance.webp)the Time Being” the Holy Family flees from an authority that is chiefly political,[^32] in “The Sea and the Mirror” authority pertains instantly to “Existence” and its more existentialist air of “surprise,” “wonder,” and “terror.” Notably, as affects that crisscross the threshold between secularity and religiosity, these nouns extend the oratorio’s theological focus on embodied anxiety, which Auden inflects via Kierkegaard’s *The Concept of Anxiety* and its anthropological trinity.[^33] In the commentary’s Preface, more specifically, surprise, wonder, and terror presuppose anxiety insofar as the latter ventures with the apprehensive Holy Family from the oratorio’s texts of religious epiphany through the aesthetic plane of the commentary’s mirror.
 
 Moreover, in the oratorio’s final movement, the mundane secularity of noontime[^34] not only prefigures the surprised, wondrous, and terrified reflections to which anxiety is privy in the mirror of Auden’s Shakespearean commentary; this secular poetics of noontime also anticipates the Stage Manager’s recourse to “Science” for a possible answer to his own existential query on “authority.” Drawing the Holy Family *behind* the surface of the “Mirror” through which they would pass, that is, the Stage Manager entertains empiricism’s resolve to unveil the supernatural as smoke and mirrors: “the ghosts who haunt our lives,” including perhaps the Holy Ghost of Trinitarian Christology, “Are handy with mirrors and \[with the\] wire” that allows us to frame and suspend the reflecting glass upon our household walls.
 
@@ -114,7 +114,7 @@ Curiously, when pinpointing Caliban’s allusion to the meta-theatrical crux of 
 
 More suggestively, by rereading “the mirror up to nature” in the broader context of *Hamlet* 3.2, we notice not only the Baudelairean deftness in Auden’s substitution of “Sea” for “Nature,”[^46] but also the proximity of “tempest” and “Herod” to the very Shakespearean metaphor that predicates Auden’s poetic commentary. Near the end of “For the Time Being,” as I noted above, Auden refers the Holy Family to a “Mirror” through which “No authority can pass.” In *Hamlet* 3.2, Herod, the authority from whom the Holy Family flees, signifies the histrionic excess Hamlet’s Players must circumvent by adhering to “the modesty of nature” and by holding “the mirror up to nature.”[^47]
 
-![](/images/2017/07/Image-1-1-300x300.jpg)Consonantly, Hamlet’s sense of dramatic passion as a “tempest,” alongside “torrent” and “whirlwind,” further spirits the Holy Family of “For the Time Being” beyond the oratorio’s marginal threshold with “The Sea and the Mirror”: by allegorically smuggling Joseph, Mary, and Jesus across this textual border, Auden implicitly situates the heterodox body of Christ[^48] *both* *before* the mirror of art, which will reflect the Messiah’s “form and pressure” in “the very age and body of the time”;[^49] *and* *behind* its reflective surface, where the mirror’s “wire”[^50] and *tain* bolster virtue’s “own image”[^51] via the disseminative “ghosts who haunt our lives.”[^52]
+![](/images/2017/07/image-1-1.webp)Consonantly, Hamlet’s sense of dramatic passion as a “tempest,” alongside “torrent” and “whirlwind,” further spirits the Holy Family of “For the Time Being” beyond the oratorio’s marginal threshold with “The Sea and the Mirror”: by allegorically smuggling Joseph, Mary, and Jesus across this textual border, Auden implicitly situates the heterodox body of Christ[^48] *both* *before* the mirror of art, which will reflect the Messiah’s “form and pressure” in “the very age and body of the time”;[^49] *and* *behind* its reflective surface, where the mirror’s “wire”[^50] and *tain* bolster virtue’s “own image”[^51] via the disseminative “ghosts who haunt our lives.”[^52]
 
 This admittedly circuitous reading of “The Sea and the Mirror” as an allegorical port of entry for the oratorio’s rather queer Holy Family[^53] pivots on two crucial remarks from Auden’s correspondence and table talk, which highlight the commentary’s aesthetic and religious aims. “The Sea and the Mirror,” Mendelson explains,[^54] is a poem about poetry. Its subtitle describes it as “A Commentary on Shakespeare’s *The Tempest*,” as if it were a work of literary criticism. In form it is a long quasi-dramatic work in verse and prose in which the characters of Shakespeare’s play comment on their experiences and most of them have strong opinions about the relation between art and life. Prospero and Caliban, who are given the longest speeches, talk about little else. Auden confirm this interpretation in letters to friends. He told Ursula Niebuhr that “The Sea and the Mirror” was “really about the Christian conception of art,” and to Theodore Spencer he wrote that it was “my Ars Poetica, in the same way I believe *The Tempest* to be Shakespeare’s, i.e., I am attempting, which in a way is absurd, to show, in a work of art, the limitation of art.”
 

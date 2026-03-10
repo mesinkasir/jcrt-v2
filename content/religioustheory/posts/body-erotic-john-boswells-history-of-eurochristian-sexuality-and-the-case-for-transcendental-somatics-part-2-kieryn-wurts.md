@@ -5,7 +5,7 @@ title: >-
 description: "The following is the second of a three-part series. The first can be found here. Social constructionist theory developed as an answer to essentialist theories"
 date: '2023-05-08T17:11:28.000Z'
 author: editors
-image: /images/2023/05/Jerusalem_gay_pride_parade_05-1-1200x642.jpg
+image: /images/2023/05/jerusalem_gay_pride_parade_05-1.webp
 categories:
   - Gender Studies
 layout: theory.njk

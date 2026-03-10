@@ -6,7 +6,7 @@ description: "This project was provoked by the almost nonexistent pushback from 
 date: '2023-03-16T03:14:11.000Z'
 author: editors
 image: >-
-  /images/2023/04/800px-Volute_krater_wedding_purifying_B_Lucania_Roccanova_Painter_350-325_BC_Prague_NM-H10_4759_151621.jpg
+  /images/2023/04/800px-volute_krater_wedding_purifying_b_lucania_roccanova_painter_350-325_bc_prague_nm-h10_4759_151621.webp
 categories:
   - Indigenous Religions
   - Postcolonial Theory

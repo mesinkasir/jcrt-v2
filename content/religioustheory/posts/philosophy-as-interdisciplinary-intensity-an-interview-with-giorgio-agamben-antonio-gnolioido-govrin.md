@@ -5,7 +5,7 @@ title: >-
 description: "The following is an interview with the famed Continental philosopher Giorgio Agamben conducted by journalist Antonio Gnolio It highlights key arguments"
 date: '2017-02-06T18:07:41.000Z'
 author: editors
-image: /images/2017/02/intensity.jpg
+image: /images/2017/02/intensity.webp
 categories:
   - Philosophy
   - Philosophy of Religion
@@ -51,7 +51,7 @@ Giorgio Agamben wrote a beautiful book. His books are always dense and bright (a
 
 **GA:** I discovered Simone Weil in Paris in 1963 or ’64, when I bought by chance the first edition of the
 
-![Giorgio Agamben](/images/2017/02/agamben-c2-300x200.jpg)
+![Giorgio Agamben](/images/2017/02/agamben-c2.webp)
 
 Giorgio Agamben
 
@@ -87,7 +87,7 @@ Cahiers[^3] at the Tschann bookstore in Montparnasse. I remained so dazzled by i
 
 **AG:** What captivated you?
 
-**![art-geometry-circle-district-disc-target-black](/images/2017/02/art-geometry-circle-district-disc-target-black-300x200.jpg)GA:** The fact that they were two forms of purely analogical thought, which perceived resemblances and correspondences in a place where no one else knew to find them. The analogy is a form of knowledge that our culture increasingly pushed to the margins. As for Calvino’s geometric and scientific concept, I believe it is correct. His concept was rather an extraordinary form of analogical imagination, a kind of interpretative drive that allowed him, each time, to redraw the geography of literary knowledge.
+**![art-geometry-circle-district-disc-target-black](/images/2017/02/art-geometry-circle-district-disc-target-black.webp)GA:** The fact that they were two forms of purely analogical thought, which perceived resemblances and correspondences in a place where no one else knew to find them. The analogy is a form of knowledge that our culture increasingly pushed to the margins. As for Calvino’s geometric and scientific concept, I believe it is correct. His concept was rather an extraordinary form of analogical imagination, a kind of interpretative drive that allowed him, each time, to redraw the geography of literary knowledge.
 
 **AG:** At the beginning you pointed out your friendship with Elsa Morante. What your relationship like with a woman of such complex character?
 
@@ -105,7 +105,7 @@ Cahiers[^3] at the Tschann bookstore in Montparnasse. I remained so dazzled by i
 
 **GA:** These controversies rest on a misunderstanding of the definition of “anti-Semitism” and its use. The
 
-![Walter Benjamin](/images/2017/02/Walter_Benjamin_vers_1928-248x300.jpg)
+![Walter Benjamin](/images/2017/02/walter_benjamin_vers_1928.webp)
 
 Walter Benjamin
 

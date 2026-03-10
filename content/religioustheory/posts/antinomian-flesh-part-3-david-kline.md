@@ -3,7 +3,7 @@ title: 'Antinomian Flesh, Part 3 (David Kline)'
 description: "The following is the third of a three-part series. The first can be found here, the second here. Both before nomos and therefore its condition of enactment, the"
 date: '2020-11-09T05:00:05.000Z'
 author: editors
-image: /images/2020/11/Toni_Morrison_2008-2.jpg
+image: /images/2020/11/toni_morrison_2008-2.webp
 categories:
   - Religion and Race
 layout: theory.njk

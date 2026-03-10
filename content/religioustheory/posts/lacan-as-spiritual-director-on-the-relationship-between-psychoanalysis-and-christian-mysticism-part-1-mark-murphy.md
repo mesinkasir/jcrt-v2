@@ -5,7 +5,7 @@ title: >-
 description: "Spiritual direction is defined as the help one gives to another in developing one’s relationship with the sacred, while the treatment of psychological symptoms"
 date: '2018-07-31T21:05:28.000Z'
 author: editors
-image: /images/2018/07/IMG_1638.jpg
+image: /images/2018/07/img_1638.webp
 categories:
   - Psychology of Religion
   - Psychoanalysis

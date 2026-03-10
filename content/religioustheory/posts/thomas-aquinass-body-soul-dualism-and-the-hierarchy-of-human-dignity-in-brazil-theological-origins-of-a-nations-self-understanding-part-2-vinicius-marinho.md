@@ -6,7 +6,7 @@ title: >-
 description: "The following is the second of a three-part series. The first can be found here. The Ecclesial Endeavor to Define the Brazilian Soul: a Summa of the Colonial"
 date: '2021-08-09T23:05:23.000Z'
 author: editors
-image: /images/2021/08/800px-Bororo004.jpg
+image: /images/2021/08/800px-bororo004.webp
 categories:
   - Indigenous Religions
   - Postcolonial Theory

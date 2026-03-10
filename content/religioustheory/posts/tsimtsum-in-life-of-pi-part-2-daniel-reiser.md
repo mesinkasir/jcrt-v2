@@ -4,7 +4,7 @@ description: "The following is the second of a four-part series. The first can b
 date: '2020-12-08T05:12:16.000Z'
 author: editors
 image: >-
-  /images/2020/12/Scheme_of_Christian_Kabbalism_from_Heinrich_Khunrath_Amphiteatrum_sapientiae_aeternae_MET_DP820686-1.jpg
+  /images/2020/12/scheme_of_christian_kabbalism_from_heinrich_khunrath_amphiteatrum_sapientiae_aeternae_met_dp820686-1.webp
 categories:
   - Jewish Philosophy of Religion
 layout: theory.njk

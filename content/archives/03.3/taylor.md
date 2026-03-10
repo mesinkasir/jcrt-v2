@@ -23,7 +23,7 @@ York College of Pennsylvania
 > > **August 17, 1921**  
 > > _Esteemed Director: I am writing this letter in bed. I wanted to return to Prague on the 19th of this month, but I am afraid that it won't be possible. For several months I have been almost free of fever, but on Sunday I woke with a fever which climbed to over 38 degrees and still continues today. It's probably not the result of a cold, but one of those chance things common to lung disease which one cannot avoid. The doctor who examined me and found my lungs to be in good condition except for a stubborn remnant considers this acute fever to have little significance._[^1]
 
-![](https://jcrt.org/archives/03.3/images/image002.jpg)
+![](images/image002.webp)
 
 Kafka in 1923-24 [^2]
 
@@ -33,29 +33,29 @@ _The City of K.: Franz Kafka and Prague_ is an ambitious and unsettling postmode
 
     > Prague doesn't let go. Of either of us. This old crone has claws. One has to yield, or else. We would have to set fire to it on two sides, at the Vy'ehrad and at the Hradčany; then it would be possible for us to get away.[^4]
 
-![](https://jcrt.org/archives/03.3/images/image004.jpg)
+![](images/image004.webp)
 
 _Audiovisual_ _Traffic_ (_Verkehr_) [^5]
 
-    ![](https://jcrt.org/archives/03.3/images/image006.jpg)
+    ![](images/image006.webp)
 
-    ![](https://jcrt.org/archives/03.3/images/image008.jpg)
+    ![](images/image008.webp)
 
     _The Civil Servant and the Artist_ [^6]
 
     _Measures for the Prevention of Accidents_ [^7]
 
-    ![](https://jcrt.org/archives/03.3/images/image010.jpg)
+    ![](images/image010.webp)
 
-    ![](https://jcrt.org/archives/03.3/images/image012.jpg)
+    ![](images/image012.webp)
 
     _The Burrow_ [^11]
 
     From the installation _In the Penal Colony_ [^12]
 
-    ![](https://jcrt.org/archives/03.3/images/image014.jpg)
+    ![](images/image014.webp)
 
-    ![](https://jcrt.org/archives/03.3/images/image016.jpg)
+    ![](images/image016.webp)
 
     _Prague Castle_ [^14]
 

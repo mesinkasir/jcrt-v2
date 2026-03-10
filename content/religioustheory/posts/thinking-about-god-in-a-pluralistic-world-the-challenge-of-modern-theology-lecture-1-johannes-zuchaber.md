@@ -5,7 +5,7 @@ title: >-
 description: "The following is the first lecture in an eight lecture series. A couple of days ago, I read a column in a national newspaper whose title had a strange"
 date: '2018-05-12T16:22:51.000Z'
 author: editors
-image: /images/2018/05/Christian-mosaic.jpg
+image: /images/2018/05/christian-mosaic.webp
 categories:
   - Theology
   - Psychoanalysis
@@ -40,7 +40,7 @@ To see this significance, we only have to remember that, as far as we know, athe
 
 Christians in turn called pagans “atheists” because they did not know the true God. Up to the 17th century, in Europe atheism normally denoted the denial of God’s trinitarian nature. And even in 17th century France, where atheism in our modern sense of the word had become a favourite topic of intellectual debate, such debates could still be punctured by the admission that no one had actually ever met an atheist.
 
-Atheism then is, in an eminent sense, a product of the Christian world in Western Europe, and this at once![](/images/2018/05/images.jpg) shows why it is relevant for a theological lecture such as this one. As the societies – in which atheism became an option for the first time – were at the time thoroughly Christian, can we avoid the irritating suspicion that there may be a connection between this dominance of Christianity and its transformation through the various reform movements of the late Middle Ages and of Early Modernity on the one hand and the rise of atheism from the late 17th century on the other? In other words, is there something in the Christian conceptualisation of God that made this development possible? And if so, does this mean that the rise of atheism has in itself a theological significance?
+Atheism then is, in an eminent sense, a product of the Christian world in Western Europe, and this at once![](/images/2018/05/images.webp) shows why it is relevant for a theological lecture such as this one. As the societies – in which atheism became an option for the first time – were at the time thoroughly Christian, can we avoid the irritating suspicion that there may be a connection between this dominance of Christianity and its transformation through the various reform movements of the late Middle Ages and of Early Modernity on the one hand and the rise of atheism from the late 17th century on the other? In other words, is there something in the Christian conceptualisation of God that made this development possible? And if so, does this mean that the rise of atheism has in itself a theological significance?
 
 Our thinking about God then takes place in an environment in which atheism has become a viable existential option, and this fact cannot and should not be ignored – in the own best interest of theological reflection. Yet atheism is not the only aspect to be considered.
 
@@ -84,7 +84,7 @@ Xenophanes is not criticising religion per se: what he opposes is the tendency t
 
 Thus, the imperative to think and speak of God in a way that avoids the use of improper anthropomorphisms leads directly to the problem of how we can know and speak of God at all? Is there anything we can legitimately say of God without falling into this trap?
 
-The most influential attempts to solve this problem have come down under the label of the ‘three ways’ of ![](/images/2018/05/unknown-artist-agnus-dei-lamb-of-god-cappella-di-san-zenone-basilica-di-santa-prassede-all_esquillino-roma-italy-9th-century-300x180.jpg)divine predication. The first of those is the ‘way of eminence,’ which was held notably by Duns Scotus. According to this view, predicates we use for finite being in a limited way apply to God in an unlimited or eminent way. In other words, when we say God loves, this means essentially the same as saying ‘a mother loves,’ except that God’s love brings the love of the mother to a kind of perfection that one cannot find among human beings. In a similar way, one might say that calling God omnipotent is saying that he possesses what we call power, yet in a degree otherwise unknown.
+The most influential attempts to solve this problem have come down under the label of the ‘three ways’ of ![](/images/2018/05/unknown-artist-agnus-dei-lamb-of-god-cappella-di-san-zenone-basilica-di-santa-prassede-all_esquillino-roma-italy-9th-century.webp)divine predication. The first of those is the ‘way of eminence,’ which was held notably by Duns Scotus. According to this view, predicates we use for finite being in a limited way apply to God in an unlimited or eminent way. In other words, when we say God loves, this means essentially the same as saying ‘a mother loves,’ except that God’s love brings the love of the mother to a kind of perfection that one cannot find among human beings. In a similar way, one might say that calling God omnipotent is saying that he possesses what we call power, yet in a degree otherwise unknown.
 
 Before him, Thomas Aquinas had argued for a subtly different understanding of these common predicates. Thomas thought that we used them neither in completely different meanings (equivocally) nor strictly univocally as Duns would maintain, but analogically. The meaning is not the same, but it is related because God created the world. Here is what he writes at one point in his magisterial *Summa Theologica*:
 
@@ -118,7 +118,7 @@ Thus, it was only under the conditions of modernity that this dichotomy opened u
 
 Not surprisingly, it is again Karl Barth who led the fiercest assault arguing that from a theological point of view, knowledge of God
 
-![](/images/2018/05/karl-barth-236x300.jpg)
+![](/images/2018/05/karl-barth.webp)
 
 Karl Barth
 

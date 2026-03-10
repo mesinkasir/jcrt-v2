@@ -4,7 +4,7 @@ description: "The following is the second of a three-part series. The first can 
 date: '2020-10-26T04:28:31.000Z'
 author: editors
 image: >-
-  /images/2020/11/black_background_close_up_dark_face_fashion_female_girl_lady-1560227.jpg
+  /images/2020/11/black_background_close_up_dark_face_fashion_female_girl_lady-1560227.webp
 categories:
   - Religion and Race
 layout: theory.njk

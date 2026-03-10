@@ -3,7 +3,7 @@ title: Critical Conversations – “On Decoloniality” With Walter Mignolo (An
 description: "An earlier version of this posting had the date listed as “December,” which would imply the webinar had already occurred It highlights key arguments and"
 date: '2020-12-29T20:12:22.000Z'
 author: editors
-image: /images/2020/12/Wmignolo.jpg
+image: /images/2020/12/wmignolo.webp
 categories:
   - Announcements
   - Political Philosophy

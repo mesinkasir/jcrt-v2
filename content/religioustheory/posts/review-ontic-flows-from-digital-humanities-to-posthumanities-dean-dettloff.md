@@ -5,7 +5,7 @@ title: >-
 description: "*Bernico, Matt, and Kölke, Manuela (Eds.). Ontic Flows: From Digital Humanities to Posthumanities. New York: Atropos Press, 2016. ISBN-10: 1940813085 It"
 date: '2017-05-25T01:00:00.000Z'
 author: Books
-image: /images/2017/05/IMG_1445.jpg
+image: /images/2017/05/img_1445.webp
 categories:
   - Reviews
   - World Religions
@@ -32,7 +32,7 @@ Under the heading “Reflections on Digital Culture,” we encounter three openi
 
 Authors Ashley Ellis and Spencer Compton offer helpful articulations of the digital ramifications for individual identity and relationships; that both essays are also situated in some uncannily familiar phenomenological terms (dealing with problems of memory, time, and, in Compton’s case, explicitly with Heidegger and Levinas) makes them especially useful. The third essay, by Daryman Kiliman, also takes up anthropological themes, but through a careful look at Electronic Dance Music, exhibiting the need for media analyses to look directly at media.
 
-The following section heading, “Transforming Digital Research & Pedagogy,” signals a transition to a cluster of essays that![](/images/2017/05/ontic-flows-194x300.jpg) each experiment with the educational possibilities opened up by digital media. These essays are anything but rote application, however. John Brittingham, for example, plays the part of a digital Pierre Hadot, imagining how the use of certain technologies do or do not fundamentally transform and disrupt a philosophical way of life, while Jonathan Heaps attempts to think through scholarly method using the tools of theological polymath Bernard Lonergan and psychologist Jean Piaget.
+The following section heading, “Transforming Digital Research & Pedagogy,” signals a transition to a cluster of essays that![](/images/2017/05/ontic-flows.webp) each experiment with the educational possibilities opened up by digital media. These essays are anything but rote application, however. John Brittingham, for example, plays the part of a digital Pierre Hadot, imagining how the use of certain technologies do or do not fundamentally transform and disrupt a philosophical way of life, while Jonathan Heaps attempts to think through scholarly method using the tools of theological polymath Bernard Lonergan and psychologist Jean Piaget.
 
 Frederick W. Gibbs, in an essay called “The Poetics of Digital Scholarship,” looks at the challenges digital media poses for academic habits developed in and for a print ecology, including citation conventions and critical review (the somewhat amphibious space of *Religious Theory*, situated between a peer-reviewed journal and a blog, is in fact an interesting test case for some of Gibbs’ ideas). These themes are picked up again by John Monroe, who considers the complexities of Wikipedia, not simply rehearsing the stereotype of Wikipedia as a problem for citation and research one encounters with young or lazy scholars, but rather as a platform that presents knowledge, that is, acts as a pedagogue, in unique ways.
 

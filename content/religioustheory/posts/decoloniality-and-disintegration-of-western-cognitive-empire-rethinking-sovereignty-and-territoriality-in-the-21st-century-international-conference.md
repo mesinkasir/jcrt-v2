@@ -5,7 +5,7 @@ title: >-
 description: "Sponsored by The New Polis, Whitestone Publications, and Metropolitan State University of Denver in collaboration with members of the Iliff School of Theology"
 date: '2021-03-22T14:13:36.000Z'
 author: editors
-image: /images/2021/03/Machu_Picchu_Peru.jpg
+image: /images/2021/03/machu_picchu_peru.webp
 categories:
   - Announcements
   - Conferences

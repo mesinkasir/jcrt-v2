@@ -6,7 +6,7 @@ description: "The following is the second of a three-part series. The first can 
 date: '2022-07-12T02:50:01.000Z'
 author: editors
 image: >-
-  /images/2022/08/800px-Haitian_vodou_altar_to_Petwo_Rada_and_Gede_spirits_November_5_2010..jpg
+  /images/2022/08/800px-haitian_vodou_altar_to_petwo_rada_and_gede_spirits_november_5_2010.webp
 categories:
   - Anthropology of Religion
   - Art Theory

@@ -5,7 +5,7 @@ title: >-
 description: "*Han, Sam. Technologies of Religion: Spheres of the Sacred in a Post-Secular Modernity. Routledge Research in Information Technology and Society 19 142 pages."
 date: '2016-07-14T11:45:56.000Z'
 author: Books
-image: /images/2016/07/Internet-handshake.jpg
+image: /images/2016/07/internet-handshake.webp
 categories:
   - Religion and Media
   - New Religions
@@ -34,7 +34,7 @@ The author claims to focus his study on “worship and community,” looking esp
 
 The author engages sociologists of religion (especially Max Weber and those engaged with his work), digital media studies, and studies about modern, American Protestantism. Han tempers this focus on lived religions in the 20th century with an extended engagement with critical, social theorists (e.g., Deleuze and Asad), and, particularly in chapters four to six, with scholars of secularism (e.g., Mark Taylor). The theoretical richness of Han’s work is one of the most powerful and provocative components of his monograph, and Han’s demonstration of a breadth of interest and knowledge bodes well for his project and those like it in the future.
 
-In chapter one Han uses Max Weber’s idea of *incommensurability* to argue![ae06959d61bbc46ed0549d00a2b87f21](/images/2016/07/ae06959d61bbc46ed0549d00a2b87f21-300x169.jpg) that both technology and religion – contrary to the secularist claim that these concepts are epistemologically different – have the same basic goal: *representation*. Han, in the second chapter of *Technologies of Religion*, argues that both religions and technologies seek to create worlds in which humans are able to live both materially and psychically, citing specific examples of how Bright Church’s digital media strategy aims to create these *cosmogonic* phenomena.
+In chapter one Han uses Max Weber’s idea of *incommensurability* to argue![ae06959d61bbc46ed0549d00a2b87f21](/images/2016/07/ae06959d61bbc46ed0549d00a2b87f21.webp) that both technology and religion – contrary to the secularist claim that these concepts are epistemologically different – have the same basic goal: *representation*. Han, in the second chapter of *Technologies of Religion*, argues that both religions and technologies seek to create worlds in which humans are able to live both materially and psychically, citing specific examples of how Bright Church’s digital media strategy aims to create these *cosmogonic* phenomena.
 
 In chapters three and four Han discusses his idea that the “religious use of digital technology” produces an “environmental or architectural” sphere for the adherent, focusing on embodiment and community. Han’s fifth chapter takes up the topic of contemporary capitalism, arguing that “living in a ‘post-secular’ age can also mean living amid the ‘return’ of metaphysics, under the regime of consumer capitalist spirituality” (107).
 
@@ -48,7 +48,7 @@ More specifically, Han’s chapters (four to six) on postmodernism, secularizati
 
 While part 1 engages lived religion and online religion in an American, Protestant, multisite megachurch, dealing squarely with the utilization of technology to engender new, digital spheres of religious practice, Part 2 turns almost solely to the secularization hypothesis, and its relationship to post-modern forms of religious practice.
 
-![string theory](/images/2016/07/string-theory-300x169.jpg)Thus, the most notable connection between part 1 and part 2 is Han’s focus on the social nature of postmodern religiosity. And so, for example, his discussion of the ultimate importance Bright Church’s Online Church chat room may be linked to his conclusion about the re-emergence of the religious bereft of Transcendence, *but this is not a connection Han makes explicit*.
+![string theory](/images/2016/07/string-theory.webp)Thus, the most notable connection between part 1 and part 2 is Han’s focus on the social nature of postmodern religiosity. And so, for example, his discussion of the ultimate importance Bright Church’s Online Church chat room may be linked to his conclusion about the re-emergence of the religious bereft of Transcendence, *but this is not a connection Han makes explicit*.
 
 In conclusion, Han’s *Technologies of Religion* is a good book for those interested in the intersections of religions and technologies as well as scholars who are compelled by the secularization hypothesis and/or those investigating the nature of religion and humanity in our post-modern, late capitalist, consumer culture.
 

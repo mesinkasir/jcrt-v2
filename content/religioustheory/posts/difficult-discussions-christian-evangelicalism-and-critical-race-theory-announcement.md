@@ -5,7 +5,7 @@ title: >-
 description: "When: Thursday, September 23, 2021, 10 am-12 pm (Mountain Daylight Time) Register for online seminar: It highlights key arguments and implications for"
 date: '2021-07-26T21:38:31.000Z'
 author: editors
-image: /images/2021/07/DD-l-709x642.png
+image: /images/2021/07/dd-l.webp
 categories:
   - Announcements
   - Difficult Discussions

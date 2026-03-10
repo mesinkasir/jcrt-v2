@@ -6,7 +6,7 @@ title: >-
 description: "The New Polis in collaboration with the Journal for Cultural and Religious Theory (part of The Whitestone Foundation of publications) announces a webinar-based"
 date: '2021-01-13T01:13:02.000Z'
 author: editors
-image: /images/2021/01/1600px-Machu_Picchu__the_lost_city_of_the_inca_empire.jpg
+image: /images/2021/01/1600px-machu_picchu_the_lost_city_of_the_inca_empire.webp
 categories:
   - Announcements
   - Conferences

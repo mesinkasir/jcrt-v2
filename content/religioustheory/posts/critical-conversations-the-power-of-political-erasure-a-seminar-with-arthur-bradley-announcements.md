@@ -5,7 +5,7 @@ title: >-
 description: "Sign up for this online seminar with distinguished British political philosopher Arthur Bradley on the compelling and most timely issue of “political erasure.“"
 date: '2022-03-02T03:50:10.000Z'
 author: editors
-image: /images/2022/03/Guernica_museum_sofia_queen_on_july_2018-rotated-1210x642.jpg
+image: /images/2022/03/guernica_museum_sofia_queen_on_july_2018-rotated.webp
 categories:
   - Announcements
   - Political Philosophy

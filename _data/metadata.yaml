@@ -56,10 +56,10 @@ sidebar:
     sections:
       - title: The New Polis
         list: 
-          - image: "/img/tnp.png"
+          - image: "/img/tnp.webp"
             text: "The New Polis is an online publication dedicated to critical theory, social analysis, and political philosophy and theology."
             url: "https://thenewpolis.com/"
-          - image: "/img/tnpj.png"
+          - image: "/img/tnpj.webp"
             text: "The New Polis Journal is a peer-reviewed academic journal publishing cutting-edge work in political philosophy, social theory, and related fields."
             url: "https://journal.thenewpolis.com/"
     button: 
@@ -84,6 +84,16 @@ sidebar_footer:
 site_footer:
   text: '<a href="https://jcrt.org" target="_blank">The Journal for Cultural and Religious Theory (JCRT)</a> is an online, peer-reviewed, academic publication published by <a href="http://thewhitestonefoundation.org/">The Whitestone Foundation</a>, a 501c3 corporation located in Boulder, Colorado. ISSN 1530-5228. Indexed by <a href="https://www.ebsco.com/">EBSCO</a>. Listed with <a href="https://duotrope.com/">Duotrope</a>. Copyright © The Whitestone Foundation dba The Journal for Cultural and Religious Theory'
   year_start: 1999
+  link1: JCRT
+  url1: https://jcrt.org/
+  link2: The New Polis Journal
+  url2: https://journal.thenewpolis.com/
+  link3: The New Polis
+  url3: https://thenewpolis.com/
+  link4: Esthesis
+  url4: https://esthesis.org/
+  link5: The Whitestone Foundation
+  url5: https://thewhitestonefoundation.org/
 
 site: 
   title: RELIGIOUS THEORY

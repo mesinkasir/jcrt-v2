@@ -5,7 +5,7 @@ title: >-
 description: "The following is the second part in a two-part installment. The first part can be found here. In Kearnian terms, then, the John portrayed by Luke is one who has"
 date: '2018-01-28T23:44:10.000Z'
 author: editors
-image: /images/2018/01/24054189.a75190ba.640.jpg
+image: /images/2018/01/24054189-a75190ba-640.webp
 categories:
   - Philosophy of Religion
   - Religious Studies
@@ -50,7 +50,7 @@ Yet John clearly sees a difference between *preparing the space for the kingdom*
 
 It is, perhaps, this belief that he was not the Messiah that distinguished John from Jesus. Jesus accepted the
 
-![](/images/2018/01/Richard-Kearny-300x169.jpg)
+![](/images/2018/01/richard-kearny.webp)
 
 Richard Kearny
 
@@ -74,7 +74,7 @@ To be sure, the Gospel writer of Luke is clear that John’s baptism is supersed
 
 Yet this move makes sense in the Kearnian scheme of encounter with *persona*. Put simply, if an encounter with the *persona* of John the Baptizer through the tehomic waters opened a person up to the possibilities of the kingdom of God, how much more open would they become through an encounter with the *prosopon par excellence* of Christ?  It is a *qal va-homer* argument: if John’s baptism leads to transfiguration and an opening to the divine possibilities, even more so does baptism in Christ, the one most fully open to divine possibility.
 
-![](/images/2018/01/1024px-Nuremberg_chronicles_-_BASILEA-300x152.png)Does this argument, however, leave John back where we found him, the opening act before Jesus’ main event? In a sense, yes. Yet it is perhaps better to think of John more in terms of a preliminary act rather than an opening act. The opening act is extraneous, while the preliminary act sets the stage for what is to come. Though John is awaiting the Messiah to come,[^5] I suggest that he plays an essential role in opening Jesus up to the possibilities of the Basilea and thus the *persona* of Christ.
+![](/images/2018/01/1024px-nuremberg_chronicles_-_basilea.webp)Does this argument, however, leave John back where we found him, the opening act before Jesus’ main event? In a sense, yes. Yet it is perhaps better to think of John more in terms of a preliminary act rather than an opening act. The opening act is extraneous, while the preliminary act sets the stage for what is to come. Though John is awaiting the Messiah to come,[^5] I suggest that he plays an essential role in opening Jesus up to the possibilities of the Basilea and thus the *persona* of Christ.
 
 It is Jesus’ encounter with John’s unique *persona*, I would argue, that opens Jesus up to the potentialities and promises of the God who may be. Again, to be a *prosopon* requires an encounter with another *prosopon.* In baptizing Jesus, John initiates Jesus’ first *prosopon* encounter, his first *prosopon transfiguration,* which acts as the word of the Lord did for John, setting Jesus in motion towards his public ministry and his increasing connection with the *persona* of Christ, the connection that Kearney sees reaching its apex in The Transfiguration.
 
@@ -98,7 +98,7 @@ To sketch briefly Marion’s Eucharistic hermeneutic, he understands Christ as t
 
 For Marion, an event is a fleeting encounter with the dynamic divine; words are the leftover “relic” or “trace.” The words do not contain the event, but only memorialize it.  Even correctly interpreted, the texts can only lead the disciples to an elapsed event.
 
-![](/images/2018/01/christ-breaking-bread-300x199.jpg)A new event, the advent of the Living Referent, is necessary for entering into the fullness of the text. As Marion commentator Scott David Foutz notes, “Marion concedes that all fall short of the ability to arrive at a full understanding of the text apart from the aid of the Living Word himself.”[^8] In terms of the Emmaus passage, this advent of the Living Referent comes in the form of Christ’s self-disclosure that culminates in breaking bread with the disciples so that their eyes were opened to Christ’s appearance to them.
+![](/images/2018/01/christ-breaking-bread.webp)A new event, the advent of the Living Referent, is necessary for entering into the fullness of the text. As Marion commentator Scott David Foutz notes, “Marion concedes that all fall short of the ability to arrive at a full understanding of the text apart from the aid of the Living Word himself.”[^8] In terms of the Emmaus passage, this advent of the Living Referent comes in the form of Christ’s self-disclosure that culminates in breaking bread with the disciples so that their eyes were opened to Christ’s appearance to them.
 
 Marion thus sees the Eucharist as continuing to function as a place of encounter with the Living Referent, so that in the Eucharist the text of a past event bursts with fullness. He argues, “The Eucharist alone completes the hermeneutic; the hermeneutic culminates in the Eucharist; the one assures the other its condition of possibility: the intervention in person of the referent of the text as center of its meaning…”[^9]
 
@@ -118,7 +118,7 @@ It is a chaotic concrescence opening the person to the reaches of their *persona
 
 Baptism thus understood acts an entrance into the bubbling burst of divine dance. Kearney talks of the perichoretic dance within the trinity of God, humanity, and the Kingdom. “The *perichoresis,*” he notes, “is the dance around the *khora*. *Peri-chora*.”[^12] The throbbing of the *khora* is the beat that propels the dance, and baptism is the opening into its rhythms.
 
-![](/images/2018/01/baptism-of-christ-300x229.jpg)
+![](/images/2018/01/baptism-of-christ.webp)
 
 From a hermeneutical standpoint, the God of promise emerges by looking through the waters of possibility. From the outside, it is nearly impossible to get a clear picture of what is going on beneath the shimmering surface of moving, chaotic water. Reflection, refraction, ripples, and waves all work to create a kaleidoscopic play of images.
 
@@ -140,7 +140,7 @@ The *persona* is always beyond reach, ungraspable.  It cannot be pinned down in
 
 ## Conclusion
 
-![](/images/2018/01/An_epitaph_of_a_Nestorian_Christian-300x224.jpg)
+![](/images/2018/01/an_epitaph_of_a_nestorian_christian.webp)
 
 The baptism into the possibilities of the Basilea is not without risk. A *prosopon transfiguration* is not for the faint of heart. For John the Baptist, as for Jesus, his transfiguring experience of opening to his *persona* quickly made him a *persona non grata.* The authorities only put up with a little bit of challenge from such a *persona* before John was imprisoned (Luke 3:20) and later killed. The cracks in the impossible that allow it to become possible are small and have sharp teeth.
 

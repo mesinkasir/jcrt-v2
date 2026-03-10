@@ -5,7 +5,7 @@ title: >-
 description: "The following is the second of a three-part series. The first can be found here. It will appear as a full article in the Fall 2021 issue of the Journal for"
 date: '2021-07-12T18:01:10.000Z'
 author: editors
-image: /images/2021/07/800px-Modern_Art_Gallery.jpg
+image: /images/2021/07/800px-modern_art_gallery.webp
 categories:
   - Theology
   - Reviews

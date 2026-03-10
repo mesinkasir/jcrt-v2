@@ -6,7 +6,7 @@ description: "Sponsored by the Journal for Cultural and Religious Theory in Coll
 date: '2025-09-07T02:59:34.000Z'
 author: editors
 image: >-
-  /images/2025/04/Bundesarchiv_Bild_183-1989-1106-405_Plauen_Demonstration_vor_dem_Rathaus.jpg
+  /images/2025/04/bundesarchiv_bild_183-1989-1106-405_plauen_demonstration_vor_dem_rathaus.webp
 categories:
   - Conferences
 layout: theory.njk
@@ -56,7 +56,7 @@ ALL TIMES ARE GREENWICH MEAN TIME (GMT)
 
 Respondent: **Michel Staudigl**, University of Vienna
 
-![](/images/2025/09/image.jpeg)
+![](/images/2025/09/image.webp)
 
 Carl Raschke
 

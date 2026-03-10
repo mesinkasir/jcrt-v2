@@ -5,7 +5,7 @@ title: >-
 description: "The following is the second of a two-part-series. The first can be read here. What specifically sets horror apart from other genres such as fantasy and science"
 date: '2020-01-05T23:29:49.000Z'
 author: editors
-image: /images/2020/01/buchcover-1572453224D0o.jpg
+image: /images/2020/01/buchcover-1572453224d0o.webp
 categories:
   - Aesthetics
   - Catholicism

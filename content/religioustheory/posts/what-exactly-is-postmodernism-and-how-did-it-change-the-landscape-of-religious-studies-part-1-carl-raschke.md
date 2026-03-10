@@ -6,7 +6,7 @@ description: "Almost a half century ago a change took place in the humanities, a
 date: '2023-09-28T17:26:12.000Z'
 author: editors
 image: >-
-  /images/2023/09/Viewing_Robert_Smithsons_Spiral_Jetty_on_June_18th_2018-1200x642.jpg
+  /images/2023/09/viewing_robert_smithsons_spiral_jetty_on_june_18th_2018-1200x642.webp
 categories:
   - Philosophy of Religion
   - Religious Studies

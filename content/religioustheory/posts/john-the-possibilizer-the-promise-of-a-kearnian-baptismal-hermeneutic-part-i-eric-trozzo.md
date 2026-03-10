@@ -6,7 +6,7 @@ description: "The wild hair, the scratchy clothing, the grit and body odor, and 
 date: '2018-01-21T21:20:32.000Z'
 author: editors
 image: >-
-  /images/2018/01/Style-Head_of_Saint_John_the_Baptist_by_an_anonymous_Spanish_painter_c._1600-1650_Cleveland_Museum_of_Art-Ballpoint-0.4MP.jpg
+  /images/2018/01/style-head_of_saint_john_the_baptist_by_an_anonymous_spanish_painter_c-_1600-1650_cleveland_museum_of_art-ballpoint-0-4mp.webp
 categories:
   - Philosophy of Religion
   - Religious Studies
@@ -53,7 +53,7 @@ Thus, the infinity of the other compels an ethical relationship to the other, à
 
 > the dynamic (i.e., full of potential) character of the person makes “the possible” a personal (*prosopic*) category par excellence.  Personhood … is never to be understood as a fait accompli or a once-and-for-all given that somehow we possess.  Rather, to be a person suggests a process continuously occasioned by the unreserved exposure to the Other.[^9]
 
-![](/images/2018/01/Kingdom_of_Heaven_icon_19_c._S-Peterburg-243x300.jpeg)Kearney terms the encounter of a *persona* with another *persona* a “*prosopon transfiguration*.”[^10] Such a transfiguration is a call of the other to the self that completes the self and opens it to heightened eschatological awareness of the ethical possibilities. The transfiguration of the *persona* is an opening to divine possibility. As Paul Symington, another commentator on Kearney’s work, notes, *persona* is always both already present and still to come.[^11]
+![](/images/2018/01/kingdom_of_heaven_icon_19_c-_s-peterburg.webp)Kearney terms the encounter of a *persona* with another *persona* a “*prosopon transfiguration*.”[^10] Such a transfiguration is a call of the other to the self that completes the self and opens it to heightened eschatological awareness of the ethical possibilities. The transfiguration of the *persona* is an opening to divine possibility. As Paul Symington, another commentator on Kearney’s work, notes, *persona* is always both already present and still to come.[^11]
 
 This messianism of the possibilities of the *persona* serves as a gateway to the “Kingdom of the Possible.” The Kingdom of the Possible is, for Kearney, the messianic potentiality for justice being actualized in the world. It is an invitation to humans to participate in the realization of that justice.
 
@@ -81,7 +81,7 @@ Faith here is more than simply intellectual assent, but is rather a participatio
 
 There is a notable resonance here with Kearney’s sense of God’s enfleshment in the world through human response to the promise. Of course, Luther’s eschatology is much more teleological than Kearney’s is. Nevertheless, the two share a sense of the relationship between God’s promise and the active human response of faith that concretizes that promise.
 
-*![](/images/2018/01/Saint_John_the_Baptist_in_the_Wilderness_LACMA_47.8.29-181x300.jpg)Jesus’ Transfiguration and Persona*
+*![](/images/2018/01/saint_john_the_baptist_in_the_wilderness_lacma_47-8-29.webp)Jesus’ Transfiguration and Persona*
 
 Because the Messiah is always still to come, while already having come as well, there can, for Kearney, be no once-and-for-all messianic moment. There are, however, moments where the divine possibilities are so intensely embodied that they can be looked back upon as paradigmatic moments of divine incarnation.  He uses examples like Moses and the burning bush, but finds the clearest moment to be Jesus’ Transfiguration on Mount Thabor.
 

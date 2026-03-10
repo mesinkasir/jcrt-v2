@@ -6,7 +6,7 @@ description: "Part 2 extends the Benjamin-Arendt comparison by testing judgment 
 date: '2016-08-15T05:34:31.000Z'
 author: editors
 image: >-
-  /images/2016/08/Thomas_Abel_Prior_-_Queen_Victoria_opening_the_1851_Universal_Exhibition_at_the_Crystal_Palace_in_London_-_Google_Art_Project.jpg
+  /images/2016/08/thomas_abel_prior_-_queen_victoria_opening_the_1851_universal_exhibition_at_the_crystal_palace_in_london_-_google_art_project.webp
 categories:
   - Political Theology
   - Critical Conversations
@@ -43,7 +43,7 @@ According to thesis XII, the working class, if it is to remain the bearer of his
 
 But is this not the case with all progressivist social doctrines, including Marxism?18 (It was, after all, not only the Social Democrats who betrayed their own cause, as Benjamin makes clear enough in thesis X; it is reflection on the deeper and more blatant treachery of the Communists in 1939-1940 that nearly tempts one to imitate the retreat from worldly entanglements of the monastic orders.)19
 
-![Working class russia](/images/2016/08/Working-class-russia-196x300.jpg)In its anxiety to liberate the grandchildren, the progressivist ideology risks alienating us from the sufferings of our downtrodden ancestors, who cannot be liberated, but at best, simply remembered. The historiographical task is  not to anticipate better times to come but to hold open the promise of redemption for all moments that have already been.
+![Working class russia](/images/2016/08/working-class-russia.webp)In its anxiety to liberate the grandchildren, the progressivist ideology risks alienating us from the sufferings of our downtrodden ancestors, who cannot be liberated, but at best, simply remembered. The historiographical task is  not to anticipate better times to come but to hold open the promise of redemption for all moments that have already been.
 
 Above all, the renunciation of historicism in favor of historiography means that remembrance shall prevail over soothsaying: “We know that the Jews were prohibited from investigating the future. The Torah and the prayers instruct them in remembrance, however” (thesis B). Given that the “Theses” are animated by antihistoricist pessimism, if not antihistorical despair, the continued adherence to Marx’s authority (invoked in theses IV, XI, XII, and XIV) remains something of a puzzle.
 
@@ -61,7 +61,7 @@ It is clear that Benjamin himself was convinced of the vital methodological role
 
 The “method” that the “Theses” adumbrate is as follows: “to blast a specific era out of the homogeneous course of history – blasting a specific life out of the era or a specific work out of the lifework” (thesis XVII).26 The result of this method is the Aufhebung in this work of the lifework; in the lifework, the era; and in the era, the entire course of history. “A historical materialist approaches a historical subject only where he encounters it as a monad.”27
 
-![6298481712_2cb32ef931_o-1](/images/2016/08/6298481712_2cb32ef931_o-1-300x225.jpg)In letters to Scholem and Adorno, Benjamin spoke of the need for an epistemological underpinning for his most ambitious project, the major work on the Paris Arcades, and several commentators view the “Theses” as supplying the required epistemology. In the words of Susan Buck-Morss, “it was intended as a methodological introduction to the ‘Arcades’ project,” and as such, “it instructs the reading of his own work.”28 And Adorno goes so far as to claim that the “Theses” constitutes one of the few completed portions of the sprawling and unconsummated Arcades project.29 Assuming that these conjectures are correct, the “Theses” should ultimately read in the context of *The Arcades Project*.30
+![6298481712_2cb32ef931_o-1](/images/2016/08/6298481712_2cb32ef931_o-1.webp)In letters to Scholem and Adorno, Benjamin spoke of the need for an epistemological underpinning for his most ambitious project, the major work on the Paris Arcades, and several commentators view the “Theses” as supplying the required epistemology. In the words of Susan Buck-Morss, “it was intended as a methodological introduction to the ‘Arcades’ project,” and as such, “it instructs the reading of his own work.”28 And Adorno goes so far as to claim that the “Theses” constitutes one of the few completed portions of the sprawling and unconsummated Arcades project.29 Assuming that these conjectures are correct, the “Theses” should ultimately read in the context of *The Arcades Project*.30
 
 Here Benjamin is himself writing as a cultural historian. He must therefore address the questions: What is cultural history? What political justifications can it have? How can the activity of the historian be reconciled with any kind of revolutionary political commitment? How can preoccupation with a past that cannot be changed contribute anything to the task of changing the world? Above all, Benjamin must clarify to himself why a historical materialist should concern himself or herself at all with writing the cultural history of nineteenth-century bourgeois Paris.
 
@@ -81,7 +81,7 @@ Just as Benjamin speaks of blasting the revolutionary (or messianic) moment out 
 
 Against such historicist assumptions, she appeals to the autonomy of the judging spectator.
 
-![Hegel with students - lithograph](/images/2016/08/Friedrich_Hegel_mit_Studenten_Lithographie_F_Kugler-300x196.jpg)
+![Hegel with students - lithograph](/images/2016/08/friedrich_hegel_mit_studenten_lithographie_f_kugler.webp)
 
 Hegel with students – lithograph
 

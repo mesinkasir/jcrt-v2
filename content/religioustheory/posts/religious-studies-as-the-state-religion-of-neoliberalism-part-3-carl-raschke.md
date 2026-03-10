@@ -5,7 +5,7 @@ title: >-
 description: "The following is the last of a three-part series. The first can be found here , the second here. A genealogy of the neoliberalization, together with the"
 date: '2022-10-05T20:58:53.000Z'
 author: editors
-image: /images/2022/10/Tellus_-_Ara_Pacis-1200x642.jpg
+image: /images/2022/10/tellus_-_ara_pacis.webp
 categories:
   - Neoliberalism and Religion
 layout: theory.njk

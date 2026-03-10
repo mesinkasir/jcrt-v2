@@ -5,7 +5,7 @@ title: >-
 description: "Note: This review is also published simultaneously in the PDF special issue of JCRT 16.1. *Butler, Judith. Senses of the Subject Senses of the Subject."
 date: '2017-01-09T08:44:06.000Z'
 author: editors
-image: /images/2017/01/20897035259_73d12d6fb3_b.jpg
+image: /images/2017/01/20897035259_73d12d6fb3_b.webp
 categories:
   - Reviews
 layout: theory.njk
@@ -37,7 +37,7 @@ Among Butler’s books, this one’s thesis has a great deal in common with *Pre
 
 The Other on whom my formation as a subject depends, given the body’s materiality and consequent sociality, is also the Other to whom I am unavoidably susceptible, hopefully to affection but potentially always to harm as well. Ethics, in short, is defined here and elsewhere by Butler as a response to something exterior and therefore unwilled and unchosen, which is a reality that is endemic to my formation as a self. Acknowledging that the concession of an unsurpassable dependence on the Other might seem like a passive way of portraying what subjectivity entails, Butler maintains that the precariousness of the subject’s primary relation to otherness can neither be willed away nor should we want to do so.
 
-In chapter one, Butler argues that Descartes’s rationalist erasure of materiality is undercut by the way his ![butler-cover](/images/2017/01/Butler-cover-300x190.jpg)metaphors for the mind resort to imagery of language and the body. The mind becomes, for instance, an imprintable blank tablet upon which ideas and conceptions are written. The hand that writes, the marks it leaves, and the surface upon which those marks are inscribed all imply a materiality that Descartes’s text works hard to suppress.
+In chapter one, Butler argues that Descartes’s rationalist erasure of materiality is undercut by the way his ![butler-cover](/images/2017/01/butler-cover.webp)metaphors for the mind resort to imagery of language and the body. The mind becomes, for instance, an imprintable blank tablet upon which ideas and conceptions are written. The hand that writes, the marks it leaves, and the surface upon which those marks are inscribed all imply a materiality that Descartes’s text works hard to suppress.
 
 In his effort to persuade us that the senses deceive, moreover, he invokes the image of the body exposed. What if, Descartes wanted his readers to consider, I am not, in fact, seated by this fire clothed in this robe but somewhere else, perhaps in some public place and not even clothed but nude. Nudity’s prospect is meant to support the claims of rationalism by demonstrating the possibility that the senses deceive and yet it invokes, in spite of itself, the matter of corporeality. Butler wants to suggest that Descartes has conceded something else, the condition of exposure and vulnerability endemic to corporeal life.
 
@@ -57,7 +57,7 @@ Chapter three advances Butler’s thesis another step forward by adding that cor
 
 Chapter four’s engagement with Hegel’s early fragment on love (circa 1797-98) joins the previous chapter on Malebranche, a later chapter on Kierkegaard, and the final chapter on Fanon as four good reasons that students and scholars of religion will want to read these essays. Butler’s avid readers will not be surprised that she defends Hegel as a misunderstood philosopher who is especially helpful for thinking about relationality and embodiment, as when she comments that “the error of expecting a totalizing system from Hegel has outlived its time” and “a certain obstinate materialism runs throughout Hegel”[^5] . Although the fragment in question is nominally about love and yet it spends a good deal of time on religion, central to its argument is another concept, life, which cannot be understood apart from the characteristics of an open-ended totality and material embodiment.
 
-![homeless-man-public-domain](/images/2017/01/Homeless-Man-Public-Domain-300x200.jpg)It was not until *Phenomenology of Spirit* that Hegel substituted life with spirit as a way of naming the absolute in its mediated form. Life developed out of his philosophy of nature as a way of thinking about the process of ongoing, open-ended development that both encompasses and exceeds all constituent living things. To be a living thing is to be constituted by exteriority through one’s participation, knowingly or not, in the whole of life.
+![homeless-man-public-domain](/images/2017/01/homeless-man-public-domain.webp)It was not until *Phenomenology of Spirit* that Hegel substituted life with spirit as a way of naming the absolute in its mediated form. Life developed out of his philosophy of nature as a way of thinking about the process of ongoing, open-ended development that both encompasses and exceeds all constituent living things. To be a living thing is to be constituted by exteriority through one’s participation, knowingly or not, in the whole of life.
 
 Life contains its own contradiction, death, as part of the dialectical condition that regenerates living things, and it necessitates two kinds of interactions: between individual living things (e.g., consumption and reproduction) and between living things and the overall evolution of life in nature. In other words, living things have their origin in and cannot live without primary relations to other living things and to the totality of a process that exceeds its parts. It is a concept that contains in germ form what Hegel would later attribute to Spirit.
 
@@ -87,7 +87,7 @@ Although Kierkegaard questions Hegel’s construction of the infinite in terms o
 
 Kierkegaard praises Abraham because in obedience to the absurd request he consulted neither. He did not
 
-![Soren Kierkegaard](/images/2017/01/S%C3%B8ren_Kierkegaard_1813-1855_-_9645353110-219x300.jpg)
+![Soren Kierkegaard](/images/2017/01/s-ren_kierkegaard_1813-1855_-_9645353110.webp)
 
 Soren Kierkegaard
 
@@ -129,7 +129,7 @@ It could be that even Sartre’s preface registers such possibilities, however d
 
 When Fanon writes, “Oh my body, make of me a man who questions,” he has for one thing enacted the aspiration for a new culture, one that is no longer Western, European, and Christian, by praying to the body and not God, and not to a singular body but to the social body that has collectively suffered and seeks regeneration. Butler points out that the kind of opening and regeneration that Fanon is invoking at this point is neither masculinist nor nationalist, nor is it knowing of what will come and is therefore unprescriptive.
 
-![bildnis](/images/2017/01/Bildnis_einer_jungen_Fraui-Alessandro_Botticelli-1476-1480-DCedit-218x300.jpg)It is instead rooted in a sense of tactility, which is to say, not a plea for radical independence from or opposition to the other but for a world in which relations to others are open-ended and fulfilling. “Why not,” writes Fanon, “the quite simple attempt to touch the other, to feel the other, to explain the other to myself? &hellip; Was my freedom not given to me then in order to build the world of You?” This suggests a sort of re-corporealized humanism in which there can be no invention of the self without the You because the self is constituted by modes of address that allow for its constitutive sociality, vulnerability and all. Butler describes it as a struggle toward a new universalism based on the shared infinity of mutual needs.
+![bildnis](/images/2017/01/bildnis_einer_jungen_fraui-alessandro_botticelli-1476-1480-dcedit.webp)It is instead rooted in a sense of tactility, which is to say, not a plea for radical independence from or opposition to the other but for a world in which relations to others are open-ended and fulfilling. “Why not,” writes Fanon, “the quite simple attempt to touch the other, to feel the other, to explain the other to myself? &hellip; Was my freedom not given to me then in order to build the world of You?” This suggests a sort of re-corporealized humanism in which there can be no invention of the self without the You because the self is constituted by modes of address that allow for its constitutive sociality, vulnerability and all. Butler describes it as a struggle toward a new universalism based on the shared infinity of mutual needs.
 
 Butler’s preferential treatment of the likes of Hegel and Merleau-Ponty in *Senses of the Subject* is an indication of the distance she maintains from theories of the subject and ethics that remain antagonistic to any and all notions of universalism. What was mistaken by many as an idealized version of the socially constructed body in *Gender Trouble* is in fact an effort on Butler’s part to acknowledge that it is precisely the materiality of the body that accounts for the  fact that we are more than our bodies, or that bodies are not self-evident.
 

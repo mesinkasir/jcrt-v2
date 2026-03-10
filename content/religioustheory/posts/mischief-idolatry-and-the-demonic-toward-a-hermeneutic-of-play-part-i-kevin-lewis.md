@@ -5,7 +5,7 @@ title: >-
 description: "Biblical hermeneutics, studied reflection upon interpretation of scriptural passages, has not remained static in method or approach over the centuries"
 date: '2018-05-19T17:37:39.000Z'
 author: editors
-image: /images/2018/05/IMG_0921-1.jpg
+image: /images/2018/05/img_0921-1.webp
 categories:
   - Hermeneutics
   - Theory
@@ -36,7 +36,7 @@ An innovative hermeneutic from a new perspective such as I propose may indeed be
 
 In awareness of my limitations as a scholar trained and encouraged to risk working across lines that traditionally separate disciplines such as theology, philosophy, literary and cultural studies, but also in the belief that that careful, measured interdisciplinary projects hold potential for re-invigorating reflection and offering vital new insights, I offer what follows as a useful contribution to ongoing hermeneutical reflection. The interdisciplinary license and latitude in what follows reflects one individual’s integration of disparate career recognitions. Though I intend the proposal argued to serve and provoke a wide readership, the path will be haunted inevitably by the autobiographical.
 
-![](/images/2018/02/wh-auden-176x300.jpg)
+![](/images/2018/02/wh-auden.webp)
 
 W.H. Auden
 
@@ -62,7 +62,7 @@ The question for this writer is not *what* a scriptural passage means in persona
 
 The question addressed in what follows is how can we be captured and re-captured existentially by Scriptural “truth” when we inhabit a thoroughgoingly secular, skeptical age? This “how” requires tenacious examination and may well, of course, frustrate even those of favouring pre-disposition and intent. No one can offer proof (as we currently understand “proof”) of the “truth” of this or any other great religion adequate to meet the skeptical demands of the age. So, the question of a fruitful, effective hermeneutical method, adhering to the tradition of faith as well as to the circumstances of present day cultural understanding, is paramount.
 
-![](/images/2018/02/702px-John_Calvin_by_Holbein-234x300.png)
+![](/images/2018/02/702px-john_calvin_by_holbein.webp)
 
 John Calvin
 
@@ -84,7 +84,7 @@ Modern “literal” interpretations have opened the way to rabid demonic exploi
 
 The writing and reading of religious, even “inspired” religious texts remains circumscribed by fallen human intelligence, as well as fallen human spirit and will. This is to take nothing away from the certain faith, when given, that Scripture contains the inspiring Word of God. Rather, it is to caution Christians, present and prospective, to exercise caution and perhaps agility, too, in the reading and interpretation of Scripture. We must rely finally on the hope of true understanding as offered only by the grace of God. And so “divine inspiration” must be re-theorized, ultimately on an individual basis, to meet this threat as it applies even to scriptural texts.
 
-![](/images/2018/02/Jeroboams_Idolatry_Bible_card-212x300.jpg)Idolatry in Christian history has, of course, been a subject addressed again and again, ostensibly always to serve the purpose of sustaining the biblical Christian vision and protecting it from misinterpretation and abuse. Of the many such instances that could be lifted up for note here in support of a timely anti-idolatry hermeneutic, one very recent is to be found in James Woods’ *New Yorker* review of Terry Eagleton’s criticism of the “new atheist” phenomenon addressed in *Reason, Faith and Revolution: Reflections on the God Debate* (2009).
+![](/images/2018/02/jeroboams_idolatry_bible_card.webp)Idolatry in Christian history has, of course, been a subject addressed again and again, ostensibly always to serve the purpose of sustaining the biblical Christian vision and protecting it from misinterpretation and abuse. Of the many such instances that could be lifted up for note here in support of a timely anti-idolatry hermeneutic, one very recent is to be found in James Woods’ *New Yorker* review of Terry Eagleton’s criticism of the “new atheist” phenomenon addressed in *Reason, Faith and Revolution: Reflections on the God Debate* (2009).
 
 Wood, in referring to the blame for anti-semitism in Christinity cast upon the “idolatries of the man-God” by Theodore Adorno and Max Hockheimer in their *Dialectic of Enlightenment*, and to Eagleton’s attempt to counter Richard Dawkins and Christopher Hitchens with a Roman Catholic, “Thomistic God” hardly incarnate at all, concludes, “But Christianity *is* a form of idolatry.” Without elaborating he concludes, re. Adorno and Hockheimer, that “For them, the Incarnation brings the absolute closer to the finite, and makes the finite absolute; it turns spirit into fleshly magic.” And, for support of this rhetorical perspective, Wood reminds us that in another recent book, *Saving God* (2009), Mark Johnson contends that *most* religious belief is in fact idolatrous.
 
@@ -102,7 +102,7 @@ The deconstructive philosophers and their sympathetic followers, to my knowledge
 
 When Derrida writes, “… language bears within itself the necessity of its own critique,”[^5] one might imagine that he includes religious writings under this apparently comprehensive rubric. But, if toward the end of his career he addressed the issue of religion directly and to pallid effect (see below), as a younger man in the 1960’s and 1970’s he apparently did not, concentrating as surely he thought he must, on his work as a philosopher hoping to awaken his profession to the deception and danger of allowing “monologisms” (systems of projected coherence) everywhere implied but unspoken in language, in “discourse,” to remain unchallenged.
 
-![](/images/2018/02/Bible-Christian-Religious-Worship-Christianity-1948778-300x200.jpg)
+![](/images/2018/02/bible-christian-religious-worship-christianity-1948778.webp)
 
 But to establish my frame of reference here, note that religious language is employed by people of faith in a way different from how they, apart from their faith, and of course the non-religious employ the language of the secularist, post-Enlightenment world view influenced by science and analytical, rational-empirical philosophy. The “truths” of religious faith are not of the same order as the “truths” determined and sought by “enlightened, rational” reason through the procedures of scientific method upon which moderns habitually confer overwhelming prestige. The modern (and post-modern) religious have Ludwig Wittgenstein to thank for helping us to recognize, if we are willing epistemologically, and then, if compelled, to embrace religious talk and religious writing as ordered by the “rules” of a different but equally human language “game” than by those of the secularist “game” played by science.[^6]
 
@@ -114,7 +114,7 @@ At the heart of this analysis, of course, lies the observation that there can be
 
 For Derrida, running so deep in Western thought that they respect none of the conventional boundaries, lie paradoxes of meaning produced not just in philosophy but across all varieties of discourse.[^7] Textual language, in short, has been presented to us by Derrida and his followers as inherently mischievous – that is, inherently tending to make mischief with the message that a writer labors to convey.[^8]
 
-![](/images/2018/02/jacques-derrida-213x300.jpg)
+![](/images/2018/02/jacques-derrida.webp)
 
 Jacques Derrida
 
@@ -140,7 +140,7 @@ Whether a mere projection or a brilliant insight on Derrida’s part, he gives u
 
 Divinely inspired texts, and of course doctrinal and confessional formulations as well as liturgical language derived from the faith instilled by these texts, nonetheless for being “divinely inspired” do remain texts created and then translated and edited in historical time by historical writers.[^14] Derrida argues that philosophers have been able to impose their various systems of thought only by ignoring, or certainly suppressing the disruptive effects of language.[^15] The cherished belief that scriptural texts are divinely inspired has made it all the easier for persons of faith to ignore Derrida’s “disruptive effects of language” – to the detriment of the actual inspiring Word.
 
-![](/images/2018/02/divinely-inspired.jpg)Specifically, the element of his analysis, which should be applied in a new hermeneutic begins with, or at least fundamentally includes the notion that all writing effectively presents a “free play” of undecidability within every system of communication, every discourse. To quote Norris again, the operations of writing “are precisely those which escape the self-consciousness of speech and its deluded sense of the mastery of concept over language.”[^16] By this reckoning, in all writing, in all texts, the assumed and trusted connection between signifier (language) and signified (any and all referents including the “transcendental signified”) has been shown to be problematized at best and deceiving at worst.
+![](/images/2018/02/divinely-inspired.webp)Specifically, the element of his analysis, which should be applied in a new hermeneutic begins with, or at least fundamentally includes the notion that all writing effectively presents a “free play” of undecidability within every system of communication, every discourse. To quote Norris again, the operations of writing “are precisely those which escape the self-consciousness of speech and its deluded sense of the mastery of concept over language.”[^16] By this reckoning, in all writing, in all texts, the assumed and trusted connection between signifier (language) and signified (any and all referents including the “transcendental signified”) has been shown to be problematized at best and deceiving at worst.
 
 So, the response to this situation, argues Derrida, is to acknowledge that finite language is in effect a field of “play” – to quote him, “a field of infinite substitutions because it is finite … \[and\] there is something missing from it: a center which arrests and grounds the play of substitutions.” By “play” then, Derrida appears to mean that in reading one must recognize and respond as he or she will to the de-stabilized and de-stabilizing condition inherent in the signifying language. Play, or “free play,” is required because all written content lacks definitive meaning, and thus the adequate communication of information intended by the writer can never be assured.
 

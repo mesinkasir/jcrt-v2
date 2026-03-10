@@ -5,7 +5,7 @@ title: >-
 description: "Participants are invited to join us live in the ninth of a monthly series of “Critical Conversations” (Zoom webinars) with eminent scholars from around the"
 date: '2021-04-19T03:32:05.000Z'
 author: editors
-image: /images/2021/05/Aamidor-on-Chuck-Taylor-IMAGE-2.jpg
+image: /images/2021/05/aamidor-on-chuck-taylor-image-2.webp
 categories:
   - Announcements
   - Critical Theory

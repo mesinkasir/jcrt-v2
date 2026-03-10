@@ -5,7 +5,7 @@ title: >-
 description: "From time to time Religious Theory (RT) invites well-known academic authors to outline current book projects that have not yet been published It highlights"
 date: '2016-04-06T18:31:29.000Z'
 author: editors
-image: /images/2016/04/749_20_2.jpg
+image: /images/2016/04/749_20_2.webp
 categories:
   - Book Previews and Prospectuses
   - Author Reflections

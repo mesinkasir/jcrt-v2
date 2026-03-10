@@ -3,7 +3,7 @@ title: Review – Aaron Hughes’ ‘Islam and the Tyranny of Authenticity’ (D
 description: "*Hughes, Aaron. Islam and the Tyranny of Authenticity: An Inquiry into Disciplinary Apologetics and Self-Deception. London: Equinox Publishing, 2016 It"
 date: '2016-09-22T08:00:31.000Z'
 author: Books
-image: /images/2016/09/hajj.jpg
+image: /images/2016/09/hajj.webp
 categories:
   - Reviews
 layout: theory.njk
@@ -58,7 +58,7 @@ In other words, the sanitized version of Asad that is invoked to further the pro
 
 More rigorous criticism is sidestepped as cynical or Eurocentric, and he goes so far as to claim that critical theorists of religion such as Russell McCutcheon, a theorist on the method of religious studies, goes ignored because he is a white male (19). Overall, Hughes makes the bold claim that these scholars refuse to invoke more rigorous theoretical work because by doing so, they put in question the timeless and ideal origins of Islam. The question this raises for people outside of Islamic studies as well as within is whether a scholar of Islamic studies (or another religious discipline) must in fact distance themselves from such an idealized association with the religion they study,
 
-Through the example of Buddhist convert Robert Thurman and his work on Tibet; Hughes presents a similarly problematic use of scholarship by an insider of a religious tradition that ends up missing empirically important insights and criticisms by his romantic association with the tradition itself. Perhaps Hughes’ most helpful point in the book is that this scholarship might be more useful, or at least more transparent, if it was re-named “constructive theology” instead.![tyranny](/images/2016/09/tyranny-197x300.jpg)
+Through the example of Buddhist convert Robert Thurman and his work on Tibet; Hughes presents a similarly problematic use of scholarship by an insider of a religious tradition that ends up missing empirically important insights and criticisms by his romantic association with the tradition itself. Perhaps Hughes’ most helpful point in the book is that this scholarship might be more useful, or at least more transparent, if it was re-named “constructive theology” instead.![tyranny](/images/2016/09/tyranny.webp)
 
 This is a suggestion that I think should be seriously considered by Muslim scholars in western academic settings who find themselves committed to a project that speaks equally to concerns outside of the academe as inside. Indeed, there is nothing wrong with such an approach, and such an approach can in fact be done in a critical manner, as we know from the work of Tariq Ramadan who has influenced ways that Muslim communities in the west interpret traditional sources and relate to authority.
 

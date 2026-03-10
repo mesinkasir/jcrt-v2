@@ -5,7 +5,7 @@ title: >-
 description: "The following is the third installment of a three-part series. The first can be found here. The second one can be found here The second one can be found here."
 date: '2018-08-15T03:18:13.000Z'
 author: editors
-image: /images/2018/08/keys-to-the-kingdom.jpg
+image: /images/2018/08/keys-to-the-kingdom.webp
 categories:
   - Psychoanalysis
   - Psychology of Religion
@@ -33,7 +33,7 @@ Again, Lacanian analysis should always include the third party of the Other whic
 
 Additionally, one can also see that Lacan went to great lengths to defend pre-modern spiritual directors
 
-![](/images/2018/08/st.-john-of-the-cross-300x184.jpg)
+![](/images/2018/08/st-john-of-the-cross.webp)
 
 St. John of the Cross
 
@@ -61,7 +61,7 @@ For Lacan, these are the very coordinates that lead to the generation of desire.
 
 One can assume that Lacan believed that psychologists and therapists need to approach the spiritual as *praxis and a mode of speech* rather than something to be studied or psychologized (a point later made by
 
-![](/images/2018/08/The_Red_Tower-300x218.jpg)
+![](/images/2018/08/the_red_tower.webp)
 
 “The Red Tower” by Giorgio de Chirico. Guggenheim Museum.
 

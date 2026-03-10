@@ -5,7 +5,7 @@ title: >-
 description: "In his 1975 work Discipline and Punish, Michel Foucault uses the lens of prison and society to examine the ways in which power structures act upon the"
 date: '2017-03-10T02:20:55.000Z'
 author: editors
-image: /images/2017/03/qumran-drawing.jpg
+image: /images/2017/03/qumran-drawing.webp
 categories:
   - Theory
   - Critical Theory
@@ -41,7 +41,7 @@ Foucault makes certain to ground his discourse on power and knowledge squarely w
 
 According to Foucault, “there is no power relation without the correlative constitution of a field of knowledge, nor any knowledge that does not presuppose and constitute at the same time power relations”[^8] . For Foucault, knowledge and power intertwine indivisibly.
 
-The Community Rule depicts the ways in which the community at Qumran predicated themselves upon a ![Anabaptist_martyrs_Ghent_big](/images/2017/03/Anabaptist_martyrs_Ghent_big-300x235.jpg)possession of special knowledge of/from God. They believed “From the knowledge of God stems all there is and all there shall be. Before they existed he established their entire design.”(3.15). They themselves, as part of “all there is”, come from the knowledge of God. They centered their blessings around said knowledge – “May he illuminate your heart with the discernment of life and grace you with eternal knowledge” (2.3) and expected their members to “…comply with all *revealed things*” (1.9-11), demonstrating their view of their law as divinely inspired.
+The Community Rule depicts the ways in which the community at Qumran predicated themselves upon a ![Anabaptist_martyrs_Ghent_big](/images/2017/03/anabaptist_martyrs_ghent_big.webp)possession of special knowledge of/from God. They believed “From the knowledge of God stems all there is and all there shall be. Before they existed he established their entire design.”(3.15). They themselves, as part of “all there is”, come from the knowledge of God. They centered their blessings around said knowledge – “May he illuminate your heart with the discernment of life and grace you with eternal knowledge” (2.3) and expected their members to “…comply with all *revealed things*” (1.9-11), demonstrating their view of their law as divinely inspired.
 
 Their lives were to exhibit “a spirit of knowledge in all the plans of action,…of careful behaviour in wisdom concerning everything, or concealment concerning the truth of the mysteries of knowledge.”(4.6), and from their knowledge, they derived their eschatology – “God, in the mysteries of his knowledge and in the wisdom of his glory, has determined an end to the existence of injustice and on the appointed time of the visitation he will obliterate it forever.” (4:18-20) Assuming themselves privy to the mysteries of God’s knowledge, which they derived from interpreting their scriptures, the community at Qumran believed that they lived in the end days. The community at Qumran clearly conceived of their entire structure as divinely ordained.
 
@@ -61,7 +61,7 @@ Many scholars[^14] affiliate the community at Qumran with a sect[^15] of Jews ca
 
 The punishment of exclusion acted upon the body in the most literal sense by keeping it from entering certain spaces. In one specific punishment, The Community Rule references reductions of rations as recompense. But there are no gruesome, public or bloody punishments prescribed in the Community Rule such as Foucault describes as having occurred in 18th century France, due to their  fundamentally different
 
-![José Clemente Orozco 's Prometheus](/images/2017/03/Prometheus-300x191.jpg)
+![José Clemente Orozco 's Prometheus](/images/2017/03/prometheus.webp)
 
 José Clemente Orozco ‘s Prometheus
 
@@ -89,7 +89,7 @@ While including an obvious physical component, this passage indicates that the p
 
 In the context of the Second Temple period it is almost impossible to overstate the significance of table-fellowship in Judaism(s).  As Jerome Neyrey argues, “food, articulated in terms of who eats what with
 
-![Michel Foucault](/images/2017/03/M-Foucault-220x300.jpg)
+![Michel Foucault](/images/2017/03/m-foucault.webp)
 
 Michel Foucault
 

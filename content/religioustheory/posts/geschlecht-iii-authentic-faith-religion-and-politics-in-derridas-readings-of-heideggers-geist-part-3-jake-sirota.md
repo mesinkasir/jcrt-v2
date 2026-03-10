@@ -6,7 +6,7 @@ description: "The following is the third of a three-part series. The first can b
 date: '2022-02-23T22:55:00.000Z'
 author: editors
 image: >-
-  /images/2022/02/Alle%CC%81e_Jacques_Derrida_-_Paris_VI_FR75_-_2021-07-29_-_1-1200x642.jpg
+  /images/2022/02/allee_jacques_derrida_-_paris_vi_fr75_-_2021-07-29_-_1-1200x642.webp
 categories:
   - Philosophy of Religion
   - Phenomenology

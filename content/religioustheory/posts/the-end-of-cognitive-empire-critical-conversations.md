@@ -4,7 +4,7 @@ description: "The following is the video and transcript of the first of “Criti
 date: '2020-09-09T04:32:47.000Z'
 author: editors
 image: >-
-  /images/2020/09/Geographica_restituta_per_globi_trientes_-_Norman_B._Leventhal_Map_Center_at_the_BPL.jpg
+  /images/2020/09/geographica_restituta_per_globi_trientes_-_norman_b-_leventhal_map_center_at_the_bpl.webp
 categories:
   - Critical Conversations
   - Critical Theory

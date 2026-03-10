@@ -3,7 +3,7 @@ title: Religious Studies and Comparative Theology – An Appraisal (Joshua Samue
 description: "The title “religious scholar,” it must be remembered, is a very ambiguous categorization. It could either mean those who are engaged in academic work in the"
 date: '2017-10-09T02:29:56.000Z'
 author: editors
-image: /images/2017/10/pdr.jpg
+image: /images/2017/10/pdr.webp
 categories:
   - Religious Studies
   - Theology
@@ -44,7 +44,7 @@ However, Tomoko Masuzawa points out that the very concept of religious pluralism
 
 Firstly, because colonization brought different peoples in proximity, the colonizers had to acquire knowledge about the natives, which also included information about their respective faiths and beliefs. But this knowledge, which was mostly developed in the 18th and 19th centuries, was from the perspective of the mostly (if not entirely) Christian Europeans and therefore was always measured against the scale of Christian-Europeanism.
 
-This knowledge acquisition and construction was especially done by way of comparison, that later came to be called as comparative theology which would not “compromise the unique and exclusive authority of Christianity”[^5] that was rooted in Europeanism. This “assumption of Euro-Christian supremacy over all others…. played a decisive role in the emergent sense of *‘the world’* as a totality,” which also included the newly invented category of religion(s).[^6] Thus, the discourse on religions and religious pluralism, as we understand them today, is nothing but a “reification” of Euro-Christian supremacy.![](/images/2017/10/british-colonialism-232x300.png)
+This knowledge acquisition and construction was especially done by way of comparison, that later came to be called as comparative theology which would not “compromise the unique and exclusive authority of Christianity”[^5] that was rooted in Europeanism. This “assumption of Euro-Christian supremacy over all others…. played a decisive role in the emergent sense of *‘the world’* as a totality,” which also included the newly invented category of religion(s).[^6] Thus, the discourse on religions and religious pluralism, as we understand them today, is nothing but a “reification” of Euro-Christian supremacy.![](/images/2017/10/british-colonialism.webp)
 
 Second, another offshoot from the colonial roots of religious pluralism was the creation of the category of “world religions,” that pushed other religions to the level of lesser or primitive religions. Masuzawa, in her study of the invention of the world religions discourse, shows that those religions with textual traditions (translated and interpreted by Orientalists) that were assumed to be ethically focused and those that were relatable to Christianity beyond their geographical boundaries had come to be classified as world religions; the non-textual and the locally-bound religions related to nature (studied by the anthropologists), however, became the primitive or lesser religions.[^7]
 
@@ -78,7 +78,7 @@ I base this argument on four important attributes of comparative theology. To me
 
 Summing up the above propositions, I would argue that, in an honest and humble engagement with other religions, the exercise proceeds and culminates as a comparative theology. However, there might be some issues to be resolved for comparative theology itself, before it begins to function as a post-colonially sensitive theology academic exercise.
 
-*![](/images/2017/10/religious-pluralism-300x286.jpg)De-Essentializing Comparative Theology*
+*![](/images/2017/10/religious-pluralism.webp)De-Essentializing Comparative Theology*
 
 Thatamanil, a postcolonial scholar, proposes that comparative theology should effectively engage in an inter-religious encounter that goes beyond essentializing attitudes of religion. He writes, “A comparative theology that works against the reifying power of identity configurations, sanctified in the name of religion, is a powerful and desperately needed counterforce to those agonistic energies that are currently fracturing any hope for planetary loves.”[^22]
 
@@ -110,7 +110,7 @@ Moreover, there also might be different methods of attaining those values in a s
 
 Therefore, a comparative theology that takes a postcolonial stand needs to recognize and acknowledge different and creative methods of attainment of ethical values in different religious communities. It is not appropriate to expect or impose one’s idea of method of resistance on to another community.
 
-*Conclusion: Summing up the Religious Scholar![](/images/2017/10/world-religions-300x298.jpg)*
+*Conclusion: Summing up the Religious Scholar![](/images/2017/10/world-religions.webp)*
 
 As shown, the title “religious scholar” can no longer be restricted to the secular academy; in fact, there is no true possibility of using this term apart from a comparative theological perspective, if one wishes to disassociate herself from the colonial and imperialistic attributes of the modern category of religion.
 

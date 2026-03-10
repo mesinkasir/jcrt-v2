@@ -5,7 +5,7 @@ title: >-
 description: "Where: Online (Zoom) – Registration Required Submission deadline for proposals: Friday, September 15, 2023 It highlights key arguments and implications"
 date: '2023-07-13T16:25:37.000Z'
 author: editors
-image: /images/2023/07/Ta_Prohm_III-1024x642.jpg
+image: /images/2023/07/ta_prohm_iii.webp
 categories:
   - Conferences
   - Announcements

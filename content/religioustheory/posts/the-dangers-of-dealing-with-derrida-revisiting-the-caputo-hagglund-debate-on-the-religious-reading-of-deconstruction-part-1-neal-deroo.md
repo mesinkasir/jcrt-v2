@@ -5,7 +5,7 @@ title: >-
 description: "On the surface, the debate between John D. Caputo and Martin Hägglund in the Spring 2011 edition of The Journal of Cultural and Religious Theory seems to be a"
 date: '2018-06-26T01:40:12.000Z'
 author: editors
-image: /images/2018/06/Jacques-Derrida.jpg
+image: /images/2018/06/jacques-derrida.webp
 categories:
   - Philosophy of Religion
   - Theology

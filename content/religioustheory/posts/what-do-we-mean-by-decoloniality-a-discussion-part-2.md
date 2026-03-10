@@ -3,7 +3,7 @@ title: 'What Do We Mean By “Decoloniality”? A Discussion, Part 2'
 description: "Part 2 continues the keynote discussion on decoloniality, elaborating disagreements over praxis, universality, and strategy while clarifying points of shared"
 date: '2021-05-03T17:11:59.000Z'
 author: editors
-image: /images/2021/05/800px-La_conquista_del_Colorado.jpg
+image: /images/2021/05/800px-la_conquista_del_colorado.webp
 categories:
   - Decoloniality
 layout: theory.njk

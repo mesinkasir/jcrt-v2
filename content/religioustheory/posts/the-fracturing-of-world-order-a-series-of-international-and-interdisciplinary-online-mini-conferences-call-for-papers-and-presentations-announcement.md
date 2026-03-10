@@ -6,7 +6,7 @@ title: >-
 description: "The Journal for Cultural and Religious Theory and The New Polis in collaboration with representatives of the University of Denver announces a call for papers"
 date: '2022-03-10T04:43:12.000Z'
 author: editors
-image: /images/2022/03/crack-3364707_1280-1210x642.jpg
+image: /images/2022/03/crack-3364707_1280.webp
 categories:
   - Announcements
   - Critical Theory

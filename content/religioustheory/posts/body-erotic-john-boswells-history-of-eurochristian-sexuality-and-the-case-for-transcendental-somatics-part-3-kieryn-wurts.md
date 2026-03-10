@@ -5,7 +5,7 @@ title: >-
 description: "The following is the last of a three-part series.The first can be found here, the second here. Essentialist and social constructionist discourses on sexuality"
 date: '2023-05-22T17:29:12.000Z'
 author: editors
-image: /images/2023/05/stellen-1210x642.png
+image: /images/2023/05/stellen.webp
 categories:
   - Gender Studies
 layout: theory.njk

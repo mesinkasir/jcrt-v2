@@ -3,7 +3,7 @@ title: Review—Whither Philosophy of Religion? (Benjamin Steele-Fisher)
 description: "**Religion and European Philosophy: Key Thinkers from Kant to Zizek. Edited by Philip Goodchild and Hollis Phelps. New York: Routledge, 2017 It highlights"
 date: '2017-10-27T03:07:20.000Z'
 author: Books
-image: /images/2017/10/wordcloud.jpg
+image: /images/2017/10/wordcloud.webp
 categories:
   - Reviews
 layout: theory.njk
@@ -43,7 +43,7 @@ It should also be said that some chapters perform the function of an “introduc
 
 I would also have liked to see more chapters dedicated to feminist philosophers. This would have rounded out, to a certain extent, a portrait of continental philosophy which is already thoroughly dominated by the white male perspective by virtue of its subject matter. In particular, a chapter on Simone de Beauvoir would have fared well, although Phelps provides a just rationale for the inclusion and exclusion of various thinkers: everyone simply cannot be pleased (9). In addition, it would be helpful for more of the authors to have highlighted how various thinkers might relate to non-Western as well as non-Abrahamic traditions. This is only mentioned in a handful of places and, with the notable exception of Justaert’s sustained treatment of Buddhism in the Deleuze chapter (374-375), is done in passing.
 
-![](/images/2017/10/Julia-Kristeva-300x277.jpg)
+![](/images/2017/10/julia-kristeva.webp)
 
 Julia Kristeva
 

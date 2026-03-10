@@ -5,7 +5,7 @@ title: >-
 description: "The following is the second of a three-part series. The first can be found here. The earlier article by Prof. Hyman to which the author replies can be found"
 date: '2023-01-30T23:14:33.000Z'
 author: editors
-image: /images/2023/02/Hegel-dancing.png
+image: /images/2023/02/hegel-dancing.webp
 categories:
   - Philosophical Theology
   - Philosophy of Religion

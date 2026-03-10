@@ -3,7 +3,7 @@ title: Review – Of Politics and Motion (Joshua Lawrence)
 description: "* Nail, Thomas. The Figure of the Migrant. Stanford: Stanford University Press, 2015. ISBN-10: 0804796580. 312 pages.* If the 21st century is indeed the century"
 date: '2016-09-08T08:00:36.000Z'
 author: Books
-image: /images/2016/09/Migrant-boat.jpg
+image: /images/2016/09/migrant-boat.webp
 categories:
   - Reviews
 layout: theory.njk
@@ -17,7 +17,7 @@ tags:
   - politics
 ---
 
-**![vortex_in_draining_bottle_of_water](/images/2016/09/Vortex_in_draining_bottle_of_water-201x300.jpg)Nail, Thomas. *The Figure of the Migrant*. Stanford: Stanford University Press, 2015. ISBN-10: 0804796580. 312 pages.**
+**![vortex_in_draining_bottle_of_water](/images/2016/09/vortex_in_draining_bottle_of_water.webp)Nail, Thomas. *The Figure of the Migrant*. Stanford: Stanford University Press, 2015. ISBN-10: 0804796580. 312 pages.**
 
 If the 21st century is indeed the century of the migrant, then Thomas Nail’s work is a timely consideration of this oft-neglected shadow of human civilization. To be precise, Nail argues for the necessity of this figure throughout terrestrial expansion and offers a retelling of human history from the perspective of migration. Not only does the migrant occupy a “central” place in Nail’s thought, but more importantly, she expresses the ontological primacy of motion itself.
 
@@ -47,7 +47,7 @@ Oddly, sedentarism is the first stage in the history of kinopower. As Nail write
 
 Of course, this internal expulsion is accompanied by an external expulsion, wherein plants, animals, and humans are simply expelled from the territory or destroyed. This process gives us the nomad, whose movement contrasts with territorial sedentarism.
 
-From approximately 5000 BCE until the 5th century CE, the dominant form of kinopower transitions from territorial to political. This arrangement is simply the amplification of the social center created by territorial accumulation. Once it ![migrant](/images/2016/09/migrant-200x300.jpg)manages to store up enough “potential energy,” it can then release a kinetic flow from the center outwards—centrifugal force. This explosion results in a more rigid, centralized management of flows. The initial steps taken to secure resources for a territory lead to the tyrannical direction of that society by the dominant social power of the capital.
+From approximately 5000 BCE until the 5th century CE, the dominant form of kinopower transitions from territorial to political. This arrangement is simply the amplification of the social center created by territorial accumulation. Once it ![migrant](/images/2016/09/migrant.webp)manages to store up enough “potential energy,” it can then release a kinetic flow from the center outwards—centrifugal force. This explosion results in a more rigid, centralized management of flows. The initial steps taken to secure resources for a territory lead to the tyrannical direction of that society by the dominant social power of the capital.
 
 Whereas territorial kinopower (centripetal force) exhibits asymmetrical social curves, political kinopower (centrifugal force) imposes a concentric, symmetrical curvature proper to the task of social glorification and ritual. Of course, this will only increase the storage-capacity of the center, which will in turn give rise to an even greater release of kinetic force i.e. taxes, military command, canals, roadways, etc. The invention of the wheel around 3000 BCE only serves to intensify this expansion.
 
@@ -63,7 +63,7 @@ Under this regime, circulation is intended to accomplish the movement of goods a
 
 As foreshadowed by the conceptual dialectic introduced in the earlier sections of the text, each migratory figure (nomad, barbarian, vagabond, proletariat) embodies a motion contrary to that of the ruling power (the center). These “pedetic” forces can be examined through application of three social kinetic characteristics: continuous oscillation, waves, and pressure. Nail carefully uses these lenses to study the different historical periods and highlights the alternative (peripheral) social motions that refuse the dominance of the center. Having persuasively argued for the existence of these phenomena as conditions for societal transformation, he concludes his study with a lengthy analysis of the U.S.-Mexico border and the clash of motions it presents.
 
-![migrant-boat](/images/2016/09/Migrant-boat-300x173.jpg)Regardless of one’s position concerning his metaphysical suggestions, Nail’s reading of civilizational expansion through the lens of the fluid sciences offers an alternative to reductively materialist accounts of human behavior patterns. For this accomplishment alone, which is surely more than most books would even dare, his work is a required text for all those concerned with the dynamic conditions behind our present “state of affairs.”
+![migrant-boat](/images/2016/09/migrant-boat.webp)Regardless of one’s position concerning his metaphysical suggestions, Nail’s reading of civilizational expansion through the lens of the fluid sciences offers an alternative to reductively materialist accounts of human behavior patterns. For this accomplishment alone, which is surely more than most books would even dare, his work is a required text for all those concerned with the dynamic conditions behind our present “state of affairs.”
 
 However, there are some lingering questions, which I suspect the book never considered tackling. For example, if social forces operate analogous to those material forces studied by the natural sciences, then how can this theory avoid the problems of “agency” and “motivation” seemingly central to all political activity.
 

@@ -3,7 +3,7 @@ title: 'Lutheran Theology And Postmodern Philosophy, Part I (Olli-Pekka Vaino)'
 description: "Recently, Martin Luther and the Lutheran Reformation has received heavy criticism in various theological and philosophical circles It highlights key arguments"
 date: '2018-05-01T02:54:39.000Z'
 author: editors
-image: /images/2018/01/Luther95theses.jpg
+image: /images/2018/01/luther95theses.webp
 categories:
   - Lutheran Theology
   - Philosophy
@@ -40,7 +40,7 @@ Despite this vagueness, people generally are quite reliable in recognizing thing
 
 Then I will present the same theses with a theological twist so that they correlate with, again broadly understood, Lutheran sensibilities.[^8] I will offer a short commentary of each topic and then make a few distinctions where the general sensibilities of postmodernism and Lutheranism, in my view, differ from each other.
 
-## Theses![](/images/2018/01/Richard_Dawkins_addressing-300x229.jpg)
+## Theses![](/images/2018/01/richard_dawkins_addressing.webp)
 
 ## Philosophical theses
 
@@ -82,7 +82,7 @@ This does not mean that the significance of the words in theology and philosophy
 
 In the case of “A Mighty Fortress is our God,” the words “mighty fortress” have, to some extent, same meaning when used to refer to an actual fortress and God, but in the case of God, the meaning is extended. There is no radical break but rather a stretching of the meaning. The addition, however, cannot be figured out without revelation. By looking at a fortress, we do not come to understand that God is like that fortress if God himself does not reveal this resemblance.[^16]
 
-## ![](/images/2018/01/eucharist-300x190.jpg)On metaphysics
+## ![](/images/2018/01/eucharist.webp)On metaphysics
 
 Postmodernists typically claim that metaphysics is *violent*. This claim relates to the thesis on language. Human concepts (and metaphysics is done with the help of concepts) can never depict reality as it is; therefore, any attempt to define reality with the help of words must be an arrogant act.
 
@@ -98,7 +98,7 @@ Luther’s criticism of a particular use of certain metaphysical traditions cann
 
 However, as one can imagine this issue is not a simple one. To a great extent, the discussion has shifted from Luther to Karl Barth’s legacy (and his relation to Thomism) in recent years and there seems to be no end in sight in this debate.[^23]
 
-## On method![](/images/2018/01/Paul_Feyerabend_Berkeley-294x300.jpg)
+## On method![](/images/2018/01/paul_feyerabend_berkeley.webp)
 
 Methodical anarchism is typical for postmodern thinkers. For example, Paul Feyerabend has argued against any universal rules that should be observed in scientific inquiry for (at least) two reasons. First, no one has been able to come up with these rules and, second, settling oneself with a particular set of rules would stifle the progress of science.[^24]
 

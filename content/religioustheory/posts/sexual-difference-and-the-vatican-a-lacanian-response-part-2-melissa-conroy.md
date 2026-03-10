@@ -5,7 +5,7 @@ title: >-
 description: "The following is the second of a three-part series. The first can be found here. The current medical paradigm works to suppress and erase these bodies by"
 date: '2020-10-06T18:43:03.000Z'
 author: editors
-image: /images/2020/10/Jaques_Lacan.jpg
+image: /images/2020/10/jaques_lacan.webp
 categories:
   - Psychology of Religion
   - Sexuality and Religion

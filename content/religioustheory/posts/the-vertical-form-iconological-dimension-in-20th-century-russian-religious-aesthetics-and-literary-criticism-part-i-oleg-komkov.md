@@ -6,7 +6,7 @@ description: "The following is the first part in a two-part installment. This ar
 date: '2018-03-21T00:19:44.000Z'
 author: editors
 image: >-
-  /images/2018/03/Umberto_Boccioni_1913_Dynamism_of_a_Cyclist_Dinamismo_di_un_ciclista_oil_on_canvas_70_x_95_cm_Gianni_Mattioli_Collection_on_long-term_loan_to_the_Peggy_Gugg.jpg
+  /images/2018/03/umberto_boccioni_1913_dynamism_of_a_cyclist_dinamismo_di_un_ciclista_oil_on_canvas_70_x_95_cm_gianni_mattioli_collection_on_long-term_loan_to_the_peggy_gugg.webp
 categories:
   - Aesthetics
   - Philosophy of Religion
@@ -35,7 +35,7 @@ I would not say, however, that it is typical of the *tradition* as such; rather,
 
 The following observations, though covering just a few general and purely theoretical points, might provide, I hope, an outline of what could be called iconological thought in Russian religious aesthetics, how I view it, both rooted in and different (in terms of subject and treatment) from what is known as the theology of Icon.
 
-*![](/images/2018/03/800px-Christ_the_Savior_Cathedral_Moscow-281x300.jpg)I. Image/Icon as a Category of Religious Consciousness*  
+*![](/images/2018/03/800px-christ_the_savior_cathedral_moscow.webp)I. Image/Icon as a Category of Religious Consciousness*  
 This is something that would, perhaps, seem quite natural to Western thought, whereas, for some reason, it is not a common way of reflecting upon the icon in Russia. In fact, the image has always been one of the central categories of Orthodox religious consciousness, a category linking together theology, aesthetics and anthropology. The concept of the divine image that constituted the basis of understanding personal relationship between God and man was, at the same time, the major idea underlying patristic iconology: an icon is always an expression of the divine image as an ontological reality present in human nature.
 
 However, the question arises: how is such an expression possible? From the very beginning, the image (eikwn) has, therefore, two inseparable dimensions: ontological and epistemological, i.e. the nature of the image as revelation of the divine is accounted for by the fact that it is an immanent structure, or category, of consciousness; and vice versa: cognition and experience of the divine through the image is possible only because its ontological nature is asserted. It was precisely the categorical aspect of the image that Fr. Pavel Florensky, one of the greatest Russian religious thinkers, stressed in his lectures on Religion and Culture in the 1920’s[^1] .
@@ -54,7 +54,7 @@ The poet is capable of penetrating into the “texture of the world” and grasp
 
 The eye and the mind of the reader, listener or spectator should penetrate through the “aesthetic matter” into the realm of images and through images, as the “true clothes” of the “Principal,” to the “poetic object”[^3] . This “vertical” model of the aesthetic form, however simple and straightforward it might seem, rests on the basic iconological principle of *expression as revelation and experience* of the transcendental substance. In Ilyin, we also find a very interesting approach to the very concept of contemplation, which I shall look at later on.
 
-![](/images/2018/03/897px-Nesterov_Florensky_Bulgakov-300x300.jpg)Losev also views the image iconologically, i.e. as a reality through which we can perceive the essence of things, partake of it. The essence of things, according to Losev, is their being lightened and sustained by the energies of God. The task of man is to realize himself and the world as being lightened, penetrated and sustained by the divine energies, and thus to reveal the divine image in himself and in the world[^4] .
+![](/images/2018/03/897px-nesterov_florensky_bulgakov.webp)Losev also views the image iconologically, i.e. as a reality through which we can perceive the essence of things, partake of it. The essence of things, according to Losev, is their being lightened and sustained by the energies of God. The task of man is to realize himself and the world as being lightened, penetrated and sustained by the divine energies, and thus to reveal the divine image in himself and in the world[^4] .
 
 One of the ways to come to such realization seems to be, though not straightforwardly asserted by Losev, through creative activity in which man forms and perceives images containing, as it were, the “ontological picture” of the reality (I am deliberately alluding to the paradigm found in some Fathers, particularly in St. Theodore of Studios[^5] , to underline the iconological context of Losev’s thought, which is far less evident than in Ilyin), i.e. showing to what extent the beauty and glory of God penetrate the phenomena of the world, including human personality.
 
@@ -72,7 +72,7 @@ The second point in fact articulates the ground for Florensky’s most severe cr
 
 The verdict on the Western tradition in art, however, is what objective thought would hardly tolerate, in spite of the fact that Florensky’s phenomenology is very deep and theoretically productive. On the other hand, the way in which Florensky approached particular works of art was marked by many subjective features, and it could certainly be modified. The above-mentioned trichotomy seems to be precisely the sort of framework that allows to eliminate the strict opposition between “church” and “secular” art (whatever the terminology might be). As for the hierarchy of artistic phenomena, this is something that cannot be ignored, but should be developed in such a way as to meet the need for interpreting the existing variety of artistic works, both with respect to tradition and to the novel.
 
-![](/images/2018/03/N.Gogol_by_F.Moller_1840_Tretyakov_gallery-236x300.jpg)I have applied Florensky’s trichotomy in my interpretations of several works of Russian literature by suggesting, for instance, an iconological reading of Alexander Pushkin’s poem *The* *Prophet* and Nikolai Gogol’s short novel *The Portrait*. In Pushkin’s poem, the image of the Prophet becomes a symbolic metaphor of poetic creativity seen as a result of Divine inspiration.
+![](/images/2018/03/n-gogol_by_f-moller_1840_tretyakov_gallery.webp)I have applied Florensky’s trichotomy in my interpretations of several works of Russian literature by suggesting, for instance, an iconological reading of Alexander Pushkin’s poem *The* *Prophet* and Nikolai Gogol’s short novel *The Portrait*. In Pushkin’s poem, the image of the Prophet becomes a symbolic metaphor of poetic creativity seen as a result of Divine inspiration.
 
 Pushkin clearly follows the initially “romantic” paradigm (found, for example, in Blake and Coleridge), but eventually transcends and transforms it in accordance with the tradition of iconological aesthetics, so that the transfiguration of the Prophet described in the poem looks as a gradual disclosure of the eidetic substance of the human being, the “face” of the Prophet acquiring the status of an eidos, or *lik*.
 

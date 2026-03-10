@@ -6,7 +6,7 @@ description: "The following Critical Conversation took place on February 17, 202
 date: '2022-03-29T19:40:35.000Z'
 author: editors
 image: >-
-  /images/2022/04/800px-La_visio%CC%81n_de_%C2%ABTatutsi_Xuweri_Timaiweme%C2%BB_-_Arte_del_pueblo_wixa%CC%81rika.jpg
+  /images/2022/04/800px-la_vision_de_tatutsi_xuweri_timaiweme_-_arte_del_pueblo_wixarika.webp
 categories:
   - Critical Conversations
   - Political Theology

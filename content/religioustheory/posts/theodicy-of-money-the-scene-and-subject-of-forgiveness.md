@@ -3,7 +3,7 @@ title: Theodicy of Money – The Scene and Subject of Forgiveness (Timothy Snedi
 description: "Today the question of debt forgiveness has become an eminently practical, not to mention political, question. From sovereign debt crises in Greece, Spain"
 date: '2016-05-18T20:23:24.000Z'
 author: editors
-image: /images/2016/05/Mammon_and_His_Slave.jpg
+image: /images/2016/05/mammon_and_his_slave.webp
 categories:
   - Religion and Economics
   - Political Theology
@@ -58,7 +58,7 @@ What is crucial is that the sovereign need subjects as the material condition fo
 
 A subtle, yet decisive, shift occurs with the advent of Christianity. Rather than an earthly sovereign who possesses the power to forgive this or that debt, to cancel this or that insolvency, Christianity installs at the heart of human subjectivity an absolutely inexpiable debt—and a single creditor to whom the debt is owed. Nietzsche’s suspicions in the second essay of the Genealogy of Morals are finally and radically borne out with the progression of civil society to a true totality and the nascence of the capitalist mode of production.
 
-Capitalist exchange requires as a necessary condition the formal equality and formal freedom of its various actors. By flattening out the formal economic variables between human agents (e.g. all human beings now owe an infinite debt to God), Christianity provides the formal and theoretical basis for the practical operations of the capitalist mode of production: good people spending good money in a good society. The Christian-capitalist logic: everyone is guilty, therefore everyone is innocent. The path to the perfect liberal democra![New-York-Stock-Exchange-Public-Domain](/images/2016/05/New-York-Stock-Exchange-Public-Domain-300x201.jpg)tic society is open…
+Capitalist exchange requires as a necessary condition the formal equality and formal freedom of its various actors. By flattening out the formal economic variables between human agents (e.g. all human beings now owe an infinite debt to God), Christianity provides the formal and theoretical basis for the practical operations of the capitalist mode of production: good people spending good money in a good society. The Christian-capitalist logic: everyone is guilty, therefore everyone is innocent. The path to the perfect liberal democra![New-York-Stock-Exchange-Public-Domain](/images/2016/05/new-york-stock-exchange-public-domain.webp)tic society is open…
 
 ## Theodicy of Money
 

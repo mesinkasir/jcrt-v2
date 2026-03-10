@@ -5,7 +5,7 @@ title: >-
 description: "When: Tuesday, June 29, 10am Mountain Standard Time How: Zoom. By Advance Registration. Please register at the following link below It highlights key arguments"
 date: '2021-06-04T17:12:57.000Z'
 author: editors
-image: /images/2021/06/The_Kiss_Klimt-1.jpg
+image: /images/2021/06/the_kiss_klimt-1.webp
 categories:
   - Announcements
   - Psychoanalysis

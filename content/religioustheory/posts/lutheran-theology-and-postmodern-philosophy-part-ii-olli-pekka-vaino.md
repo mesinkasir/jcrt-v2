@@ -3,7 +3,7 @@ title: 'Lutheran Theology and Postmodern Philosophy, Part II (Olli-Pekka Vaino)'
 description: "The following is the second part in a two-part installment. The first part can be found here. Postmodern thinking is generally suspicious against It highlights"
 date: '2018-05-09T07:22:26.000Z'
 author: editors
-image: /images/2018/05/IMG_0946.jpg
+image: /images/2018/05/img_0946.webp
 categories:
   - Lutheran Theology
   - Philosophy of Religion
@@ -42,7 +42,7 @@ In *The Bondage of the Will*, he insists, “If you remove the certain assertion
 
 ## On Ethics
 
-At the center of postmodern ethical thinking is suspicion against hierarchies and structures of power.[^10] ![](/images/2018/05/Style-IMG_1047-Pencil-Drawing-0.4MP-300x224.jpg)More precisely, it is the concern for justice and the fate of “excluded other” that concerns postmodern theorists the most. Surprisingly, it is possible for systems of justice to become oppressive, and this is where Derrida, amongst others, sticks his finger.  Derrida argues that our concept of justice is necessarily limited and the worst results are often harvested when people think that they know what is just but they act only based on very limited sense of justice.[^11] Furthermore, it is also typical for postmodernists to attempt to uncover hidden intentions and motives behind outward actions.
+At the center of postmodern ethical thinking is suspicion against hierarchies and structures of power.[^10] ![](/images/2018/05/style-img_1047-pencil-drawing-0-4mp.webp)More precisely, it is the concern for justice and the fate of “excluded other” that concerns postmodern theorists the most. Surprisingly, it is possible for systems of justice to become oppressive, and this is where Derrida, amongst others, sticks his finger.  Derrida argues that our concept of justice is necessarily limited and the worst results are often harvested when people think that they know what is just but they act only based on very limited sense of justice.[^11] Furthermore, it is also typical for postmodernists to attempt to uncover hidden intentions and motives behind outward actions.
 
 Moreover, postmodern ethics is oriented towards action, or practice, that seeks to change things for the better. Postmodernists often reduce religion to ethics, for example, John Caputo claims: “Religion is ethics; it is doing your duty where the voice of duty or conscience is taken as the voice of God.”[^12] Ethical duties are typically directed towards “the Other”, who present us an obligation of unconditional and absolute demand of hospitality and love.[^13]
 
@@ -58,7 +58,7 @@ However, this reduced view is hard to bring in line with Luther’s thought. For
 
 Luther’s theology has two well-known special principles that have a hierarchical function. The Two Kingdoms doctrine was originally supposed to give the church its own space and set it out of reach of secular rulers.[^17] The Three Estates (Church, household, state) set in similar fashion these three spheres apart from each other, and also in hierarchical order. The Church is the highest and it existed already in paradise. The household is a part of the good, original creation as well, but the state is needed only after the Fall to limit the evil inclinations of human beings.[^18]
 
-![](/images/2018/01/lutheran-book-of-concord-300x267.jpg)The Lutheran Book of Concord lays out the basic rules on how to the live with secular hierarchies (e.g. CA, XVI). The possibility to resist rulers remains but the conditions of revolt are clearly outlined. The rulers need to be obeyed as long as they do not ask one to commit sins. Lutherans also subscribe to the just war practice.[^19]
+![](/images/2018/01/lutheran-book-of-concord.webp)The Lutheran Book of Concord lays out the basic rules on how to the live with secular hierarchies (e.g. CA, XVI). The possibility to resist rulers remains but the conditions of revolt are clearly outlined. The rulers need to be obeyed as long as they do not ask one to commit sins. Lutherans also subscribe to the just war practice.[^19]
 
 Finally, it must be noted that Lutheran theology and postmodern philosophy share a common emphasis on practice (*praxis*).[^20] This is perhaps best seen in George Lindbeck’s construal of the nature of doctrine as a cultural-linguistic practice that is not just mere reproduction of propositional content or mere exposition of subjective emotions but a complex unity which joins theory and practice together.[^21]
 
@@ -84,7 +84,7 @@ A gift can be given only in the context of personhood and desire. A gift is a gi
 
 Contrariwise, the endless circle of critique *should* follow from post-Nietzschean notions of the gift, which are ultimately unable to guarantee the reality of love and existence of real personhood. From the Lutheran viewpoint, the postmodern notions of giving appear too monolithic, too interested in just one particular good.[^29] Granted, Lutheran theology may also appear as monomaniac in its tendency to safeguard the idea of *sola gratia.* If the idea of grace is divorced from the personhood of believer and the personhood of Trinitarian giver, this can lead to obsessive preoccupation with philosophical principles that is removed from properly theological framework.
 
-*Concluding Thoughts***![](/images/2018/01/existential-religion-300x225.jpg)**
+*Concluding Thoughts***![](/images/2018/01/existential-religion.webp)**
 
 I think it has been sufficiently clear that I do not think that Lutheran theology can be taken simply as a pious form of postmodern philosophy.[^30] There are clear philosophical, and theological, differences.  Yet Lutheran thinking is obviously more postmodern than modern – if we mean by ‘postmodern’ the weaker version of postmodernism.[^31] Lutheran thinking contains elements that make it hard to combine with scientific modes of rationality and consequently push it towards more romantic, subjectivistic and existentialist modes of thought.
 

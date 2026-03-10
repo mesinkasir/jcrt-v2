@@ -5,7 +5,7 @@ title: >-
 description: "The following is the second installment of a three-part series. The first one can be found here. If deconstruction problematizes the idea of a ‘pure’ logical"
 date: '2018-07-03T01:42:18.000Z'
 author: editors
-image: /images/2018/07/praghaus.jpg
+image: /images/2018/07/praghaus.webp
 categories:
   - Philosophy of Religion
   - Theology

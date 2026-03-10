@@ -5,7 +5,7 @@ title: >-
 description: "The following essay appeared recently in The New Polis. It is republished here because of its timeliness and importance. What exactly is Christian nationalism?"
 date: '2023-02-23T19:14:49.000Z'
 author: editors
-image: /images/2023/02/american-flag-spanish-mission-1200x642.jpg
+image: /images/2023/02/american-flag-spanish-mission.webp
 categories:
   - Political Theology
   - Critical Conversations

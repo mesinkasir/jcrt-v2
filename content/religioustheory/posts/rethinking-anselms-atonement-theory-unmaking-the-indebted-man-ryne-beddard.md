@@ -5,7 +5,7 @@ title: >-
 description: "Throughout Church history Christians have used various images and illustrations to explain why God became a human and died, and why these actions have been"
 date: '2017-01-03T20:16:03.000Z'
 author: editors
-image: /images/2017/01/atonement-lg.jpg
+image: /images/2017/01/atonement-lg.webp
 categories:
   - Theology
   - Lutheran Theology
@@ -43,7 +43,7 @@ In order for God’s salvation to be just some ransom must be paid, a ransom whi
 
 The enemy, therefore, beholding in him such power, saw also in him an opportunity for advance, in the
 
-![Saint Anselm. 16th century engraving.](/images/2017/01/AnselmCanterbury2-220x300.jpg)
+![Saint Anselm. 16th century engraving.](/images/2017/01/anselmcanterbury2.webp)
 
 Saint Anselm. 16th century engraving.
 
@@ -91,7 +91,7 @@ This raises a problem: If the devil has no legitimate claim on humanity then why
 > 
 > *Anselm*. This is the debt which man and angel owe to God, and no one who pays this debt commits sin; but everyone who does not pay it sins.[^13]
 
-The problem which humanity faces, according to Anselm, and the problem from which they need saving ![ransom-theory](/images/2017/01/Ransom-theory-300x188.jpg)is a problem of debt. Every rational creature automatically owes to God what Anselm calls a “sole and complete debt of honor,” and to not give God due honor is to sin, it “robs God.” Therefore it is only right that anyone who rob God in this way ought to pay back the honor which that person owes to God.[^14] This debt must be paid in full because “It is not fitting for God to pass over anything in his kingdom undischarged,”[^15] and “God maintains nothing with more justice than the honor of his own dignity.”[^16]
+The problem which humanity faces, according to Anselm, and the problem from which they need saving ![ransom-theory](/images/2017/01/ransom-theory.webp)is a problem of debt. Every rational creature automatically owes to God what Anselm calls a “sole and complete debt of honor,” and to not give God due honor is to sin, it “robs God.” Therefore it is only right that anyone who rob God in this way ought to pay back the honor which that person owes to God.[^14] This debt must be paid in full because “It is not fitting for God to pass over anything in his kingdom undischarged,”[^15] and “God maintains nothing with more justice than the honor of his own dignity.”[^16]
 
 This a problem for humanity because any sin against an infinite God, i.e., not giving God the debt which is due, accrues an infinite debt which cannot be satisfied by a finite person. So Anselm says very plainly: “None but God can make this satisfaction,” but at the same time it is only fitting for a human to pay for it, because it is humanity, and not God, that owes it.[^17] In other words, the only possible satisfaction for a debt which only God can pay, and yet humanity, and not God, owes is a payment made by a being that is both fully God and fully human. This, for Anselm, explains the necessity of God becoming human in order to save humanity.
 
@@ -119,7 +119,7 @@ The logic that Anselm uses to make his argument assumes that humanity is in some
 
 A function of neoliberalism is that it creates subjects who understand themselves in relation to debt. However this relationship to debt is not the same for everyone. There is a division that arises between “those who profit from debt and those who do not,” which results in a class division which operates on a fundamental subjective level because, “Debt functions biopolitically in neoliberalism, encompassing all aspects of life to shape the very being of the subject.”[^26]
 
-Following the work of Maurizio Lazzarato,[^27] Phelps says that debt is a fundamental driver of the ![hell](/images/2017/01/Hell-300x197.jpg)neoliberal economy. He goes on to argue that Anselm’s satisfaction theory is complicit in the ideology of an indebted subject because of the way indebtedness is automatically assumed as part of the basic human condition. For Anselm, as discussed above, a human being is born indebted to God, and through sin that debt is magnified. The gift of grace that Jesus passes along to humanity amounts to the forgiveness of debt accrued by sin but it does not wipe out the original state of indebtedness. Moreover, it also magnifies the indebtedness of a person in a new, in that they now owe to God a debt of gratitude.
+Following the work of Maurizio Lazzarato,[^27] Phelps says that debt is a fundamental driver of the ![hell](/images/2017/01/hell.webp)neoliberal economy. He goes on to argue that Anselm’s satisfaction theory is complicit in the ideology of an indebted subject because of the way indebtedness is automatically assumed as part of the basic human condition. For Anselm, as discussed above, a human being is born indebted to God, and through sin that debt is magnified. The gift of grace that Jesus passes along to humanity amounts to the forgiveness of debt accrued by sin but it does not wipe out the original state of indebtedness. Moreover, it also magnifies the indebtedness of a person in a new, in that they now owe to God a debt of gratitude.
 
 While the ransom theories of atonement also can be understood in terms of debt, this debt is not inescapable, and it is not fundamental to the human condition. Rather, it suggests that the state of being indebted is not part of God’s plan, and it is not permanent. In Gregory’s theory God liberates people from their indebtedness, but for Anselm God is the one to whom humanity is indebted to. Gregory’s theory could potentially provide the ideological framework for challenging the all-encompassing sense of indebtedness created by neoliberalism but Anselm’s theory is implicit in, suggesting that humanity is fundamentally in a state of indebtedness.
 

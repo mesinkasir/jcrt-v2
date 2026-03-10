@@ -5,7 +5,7 @@ title: >-
 description: "This article is published in two parts. The second portion will appear on August 1. > I have set before you life and death: choose life. – Deuteronomy 30:19"
 date: '2016-07-25T03:55:42.000Z'
 author: editors
-image: /images/2016/07/no10-vanGogh.jpg
+image: /images/2016/07/no10-vangogh.webp
 categories:
   - Philosophy of Religion
   - Phenomenology
@@ -44,7 +44,7 @@ Let me begin with Rosenzweig who was never properly exposed to Heidegger’s own
 
 Although often seen as a parallel to Heidegger’s analytics of *Dasein*,
 
-![Martin Heidegger, circa 1920](/images/2016/07/the-young-heidegger-213x300.jpg)
+![Martin Heidegger, circa 1920](/images/2016/07/the-young-heidegger.webp)
 
 Martin Heidegger, circa 1920
 
@@ -70,7 +70,7 @@ We only have access to ourselves – and to the world. It is only ever a questio
 
 This interpretation may indeed be in harmony with Heidegger’s own declarations – according to which death is the fundamental possibility of human Dasein, intensifying the modal dimension of freedom, resolutness, and inventiveness – but it is incapable of reading Heidegger “against the grain.” The opposite interpretation, already informed by deconstructive suspicion, was offered by Maurice Blanchot, Kojeve’s pupil, who reread Heidegger’s ‘being-towards-death’ in a different, non-German, context and the whole mobilizing effect of death immediately evaporated, together with its alleged highest ‘possibility’ giving way to impossibility and incapacitation.
 
-![Maurice Blanchot](/images/2016/07/blanchotbest-243x300.jpg)
+![Maurice Blanchot](/images/2016/07/blanchotbest.webp)
 
 Maurice Blanchot
 
@@ -100,7 +100,7 @@ Blanchot’s suspicion, therefore, consists in not taking Heidegger for face val
 
 This is Heidegger’s own emphasis, enhancing the active and the positive: *being*, *making*, *possibility*, which can never be forgotten as such and thus open *Dasein* “measurelessly to ever “greater and greater” tasks. But for Blanchot, the emphasis lies elsewhere, on negativity and closure: *nothing*, *impossibility*, *non-actualization*. The “impending” (BT, 294) and “measureless” impossibility of existence, which is forbidden to be pictured in any actualized shape (all affinities with the “jealous God” of the Second Commandment non-accidental!), immediately dissolves any actuality *Dasein* has happened to assume into *nothing*.
 
-Having been “delivered over” to this new deadly divine, *Dasein* can never![23218465551_a70d44f5f9_b-1](/images/2016/07/23218465551_a70d44f5f9_b-1-230x300.jpg) assert itself in what it actually *is*, but is always forced to be-no-longer, to undergo constant and constitutive “dying” in the service of this unpictureable and measureless abyss that defies any actualization. Thus, when read “theologically” (and this is certainly Blanchot’s perspective), Heidegger’s death steps into the traditional role of the deity in relation to which no other being can assert itself in existence and has to sacrifice its actuality; the possibility so immense and infinite that it excludes any finite actualization.
+Having been “delivered over” to this new deadly divine, *Dasein* can never![23218465551_a70d44f5f9_b-1](/images/2016/07/23218465551_a70d44f5f9_b-1.webp) assert itself in what it actually *is*, but is always forced to be-no-longer, to undergo constant and constitutive “dying” in the service of this unpictureable and measureless abyss that defies any actualization. Thus, when read “theologically” (and this is certainly Blanchot’s perspective), Heidegger’s death steps into the traditional role of the deity in relation to which no other being can assert itself in existence and has to sacrifice its actuality; the possibility so immense and infinite that it excludes any finite actualization.
 
 And, indeed, Heidegger says: “Anticipation discloses to existence that its uttermost possibility lies in *giving itself up*, and thus it *shatters* all one’s tenaciousness to whatever existence one has reached” (BT, 308; my emphasis). Therefore, if *Dasein* decides on becoming *something*, the “anticipatory resoluteness,” formed in face of the impending certainty of death, immediately “takes it back,” because death, as “taking back” everything, is not just an end of the process, but its very medium, the constant and constitutive ‘dying’: “The certainty of resolution signifies that one *holds oneself free for* the possibility of *taking it back* – a possibility which is factically necessary” (BT, 355).
 

@@ -3,7 +3,7 @@ title: Spinoza’s Theory of Religion – Stabilized Superstition (Ehud Benor)
 description: "The best interpretations of Spinoza’s philosophy would lead us to believe that, for Spinoza, religion is superstition. Henry Allison’s account is an excellent"
 date: '2017-01-13T22:59:35.000Z'
 author: editors
-image: /images/2017/01/jewish-1159704_1920.jpg
+image: /images/2017/01/jewish-1159704_1920.webp
 categories:
   - Philosophy of Religion
 layout: theory.njk
@@ -29,7 +29,7 @@ It is not surprising that Spinoza’s naturalistic account of religion as a soci
 
 In a notable exception to the general silence, Roberto Cipriani begins his historical introduction to the
 
-![Baruch Spinoza](/images/2017/01/Spinzoa-300x157.jpg)
+![Baruch Spinoza](/images/2017/01/spinzoa.webp)
 
 Baruch Spinoza
 
@@ -65,7 +65,7 @@ The only way out of this morass is to advance toward granting people freedom of 
 3.  the link between piety and the common good, 28  and
 4.  the superiority of reason (and of mechanism of political decision that approximate reason as much as human nature allows us to expect).
 
-![Solomons Temple](/images/2017/01/Solomons-Temple-300x206.jpg)Underlying all four reasons is a quest for the cultural and political unity that reason could provide had it been possible for a multitude of people to live according to reason. According to Spinoza, only an exceptional level of understanding—beyond mere scientific knowledge—can be motivationally effective in overcoming harmful divisive desires. Such understanding is all too rare to be politically significant. Consequently, even the well being of an advanced society depends the piety that religion induces by appealing to imagination and emotion.
+![Solomons Temple](/images/2017/01/solomons-temple.webp)Underlying all four reasons is a quest for the cultural and political unity that reason could provide had it been possible for a multitude of people to live according to reason. According to Spinoza, only an exceptional level of understanding—beyond mere scientific knowledge—can be motivationally effective in overcoming harmful divisive desires. Such understanding is all too rare to be politically significant. Consequently, even the well being of an advanced society depends the piety that religion induces by appealing to imagination and emotion.
 
 Nevertheless, Spinoza claims that an approximation of the council of reason can be achieved in the political domain through non rational means. Such approximation is the virtue of large democratic legislative assemblies wherein “horse-trading” among agents motivated by diverse desires aims to secure a reliable majority. Diverse irrationalities and narrowly conceived self interests cancel each other out as they vie for wider and wider ad hoc agreement. The more comprehensive the coalition, the greater its approximation to what reason would have counseled.29
 

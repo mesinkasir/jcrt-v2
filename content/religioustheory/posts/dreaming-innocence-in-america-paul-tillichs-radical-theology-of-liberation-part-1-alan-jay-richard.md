@@ -5,7 +5,7 @@ title: >-
 description: "One of the challenges of liberation theology is to think the radical political and social liberation of the oppressed in a way that is truly this-worldly"
 date: '2016-11-07T22:06:49.000Z'
 author: editors
-image: /images/2016/11/Public-domain-installation.jpg
+image: /images/2016/11/public-domain-installation.webp
 categories:
   - Theology
   - Postcolonial Theory
@@ -40,7 +40,7 @@ This article argues that Tillich’s concept of “Dreaming Innocence” as a p
 
 The image of a prelapsarian “innocence” becomes a rhetorical device that anchors political and
 
-![Paul Tillich](/images/2016/11/Tillich-199x300.jpg)
+![Paul Tillich](/images/2016/11/tillich.webp)
 
 Paul Tillich
 
@@ -64,7 +64,7 @@ It is paradoxically American because, more than any of his other American work, 
 
 In these works, Tillich focuses on a polarity between political romanticism founded on a myth of origin and bourgeois liberalism founded on eschatology, rationalization, and autonomy. Reading the *ST* through these earlier dissertations illuminates what is at stake politically and philosophically in the former so that the *ST*, though American, becomes a decidedly German text. At the same time, the ease that Tillich had acquired in relating complex philosophical concepts to experiences with which his pragmatic American readers could connect means that reading the dissertations through the *ST* also increases their accessibility to readers who, as he said of his students by way of contrasting them with their German counterparts, “feel that they start something new.” This should not be surprising, since Tillich began work on the ST in Germany early in his career.
 
-![nation_of_islam__public_domain_](/images/2016/11/Nation_of_Islam__public_domain_-300x179.jpg)Nevertheless, the *ST* alienated American theological colleagues as the sermons did not, partly because of its account of the doctrines of creation and fall. Reinhold Niebuhr became the first of many to criticize Tillich’s identification of creation and fall, which he argued ontologized the historical and robbed it of moral significance. 17 Coffin, after praising Tillich’s sermons, expressed dismay at the first volume of the ST because he thought it confirmed his worst fears about Tillich, that he was not a Christian but a philosophical mystic. 18
+![nation_of_islam__public_domain_](/images/2016/11/nation_of_islam_public_domain.webp)Nevertheless, the *ST* alienated American theological colleagues as the sermons did not, partly because of its account of the doctrines of creation and fall. Reinhold Niebuhr became the first of many to criticize Tillich’s identification of creation and fall, which he argued ontologized the historical and robbed it of moral significance. 17 Coffin, after praising Tillich’s sermons, expressed dismay at the first volume of the ST because he thought it confirmed his worst fears about Tillich, that he was not a Christian but a philosophical mystic. 18
 
 Tillich’s account of the Fall, his account of the state of Adam before the Fall as “dreaming innocence,” and his ontology of self-separation and unity-in-difference through the free renunciation of selfhood, not only point back both to the political and philosophical concerns of his German period but also, through his appropriation of Schelling’s philosophical approach to myth, to a trajectory that links him to a record of a sustained encounter in the late 18th century between the Enlightenment naturalist and soldier Felix de Azara and “wild” inhabitants of the Rio de la Plata in which the question of the universality of religion exposed Schelling and, through him, Tillich and ourselves to a certain shock and a certain task and promise beyond nostalgia for dreaming innocence or of a liberation in the self-transparency of the crucified self.
 
@@ -92,7 +92,7 @@ In the *ST* Tillich refers to Kierkegaard’s *Concept of Anxiety*, itself visi
 
 Despite the considerable tendency toward separation that anxiety represents and the absence of a
 
-![opname/scan 2001](/images/2016/11/4f605a6b840e52959cb1b8a51e863bf5-241x300.jpg)clear line that would separate necessity from decision, “an act in which all the drives and influences which constitute the destiny of man are brought into the centered unity” is still possible. This act is freedom. 31 Where the possibility of such an act appears, guilt is also possible and thus innocence. Since nature cannot perform such an act except in humanity, only humanity of all nature can be said to “have been” innocent.
+![opname/scan 2001](/images/2016/11/4f605a6b840e52959cb1b8a51e863bf5.webp)clear line that would separate necessity from decision, “an act in which all the drives and influences which constitute the destiny of man are brought into the centered unity” is still possible. This act is freedom. 31 Where the possibility of such an act appears, guilt is also possible and thus innocence. Since nature cannot perform such an act except in humanity, only humanity of all nature can be said to “have been” innocent.
 
 Innocence is the recounted dream of the guilty existing – awakened – human being. “There was no utopia in the past, just as there will be no ‘utopia’ in the future. Actualized creation and estranged existence are identical.” Nevertheless, Tillich adds in explicit reply to Niebuhr, “the point of coincidence of creation and the Fall” is “not a logical coincidence.” 32
 

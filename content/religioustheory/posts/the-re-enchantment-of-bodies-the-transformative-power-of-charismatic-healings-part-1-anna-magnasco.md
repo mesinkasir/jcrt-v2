@@ -6,7 +6,7 @@ description: "Part 1 investigates charismatic healing as embodied practice, argu
 date: '2023-11-28T16:40:43.000Z'
 author: editors
 image: >-
-  /images/2023/12/St_Peter_and_St_John_healing_the_cripple_1841_Wellcome_L0000122-1210x642.jpg
+  /images/2023/12/st_peter_and_st_john_healing_the_cripple_1841_wellcome_l0000122-1210x642.webp
 categories:
   - Anthropology of Religion
   - Art Theory

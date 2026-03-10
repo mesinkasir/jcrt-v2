@@ -4,7 +4,7 @@ description: "There has been much work on Lacan in describing his relationship t
 date: '2020-03-22T18:41:58.000Z'
 author: editors
 image: >-
-  /images/2020/03/catholicism_benedictine_monastery_god_christ_jesus_virgin_mary_christianity-569944.jpg
+  /images/2020/03/catholicism_benedictine_monastery_god_christ_jesus_virgin_mary_christianity-569944.webp
 categories:
   - Psychology of Religion
   - Psychoanalysis

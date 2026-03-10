@@ -3,7 +3,7 @@ title: Review – Caputo’s “Spooky” Call To Theology (Rob Kennedy)
 description: "*Caputo, John D., Moody, Sarah, and DeLay, Tad., It Spooks: Living In Response To An Unheard Call. Rapid City SD: Shelter50 Publishing Collective, 2015"
 date: '2017-05-15T19:10:04.000Z'
 author: editors
-image: /images/2017/05/ghost-story.jpg
+image: /images/2017/05/ghost-story.webp
 categories:
   - Reviews
   - Philosophy of Religion
@@ -38,7 +38,7 @@ Caputo is here once again advocating for a spooky reading of the theological/ath
 
 The vast majority of other contributions to the text sing in unison the praises of Caputo’s weak/spectral theology of *the unheard call*.  As suggested at the outset, there is a mixture of different genres or media, such as essays, letters, poems, paintings photos, and floating or spiraling text.
 
-In review of the artwork of the text, it is probably most apt to follow Derrida’s own lead, from an incident in Zeitgeist Fil![](/images/2017/05/brown-lady-ghost_raymon_hall-300x225.jpg)m’s 2002 documentary *Derrida,* where Derrida himself views a portrait done of him by an artist, and simply responds, “I accept.”  Based on the parameters of expectation for a scholarly book review, I would merely say they are enjoyable to behold and more or less foreign to Caputo’s traditional theoretical canon.
+In review of the artwork of the text, it is probably most apt to follow Derrida’s own lead, from an incident in Zeitgeist Fil![](/images/2017/05/brown-lady-ghost_raymon_hall.webp)m’s 2002 documentary *Derrida,* where Derrida himself views a portrait done of him by an artist, and simply responds, “I accept.”  Based on the parameters of expectation for a scholarly book review, I would merely say they are enjoyable to behold and more or less foreign to Caputo’s traditional theoretical canon.
 
 With artwork scattered throughout the text, there is likewise interwoven a substantial amount of more common scholarly intellectual callings proffered in the textual essays.  As with the artwork, the essay tend to promote or coincide with Caputo’s hermeneutics.  For example, in his essay “Spectral Technologies: Turning Poltergeists Into Holy Ghosts”, Peter Rollins focuses on spooking things up for political systems and even his own parameters of *belief*.  To accomplish “real transformation”
 
@@ -54,7 +54,7 @@ However, he later breaks with this line of thinking by questioning if the except
 
 In Kyle A. Roberts’ essay “From Haunting to Shaking”, we find a sympathetic onto-theological response that contra McLaren does not see in Caputo’s hauntology the *revenant* of a Moses-type figure to lead the faithful through the parted dangers of worldly injustice and human frailty.  Without the onto-theological guarantee of the *eschaton* of a final judgment and coming of the metaphysical Kingdom, Roberts wonders what all the talk of haunting will amount to for the limited reach of human agents.
 
-Roberts admits he could get on board with a call to end the injustice of the world in actual historical time, echoing the unacknowledged revenant of the specter![](/images/2017/05/download.jpg) of the unmentioned Christian Socialists, but he finally falls more in line with something akin to a conviction of Niebuhrean realism that does not envision such a thing emerging in history.  Instead, Roberts wonders if a God who haunts is not inadequate to the task of providing meaningful hope; whereas, he thinks what is really needed in contrast is a God who shakes up the world, as opposed to merely haunting it.
+Roberts admits he could get on board with a call to end the injustice of the world in actual historical time, echoing the unacknowledged revenant of the specter![](/images/2017/05/download.webp) of the unmentioned Christian Socialists, but he finally falls more in line with something akin to a conviction of Niebuhrean realism that does not envision such a thing emerging in history.  Instead, Roberts wonders if a God who haunts is not inadequate to the task of providing meaningful hope; whereas, he thinks what is really needed in contrast is a God who shakes up the world, as opposed to merely haunting it.
 
 Admittedly, in a spooky sense of the topic, there is something *holier* sounding about putting aside economic measurements and laying open hospitality to the unforeseeable future.  However, as a finite mortal in a finite world, one wonders if the defenders of poor and oppressed might not be best served by turning their attention to the weights and measures outside the text?
 

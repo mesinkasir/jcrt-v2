@@ -3,7 +3,7 @@ title: Review – Economy And Ontology From Agamben To Nancy (Taylor Weaver)
 description: "*Bird, Greg. Containing Community: From Political Economy to Ontology in Agamben, Esposito, and Nancy. Albany NY: SUNY Press, 2016. ISBN 978-1-4384-6185-4"
 date: '2017-05-23T01:36:27.000Z'
 author: editors
-image: /images/2017/05/IMG_1354.jpg
+image: /images/2017/05/img_1354.webp
 categories:
   - Reviews
 layout: theory.njk
@@ -27,7 +27,7 @@ Bird focuses particularly on a specific shared time period wherein these three l
 
 These thinkers’ core issues surround a *dispositif* of the proper (p. 6), possible political community, and ontology. In this sense, going beyond simply a hyper-focused take, Bird is able to adequately provide a strong introduction to the broad trajectory of Nancy’s, Esposito’s, and Agamben’s work, despite noting that the book is “not an introductory text that provides a . . . summary of the debate” (p. 1). But, perhaps at this stage it would be helpful to note a general outline of the volume, pointing to the conceptual issues at stake, but also the divergent themes as they emerge in discussions on the various thinkers’ work.
 
-*Containing Community*, while divided into five chapters, could be seen as being comprised of two major sections. The initial section contains only two chapters, but these are essential for setting up the later analysis of Esposito, Agamben, ![](/images/2017/05/51jKSz0RzwL._SY346_-199x300.jpg)and Nancy. Bird’s first chapter, “Political Economy and the Proper,” grounds the rest of the volume, drawing out the grave issue of appropriation and the pervasiveness of the proper in political economy and beyond which forms how we conceive of politics, community, and the subject (p. 3, 6). This can be seen in the general divisions between Marxist and anarchic thinkers, both attempting to dismantle political economic ideologies.
+*Containing Community*, while divided into five chapters, could be seen as being comprised of two major sections. The initial section contains only two chapters, but these are essential for setting up the later analysis of Esposito, Agamben, ![](/images/2017/05/51jksz0rzwl-_sy346.webp)and Nancy. Bird’s first chapter, “Political Economy and the Proper,” grounds the rest of the volume, drawing out the grave issue of appropriation and the pervasiveness of the proper in political economy and beyond which forms how we conceive of politics, community, and the subject (p. 3, 6). This can be seen in the general divisions between Marxist and anarchic thinkers, both attempting to dismantle political economic ideologies.
 
 All three philosophers, however, would oppose the political prescription of “combin\[ing\] economic appropriation with political appropriation (i.e., the state must be seized along with the factories)” (p. 7), something which they have been criticized for. Eschewing appropriation, and re-appropriation, is generated precisely through noting those practices as “nothing more than an ideological defense of the proper” (p. 7). The chapter spends some time tracing a general genealogy of the proper, underscoring Locke as a thinker who, according to Arendt, “extended property to the personal,” creating a long lasting issue in political thought, namely the conflation of the economic and political (pp. 10, 11).
 
@@ -49,7 +49,7 @@ Again, as with Nancy, Bird takes the reader down the majority of Agamben’s wri
 
 Bird’s final main chapter centers on another Italian thinker of the biopolitical, Esposito, who published a ground-breaking book on community in the 90s, *Communitas*. Interestingly, here we see a sort of chiastic shape take place. From weak politics (Nancy), to an exaggerated form of withdrawal (Agamben), to a more concrete (though, still “weak” in form) political orientation (Esposito). *Communitas* is concerned with the ontological, and spends time traversing the breadth of western thought on the common, but doing so through “the Heideggerian critique of the dispositif of the proper,” (p. 151-52) something common to the other philosophers. Separating his work from Agamben’s and Nancy’s is Esposito’s merging of the ontological and the ethical, something Nancy and Agamben would not do as boldly. Esposito’s *communitas* takes place around an ethical economy of the *munus* in which “the proprietary disposition of *Homo approprians* is radically expropriated” (p. 152).
 
-![](/images/2017/02/agamben-c2-300x200.jpg)
+![](/images/2017/02/agamben-c2.webp)
 
 Giorgio Agamben
 

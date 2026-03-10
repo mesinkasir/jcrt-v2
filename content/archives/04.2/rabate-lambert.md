@@ -26,9 +26,7 @@ To remain with Derrida's argument for a moment ' not for long though; like Iriga
 
 > \[T\]his is where the work of Mary Kelly comes into play, for it is both a critique of objectified representation and a creation of new points of view. Kelly's forms of expression are a new orientation in life for herself as a woman, an orientation she creates in works of art through the organization of images, objects, and words. \[...\] To see in Kelly's art not just a destructive force but also a creative force of difference, it might help to make sense of the difference between the logic of difference and the logic of representation.
 
-     ![Figure 1](https://jcrt.org/archives/04.2/images/fig1.gif)
-
-     \[Figure 1\] [^8]
+   
 
      Concerning this process, Olkowski writes the following:
 
@@ -36,13 +34,7 @@ To remain with Derrida's argument for a moment ' not for long though; like Iriga
 
      In the above passage, what I understand Olkowski to be suggesting is that the event of this "passive synthesis" must be opposed to the general symbolic logic of castration (the unconscious representation which circulates "emptily" through the structure-Other). This opens the possibility of singular deviations or differences that cannot be accounted for in the Lacanian schema, but only by folding these schema into the actualized in their living configurations'like the mapping of the Lacanian mathemes onto the material objects, such as the swaddling clothes and fecal matter'as a result of which the living identity of castration, and of sexual difference, will always remain unequal to its abstract representation.
 
-![Figure 2](https://jcrt.org/archives/04.2/images/fig2.jpg)
 
-![Figure 3](https://jcrt.org/archives/04.2/images/fig3.jpg)
-
-\[Figure 2\]
-
-\[Figure 3\]
 
      > Perhaps this is why it seemed crucial, not in a sense of moral imperative, but as a historical strategy, to avoid the literal figuration of the mother and child, to avoid any means of representation, which risked recuperation as 'the slice of life.' To use the body of woman, her image or person is not impossible but problematic for feminism.[^9]
 

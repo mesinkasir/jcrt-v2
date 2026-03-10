@@ -6,7 +6,7 @@
 
   {% set pageTitle = title or pg.title or post.title or metadata.site.title %}
   {% set pageDesc = description or excerpt or abstract or pg.excerpt or post.excerpt or (content | striptags | trim | truncate(160)) or metadata.site.description %}
-  {% set pageImageRaw = '/img/jcrt-open-graph.jpg' %}
+  {% set pageImageRaw = '/img/jcrt-open-graph.webp' %}
   {% set pageImage = pageImageRaw if "http" in pageImageRaw else metadata.url + pageImageRaw %}
   {% set robotsDirective = "index, follow" %}
   {% if robots %}
@@ -18,6 +18,7 @@
   {% endif %}
   {% set canonicalPath = (canonical_url or page.url) | stripQueryAndHash %}
   {% set canonicalUrl = canonicalPath if "http" in canonicalPath else metadata.url + canonicalPath %}
+  {% set shareOpenlyHref = "https://shareopenly.org/share/?url=" + canonicalUrl + "&text=" + pageTitle %}
   {% set defaultAuthor = "Religious Theory Editors" %}
   {% set pageAuthorCandidate = author or authors or pg.authorName or post.authorName or metadata.site.author or defaultAuthor %}
   {% set pageAuthor = pageAuthorCandidate %}
@@ -63,12 +64,12 @@
   <meta name="locale" content="{{ metadata.locale }}" />
 
   <link rel="icon" href="/img/logos/JCRT.svg" type="image/svg+xml" />
-  <link rel="icon" href="/img/logos/favicon-16x16.png" type="image/png" sizes="16x16" />
-  <link rel="icon" href="/img/logos/favicon-32x32.png" type="image/png" sizes="32x32" />
-  <link rel="icon" href="/img/logos/favicon-48x48.png" type="image/png" sizes="48x48" />
-  <link rel="icon" href="/img/logos/android-chrome-192x192.png" type="image/png" sizes="192x192" />
-  <link rel="icon" href="/img/logos/android-chrome-512x512.png" type="image/png" sizes="512x512" />
-  <link rel="apple-touch-icon" href="/img/logos/apple-touch-icon.png" sizes="180x180" />
+  <link rel="icon" href="/img/logos/favicon-16x16.webp" type="image/png" sizes="16x16" />
+  <link rel="icon" href="/img/logos/favicon-32x32.webp" type="image/png" sizes="32x32" />
+  <link rel="icon" href="/img/logos/favicon-48x48.webp" type="image/png" sizes="48x48" />
+  <link rel="icon" href="/img/logos/android-chrome-192x192.webp" type="image/png" sizes="192x192" />
+  <link rel="icon" href="/img/logos/android-chrome-512x512.webp" type="image/png" sizes="512x512" />
+  <link rel="apple-touch-icon" href="/img/logos/apple-touch-icon.webp" sizes="180x180" />
   <script>
   (() => {
     const addManifest = () => {
@@ -111,34 +112,100 @@
 [
   {
     "@context": "https://schema.org",
-    "@type": "NGO",
-    "@id": "https://thewhitestonefoundation.org",
+    "@type": "EducationalOrganization",
+    "@id": "https://thewhitestonefoundation.org/#organization",
     "name": "The Whitestone Foundation",
-    "url": "https://thewhitestonefoundation.org",
-    "logo": "{{ metadata.url }}{{ metadata.favicon }}",
+    "url": "https://thewhitestonefoundation.org/",
+    "sameAs": [
+      "https://jcrt.org/",
+      "https://www.facebook.com/religioustheory",
+      "https://www.instagram.com/JCRT_DU1",
+      "https://journal.thenewpolis.com/",
+      "https://thenewpolis.com/",
+      "https://esthesis.org/",
+      "https://www.youtube.com/@whitestonepublications6661"
+    ],
+    "logo": "https://thewhitestonefoundation.org/images/whitestone-logo.png",
+    "image": "https://thewhitestonefoundation.org/images/whitestone-logo.png",
+    "description": "The Whitestone Foundation and its publications advance public-interest scholarship through open-access journals, webinars, and global academic collaboration in culture and religion.",
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Boulder",
-      "addressRegion": "CO",
-      "addressCountry": "US"
-    }
+      "postOfficeBoxNumber": "PO Box 396",
+      "addressLocality": "Colbert",
+      "addressRegion": "OK",
+      "postalCode": "74733",
+      "addressCountry": "United States"
+    },
+    "publishes": [
+      {
+        "@type": "CreativeWork",
+        "name": "The Journal of Cultural and Religious Theory",
+        "url": "https://www.jcrt.org/archives/"
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "JCRT Religious Theory Blog",
+        "url": "https://jcrt.org/religioustheory/"
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "The New Polis",
+        "url": "https://thenewpolis.com/"
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "The New Polis Journal",
+        "url": "https://journal.thenewpolis.com/"
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "Esthesis",
+        "url": "https://esthesis.org/"
+      }
+    ],
+    "member": [
+      {
+        "@type": "Person",
+        "name": "Carl Raschke",
+        "url": "https://carlraschke.com/"
+      },
+      {
+        "@type": "Person",
+        "name": "Victor Taylor",
+        "url": "https://www.linkedin.com/in/victor-e-taylor-4911342b/"
+      },
+      {
+        "@type": "Person",
+        "name": "Adam DJ Brett",
+        "url": "https://adamdjbrett.com"
+      }
+    ]
   },
   {
     "@context": "https://schema.org",
+    "@id": "https://jcrt.org/#website",
     "@type": "WebSite",
-    "url": "{{ metadata.url }}",
+    "url": "https://jcrt.org/",
+    "name": "The Journal for Cultural and Religious Theory",
+    "publisher": {
+      "@id": "https://thewhitestonefoundation.org/#organization"
+    },
     "potentialAction": {
       "@type": "SearchAction",
-      "target": "{{ metadata.url }}/search/?q={search_term_string}",
+      "target": "https://jcrt.org/search/?q={search_term_string}",
       "query-input": "required name=search_term_string"
     }
   }
 ]
 </script>
+  {% set isAcademic = "/archives/" in page.url %}
+  {% set isBlogHome = page.url in ["/blog/", "/religioustheory/"] %}
+  {% set isBlogPost = ("/blog/" in page.url or "/religioustheory/" in page.url) and (not isBlogHome) and (not isAcademic) %}
+  {% set pageSchemaType = "ScholarlyArticle" if isAcademic else ("Blog" if isBlogHome else ("BlogPosting" if isBlogPost else "WebPage")) %}
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "BlogPosting",
+    "@type": "{{ pageSchemaType }}",
     "headline": "{{ pageTitle }}",
     "description": "{{ pageDesc | truncate(160) }}",
     "image": "{{ pageImage }}",
@@ -202,6 +269,18 @@
 
     {% include "partials/nav_mobile.njk" %}
     <main class="h-entry"{% if searchIndex == false %} data-pagefind-ignore{% else %} data-pagefind-body{% endif %}>
+      <div class="d-flex justify-content-end mb-3" data-pagefind-ignore>
+        <a
+          href="{{ shareOpenlyHref }}"
+          class="btn btn-outline-secondary btn-sm"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Share this page with ShareOpenly"
+          aria-label="Share this page with ShareOpenly"
+        >
+          Share via ShareOpenly
+        </a>
+      </div>
       {% set isTheoryPostDetail = page and page.inputPath and ("/content/religioustheory/posts/" in page.inputPath) %}
       {% if isTheoryPostDetail %}
         {% set defaultPostImage = "/img/jcrt-open-graph.webp" %}
@@ -317,8 +396,11 @@
           </div>
         </section>
       {% endif %}
-    </main>
-  </div>
+	    </main>
+      <p class="h-card visually-hidden" data-pagefind-ignore>
+        <a class="p-name u-url" href="https://thewhitestonefoundation.org/">The Whitestone Foundation</a>
+      </p>
+	  </div>
   <script>
     (function () {
       const fallback = "/img/jcrt-open-graph.webp";

@@ -5,7 +5,7 @@ title: >-
 description: "The religious attitude of the West today demonstrates a consumerist ethos that would have been deeply foreign to the religious discourse of old It highlights"
 date: '2024-03-15T13:53:12.000Z'
 author: editors
-image: /images/2024/09/3725-1210x642.jpg
+image: /images/2024/09/3725.webp
 categories:
   - Cultural Theory
   - Announcements
@@ -32,7 +32,7 @@ Beginning with Shamanism, it is by identifying changes in dietary practices and 
 
 Some of the first evidence of religious practice in human history comes from the cave of Lascaux in the Dordogne, France, dated between 15,000 and 20,000 BCE. This artwork is pictured below:[^1]
 
-![](/images/2024/09/Picture1.png)
+![](/images/2024/09/picture1.webp)
 
 The scene is typically interpreted as a hunting scene showing an eviscerated bison beside the hunter who mimicked or shared in the same wounds he inflicted upon the animal.[^2] This evidence points to a profound sympathy and concern for the subject of the hunt. Such sympathy, as demonstrated above and practiced through the popularization of the shaman, is partially but significantly tied to how these communities thought about the afterlife and reincarnation.
 

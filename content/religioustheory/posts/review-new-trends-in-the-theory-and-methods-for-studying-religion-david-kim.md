@@ -5,7 +5,7 @@ title: >-
 description: "Kovács, Ábrahám, and James L. Cox, Editors. New Trends and Recurring Issues in the Study of Religion: Context and Overview. Budapest: L’Harmattan, 2014"
 date: '2016-12-29T18:36:39.000Z'
 author: editors
-image: /images/2016/12/clock.jpg
+image: /images/2016/12/clock.webp
 categories:
   - Reviews
   - World Religions
@@ -36,7 +36,7 @@ The impact of the Dutch Leiden School of modern theology is approached in chapte
 
 The second section enumerates the current issues and new approaches by the four academics of Finland, Scotland, and Hungary. Among them, chapter four addresses about the religious change of Central Eastern Europe by the four models of  “secularization,” “social drama,” “civil religion,” and “empty or free.” András Máte-Tóth defines them as social scientific theories, but he denies the capacity of a single theory for the diverse nature of religious phenomena. Máte-Tóth assumes that an interdisciplinary approach can lead to a balanced and thorough understanding (98). Religion is seen in the perspectives of ‘spatial orientation,’ ‘landscape,’ and ‘the environment’ in chapter five.
 
-Here, the concept of religion was altered in “the complex relationship between the environment and ![eternity](/images/2016/12/eternity-300x204.jpg)human societies and between geography and culture” (7). The two fields of religious studies and landscape studies were coherently understood as all religious forms are necessarily constrained by the conceptualizations of space. Meanwhile, James L. Cox probes the social issue of “academic neutrality or objectivity” in a narrative of Zimbabwe.
+Here, the concept of religion was altered in “the complex relationship between the environment and ![eternity](/images/2016/12/eternity.webp)human societies and between geography and culture” (7). The two fields of religious studies and landscape studies were coherently understood as all religious forms are necessarily constrained by the conceptualizations of space. Meanwhile, James L. Cox probes the social issue of “academic neutrality or objectivity” in a narrative of Zimbabwe.
 
 The question, what social responsibility scholars have to the communities they are researching was considered with the role of religion and the issue of AIDS. Although an African Initiated Church treated disease through the Pentecostal phenomenology of prayer and laying on of hands, the conclusion was taken as that “the role of an academic is limited to describing social and historical processes” (148).
 
@@ -51,7 +51,7 @@ The final section of two chapters addresses philosophical issues through the phe
 
 Similarly, the meaning of “holiness” is analyzed in the view that “the intentionality of the object of the religious act” is distinguished from “the subjective experiential interpretations of the “Holy” (11). In other words, personal holiness can be attributed to offices or ordinations of persons, while the concept of “Holy” can be applied for a doctrine or book that contains revealed truths or words of God.
 
-![1bcfbe43d47f61ff34644a12053e8b15](/images/2016/12/1bcfbe43d47f61ff34644a12053e8b15-267x300.jpg)Josef Seifert argues that transcendent holiness should operate normatively in ranking and evaluating religions. He also sustains that transcendent holiness is not dependent on the quality of ‘supreme judge’ (210-211) and that the scholars of religion should examine whether a given religion is holiness-based or not and then analyze the role holiness plays in the rituals of the religion.
+![1bcfbe43d47f61ff34644a12053e8b15](/images/2016/12/1bcfbe43d47f61ff34644a12053e8b15.webp)Josef Seifert argues that transcendent holiness should operate normatively in ranking and evaluating religions. He also sustains that transcendent holiness is not dependent on the quality of ‘supreme judge’ (210-211) and that the scholars of religion should examine whether a given religion is holiness-based or not and then analyze the role holiness plays in the rituals of the religion.
 
 *New Tends and Recurring Issues* is an important and timely edited book, introducing the Eastern European perspectives of the theory and method for the study of religion. The uniqueness and richness of the ideas are theoretically unveiled, based on the cultural and historical experiences in the twentieth century. The various new approaches and issues bring a fresh insight for readers, including those who are interested in the sociology of religion and new religious movements.
 

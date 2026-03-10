@@ -5,7 +5,7 @@ title: >-
 description: "The following is a talk presented at the Weatherhead Center for International Affairs, Harvard University, and is the second installment of a two-part series"
 date: '2017-10-23T16:40:32.000Z'
 author: editors
-image: /images/2017/10/denali-national-park-1733313_1280.uncharted-territory.jpg
+image: /images/2017/10/denali-national-park-1733313_1280-uncharted-territory.webp
 categories:
   - Religion and Media
   - Religious Studies
@@ -46,7 +46,7 @@ In part responding to official religion’s cultural hegemony, especially in Nor
 
 Knowing this, observing the historical construction of “Hinduism” as a “world religion” at the end of the 19th century, and seeing the ambiguous mix of official and unofficial religious elements in religious life as it is lived today, no reflexive ethnographer can accept the blithe assumption that national and trans-national statistics on religious belief and practice have the meanings claimed for them.
 
-![](/images/2017/10/Confucius_and_his_students2-300x176.jpg)“Cross-country data sets,” society-wide promotion of religious “values and behaviors,” and questions about religiosity’s decline arise from such arbitrary definitional acts that accurate generalization is scarcely possible. More precisely: generalizations based on such matters are as relative to their definitional axioms as Riemannian or Lobachevskian geometry are to their axioms about parallel lines.
+![](/images/2017/10/confucius_and_his_students2.webp)“Cross-country data sets,” society-wide promotion of religious “values and behaviors,” and questions about religiosity’s decline arise from such arbitrary definitional acts that accurate generalization is scarcely possible. More precisely: generalizations based on such matters are as relative to their definitional axioms as Riemannian or Lobachevskian geometry are to their axioms about parallel lines.
 
 Before I lower the boom any more on this, let me take an example from my social activist study. As part of that study, I have spent a good deal of time at the Los Angeles Catholic Worker. Not only does this give my students a chance to see the worst poverty in L.A., and on the street level, not in some tour bus; it also gives them a chance to experience an activist community that claims to “live its faith” – following Jesus to live among the poorest of the poor.
 
@@ -64,7 +64,7 @@ A dozen years ago, I described how Navajo ceremonies structure time and attentio
 
 I have described this at length elsewhere[^9] ; here I have time only to note that the ceremony begins with a depressing litany of the things going wrong with the world, moves to a communal homily, to which the entire group can contribute, halts for a passing-of-the-peace during which every participant hugs every other person in the room (which takes some time), and ends with a self-administered sharing of bread and wine.
 
-![](/images/2017/10/catholic-mass-300x225.jpg)Symbolically speaking, the service moves participants from their wounded isolation into community, and then makes that community its own priest. Great buckets of soup are then blessed and served to those present. Eight to ten workers load the remaining soup and bread into a van, which they take to L.A.’s Skid Row and distribute to the homeless. Having made themselves priests in their own house, they serve as priests to the poorest of the poor, distributing the soup, bread, and water that are the ritual staff of life.
+![](/images/2017/10/catholic-mass.webp)Symbolically speaking, the service moves participants from their wounded isolation into community, and then makes that community its own priest. Great buckets of soup are then blessed and served to those present. Eight to ten workers load the remaining soup and bread into a van, which they take to L.A.’s Skid Row and distribute to the homeless. Having made themselves priests in their own house, they serve as priests to the poorest of the poor, distributing the soup, bread, and water that are the ritual staff of life.
 
 Like Navajo ceremonies, this ritual operates on at least three levels. The first level is thought, as the words of song, homily, and greeting reinforce worker theology. The second level is symbol, as I have just described: the transubstantiation not just of bread and wine and soup but of individuals into a priestly community.
 
@@ -76,7 +76,7 @@ Are Catholic Workers seeking community as much as they are seeking peace and jus
 
 Back to my epistemological point. I have claimed that theoretical generalizations are accurate only relative to their definitional axioms: define religion as church plus belief and one can make one set of generalizations, define it differently and different generalizations present themselves. My reliance on Schutz and the Navajo grounds religion in experience rather than in discursive thought. Each set of theories generates a different religious object to investigate.[^11] Epistemologically, these seem all on a level; you pay your money and you take your choice.
 
-![](/images/2017/10/Three_Navajo_men_proceeding_as_war_gods._Wellcome_V0038486-300x244.jpg)
+![](/images/2017/10/three_navajo_men_proceeding_as_war_gods-_wellcome_v0038486.webp)
 
 This is where ethnography becomes important in the study of religion. As a reflexive practice, ethnographic investigation involves the constant questioning of one’s own conceptual apparatus. Like journalists, pew counters, and survey researchers, ethnographers inevitably bring unexamined concepts into the field, through which they view their research site and subjects.
 
@@ -106,7 +106,7 @@ A scientific community accumulates wisdom by collecting the experiences of its m
 
 Yet, just as the calculus can speak of a curve approaching a limit, so in science one can speak of the limit of a line of inquiry. For Peirce, “Truth is that concordance of abstract statement with the ideal limit towards which endless investigation would tend to bring scientific belief.”[^14] We can never reach that limit – at least we can never know that we have done so – but its existence as a goal guides our efforts to achieve it. The very act of trying to do so, of directing our work as if truth were within reach, moves the scientific community forward.
 
-![](/images/2017/10/faith-in-supreme-power-300x185.jpg)“Truth” stands here as a regulative ideal, a concept that, though itself epistemologically insecure, makes science possible. Kant argued that the idea of “God” so regulates morality: one cannot demonstrate God’s existence, but some faith in a supreme power is needed to have a moral life.
+![](/images/2017/10/faith-in-supreme-power.webp)“Truth” stands here as a regulative ideal, a concept that, though itself epistemologically insecure, makes science possible. Kant argued that the idea of “God” so regulates morality: one cannot demonstrate God’s existence, but some faith in a supreme power is needed to have a moral life.
 
 In Kant’s vision, all practical thought requires regulation, much as a motor needs a governor to do useful work. Though one cannot deduce the aptness of such a regulator *a priori*, one can judge that aptness by the results obtained. When scientists speak of “truth,” they state their faith that – given limitless time, through rigorous analysis, doubt, intelligence, and careful listening to experience – humans will be able to understand the world.
 

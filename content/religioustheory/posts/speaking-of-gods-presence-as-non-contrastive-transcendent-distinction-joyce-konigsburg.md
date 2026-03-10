@@ -6,7 +6,7 @@ description: "To speak or not to speak of God is an important yet rather uncomfo
 date: '2019-07-28T01:42:10.000Z'
 author: editors
 image: >-
-  /images/2019/08/964px-Angel_of_the_Divine_Presence_Bringing_Eve_to_Adam_The_Creation_of_Eve-__And_She_Shall_be_Called_Woman_recto_Sketch_for_the_same_verso_MET_DP805381.jpg
+  /images/2019/08/964px-angel_of_the_divine_presence_bringing_eve_to_adam_the_creation_of_eve-__and_she_shall_be_called_woman_recto_sketch_for_the_same_verso_met_dp805381.webp
 categories:
   - Philosophical Theology
 layout: theory.njk

@@ -5,7 +5,7 @@ title: >-
 description: "*Schrijvers, Joeri. Between Faith and Belief: Toward a Contemporary Phenomenology of Religious Life (SUNY Series in Theology and Continental Thought) It"
 date: '2016-08-18T08:00:50.000Z'
 author: Books
-image: /images/2016/08/Phenomenological-Psychology.jpg
+image: /images/2016/08/phenomenological-psychology.webp
 categories:
   - Reviews
 layout: theory.njk
@@ -59,7 +59,7 @@ The ontology of lack is important for Schrijvers because, relative to our religi
 
 Schrijvers visits Heidegger’s *Phenomenology of Religious Life* to find that early Christians engaged in “a continuous attempt to safeguard the “When” of the coming” of God, which problematically rendered salvation as *vorhanden*, “a matter of instrumentalized, objective time.” Schrijvers walks through Heidegger’s argument, focusing on how inauthenticity blooms in the negative moment when the Christian fears “being unable to endure the wait and of not being granted one’s salvation” (314) and thus engages in a tranquilization that differentiates the saved and the damned.
 
-![schrijvers](/images/2016/08/schrijvers-199x300.jpg)Schrijvers wants to suggest the alternative of holding to an “unredeemedness” that squares with the “humbleness and the modesty that the phenomenology of finitude of this work prescribes” (314). This keeps salvation as uncertain, especially as it remains humbling to note that Christians are never perfectly so—it’s impossible to “eradicate all instrumentalization when it comes to the question of the divine” (315). This impossibility, for Schrijvers, is what keeps Christians in community with heathens, which opens up a space for dialogue (and a point of community, or commonality) predicated on equality. It’s an inclusive stance, and one that keeps the possibilities of world and salvation as inevitabilities.
+![schrijvers](/images/2016/08/schrijvers.webp)Schrijvers wants to suggest the alternative of holding to an “unredeemedness” that squares with the “humbleness and the modesty that the phenomenology of finitude of this work prescribes” (314). This keeps salvation as uncertain, especially as it remains humbling to note that Christians are never perfectly so—it’s impossible to “eradicate all instrumentalization when it comes to the question of the divine” (315). This impossibility, for Schrijvers, is what keeps Christians in community with heathens, which opens up a space for dialogue (and a point of community, or commonality) predicated on equality. It’s an inclusive stance, and one that keeps the possibilities of world and salvation as inevitabilities.
 
 The conclusion is a fitting ending of the book, consistent with the virtues and blemishes of the whole. It provides a nice illumination of Heidegger’s text and draws into the end most of the thinkers whose reflections have inhabited the book. On the other hand, it still fails to provide a clear or explicit position on how this work relates to questions of faith and belief.
 

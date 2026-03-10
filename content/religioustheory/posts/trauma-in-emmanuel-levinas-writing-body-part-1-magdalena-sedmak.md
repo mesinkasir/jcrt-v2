@@ -3,7 +3,7 @@ title: 'Trauma In Emmanuel Levinas’ Writing Body, Part 1 (Magdalena Sedmak)'
 description: "The following is the first of a two part series. The entire article appears in Issue 22.1 of the Journal for Cultural and Religious Theory It highlights"
 date: '2023-06-15T23:29:55.000Z'
 author: editors
-image: /images/2023/07/1024px-Hofmann_Lehrbuch_brain_gunshot-1024x642.jpg
+image: /images/2023/07/1024px-hofmann_lehrbuch_brain_gunshot.webp
 categories:
   - Psychology of Religion
   - Theology

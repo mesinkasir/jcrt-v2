@@ -5,7 +5,7 @@ title: >-
 description: "There is no reason why therapy rooms for psychedelic sessions must be adorned with the default Buddha icons, fractal posters, and Indian drapes It highlights"
 date: '2016-10-24T06:12:04.000Z'
 author: editors
-image: /images/2016/10/sorrowing-old-man-psilocybin-depression.jpg
+image: /images/2016/10/sorrowing-old-man-psilocybin-depression.webp
 categories:
   - Psychology of Religion
   - Psychoanalysis
@@ -42,7 +42,7 @@ Few people are aware of the fact that before psychedelics such as LSD and psiloc
 
 We see this practice in aesthetes as well, from Charles Baudelaire’s *Artificial Paradises* to
 
-![Charles Baudilaire](/images/2016/10/Charles_Baudelaire_by_Julanna-235x300.png)
+![Charles Baudilaire](/images/2016/10/charles_baudelaire_by_julanna.webp)
 
 Charles Baudilaire
 
@@ -66,7 +66,7 @@ Deleuze and Guattari are of course themselves entrenched within western thought.
 
 With respect to the unconscious, Deleuze and Guattari claim that “drugs give the unconscious the immanence and plane that psychoanalysis botched.”[^11]  The mistake drug addicts make, Deleuze and Guattari suggest, is always to “start over again from ground zero, either going on the drug again or quitting, when what they should do is make it a stopover, to start from the middle.”
 
-![image](/images/2016/10/image-300x158.jpg)Writing in the 1980s, they argue that drug use is “over,” claiming that “drugs are too unwieldy to grasp the imperceptible and becomings-imperceptible; drug users believed that drugs would grant them the plane, when in fact the plane must distill its own drugs, remaining master of speeds and proximities.”[^12]  But it is useful according to them to contrast psychoanalysis and pharmacoanalysis.  We might ask then, what the relationship is between the plane and the unconscious.
+![image](/images/2016/10/image.webp)Writing in the 1980s, they argue that drug use is “over,” claiming that “drugs are too unwieldy to grasp the imperceptible and becomings-imperceptible; drug users believed that drugs would grant them the plane, when in fact the plane must distill its own drugs, remaining master of speeds and proximities.”[^12]  But it is useful according to them to contrast psychoanalysis and pharmacoanalysis.  We might ask then, what the relationship is between the plane and the unconscious.
 
 If psychoanalysis “botched” the immanence of the unconscious, it seems to have been two-fold. On the one hand, with respect to latency, “the plane of the Unconscious remains a plane of transcendence guaranteeing, justifying, the existence of psychoanalysis and the necessity of its interpretations.”[^13]  The power of analysis was mistakenly seen in its ability to sort out the troublesome past, to make “sense” of or to comprehend a clearer version of a narrative where sublimation could be seen in the repressive act of transferring desire from one object to another – Hitchcock’s *Marnie*, for example.
 
@@ -94,7 +94,7 @@ The great psychedelic research pioneer, Stanislav Grof, has suggested some speci
 
 He believes that the psyche permeates all of existence, including prenatal experience and the memory of how we were born, something which transpersonal psychology’s emphasis on prenatal development has helped to correct. Grof notes how Jung helps psychedelic therapy by making psyche into anima mundi as well as Rudolph Otto numinous elements of psyche. From a therapist’s perspective, you cannot use your intellect understand existence or to “fix” the patient, but you can create a special alchemical environment where the conscious ego communicates with “S” between conscious ego and Self.
 
-It follows from this that we must bring spirituality and religion back into therapy.  ![18392092606_7a140fc31a_c](/images/2016/10/18392092606_7a140fc31a_c-300x213.jpg)Psychedelic research therefore requires us to have a postsecular approach to spirituality in order to have good therapy.  As in situations of extreme trauma, according to the transpersonal model, a psycho-spiritual death and rebirth process helps in cases where one has to reach back into prenatal or birth experiences to untangle the trauma.
+It follows from this that we must bring spirituality and religion back into therapy.  ![18392092606_7a140fc31a_c](/images/2016/10/18392092606_7a140fc31a_c.webp)Psychedelic research therefore requires us to have a postsecular approach to spirituality in order to have good therapy.  As in situations of extreme trauma, according to the transpersonal model, a psycho-spiritual death and rebirth process helps in cases where one has to reach back into prenatal or birth experiences to untangle the trauma.
 
 Moreover, according to Grof, transpersonal approaches can take you to any point in human history, regardless of culture, language, ethnicity, etc. Grof is optimistic about the reintroduction of psychedelic research because now we are accustomed to experiential therapies which did not exist in the 1960s.  Again, I am reminded of the cartographic metaphors employed by Metzner and others.
 

@@ -3,7 +3,7 @@ title: Call for Contributors – The Dialectic of Divine Presence and Absence
 description: "Since the philosopher Nietzsche announced the “death of God” over a century ago, the specter of divine absence has hovered over Western civilization It"
 date: '2018-02-14T04:19:46.000Z'
 author: editors
-image: /images/2016/02/IMG_0554.jpg
+image: /images/2016/02/img_0554.webp
 categories:
   - Announcements
   - Critical Theory

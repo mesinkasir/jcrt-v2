@@ -4,7 +4,7 @@ description: "The following is the second of a two-part series. The first can be
 date: '2021-03-29T01:57:00.000Z'
 author: editors
 image: >-
-  /images/2021/03/Sikoslingmuit_Eskimo_Woman._Southern_Baffin_Island._Copper-plate_engraving_17459827988.jpg
+  /images/2021/03/sikoslingmuit_eskimo_woman-_southern_baffin_island-_copper-plate_engraving_17459827988.webp
 categories:
   - Indigenous Religions
   - Postcolonial Theory

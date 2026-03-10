@@ -3,7 +3,7 @@ title: 'Sikhs As Subalterns – Voice, Inequality, And Power, Part 2 (Nirvikar S
 description: "The following is the second installment of a three part series. The first can be found here. It is published as a catalogued .PDF in article in the latest issue"
 date: '2024-01-26T17:09:44.000Z'
 author: editors
-image: /images/2024/02/Peace_Symposium_between_Sikhs__Muslims_of_Pakistan-919x642.jpg
+image: /images/2024/02/peace_symposium_between_sikhs_muslims_of_pakistan.webp
 categories:
   - Postcolonial Theory
   - Theology

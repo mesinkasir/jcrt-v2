@@ -5,7 +5,7 @@ title: >-
 description: "**The following is the second half of the article. The first installment can be found here.** Richard Kearney’s theopoetics offers an alternative to the"
 date: '2017-04-01T01:41:57.000Z'
 author: editors
-image: /images/2017/04/under-den-linden.jpg
+image: /images/2017/04/under-den-linden.webp
 categories:
   - Philosophy
   - Metaphysics
@@ -54,7 +54,7 @@ world was always unconditioned and ungrounded, precisely in order to safeguard t
 
 It is precisely this kind of disguise that one encounters, for example, in Schelling’s positing of an eternal
 
-![Dietrich Bonhoeffer](/images/2017/04/bonhoeffer_01-300x169.jpg)
+![Dietrich Bonhoeffer](/images/2017/04/bonhoeffer_01.webp)
 
 Dietrich Bonhoeffer
 
@@ -80,7 +80,7 @@ This ultimately means that such a conception of God fails to ground creation. In
 
 Thereby we have already arrived at Kearney’s first visual example of theopoetics: Andrei Rublev’s *Holy Trinity*. The freedom of a God who is free to exist because He *ek-sists*, that is, because He “exits” and “stands beyond” Himself; a God who is free from His own being or essence; a freedom indicated by the “gap within divinity,” by the no-thing of the perichoretic *chora*; finally, a nothing that knows nothing “of that narcissistic self-regard – a self-loving-love, a self-thinking-thought, a self-causing-cause”—all of these motifs (freedom, nothing, eros) are embodied in Kearney’s reading of Rublev’s icon. Didn’t the naturalism of the Greeks know of eros?
 
-![ekstasis](/images/2017/04/ekstasis-300x296.jpg)A student of ancient philosophy may object. Doesn’t eros after all belong to *physis* as what is natural and aiming at the propagation of nature? *That* eros, what Lyotard has called in his *Libidinal Economy* “Nicomachean Erotics”[^15] is precisely too natural, that is to say, too symmetrical, equally subservient to biological and political needs; it is an economic eros that grants satisfaction inasmuch as it demands it. Ultimately, it is a technological eros, to recall Levinas’ remark that “machines…echo the impatience of desire.”[^16] Not so with the eros that freely begets creation.
+![ekstasis](/images/2017/04/ekstasis.webp)A student of ancient philosophy may object. Doesn’t eros after all belong to *physis* as what is natural and aiming at the propagation of nature? *That* eros, what Lyotard has called in his *Libidinal Economy* “Nicomachean Erotics”[^15] is precisely too natural, that is to say, too symmetrical, equally subservient to biological and political needs; it is an economic eros that grants satisfaction inasmuch as it demands it. Ultimately, it is a technological eros, to recall Levinas’ remark that “machines…echo the impatience of desire.”[^16] Not so with the eros that freely begets creation.
 
 In Rublev’s icon the movement of eros is in the eyes: the gaze of each angel “deflects” from the one to the other and to the third in a continuous movement that never comes to a halt. Trinitarian eros is not inscribed within an economy of self-satisfaction but within a community of difference and deferment. Theoerotics is not motivated by might, as the magical machine is, but rather by its perichoretic renouncement. That eros is not a will to power.
 

@@ -5,7 +5,7 @@ title: >-
 description: "The following article is republished from an earlier edition of The Journal for Cultural Theory. The link to the original article can be found here It"
 date: '2017-03-01T00:16:30.000Z'
 author: editors
-image: /images/2017/03/Bell-Jar-cover.jpg
+image: /images/2017/03/bell-jar-cover.webp
 categories:
   - Feminist Theory
 layout: theory.njk
@@ -40,7 +40,7 @@ The editions of the text that contain de Beauvoir’s image have two meaningful 
 
 For example, on the 1989 cover published by Vintage, de Beauvoir’s visage is unsmiling and blurred, her eyes gazing away from the viewer and her expression somewhat Mona Lisa-esque: possibly content, possibly annoyed. Her thin lips give little away. The text of the title and of the author’s name, however, have a distinct, almost playful personality. The capital S is  highly  stylized, the top of the letter curling over onto itself and the bottom of the letter appearing to be cut off. The capital E lacks vertical symmetry, with its middle arm floating substantially below the midline. Such lively font details create a contrast with the nearly style-less grayscale face.
 
-The apparent rhetorical imbalance can be interpreted as responsible to the content of the book; indeed, the![fml](/images/2017/03/fml-193x300.jpg) book is not *about* de Beauvoir specifically. That is, it is not a memoir of one woman, but instead a book about all women and their existence as always-situated against man and the patriarchy. And so while this particular design approach might initially appear disrespectful to the author, it may instead be interpreted as a function of de Beauvoir’s ethos as a philosopher, in the way we might place an image of Plato on the *Phaedrus*.
+The apparent rhetorical imbalance can be interpreted as responsible to the content of the book; indeed, the![fml](/images/2017/03/fml.webp) book is not *about* de Beauvoir specifically. That is, it is not a memoir of one woman, but instead a book about all women and their existence as always-situated against man and the patriarchy. And so while this particular design approach might initially appear disrespectful to the author, it may instead be interpreted as a function of de Beauvoir’s ethos as a philosopher, in the way we might place an image of Plato on the *Phaedrus*.
 
 The text-only cover is, according to some designers, a mark of deference to the ideas in the book. J.D Salinger is rumored to have had some sort of clause in his publishing contract that prevented any images
 
@@ -60,7 +60,7 @@ In another most recent edition of de Beauvoir’s work, the jacket designers may
 
 The corset is arguably the ultimate metaphor for the ways in which women’s bodies have been expected to conform—nearly always unreasonably—to a version of *woman* constructed by society. The iconic image of the corset  comes from *Gone with the Wind* of Scarlett O’Hara yelling at her maid, Mammy, to torque down her corset more tightly to achieve a specifically (and horrifyingly) small (17 inch) waist. Women were known to faint and damage their internal organs for the sake of literally ‘fitting in’ to a particular shape. The image of the corset delivers quite effectively the notion that this book is about women and their conflicted existence: to be asked to be someone else than they might otherwise be, simply based on those expectations laid upon them by men (and ultimately other women).
 
-![corsets](/images/2017/03/corsets-300x158.jpg)To control the body, to civilize it, to make it satisfactory for public consumption, to reign it in, to restrain it, contain it. This jacket, with the corset empty of a woman’s body, illustrates that we can observe the structures of society and culture that would hold women in. Women can step out of the metaphorical corset of the patriarchy and examine it. The design of this cover will be, perhaps, compelling to buyers, which will appeal to the publisher; clearly represents (if figuratively, broadly) the purpose of the book, which respects the author; and it complements the text, which supports readers’ understanding.
+![corsets](/images/2017/03/corsets.webp)To control the body, to civilize it, to make it satisfactory for public consumption, to reign it in, to restrain it, contain it. This jacket, with the corset empty of a woman’s body, illustrates that we can observe the structures of society and culture that would hold women in. Women can step out of the metaphorical corset of the patriarchy and examine it. The design of this cover will be, perhaps, compelling to buyers, which will appeal to the publisher; clearly represents (if figuratively, broadly) the purpose of the book, which respects the author; and it complements the text, which supports readers’ understanding.
 
 What this Vintage edition of *The Second Sex* shows, then, is that the questions posed at the beginning of this brief survey might be moot: visually, the jacket design can indeed be expected to serve several masters in the marketplace of books. There isn’t any need to determine priority; rhetorically effective cover design is nimble and lithe.
 

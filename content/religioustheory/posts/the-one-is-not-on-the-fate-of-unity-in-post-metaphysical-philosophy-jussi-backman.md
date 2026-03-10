@@ -5,7 +5,7 @@ title: >-
 description: "*A Turkish translation of a version of this essay has been published as “Bir, bir şey değildir: post-metafizik düşüncede birlik ve çokluğun akıbeti,” trans"
 date: '2017-05-09T20:06:50.000Z'
 author: editors
-image: /images/2017/05/Aristotle-metaphysics.jpg
+image: /images/2017/05/aristotle-metaphysics.webp
 categories:
   - Metaphysics
   - Philosophy
@@ -42,7 +42,7 @@ This model, identified by Martin Heidegger as the cornerstone of Western metaphy
 
 However, while the German idealists still took for granted the conception of philosophy as a quest for ultimate unity, in philosophical late modernity since Nietzsche—separated from Hegel by what Reiner Schürmann calls “the most difficult decades to understand in our entire history”[^2] —the status of unity becomes profoundly unsettled and transformed. In one of his late fragments, Nietzsche exclaims that “the overall character of existence may not be interpreted by means of the concept of ‘*aim*,’ the concept of ‘*unity*,’ or the concept of ‘*truth*.’ . . . \[A\]ny comprehensive unity in the plurality of occurrences is lacking.”[^3]
 
-The category of unity is one that we “used to insert some value into the world,” but with the advent of modern nihilism and its “devaluation of the supreme values,” this category is once again extracted. Like all other values, unity was no more than a temporary instrumental projection. “We need ‘unities’ in order to be able to *reckon* \[*rechnen*\]: that does not mean we must suppose that there *are* such unities.”[^4] For Nietzsche, reality is a chaotic plurality without inherent unity, aim, or structure, ceaselessly rearticulated by the will to power as the essence of subjectivity. This unending and aimless process ![](/images/2017/05/Hendrik_ter_Brugghen_-_Democritus-242x300.jpg)of ceaseless reconfiguration is the only permanent identity, the cyclic “eternal recurrence of the same.”
+The category of unity is one that we “used to insert some value into the world,” but with the advent of modern nihilism and its “devaluation of the supreme values,” this category is once again extracted. Like all other values, unity was no more than a temporary instrumental projection. “We need ‘unities’ in order to be able to *reckon* \[*rechnen*\]: that does not mean we must suppose that there *are* such unities.”[^4] For Nietzsche, reality is a chaotic plurality without inherent unity, aim, or structure, ceaselessly rearticulated by the will to power as the essence of subjectivity. This unending and aimless process ![](/images/2017/05/hendrik_ter_brugghen_-_democritus.webp)of ceaseless reconfiguration is the only permanent identity, the cyclic “eternal recurrence of the same.”
 
 For Heidegger, Nietzsche’s metaphysics of the will to power represents the final stage, completion, and closure of the modern metaphysics of subjectivity—and, in this sense, the “end” of the Western metaphysical tradition as a whole. In Nietzsche, the principal hierarchies of Platonic metaphysics are inverted: being is subordinated to becoming, ideality to sensuousness, truth to art—and unity to multiplicity. For post-Nietzschean thought, an ultimate unity of being, situated in a supreme substance or a fundamental, constitutive subjectivity, became a chimera. The philosophical hermeneutics, poststructuralism, empiricism, and naturalism of the twentieth century all came to a harmonious agreement in their rejection of any foundational metaphysics of unity and identity.
 
@@ -54,7 +54,7 @@ To be sure, we find in Heidegger’s *Being and Time,* for example, a concern wi
 
 For Heideggerian postmetaphysics, the unity of being is no longer a universal and comprehensive point of reference but rather a local, singular, and situated unity of an event (*Ereignis*) of meaning, embedded in a multidimensional meaning-context. As Heideggerian thinkers such as Schürmann, Gianni Vattimo, and Jean-Luc Nancy have emphasized, Heidegger’s heritage consists in a “constitutive” disintegration of foundational unities and hegemonic metaphysical principles in favor of an “anarchic” embracement of difference and singularity.
 
-![](/images/2017/05/bust-of-parmenides-1-208x300.jpg)
+![](/images/2017/05/bust-of-parmenides-1.webp)
 
 Parmenides
 
@@ -72,7 +72,7 @@ On the other hand, Badiou, whose philosophical project is deeply motivated by hi
 
 However, truths, for Badiou, are not veridical statements, nor are they disclosures of meaningful presence—they are infinite sets that are gradually constructed by progressive political, scientific, artistic, or amorous “truth-procedures.” These truth-constructing processes have a beginning in time—they start from the recognition of a subversive historical event, such as a political or artistic revolution, a scientific breakthrough, or falling in love, and begin to articulate existing historical reality anew in terms of that event.
 
-![](/images/2016/08/badiou-300x200.jpg)
+![](/images/2016/08/badiou.webp)
 
 Alain Badiou
 

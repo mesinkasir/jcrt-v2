@@ -5,7 +5,7 @@ title: >-
 description: "The following is the second of a two-part series. The first can be found here. Furthermore there is an element of nostalgia implicit in this desire It"
 date: '2020-06-24T15:31:48.000Z'
 author: editors
-image: /images/2020/06/IMG_6566.jpeg
+image: /images/2020/06/img_6566.webp
 categories:
   - Higher Education
   - Philosophy

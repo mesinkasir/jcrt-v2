@@ -5,7 +5,7 @@ title: >-
 description: "The comparison between evangelical Christianity and EOC Christianity is their approach to the language. The Westerners use the mother tongue to translate"
 date: '2022-05-18T20:43:53.000Z'
 author: editors
-image: /images/2022/06/Tigray_Near_Yeha_Ethiopia.jpg
+image: /images/2022/06/tigray_near_yeha_ethiopia.webp
 categories:
   - Postcolonial Theory
   - Theology

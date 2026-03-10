@@ -5,7 +5,7 @@ title: >-
 description: "Philo-sophy literally means “love of wisdom.” But this can be read in more than one way. There is the well-known objective genitive, proposing that philosophers"
 date: '2022-11-29T11:57:41.000Z'
 author: editors
-image: /images/2022/12/1600px-Platos_symposium_Met_DP888791-1200x642.jpg
+image: /images/2022/12/1600px-platos_symposium_met_dp888791.webp
 categories:
   - Philosophy of Religion
   - Lutheran Theology

@@ -5,7 +5,7 @@ title: >-
 description: "Part 2 advances the oceanic reading of Wynter by detailing method and stakes, relating demonic ground to coloniality, black study, and experimental theoretical"
 date: '2022-01-17T20:04:41.000Z'
 author: editors
-image: /images/2022/01/Seabirds.png
+image: /images/2022/01/seabirds.webp
 categories:
   - Critical Race Theory
   - African Studies

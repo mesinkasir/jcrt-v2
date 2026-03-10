@@ -3,7 +3,7 @@ title: 'Collective Desire and the Pathology of the Individual, Part 2 (Jodi Dean
 description: "The following is the second installment of a two-part series. The first installment was published on October 10 and can be accessed here It highlights"
 date: '2016-10-19T02:40:47.000Z'
 author: editors
-image: /images/2016/10/Proudhon-children.jpg
+image: /images/2016/10/proudhon-children.webp
 categories:
   - Critical Theory
   - Psychoanalysis
@@ -43,7 +43,7 @@ That the young people Turkle interviews express anxieties associated with autono
 
 ## Crowds
 
-Elias Canetti’s weird yet compelling anthropology of crowds (Adorno described it as a ![crowd-of-faces-1421158572jpo](/images/2016/10/crowd-of-faces-1421158572jpO-300x300.jpg)scandal) addresses an anxiety different from the one that concerns Turkle.[^4] He considers not the fear of being alone but the fear of being touched: “There is nothing that man fears more than the touch of the unknown.”[^5] The one place where man is free of this fear is in a crowd. “The crowd he needs is the dense crowd, in which body is pressed to body,” Canetti writes, “a crowd, too, whose psychical constitution is also dense, or compact, so that he no longer notices who it is that presses against him. As soon as a man has surrendered himself to the crowd, he ceases to fear its touch.”[^6]
+Elias Canetti’s weird yet compelling anthropology of crowds (Adorno described it as a ![crowd-of-faces-1421158572jpo](/images/2016/10/crowd-of-faces-1421158572jpo.webp)scandal) addresses an anxiety different from the one that concerns Turkle.[^4] He considers not the fear of being alone but the fear of being touched: “There is nothing that man fears more than the touch of the unknown.”[^5] The one place where man is free of this fear is in a crowd. “The crowd he needs is the dense crowd, in which body is pressed to body,” Canetti writes, “a crowd, too, whose psychical constitution is also dense, or compact, so that he no longer notices who it is that presses against him. As soon as a man has surrendered himself to the crowd, he ceases to fear its touch.”[^6]
 
 Turkle thinks that people’s aversion to talking on the phone (as opposed to texting) and conversing face-to-face reflects their need for filters, ways to handle overload. They reflect, she suggests, not only a longing for solitude but also the way that in a simulation culture we have become cyborgs.[^7] This explanation does not ring true (not least because of the archaicism “cyborg”).
 
@@ -61,7 +61,7 @@ The experience of flow that overwhelms the conscious experience of self that Tur
 
 Freud, drawing heavily from LeBon—and by drawing heavily I mean including and positively commenting on large sections of LeBon’s text—notes the obliteration of the “particular acquirements” of individuals in crowds.[^11] What is distinctive vanishes, what is common appears. Freud observes how immersion in a crowd resembles the “state of fascination” experienced in hypnosis where “conscious personality” is also lost. The crowd manifests the unconscious; the unconscious is the crowd, disenclosed from its individual form.
 
-![Sigmund Freud](/images/2016/10/Sigmund_Freud_by_Max_Halberstadt-218x300.jpg)
+![Sigmund Freud](/images/2016/10/sigmund_freud_by_max_halberstadt.webp)
 
 Sigmund Freud
 
@@ -79,7 +79,7 @@ Such an analysis would also entail investigation of techniques and dynamics that
 
 This kind of an investigation could help answer questions concerning the politics of the crowd. For example, Freud treats the submission to the crowd as submission to a Leader. Even if this is a result of his use of the reactionary LeBon, does not the figure of the Leader suggest the importance of some kind of crowd reflexivity, some other in relation to which the crowd takes form? In this vein, mass media such as cinema made crowds visible to themselves as a unity, providing the crowd with an imaginary collective body.
 
-If networked personalized communication media not only dissolve the crowd in ever-accelerating circuits of images, impulses, fragments, and feelings but also reproduce it as an effect of circulation, how does the crowd become more than just an aggregation of effects? Differently put, how does collectivity come to exceed collective ![bryan](/images/2016/10/bryan-300x214.jpg)feeling and become a solidarity that can persist through disagreement and override divisions?
+If networked personalized communication media not only dissolve the crowd in ever-accelerating circuits of images, impulses, fragments, and feelings but also reproduce it as an effect of circulation, how does the crowd become more than just an aggregation of effects? Differently put, how does collectivity come to exceed collective ![bryan](/images/2016/10/bryan.webp)feeling and become a solidarity that can persist through disagreement and override divisions?
 
 I have suggested at least part of an answer already. Undersood as itself a pathology, the pressures on the individual form suggest that attachments to individuality are as ambivalent as they are intense, fragile, and fleeting, as easily discarded as they are intensely held. Perhaps, then, some of the attachments that undermine organizing in common are loosening, losing their attraction and releasing not just collective desire but desire for collectivity.
 

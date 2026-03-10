@@ -5,7 +5,7 @@ title: >-
 description: "*Badiou, Alain (with Nicolas Truong). In Praise of Theatre. New York: Polity, 2015. ISBN 10: 978-0-7456-8697-4. Hardback, paperback, e-book It highlights"
 date: '2016-06-13T03:19:28.000Z'
 author: editors
-image: /images/2016/06/dec_18_the-tank-robots_0108.jpg
+image: /images/2016/06/dec_18_the-tank-robots_0108.webp
 categories:
   - Reviews
   - Uncategorized
@@ -39,7 +39,7 @@ That is not, however, to suggest that theatre should not be accessible to the ma
 
 The threat to theatre from the left is the notion that theatre itself has outlived its usefulness and must be totally deconstructed from within. As Badiou says, this is the “idea that the theatre must abolish representation and become a monstration.” This is not to say that theatre ought not to be a place of experimentation or even deconstruction.
 
-Both are necessary, of course, but deconstruction without construction does![music-director-alex-lacamoire-and-actor-composer-lin-manuel-miranda-and-cast-of-hamilton-celebrat](/images/2016/06/music-director-alex-lacamoire-and-actor-composer-lin-manuel-miranda-and-cast-of-hamilton-celebrat-300x150.jpg) not leave anything like an established theatre behind which can be a force for emancipation. One could say, in Badiouian parlance, that where the right wants to obscure theatre’s emancipatory possibilities, the left’s reactionary tendencies run the risk of abolishing those possibilities altogether.
+Both are necessary, of course, but deconstruction without construction does![music-director-alex-lacamoire-and-actor-composer-lin-manuel-miranda-and-cast-of-hamilton-celebrat](/images/2016/06/music-director-alex-lacamoire-and-actor-composer-lin-manuel-miranda-and-cast-of-hamilton-celebrat.webp) not leave anything like an established theatre behind which can be a force for emancipation. One could say, in Badiouian parlance, that where the right wants to obscure theatre’s emancipatory possibilities, the left’s reactionary tendencies run the risk of abolishing those possibilities altogether.
 
 In the second chapter, Badiou likens the historical relationship between theatre and philosophy, starting with the Greeks, to a relationship between a very old couple. Despite their contentions, dating back to Plato’s mistrust for the stage, theatre and philosophy ask the same question: “how to speak to people in such a way that they think their lives otherwise than they usually do?”
 
@@ -55,7 +55,7 @@ Nonetheless, the two cannot be neatly separated, which is why it is common to sp
 
 In the final chapter, Badiou responds to a few of Truong’s questions on what amounts to the nuts and bolts of theatre: the actors, the spectator, the setting, different genres, and even the intermission which Badiou, with a surprising passion, defends. The intermission, he says, points to the impurity of theatre – it is a symbol if its precariousness, which is what gives theatre its transformative potential.
 
-![maxresdefault](/images/2016/06/maxresdefault-300x169.jpg)It also gives the spectator and opportunity to slip out, should the performance be bad. As Badiou says, “When the theatre fails, it’s terrible… It’s as unbearable when it fails as it is extraordinary when it succeeds.” And yet when it succeeds, it can be, as he says, miraculous.
+![maxresdefault](/images/2016/06/maxresdefault.webp)It also gives the spectator and opportunity to slip out, should the performance be bad. As Badiou says, “When the theatre fails, it’s terrible… It’s as unbearable when it fails as it is extraordinary when it succeeds.” And yet when it succeeds, it can be, as he says, miraculous.
 
 While readers familiar with Badiou will find this short work refreshingly accessible and light-hearted compared too much of his previous work those unfamiliar will not find here anything like a helpful introduction to his overall philosophical project.
 

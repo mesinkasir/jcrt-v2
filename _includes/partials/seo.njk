@@ -1,6 +1,6 @@
 {% set pageTitle = title or metadata.title %}
 {% set pageDesc = description or excerpt or abstract or (content | striptags | trim | truncate(160)) or metadata.description %}
-{% set pageImageRaw = '/img/jcrt-open-graph.jpg' %}
+{% set pageImageRaw = '/img/jcrt-open-graph.webp' %}
 {% set pageImage = pageImageRaw if "http" in pageImageRaw else metadata.url + pageImageRaw %}
 {% set robotsDirective = "index, follow" %}
 {% if robots %}
@@ -43,10 +43,10 @@
 <meta content="{{ pageImage }}" property="og:image" />
 <meta content="{{ pageTitle }}" property="og:image:alt" />
 <meta content="{{ canonicalUrl }}" property="og:url" />
-<link rel="icon" type="image/png" href="/img/logos/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="/img/logos/favicon-96x96.webp" sizes="96x96" />
 <link rel="icon" type="image/svg+xml" href="/img/logos/favicon.svg" />
 <link rel="shortcut icon" href="/img/logos/favicon.ico" />
-<link rel="apple-touch-icon" sizes="180x180" href="/img/logos/apple-touch-icon.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/img/logos/apple-touch-icon.webp" />
 <meta name="apple-mobile-web-app-title" content="{{ metadata.title }}" />
 <script>
 (() => {
@@ -96,25 +96,87 @@
 [
   {
     "@context": "https://schema.org",
-    "@type": "NGO",
-    "@id": "https://thewhitestonefoundation.org",
+    "@type": "EducationalOrganization",
+    "@id": "https://thewhitestonefoundation.org/#organization",
     "name": "The Whitestone Foundation",
-    "url": "https://thewhitestonefoundation.org",
-    "logo": "{{ metadata.url }}{{ metadata.favicon }}",
+    "url": "https://thewhitestonefoundation.org/",
+    "sameAs": [
+      "https://jcrt.org/",
+      "https://www.facebook.com/religioustheory",
+      "https://www.instagram.com/JCRT_DU1",
+      "https://journal.thenewpolis.com/",
+      "https://thenewpolis.com/",
+      "https://esthesis.org/",
+      "https://www.youtube.com/@whitestonepublications6661"
+    ],
+    "logo": "https://thewhitestonefoundation.org/images/whitestone-logo.png",
+    "image": "https://thewhitestonefoundation.org/images/whitestone-logo.png",
+    "description": "The Whitestone Foundation and its publications advance public-interest scholarship through open-access journals, webinars, and global academic collaboration in culture and religion.",
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Boulder",
-      "addressRegion": "CO",
-      "addressCountry": "US"
-    }
+      "postOfficeBoxNumber": "PO Box 396",
+      "addressLocality": "Colbert",
+      "addressRegion": "OK",
+      "postalCode": "74733",
+      "addressCountry": "United States"
+    },
+    "publishes": [
+      {
+        "@type": "CreativeWork",
+        "name": "The Journal of Cultural and Religious Theory",
+        "url": "https://www.jcrt.org/archives/"
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "JCRT Religious Theory Blog",
+        "url": "https://jcrt.org/religioustheory/"
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "The New Polis",
+        "url": "https://thenewpolis.com/"
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "The New Polis Journal",
+        "url": "https://journal.thenewpolis.com/"
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "Esthesis",
+        "url": "https://esthesis.org/"
+      }
+    ],
+    "member": [
+      {
+        "@type": "Person",
+        "name": "Carl Raschke",
+        "url": "https://carlraschke.com/"
+      },
+      {
+        "@type": "Person",
+        "name": "Victor Taylor",
+        "url": "https://www.linkedin.com/in/victor-e-taylor-4911342b/"
+      },
+      {
+        "@type": "Person",
+        "name": "Adam DJ Brett",
+        "url": "https://adamdjbrett.com"
+      }
+    ]
   },
   {
     "@context": "https://schema.org",
+    "@id": "https://jcrt.org/#website",
     "@type": "WebSite",
-    "url": "{{ metadata.url }}",
+    "url": "https://jcrt.org/",
+    "name": "The Journal for Cultural and Religious Theory",
+    "publisher": {
+      "@id": "https://thewhitestonefoundation.org/#organization"
+    },
     "potentialAction": {
       "@type": "SearchAction",
-      "target": "{{ metadata.url }}/search/?q={search_term_string}",
+      "target": "https://jcrt.org/search/?q={search_term_string}",
       "query-input": "required name=search_term_string"
     }
   }
@@ -122,11 +184,14 @@
 </script>
 
 {% set isAcademic = "/archives/" in page.url %}
+{% set isBlogHome = page.url in ["/blog/", "/religioustheory/"] %}
+{% set isBlogPost = ("/blog/" in page.url or "/religioustheory/" in page.url) and (not isBlogHome) and (not isAcademic) %}
+{% set pageSchemaType = "ScholarlyArticle" if isAcademic else ("Blog" if isBlogHome else ("BlogPosting" if isBlogPost else "WebPage")) %}
 {% set schemaAuthors = authorName | splitAuthors %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "{{ 'ScholarlyArticle' if isAcademic else 'BlogPosting' }}",
+  "@type": "{{ pageSchemaType }}",
   "headline": "{{ pageTitle }}",
   "description": "{{ pageDesc | truncate(160) }}",
   "image": "{{ pageImage }}",

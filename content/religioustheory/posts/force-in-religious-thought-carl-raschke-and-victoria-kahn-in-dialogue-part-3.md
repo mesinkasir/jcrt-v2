@@ -5,7 +5,7 @@ title: >-
 description: "The following is the last of a three-part series. The first part was published on May 31, 2016. The second part was published on June 17 It highlights"
 date: '2016-06-26T19:30:03.000Z'
 author: editors
-image: /images/2016/06/NASA-space-colony-11.jpg
+image: /images/2016/06/nasa-space-colony-11.webp
 categories:
   - Political Theology
   - Religion and Economics
@@ -48,7 +48,7 @@ To go back the Heidegger’s reading of Aristotle, without *politeia*, we cannot
 
 The intimacy of political theory with what presently we have begun to denominate as political theology does not by any stretch of the imagination boil down to some revival of ancient or medieval arguments for theocracy. The theocratic suspicion, which is cloyingly common these days and polemically deployed way too often whenever religious claims or “faith statements” find a voice in the debates of liberal democracy, derives from a fatal misunderstanding of the very *ontology* of liberal democracy itself.[^5]
 
-Later in the book, after warning his readers of the forthcoming unpopular ![outdoorhub-beginners-guide-american-machine-gun-ownership-2015-03-24_14-59-13-800x600](/images/2016/06/outdoorhub-beginners-guide-american-machine-gun-ownership-2015-03-24_14-59-13-800x600-300x225.jpg)opinions he will present, Raschke draws on Badiou and asserts that “the gun becomes the projective symbol of the empowered *demos* rather than of an antidemocratic lawlessness or of some sort of vicious reactionary, nativist, *anticosmopolitan* cabal.”[^6] The apophasis here perhaps implies that not only is the gun the “projective symbol” of the demos but that the “empowered demos” is really a *cosmopolitan* one that transcends the nation-state.
+Later in the book, after warning his readers of the forthcoming unpopular ![outdoorhub-beginners-guide-american-machine-gun-ownership-2015-03-24_14-59-13-800x600](/images/2016/06/outdoorhub-beginners-guide-american-machine-gun-ownership-2015-03-24_14-59-13.webp)opinions he will present, Raschke draws on Badiou and asserts that “the gun becomes the projective symbol of the empowered *demos* rather than of an antidemocratic lawlessness or of some sort of vicious reactionary, nativist, *anticosmopolitan* cabal.”[^6] The apophasis here perhaps implies that not only is the gun the “projective symbol” of the demos but that the “empowered demos” is really a *cosmopolitan* one that transcends the nation-state.
 
 Some traditional liberals may take issue with that formulation, but it works well with my earlier statement concerning Badiou and *in actu*. One of the most compelling parts of Raschke’s book comes a few pages earlier in an anthropological-historical claim as he sets up his political theology against a “bohemian bourgeoisie” that is terrified of revolution and religious enthusiasm: the automatic assumption within most contemporary politico-theological discourse of a certain *summum bonum* that might be described as a ‘Christian liberal state pacifism’ needs to be assertively challenged – not because it is false as a normative teleology of human societies, or that it must be zealously sought, but because it fatefully misreads history and human nature.[^7]
 
@@ -78,7 +78,7 @@ A powerful statement here, and certainly not without controversy, but it is neve
 
 In reading Raschke’s *Force of God* alongside Victoria Kahn’s *Future of Illusion* I have sought to take seriously both writer’s accounts of a current crisis in liberal democracy. Raschke’s ultimately religious presentation both exceeds and extends earlier forms of liberalism, and though its language may turn off the traditional secularist or the non-believer, it presents a situation where the power of religion may be taken seriously in terms of politics.
 
-![RIVERSIDE_THE_MANDRAKE_1979_2](/images/2016/06/RIVERSIDE_THE_MANDRAKE_1979_2-300x209.jpg)As Kahn notes, Machiavelli remained interested in the awesome power religion maintained. That power, though princes and sovereigns may have thought they could wield it with rhetorical control, has historically and violently demolished the hubris of believers and non-believers alike. Whatever poetics come to shape the citizenship of what Raschke calls the “saints,” it appears that postsecular poetics must be in some way divinatory and capable of spectrum-based presentations. I have not had time to explicate this here, but such presentations must have a post-secular notion of enchantment.
+![RIVERSIDE_THE_MANDRAKE_1979_2](/images/2016/06/riverside_the_mandrake_1979_2.webp)As Kahn notes, Machiavelli remained interested in the awesome power religion maintained. That power, though princes and sovereigns may have thought they could wield it with rhetorical control, has historically and violently demolished the hubris of believers and non-believers alike. Whatever poetics come to shape the citizenship of what Raschke calls the “saints,” it appears that postsecular poetics must be in some way divinatory and capable of spectrum-based presentations. I have not had time to explicate this here, but such presentations must have a post-secular notion of enchantment.
 
 As American root-workers will tell clients, “It is done; you do not have to believe.” They must be enchanted aesthetically and not merely reducible to the category of Art. They must transcend classically liberal notions of culture in Kant that have not remained integrated in liberal politics. They also require an altered view of traditional liberal subjectivity that recognizes a nuanced sense of community.
 
@@ -104,7 +104,7 @@ It is in this interruption that I want to suggest that Nancy helps to understand
 
 I am trying to indicate, at its limit, an experience – not, perhaps, an experience that we have, *but an experience that makes us be*. To say that community has not yet been thought is to say that it tries our thinking, and it is not an object for it. And perhaps it does not have to become one.[^19] 
 
-![Oliver Cromwell ](/images/2016/06/Oliver_Cromwell_by_Samuel_Cooper-247x300.jpg)
+![Oliver Cromwell ](/images/2016/06/oliver_cromwell_by_samuel_cooper.webp)
 
 Oliver Cromwell
 

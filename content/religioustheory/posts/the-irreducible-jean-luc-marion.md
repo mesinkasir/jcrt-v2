@@ -4,7 +4,7 @@ description: "Of that which we cannot speak, must we remain silent? Probably—e
 date: '2019-08-06T02:16:13.000Z'
 author: editors
 image: >-
-  /images/2019/08/Vassily_Kandinsky_1923_-_Composition_8_huile_sur_toile_140_cm_x_201_cm_Muse%CC%81e_Guggenheim_New_York.jpg
+  /images/2019/08/vassily_kandinsky_1923_-_composition_8_huile_sur_toile_140_cm_x_201_cm_musee_guggenheim_new_york.webp
 categories:
   - Philosophy of Religion
   - Theology

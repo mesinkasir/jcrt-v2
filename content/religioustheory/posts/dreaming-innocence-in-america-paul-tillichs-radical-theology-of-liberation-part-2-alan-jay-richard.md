@@ -5,7 +5,7 @@ title: >-
 description: "The following is the second installment of a multi-part series. The first installment can be accessed here. As Tillich argues in the second dissertation, Kant"
 date: '2016-11-21T06:11:53.000Z'
 author: editors
-image: /images/2016/11/Double_vac_line_front_view.jpg
+image: /images/2016/11/double_vac_line_front_view.webp
 categories:
   - Theology
   - Philosophy of Religion
@@ -39,7 +39,7 @@ This experience involves a “subjection of the senses” and a corresponding �
 
 Kant’s own attempt to provide a proof for the necessity of an idea of God rests finally on practical reason. Autonomy and freedom are the two maxims of practical reason, derived solely from reason itself. Freedom is “the independence of reason from material motives that lie outside of its self-determination,” so that its only law is the law of its own being. 12 Autonomy is freedom in the negative sense (e.g., the absence of constraint), and practical reason’s intrinsic legislation (the categorical imperative) is freedom in the positive sense, though it is nothing other than the expression of reason’s autonomy. But since “in every individual it is the nature of reason to be supra-individual,” rational beings can rationally decide to substitute their own individual autonomy for the legislation that derives from reason’s general autonomy.
 
-![the-exorcist](/images/2016/11/The-Exorcist-300x185.jpg)This is radical evil, the opposition of freedom to itself, and as Tillich observes, Kant insists that “all men” have made this decision against reason. 13 The “sensible, material incentives of the will,” though indifferent in themselves, become sin when they “come into contradiction with reason and dissolve its identity.” In order to rescue freedom from the fracture that is the conflict between the rational being’s highest good (happiness) and the highest good demanded by the universal self-legislating power that makes of that being a conscious experiencer and actor (a grasper and a shaper), Kant posits God as a “subjective necessity.”
+![the-exorcist](/images/2016/11/the-exorcist.webp)This is radical evil, the opposition of freedom to itself, and as Tillich observes, Kant insists that “all men” have made this decision against reason. 13 The “sensible, material incentives of the will,” though indifferent in themselves, become sin when they “come into contradiction with reason and dissolve its identity.” In order to rescue freedom from the fracture that is the conflict between the rational being’s highest good (happiness) and the highest good demanded by the universal self-legislating power that makes of that being a conscious experiencer and actor (a grasper and a shaper), Kant posits God as a “subjective necessity.”
 
 This necessity assures the acting subject that its obedience to reason’s categorical imperative will not have been a useless gesture even if it runs up against the causal chain of events in a way that results in the suffering and death of the happiness-seeking free being. God must be posited because God harmonizes the demands of reason with this causal chain in such a way as to lead eventually to the reconciliation of happiness and virtue. Thus, for Kant, God “remains an object in relation to the thinking subject, a thing, even though thinking and willing are ascribed to him,” and this posited God does not draw reason beyond itself so that the affirmation of this God “is without the force of truth.” 14 Autonomous reason “is certain only of itself, of its own autonomous legislation.”
 
@@ -69,7 +69,7 @@ This understanding of the Trinity, grounded as it is in Tillich’s close readin
 
 Political theory must proceed from the conditions in which political thought is rooted, and not be derived
 
-![Friedrich Schellling](/images/2016/11/Schelling_1848-271x300.jpg)
+![Friedrich Schellling](/images/2016/11/schelling_1848.webp)
 
 Friedrich Schellling
 
@@ -103,7 +103,7 @@ Of course, this is not true “in fact,” and that is “the problem of finitud
 
 Humanity’s finitude means that the actualization of its possibility always threatens it with nonbeing. This threat is not simply a matter of external threats such as violence and death, but also a matter of internal threats such as “error and guilt.” Every transcendence of the given is subject to the loss of self in error and guilt. Thus, human beings are essentially anxious and courage is the taking of that anxiety upon oneself rather than denying or overlooking it.
 
-Since anxiety is ontological rather than simply psychological, it cannot be escaped. Under conditions of ![anxiety](/images/2016/11/anxiety-300x230.jpg)existence, it generates a “will to security” that “seeks always to safeguard against future threats by becoming all the more attached to the past.” 35 Tillich mentions that at “this” time (1951), this was becoming true in America. Americans were “choosing (the past) rather than the present or the future” because they believed they would find in that past unthreatened security where so much has survived for so long. 36 This statement is interesting in view of the way Dreaming Innocence functions in the *Systematic Theology* as a kind of absolute past eternally accompanying existence.
+Since anxiety is ontological rather than simply psychological, it cannot be escaped. Under conditions of ![anxiety](/images/2016/11/anxiety.webp)existence, it generates a “will to security” that “seeks always to safeguard against future threats by becoming all the more attached to the past.” 35 Tillich mentions that at “this” time (1951), this was becoming true in America. Americans were “choosing (the past) rather than the present or the future” because they believed they would find in that past unthreatened security where so much has survived for so long. 36 This statement is interesting in view of the way Dreaming Innocence functions in the *Systematic Theology* as a kind of absolute past eternally accompanying existence.
 
 Tillich is here accusing Americans of seeking a return to Dreaming Innocence that, while manifesting the form of courage that self-protection is, loses “the dimension of the future.” Another side of anxiety attaches itself to expectation. Unlike security, expectation “looks to the fulfillment in the future of those possibilities which indeed constitute the essence” of humanity. Expectation, like security, looks to an absolute past of pure potentiality, but recomposes the elements of this past as partial and anticipatory fulfillment of that very non-actualized past. It “goes forward beyond the given, toward the future.” It has a double anxiety: anxiety about giving up security and anxiety about giving up the unrealized possibilities that this security stifles.
 

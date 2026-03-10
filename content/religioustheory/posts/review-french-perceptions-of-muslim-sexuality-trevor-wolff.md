@@ -3,7 +3,7 @@ title: Review – French Perceptions of Muslim Sexuality (Trevor Wolff)
 description: "Mack, Mehammed Amadeus. Sexagon: Muslims, France, and the Sexualization of National Culture. New York City NY: Fordham University Press, 2017 It highlights"
 date: '2018-01-05T02:34:24.000Z'
 author: Books
-image: /images/2018/01/Ira_giotto.jpg
+image: /images/2018/01/ira_giotto.webp
 categories:
   - Critical Theory
   - Reviews

@@ -5,7 +5,7 @@ title: >-
 description: "The following is the first of a two-part series. The second can be found here. In late 2019 I was invited to deliver a paper at an international symposium"
 date: '2020-06-01T02:25:41.000Z'
 author: editors
-image: /images/2020/06/Screen-Shot-2020-06-08-at-9.34.57-PM.png
+image: /images/2020/06/screen-shot-2020-06-08-at-9-34-57-pm.webp
 categories:
   - Native American Religions
 layout: theory.njk

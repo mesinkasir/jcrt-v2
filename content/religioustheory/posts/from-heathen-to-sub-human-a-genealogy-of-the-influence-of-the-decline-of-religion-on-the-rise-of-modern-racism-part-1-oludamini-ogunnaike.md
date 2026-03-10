@@ -5,7 +5,7 @@ title: >-
 description: "The following is the first part of an article that appeared in July 2016 in Open Theology 2:2016 785-203. It is republished here with the permission of the"
 date: '2016-09-19T15:12:06.000Z'
 author: editors
-image: /images/2016/09/Absalom-Jones_Peale.jpg
+image: /images/2016/09/absalom-jones_peale.webp
 categories:
   - African Studies
   - Critical Race Theory
@@ -65,7 +65,7 @@ The Great Chain of Being found its fullest classical exposition in the work of P
 
 This first emanation from the hypostasis of the One is described as a result of its self-contemplation
 
-![Plotinus](/images/2016/09/Plotinus-214x300.jpg)
+![Plotinus](/images/plotinus.webp)
 
 Plotinus
 
@@ -95,7 +95,7 @@ Aristotle further divides the *nous* into an active intellect (*nous poietikos /
 
 Ibn Rushd, or Averroes, author of the most famous medieval commentaries on the Aristotelian corpus, somewhat blurred the distinction between the active and passive intellect, and posited that both were universal, existing as one outside of individual human beings, in contrast to Ibn Sina who posited that only the active intellect was universal, the passive intellect being individual. Averroes was also more of a pure Aristotelian than Avicenna, and eliminated the angelic world from his cosmology. Although his work did not become popular in the Muslim world, he was held in great reverence by Dante, and in scholastic tradition he was known simply as “The Commentator,” so extensive was the influence of his commentaries upon Aristotle (they formed the basis of much of Thomas Aquinas’ work).
 
-![7fd9fcc1c4d2179d1a16383f6da91aaf](/images/2016/09/7fd9fcc1c4d2179d1a16383f6da91aaf-161x300.jpg)Some have linked the influence of Averroes’ Aristotelian thought in 12th century Europe to the increasing rational and this-worldly, and even secular turn of thought leading up to the 17th century in contrast to the markedly other-worldly and Platonic/neo-Platonic thought which characterized the early Middle Ages. The validity of this argument is outside of the scope of this article,19 but the overall trend in thought is highly significant, and we will return to it shortly.
+![7fd9fcc1c4d2179d1a16383f6da91aaf](/images/2016/09/7fd9fcc1c4d2179d1a16383f6da91aaf.webp)Some have linked the influence of Averroes’ Aristotelian thought in 12th century Europe to the increasing rational and this-worldly, and even secular turn of thought leading up to the 17th century in contrast to the markedly other-worldly and Platonic/neo-Platonic thought which characterized the early Middle Ages. The validity of this argument is outside of the scope of this article,19 but the overall trend in thought is highly significant, and we will return to it shortly.
 
 Returning to the hierarchy of human beings, Aquinas had previously given us the tripartite distinction between all men, the just, and the blessed, based on their knowledge, love, and likeness to God. Conforming with the doctrine of the Great Chain of Being, an individual human’s place on the hierarchy of existence is determined by his participation in the nature of the Good, that is the degree to which he conforms to the image of God. In medieval neo-Platonic Christian thought, the participation of the nature of the Good in man is accomplished through the intellect (*nous*), often identified with the immanent Holy Spirit, and it is the degree to which the soul is governed by and identified with the intellect that determines man’s place on the hierarchy.
 
@@ -127,7 +127,7 @@ Such is the dependence amongst all the orders of creatures; the animate, the sen
 
 Here the “highest pitch” of human thought is not the contemplation of angelic forms or the Divine Essence above, but the external exploration and exploitation of all that lies below. It is not coincidental therefore, that this transition from inward, spiritual contemplation to outward, physical investigation and exploration coincided with the European Age of Exploration.
 
-Backtracking a bit, this increase in interest in the physical world seems to have had its origins in the late![great_chain_of_being_2](/images/2016/09/Great_Chain_of_Being_2-206x300.png) 13th century and this was unfortunately combined with the hardening of Catholic philosophical dogma, so that many natural philosophers who attempted to systematically observe the natural world found themselves on the wrong side of the official dogma and victims of a long and often painful Inquisition process. More relevant to the topic at hand however, is the effect that Western man’s ascent to the top of the Chain of Being had for his views of the physical world in general, and the physical beauty of bodies in particular.
+Backtracking a bit, this increase in interest in the physical world seems to have had its origins in the late![great_chain_of_being_2](/images/2016/09/great_chain_of_being_2.webp) 13th century and this was unfortunately combined with the hardening of Catholic philosophical dogma, so that many natural philosophers who attempted to systematically observe the natural world found themselves on the wrong side of the official dogma and victims of a long and often painful Inquisition process. More relevant to the topic at hand however, is the effect that Western man’s ascent to the top of the Chain of Being had for his views of the physical world in general, and the physical beauty of bodies in particular.
 
 With the gradual disappearance of the intellect from Western discourse in the early Modern Period/ Renaissance (1300s-1600s), the immaterial became more and more immaterial, and partly in reaction to Medieval Scholasticism’s neglect and/or denigration of the physical world in general and the body in particular, this period saw the revival of the Greco-Roman cult of the body, partly in conjunction with the trend of increased interest in the material world, and strongly motivated by the Renaissance’s self- conscious re-interpretation or revival of classical Greek and Roman heritage.
 

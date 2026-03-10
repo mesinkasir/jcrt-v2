@@ -3,7 +3,7 @@ title: 'Review – The Evangelicals: The Struggle to Shape America (Rebekah Gord
 description: "*Fitzgerald, Francis. The Evangelicals: The Struggle to Shape America. New York City, New York: Simon & Schuster, 2017. ISBN-10: 1439131333. Hardcover"
 date: '2017-10-13T17:07:50.000Z'
 author: Books
-image: /images/2017/10/pastors-daughter.jpg
+image: /images/2017/10/pastors-daughter.webp
 categories:
   - Reviews
   - Critical Theory
@@ -26,7 +26,7 @@ As amazing as *The Evangelicals* is, finding an explicit thesis statement in Fit
 
 It was at this point that R. J. Rushdoony and Francis Schaeffer spearheaded the formation of the Christian right, which would dwindle during the Clinton administration but find its resurgence with the presidency of George W. Bush, developing into “new evangelicals” and subsequently declining after the bad press of the second Bush term until it elected Donald Trump in the 2016 election, despite no longer dominating evangelical discourse.” There seems to be no concise way to explain the crux of Fitzgerald’s book, but it is certainly worth the read nonetheless. Never has such a complete and deeply researched history of the movement been compiled.
 
-Though the book has an enormous amount to offer, Fitzgerald’s tracing of race relations in the Southern Baptist Church ![](/images/2017/10/Currier-ives-arkansas-traveller-300x178.jpg)stood out as particularly compelling. She explains that the issue of slavery caused the formal divide between Baptists and Methodists, as northern and southern evangelicalism developed differently. The North and Methodist ministers alike highly discouraged slavery and urged strongly for their congregations to emancipate their slaves. In the South, Baptists and Presbyterians simply urged for a kinder treatment of slaves. What originally was a cultural difference developed into a doctrinal difference as the anti-slavery movement grew in the North. According to Fitzgerald, the South began to argue for slavery as a Biblical practice, which took it from something southern evangelicals considered morally neutral to a moral good. The problems this wrought can be seen and felt in the SBC to this day.
+Though the book has an enormous amount to offer, Fitzgerald’s tracing of race relations in the Southern Baptist Church ![](/images/2017/10/currier-ives-arkansas-traveller.webp)stood out as particularly compelling. She explains that the issue of slavery caused the formal divide between Baptists and Methodists, as northern and southern evangelicalism developed differently. The North and Methodist ministers alike highly discouraged slavery and urged strongly for their congregations to emancipate their slaves. In the South, Baptists and Presbyterians simply urged for a kinder treatment of slaves. What originally was a cultural difference developed into a doctrinal difference as the anti-slavery movement grew in the North. According to Fitzgerald, the South began to argue for slavery as a Biblical practice, which took it from something southern evangelicals considered morally neutral to a moral good. The problems this wrought can be seen and felt in the SBC to this day.
 
 Fitzgerald manages to compile and navigate the nebulous complexities of American evangelicalism with authority and grace. Fitzgerald states:
 

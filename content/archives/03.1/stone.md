@@ -38,11 +38,11 @@ Political process models attempt to address the interaction between a social mov
 
 #### _Conclusion and Continuance_
 
-     ![Figure 1](https://jcrt.org/archives/03.1/images/stone.figure.1.gif)
+     ![Figure 1](/images/stone.figure.1.gif)
 
      **Figure 1. Political process model.**
 
-     ![Figure 2](https://jcrt.org/archives/03.1/images/stone.figure.2.gif)
+     ![Figure 2](/images/stone.figure.2.gif)
 
      **Figure 2. Challenge within a field.**
 

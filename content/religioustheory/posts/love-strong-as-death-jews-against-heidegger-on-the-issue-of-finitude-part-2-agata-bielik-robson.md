@@ -5,7 +5,7 @@ title: >-
 description: "The following is the second of a two-part series. The first segment was published on July 25, 2016 and can be accessed here It highlights key arguments"
 date: '2016-08-01T05:27:14.000Z'
 author: editors
-image: /images/2016/07/transcendence.jpg
+image: /images/2016/07/transcendence.webp
 categories:
   - Philosophy of Religion
   - Theology
@@ -40,7 +40,7 @@ There is only *one* thing against which all violence-doing \[of the *pantoporos*
 
 For Rosenzweig, just like for Heidegger, human life is with no pre-established essence: indefinite, open, question-like. The latter, in the *Introduction to Metaphysics*, states firmly that “the determination of the essence of the human being is *never* an answer, but is essentially a question” (IM, 149). Yet, the two thinkers play it out very differently.
 
-![Franz Rosenzweig](/images/2016/07/Franz_Rosenzweig1917-300x205.jpg)
+![Franz Rosenzweig](/images/2016/07/franz_rosenzweig1917.webp)
 
 Franz Rosenzweig
 
@@ -64,7 +64,7 @@ This is an outright apology of the inessential life: something very adversarial 
 
 But with this apology, we are immediately reminded that, in *The Star of Redemption*, this seemingly derogatory characteristic was given to what Rosenzweig regards as the highest and most valuable content of the revelation, that is, *love*. For it is love which goes from one neighbour to another and paces restlessly the whole world in the constant transition, oblivious to its own “essence” and not at all interested in the centering self-reflection.
 
-![J. Goethe](/images/2016/07/Goethe-300x169.jpg)
+![J. Goethe](/images/2016/07/goethe.webp)
 
 J. Goethe
 
@@ -98,7 +98,7 @@ In contrast, gratitude for life having been given at all is the spring of rememb
 
 It is precisely in this context that Augustine draws his distinction between *principium* and *initium*: the beginning of the world and time and the beginning of man. Arendt quotes the famous fragment from *The City of God* (XII, 20): *Initium ut esset, creatus est homo, ante quem nemo fuit*: “That a beginning be made, man was created.” Whereas *principium* grounds the universe in the manner of the Greek *arche*, i.e. as the first arch-principle of perpetual order of being, *initium* allows for a creative disruption of the cosmic monotony, into which there suddenly enters a *novitas*, something radically new.
 
-![Hannah Arendt](/images/2016/07/arendt-hannah-300x210.jpg)
+![Hannah Arendt](/images/2016/07/arendt-hannah.webp)
 
 Hannah Arendt
 

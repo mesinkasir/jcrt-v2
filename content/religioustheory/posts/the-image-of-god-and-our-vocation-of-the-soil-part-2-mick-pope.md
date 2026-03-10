@@ -3,7 +3,7 @@ title: 'The Image of God and Our Vocation of the Soil, Part 2 (Mick Pope)'
 description: "The article is published in two installments. The first can be found here. It is generally recognised that the Garden story is more environmentally friendly"
 date: '2024-05-24T20:12:53.000Z'
 author: editors
-image: /images/2024/09/Thomas_Cole_-_The_Garden_of_Eden_1828-1200x642.jpg
+image: /images/2024/09/thomas_cole_-_the_garden_of_eden_1828.webp
 categories:
   - Uncategorized
   - Reviews

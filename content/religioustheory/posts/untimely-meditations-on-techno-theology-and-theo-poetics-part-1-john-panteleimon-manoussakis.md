@@ -5,7 +5,7 @@ title: >-
 description: "The following is the first half of the article. The second installment can be found here. Philosophy’s very first utterance, according to Aristotle, present us"
 date: '2017-03-22T13:22:18.000Z'
 author: editors
-image: /images/2017/03/Mesopotamia.jpg
+image: /images/2017/03/mesopotamia.webp
 categories:
   - Philosophy
   - Philosophy of Religion
@@ -45,7 +45,7 @@ To these two kinds of generation correspond two God-conceptions: to nature what 
 ## Theopoetics I: Deus ex Machina
 
 The origin of humanity, as both historians and anthropologists agree, is to be traced back to the invention of tools. But even before the first tool came to be, I was equipped with the hand. It was after the hand that the tool was made, as we often say, a “second” hand, only better and more effective. Thus, the hand became emancipated from being used only as a tool—it now manipulates the tools it had itself produced. With much of its duties transferred to the tools, the hand became free—it became creative. In fact, the two  
-![Deus ex machina](/images/2017/03/Deus-ex-machina-300x150.jpg)moments must have coincided: the creation of the first tool by the hand marks the moment when the hand ceases to be a tool.
+![Deus ex machina](/images/2017/03/deus-ex-machina.webp)moments must have coincided: the creation of the first tool by the hand marks the moment when the hand ceases to be a tool.
 
 It is now recognized as that which has always been but only now can I become aware of it: *my body*.[^10] The  
 awareness of my body and consequently, as we shall soon see, my self-awareness as a subject have always been dependent upon this dialectical relation between the grasping hand and its tool.[^11] The tool always refers back to the hand, for the one is meaningful only in relation to the other. The tool is precisely what is *graspable*: our first concept (*Begriff*). It is not an accident that even for a sophisticated analysis of our being-in-the-world such Heidegger’s in *Being and Time* the world *is* this referential totality of “tools” that, in turn, reveal themselves according to two modes of “handiness” (*Handlichkeit*): as ready-at-hand (*Zuhanden*) and as present-at-hand (*Vorhanden*).
@@ -56,7 +56,7 @@ Indeed, in one of his characteristically dense passages, Heidegger attempts to e
 
 > Man himself acts \[*handelt*\] though the hand \[*Hand*\]; for the hand is, together with the word, the essential distinction of man. Only a being which, like man, “has” the word (μῦθος, λόγος), can and must “have” “the hand.” Through the hand occur both prayer and murder, greeting and thanks, oath and signal, and also the “work” of the hand, the “hand-work,” and the tool. The handshake seals the covenant. The hand brings about the “work” of destruction. The hand exists as hand only where there is disclosure and concealment. No animal has a hand, and a hand never originates from a paw or a claw or talon. Even the hand of one in desperation (it least of all) is never a talon, with which a person clutches wildly. The hand sprang forth only out of the word and together with the word. Man does not “have” hands, but the hand holds the essence of man, because the word as the essential realm of the hand is the ground of the essence of man.[^13]
 
-Dare we say that without his hands man would have been also unable to think? That man began thinking, ![random-magic-sparks-image-public-domain-pixabay-640x375](/images/2017/03/random-magic-sparks-image-public-domain-pixabay-640x375-300x176.jpg)and still thinks, *with* his hands, that is, according to a fundamental structure implied by paradigms of touch? That “every motion of the hand in every one of its works carries itself through the element of thinking” … so that “all the work of the hand is rooted in thinking”?[^14] It seems that Aristotle would have agreed with this.
+Dare we say that without his hands man would have been also unable to think? That man began thinking, ![random-magic-sparks-image-public-domain-pixabay-640x375](/images/2017/03/random-magic-sparks-image-public-domain-pixabay.webp)and still thinks, *with* his hands, that is, according to a fundamental structure implied by paradigms of touch? That “every motion of the hand in every one of its works carries itself through the element of thinking” … so that “all the work of the hand is rooted in thinking”?[^14] It seems that Aristotle would have agreed with this.
 
 It must have been language that suggested to man the notion of creator God, that is of a God who creates by his word as much as by his hands—although, a more theologically informed position would also maintain the reverse, namely, that it was God the Logos who imparted in man both the ability to *technē* and to *logos*. Thus, techno-logy would ultimately originated in God’s original act of creation.
 
@@ -66,7 +66,7 @@ Freud writing of the technological advances of his time suggests that they shoul
 
 Thus, he proposes that “Instead of opposing them, as is almost always done, \[religion and technology\] ought to be thought together, as one and the same possibility: the machine-like and faith…”[^19] It is within this techno-theo-logical framework that we can understand Bergson’s enigmatic conclusion to his essay on religion:
 
-Mankind lies groaning, half crushed beneath the weight of its own progress. Men do not sufficiently realize![image](/images/2017/03/image-300x287.jpg) that their future is in their own hands. Theirs is the task of determining first of all whether they want to go on living or not. Theirs the responsibility, then, for deciding if they want merely to live, or intend to make just the extra effort required for fulfilling, even on their refractory planet, the essential function of the universe, which is a machine for the making of gods.[^20]
+Mankind lies groaning, half crushed beneath the weight of its own progress. Men do not sufficiently realize![image](/images/2017/03/image.webp) that their future is in their own hands. Theirs is the task of determining first of all whether they want to go on living or not. Theirs the responsibility, then, for deciding if they want merely to live, or intend to make just the extra effort required for fulfilling, even on their refractory planet, the essential function of the universe, which is a machine for the making of gods.[^20]
 
 From our modern perspective, we may feel justified in taking pride in our mechanical world (that is, of a world understood precisely as a machine) for having rescued us from the superstitions of a bygone age when the workings of the world, shrouded in mystery, could only be seen as magical. Yet, language reminds us of what we would conveniently prefer to forget, namely the common ancestry of the magical and the mechanical. Linguistically, these two terms originated from the same root, that of the Proto-Indo-European *maghana*, a word that signifies “that which enables,” that which gives power over the natural (the machine) or the supernatural (magic)—assuming that such a distinction is even meaningful.
 

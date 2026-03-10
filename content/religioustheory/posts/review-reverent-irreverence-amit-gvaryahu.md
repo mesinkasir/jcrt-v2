@@ -3,7 +3,7 @@ title: Review – Reverent Irreverence (Amit Gvaryahu)
 description: "**Pious Irreverence: Confronting God in Rabbinic Judaism. Weiss, Dov. Philadelphia: University of Pennsylvania Press, 2017. ISBN 9780812293050 Hardcover, ebook."
 date: '2018-04-05T22:34:41.000Z'
 author: Books
-image: /images/2018/03/Alexej_von_Jawlensky_-_The_old_Jew_1893.jpg
+image: /images/2018/03/alexej_von_jawlensky_-_the_old_jew_1893.webp
 categories:
   - Philosophy
   - Reviews
@@ -29,7 +29,7 @@ These antecedents, Weiss shows, are most complex and developed in a lesser-known
 
 Marc Bregman tentatively dates the final redaction of these works to “post-Talmudic times,” in the Byzantine empire. This would place them anywhere from the sixth to the tenth century. Scholars in the 11th century like the biblical exegete Rashi already quote *TY*, and the last *TY*\-like works were redacted in Provence, by one “Moses the Preacher” not much before that. Thus, we can safely dub *TY* “post-rabbinic,” in the sense that the central shifts the rabbinic movement brought into the Jewish community were already accepted completely by *TY*. The shapers of *TY* were adherents of rabbinic *writing* but not part of the historical *rabbinic movement*.
 
-*![](/images/2018/03/Midrash_Tehillim_30-300x204.jpg)TY* works evince a knowledge of rabbinic traditions but are not genetically related to that rabbinic behemoth, the Babylonian Talmud; in chapter two Weiss discusses points of affinity between the two corpora. Although pieces of Talmud and even a later work derived from the Talmud known as *She’iltot* are embedded in the manuscript tradition, *TY* works are not of the same milieu as the Babylonian Talmud. Instead, they are a remnant from the community of Palestinian Rabbinic Jews, which had different priorities, another rabbinic school, different liturgy, and different laws. They also do not reflect Muslim rule in any way; for example, there are no Arabic loanwords. Thus, the Byzantine provenance.
+*![](/images/2018/03/midrash_tehillim_30.webp)TY* works evince a knowledge of rabbinic traditions but are not genetically related to that rabbinic behemoth, the Babylonian Talmud; in chapter two Weiss discusses points of affinity between the two corpora. Although pieces of Talmud and even a later work derived from the Talmud known as *She’iltot* are embedded in the manuscript tradition, *TY* works are not of the same milieu as the Babylonian Talmud. Instead, they are a remnant from the community of Palestinian Rabbinic Jews, which had different priorities, another rabbinic school, different liturgy, and different laws. They also do not reflect Muslim rule in any way; for example, there are no Arabic loanwords. Thus, the Byzantine provenance.
 
 These works have often been called “late midrash,” and neglected as a lesser exemplar of what those in the field like to call “classical midrash” (redacted 4th\-6th centuries in Byzantine Palestine). While the manuscript record has so many of these works, there is as yet not one critical edition of a Tanhuma-Yelammedenu midrash. In recent years, however, there has been an uptick in the slight interest these works have commanded in rabbinic scholarship: some studies of the relationship between *TY* and Jewish liturgical poetry (*piyyut*) (אליצור 1992), an article on the Hebrew language of *TY* (וורמסר תשע”ג).
 
@@ -47,7 +47,7 @@ Weiss also offers an illuminating and cross-cultural discussion of the conceptua
 
 In chapter two Weiss charts the rise of the biblical theology of divine confrontation in later rabbinic literature, known as *Amoraic Literature*, and in post-rabbinic literature. This theology  asserts that it is permissible and virtuous to confront God and his decisions. Some traditions that forbade questioning the divine were re-worked and made more ambivalent. Other Tannaitic traditions were explicitly reworked to permit challenge where one was forbidden. These re-workings are common in rabbinic literature; Weiss applies the tools of rabbinic source criticism to understand, in each case, how they worked. Different characters, such as the ministering angels, were also employed to voice critiques that the rabbis did not want to place in the mouths of people. (Jenny Labendz discusses this strategy in her *Socratic Torah* (2013)).
 
-![](/images/2018/03/rabbis2a-300x169.png)
+![](/images/2018/03/rabbis2a.webp)
 
 “Beim Rabbi”(At the Rabbi’s) by Carl Schleicher (fl. Vienna c. 1859-1871)
 

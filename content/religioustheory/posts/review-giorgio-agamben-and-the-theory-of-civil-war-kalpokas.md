@@ -3,7 +3,7 @@ title: Review – Giorgio Agamben and the Theory of Civil War (Ignas Kalpokas)
 description: "*Agamben, Giorgio. Stasis: Civil War as a Political Paradigm (Meridian: Crossing Aesthetics). Translated by Nicholas Heron Translated by Nicholas Heron."
 date: '2016-08-11T08:00:32.000Z'
 author: Books
-image: /images/2016/08/agamben.jpg
+image: /images/2016/08/agamben.webp
 categories:
   - Reviews
 layout: theory.njk
@@ -37,7 +37,7 @@ That, of course, is an observation that was extremely poignant when the lectures
 
 In the second of the two lectures Agamben offers a rereading of Hobbes’ *Leviathan* through an interpretation of the frontispiece of its first edition. In this rereading, political community is seen as an optical illusion and the sovereign as existing somewhere outside and simply instituting order over a dissolved multitude. Hence, instead of playing a positive role – as the commonplace interpretation would suggest – Agamben’s Hobbesian state in fact acts as an agent of antichrist, bringing forward the end of history (hence the choice of the name of a biblical beast).
 
-This is a potentially contentious interpretation which is, nevertheless, given with careful consideration of the text and![stasis](/images/2016/08/stasis--193x300.jpg) admirable erudition (both attributes being characteristic to Agamben’s entire corpus of work). However, one would expect a broader engagement with the *Leviathan* that goes beyond selected passages as well as with Hobbes’ other political writings before accepting such a hypothesis unreservedly. At the moment, Agamben’s reading should more safely be treated as a suggestion.
+This is a potentially contentious interpretation which is, nevertheless, given with careful consideration of the text and![stasis](/images/2016/08/stasis.webp) admirable erudition (both attributes being characteristic to Agamben’s entire corpus of work). However, one would expect a broader engagement with the *Leviathan* that goes beyond selected passages as well as with Hobbes’ other political writings before accepting such a hypothesis unreservedly. At the moment, Agamben’s reading should more safely be treated as a suggestion.
 
 Stasis would then refer to a point of indifference – or transition – between the political public and the dissolved multitude, whereby the multitude can create a body politic only to be dissolved back into the multitude by that same act. Stasis is what mediates between the fundamental concepts of Hobbesian theory: the Commonwealth and the state of nature.
 

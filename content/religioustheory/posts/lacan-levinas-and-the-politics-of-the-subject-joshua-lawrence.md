@@ -3,7 +3,7 @@ title: 'Lacan, Levinas, And The Politics Of The Subject (Joshua Lawrence)'
 description: "Psychoanalysis has undeniably played a significant role in the development of theories critical of the social landscape It highlights key arguments and"
 date: '2017-01-21T18:54:54.000Z'
 author: editors
-image: /images/2017/01/levinas1.jpg
+image: /images/2017/01/levinas1.webp
 categories:
   - Political Theology
   - Psychoanalysis
@@ -19,7 +19,7 @@ tags:
   - political
 ---
 
-![clarke-firstimage](/images/2017/01/clarke-firstimage-266x300.jpg)Psychoanalysis has undeniably played a significant role in the development of theories critical of the social landscape. In addition to fostering a new model for self-reflection, it has functioned as a vehicle for the proliferation of subjectivities distinct from the consecrated forms of cultural life. Consequently, I will suggest here that it has an important role to play in the formation of any emancipatory political praxis.
+![clarke-firstimage](/images/2017/01/clarke-firstimage.webp)Psychoanalysis has undeniably played a significant role in the development of theories critical of the social landscape. In addition to fostering a new model for self-reflection, it has functioned as a vehicle for the proliferation of subjectivities distinct from the consecrated forms of cultural life. Consequently, I will suggest here that it has an important role to play in the formation of any emancipatory political praxis.
 
 At the same time, I will argue that psychoanalysis requires a phenomenological critique in order to fulfill the ethical demands of justice. To accomplish this, I have juxtaposed the Lacanian theory of analysis with the critical phenomenology of Emmanuel Levinas. My first task, then, will be to explicate a significant commonality between these two thinkers, namely *constitutive alterity*.
 
@@ -37,7 +37,7 @@ However, this is not to imply that there is ever an equivalence between the two;
 
 Lorenzo Chiesa suggests that “it is clearly possible to divide Lacan’s examination of the subject into three consecutive stages (imaginary subjectivity in the 1930s and 1940s; symbolic subjectivity in the 1950s; real subjectivity in the 1960s and 1970s),” but he also argues for a “*continuity* underlying these seemingly incompatible phases.”[^5] So, with Chiesa I will assume for Lacan a subject as “irreducible lack—the real other as the inherent impasse *and* precondition for the Symbolic—which must *actively* be confronted and
 
-![Emmanuel Levinas](/images/2017/01/levinas1-300x224.jpg)
+![Emmanuel Levinas](/images/2017/01/levinas1.webp)
 
 Emmanuel Levinas
 
@@ -57,7 +57,7 @@ This of course coincides with Lacan’s own pessimism regarding hasty revolution
 
 Consequently, even a cynical age like our own still maintains an unacknowledged belief effaced by calculations and rules presented as self-evident. As always, this self-evidence, or self-certainty, orchestrates a politics of escape from the split or ruptured subject of both Lacanian psychoanalysis and critical phenomenology.
 
-![web_istock_74804569_large](/images/2017/01/web_istock_74804569_large-300x195.jpg)I maintain that the “unconscious” functions as a displacement central to the awakening of political awareness, but that this particular directedness can only come from a register prior to that of image, or of language (understood as a system of signifiers). The unconscious cannot be understood on the model of consciousness; Levinas in fact spends considerable time distinguishing the subject to which he refers from such confused discussions. For him, “consciousness is the effect of an affect, and this affect is trauma.”[^10]
+![web_istock_74804569_large](/images/2017/01/web_istock_74804569_large.webp)I maintain that the “unconscious” functions as a displacement central to the awakening of political awareness, but that this particular directedness can only come from a register prior to that of image, or of language (understood as a system of signifiers). The unconscious cannot be understood on the model of consciousness; Levinas in fact spends considerable time distinguishing the subject to which he refers from such confused discussions. For him, “consciousness is the effect of an affect, and this affect is trauma.”[^10]
 
 As one deeply concerned with that which Levinas contends is more prior than *a priori*, I will nevertheless concede to Lacan the operations of the unconscious within the context of a horizon. And I will assume alienation as a part of entrance into the intersubjective world of human existence, conferring on this subjectivity a degree of alterity.
 
@@ -85,7 +85,7 @@ I want to suggest that the groans of the Other’s command within us, are precis
 
 Derrida takes this insight a step further, when he writes that our response to theOther is always a sacrifice
 
-![Jacques Derrida](/images/2017/01/Jacques_Derrida-249x300.jpg)
+![Jacques Derrida](/images/2017/01/jacques_derrida.webp)
 
 Jacques Derrida
 

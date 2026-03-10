@@ -3,7 +3,7 @@ title: 'The “New Hegel” And The Question Of God, Part 3 (Gavin Hyman)'
 description: "The following is the last installment of a three-part series. The first one can be found here. The second one can be found here. As Thomas A As Thomas A."
 date: '2019-06-08T21:04:09.000Z'
 author: editors
-image: /images/2019/06/IMG_4448.jpeg
+image: /images/2019/06/img_4448.webp
 categories:
   - Philosophy of Religion
   - Theology

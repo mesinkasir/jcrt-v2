@@ -3,7 +3,7 @@ title: 'God And Existence, Lecture 4 (Johannes Zachhuber)'
 description: "The following is the fourth lecture in an eight-part lecture series. Readers can also refer to lectures one, two, and three It highlights key arguments"
 date: '2018-08-29T17:34:34.000Z'
 author: editors
-image: /images/2018/08/IMG_2603.jpg
+image: /images/2018/08/img_2603.webp
 categories:
   - Theology
   - Philosophy of Religion

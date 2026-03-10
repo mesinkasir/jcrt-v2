@@ -3,7 +3,7 @@ title: 'Newest Titles For Review – Freud, Nussbaum, Angst, The Crucified God, 
 description: "Religious Theory has just added new titles for which we are looking for reviewers (listed below). If you would like to review one of them, please send an email"
 date: '2017-01-27T22:22:57.000Z'
 author: editors
-image: /images/2017/01/Martha-Nussbaum.jpg
+image: /images/2017/01/martha-nussbaum.webp
 categories:
   - Uncategorized
   - Mythology

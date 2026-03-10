@@ -3,7 +3,7 @@ title: 'The Hollow Christians Of End Times Fiction, Part 1 (Paul Maltby)'
 description: "A flaw at the heart of End Times fiction gravely weakens its credibility as Christian literature. Its stock characters lack the degree of interiority required"
 date: '2020-02-18T04:18:55.000Z'
 author: editors
-image: /images/2020/02/Doctor_Who_Experience_3998731216.jpg
+image: /images/2020/02/doctor_who_experience_3998731216.webp
 categories:
   - Religion and Literature
 layout: theory.njk

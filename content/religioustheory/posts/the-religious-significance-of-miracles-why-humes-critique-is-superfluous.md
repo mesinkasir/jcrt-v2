@@ -5,7 +5,7 @@ title: >-
 description: "The argument from miracles seeks to prove that a religious deity (such as God) exists on the premise that only God could have caused a miracle to occur"
 date: '2020-07-14T01:46:44.000Z'
 author: editors
-image: /images/2020/07/Rubens-Les_miracles_de_saint_Benoi%CC%82t.jpg
+image: /images/2020/07/rubens-les_miracles_de_saint_benoit.webp
 categories:
   - Philosophy of Religion
   - Philosophical Theology

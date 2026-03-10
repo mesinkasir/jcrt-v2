@@ -5,7 +5,7 @@ title: >-
 description: "*Miller, Adam S. The Gospel According to David Foster Wallace: Boredom and Addiction in an Age of Distraction. New York: Bloomsburg Academic, 2016 It highlights"
 date: '2016-07-07T00:19:50.000Z'
 author: editors
-image: /images/2016/07/DavidFosterWallace1.jpg
+image: /images/2016/07/davidfosterwallace1.webp
 categories:
   - Reviews
   - Theology
@@ -40,7 +40,7 @@ As Wallace once said, these unremarkable conventionalities make it “distinctiv
 
 Thus what Miller does is illuminate the ways in which Wallace is concerned with critical living as a process of absolution: one must move from the escapist distractions of the mind to a bright-eyed encounter with the surrounding world. Miller’s Wallace, in other words, encourages us to move from our heads to our bodies, to attend to our worlds, to abide with intentionality, to “see the real at every turn”.[^4]
 
-It is in this emphasis upon the body that one picks up on strong overtones of ![Music](/images/2016/07/david-music21-300x227.jpg)Miller’s material phenomenology, which seems to resonate deeply with the “new phenomenology” of thinkers such as Michel Henry. For Henry, affectivity is ultimately found in the radical immanent. Thus in a Henryite register, one might say that affectivity is the essence of life for Miller’s Wallace: human beings best experience the reality of their worlds through suffering, joy, laugher, despair, and boredom, all of which align when we “return to the present” by simultaneously “return(ing) to the body”.[^5]
+It is in this emphasis upon the body that one picks up on strong overtones of ![Music](/images/2016/07/david-music21.webp)Miller’s material phenomenology, which seems to resonate deeply with the “new phenomenology” of thinkers such as Michel Henry. For Henry, affectivity is ultimately found in the radical immanent. Thus in a Henryite register, one might say that affectivity is the essence of life for Miller’s Wallace: human beings best experience the reality of their worlds through suffering, joy, laugher, despair, and boredom, all of which align when we “return to the present” by simultaneously “return(ing) to the body”.[^5]
 
 This materiality—this “religion of the physical”, as Miller puts it—exposes our desire for transcendence as a desire for disembodied-ness. We suffer from the same fate as Hal, the protagonist from Wallace’s *Infinite Jest*, or Toni Ware’s headless doll in Wallace’s *The Pale King*: our heads have come unthreaded from our bodies, which leaves us trapped in our own brains, distracted and unable to make ourselves heard.
 

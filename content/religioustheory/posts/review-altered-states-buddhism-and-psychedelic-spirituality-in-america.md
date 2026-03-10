@@ -5,7 +5,7 @@ title: >-
 description: "* Osto, Douglas. Altered States: Buddhism and Psychedelic Spirituality in America. New York: Columbia University Press, 2016 It highlights key arguments"
 date: '2016-07-28T08:00:53.000Z'
 author: Books
-image: /images/2016/07/psychedelic-therapy.jpg
+image: /images/2016/07/psychedelic-therapy.webp
 categories:
   - Reviews
 layout: theory.njk
@@ -19,7 +19,7 @@ tags:
   - experience
 ---
 
-**![buddhabrot](/images/2016/07/buddhabrot-278x300.jpg)Osto, Douglas. *Altered States: Buddhism and Psychedelic Spirituality in America.* New York: Columbia University Press, 2016. ISNB 10:** **0231177305 Hardcover, e-book. 328 pages.**
+**![buddhabrot](/images/2016/07/buddhabrot.webp)Osto, Douglas. *Altered States: Buddhism and Psychedelic Spirituality in America.* New York: Columbia University Press, 2016. ISNB 10:** **0231177305 Hardcover, e-book. 328 pages.**
 
 In recent years, the amount of published scholarly work on psychedelics, religion, and spirituality has grown enormously. Even so, many writers still feel it necessary to do a rhetorical dance around the taboos shaping the broader public’s association of psychedelics with 1960s counterculture and the law and order rhetoric that accompanied the War on Drugs. This is certainly the case for Douglas Osto’s *Altered States: Buddhism and Psychedelic Spirituality*.
 
@@ -59,7 +59,7 @@ Osto structures his book with a brief introduction, a chapter delineating the hi
 
 Osto qualifies some of the limitations of his research saying the interviews, “give no indication of how widespread the spiritual use of psychedelics might be within Buddhism. At best, they offer some anecdotal evidence concerning this heterodox and often outlawed practice among American convert Buddhists.”[^9] By the end of the book the implication that these interviews speak to larger cultural conditions comes through loud and clear.
 
-In addition to his own interviews, Osto bases a significant amount of his book on a special issue of *Tricycle: The Buddhist Review* (volume 66, no. 1, fall 1996) and the reprinting of some of that material in Allan Hunt Badiner and Alex Grey’s 2002 compilation of psychedelic Buddhist writings, *Zig Zag Zen* (Synergetic Press 2002 / 2015). After the history chapters, Osto gives two chapters accounting for pro and con arguments among American Buddhists for the relevance and usefulness of psychedelics for Buddhist practices, though the con chapter is the shortest in the book.![psychedelic-therapy](/images/2016/07/psychedelic-therapy-300x225.jpg)
+In addition to his own interviews, Osto bases a significant amount of his book on a special issue of *Tricycle: The Buddhist Review* (volume 66, no. 1, fall 1996) and the reprinting of some of that material in Allan Hunt Badiner and Alex Grey’s 2002 compilation of psychedelic Buddhist writings, *Zig Zag Zen* (Synergetic Press 2002 / 2015). After the history chapters, Osto gives two chapters accounting for pro and con arguments among American Buddhists for the relevance and usefulness of psychedelics for Buddhist practices, though the con chapter is the shortest in the book.![psychedelic-therapy](/images/2016/07/psychedelic-therapy.webp)
 
 Based on his interviews, he importantly notes that a significant number of Baby Boomer convert Buddhists in the 1960s express that they moved away from or “graduated” from using psychedelics to more austere practices while others continued to use them quietly due to the War on Drugs. Their experiences were quite different than those coming to Buddhism in its American manifestation once it was well established at the end of the twentieth century.
 
@@ -121,7 +121,7 @@ Perhaps most compellingly, Osto relies on his interviews to address the recurrin
 
 Although Osto points to the fact that this may be simultaneously related to the cultural framing that theorists like Aldous Huxley have given to psychedelics via William Blake, Osto also suggests that the “door opening” metaphor may be more neurologically situated.[^20] He lands in the safe claim that no matter the divergences within the American convert Buddhist communities, psychedelics bring up important debates and questions, and they are indicative of American idiosyncrasies in emergent Buddhist practices. Along with this, the persistence of psychedelics within American Buddhism seems to be here to stay.
 
-![14979666-Psychedelic-Rosette-Digital-abstract-image-with-a-circular-psychedelic-design-in-green-blue-purple-a-Stock-Photo](/images/2016/07/14979666-Psychedelic-Rosette-Digital-abstract-image-with-a-circular-psychedelic-design-in-green-blue-purple-a-Stock-Photo-300x300.jpg)Osto’s book is exceptional in its ability to focus the conversation about entheogens within religious perspectives contrastive to the Protestant regime that culturally underwrites American religion, even if it does not make that connection explicit. Because of this, one ought not take the shortcomings I have presented here as limiting. This is enormously complex territory.
+![14979666-Psychedelic-Rosette-Digital-abstract-image-with-a-circular-psychedelic-design-in-green-blue-purple-a-Stock-Photo](/images/2016/07/14979666-psychedelic-rosette-digital-abstract-image-with-a-circular-psychedelic-design-in-green-blue-purple-a-stock-photo.webp)Osto’s book is exceptional in its ability to focus the conversation about entheogens within religious perspectives contrastive to the Protestant regime that culturally underwrites American religion, even if it does not make that connection explicit. Because of this, one ought not take the shortcomings I have presented here as limiting. This is enormously complex territory.
 
 The book’s most important insight is the fact that, over and over again, psychedelic enthusiasts refer to initial use of psychedelics as “door-opening” – and from his account of a Buddhist perspective, whether or not one continues to use psychedelics or feels he or she has “graduated” from such experiences, the door-opening metaphor persists in individuals’ accounts of their experiences. The cultural set and setting may be more resilient throughout the psychedelic experience than universalists would like to suggest.
 

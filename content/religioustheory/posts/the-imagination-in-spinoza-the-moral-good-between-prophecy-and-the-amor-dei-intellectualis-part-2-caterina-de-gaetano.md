@@ -5,7 +5,7 @@ title: >-
 description: "The following is the second of a two-part series. The first can be found here. The entire article appears in Issue 22.1 of the Journal for Cultural and"
 date: '2023-08-05T16:37:27.000Z'
 author: editors
-image: /images/2023/08/Screenshot-2023-08-11-at-11.35.37-AM.png
+image: /images/2023/08/screenshot-2023-08-11-at-11-35-37-am.webp
 categories:
   - Philosophy of Religion
   - Religious Studies

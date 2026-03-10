@@ -5,7 +5,7 @@ title: >-
 description: "In his preface to Deleuze and Guattari’s Anti-Oedipus, Michel Foucault asks the authors’ forgiveness for describing their book as the first book of ethics"
 date: '2016-12-19T11:35:39.000Z'
 author: editors
-image: /images/2016/12/jnnocence1094.jpg
+image: /images/2016/12/jnnocence1094.webp
 categories:
   - Philosophy
   - Reviews
@@ -45,7 +45,7 @@ In these passages we see the postwar bravado on the left as siding with anti-fas
 
 In addition to Sartre’s emphasis on freedom, structuralism in France was combined with a rehabilitated
 
-![Jean-Paul Sartre. Wikipedia Commons.](/images/2016/12/Jean-Paul_Sartre_FP-300x258.jpg)
+![Jean-Paul Sartre. Wikipedia Commons.](/images/2016/12/jean-paul_sartre_fp.webp)
 
 Jean-Paul Sartre. Wikipedia Commons.
 
@@ -77,7 +77,7 @@ He notes that it is not possible to identify “language” as the *code* and �
 
 What we get instead of a clean dipper into the unconscious *langue* soup is the conception of the “idiolect.” Barthes describes this as “‘the language inasmuch as it is spoken by a single individual’” or habits of the individual; also, however, the language of someone with aphasia or the “style” of a writer, or “the language of a linguistic community.” He then says, “the idiolect would then correspond roughly to what we have attempted to describe elsewhere under the name ‘writing.’”[^12]  Idiolect here would correspond roughly to the *means of expressivity* available to one within a given system, a system which, as Heidegger would say, simultaneously “speaks” the writer or “scriptor,” as Barthes terms it in his famous essay on “The Death of the Author.”
 
-![Roland Barthes](/images/2016/12/images.jpg)
+![Roland Barthes](/images/2016/12/images.webp)
 
 Roland Barthes
 
@@ -117,7 +117,7 @@ The discussion then turns back toward Nietzsche and Leibniz, and particularly �
 
 The power of decision at the heart of problems, this creation or throw which makes us descendant from the gods, is nevertheless not our own. The gods themselves are subject to *Anankē* or sky-chance.  The imperatives and questions with which we are infused do not emanate from the I: it is not even there to hear them.  The imperatives are those of being, while every question is ontological and distributes ‘that which is’ among problems.  Ontology is the dice throw, the chaosmos from which the cosmos emerges.[^23]
 
-At this point we can see that ontology, Being, the Idea, and the unconscious are ingredients for eruptions of ![coliseum](/images/2016/12/coliseum-300x202.jpg)singularities, which Deleuze, following Barthes and Saussure puts onto a horizontal and vertical axis.[^24] He takes up once again the linguistic Idea.  Deleuze is concerned that linguists employing the notion of difference in Saussure’s sense of phonemic difference at times confuse difference and opposition.[^25] Difference is not negative, nor is it oppositional.
+At this point we can see that ontology, Being, the Idea, and the unconscious are ingredients for eruptions of ![coliseum](/images/2016/12/coliseum.webp)singularities, which Deleuze, following Barthes and Saussure puts onto a horizontal and vertical axis.[^24] He takes up once again the linguistic Idea.  Deleuze is concerned that linguists employing the notion of difference in Saussure’s sense of phonemic difference at times confuse difference and opposition.[^25] Difference is not negative, nor is it oppositional.
 
 He asks of those who would conflate opposition and difference: “Is this not a way of introducing the point of view of consciousness and actual representations into what should be the transcendent exploration of the Idea of the linguistic unconscious – in other words, the highest exercise of speech in relation to the point zero of language?”[^26]
 

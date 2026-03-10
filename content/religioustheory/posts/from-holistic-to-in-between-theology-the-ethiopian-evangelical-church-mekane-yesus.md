@@ -5,7 +5,7 @@ title: >-
 description: "The Ethiopian Evangelical Church Mekane Yesus: Simultaneously Western and Indigenous Even though the Ethiopian Evangelical Church Mekane Yesus has a Lutheran"
 date: '2022-04-15T13:29:11.000Z'
 author: editors
-image: /images/2022/05/Gudina_Tumsas_grav-846x642.jpg
+image: /images/2022/05/gudina_tumsas_grav.webp
 categories:
   - Postcolonial Theory
   - Theology

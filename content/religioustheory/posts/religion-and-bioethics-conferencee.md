@@ -3,7 +3,7 @@ title: Religion and Bioethics (Conferencee)
 description: "Sponsored by the The Whitestone Foundation dba The Journal for Cultural and Religious Theory in collaboration with the University of Denver It highlights"
 date: '2024-12-18T18:23:13.000Z'
 author: editors
-image: /images/2024/09/Human_genome.png
+image: /images/2024/09/human_genome.webp
 categories:
   - Conferences
   - Announcements

@@ -5,7 +5,7 @@ title: >-
 description: "The following is the first installment of a three-part series. Translated by Philipp Schlögl. Friederich Hölderlin’s famous quote “Thus all Religion would be"
 date: '2019-04-30T03:15:25.000Z'
 author: editors
-image: /images/2019/04/Ho%CC%88lderlin.jpg
+image: /images/2017/07/hoelderlin.webp
 categories:
   - Aesthetics
   - Philosophy of Religion

@@ -5,7 +5,7 @@ title: >-
 description: "The following is the first part in a two-part installment. The second part can be found here. Author Note: The authors of this article take the position that"
 date: '2018-09-30T18:17:01.000Z'
 author: editors
-image: /images/2018/10/hb_58.87.1.jpg
+image: /images/2018/10/hb_58-87-1.webp
 categories:
   - Psychology of Religion
   - Theology

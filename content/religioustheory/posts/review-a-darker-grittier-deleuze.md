@@ -3,7 +3,7 @@ title: 'Review – A Darker, Grittier Deleuze (Timothy Snediker)'
 description: "*Culp, Andrew. Dark Deleuze (Forerunners: Ideas First). Minneapolis: University of Minnesota Press, 2016. ISBN 10: 1517901332 Paperback, e-book It highlights"
 date: '2016-08-04T08:00:23.000Z'
 author: Books
-image: /images/2016/07/Gilles-Deleuze-DR.jpg
+image: /images/2016/07/gilles-deleuze-dr.webp
 categories:
   - Reviews
   - World Religions
@@ -36,7 +36,7 @@ Seasoned readers of Deleuze will recognize, in each of these contraries (or “n
 
 Decisively, Culp sees this not as a weakness in Deleuze’s thought, but one of its great strengths—namely, the ability to adapt, strategize and act *in thought*. Thought becomes a life, irreducible to life in general or even to “bare life.”[^1] In other words: thought becomes, or is in itself, politics. Hence the wisdom of his admonishment at the outset of the text: “there is something absolutely essential in \[Deleuze’s\] work, but it would be best not to take it at face value” (4). Deleuzians at large would do well to take heed of this advice.
 
-I won’t waste the reader’s time cataloging my agreements and disagreements with each of Culp’s contraries—they deserve to be rigorously evaluated one by one—but it is clear that Culp has done his homework, and that his heterodoxy is genuine. Of note are the critiques of procedural democracy (41-43), the searing takedown of Nick Land’s accelerationist project (44-48), and the pervasive emphasis on the powers of the outside (56-59). The section on the subject and the genesis of subjectivity from shame, misery and disgust as much as wonder and freedom, is exemplary of the possibility of a radical politics that dispenses with guilt and innocence as primary categories, ensconced as these latter are in a Christian-capitalist libidinal economy (26-29).![dark deleuze](/images/2016/07/dark-deleuze-215x300.jpg)
+I won’t waste the reader’s time cataloging my agreements and disagreements with each of Culp’s contraries—they deserve to be rigorously evaluated one by one—but it is clear that Culp has done his homework, and that his heterodoxy is genuine. Of note are the critiques of procedural democracy (41-43), the searing takedown of Nick Land’s accelerationist project (44-48), and the pervasive emphasis on the powers of the outside (56-59). The section on the subject and the genesis of subjectivity from shame, misery and disgust as much as wonder and freedom, is exemplary of the possibility of a radical politics that dispenses with guilt and innocence as primary categories, ensconced as these latter are in a Christian-capitalist libidinal economy (26-29).![dark deleuze](/images/2016/07/dark-deleuze.webp)
 
 As a volume, *Dark Deleuze* has many weaknesses, some of which Culp ably addresses in a concluding prolepsis: the book is too short, the arguments move much too quickly, the author ignores Deleuze’s own prescriptions, and so on and so forth. *So be it*, Culp seems to say, with a malevolent grin (65). In spite of the perversity and carelessness perceived in *Dark Deleuze* by the partisans of joy, Culp insists that in order to be faithful to Deleuze one must, in a very specific sense endorsed by Deleuze himself, betray the master. *Dark Deleuze* is Culp’s philosophical and political ‘buggery’ of Deleuze, a desperate attempt to escape a desperate situation, in which Deleuze does indeed, or has indeed, become the “ideologist of late capitalism.”[^2]
 

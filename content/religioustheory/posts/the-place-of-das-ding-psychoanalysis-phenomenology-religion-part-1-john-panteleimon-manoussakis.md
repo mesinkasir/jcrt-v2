@@ -5,7 +5,7 @@ title: >-
 description: "The following article is the first installment of a two-part series. The second installment can be found here. “One, two, three, but where is the fourth?”"
 date: '2017-02-13T22:56:28.000Z'
 author: editors
-image: /images/2017/02/Dd.jpg
+image: /images/2017/02/dd.webp
 categories:
   - Philosophy
   - Lutheran Theology
@@ -54,7 +54,7 @@ Alterity, therefore, becomes first possible in time and first as an alterity to 
 
 Yet, how other could an otherness be that springs and flows from within ourselves? An otherness that returns to ourselves insofar as it is by means of time that one is re-collected to oneself, that one becomes and remains oneself? Time, even though fourth to the three dimensions of space, is itself limited by its own *trinity* of past, present and future. The fourth we thought we got hold of is now proven to be yet another form of the same triptych. The question, therefore, must be posed once more: where is, then, the fourth?
 
-![Ancient Alexandria (public domain photo)](/images/2017/02/Ancient-Alexandria-public-domain-photo-300x264.png)Perhaps we should return to the original locus where the question about the fourth is first raised: the Platonic *Timaeus*. The *Timaeus* takes place on the *third* night after Socrates’ famous visit to Piraeus on the occasion of a newly established festival. He spent that night at the house of Cephalus with Glaucon and Adeimantus, among others, discussing what we know today as the *Republic*.
+![Ancient Alexandria (public domain photo)](/images/2017/02/ancient-alexandria-public-domain-photo.webp)Perhaps we should return to the original locus where the question about the fourth is first raised: the Platonic *Timaeus*. The *Timaeus* takes place on the *third* night after Socrates’ famous visit to Piraeus on the occasion of a newly established festival. He spent that night at the house of Cephalus with Glaucon and Adeimantus, among others, discussing what we know today as the *Republic*.
 
 But if we know of the *Republic* at all, that is because Socrates recounts the discussion of the previous night in all its details the very next day to the triumvirate of Timaeus, Hermocrates and Critias, that is to the three persons who would assume the duties of the host and serve Socrates a different feast of speeches in return, as recorded in the dialogues which bear as titles their names: the *Timaeus* and the *Critias*. To summarize, then, the *Timaeus* takes place on the *third* day after that night when the discussion about the ideal city—and of the soul, of the soul as the magnified paradigm of the polis— took place.
 
@@ -86,7 +86,7 @@ If we were, for a moment, to look back at the *Timaeus*, from where we began thi
 
 In his insightful reading of *Oedipus Rex*, Goux draws a comparison between the tripartite monster that Oedipus confronts (the Sphinx) and the tripartite structure of the soul as presented by Plato’s psychology.2  This  allows  him  to  be  critical  of  Hegel’s  reading  of  the  confrontation between the Theban King and the Sphinx as the inaugural moment of rationality.3
 
-![Oedipus Rex](/images/2017/02/Oedipus-Rex-300x238.jpg)
+![Oedipus Rex](/images/2017/02/oedipus-rex.webp)
 
 Oedipus Rex
 

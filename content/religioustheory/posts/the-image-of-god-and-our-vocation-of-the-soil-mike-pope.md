@@ -3,7 +3,7 @@ title: 'The Image of God and Our Vocation of the Soil, Part 1 (Mick Pope)'
 description: "Earth history has entered a new geological era known as the Anthropocene. The commonly agreed origin of this era was the 1950s with the “Great Acceleration,” a"
 date: '2024-05-03T22:51:43.000Z'
 author: editors
-image: /images/2024/09/Eckelrade-wegkruis_Linderweg-Eckelraderweg.jpg
+image: /images/2024/09/eckelrade-wegkruis_linderweg-eckelraderweg.webp
 categories:
   - Religion and Ecology
 layout: theory.njk

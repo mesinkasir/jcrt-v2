@@ -5,7 +5,7 @@ title: >-
 description: "The following is the second part of a transcript of one of our ongoing “Critical Conversations” with distinguished British political philosopher Arthur Bradley"
 date: '2022-06-09T19:27:23.000Z'
 author: editors
-image: /images/2022/06/Aboriginal_Sovereignty_-_panoramio-1210x642.jpg
+image: /images/2022/06/aboriginal_sovereignty_-_panoramio.webp
 categories:
   - Critical Conversations
   - Political Theology

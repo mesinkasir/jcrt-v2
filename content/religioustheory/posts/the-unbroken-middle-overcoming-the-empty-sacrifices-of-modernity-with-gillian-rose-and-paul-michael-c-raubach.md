@@ -6,7 +6,7 @@ description: "In her 1992 masterpiece, The Broken Middle, the philosopher Gillia
 date: '2021-11-04T15:40:15.000Z'
 author: editors
 image: >-
-  /images/2021/11/800px-Wandbild_Portrait_George_Floyd_von_Eme_Street_Art_im_Mauerpark_Berlin.jpg
+  /images/2021/11/800px-wandbild_portrait_george_floyd_von_eme_street_art_im_mauerpark_berlin.webp
 categories:
   - Philosophy of Religion
   - Reviews

@@ -4,7 +4,7 @@ description: "Virtue ethics has received much attention throughout the last deca
 date: '2016-02-24T02:46:50.000Z'
 author: editors
 image: >-
-  /images/2016/02/Cezanne-Still-life-with-flower-holder-1905-trivium-art-history.jpg
+  /images/2016/02/cezanne-still-life-with-flower-holder-1905-trivium-art-history.webp
 categories:
   - Ethics and Virtue Theory
 layout: theory.njk

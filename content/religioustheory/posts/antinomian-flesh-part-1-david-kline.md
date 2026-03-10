@@ -3,7 +3,7 @@ title: 'Antinomian Flesh, Part 1 (David Kline)'
 description: "In this essay I explore the idea of what I call an “antinomian flesh.” Looking to the concept of nomos theorized by sociologists, political and legal theorists"
 date: '2020-10-19T04:24:16.000Z'
 author: editors
-image: /images/2020/11/1600px-Jones_Point_Park_-_boundary_markers_along_the_path.jpg
+image: /images/2020/11/1600px-jones_point_park_-_boundary_markers_along_the_path.webp
 categories:
   - Religion and Race
 layout: theory.njk

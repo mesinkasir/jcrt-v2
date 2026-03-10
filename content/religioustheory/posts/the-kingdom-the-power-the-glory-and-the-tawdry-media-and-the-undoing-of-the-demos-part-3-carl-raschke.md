@@ -5,7 +5,7 @@ title: >-
 description: "This article is the last of three installments. It was originally a paper given at the international conference “The Crisis of Representation” at Melk"
 date: '2017-07-19T13:58:20.000Z'
 author: editors
-image: /images/2017/07/Blake_jacobsladder.jpg
+image: /images/2017/07/blake_jacobsladder.webp
 categories:
   - Political Theology
   - Political Theory
@@ -35,7 +35,7 @@ The upshot would be what he calls *l’économie de contribution* (“the econom
 
 > This model \[of the society of contribution\] rests on investment and citizens taking responsibility. It differs from Fordism because it depends on de-prolaterisation (sic). For Marx, the workers are proletarized when their expertise is replaced by the machines that they serve. In the 20th century it was the consumers who were proletarized and we lost the old knowledge. Proleterization isn’t financial poverty, but the loss of knowledge. Consumers do not produce their own way of living, which is now prescribed by the big corporate names.[^2]
 
-Although Stiegler’s solution sounds vague and not a little utopian – and certainly does not have the “critical” transformational perspective we would expect perhaps from such incisive social and political theorizing – it steers us in a ![](/images/2017/07/Blake-red-dragon-215x300.jpg)direction from which the broader critique of neoliberalism often shies away.  The crisis of neoliberal hegemony comes down to a crisis of liberal democracy stemming from the crisis of representation that can be tracked all the way back to the end of the *Aufklärung*.
+Although Stiegler’s solution sounds vague and not a little utopian – and certainly does not have the “critical” transformational perspective we would expect perhaps from such incisive social and political theorizing – it steers us in a ![](/images/2017/07/blake-red-dragon.webp)direction from which the broader critique of neoliberalism often shies away.  The crisis of neoliberal hegemony comes down to a crisis of liberal democracy stemming from the crisis of representation that can be tracked all the way back to the end of the *Aufklärung*.
 
 It is a hollowing out of the political following upon the passage of dialectic into a highly *undialectical* planetary *economism of algebrarically codified and commodified desire* spurred on by the sophisms of marketing (in contradistinction to the production of exchange values on the market itself), where the sublimation of drives in the traditional Weberian analysis is transmuted into what Herbert Marcuse in his 1964 book *One Dimensional Man* called “repressive desublimation”, i.e., according to which “the progress of technological rationality is liquidating the oppositional and transcending elements in the ‘higher culture.’”[^3]
 
@@ -53,7 +53,7 @@ Repressive desublimation greases the very skids of a smoothly operative *biopowe
 
 The syllogism-like exigency of the “categorical imperative” to shatter all moral and social inhibitions which the process of
 
-![](/images/2017/07/Hoelderlin-300x225.jpg)
+![](/images/2017/07/hoelderlin.webp)
 
 Friedrich Hölderlin
 

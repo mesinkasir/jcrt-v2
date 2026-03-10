@@ -3,7 +3,7 @@ title: Review – Medicinal Religion (Aaron Klink)
 description: "*Balboni, Michael J. and Peteet, John R. eds. Spirituality and Religion Within the Culture of Medicine: From Evidence to Practice ISBN 9780190272432 Hardcover."
 date: '2018-08-02T02:15:40.000Z'
 author: Books
-image: /images/2018/07/Style-Meditation-State-Colorful-World-0.4MP.jpg
+image: /images/2018/07/style-meditation-state-colorful-world-0-4mp.webp
 categories:
   - Reviews
 layout: theory.njk

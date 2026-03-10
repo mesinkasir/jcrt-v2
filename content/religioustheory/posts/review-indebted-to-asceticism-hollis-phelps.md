@@ -3,7 +3,7 @@ title: Review – Indebted to Asceticism (Hollis Phelps)
 description: "Stimilli, Elettra. **The Debt of the Living: Ascesis and Capitalism. Translated by Arianna Bove. Albany: SUNY Press, 2017. ISBN 9781438464152 It highlights"
 date: '2017-11-14T09:50:55.000Z'
 author: Books
-image: /images/2017/11/elettra-stimilli.jpg
+image: /images/2017/11/elettra-stimilli.webp
 categories:
   - Reviews
 layout: theory.njk
@@ -43,7 +43,7 @@ Stimilli’s ultimate goal, then, developed in the seventh and final chapter, is
 
 The way in which human praxis has itself as its own goal provides an important corrective to received understandings of asceticism, turning the latter into a critical, genealogical tool to understand the functioning of the neoliberal economy, both in itself and in, on, and through its human subjects. In this much, Stimilli provides an important, though not exclusive, way to read the subjective mechanisms that underpin the current debt economy.
 
-![](/images/2017/11/elettra-stimilli-300x297.jpg)
+![](/images/2017/11/elettra-stimilli.webp)
 
 Elettra Stimilli
 

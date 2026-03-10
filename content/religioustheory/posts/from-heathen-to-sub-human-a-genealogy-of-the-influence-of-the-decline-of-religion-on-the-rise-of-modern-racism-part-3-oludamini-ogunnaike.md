@@ -5,7 +5,7 @@ title: >-
 description: "The following is the third part of an article in three installments that initially appeared in July 2016 in Open Theology 2:2016 785-203 It highlights"
 date: '2016-10-04T03:22:37.000Z'
 author: editors
-image: /images/2016/09/Mumbett702.jpg
+image: /images/2016/09/mumbett702.webp
 categories:
   - Critical Race Theory
   - African Studies
@@ -49,7 +49,7 @@ The categorization of man into races was seen as a part of uncovering the divine
 
 > And this is the highest pitch of human reason: to follow all the links of this chain till all their secrets are open to our mind and their works advanc’d or imitated by our hands. This is truly to command the world; to rank all the varieties and degrees of things so orderly upon one another; that standing on the top of them, we may perfectly behold all that are below, and make them all serviceable to the quiet and peace and plenty of Man’s life.51
 
-Within this great chain of being, “difference in kind is treated as necessarily equivalent to difference of excellence, to diversity of rank in a hierarchy.”52 Thus the quest to understand and discover the “natural order” implied its classification in a hierarchy. Although Linnaeus himself does not mention the Chain of Being explicitly in his writing, his “natural order” is clearly an 18th century manifestation of this same trope. The same is true for many of the authors of the Enlightenment; even if they do not explicitly cite classical and medieval ideas such as the chain of being or theories from Aristotle’s politics, the implicit presence and strong influence of these concepts is undeniable.![^3] (/images/2016/09/3-300x275.png)
+Within this great chain of being, “difference in kind is treated as necessarily equivalent to difference of excellence, to diversity of rank in a hierarchy.”52 Thus the quest to understand and discover the “natural order” implied its classification in a hierarchy. Although Linnaeus himself does not mention the Chain of Being explicitly in his writing, his “natural order” is clearly an 18th century manifestation of this same trope. The same is true for many of the authors of the Enlightenment; even if they do not explicitly cite classical and medieval ideas such as the chain of being or theories from Aristotle’s politics, the implicit presence and strong influence of these concepts is undeniable.![^3] (/images/2016/09/3-300x275.webp)
 
 In keeping with the anthropocentric chain of being, Linnaeus described the European race as the epitome of beauty an intelligence being, “gentle, acute, and inventive,” and the Black race as “crafty, indolent, and negligent.… Governed by caprice.”53 Furthermore, in accordance with the “continuity thesis” of the great chain model, Linnaeus posited that black women could probably mate with male apes, revealing both the place of the black race within his hierarchy (at the bottom of humanity, just above the apes), but also the role of gender in his “natural order.”54
 
@@ -69,7 +69,7 @@ Kant’s other significant contribution to the rise of modern racism was his tem
 
 This notion of evolution or progress, found perhaps its fullest early philosophical expression in the works of Immanuel Kant. Kant, like many other theorists of the Enlightenment, sought to create a narrative in which the rational faculty was responsible for the linear development or progress of mankind from the “primitive” to the “civilized,” a teleological view of civilization that remains prominent in the modern world to this day.
 
-![G.W.F. Hegel](/images/2016/09/Hegel-235x300.jpg)
+![G.W.F. Hegel](/images/2016/09/hegel.webp)
 
 G.W.F. Hegel
 
@@ -89,7 +89,7 @@ Furthermore, the rise of racial essentialism made these rankings static. In this
 
 While much anti-racist literature has focused on debunking the racial essentialism of modern racism, demonstrating that race is a social construct, this analysis suggests that contemporary scholars of religion, theologians, and anti-racist/de-colonial scholars and activists should also focus their efforts on re-evaluating the legacy of the far more pervasive and implicit notions of “progress,” “reason,” and “civilization/development” that also form an integral part of modern racism, especially its more subtle varieties.64 Without attending to these dimensions of modern racism, we risk committing the same
 
-![William B. DuBois](/images/2016/09/dubois_web-245x300.jpg)
+![William B. DuBois](/images/2016/09/dubois_web.webp)
 
 William B. DuBois
 

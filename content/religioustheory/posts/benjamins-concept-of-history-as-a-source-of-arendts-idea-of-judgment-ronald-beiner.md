@@ -5,7 +5,7 @@ title: >-
 description: "Part 1 traces how Walter Benjamin's theses on history inform Hannah Arendt's account of judgment, emphasizing temporality, critique, and political The"
 date: '2016-08-08T06:37:39.000Z'
 author: editors
-image: /images/2016/08/Benjamins-Angel-of-History.jpg
+image: /images/2016/08/benjamins-angel-of-history.webp
 categories:
   - Political Theology
   - Philosophy
@@ -40,7 +40,7 @@ Benjamin failed to make his escape.  His flight from Europe was blocked at the 
 
 What is Walter Benjamin’s intention in his enigmatic “Theses on the Philosophy of History”? According to Benjamin’s friend Gershom Scholem, the “Theses” was Benjamin’s way of accomplishing “his awakening from the shock” of the Hitler-Stalin pact.5  According to Scholem, the “Theses” mark Benjamin’s decisive break with historical materialism and a return to the metaphysical-theological concerns of his early thought.  What the “Theses” have left in common with historical materialism is “only the ironic relation of the termini technici”6; “frequently nothing remains of historical materialism except the term itself.”7
 
-![Gershom Scholem](/images/2016/08/Gershom-Scholem-300x169.jpg)
+![Gershom Scholem](/images/2016/08/gershom-scholem.webp)
 
 Gershom Scholem
 
@@ -66,7 +66,7 @@ Consider Marx’s historical writings on political events in nineteenth-century 
 
 But here one does not view Marx specifically as a historiographer. What is missing from the conventional understanding of these writings is the distinctive relationship of Marx to the workers and revolutionaries whose tragedy he shares and whose failure he relates. Thus Benjamin serves to disclose a further dimension to Marx’s work as a historian, understood as an activity distinct from that of the revolutionary strategist, analyst, and so forth. He helps us see what Marx is really (implicitly) doing in these historical writings, even though Marx himself might be quite unaware of this dimension.
 
-Marx begins the *Class Struggles in France* as follows: “With the exception of only a few chapters, every![karl_marx](/images/2016/08/karl_marx-300x200.jpg) more important part of the annals of the revolution from 1848 to 1849 carries the heading: *Defeat of the Revolution!*” But Marx then proceeds to draw progress from defeat: The progress of the revolution required the creation of a powerful, united counter-revolution that would provide the opponent necessary for the ripening of a genuinely revolutionary party. So the revolutionary actors are defeated, but the revolution is carried forward.
+Marx begins the *Class Struggles in France* as follows: “With the exception of only a few chapters, every![karl_marx](/images/2016/08/karl_marx.webp) more important part of the annals of the revolution from 1848 to 1849 carries the heading: *Defeat of the Revolution!*” But Marx then proceeds to draw progress from defeat: The progress of the revolution required the creation of a powerful, united counter-revolution that would provide the opponent necessary for the ripening of a genuinely revolutionary party. So the revolutionary actors are defeated, but the revolution is carried forward.
 
 According to Benjamin’s seventh thesis, however, one would have to regard Marx as here turning against his own true intention as a historian, and as breaking faith with the actors who are the real concern of Marx’s narrative. To forsake the standpoint of the vanquished, as Marx appears to do here, is to betray the principles of a genuine historical materialist historiography. This is brought out well in Adorno’s commentary on thesis VII:
 
@@ -88,7 +88,7 @@ According to the outlook of historicism, the truth of history is always “there
 
 For historical materialism, in contrast, the past must be “seized”; what is required is “to seize hold of a memory as it flashes up at a moment of danger” (theses V-VI). If we miss the moment, the past is irretrievable. “The true picture of the past flits by” (thesis V). The historical materialist historian is ruled by a perception of the *precariousness* of the past, and this perception gives to historical reflection the urgency lacked by historicism in its contemplative outlook.
 
-![Hannah Arendt](/images/2016/07/arendt-hannah-300x210.jpg)
+![Hannah Arendt](/images/2016/07/arendt-hannah.webp)
 
 Hannah Arendt
 

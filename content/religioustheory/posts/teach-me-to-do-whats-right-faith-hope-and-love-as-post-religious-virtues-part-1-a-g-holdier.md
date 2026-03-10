@@ -5,7 +5,7 @@ title: >-
 description: "> “God is the ‘beyond’ in the midst of our life.” > > – Dietrich Bonhoeffer > > “Are you lost, Father?” > > “Sorry?” > > “Are you lost?” > > “No It highlights"
 date: '2021-09-08T16:01:19.000Z'
 author: editors
-image: /images/2021/09/The_Theological_Virtues-_Faith_Charity_Hope_MET_DT7354.jpg
+image: /images/2021/09/the_theological_virtues-_faith_charity_hope_met_dt7354.webp
 categories:
   - Religion and Literature
 layout: theory.njk

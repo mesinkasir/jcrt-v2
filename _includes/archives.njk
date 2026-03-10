@@ -110,18 +110,27 @@ document.addEventListener("DOMContentLoaded", function() {
 #toc-list li a:hover { color: #f56a6a; }
 </style>
 
-      {% if tags.length > 0 %}
+      {% set ignoredTags = ["all", "posts", "archives", "theoryPosts", "nav"] %}
+      {% set displayKeywords = [] %}
+      {% if archiveKeywords and archiveKeywords.length > 0 %}
+        {% set displayKeywords = archiveKeywords %}
+      {% elif tags and tags.length > 0 %}
+        {% for tag in tags %}
+          {% if tag not in ignoredTags %}
+            {% set displayKeywords = (displayKeywords.push(tag), displayKeywords) %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+
+      {% if displayKeywords and displayKeywords.length > 0 %}
       <footer class="mt-5 pt-3 border-top">
         <div class="d-flex flex-wrap gap-2 align-items-center">
           <span class="small text-muted text-uppercase fw-bold">Keywords:</span>
-          {% set ignoredTags = ["all", "posts", "archives", "theoryPosts", "nav"] %}
-          {% for tag in tags %}
-            {% if tag not in ignoredTags %}
-              {% if isLeanBuild %}
-              <span class="badge bg-secondary-subtle text-secondary border fw-normal">{{ tag }}</span>
-              {% else %}
-              <a href="/archives/keywords/{{ tag | slugify }}/" class="badge bg-secondary-subtle text-secondary border fw-normal text-decoration-none">{{ tag }}</a>
-              {% endif %}
+          {% for keyword in displayKeywords %}
+            {% if isLeanBuild %}
+            <span class="badge bg-secondary-subtle text-secondary border fw-normal">{{ keyword }}</span>
+            {% else %}
+            <a href="/archives/keywords/{{ keyword | slugify }}/" class="badge bg-secondary-subtle text-secondary border fw-normal text-decoration-none">{{ keyword }}</a>
             {% endif %}
           {% endfor %}
         </div>

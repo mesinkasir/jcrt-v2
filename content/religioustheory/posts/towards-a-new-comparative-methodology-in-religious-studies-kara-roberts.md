@@ -3,7 +3,7 @@ title: Towards A New Comparative Methodology In Religious Studies (Kara Roberts)
 description: "Author Note: The following was originally written as the introduction to a much longer comparative project between two religious myths Amy Balogh. It highlights"
 date: '2018-09-23T23:04:41.000Z'
 author: editors
-image: /images/2018/09/IMG_0497.jpg
+image: /images/2018/09/img_0497.webp
 categories:
   - Mythology
   - Religious Studies

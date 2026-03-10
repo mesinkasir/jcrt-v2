@@ -5,7 +5,7 @@ title: >-
 description: "Antisemitism Before and Since the Holocaust: Altered Contexts and Recent Perspectives. Basingstoke United Kingdom: Palgrave Macmillan, 2017 It highlights"
 date: '2018-01-14T19:27:49.000Z'
 author: Books
-image: /images/2018/01/a867c350-b8ad-4896-b926-f0b71c0cb1f8.jpg
+image: /images/2018/01/a867c350-b8ad-4896-b926-f0b71c0cb1f8.webp
 categories:
   - Reviews
 layout: theory.njk
@@ -74,7 +74,7 @@ Wetzel’s chapter on “Soft Denial,” concerns itself with “the various and
 
 Wetzel also chooses to counter Deborah Lipstadt’s term “soft core denial” and instead argues for the use of the term “Holocaust trivialization” because “it better captures the complexity of the wide spectrum of minimization strategies, including those forms that do not follow any historical political objectives” (308).. She argues that the use of the term Holocaust for campaigning purposes and drawing attention to *other* causes is particularly harmful because it plays into the trivialization she mentions. As Wetzel says, “the World Wide Web \[is\] an easily accessible, anonymous communications and propaganda medium… not only used by radical Islamists to distribute such content but also by extremist right-wing networks” (324). Wetzel’s article would have been better titled using her term, “holocaust trivialization,” rather than Lipstadt’s term that she does not fully agree with.
 
-![](https://userscontent2.emaze.com/images/dfa1b211-bf86-4d3d-90bb-c6eec6cd4770/a867c350-b8ad-4896-b926-f0b71c0cb1f8.jpg)The final section, “Part V: Two Further Observations,” mirrors Part I and presents articles written by scholars in the field(s) of Holocaust studies and antisemitism. The first of these final chapters, “Five Reflections on Holocaust Denial…,” by Elhanan Yakira, includes a well-informed overview of the spectrum of what is considered hardcore denial versus softcore denial, as well as what falls in between. One key theme that shows up in the final chapters of the compilation, including earlier sections, is the idea of a spectrum of denial.
+![](https://userscontent2.emaze.com/images/2018/01/a867c350-b8ad-4896-b926-f0b71c0cb1f8.webp)The final section, “Part V: Two Further Observations,” mirrors Part I and presents articles written by scholars in the field(s) of Holocaust studies and antisemitism. The first of these final chapters, “Five Reflections on Holocaust Denial…,” by Elhanan Yakira, includes a well-informed overview of the spectrum of what is considered hardcore denial versus softcore denial, as well as what falls in between. One key theme that shows up in the final chapters of the compilation, including earlier sections, is the idea of a spectrum of denial.
 
 Holocaust denial, according to Yakira, can be organized on two axes, scales, or criteria. One “axe” would be the intensity of the denial; the other is “the ideological and political agendas and ends which the denial anti-narrative… serves” (341). Holocaust denial does not occur without provocation, motivation, or origination—thus, the motivations of the denier should be considered. Yakira chooses to offer structural connections of holocaust denial rather than casual explanations to contextualize what is more fruitful and less hazardous to the study of the Holocaust denial spectrum (349). Holocaust denial inadvertently then reproduces the structural elements that appeared in historical antisemitism.
 

@@ -1,6 +1,8 @@
 # Legacy archive extension redirects
 /contact.shtml /contact/ 301
 /searchengine.shtml /search/ 301
+/archives/03.3/taylor.html /archives/03.3/taylor/ 301!
+/archives/03.3/taylor.shtml /archives/03.3/taylor/ 301!
 /Literaturecfp.pdf / 301
 /bookmarks.shtml /about/ 301
 /booksforreview.shtml /submissions/ 301
@@ -17,10 +19,15 @@
 /archives/18.3/Ruetenik.pdf%C2%A0%C2%B7%20PDF%20file /archives/18.3/Ruetenik.pdf 301
 /archives/15.2/valente2 /archives/15.2/valente/ 301
 /archives/07.2/mdex.shtml /archives/07.2/ 301
-/archives/:issue/index.shtml /archives/:issue/ 301!
-/archives/:issue/index.htm /archives/:issue/ 301!
-/archives/:issue/index.xhtml /archives/:issue/ 301!
-/archives/:issue/index.htmx /archives/:issue/ 301!
+/archives/*/index.shtml /archives/:splat/ 301!
+/archives/*/index.htm /archives/:splat/ 301!
+/archives/*/index.xhtml /archives/:splat/ 301!
+/archives/*/index.htmx /archives/:splat/ 301!
+/archives/*/*.shtml /archives/:splat/ 301!
+/archives/*/*.htm /archives/:splat/ 301!
+/archives/*/*.html /archives/:splat/ 301!
+/archives/*/*.xhtml /archives/:splat/ 301!
+/archives/*/*.htmx /archives/:splat/ 301!
 
 # Specific legacy religioustheory typo-slug redirects
 /religioustheory/2016/09/19/from-heathen-to-sub-human-a-genealogy-of-theinfluence-of-the-decline-of-religion-on-the-rise-of-modern-racism-part-1-oludamini-ogunnaike/ /religioustheory/posts/from-heathen-to-sub-human-a-genealogy-of-the-influence-of-the-decline-of-religion-on-the-rise-of-modern-racism-part-1-oludamini-ogunnaike/ 301
@@ -159,6 +166,9 @@
 /religioustheory/2016/06/13/review-badious- /religioustheory/posts/review-badious-conversations-about-theatre-offer-light-hearted-and-quirky-insight-into-mind-of-philosopher/ 301
 /religioustheory/2016/04/20/review-carl-raschkes-force-of-god- /religioustheory/posts/review-carl-raschkes-force-of-god-hammers-out-a-political-theology-of-insurrection-resurrection-for-our-times/ 301
 # Cleanup malformed bookmark-suffix URLs (e.g. Word/bookmark app "\l "_bookmarkX")
+/religioustheory/tag/:tag/feed/*_bookmark* /religioustheory/tags/:tag/ 301
+/religioustheory/:year/:month/:day/:slug/*_bookmark* /religioustheory/posts/:slug/ 301
+/religioustheory/*_bookmark* /religioustheory/posts/ 301
 /religioustheory/tag/:tag/feed/* /religioustheory/tags/:tag/ 301
 /religioustheory/:year/:month/:day /religioustheory/posts/ 301
 /religioustheory/:year/:month/:day/ /religioustheory/posts/ 301
@@ -176,14 +186,20 @@
 /religioustheory/submissions-2/ https://www.jcrt.org/submissions/ 301
 /religioustheory/submissions https://www.jcrt.org/submissions/ 301
 /religioustheory/submissions/ https://www.jcrt.org/submissions/ 301
+/religioustheory/feed /feed/religioustheory/feed.xml 301
+/religioustheory/feed/ /feed/religioustheory/feed.xml 301
+/religioustheory/posts/feed /feed/religioustheory/feed.xml 301
+/religioustheory/posts/feed/ /feed/religioustheory/feed.xml 301
+/religioustheory/rss /feed/religioustheory/feed.xml 301
+/religioustheory/rss/ /feed/religioustheory/feed.xml 301
 /religioustheory/page/:page /religioustheory/posts/ 301
 /religioustheory/page/:page/ /religioustheory/posts/ 301
 /religioustheory/... /religioustheory/posts/ 301
 /religioustheory/.../* /religioustheory/posts/ 301
-/religioustheory/:year/:month/:day/:slug/feed /posts/religioustheory/:slug/ 301
-/religioustheory/:year/:month/:day/:slug/feed/ /posts/religioustheory/:slug/ 301
-/religioustheory/:slug/feed /posts/religioustheory/:slug/ 301
-/religioustheory/:slug/feed/ /posts/religioustheory/:slug/ 301
+/religioustheory/:year/:month/:day/:slug/feed /feed/religioustheory/feed.xml 301
+/religioustheory/:year/:month/:day/:slug/feed/ /feed/religioustheory/feed.xml 301
+/religioustheory/:slug/feed /feed/religioustheory/feed.xml 301
+/religioustheory/:slug/feed/ /feed/religioustheory/feed.xml 301
 
 # Legacy religioustheory tag and tag feed redirects
 /religioustheory/tag/:tag /religioustheory/tags/:tag/ 301
@@ -225,7 +241,14 @@
 /posts/:slug/ /religioustheory/posts/:slug/ 301
 /posts/:slug /religioustheory/posts/:slug/ 301
 /web/ / 301
+/img/*.png /img/:splat.webp 301
+/img/*.jpg /img/:splat.webp 301
+/img/*.jpeg /img/:splat.webp 301
 /images/* /img/jcrt-open-graph.webp 301
+
+# Deindex spam legacy namespace
+/weblog / 410
+/weblog/* / 410
 
 # Root-level legacy date URL variants used in imported content links
 /2016/:month/:day/:slug/* /religioustheory/posts/:slug/ 301
@@ -284,8 +307,8 @@
 /31/:slug/* /religioustheory/posts/:slug/ 301
 
 # Old archive PDF links should resolve to the canonical article/page URL
-/archives/:issue/:slug.pdf /archives/:issue/:slug/ 301
-/archives/:issue/:slug,pdf /archives/:issue/:slug/ 301
+/archives/*/*.pdf /archives/:splat/ 301
+/archives/*/*,pdf /archives/:splat/ 301
 
 # Missing docs referenced by legacy imported posts
 /docs/Akhtar.pdf /religioustheory/posts/ 301

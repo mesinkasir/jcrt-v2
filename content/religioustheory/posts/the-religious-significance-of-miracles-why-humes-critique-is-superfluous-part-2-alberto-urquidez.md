@@ -6,7 +6,7 @@ description: "The following is the second of a three-part series. The first can 
 date: '2020-07-22T02:21:01.000Z'
 author: editors
 image: >-
-  /images/2020/07/Allan_Ramsay_-_David_Hume_1711_-_1776._Historian_and_philosopher_-_Google_Art_Project.jpg
+  /images/2020/07/allan_ramsay_-_david_hume_1711_-_1776-_historian_and_philosopher_-_google_art_project.webp
 categories:
   - Philosophy of Religion
   - Reviews

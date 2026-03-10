@@ -3,7 +3,7 @@ title: Review – Eugene Thacker’s “Cosmic Pessimism” (N.N. Trakakis)
 description: "*Thacker, Eugene. Cosmic Pessimism. Minneapolis: Univocal Publishing, 2015. ISBN-10: 193756147X. E-book, paperback. 55 pages.* It might be worth quoting from"
 date: '2016-10-27T08:00:23.000Z'
 author: Books
-image: /images/2016/10/cioran.jpg
+image: /images/2016/10/cioran.webp
 categories:
   - Reviews
   - Uncategorized
@@ -44,7 +44,7 @@ But the subject of Thacker’s book, *cosmic pessimism*, is another breed of pes
 
 Thacker then turns to some of the moods and affects associated with pessimism, such as the sense of gloom and doom, and feelings of spite and sorrow. On doom, Thacker writes: “Doom is not just the sense that all things will turn out badly, but that all things inevitably come to an end.” (20) I would have liked to see the connection between death and pessimism explored further, particularly since it is assumed by some that death (interpreted as the complete annihilation of human consciousness) threatens to empty life of value, while others regard temporal finitude as a necessary condition for freedom, individuality and existential meaning.
 
-![cosmic-pessimism-thacker-cvr-350](/images/2016/10/cosmic-pessimism-thacker-cvr-350-201x300.jpg)The idea of the inherent impossibility of pessimism is a recurring theme. Thacker points out that Nietzsche objected to the self-defeating character of Schopenhauer’s pessimism, and in one of the funniest moments in Thacker’s book we are told that “Schopenhauer was so successful at being this type of pessimist that a reviewer of one of his books assumed that Schopenhauer was already dead.” (57) Thacker notes, however, that if life, for Schopenhauer, is a noose, for Cioran it “is a noose, improperly tied.” (53)
+![cosmic-pessimism-thacker-cvr-350](/images/2016/10/cosmic-pessimism-thacker-cvr-350.webp)The idea of the inherent impossibility of pessimism is a recurring theme. Thacker points out that Nietzsche objected to the self-defeating character of Schopenhauer’s pessimism, and in one of the funniest moments in Thacker’s book we are told that “Schopenhauer was so successful at being this type of pessimist that a reviewer of one of his books assumed that Schopenhauer was already dead.” (57) Thacker notes, however, that if life, for Schopenhauer, is a noose, for Cioran it “is a noose, improperly tied.” (53)
 
 In Cioran’s very first book (published in 1934, at the mere age of 22), entitled *On the Heights of Despair* (in reference to the obituary notices of the time which commonly took the form: “On the heights of despair, young so-and-so took his life…”), the futility of suicide is highlighted: “Why don’t I commit suicide? Because I am as sick of death as I am of life.”[^2] There is no logic here, but only nausea-inducing absurdity: “If I were to be totally sincere, I would say that I do not know why I live and why I do not stop living. The answer probably lies in the irrational character of life which maintains itself without reason.”[^3]
 

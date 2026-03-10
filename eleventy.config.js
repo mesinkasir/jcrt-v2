@@ -494,6 +494,24 @@ export default async function (eleventyConfig) {
 			level: [1, 2, 3, 4],
 			slugify: cachedSlugify,
 		});
+
+		const setTokenAttrIfMissing = (token, name, value) => {
+			if (!token || !name) return;
+			const current = token.attrGet(name);
+			if (current !== null && current !== undefined && String(current).trim() !== "") return;
+			token.attrSet(name, value);
+		};
+
+		const defaultImageRule =
+			mdLib.renderer.rules.image ||
+			((tokens, idx, options, _env, self) => self.renderToken(tokens, idx, options));
+
+		mdLib.renderer.rules.image = (tokens, idx, options, env, self) => {
+			const token = tokens[idx];
+			setTokenAttrIfMissing(token, "loading", "lazy");
+			setTokenAttrIfMissing(token, "decoding", "async");
+			return defaultImageRule(tokens, idx, options, env, self);
+		};
 	});
 	eleventyConfig.addPlugin(pluginTOC, {
 		tags: ["h2", "h3", "h4", "h5"],

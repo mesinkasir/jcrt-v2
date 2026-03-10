@@ -4,7 +4,7 @@ description: "Daniel Whistler, **Schelling’s Theory of Symbolic Language: Form
 date: '2017-11-04T02:51:21.000Z'
 author: Books
 image: >-
-  /images/2017/11/220px-Nb_pinacoteca_stieler_friedrich_wilhelm_joseph_von_schelling.jpg
+  /images/2017/11/220px-nb_pinacoteca_stieler_friedrich_wilhelm_joseph_von_schelling.webp
 categories:
   - Reviews
   - Philosophy of Religion

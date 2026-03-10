@@ -3,7 +3,7 @@ title: Re-Envisioning Religious Studies As A Global Discipline – A Pre-AAR Sym
 description: "The Journal for Cultural and Religious Theory and the Department of Religious Studies at the University of Denver in conjunction with its partner faculty"
 date: '2018-10-02T22:22:09.000Z'
 author: editors
-image: /images/2018/10/Indigenous-peoples-4.jpg
+image: /images/2018/10/indigenous-peoples-4.webp
 categories:
   - Announcements
 layout: theory.njk
@@ -40,7 +40,7 @@ The conference is designed to facilitate maximum interchange and discussions.  
 
 Keynote speaker for the conference will be [Thomas A. Carlson](http://www.religion.ucsb.edu/people/faculty/thomas-carlson/), Professor in the Department of Religious
 
-![](/images/2018/10/Carlson.jpg)
+![](/images/2018/10/carlson.webp)
 
 Thomas Carlson
 

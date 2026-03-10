@@ -6,7 +6,7 @@ description: "The following is a talk presented at the Weatherhead Center for In
 date: '2017-10-16T21:33:10.000Z'
 author: editors
 image: >-
-  /images/2017/10/1532494-shiva-and-parvati-on-bull-images-sculptures-on-hindu-temple-gopura-tower-menakshi-temple-madurai-tamil-nadu-india.jpg
+  /images/2017/10/1532494-shiva-and-parvati-on-bull-images-sculptures-on-hindu-temple-gopura-tower-menakshi-temple-madurai-tamil-nadu-india.webp
 categories:
   - Religion and Media
   - Religious Studies
@@ -54,7 +54,7 @@ Much first-world ethnography tells us what marginal peoples think, how they live
 
 We embed this in our pedagogical practice, for most introductory sociology courses similarly seek to make marginalized “others” familiar. Good teachers rightly turn to works by journalists such as Jonathan Kozol, Alex Kotlowitz, or Adrian Nicole LeBlanc,[^2] preferring their well-written accounts of poor people to sociological tomes that are drier without much better insight.
 
-Among works on religion, few ethnographies surpass journalist Jon Krakauer’s recent exposé of Mormon Fundamentalists, though James Aho’s excellent work on Idaho Christian patriots is no less worthy.[^3] Both take us inside the minds of their informants; both confront us with troubling judgments. Shouldn’t the scientist be doing a significantly better job?![](/images/2017/10/Appalachian-Snakehandling-300x232.png)
+Among works on religion, few ethnographies surpass journalist Jon Krakauer’s recent exposé of Mormon Fundamentalists, though James Aho’s excellent work on Idaho Christian patriots is no less worthy.[^3] Both take us inside the minds of their informants; both confront us with troubling judgments. Shouldn’t the scientist be doing a significantly better job?![](/images/2017/10/appalachian-snakehandling.webp)
 
 Of course, journalists do not always get it right. In a brilliant review of the literature on Appalachian snake-handling churches, Jim Birckhead shows how non-ethnographic accounts of this marginal religion construct “others” out of people who are really very much easier to understand.[^4]
 
@@ -82,7 +82,7 @@ Let me illustrate this with some of my own recent work, an ongoing ethnography o
 
 My work is thus located in a network, not a site. (Mary Jo Neitz’s ethnographic study of Wicca[^10] highlights some of the ambiguities surrounding such unbounded religious groups, including the unsuitability of using the word “group” for the object of one’s investigations.)
 
-![](/images/2017/10/Luang_Por_Dhammajayo_guiding_meditation-255x300.jpg)I find myself floating through my informants’ networks, studying issues loosely captured by the phrase “culture and identity.” First, peace-and-justice activists usually find themselves having to construct their own identities, both religious and activist, often in opposition to the identities pushed on them by their organized churches.[^11] Second, they do so according to rather unconscious patterns, which are both like and not like the identity-forming patterns followed by others in our late-modern world. Despite cogent critiques of the term,[^12] I still think that the word “culture” captures something important about the ways people shape (and are shaped by) the worlds that they imagine they live in.
+![](/images/2017/10/luang_por_dhammajayo_guiding_meditation.webp)I find myself floating through my informants’ networks, studying issues loosely captured by the phrase “culture and identity.” First, peace-and-justice activists usually find themselves having to construct their own identities, both religious and activist, often in opposition to the identities pushed on them by their organized churches.[^11] Second, they do so according to rather unconscious patterns, which are both like and not like the identity-forming patterns followed by others in our late-modern world. Despite cogent critiques of the term,[^12] I still think that the word “culture” captures something important about the ways people shape (and are shaped by) the worlds that they imagine they live in.
 
 I have been engaged in this project for some time now, seemingly to little result; if I am “doing journalism,” it is thus exceedingly slow. A good deal of the sloth is situational and some is biographical. What it has allowed me to do, however, is to study non-activists’ reactions to my project – precisely the culture-of-the-audience that tells us something missed by mere object-centered investigation. What do I find?
 
@@ -98,7 +98,7 @@ Given the wide, but shallow support for leftist causes and the fact that right-w
 
 Clark Roof, among others, has charted a growing religious individualism in America, especially among baby boomers; Tom Beaudoin has tracked this among “Gen Xers.” Robert Bellah and his colleagues have noted the rise of what they call “Sheilaism” – individualized religions made up of personal preferences. Nancy Ammerman has suggested that the effort to craft a spiritually meaningful personal life may be a central aspect of post-modern individualism.[^13]
 
-![](/images/2017/10/religion-vs-irreligious-300x190.jpg)There is an authority gap in American religion, particularly on the left, but these and other scholarly observers note that the declining power of religious authority is not matched in the United States by a declining respect for “spirituality” – whatever that admittedly fuzzy term means. As the title of a recent book phrases it, many Americans consider themselves “spiritual but not religious.”[^14] They feel drawn by “something higher,” something that they think used to be found in religions. But they do not themselves possess much religious conviction, nor are they willing to take on faith what religious leaders tell them.
+![](/images/2017/10/religion-vs-irreligious.webp)There is an authority gap in American religion, particularly on the left, but these and other scholarly observers note that the declining power of religious authority is not matched in the United States by a declining respect for “spirituality” – whatever that admittedly fuzzy term means. As the title of a recent book phrases it, many Americans consider themselves “spiritual but not religious.”[^14] They feel drawn by “something higher,” something that they think used to be found in religions. But they do not themselves possess much religious conviction, nor are they willing to take on faith what religious leaders tell them.
 
 This is an unusual agnosticism, build on several certainties: the certainty that spiritual life matters, the certainty that it has something to do with living an ethical life, the certainty that individuals have to decide truths for themselves, the certainty that the country’s organized religions do not have the answers to life’s persistent questions.
 
@@ -132,7 +132,7 @@ Perhaps many of them are like the Quaker/Buddhist activist I interviewed, who de
 
 What is it about our society that calls forth such yearning, both in religious social activists and in ourselves? What does this say about the shape and direction of contemporary religion? My ethnographic investigations are only beginning to make these questions clear. The answers will, I am afraid, be some time coming.
 
-Here, then, is the first-level answer to my question about the contrast between ethnography and slow journalism in the study of religion. Journalism enters the field with clear concepts and objectives, it examines the people on whom it is reporting, and it reports. Good.![](/images/2017/10/first-world-ethnography-300x180.jpg)
+Here, then, is the first-level answer to my question about the contrast between ethnography and slow journalism in the study of religion. Journalism enters the field with clear concepts and objectives, it examines the people on whom it is reporting, and it reports. Good.![](/images/2017/10/first-world-ethnography.webp)
 
 Ethnography enters the field in an attempt not so much to examine these people as to explore what we and they have to tell each other. This is a deeper sort of equality than is usually envisioned.
 

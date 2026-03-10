@@ -5,7 +5,7 @@ title: >-
 description: "The following is the second installment of a three-part series. The link to the first portion can be found here. As the source of productivity, time rendered as"
 date: '2016-12-06T05:15:13.000Z'
 author: editors
-image: /images/2016/12/earthquake.jpg
+image: /images/2016/12/earthquake.webp
 categories:
   - Philosophy
   - Higher Education
@@ -43,7 +43,7 @@ At the level of culture, as Fredric Jameson has argued, this experience of the e
 
 Rather than a period style, therefore, it seems more desirable to stage the “end of temporality” as a
 
-![Frederic Jameson](/images/2016/12/GVcFOaQx-300x300.jpg)
+![Frederic Jameson](/images/2016/12/gvcfoaqx.webp)
 
 Frederic Jameson
 
@@ -71,7 +71,7 @@ It is Benjamin’s sense of messianic time, a “now-time” \[*Jetztzeit*\],[^2
 
 Thus, Benjamin develops a historical materialism pregnant with a temporality attuned to transitions and interruptions, rifts and spurts. As Bensaïd avers, Benjamin finds in Marx a “new representation of time as social relation” and this discovery makes it possible then to conceptualize “anachronisms and contretemps.”[^22] No longer the prophet of historical determinism, Marx is freed from this arcane orthodox straight-jacket by Benjamin and becomes, for Bensaïd, a proponent of an “aleatory materialism, allied with the subtleties of messianic reason.”[^23] Emphasizing an alternative conception of time as social relation, with all of its contingency, particularity, and potency, Bensaïd asserts, Marx does not so much construct a universal history as he combines critique and politics to politicize the present such that “history becomes intelligible to anyone who wishes to engage in action to change the world. ‘Politics attains primacy over history.’”[^24]
 
-![643ae368272c32e67a1ebe800d42622a](/images/2016/12/643ae368272c32e67a1ebe800d42622a-240x300.jpg)The art of *contretemps*, then, aims to subvert and to resist the de-politicization of life under capital with its smoothing out of time by eliciting the discordant tempos and rhythms of real relations and human action so as to privilege extant moments of crisis and heightened political judgment. In this sense, it means to cultivate an embodied attunement to cultural and societal untimeliness as a presence of permanent revolution: to become out of joint with a disjointed capital time. As Bensaïd puts it, such “Messianic times, when an older order breaks without the new order having yet taken shape \[as a moment pregnant with political possibility\], are necessarily out of joint.”[^25]
+![643ae368272c32e67a1ebe800d42622a](/images/2016/12/643ae368272c32e67a1ebe800d42622a.webp)The art of *contretemps*, then, aims to subvert and to resist the de-politicization of life under capital with its smoothing out of time by eliciting the discordant tempos and rhythms of real relations and human action so as to privilege extant moments of crisis and heightened political judgment. In this sense, it means to cultivate an embodied attunement to cultural and societal untimeliness as a presence of permanent revolution: to become out of joint with a disjointed capital time. As Bensaïd puts it, such “Messianic times, when an older order breaks without the new order having yet taken shape \[as a moment pregnant with political possibility\], are necessarily out of joint.”[^25]
 
 *Contretemps*, thus, suggests the radicalization of Marx’s critique so as to re-politicize it, igniting a new discordance or asynchrony to the reign of capital.[^26] Illuminating the field of resistance and counter-practice, the art of *contretemps* seeks to interjects a new political cadence into the public realm, cultivating a different mode of judgment that is more open and receptive to ruptures and asynchronies. Given that “politics is precisely the point where… discordant times intersect,” the public practice of a new time initiates conflict and debate.[^27] Attending to the friction, rifts, and fissures that arise from the intersection of discordant times, the possibility for a political judgment not reliant on markets or capital flows to resolve conflicts and to discern outcomes can be employed.[^28]
 
@@ -85,7 +85,7 @@ Without a community of support and shared practices, it remains to be seen how t
 
 Second, and more importantly for my purposes, lacking a theological orientation not only is it hard to
 
-![DCF 1.0](/images/2016/12/Les_Contretemps-176x300.jpg)perceive how such engagement could be sustained in the face of such immense challenges, but it also seems likely to fall prey to a solidarity born of resentment and hatred that inclines toward violence thereby occluding the political project. While I remain quite sympathetic to this outlook and even foresee the possibility of new strategic alliances between Christianity and Marxish approaches, the task of changing time here ultimately seems prone to reproducing relations of brute force.[^33]
+![DCF 1.0](/images/2016/12/les_contretemps.webp)perceive how such engagement could be sustained in the face of such immense challenges, but it also seems likely to fall prey to a solidarity born of resentment and hatred that inclines toward violence thereby occluding the political project. While I remain quite sympathetic to this outlook and even foresee the possibility of new strategic alliances between Christianity and Marxish approaches, the task of changing time here ultimately seems prone to reproducing relations of brute force.[^33]
 
 Yet, a theo-politics of *contretemps*, one set within an ecclesial practice of political deliberation, collective discernment, and practical judgment, however, could provide a way within the church to begin to resist the homogenization of time under capital and enact counter-structures of transformation. As I will argue below, following McClendon’s “baptist” vision, only an alternative community constituted by a constellation of unique transformative social processes could pose a real challenge to the regnant way of resolving conflicts and making decisions under capital, thereby, renewing time.
 

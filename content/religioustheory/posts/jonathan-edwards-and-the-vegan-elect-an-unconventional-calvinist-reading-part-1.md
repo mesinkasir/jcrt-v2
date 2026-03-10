@@ -5,7 +5,7 @@ title: >-
 description: "In 1895, when Myrtle Fillmore, co-founder of the Unity School of Christianity, first became a vegetarian, she said that “the appetite left me without my even"
 date: '2019-04-23T16:59:41.000Z'
 author: editors
-image: /images/2019/04/J-edwards.jpg
+image: /images/2019/04/j-edwards.webp
 categories:
   - Theology
   - Postcolonial Theory

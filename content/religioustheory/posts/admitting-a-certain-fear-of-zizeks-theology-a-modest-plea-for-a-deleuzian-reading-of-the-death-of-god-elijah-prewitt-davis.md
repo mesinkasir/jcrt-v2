@@ -5,7 +5,7 @@ title: >-
 description: "I am told by Zizek—as well as Hegelian friends—that any attempt to argue or disagree with Hegel fits nicely within his dialectical scheme It highlights"
 date: '2018-04-09T14:13:22.000Z'
 author: editors
-image: /images/2018/04/horror.jpg
+image: /images/2018/04/horror.webp
 categories:
   - Philosophy of Religion
   - Theology
@@ -34,7 +34,7 @@ Recently, radical theologians Jeff Robbins and Clayton Crockett have used Zizek�
 
 And moreover, is the death of God as politically liberative as Zizek and those who follow him imagine? What if, after the death of God—especially in its Zizekian articulation—capitalism functions more efficiently since new entities step in to take God’s place?
 
-In Hegel’s *Philosophy of Religion*—which Zizek creatively re-interprets—Christ occupies the second ![](/images/2018/04/hqdefault-300x225.jpg)movement of dialectical sublation. It is the death of God, as Christ, which sublates into the Holy Spirit. In Hegel’s *Philosophy of Right*, corporations occupy the second place within the dialectic, and Hegel is quite clear that when particular subjects no longer rely on the state, they turn to the corporation.
+In Hegel’s *Philosophy of Religion*—which Zizek creatively re-interprets—Christ occupies the second ![](/images/2018/04/hqdefault.webp)movement of dialectical sublation. It is the death of God, as Christ, which sublates into the Holy Spirit. In Hegel’s *Philosophy of Right*, corporations occupy the second place within the dialectic, and Hegel is quite clear that when particular subjects no longer rely on the state, they turn to the corporation.
 
 As Hardt and Negri have shown, the decline of the sovereignty of nation states has given rise to a new form of sovereignty “composed of a series of national and supernational organisms” regulating social, economic, and political production. What Hegel calls objectivity, truth, and ethical life now appears in a “new order that envelops the entire space…a notion of right that encompasses all time within its ethical foundation.”
 
@@ -60,7 +60,7 @@ In and through this elevation, spirit is revealed to the community of believers 
 
 The failure is precisely the loss of essential subjectivity that comes about in the realization that God is dead. After this death, there is no longer a great synthesis or reconciliation between faith and reason, between the particular desire for essentiality and its consummation, grounding, or recognition by a transcendent God. The only way to be truly atheist, Zizek says, is to redouble our modern and post-modern alienation from God and place this alienation within Godself by turning “the distance from Man to God \[into\] the distance of God from himself.”
 
-As Zizek writes: “What dies on the cross is not only the earthly-finite representative of God, but God ![](/images/2018/04/larger-300x258.jpg)himself, the very transcendent God of beyond.” This, Zizek asserts, is the true meaning of the cross, and thus the very reason why we fear the four words: “He was made man.” What the incarnation means, is that God Godself died on the Cross, and with him, any appeal that humanity might make to transcendent beyond.
+As Zizek writes: “What dies on the cross is not only the earthly-finite representative of God, but God ![](/images/2018/04/larger.webp)himself, the very transcendent God of beyond.” This, Zizek asserts, is the true meaning of the cross, and thus the very reason why we fear the four words: “He was made man.” What the incarnation means, is that God Godself died on the Cross, and with him, any appeal that humanity might make to transcendent beyond.
 
 Another way to say this is that the only true immanence is the one has results from the complete emptying out of transcendence. The full force of immanence is brought about when the transcendent Father and the incarnate Christ sublate into the Holy Spirit. Such that only the death of God in the singularity of Christ inaugurates the Holy Spirit. But what is this Sprit that is produced in Christ’s death?
 
@@ -88,7 +88,7 @@ Just as God seeks to enact its estrangement to itself in the figure of Christ, d
 
 The difference, of course, is that the government did not forsake its corporations. Or we might say that it performed the resurrection all to quickly, essentially skipping Holy Saturday. Utilizing another metaphor, George Schmidt makes a similar point: “Working beneath the ‘too-big-to-fail’ doctrine is a religiously nauseating ideology, which locates the corporation itself as, in the language of Paul Tillich, ‘the ground-of-being.’”[^14]
 
-![](/images/2018/04/Madmen-poster-300x169.jpg)If there is a gap between the corporation and Christ, it is that the corporation produces its own form of recognition thus eradicating the need for any negative movement. If the corporation requires recognition or sublation, it simply produces the subjects it needs for its own survival and sustenance through the “mass cultural industry” of advertising, communication networks, the production of language, the integration of power into modes of daily life, and various other means of bio-political subjectivation.[^15]
+![](/images/2018/04/madmen-poster.webp)If there is a gap between the corporation and Christ, it is that the corporation produces its own form of recognition thus eradicating the need for any negative movement. If the corporation requires recognition or sublation, it simply produces the subjects it needs for its own survival and sustenance through the “mass cultural industry” of advertising, communication networks, the production of language, the integration of power into modes of daily life, and various other means of bio-political subjectivation.[^15]
 
 Hardt and Negri make the point succinctly: “It is a subject that produces its own image of authority. This is a form of legitimation that rests on nothing outside itself and is repurposed ceaselessly by developing its own language of self-validation.”[^16] If the corporation does point beyond itself—to ideals of beauty, freedom, whiteness, femininity, the family, etc.—it is producing those values in the same gesture.
 
@@ -124,7 +124,7 @@ For Deleuze, the death of God offers us an impure immanence, a dialectical imman
 
 By ‘mistrusting’ the death of God, might we then be able to uncover the forces that made Christ die? To see the death of God not as a singular event but as an event that steeped in what Deleuze calls a ‘multiple sense’?
 
-This is precisely why Deleuze—contra Hegel and Zizek—prefers Jesus to Christ. For it is Jesus who forces ![](/images/2018/04/main-qimg-b5309b1968d7cc8717d1ffaf6ef4a50d-c-300x250.jpg)us to ask the essential question: what can I do? Deleuze quotes Nietzsche to make his point.  “This bearer of glad tidings died the way he lived, the way he *taught*—*not* ‘to redeem humanity’, but instead to demonstrate how people need to live. His bequest to humanity was a *practice*…his conduct on the cross.”[^20] The point is not to uncover the singular meaning of God’s death, but to uncover the forces that made him die. Such forces are both historical and contemporary in as much as they repeat cycles of domination.
+This is precisely why Deleuze—contra Hegel and Zizek—prefers Jesus to Christ. For it is Jesus who forces ![](/images/2018/04/main-qimg-b5309b1968d7cc8717d1ffaf6ef4a50d-c.webp)us to ask the essential question: what can I do? Deleuze quotes Nietzsche to make his point.  “This bearer of glad tidings died the way he lived, the way he *taught*—*not* ‘to redeem humanity’, but instead to demonstrate how people need to live. His bequest to humanity was a *practice*…his conduct on the cross.”[^20] The point is not to uncover the singular meaning of God’s death, but to uncover the forces that made him die. Such forces are both historical and contemporary in as much as they repeat cycles of domination.
 
 By attuning ourselves to these forces, we begin to see that the death of Jesus was in no way a unique event with a meaning in-itself. These same forces were active in the crucifixion of thousands upon thousands of people, all of which, in some way or another, posed the same sort of threat to Empire that Jesus may have, and were used not so much to silence the small dissenting voice, but to assert their own power. Crucifixion was always, and will always be, a dramatic display of power.
 

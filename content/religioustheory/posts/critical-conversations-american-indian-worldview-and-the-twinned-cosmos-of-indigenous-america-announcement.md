@@ -5,7 +5,7 @@ title: >-
 description: "Participants are invited to join us live in the fifth of a monthly series of “Critical Conversations” (Zoom webinars) with eminent scholars from around the"
 date: '2020-11-18T05:00:30.000Z'
 author: editors
-image: /images/2020/11/legend.jpg
+image: /images/2020/11/legend.webp
 categories:
   - Announcements
   - Difficult Discussions

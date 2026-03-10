@@ -3,7 +3,7 @@ title: Review – An Uncritical Critique of Theism (Rebekah Gordon)
 description: "Religion Within Reason. Cahn, Steven M. New York: Columbia University Press, 2017. ISBN: 9780231181617. Paperback. 93 pages.** It is amazing that a book of less"
 date: '2018-03-07T14:45:41.000Z'
 author: Books
-image: /images/2018/03/jbcol.png
+image: /images/2018/03/jbcol.webp
 categories:
   - Philosophy of Religion
   - Reviews
@@ -32,7 +32,7 @@ In refusing to engage in a fair-minded way with the material he presents, Cahn 
 
 The first chapter relies on a problematic definition of God that Cahn invokes throughout the book. “Let us adopt the more usual view, common to many religious believers, that ‘God’ refers to an all-good, all-powerful, all-knowing, everlasting creator of the world” (1). This understanding of God is only “more usual”, as Cahn calls it, in an exclusively Western setting.
 
-![](/images/2018/03/Consciousness-300x200.jpg)In defining “God” in such terms he ignores all polytheistic religions, as well as any religions in which their deity is either morally imperfect, limited in power, finite in knowledge, or does not claim credit for the creation of the world. Satanism, Zoroastrianism, and Jainism, as examples, come immediately to mind.
+![](/images/2018/03/consciousness.webp)In defining “God” in such terms he ignores all polytheistic religions, as well as any religions in which their deity is either morally imperfect, limited in power, finite in knowledge, or does not claim credit for the creation of the world. Satanism, Zoroastrianism, and Jainism, as examples, come immediately to mind.
 
 While it is more than acceptable to limit the scope of such a book project, Cahn says in his preface that he wants to discuss how philosophy challenges *any* version of supernatural belief.  That is impossible as he confines himself to predominantly Eurocentric subject matter. In chapter fifteen he *does* reference some non-Western religions, but only to make the the astounding claim that when it comes to the religions of the world in their kaleidoscopic multiplicity, some have been “good” and some have been “bad”.
 
@@ -84,7 +84,7 @@ Perhaps as a “non-believer,” Cahn was briefed on what heaven is really like 
 
 Chapter eighteen assures the agnostic and/or atheist that a life without God still has meaning and in no way precludes them being kind and loving… which doesn’t need said.
 
-The final pages of the book are solely dedicated to quoting I. L. Peretz’s tale *If Not Higher* in full. Cahn![](/images/2018/03/Dp-300x298.png) concludes with a tale of a man who becomes a disciple of a rabbi because of the moral way in which he lives, not the theologies he espouses, in an attempt to convince his readers that to do so is desirable. Consistently, the most interesting statements in *Religion Within Reason* are the places in which Cahn quotes other people.
+The final pages of the book are solely dedicated to quoting I. L. Peretz’s tale *If Not Higher* in full. Cahn![](/images/2018/03/dp.webp) concludes with a tale of a man who becomes a disciple of a rabbi because of the moral way in which he lives, not the theologies he espouses, in an attempt to convince his readers that to do so is desirable. Consistently, the most interesting statements in *Religion Within Reason* are the places in which Cahn quotes other people.
 
 The largest drawback to *Religion Within Reason* is that it answers questions no one is asking. The suggestion that atheists can be religious without being theistic is not, in any sense, new. It adds little of value to current academic discourse in the philosophy of religion, and serves not even as an elementary sort of primer on the theological and philosophical concepts it routinely references. 
 

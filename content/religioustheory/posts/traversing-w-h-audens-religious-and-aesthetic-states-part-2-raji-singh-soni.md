@@ -5,7 +5,7 @@ title: >-
 description: "The following is the second installment of a three-part series. The first one can be found here. Used by Auden in concert with “limitation” to qualify"
 date: '2017-08-04T15:44:59.000Z'
 author: editors
-image: /images/2017/08/the_sea.jpg
+image: /images/2017/08/the_sea.webp
 categories:
   - Religion and Literature
 layout: theory.njk
@@ -43,7 +43,7 @@ For von Balthasar and Auden, the epicenter of modernity’s aesthetic contract i
 
 In von Balthasar’s *Seeing the Form*, Friedrich Schiller is among the first historical proper names we encounter. “When
 
-![](/images/2017/08/HUVB-300x171.jpg)
+![](/images/2017/08/huvb.webp)
 
 Hans Urs von Balthasar
 
@@ -99,7 +99,7 @@ By freezing Gonzalo’s aesthetic “Vision into an idea” of “the Commonweal
 
 As Stephen Orgel observes, Gonzalo’s aestheticized depiction of his very own colonial “plantation of this isle”[^33] “is closely related to a section of Montaigne’s essay ‘Of the Cannibals’.”[^34] Carrying this vision to “prelapsarian”[^35] extremes with a twofold stipulation that “All things in common nature should produce / Without sweat or endeavour”[^36] and that “nature should bring forth / Of its own kind all foison, all abundance / To feed my innocent people,”[^37] Gonzalo does not heed his jeering interlocutors: Sebastian signals the contradiction in Gonzalo’s kingdom without sovereignty and Antonio dashes the vision’s wider illogicality.
 
-![](/images/2017/08/IMG_1747-300x224.jpg)Consequently, even after suggesting he winnowed a moment of “Irony into a joke” played at his own expense, Auden’s Gonzalo nevertheless considers his “Commonwealth” as veritably “seen” rather than mocked as illusory.[^38] Captivated by this aesthetic state, Auden’s Gonzalo persists in his skepticism of the religious absurd, in turn misjudging the degree to which *The Tempest* resolves its moral conflict: “All have been restored to health,” he says, for “There is nothing to forgive.”[^39]
+![](/images/2017/08/img_1747.webp)Consequently, even after suggesting he winnowed a moment of “Irony into a joke” played at his own expense, Auden’s Gonzalo nevertheless considers his “Commonwealth” as veritably “seen” rather than mocked as illusory.[^38] Captivated by this aesthetic state, Auden’s Gonzalo persists in his skepticism of the religious absurd, in turn misjudging the degree to which *The Tempest* resolves its moral conflict: “All have been restored to health,” he says, for “There is nothing to forgive.”[^39]
 
 Reminiscent of de Man’s critique of Schiller in “Aesthetic Formalization: Kleist’s *Über das Marionettentheater*,” Auden shapes Gonzalo’s poem as a subtle parody of free-wheeling aestheticism.[^40] In his meta-performance monologue, Gonzalo admits to the laughably un-ironic presentation of his ideal “Commonwealth” in *The Tempest*. Nevertheless, upon bidding farewell to the “dear island of our wreck,” he suddenly undercuts his own self-reflexive criticism and lapses without irony into the outlandish pastures of his singular “Commonwealth,” which in his estimation “All have *seen*.”[^41] The allure of perfection in the aesthetic state, Auden seems to indicate in Gonzalo’s poem, is potent enough to undo even one’s own discernment of irony’s critical, self-reflexive merits.[^42] In this context, an implicit target of “The Sea and the Mirror” is the political and ethical legacy of Schiller’s aestheticism in *On the Aesthetic Education of Man*:
 

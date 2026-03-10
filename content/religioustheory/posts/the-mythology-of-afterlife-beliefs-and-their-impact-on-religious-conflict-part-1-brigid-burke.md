@@ -5,7 +5,7 @@ title: >-
 description: "The question of whether there is life after death, and what that life might be like, is probably one of religion’s oldest questions It highlights key arguments"
 date: '2017-11-01T12:05:42.000Z'
 author: editors
-image: /images/2017/10/afterlife.jpg
+image: /images/2017/10/afterlife.webp
 categories:
   - Mythology
   - Philosophy of Religion
@@ -48,7 +48,7 @@ The second part looks at the psychological component of the issue, focusing part
 
 Examining all the relevant material could probably fill a book, or maybe several. In this paper, I am only introducing the question, and just scratching the surface of something that I believe deserves much larger consideration.
 
-## II. Part One![](/images/2017/10/Gilgamesh-244x300.jpg)
+## II. Part One![](/images/2017/10/gilgamesh.webp)
 
 The oldest source we have on ancient afterlife beliefs is from the Babylonians, the Epic of Gilgamesh, estimated to have been written about 1750 BCE. After Gilgamesh, we don’t see writings until the 10th and 9th centuries BCE, with early Biblical literature and the epics of Homer. From these early sources, we see four prevalent themes in afterlife beliefs:
 
@@ -128,7 +128,7 @@ In Babylonian beliefs, Casey explains that “Those who go there—all the dead�
 
 > Lemures and manes are used only in the plural: these words stand for the vague conceptions formed of the shades of the dead who dwelt beneath the ground. These were a nameless crowd, hardly individualised, not distinguishable from the fleeting phantoms who fluttered about the tombs.[^11]
 
-![](/images/2017/10/Hates_abduction-300x232.jpg)Not all shades had to be malevolent in all views, but certainly among Babylonians, Greeks, and Romans, the assumption was that the afterlife was miserable, and that the dead were angry about being dead. Many of the cults of the dead revolved around continual offerings to the dead ancestors, to keep them satisfied, and away from the realm of the living. To that end, the shaman, necromancer, or *goete* was employed to guide the dead to the afterlife, and to keep them from coming back and harming the living. More will be said about that later on.
+![](/images/2017/10/hates_abduction.webp)Not all shades had to be malevolent in all views, but certainly among Babylonians, Greeks, and Romans, the assumption was that the afterlife was miserable, and that the dead were angry about being dead. Many of the cults of the dead revolved around continual offerings to the dead ancestors, to keep them satisfied, and away from the realm of the living. To that end, the shaman, necromancer, or *goete* was employed to guide the dead to the afterlife, and to keep them from coming back and harming the living. More will be said about that later on.
 
 The second of these beliefs refers to the underworld, known as Hades to the Greeks, Inferni to the Romans, Sheol to the Hebrews, Duat to the Egyptians, and Aralu to the Babylonians. Franz Cumont suggests that the idea of the ongoing existence within the tomb extended to the idea that the dead must live in the Earth.[^12] The ancient Mesopotamians believed that “the entrance to this netherworld is only a few feet below the surface of the Earth.”[^13] In the Gilgamesh epic, Aralu is described as
 
@@ -174,7 +174,7 @@ In the Gilgamesh epic, Gilgamesh crosses the waters of death, and meets a female
 
 In the *Odyssey*, Chapter 11, also known as the Nekuia, gives an account of necromancy, of Odysseus pouring the blood of a ram into a pit, that the dead may come forward to drink the blood and speak to him, the drinking of blood an apparent pre-condition for the dead to speak. He is looking for the shade of Tiresias the prophet, but many shades come forward. Odysseus learns not only of his own path home, which was the object of the necromantic divination, but also about the state of souls in the underworld.
 
-Here, like other archaic sources, heroes and ordinary men alike are subject to the same fate. The only punishments specifically mentioned are those of Tityus, Tantalus and Sisyphus, who committed major crimes against the gods, suggesting that only crimes on such a superhuman scale were actually punished. However, the chapter also mentions the fate of Heracles:![](/images/2017/10/Hercules_and_the_Hydra_-_Antonio_del_Pollaiolo-234x300.jpg)
+Here, like other archaic sources, heroes and ordinary men alike are subject to the same fate. The only punishments specifically mentioned are those of Tityus, Tantalus and Sisyphus, who committed major crimes against the gods, suggesting that only crimes on such a superhuman scale were actually punished. However, the chapter also mentions the fate of Heracles:![](/images/2017/10/hercules_and_the_hydra_-_antonio_del_pollaiolo.webp)
 
 > Next I saw manifest the power of Heracles
 > 
@@ -226,7 +226,7 @@ In general, the Near East believed that the gods were in the sky, the underworld
 
 Mark Smith writes, “The ancient Egyptian conception of the human being was monistic. They did not see in the individual a composite made up of a corruptible body and an immortal soul. For them, any hope for survival after death had to involve the whole entity.”[^33] This may explain the early belief that only the pharaoh attained immortality, as the pharaoh would represent the people as a whole. This is also similar to Israelite eschatology, which looks at the fate of the nation of Israel rather than the fate of individual souls.
 
-![](/images/2017/10/Necromancy-300x251.jpg)With regards to the fifth belief in necromancy, we find reference to this practice in archaic Greek literature with the term “*goes*.” There is some disagreement as to where the term *goes* comes from. It does not appear in Greek literature until the 7th century, though it is likely related to earlier practices. There was a term in ancient Greek, *goos*, which referred to women who lamented at funerals.
+![](/images/2017/10/necromancy.webp)With regards to the fifth belief in necromancy, we find reference to this practice in archaic Greek literature with the term “*goes*.” There is some disagreement as to where the term *goes* comes from. It does not appear in Greek literature until the 7th century, though it is likely related to earlier practices. There was a term in ancient Greek, *goos*, which referred to women who lamented at funerals.
 
 However, as Sarah Iles Johnston notes, the term *goes* is a masculine term, which seemed to be associated with a specific person whose job was to deal with the dead. Jake Stratton-Kent believes that there is a relationship between the *goos* and the *goes*, as the art of both involved singing or howling as part of the ritual.
 

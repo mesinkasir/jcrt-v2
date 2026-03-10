@@ -5,7 +5,7 @@ title: >-
 description: "The following is the last of a three-part series. The first can be found here, the second here. It will appear as a full article in the Fall 2021 issue of the"
 date: '2021-07-20T10:07:29.000Z'
 author: editors
-image: /images/2021/07/IMG_8685-1-1200x642.jpeg
+image: /images/2021/07/img_8685-1.webp
 categories:
   - Theology
 layout: theory.njk

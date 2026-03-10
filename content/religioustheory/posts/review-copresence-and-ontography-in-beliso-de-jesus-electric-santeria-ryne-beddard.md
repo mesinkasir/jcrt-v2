@@ -5,7 +5,7 @@ title: >-
 description: "* Beliso-De Jesús, Aisha M. Electric Santería: Racial and Sexual Assemblages of Transnational Religion. New York: Columbia University Press, 2015 It highlights"
 date: '2017-03-17T08:00:26.000Z'
 author: Books
-image: /images/2017/03/santeria-cover.jpg
+image: /images/2017/03/santeria-cover.webp
 categories:
   - Reviews
 layout: theory.njk
@@ -20,7 +20,7 @@ tags:
   - authenticity
 ---
 
-**![seven-orishas](/images/2017/03/seven-orishas-300x232.jpg)Beliso-De Jesús, Aisha M. *Electric Santería: Racial and Sexual Assemblages of Transnational Religion*. New York: Columbia University Press, 2015. ISBN-10:** **0231173172** **Hardcover, paperback, e-book. 304 pages.**
+**![seven-orishas](/images/2017/03/seven-orishas.webp)Beliso-De Jesús, Aisha M. *Electric Santería: Racial and Sexual Assemblages of Transnational Religion*. New York: Columbia University Press, 2015. ISBN-10:** **0231173172** **Hardcover, paperback, e-book. 304 pages.**
 
 Aisha M. Beliso-De Jesús’ 2015 book *Electric Santería: Racial and Sexual Assemblages of Transnational Religion* begins and ends with an intimate account of her relationship with Alfredo Calvo Cano, or simply Padrino (godfather), as he was referred to by his followers who learned to navigate their space in an increasingly transnational world through devotion to his guidance in Santería and other “African-inspired” Cuban religions. Beliso-De Jesús was one of those followers, and the book is inevitably shaped by her simultaneous proximity to the object of her study, as a practitioner raised in the traditions, and her distance from it as an anthropologist born, not in Cuba, but the United States.
 
@@ -32,7 +32,7 @@ In fact, the book according to Beliso-De Jesús, is, in part, a response to J. L
 
 The relational ontology of copresences, which resembles something like Karan Barad’s “relationality without relata[^3] ,” is the means by which individuals and communities negotiate the complex, and often paradoxical, world of imperialism and resistance in Cuba and abroad. They enact what Luis Leon calls “religious poetics”[^4] – the process by which practitioners engage in their socio-economic setting by way of creative and often improvised materializations of their inherited religious traditions – based in the entangled ontologies which both produce and are produced by Afro-Cuban religious subjects. Beliso-De Jesús’ method, which is deeply transdisciplinary, seems to even enact a sort of poetics of its own. It can best be described as “reading diffractively,” to again borrow from Barad, in which, rather than engage in straightforward critique, scholars’ writings and practitioners lived experiences can be read “through each other,” and, as Beliso-De Jesús adds, can be seen as copresences themselves. (13)
 
-![santeria cover](/images/2017/03/santeria-cover-200x300.jpg)It is worth mentioning that if a reader approached this book without any prior engagement with Santeria and other “African-Inspired traditions,” to use the preferred nomenclature of Todd Ochoa in *Society of the Dead*, then they would not necessarily have a clear understanding of these traditions upon finishing it. This is because Beliso-De Jesús is not interested in offering an accessible introduction to these traditions. Instead, *Electric Santería* offers a sustained and nuanced engagement with the operative metaphysics of these traditions and how they are navigated in the lives of practitioners and communities.
+![santeria cover](/images/2017/03/santeria-cover.webp)It is worth mentioning that if a reader approached this book without any prior engagement with Santeria and other “African-Inspired traditions,” to use the preferred nomenclature of Todd Ochoa in *Society of the Dead*, then they would not necessarily have a clear understanding of these traditions upon finishing it. This is because Beliso-De Jesús is not interested in offering an accessible introduction to these traditions. Instead, *Electric Santería* offers a sustained and nuanced engagement with the operative metaphysics of these traditions and how they are navigated in the lives of practitioners and communities.
 
 The evidence that she provides to support her claims in each chapter are organized along the lines of a series of “scapes,” in the sense that Arjun Appudari[^5] uses to describe them. The “scapes” can be understood as rhizomatic assemblages, or “affective territorialities that do no remain fixed” (13). Instead, they are constantly changing, prompting a kinesthetic analysis that allows Beliso-De Jesús to trace the flows of copresences, as a kind of electric energy, through media, travel, notions of authenticity, and even olfactory affects.
 

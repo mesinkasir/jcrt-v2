@@ -3,7 +3,7 @@ title: Review – A Stranger Thought For Stranger Times (Liam Burrell)
 description: "*Smith, Anthony Paul. Laruelle: A Stranger Thought. Cambridge: Polity, 2016. ISBN-10: 0745671233. Hardcover, paperback, e-book Hardcover, paperback, e-book."
 date: '2017-04-06T04:00:49.000Z'
 author: Books
-image: /images/2016/11/laruelle.jpg
+image: /images/2016/11/laruelle.webp
 categories:
   - Reviews
   - Uncategorized
@@ -48,7 +48,7 @@ What is striking here is the logic of the philosophical decision and the generic
 
 The chapter on politics begins with a short history of Laruelle’s early flirtations with deconstructionism and the debate with Derrida that in essence had him excommunicated from the movement. The very fact that deconstruction can be called a ‘movement’ is perhaps the crux of Laruelle’s dissatisfaction; we are shown how even in his earliest work Laruelle’s mistrust of philosophical dogma even when and especially if this dogma aims at pulling apart the structure of things. The one thing that deconstructionism never did is deconstruct philosophy itself. As such, Laruelle begins his construction of a democracy of thought,
 
-W![a stranger thought](/images/2017/04/a-stranger-thought-219x300.jpg)e then turn to Laruelle’s construal of science as a kind of ‘humane epistemology,’ as that which contingently and immanently produces information or ‘truths.’ This is ‘humane’ because it takes place in the real, which is the same place of what Laruelle calls the Man-in-Person, among other things, that of the pre-world immanent Real. When philosophy attempts to make truth claims of science it “obscures then breaks apart the identity of science and turns it into a mirror of philosophy” (78).
+W![a stranger thought](/images/2017/04/a-stranger-thought.webp)e then turn to Laruelle’s construal of science as a kind of ‘humane epistemology,’ as that which contingently and immanently produces information or ‘truths.’ This is ‘humane’ because it takes place in the real, which is the same place of what Laruelle calls the Man-in-Person, among other things, that of the pre-world immanent Real. When philosophy attempts to make truth claims of science it “obscures then breaks apart the identity of science and turns it into a mirror of philosophy” (78).
 
 The section on science is perhaps the most alienating to a newcomer to non-philosophy and yet it is undeniably here in which Laruelle is closest to his Anglo-Pessimist readers, analytic philosophers and his heretofore primary audience. This section is the least polemical and the one in which Smith argues least passionately for Laruelle’s efficacy as a thinker. His primary aim is to distinguish Laruelle’s treatment of science from other philosophers, which is a performative rather than hermeneutic stance, a ‘science of philosophy’ rather than a ‘philosophy of science,’ although by making this distinction Smith shows that Laruelle’s thought is not compatible with naive scientific-speculation.
 

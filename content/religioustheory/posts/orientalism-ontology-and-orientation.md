@@ -5,7 +5,7 @@ title: >-
 description: "The following is the first of a two-part series. The full article is published in the spring 2022 issue of the Journal for Cultural and Religious Theory"
 date: '2022-08-09T21:24:59.000Z'
 author: editors
-image: /images/2022/08/Quran_inscriptions_on_wall_Lodhi_Gardens_Delhi-1210x642.jpg
+image: /images/2022/08/quran_inscriptions_on_wall_lodhi_gardens_delhi.webp
 categories:
   - Religious Studies
   - Philosophy of Religion

@@ -3,7 +3,7 @@ title: Renegade Hinduism Scholar Featured In Norton’s Anthology of World Relig
 description: "The just-released, multi-volume Norton Anthology of World Religions is a major project of substance undertaken by a group of world-renowned scholars in"
 date: '2016-04-08T20:15:31.000Z'
 author: editors
-image: /images/2016/04/Ilaiah.jpg
+image: /images/2016/04/ilaiah.webp
 categories:
   - Reviews
   - World Religions

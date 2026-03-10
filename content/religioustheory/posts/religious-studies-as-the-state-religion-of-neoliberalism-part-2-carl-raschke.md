@@ -5,7 +5,7 @@ title: >-
 description: "The following is the second of a three-part series. The first can be found here . The supreme achievement of neoliberalism, according to Han, is that it has"
 date: '2022-09-21T20:38:40.000Z'
 author: editors
-image: /images/2022/10/Isabella_Whiteford-831x642.jpg
+image: /images/2022/10/isabella_whiteford.webp
 categories:
   - Neoliberalism and Religion
 layout: theory.njk

@@ -5,7 +5,7 @@ title: >-
 description: "The following is the second of a two-part series. The first can be found here. Indian cultures are very complex, and Osage culture is no different in that"
 date: '2020-06-09T02:47:11.000Z'
 author: editors
-image: /images/2020/06/Shonka_Sabe.jpg
+image: /images/2020/06/shonka_sabe.webp
 categories:
   - Native American Religions
 layout: theory.njk

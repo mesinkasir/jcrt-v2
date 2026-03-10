@@ -3,7 +3,7 @@ title: From Christology to Political Theology (Cyril Hovorun)
 description: "In the Christian Antiquity and later on during the Middle Ages, there was neither separation nor much distinction between the theological and the political"
 date: '2018-02-26T18:03:11.000Z'
 author: editors
-image: /images/2018/02/Style-8022831138_b3bf36a30d_b-Wavy-Lines-0.4MP.jpg
+image: /images/2018/02/style-8022831138_b3bf36a30d_b-wavy-lines-0-4mp.webp
 categories:
   - Political Theology
   - Theology
@@ -33,7 +33,7 @@ The archbishop of Alexandria Cyril articulated an answer, which framed the theol
 
 Cyril did not separate the divine and the human sides of the “one and the same” (εἷς καὶ αὐτός)[^2] Christ, but distinguished them “only through theoretical contemplation” (τῇ θεωρίᾳ μόνῃ).[^3] He pointed out that to separate and to distinguish are different kinds of differentiation. The former splits one thing to two pieces, while the latter preserves integrity of the single thing.
 
-![](/images/2018/01/Petropolis_Holy_Trinity_circles_symbol_stained-glass_window-164x300.jpg)Although divinity and humanity in Christ constitute one being and can only be distinguished, they do not obliterate or diminish each other. Not a slightest part of them goes missing in the result of the Incarnation. They also remain unchanged, each preserving its own property.[^4] The divinity and humanity do not get confused with each other.
+![](/images/2018/01/petropolis_holy_trinity_circles_symbol_stained-glass_window.webp)Although divinity and humanity in Christ constitute one being and can only be distinguished, they do not obliterate or diminish each other. Not a slightest part of them goes missing in the result of the Incarnation. They also remain unchanged, each preserving its own property.[^4] The divinity and humanity do not get confused with each other.
 
 At the same time, they exchange their properties, something that has been called “communication of properties” (*communicatio idiomatum*).[^5] It means that the divinity of Christ can act in human fashion, and the humanity – in divine.[^6] The human properties of Christ can be ascribed to his divinity, and *vice versa*. It is therefore possible to speak about “divinisation (θέωσις)[^7] of humanity of Christ, and about sufferings of his divinity.[^8]
 
@@ -61,7 +61,7 @@ Not just Heraclius, but most Byzantine emperors favoured monistic theological mo
 
 He also introduced the concept of a single activity of Christ, on which a century later Heraclius would build his monenergist-monothelite doctrine.[^22] The theological doctrines that stressed unity of Christ, encouraged unity and solidarity in the Byzantine society. At the same time, they legitimised absolutism of the imperial authority.
 
-![](/images/2018/01/John-of-Damascus_01-223x300.jpg)There were theologians, however, who questioned both the radical forms of the monistic Christological doctrines and the absolutism of the imperial power. For instance, Maximus the Confessor (c. 580-662), who disagreed that Christ had one activity and will, also doubted the right of Heraclius to intervene in the matters of doctrine or the emperor’s identity as priest.[^23] The same is with John of Damascus (c. 675-749), who insisted on the two wills in Christ[^24] and wrote that “kings have no right to make laws for the church”.[^25]
+![](/images/2018/01/john-of-damascus_01.webp)There were theologians, however, who questioned both the radical forms of the monistic Christological doctrines and the absolutism of the imperial power. For instance, Maximus the Confessor (c. 580-662), who disagreed that Christ had one activity and will, also doubted the right of Heraclius to intervene in the matters of doctrine or the emperor’s identity as priest.[^23] The same is with John of Damascus (c. 675-749), who insisted on the two wills in Christ[^24] and wrote that “kings have no right to make laws for the church”.[^25]
 
 Byzantium was not homeland for John of Damascus. He grew up and was active in Palestine under the Umayyad dynasty. His experience of the church-state relations was different from that of Maximus and of most Byzantines. John belonged to the community, which in both religious and political terms was distinct from the Jewish and Arab majority around it. That is why he was more aware about distinctiveness of the church from the state and resisted the attempts of the emperors in Byzantium to offer political support to monothelitism, or worse, to invent the dogma and to impose it on the church, as it was in the case of iconoclasm.
 
@@ -97,7 +97,7 @@ The novella also speaks of the one divine source for the priesthood and the empi
 
 Christology of unity, which was articulated by Cyril and interpreted further by his followers, was developed as rejection of another Christological model associated with the name of the archbishop of Constantinople Nestorius. Nestorius gave this model his name, but he was not the one who designed it. “Nestorian” Christology emerged from the way of praising God and interpreting the Scripture in the Greco-Syrian milieu, in the eastern part of the Roman world. The Antiochian theologian Theodore of Mopsuestia (c. 350-428) amalgamated it into a doctrine, which was branded “Nestorianism.”
 
-![](/images/2018/01/An_epitaph_of_a_Nestorian_Christian-300x224.jpg)The Christological scheme of “Nestorianism” was the following. Jesus Christ is effectively a single appearance of what is essentially two entities: God and man.[^33] The eastern Syrian theologians called these entities “natures”. The difference between the Chalcedonian and the “Nestorian” notions of the “nature” was like the difference between an adjective and a noun: between divine and God, or human and man. To the “Nestorians,” these natures were not just distinguished, as the Chalcedonians believed, but they coexisted in the way that self-sufficient beings touch each other.[^34]
+![](/images/2018/01/an_epitaph_of_a_nestorian_christian.webp)The Christological scheme of “Nestorianism” was the following. Jesus Christ is effectively a single appearance of what is essentially two entities: God and man.[^33] The eastern Syrian theologians called these entities “natures”. The difference between the Chalcedonian and the “Nestorian” notions of the “nature” was like the difference between an adjective and a noun: between divine and God, or human and man. To the “Nestorians,” these natures were not just distinguished, as the Chalcedonians believed, but they coexisted in the way that self-sufficient beings touch each other.[^34]
 
 The Christological model that the “Nestorians” propagated was defeated by the Cyrillian model of substantial unity, at least in the Roman empire. However, the “Nestorians” were made welcome by the eternal rival of Rome, the Persian empire. The Persian dynasties had been hostile and even murderous to the Christians, whom they considered agents of Rome.[^35]
 

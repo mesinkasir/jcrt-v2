@@ -5,7 +5,7 @@ title: >-
 description: "The following is the second installment of a three-part series. The first can be found here. What Does Lacan Mean When He Says That Spiritual Direction is a"
 date: '2018-08-08T02:58:53.000Z'
 author: editors
-image: /images/2018/08/IMG_1270.jpg
+image: /images/2018/08/img_1270.webp
 categories:
   - Psychoanalysis
   - Psychology of Religion
@@ -53,7 +53,7 @@ However, we can also understand this reference to the desert to encapsulate not 
 
 Genuine discourse includes an openness to getting lost or waylaid. This essential waywardness of the signifier, linked to what Lacan calls “the incessant sliding of the signifier,” binds the functions of speech to the experience of death. Carried along by the stream of signifiers, the speaking subject can at any moment be delivered over the falls. Entrance into the signifying chain replays the essential paradox of the encounter with death: the only certainty is the presence of uncertainty[^11] ”
 
-![](/images/2018/08/Screen-Shot-2018-08-07-at-9.41.37-PM-204x300.png)Similarly, the pre-modern spiritual director who wandered the desert was one who came to terms with the radical indeterminacy of their abode. What we have here is a “non-spiritual, non-direction”[^12] . It is a method of disorientation rather than orientation. This sense of disorientation can be found in the Juanist diagram of the Ascent of Mount Carmel.
+![](/images/2018/08/screen-shot-2018-08-07-at-9-41-37-pm.webp)Similarly, the pre-modern spiritual director who wandered the desert was one who came to terms with the radical indeterminacy of their abode. What we have here is a “non-spiritual, non-direction”[^12] . It is a method of disorientation rather than orientation. This sense of disorientation can be found in the Juanist diagram of the Ascent of Mount Carmel.
 
 John of the Cross also unfurled upon Mount Carmel the “ascent” of his discourse and he has drawn the map of this Dantean heaven in the form of a fantastic body, the lungs of which chant (like biblical verses) “neither this nor that”…. a body divided by the central ravine in which the”nada” (“nothing, nothing, nothing, nothing”) is repeated, its base covered with a vegetation of writings that become more rarefied as they go up [^13]
 
@@ -87,7 +87,7 @@ One can automatically detect a similarity in Lacanian Psychoanalysis with its pr
 
 Returning to the paragraph above, we can see that Lacan states that this forces psychoanalysis to evolve in a region which academic psychology has hitherto explored only with a spyglass. This last reference to spy glass is telling. In this sentence, Lacan opposes psychoanalysis to academic psychology. However, in his native French he does not say spyglass, he says ‘lorgnette’ which is a feminine noun and means ‘opera
 
-![](/images/2018/08/Jacques-Lacan-photo-268x300.jpg)
+![](/images/2018/08/jacques-lacan-photo.webp)
 
 Jacques Lacan
 

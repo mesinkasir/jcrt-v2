@@ -5,7 +5,7 @@ title: >-
 description: "The following is the second of a two-part series. The first can be found here. The full article is published in the spring 2022 issue of the Journal for"
 date: '2022-08-19T21:56:22.000Z'
 author: editors
-image: /images/2022/08/Willmette_how-1000x642.jpg
+image: /images/2022/08/willmette_how.webp
 categories:
   - Religious Studies
   - Philosophy of Religion

@@ -5,7 +5,7 @@ title: >-
 description: "The following is the first of a two-part series. The life and work of Dietrich Bonhoeffer quickly captured the imagination of theologians, clergy, and lay"
 date: '2020-08-17T20:20:33.000Z'
 author: editors
-image: /images/2020/08/Dietrich_Bonhoeffer_und_Wilhelm_Rott_um_1938.jpg
+image: /images/2020/08/dietrich_bonhoeffer_und_wilhelm_rott_um_1938.webp
 categories:
   - Theological Ethics
   - Announcements

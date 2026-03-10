@@ -3,7 +3,7 @@ title: 'Prayer After The Death Of God, Part I (Ashley [Gay] Graham)'
 description: "> Metaphysics is onto-theo-logy. Someone who has experienced theology in his own roots, both the theology of the Christian faith and that of philosophy, would"
 date: '2018-02-11T20:01:30.000Z'
 author: editors
-image: /images/2018/01/The-praying-Jew.jpg
+image: /images/2018/01/the-praying-jew.webp
 categories:
   - Philosophy of Religion
   - Theology
@@ -54,7 +54,7 @@ But is there a place where the lips might move, the tongue might tell, without a
 
 Anne Carson exposes the trick of the two-layered “para” in paradox. In true paradox, the two points in wild tension bulge to require another dimension. No longer are the competing claims superimposed on one another, as if a line folded over in forced matching of end-points. Symmetry cannot suspend desire. Rather, the fold unfolds another point of correspondence. The paradox requires an extension of another topos that can hold both the call and response, the experience and corresponding expression.
 
-![](/images/2018/02/Jean-Luc-Marion-300x160.jpg)
+![](/images/2018/02/jean-luc-marion.webp)
 
 Jean-Luc Marion
 
@@ -78,7 +78,7 @@ It may be that philosophical discussions surrounding the Name of God after the �
 
 Certainly, prayer in this sense would begin with the wager that the finite container of a word or name can bear the excess of the infinity it cannot hold. The Name would be witnessed with all its trembling,[^14] permitted its movement as well as its infinite accumulations.[^15] To keep the nominal from closure would be to permit it mobility, and therefore acknowledge its finite contingencies and its infinite possibilities.
 
-![](/images/2018/01/Sacrament-Church-Window-Glass-Window-Baptism-1016443-300x200.jpg)
+![](/images/2018/01/sacrament-church-window-glass-window-baptism-1016443.webp)
 
 A name that is sacramental—that plunges the infinite in the finite, that effects in part what it expresses—would be an event that opens. It would resemble Chretien’s gash made by a God that, like the encounter with the beautiful, leaves one longing for what precedes and exceeds. Or, if you like, an event of beauty (*kallos*) that marks love’s unhoped-for call (*to kaloun*) with its unforgettable wound.[^16]
 
@@ -94,7 +94,7 @@ Put another way, this “God” would be subsumed into phallocentrism—the illu
 
 Within Caputo’s project of weak theology, prayer ushers us back to the Hebraic secret of *imago dei*—human beings as “saturated with God’s shadow,” not fully exposed to God’s Absolute Presence as Causa Sui.[^21] Prayer is the event where the Infinite’s parousia is felt only as the shadow or trace of God (the hem of the garment, the backside of glory). Prayer marks the terrain that Jean-Yves Lacoste characterizes as the liturgical topos.
 
-![](/images/2018/01/Glory_of_the_New_born_Christ_-_Annakirche_Vienna-239x300.jpg)
+![](/images/2018/01/glory_of_the_new_born_christ_-_annakirche_vienna.webp)
 
 Lacoste mediates between Marion and Derrida, acknowledging a chiaroscuro encounter with God, neither ineffable fullness nor impenetrable absence. Lacoste’s being-before-God engages the divine on the margins of experience. This marginal space or borderland, for Lacoste, serves as the subversive topos of the liturgical encounter or “nonevent.”[^22] He employs the term nonevent, or inexperience, to convey the admitted absence of conscious perceiving, the insufficiency of phenomenal disclosure.
 
@@ -124,7 +124,7 @@ What might this prayer-thinking look like? If we were to track its movement, it 
 
 > *we are preparing for a future for which we cannot prepare, to take leave of our oldest and most revered names…That is why I concede that I write and pray with both hands, that even as I am trying to save the name of God with my right hand I am also conceding with my left that this name is not safe. I profess the name of God while making a confession that what is coming might be called something else, anything except (or “save”) God.* Sauf le nom.[^29]
 
-![](/images/2018/01/prayer-300x185.jpg)This explanation of thought-prayer, as a sort of sought-saying, tries to both use and rescue the Name of God—to both rest in and wrest from the containers of words. It participates (without altogether eluding) the double bind that Derrida articulates in his lecture, “Faith and Knowledge.” He articulates religion as doubly bound in the paradox of: *religio* (abstract scruple) and *relegere* (gathered many).[^30]
+![](/images/2018/01/prayer.webp)This explanation of thought-prayer, as a sort of sought-saying, tries to both use and rescue the Name of God—to both rest in and wrest from the containers of words. It participates (without altogether eluding) the double bind that Derrida articulates in his lecture, “Faith and Knowledge.” He articulates religion as doubly bound in the paradox of: *religio* (abstract scruple) and *relegere* (gathered many).[^30]
 
 God abstracts from experience while attracting our every expression. We confess God as holy—wholly other, “unscathed” by any concrete claims, concepts, or *tekne* of being. And yet, this God asks the currency of belief—“fiduciary,” fidelity, credit, trust.
 

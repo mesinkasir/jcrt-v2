@@ -5,7 +5,7 @@ title: >-
 description: "The following is the final of a three-part series. The first installation can be found here, the second here. The article in full originally appeared in The New"
 date: '2019-03-26T16:40:06.000Z'
 author: editors
-image: /images/2019/03/Native-American-statue.jpg
+image: /images/2019/03/native-american-statue.webp
 categories:
   - Native American Religions
 layout: theory.njk

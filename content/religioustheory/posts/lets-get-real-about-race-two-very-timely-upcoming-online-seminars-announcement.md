@@ -5,7 +5,7 @@ title: >-
 description: "It’s time to get real when we talk these days about race and racism. Ever since the murder of George Floyd in Minneapolis in the late spring of 2020 at the"
 date: '2021-08-23T04:05:04.000Z'
 author: editors
-image: /images/2021/08/race.jpg
+image: /images/2021/08/race.webp
 categories:
   - Announcements
   - Critical Conversations
@@ -43,7 +43,7 @@ Whitestone Publications, specifically *[The New Polis](http://thenewpolis.com/)
 
 **Critical Conversation No. 11 engages world-renowned Canadia demographer Eric Kaufman, Professor of Political Science at Birkbeck College, University of London, whose book *[Whiteshift](https://www.amazon.com/Whiteshift-Populism-Immigration-Future-Majorities/dp/1419741926/ref=sr_1_1?dchild=1&keywords=whiteshift&qid=1629861960&sr=8-1)* is described by *The Kirkus Review* as “an encyclopedic treatise on ethnic identity, immigration and its consequences”.**
 
-![](/images/2021/08/Whiteshift.jpg)
+![](/images/2021/08/whiteshift.webp)
 
 **When?** **Tuesday, September 28, 10-12 am Mountain Daylight Time, 6-8 pm Central European Time.**
 
@@ -73,7 +73,7 @@ Finally, there is a normative claim that ethnic majority identity is as valid as
 
 Political polarization has reached white heat in America, but it is also a growing force outside the United States, even in the developing world. Political scientists and social theorists have pointed to a broad spectrum of factors that explain these spreading fractures and divisions – deepening economic inequalities, the siloing of information sources and a narrowing of cognitive perspectives due to the impact of social media, historic patterns of racial oppression, the irreconcilability of moral stances and religious world views.
 
-![](/images/2021/08/DD-l-1.png)
+![](/images/2021/08/dd-l-1.webp)
 
 **Difficult Discussions** is a project of Whitestone Publications, which includes *The New Polis*. It is designed both to probe surgically and courageously into the sources of these differences and to seek a modicum of rational conversation with the aim of extracting some slender threads of agreement, even among the most hardened partisans.
 

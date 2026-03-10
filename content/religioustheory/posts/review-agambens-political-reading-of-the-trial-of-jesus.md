@@ -3,7 +3,7 @@ title: Review – Agamben’s Political Reading of the Trial of Jesus (Ryne Bedd
 description: "*Agamben, Giorgio. Pilate and Jesus (Meridian: Crossing Aesthetics). Translated by Adam Kotsko. Stanford: Stanford University Press, 2015 It highlights"
 date: '2016-07-21T08:00:10.000Z'
 author: Books
-image: /images/2016/07/Pontius-Pilate.jpg
+image: /images/2016/07/pontius-pilate.webp
 categories:
   - Reviews
 layout: theory.njk
@@ -49,7 +49,7 @@ Yet it is here that Agamben keys in on an ambiguity, in both the texts and the t
 
 However, there is, an alternative reading, to which Agamben draws attention, saying, “an exegetical tradition that draws its authority from Justin (Apology I, XXXV, 6) and, among modern authors, from Harnack and Dibelius, understands *ekethisen* in a transitive sense: ‘He led Jesus outside and sat him on the judge’s bench.’” That it would be Jesus, and not Pilate, sitting on the judge’s bench, suggests Agamben, may fit with the accounts of Matthew and Luke in which Jesus is dressed in a purple robe, given a scepter, and hailed as the “King of the Jews,” as it explicitly fits with the apocryphal Gospel of Peter (c. 190 CE), in which the people “put on him a purple robe, and made him sit upon the seat of judgment, saying: Give righteous judgment, thou King of Israel” (3:7).
 
-This reading also helps explain the way in which, in Mark and Matthew – just as in John’s particular narrative – there is no judgment declared by Pilate, but only a “handing over” (παρέδωκεν). ![Ecce_homo_by_Antonio_Ciseri_(1)](/images/2016/07/Ecce_homo_by_Antonio_Ciseri_1-300x230.jpg)
+This reading also helps explain the way in which, in Mark and Matthew – just as in John’s particular narrative – there is no judgment declared by Pilate, but only a “handing over” (παρέδωκεν). ![Ecce_homo_by_Antonio_Ciseri_(1)](/images/2016/07/ecce_homo_by_antonio_ciseri_1.webp)
 
 In lieu of this reading it would appear that, while there is a trial, there is no judgment. However, a trial without a judgment can hardly be called a trial at all. It is a contradiction in terms. A judgment is more than the focus of a trial, it is the sole operation. The trial is merely the form that the judgment takes. The “trial” of Jesus, then, is an enigma. And this enigma extends itself to the crucifixion, which, without a proper legal judgment, cannot be considered a legal punishment.
 

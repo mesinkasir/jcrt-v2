@@ -5,7 +5,7 @@ title: >-
 description: "The term “political theology” is currently used in a variety of ways in current debate over the place of liberalism amid world crises in politics and It"
 date: '2016-05-31T08:42:03.000Z'
 author: editors
-image: /images/2016/05/2-5-700x438.jpg
+image: /images/2016/05/2-5.webp
 categories:
   - Political Theology
   - World Religions
@@ -42,7 +42,7 @@ Christian thinkers like Hauerwas try to solve this problem by rejecting the Refo
 
 In fact, Schmitt was just one of many continental thinkers who looked to the early modern era and the foundations of liberal political thought in order to make sense of the liberal democrat crisis in Europe during the 1920s and 1930s. Unsurprisingly for example, Leo Strauss, a secular Jew, classics scholar, and fellow critic of liberalism disagreeed with Schmitt’s nostaligically Catholic (and modern) account of the problem.
 
-![Carl Schmitt](/images/2016/05/cropped-carl-schmitt-photo-226x300.jpg)
+![Carl Schmitt](/images/2016/05/cropped-carl-schmitt-photo.webp)
 
 Carl Schmitt
 
@@ -82,7 +82,7 @@ To be sure, what is meant by the invocation of nature or *physis* is ancient, pr
 
 Human beings acting politically attempt to be the channels of such force by shaping what Alain Badiou regards as thought *in actu* (philosophy) and a politics *in actu*, which is a politics that knows its own limits: “In politics, let us strive to be militants of restricted action. In philosophy, let us strive to be those who externalize the figure of this action through a categorical framework wherein the word ‘justice’ remains essential.”[^11] Important for Badiou here is the incompatibility of justice and the State: “The State, in its being, is indifferent to justice. Conversely, every politics which is a thought *in actu* entails, in proportion to its force and tenacity, serious trouble for the State.”[^12] Because of this, “‘justice’ cannot be, for philosophy, a State programme. ‘Justice’ is the qualification of an egalitarian moment of politics *in actu*.”[^13]
 
-![Revolution-Fist](/images/2016/05/Revolution-Fist-300x225.jpg)Such *action* is not the product of a transcendent decision, and so it must involve a subjectivity more porous and “natural” than a Kantian automaton – one whose *capability* does not rest on the decision and whose subjectivity is not alienated from a “state of nature” through a subject-object existential grammar. It must be a subjectivity that escapes Giorgio Agamben’s diagnosis that our condition is becoming more like *Homo sacer*, more ‘bare life’ and less *bios* or qualified life without pinging between ‘citizen’ and ‘cosmopolitan.’
+![Revolution-Fist](/images/2016/05/revolution-fist.webp)Such *action* is not the product of a transcendent decision, and so it must involve a subjectivity more porous and “natural” than a Kantian automaton – one whose *capability* does not rest on the decision and whose subjectivity is not alienated from a “state of nature” through a subject-object existential grammar. It must be a subjectivity that escapes Giorgio Agamben’s diagnosis that our condition is becoming more like *Homo sacer*, more ‘bare life’ and less *bios* or qualified life without pinging between ‘citizen’ and ‘cosmopolitan.’
 
 Such subjectivity must indeed be “free” and *in that sense*, it remains ‘liberal.’ If this seems too much valence for an already saturated term, I know of no better one at the moment that keeps in tact a maxim of equality and a merging with justice as Badiou defines it. Badiou’s critique of subjectivity leads him to a theological-political analysis of St. Paul in order to side-step the tricky problem of a purely “modern” or Cartesian subject relegated to the *cogito*. Liberal secularists often have difficulty dealing with the theological implications in Badiou and reduce him to being merely nostalgic for archaic notions of pre-twentieth century communism.
 
@@ -102,7 +102,7 @@ I bring Heidegger into discussion here as a historical point because he, like th
 
 Here, by way of Aristotle we see an underlying pre-Christian ethics that will later be assumed in the notion of *Dasein* or ‘being there,’ a notion that importantly informs Giorgio Agamben’s construction of *Homo sacer* from ancient Roman law, which he employs in order to describe the reduction of qualified human life (*bios*) to bare life (*zoe*) in the globalized biopolitical world. Such notions also inform turns toward virtue ethics, but virtue ethicists too often ignore the way continental thinkers in the early twentieth century looked to the pre-modern to address crises in liberalism.
 
-![Martin Heidegger, circa 1920](/images/2016/05/gordon_2-100914-213x300.jpg)
+![Martin Heidegger, circa 1920](/images/2016/05/gordon_2-100914.webp)
 
 Martin Heidegger, circa 1920
 

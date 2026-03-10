@@ -4,7 +4,7 @@ description: "The following is the second of a four-part series. The first can b
 date: '2021-02-08T17:23:42.000Z'
 author: editors
 image: >-
-  /images/2021/02/1600px-Bible_Illustrations_01_Genesis_01_02_Sweet_Publishing.jpg
+  /images/2021/02/1600px-bible_illustrations_01_genesis_01_02_sweet_publishing.webp
 categories:
   - Theology
   - Philosophy of Religion

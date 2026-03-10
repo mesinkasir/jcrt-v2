@@ -3,7 +3,7 @@ title: 'The Sacred As Bordering Practice, Part 2 (Anna-Maria Edlinger)'
 description: "The following is the second of a two-part series. The first portion can be found here. It was originally published in issue 22.1 of the Journal for Cultural and"
 date: '2023-11-13T16:11:04.000Z'
 author: editors
-image: /images/2023/12/IMG_1693-1200x642.jpeg
+image: /images/2023/12/img_1693.webp
 categories:
   - Political Theology
   - Announcements
