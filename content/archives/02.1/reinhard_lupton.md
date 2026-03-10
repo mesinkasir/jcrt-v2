@@ -47,9 +47,9 @@ Whereas in Jewish and Christian theology, "Creation" refers to God's primal rela
 
      The discourse of rights is founded on the privacy and self-possession of the person; the specter of a lie-detector offends the liberal subject because it would trespass on the inalienability of the inner self, its interiority supremely manifested in the freedom of expression. In its symbolic dimension, as a support of the social order, the Ninth Commandment tries to guarantee the stability and value of language. We rebel against such a commandment because we lie all the time ' in the compromise-formations of dreams, poetry, and social arrangements, in every act of speech. But what we traduce is not a hidden truth or human essence, but something that itself belies the humanist discourse of rights: the Thing that expropriates subjectivity prior to all property. In Lacan's reading, the Decalogue is the _envers_ of the Rights of Man and the Bill of Rights. Rights defend the proprieties of the person, in order to protect the free exercise of expression and exchange ("the pursuit of happiness"). The Decalogue, however, asserts the fundamental limiting of the subject's freedoms by _responsibility for the neighbor_, a response-ability to the extimate fragment of the real that the subject is called to confront ("the pursuit by _jouissance_").
 
-> *   [Introduction](https://jcrt.org/archives/02.1/intro_reinhard_lupton.shtml) - Julia Reinhard Lupton, University of California Irvine.
-> *   [Creation](halpern.shtml) - Richard Halpern, University of California Berkeley.
-> *   [Redemption](lambert.shtml) - Gregg Lambert, Syracuse University.
+> *   [Introduction](https://jcrt.org/archives/02.1/intro_reinhard_lupton/) - Julia Reinhard Lupton, University of California Irvine.
+> *   [Creation](halpern/) - Richard Halpern, University of California Berkeley.
+> *   [Redemption](lambert/) - Gregg Lambert, Syracuse University.
 
 * * *
 
@@ -67,9 +67,9 @@ Whereas in Jewish and Christian theology, "Creation" refers to God's primal rela
 
 * * *
 
-[![Open this article in a new window.](https://jcrt.org/images/menu/window.gif)](reinhard_lupton.shtml) [![Contents of this issue.](https://jcrt.org/images/menu/home.gif)](https://jcrt.org/archives/02.1/index.html) [![Print this page.](https://jcrt.org/images/menu/print.gif)](javascript:print\(\)) ['](https://jcrt.org/copyright.shtml) 2000 Kenneth Richard and Julia Reinhard Lupton. All rights reserved.  
+[![Open this article in a new window.](https://jcrt.org/images/menu/window.gif)](reinhard_lupton/) [![Contents of this issue.](https://jcrt.org/images/menu/home.gif)](https://jcrt.org/archives/02.1/index.html) [![Print this page.](https://jcrt.org/images/menu/print.gif)](javascript:print\(\)) ['](https://jcrt.org/copyright/) 2000 Kenneth Richard and Julia Reinhard Lupton. All rights reserved.  
 Updated 07/28/21.   
-http://jcrt.org/archives/02.1/reinhard\_lupton.shtml
+http://jcrt.org/archives/02.1/reinhard\_lupton/
 
 ---
 

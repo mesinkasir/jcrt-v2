@@ -28,9 +28,9 @@ Jacques Lacan did not, to my knowledge, ever visit Kansas. But this essay will t
 
      What holds for monotheist doctrine holds as well for psychoanalytic or evolutionary doctrine: the transmission of a rationalist message traces the path of darkness or obscurity. If the Thing requires the Law to live (as Lacan argues, paraphrasing St. Paul), it is conversely true that the Law requires the Thing. It may therefore be the case that the obscurantism which Darwinists deplore in their opponents is the necessary but often misrecognized precondition for the propagating of their own viewpoint. Thus it is that the debate between creationists and evolutionists does not (ironically enough) evolve but returns inevitably to the same place, the empty place of the Thing.
 
-> *   [Introduction](https://jcrt.org/archives/02.1/intro_reinhard_lupton.shtml) - Julia Reinhard Lupton, University of California Irvine.
-> *   [Revelation](reinhard_lupton.shtml) - Kenneth Reinhard, University of California Los Angeles & Julia Reinhard Lupton, University of California at Irvine.
-> *   [Redemption](lambert.shtml) - Gregg Lambert, Syracuse University.
+> *   [Introduction](https://jcrt.org/archives/02.1/intro_reinhard_lupton/) - Julia Reinhard Lupton, University of California Irvine.
+> *   [Revelation](reinhard_lupton/) - Kenneth Reinhard, University of California Los Angeles & Julia Reinhard Lupton, University of California at Irvine.
+> *   [Redemption](lambert/) - Gregg Lambert, Syracuse University.
 
 * * *
 
@@ -46,9 +46,9 @@ Jacques Lacan did not, to my knowledge, ever visit Kansas. But this essay will t
 
 * * *
 
-[![Open this article in a new window.](https://jcrt.org/images/menu/window.gif)](halpern.shtml) [![Contents of this issue.](https://jcrt.org/images/menu/home.gif)](https://jcrt.org/archives/02.1/index.html) [![Print this page.](https://jcrt.org/images/menu/print.gif)](javascript:print\(\)) ['](https://jcrt.org/copyright.shtml) 2000 Richard Halpern. All rights reserved.  
+[![Open this article in a new window.](https://jcrt.org/images/menu/window.gif)](halpern/) [![Contents of this issue.](https://jcrt.org/images/menu/home.gif)](https://jcrt.org/archives/02.1/index.html) [![Print this page.](https://jcrt.org/images/menu/print.gif)](javascript:print\(\)) ['](https://jcrt.org/copyright/) 2000 Richard Halpern. All rights reserved.  
 Updated 07/28/21.   
-http://jcrt.org/archives/02.1/halpern.shtml
+http://jcrt.org/archives/02.1/halpern/
 
 ---
 

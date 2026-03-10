@@ -61,9 +61,9 @@ We live in an age of image. This simple statement, often repeated, has complex r
 
 * * *
 
- ['](https://jcrt.org/copyright.shtml) 2002 Jeffrey L. Kosky All rights reserved.  
+ ['](https://jcrt.org/copyright/) 2002 Jeffrey L. Kosky All rights reserved.  
 Updated 07/28/21.   
-http://jcrt.org/archives/04.1/kosky.shtml
+http://jcrt.org/archives/04.1/kosky/
 
 ---
 

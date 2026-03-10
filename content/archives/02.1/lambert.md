@@ -24,9 +24,9 @@ The subject of my essay, on "redemption," concerns something that takes place at
 
     In applying the above passage to the discussion of the Sabbath, what should be highlighted in Marx's description is the possibility that God has no knowledge of the process involved in the production of cloth, of the order of commodities, that he would designate the same dinner time for all the workers, without regard to the order that determines the time of work itself. "_To enforce the same dinner hour for all the workers"_ exposes "the end" of the process itself (i.e., the product) to "damage and incompletion." God's command, therefore, is without regard to the division of labor, not only understood as the division of the activities and classes that belong to the mode of production, but also as the division of the time that is determined by the process of production. God's Sabbath corresponds to the process of the production of the world. Lunch appears after the workday is finished. But that is God's time in which a day has been proven to last a thousand of ours. What is important to remark in this "time" is that God has no knowledge of any particular process of production, but categorically declares a certain moment to be Lunch, and categorically demands his order be strictly obeyed according to his own time, which is heterogenous to the time of production. Now, this would be enough to offend any rational or economic order, since it would let the cheese spoil, the meat decay, etc.
 
-> *   [Introduction](https://jcrt.org/archives/02.1/intro_reinhard_lupton.shtml) - Julia Reinhard Lupton, University of California Irvine.
-> *   [Creation](halpern.shtml) - Richard Halpern, University of California Berkeley.
-> *   [Revelation](reinhard_lupton.shtml) - Kenneth Reinhard, University of California Los Angeles & Julia Reinhard Lupton, University of California at Irvine.
+> *   [Introduction](https://jcrt.org/archives/02.1/intro_reinhard_lupton/) - Julia Reinhard Lupton, University of California Irvine.
+> *   [Creation](halpern/) - Richard Halpern, University of California Berkeley.
+> *   [Revelation](reinhard_lupton/) - Kenneth Reinhard, University of California Los Angeles & Julia Reinhard Lupton, University of California at Irvine.
 
 * * *
 
@@ -42,9 +42,9 @@ The subject of my essay, on "redemption," concerns something that takes place at
 
 * * *
 
-[![Open this article in a new window.](https://jcrt.org/images/menu/window.gif)](lambert.shtml) [![Contents of this issue.](https://jcrt.org/images/menu/home.gif)](https://jcrt.org/archives/02.1/index.html) [![Print this page.](https://jcrt.org/images/menu/print.gif)](javascript:print\(\)) ['](https://jcrt.org/copyright.shtml) 2000 Gregg Lambert. All rights reserved.  
+[![Open this article in a new window.](https://jcrt.org/images/menu/window.gif)](lambert/) [![Contents of this issue.](https://jcrt.org/images/menu/home.gif)](https://jcrt.org/archives/02.1/index.html) [![Print this page.](https://jcrt.org/images/menu/print.gif)](javascript:print\(\)) ['](https://jcrt.org/copyright/) 2000 Gregg Lambert. All rights reserved.  
 Updated 07/28/21.   
-http://jcrt.org/archives/02.1/lambert.shtml
+http://jcrt.org/archives/02.1/lambert/
 
 ---
 

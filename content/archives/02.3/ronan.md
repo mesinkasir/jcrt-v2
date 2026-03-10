@@ -46,9 +46,9 @@ One widely accepted reading of twentieth century Roman Catholicism is that the C
 
 * * *
 
- ['](https://jcrt.org/copyright.shtml) 2001 Marian Ronan. All rights reserved.  
+ ['](https://jcrt.org/copyright/) 2001 Marian Ronan. All rights reserved.  
 Updated 07/28/21.   
-http://jcrt.org/archives/02.3/ronan.shtml
+http://jcrt.org/archives/02.3/ronan/
 
 ---
 

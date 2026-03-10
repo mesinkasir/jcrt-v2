@@ -32,9 +32,9 @@ Within this small but dense book, Jacques Derrida addresses issues regarding soc
 
 * * *
 
- ['](https://jcrt.org/copyright.shtml) 2002 David Reinhart. All rights reserved.  
+ ['](https://jcrt.org/copyright/) 2002 David Reinhart. All rights reserved.  
 Updated 07/28/21.   
-http://jcrt.org/archives/03.3/reinhart.shtml
+http://jcrt.org/archives/03.3/reinhart/
 
 ---
 

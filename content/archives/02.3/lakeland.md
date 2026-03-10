@@ -32,9 +32,9 @@ Since at least the time of the publication of George Lindbeck's _The Nature of D
 
 * * *
 
- ['](https://jcrt.org/copyright.shtml) 2001 Paul Lakeland. All rights reserved.  
+ ['](https://jcrt.org/copyright/) 2001 Paul Lakeland. All rights reserved.  
 Updated 07/28/21.   
-http://jcrt.org/archives/02.3/lakeland.shtml
+http://jcrt.org/archives/02.3/lakeland/
 
 ---
 

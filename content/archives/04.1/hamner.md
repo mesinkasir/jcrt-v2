@@ -61,9 +61,9 @@ and makes it possible to stand straight and lithe in the world?_[^9]
 
 * * *
 
- ['](https://jcrt.org/copyright.shtml) 2002 Gail Hamner. All rights reserved.  
+ ['](https://jcrt.org/copyright/) 2002 Gail Hamner. All rights reserved.  
 Updated 07/28/21.   
-http://jcrt.org/archives/04.1/hamner.shtml
+http://jcrt.org/archives/04.1/hamner/
 
 ---
 

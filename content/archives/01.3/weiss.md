@@ -106,9 +106,9 @@ Wolfe, Alan. _The Human Difference_. Berkeley: U of California P, 1993.
 
 * * *
 
-[![Open this article in a new window.](https://jcrt.org/images/menu/window.gif)](weiss.shtml) [![Contents of this issue.](https://jcrt.org/images/menu/home.gif)](https://jcrt.org/archives/01.3/index.html) [![Print this page.](https://jcrt.org/images/menu/print.gif)](javascript:print\(\)) ['](https://jcrt.org/copyright.shtml) 2000 Dennis M. Weiss. All rights reserved.  
+[![Open this article in a new window.](https://jcrt.org/images/menu/window.gif)](weiss/) [![Contents of this issue.](https://jcrt.org/images/menu/home.gif)](https://jcrt.org/archives/01.3/index.html) [![Print this page.](https://jcrt.org/images/menu/print.gif)](javascript:print\(\)) ['](https://jcrt.org/copyright/) 2000 Dennis M. Weiss. All rights reserved.  
 Updated 07/28/21.   
-http://jcrt.org/archives/01.3/weiss.shtml
+http://jcrt.org/archives/01.3/weiss/
 
 ---
 

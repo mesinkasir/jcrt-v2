@@ -30,9 +30,9 @@ Derrida admits to being preoccupied with his own death, imagining grim scenes of
 
 * * *
 
- ['](https://jcrt.org/copyright.shtml) 2003 John D. Caputo All rights reserved.  
+ ['](https://jcrt.org/copyright/) 2003 John D. Caputo All rights reserved.  
 Updated 07/28/21.   
-http://jcrt.org/archives/04.2/caputo.shtml
+http://jcrt.org/archives/04.2/caputo/
 
 ---
 

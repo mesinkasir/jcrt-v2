@@ -85,9 +85,9 @@ Paul Klee. _Heads_, 1913
 
 * * *
 
- ['](https://jcrt.org/copyright.shtml) 2001 Victor Taylor All rights reserved.  
+ ['](https://jcrt.org/copyright/) 2001 Victor Taylor All rights reserved.  
 Updated 07/28/21.   
-http://jcrt.org/archives/02.2/taylor.shtml
+http://jcrt.org/archives/02.2/taylor/
 
 ---
 

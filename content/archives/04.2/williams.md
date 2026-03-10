@@ -80,9 +80,9 @@ One striking fact of contemporary criticism is its seemingly relentless change. 
 
 * * *
 
- ['](https://jcrt.org/copyright.shtml) 2003 Jeffrey J. Williams. All rights reserved.  
+ ['](https://jcrt.org/copyright/) 2003 Jeffrey J. Williams. All rights reserved.  
 Updated 07/28/21.   
-http://jcrt.org/archives/04.2/williams.shtml
+http://jcrt.org/archives/04.2/williams/
 
 ---
 

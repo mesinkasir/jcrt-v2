@@ -56,9 +56,9 @@ S. 41 (1991), 279-296.
 
 * * *
 
- ['](https://jcrt.org/copyright.shtml) 2003 Stephen G. Nichols. All rights reserved.  
+ ['](https://jcrt.org/copyright/) 2003 Stephen G. Nichols. All rights reserved.  
 Updated 07/28/21.   
-http://jcrt.org/archives/04.2/nichols.shtml
+http://jcrt.org/archives/04.2/nichols/
 
 ---
 

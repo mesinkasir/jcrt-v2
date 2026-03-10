@@ -28,9 +28,9 @@ A_cross the Boundaries of Belief: Contemporary Issues in the Anthropology of Rel
 
 * * *
 
- ['](https://jcrt.org/copyright.shtml) 2001 Carol S. Anderson. All rights reserved.  
+ ['](https://jcrt.org/copyright/) 2001 Carol S. Anderson. All rights reserved.  
 Updated 07/28/21.   
-http://jcrt.org/archives/03.1/anderson.shtml
+http://jcrt.org/archives/03.1/anderson/
 
 ---
 

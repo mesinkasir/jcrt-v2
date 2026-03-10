@@ -32,9 +32,9 @@ T he book is a revised edition of the author's first work that was published in 
 
 * * *
 
- ['](https://jcrt.org/copyright.shtml) 2001 Liyakatali Takim. All rights reserved.  
+ ['](https://jcrt.org/copyright/) 2001 Liyakatali Takim. All rights reserved.  
 Updated 07/28/21.   
-http://jcrt.org/archives/02.3/takim.shtml
+http://jcrt.org/archives/02.3/takim/
 
 ---
 

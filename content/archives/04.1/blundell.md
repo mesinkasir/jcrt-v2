@@ -35,9 +35,9 @@ A decade after the appearance of _Oneself as Another_ in English, Ricoeur schola
 
 * * *
 
- ['](https://jcrt.org/copyright.shtml) 2002 Boyd Blundell. All rights reserved.  
+ ['](https://jcrt.org/copyright/) 2002 Boyd Blundell. All rights reserved.  
 Updated 07/28/21.   
-http://jcrt.org/archives/04.1/blundell.shtml
+http://jcrt.org/archives/04.1/blundell/
 
 ---
 

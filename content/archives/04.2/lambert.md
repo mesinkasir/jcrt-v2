@@ -42,9 +42,9 @@ T_his public conversation was recorded at an event held at [The Slought Gallery]
 
 * * *
 
- ['](https://jcrt.org/copyright.shtml) 2003 Jean Michel Rabaté and Gregg Lambert. All rights reserved.  
+ ['](https://jcrt.org/copyright/) 2003 Jean Michel Rabaté and Gregg Lambert. All rights reserved.  
 Updated 07/28/21.   
-http://jcrt.org/archives/04.2/rabate-lambert.shtml
+http://jcrt.org/archives/04.2/rabate-lambert/
 
 ---
 

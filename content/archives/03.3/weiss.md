@@ -56,9 +56,9 @@ In her 1997 sociological study of cyberculture and identity formation entitled _
 
 * * *
 
- ['](https://jcrt.org/copyright.shtml) 2002 Dennis Weiss. All rights reserved.  
+ ['](https://jcrt.org/copyright/) 2002 Dennis Weiss. All rights reserved.  
 Updated 07/28/21.   
-http://jcrt.org/archives/03.3/weiss.shtml
+http://jcrt.org/archives/03.3/weiss/
 
 ---
 

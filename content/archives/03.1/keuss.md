@@ -80,9 +80,9 @@ McIntyre rightly notes that there is indeed a continued search for the basic _sh
 
 * * *
 
- ['](https://jcrt.org/copyright.shtml) 2001 Jeffrey F. Keuss. All rights reserved.  
+ ['](https://jcrt.org/copyright/) 2001 Jeffrey F. Keuss. All rights reserved.  
 Updated 07/28/21.   
-http://jcrt.org/archives/03.1/keuss.shtml
+http://jcrt.org/archives/03.1/keuss/
 
 ---
 

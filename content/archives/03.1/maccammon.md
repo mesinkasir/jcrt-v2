@@ -46,9 +46,9 @@ Originally presented as a series of invited lectures on the nature of justice, P
 
 * * *
 
- ['](https://jcrt.org/copyright.shtml) 2001 Linda M. MacCammon. All rights reserved.  
+ ['](https://jcrt.org/copyright/) 2001 Linda M. MacCammon. All rights reserved.  
 Updated 07/28/21.   
-http://jcrt.org/archives/03.1/maccammon.shtml
+http://jcrt.org/archives/03.1/maccammon/
 
 ---
 

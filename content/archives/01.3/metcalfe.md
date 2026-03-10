@@ -136,9 +136,9 @@ I spent yesterday searching for where to start this article. Although I'd gone t
 
 * * *
 
-[![Open this article in a new window.](https://jcrt.org/images/menu/window.gif)](metcalfe.shtml) [![Contents of this issue.](https://jcrt.org/images/menu/home.gif)](https://jcrt.org/archives/01.3/index.html) [![Print this page.](https://jcrt.org/images/menu/print.gif)](javascript:print\(\)) ['](https://jcrt.org/copyright.shtml) 2000 Andrew W. Metcalfe. All rights reserved.  
+[![Open this article in a new window.](https://jcrt.org/images/menu/window.gif)](metcalfe/) [![Contents of this issue.](https://jcrt.org/images/menu/home.gif)](https://jcrt.org/archives/01.3/index.html) [![Print this page.](https://jcrt.org/images/menu/print.gif)](javascript:print\(\)) ['](https://jcrt.org/copyright/) 2000 Andrew W. Metcalfe. All rights reserved.  
 Updated 07/28/21 .   
-http://jcrt.org /archives/01.3/metcalfe.shtml
+http://jcrt.org /archives/01.3/metcalfe/
 
 ---
 

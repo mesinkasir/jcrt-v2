@@ -94,9 +94,9 @@ Wagner, Peter (ed.) (1996) _Icons'Texts'Iconotexts: Essays on Ekphrasis and Inte
 
 * * *
 
- ['](https://jcrt.org/copyright.shtml) 2001 Camelia Elias. All rights reserved.  
+ ['](https://jcrt.org/copyright/) 2001 Camelia Elias. All rights reserved.  
 Updated 07/28/21.   
-http://jcrt.org/archives/02.2/elias.shtml
+http://jcrt.org/archives/02.2/elias/
 
 ---
 

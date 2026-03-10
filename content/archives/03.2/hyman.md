@@ -35,9 +35,9 @@ One of the many defining characteristics of the postmodern 'sensibility' may be 
 
 * * *
 
- ['](https://jcrt.org/copyright.shtml) 2002 Gavin Hyman. All rights reserved.  
+ ['](https://jcrt.org/copyright/) 2002 Gavin Hyman. All rights reserved.  
 Updated 07/28/21.   
-http://jcrt.org/archives/03.2/hyman.shtml
+http://jcrt.org/archives/03.2/hyman/
 
 ---
 

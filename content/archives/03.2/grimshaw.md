@@ -45,9 +45,9 @@ We philosophise on the end of lots of things, but it is here that they actually 
 
 * * *
 
- ['](https://jcrt.org/copyright.shtml) 2002 Michael Grimshaw. All rights reserved.  
+ ['](https://jcrt.org/copyright/) 2002 Michael Grimshaw. All rights reserved.  
 Updated 07/28/21.   
-http://jcrt.org/archives/03.2/grimshaw.shtml
+http://jcrt.org/archives/03.2/grimshaw/
 
 ---
 

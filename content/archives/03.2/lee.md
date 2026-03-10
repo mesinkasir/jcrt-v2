@@ -51,9 +51,9 @@ The question of the meaning of human existence in the totality of Being, this fu
 
 * * *
 
- ['](https://jcrt.org/copyright.shtml) 2002 Ethan Frome. All rights reserved.  
+ ['](https://jcrt.org/copyright/) 2002 Ethan Frome. All rights reserved.  
 Updated .   
-http://jcrt.org/archives/03.2/lee.shtml
+http://jcrt.org/archives/03.2/lee/
 
 ---
 
