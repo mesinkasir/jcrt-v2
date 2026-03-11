@@ -1,0 +1,81 @@
+---
+permalink: /sitemaps/doaj-archives.xml
+layout: false
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<records xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="/sitemaps/doajArticles.xsd">
+  {%- set baseUrl = metadata.url -%}
+  {%- for entry in collections.archives -%}
+    {%- set entryTitle = entry.data.title or "" -%}
+    {%- set entrySlug = entry.page.fileSlug or "" -%}
+    {%- set entryUrl = entry.url or "" -%}
+
+    {%- set isAuthorBios = (entrySlug == "author-bios") or (entryTitle | lower == "author bios") -%}
+    {%- set isTableOfContents = (entrySlug == "table-of-contents") or (entryTitle | lower == "table of contents") -%}
+    {%- set isAbstracts = ("/abstracts/" in entryUrl) or (entryTitle | lower == "abstracts") or (entrySlug == "abstracts") -%}
+    {%- set hasTitle = entryTitle | trim -%}
+
+    {%- if hasTitle and not isAuthorBios and not isTableOfContents and not isAbstracts -%}
+      {%- set authors = entry.data.author | splitAuthors -%}
+      {%- set keywords = entry.data.keywords or [] -%}
+      {%- set affiliation = entry.data.affiliation or "" -%}
+      {%- set volume = entry.data.volume | string if entry.data.volume else "" -%}
+      {%- set issue = entry.data.issue | string if entry.data.issue else "" -%}
+      {%- set pageRange = entry.data.pages | parsePageRange -%}
+      {%- set pubDate = entry.date | htmlDateString -%}
+      {%- set canonicalUrl = baseUrl ~ entryUrl -%}
+  <record>
+    <language>eng</language>
+    <publisher>Whitestone Publications</publisher>
+    <journalTitle>The Journal for Cultural and Religious Theory</journalTitle>
+    <issn>15305228</issn>
+    <publicationDate>{{ pubDate }}</publicationDate>
+    {%- if volume %}
+    <volume>{{ volume | xmlEscape }}</volume>
+    {%- endif %}
+    {%- if issue %}
+    <issue>{{ issue | xmlEscape }}</issue>
+    {%- endif %}
+    {%- if pageRange.start %}
+    <startPage>{{ pageRange.start }}</startPage>
+    {%- endif %}
+    {%- if pageRange.end %}
+    <endPage>{{ pageRange.end }}</endPage>
+    {%- endif %}
+    <publisherRecordId>{{ entrySlug | xmlEscape }}</publisherRecordId>
+    <documentType>article</documentType>
+    <title language="eng">{{ entryTitle | xmlEscape }}</title>
+    {%- if authors | length %}
+    <authors>
+      {%- for author in authors %}
+      <author>
+        <name>{{ author | xmlEscape }}</name>
+        {%- if affiliation and affiliation | trim %}
+        <affiliationId>0</affiliationId>
+        {%- endif %}
+      </author>
+      {%- endfor %}
+    </authors>
+    {%- endif %}
+    {%- if affiliation and affiliation | trim %}
+    <affiliationsList>
+      <affiliationName affiliationId="0">{{ affiliation | xmlEscape }}</affiliationName>
+    </affiliationsList>
+    {%- endif %}
+    {%- if entry.data.description %}
+    <abstract language="eng">{{ entry.data.description | xmlEscape }}</abstract>
+    {%- endif %}
+    <fullTextUrl format="html">{{ canonicalUrl | xmlEscape }}</fullTextUrl>
+    {%- if keywords | length %}
+    <keywords language="eng">
+      {%- for kw in keywords %}
+      <keyword>{{ kw | replace("-", " ") | xmlEscape }}</keyword>
+      {%- endfor %}
+    </keywords>
+    {%- endif %}
+  </record>
+    {%- endif -%}
+  {%- endfor %}
+</records>

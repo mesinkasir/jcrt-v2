@@ -70,7 +70,8 @@ eleventyExcludeFromCollections: true
 		"/feed/twtxt.txt",
 		"/feed/religioustheory/feed.xml",
 		"/feed/pretty-atom-feed.xsl",
-		"/sitemaps/oai_dc.xml"
+		"/sitemaps/oai_dc.xml",
+		"/sitemaps/doaj-archives.xml"
 	] -%}
 		{%- if path not in seen -%}
 			{% set seen = (seen.push(path), seen) %}
