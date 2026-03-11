@@ -1,5 +1,5 @@
 <button id="menu-toggle-btn" class="menu-toggle-editorial" aria-label="sidebar menu for navigation">
-    <i class="fa-solid fa-bars fa-lg"></i>
+    <i class="fa-solid fa-bars"></i>
 </button>
 
 <section id="sidebar-container" data-pagefind-ignore>
@@ -17,7 +17,7 @@
             if (!searchEl) return;
             searchEl.innerHTML = `
                 <form action="/search/" method="get" role="search" style="display:flex;gap:8px;">
-                    <input type="search" name="q" placeholder="Search" aria-label="Search" style="flex:1;padding:8px;border:1px solid #ccc;">
+                    <input type="search" name="q" placeholder="Search" aria-label="Search" style="flex:1;min-width:0;padding:8px;border:1px solid #ccc;-webkit-appearance:none;box-sizing:border-box;">
                     <button type="submit" class="btn btn-primary btn-sm">Go</button>
                 </form>
             `;

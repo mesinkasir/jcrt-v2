@@ -47,6 +47,10 @@
     width: 1.25em;
     height: 1.25em;
 }
+.icon-svg.fa-2x {
+    width: 2em;
+    height: 2em;
+}
 
 .nav-editorial {
     list-style: none;
@@ -122,12 +126,12 @@
     background: #000;
     color: #fff;
     border: none;
-    padding: 10px 20px;
+    padding: 0;
     font-weight: 800;
     letter-spacing: 2px;
     display: flex;
     align-items: center;
-    gap: 10px;
+    justify-content: center;
     transition: all 0.3s ease;
 }
 
@@ -277,7 +281,8 @@ body.menu-open #sidebar-container {
     padding-top: var(--btn-margin-top);
     padding-left: var(--btn-margin-left);
     padding-right: var(--btn-margin-left);
-    overflow-y: auto; 
+    overflow-y: auto;
+    overflow-x: hidden;
     height: 100%;
     box-sizing: border-box;
 }
@@ -503,9 +508,23 @@ blockquote{border-left:6px solid #ec5033;margin:1.5em 10px;padding:.5em 10px;quo
     color: white;
 }
 
+#search {
+    max-width: 100%;
+    overflow: hidden;
+}
+#search .pagefind-ui,
+#search .pagefind-ui__form {
+    max-width: 100%;
+}
 #search .pagefind-ui__search-input {
     border: 2px solid #000 !important;
     border-radius: 0 !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    -webkit-appearance: none !important;
+    appearance: none !important;
+    min-width: 0 !important;
+    width: 100% !important;
 }
 
 #sidebar-menu .nav-link {

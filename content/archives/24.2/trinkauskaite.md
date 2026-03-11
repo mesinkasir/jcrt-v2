@@ -5,7 +5,7 @@ volume: '24'
 issue: '2'
 pages: 306-316
 title: 'Baltic Religion: The Sacred Things'
-author: 'Eglutė Trinkauskaitė and Ellen B. Cutler'
+author: 'Eglutė Trinkauskaitė; Ellen B. Cutler'
 affiliation: ''
 description: "Trinkauskaite explores Baltic sacred traditions and sutartinės, linking domestic deities and revivalist practice to collective ethics beyond hierarchy."
 keywords:

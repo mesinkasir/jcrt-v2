@@ -7,7 +7,7 @@
 <input type="checkbox" id="teori-sidebar-trigger" class="teori-trigger-input" style="display:none;">
 
 <label for="teori-sidebar-trigger" id="theory-toggle-btn" class="teori-btn-style">
-    <i class="fa-solid fa-bars fa-lg"></i>
+    <i class="fa-solid fa-bars"></i>
 </label>
 
 <label for="teori-sidebar-trigger" class="teori-overlay-mask"></label>
@@ -27,7 +27,7 @@
             if (!searchEl) return;
             searchEl.innerHTML = `
                 <form action="/search/" method="get" role="search" style="display:flex;gap:8px;">
-                    <input type="search" name="q" placeholder="Search" aria-label="Search" style="flex:1;padding:8px;border:1px solid #ccc;">
+                    <input type="search" name="q" placeholder="Search" aria-label="Search" style="flex:1;min-width:0;padding:8px;border:1px solid #ccc;-webkit-appearance:none;box-sizing:border-box;">
                     <button type="submit" class="btn btn-primary btn-sm">Go</button>
                 </form>
             `;

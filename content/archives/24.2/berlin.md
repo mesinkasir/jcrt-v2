@@ -3,6 +3,7 @@ layout: archives.njk
 article_number: '19'
 volume: '24'
 issue: '2'
+pages: 354-362
 title: 'Unselling the Classroom: Confronting History and Ourselves'
 author: 'Elaina Berlin'
 affiliation: ''

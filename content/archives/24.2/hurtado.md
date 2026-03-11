@@ -3,6 +3,7 @@ layout: archives.njk
 article_number: '16'
 volume: '24'
 issue: '2'
+pages: 334-341
 title: 'Flesh of Words: Confrontation, Navigation, and Integrity in the English Classroom'
 author: 'Roberta Hurtado'
 affiliation: ''
