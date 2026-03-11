@@ -3,6 +3,7 @@ layout: archives.njk
 article_number: '04'
 volume: '24'
 issue: '2'
+pages: 215-223
 title: 'Christian Control of Women and Mother Earth: The Doctrine of Discovery and the Doctrine of Male Domination'
 author: 'Sally Roesch Wagner'
 affiliation: 'Matilda Joslyn Gage Center and Syracuse University'

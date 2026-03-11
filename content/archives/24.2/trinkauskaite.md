@@ -3,6 +3,7 @@ layout: archives.njk
 article_number: '12'
 volume: '24'
 issue: '2'
+pages: 306-316
 title: 'Baltic Religion: The Sacred Things'
 author: 'Eglutė Trinkauskaitė and Ellen B. Cutler'
 affiliation: ''

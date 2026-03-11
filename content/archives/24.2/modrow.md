@@ -3,6 +3,7 @@ layout: archives.njk
 article_number: '05'
 volume: '24'
 issue: '2'
+pages: 224-243
 title: 'Charting the Doctrine in the Colonial Archive: Papal Bulls and the Translation of the ‘Discovery’ Purpose'
 author: 'Sebastian Modrow'
 affiliation: ''

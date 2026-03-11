@@ -4,15 +4,15 @@
 Developed by Adam DJ Brett
 
 ## Next Steps
-1. Implement decap CMS
-2. connect to Google Webmaster 
-3. connect to bing
-4. enable analytics
+~~1. Implement decap CMS~~
+~~2. connect to Google Webmaster~~ 
+~~3. connect to bing~~
+~~4. enable analytics~~
 5. idea: use RT for book reviews
 6. add pagination to 24.2 and 25.1 pdfs
-7. add deploy button to readme
-8. fix canonical url in netlify
-9. make headers and names title case not all caps
+~~7. add deploy button to readme~~
+~~8. fix canonical url in netlify~~
+~~9. make headers and names title case not all caps~~
 
 ## EBSCO
 contact ebsco have link to pages or pdfs
@@ -20,10 +20,10 @@ contact ebsco have link to pages or pdfs
 ## increase incoming links
 
 ## CHANGELOG
-1. check author pages especially mine prove they are working
+~~1. check author pages especially mine prove they are working~~
 
 ## Needs
-1. netlify integration
+~~1. netlify integration~~
 2. after the domain name is activated impliement a DAM for pdfs and citations
 
 
@@ -31,6 +31,7 @@ contact ebsco have link to pages or pdfs
 + adamdjbrett.com
 + info@adamdjbrett.com
 
+## Removed Sveltia for Decap in order to get Google OAuth login
 ### Sveltia CMS Setup
 
 1. Create a GitHub OAuth App:

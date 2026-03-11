@@ -5,8 +5,7 @@ title: >-
 description: "This call invites interdisciplinary papers on populism, nationalism, and democratic futures, outlining themes, participation details, and deadlines for"
 date: '2025-04-18T20:11:47.000Z'
 author: editors
-image: >-
-  /images/2025/04/bundesarchiv_bild_183-1989-1106-405_plauen_demonstration_vor_dem_rathaus.webp
+image: /images/2025/04/bundesarchiv_bild_183-1989-1106-405_plauen_demonstration_vor_dem_rathaus.webp
 categories:
   - Conferences
   - Announcements

@@ -36,6 +36,21 @@
 #menu-toggle-btn:hover {
     filter: brightness(1.1);
 }
+.icon-svg {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.125em;
+    fill: currentColor;
+}
+.icon-svg.fa-lg {
+    width: 1.25em;
+    height: 1.25em;
+}
+#menu-toggle-btn .icon-svg,
+#theory-toggle-btn .icon-svg {
+    font-size: 16px;
+}
 
 .nav-editorial {
     list-style: none;
@@ -428,6 +443,19 @@ color:  #FF4136;}
 }
 .clu, a.clu {color: #6c757d;}
 .clu:hover, a.clu:hover { color: #FF4136;}
+svg.clu {
+  display: inline-block;
+  width: 1.25em;
+  height: 1.25em;
+  vertical-align: middle;
+}
+.nave.clu {
+  margin-right: 0 !important;
+  padding-right: 1em;
+}
+.nave.clu:last-child {
+  padding-right: 0;
+}
 
 blockquote{border-left:6px solid #ec5033;margin:1.5em 10px;padding:.5em 10px;quotes:"\201C""\201D""\2018""\2019"}blockquote:before{color:#ec5033;content:open-quote;font-size:4em;line-height:.1em;margin-right:.25em;vertical-align:-.4em}blockquote p{display:inline}
 

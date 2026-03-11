@@ -3,8 +3,9 @@ layout: archives.njk
 article_number: '03'
 volume: '24'
 issue: '2'
+pages: 208-213
 title: Introduction
-author: 'PHILIP P. ARNOLD, SANDRA BIGTREE, and ADAM DJ BRETT'
+author: Philip P. Arnold; Sandra Bigtree; Adam DJ Brett
 affiliation: ''
 description: "Introduction to a global volume on Christian Discovery, linking law, religion, and pedagogy, with Indigenous sovereignty and decolonial justice today."
 keywords:

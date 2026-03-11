@@ -3,6 +3,7 @@ import "./_config/polyfills.js";
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import pluginNavigation from "@11ty/eleventy-navigation";
+import fontAwesomePlugin from "@11ty/font-awesome";
 import yaml from "js-yaml";
 import markdownIt from "markdown-it";
 import markdownItAnchor from "markdown-it-anchor";
@@ -14,7 +15,6 @@ import pluginFilters from "./_config/filters.js";
 import { authorSlug, splitAuthors } from "./_config/authorSlug.js";
 import generateArchiveCitations from "./_config/generate-archive-citations.js";
 import generateReligiousTheoryCitations from "./_config/generate-religioustheory-citations.js";
-import validateReligiousTheoryImages from "./_config/validate-religioustheory-images.js";
 import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
@@ -436,10 +436,6 @@ export default async function (eleventyConfig) {
 
 	eleventyConfig.on("eleventy.before", async () => {
 		const runMode = process.env.ELEVENTY_RUN_MODE;
-		validateReligiousTheoryImages({
-			rootDir: process.cwd(),
-			failOnMissing: runMode === "build",
-		});
 		// In serve mode, skip heavyweight pre-build generation to prevent
 		// repeated high-memory rebuild cycles.
 		if (runMode !== "serve" && !isBenchMode) {
@@ -536,6 +532,7 @@ export default async function (eleventyConfig) {
 		.addPassthroughCopy({ "public/css": "css" })
 		.addPassthroughCopy({ "public/js": "js" })
 		.addPassthroughCopy({ "public/img": "img" })
+		.addPassthroughCopy({ "public/images": "images" })
 		.addPassthroughCopy({ "public/admin": "admin" })
 		.addPassthroughCopy({ "public/docs": "docs" })
 		.addPassthroughCopy({ "public/_redirects": "_redirects" })
@@ -567,6 +564,12 @@ export default async function (eleventyConfig) {
 		preAttributes: { tabindex: 0 },
 	});
 	eleventyConfig.addPlugin(pluginNavigation);
+	eleventyConfig.addPlugin(fontAwesomePlugin, {
+		failOnError: true,
+		defaultAttributes: {
+			class: "icon-svg",
+		},
+	});
 	// HTML transforms are expensive; CI sets `FAST_BUILD=1` to skip these.
 	// NOTE: HtmlBasePlugin and InputPathToUrlTransformPlugin are Eleventy 3.x features
 	// if (!isFastBuild) {

@@ -3,6 +3,7 @@ layout: archives.njk
 article_number: '13'
 volume: '24'
 issue: '2'
+pages: 317-322
 title: 'Other Forms of Dwelling: A Dalit – Feminist Perspective'
 author: 'Shrutika Lakshmi'
 affiliation: ''

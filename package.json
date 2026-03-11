@@ -54,6 +54,7 @@
 		"zod-validation-error": "^3.5.2"
 	},
 	"dependencies": {
+		"@11ty/font-awesome": "1.0.1",
 		"eleventy-plugin-toc": "^1.1.5",
 		"js-yaml": "^4.1.0",
 		"markdown-it": "^14.1.0",

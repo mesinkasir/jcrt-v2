@@ -8,5 +8,5 @@ bio: |-
 social:
   - title: "linkedin"
     url: "https://www.linkedin.com/in/shrutika-lakshmi-16506a83/"
-    icon: fa-brand fa-linkedin
+    icon: fa-brands fa-linkedin
 ---
