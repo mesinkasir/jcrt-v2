@@ -83,6 +83,12 @@
 <meta property="og:locale" content="{{ metadata.locale }}" />
 <meta name="generator" content="{{ eleventy.generator }}" />
 <meta name="site-generator" content="{{ eleventy.generator }}" />
+
+{# ── Dublin Core base (all pages) ── #}
+<meta property="dc:publisher" content="Whitestone Publications" />
+<meta property="dc:language" content="en" />
+<meta property="dc:format" content="text/html" />
+<meta property="dc:rights" content="Copyright © held by the author(s). Published in the Journal for Cultural and Religious Theory. https://jcrt.org/copyright/" />
 <link rel="preload" href="/css/bs.css" as="style" />
 <link rel="preload" href="/css/index.css" as="style" />
 <link rel="preload" href="/css/font.css" as="style" />
@@ -187,6 +193,43 @@
 {% set isBlogPost = ("/blog/" in page.url or "/religioustheory/" in page.url) and (not isBlogHome) and (not isAcademic) %}
 {% set pageSchemaType = "ScholarlyArticle" if isAcademic else ("Blog" if isBlogHome else ("BlogPosting" if isBlogPost else "WebPage")) %}
 {% set schemaAuthors = authorName | splitAuthors %}
+
+{# ── Dublin Core article + Google Scholar citation tags (archive pages only) ── #}
+{% if isAcademic %}
+  <meta property="dc:type" content="article" />
+  <meta property="dc:date" content="{{ publishedDate }}" />
+  <meta property="dc:identifier" content="{{ canonicalUrl }}" />
+  <meta property="dc:identifier" content="ISSN:1530-5228" />
+  <meta property="dc:source" content="The Journal for Cultural and Religious Theory, ISSN 1530-5228" />
+  {% if pageDesc %}<meta property="dc:description" content="{{ pageDesc }}" />{% endif %}
+  {% for kw in (keywords or []) %}
+  <meta property="dc:subject" content="{{ kw | replace('-', ' ') }}" />
+  {% endfor %}
+  {% for aName in schemaAuthors %}
+  <meta property="dc:creator" content="{{ aName }}" />
+  <meta name="citation_author" content="{{ aName }}" />
+  {% endfor %}
+  <meta name="citation_title" content="{{ pageTitle }}" />
+  <meta name="citation_journal_title" content="The Journal for Cultural and Religious Theory" />
+  <meta name="citation_issn" content="1530-5228" />
+  <meta name="citation_publication_date" content="{{ publishedDate }}" />
+  <meta name="citation_fulltext_html_url" content="{{ canonicalUrl }}" />
+  {% if volume %}<meta name="citation_volume" content="{{ volume }}" />{% endif %}
+  {% if issue %}<meta name="citation_issue" content="{{ issue }}" />{% endif %}
+  {% if pages %}
+    {% set pageRange = pages | parsePageRange %}
+    {% if pageRange.start %}<meta name="citation_firstpage" content="{{ pageRange.start }}" />{% endif %}
+    {% if pageRange.end %}<meta name="citation_lastpage" content="{{ pageRange.end }}" />{% endif %}
+  {% endif %}
+  {% if pdf %}
+  <meta name="citation_pdf_url" content="{{ metadata.url }}/archives/{{ volume }}.{{ issue }}/{{ pdf }}" />
+  {% endif %}
+{% elif "/authors/" in page.url %}
+  <meta property="dc:type" content="text" />
+  <meta property="dc:creator" content="{{ pageTitle }}" />
+{% else %}
+  <meta property="dc:type" content="text" />
+{% endif %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

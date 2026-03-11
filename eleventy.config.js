@@ -679,6 +679,12 @@ export default async function (eleventyConfig) {
 			.replace(/</g, "&lt;")
 			.replace(/>/g, "&gt;");
 	});
+	// Parse "123-456" page range into {start, end}
+	eleventyConfig.addFilter("parsePageRange", function (value) {
+		if (!value) return { start: "", end: "" };
+		const m = String(value).match(/^(\d+)\s*[-\u2013]\s*(\d+)$/);
+		return m ? { start: m[1], end: m[2] } : { start: "", end: "" };
+	});
 	eleventyConfig.addFilter("preferWebp", function (value) {
 		if (!value) return value;
 		const src = String(value);

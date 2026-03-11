@@ -23,7 +23,10 @@ COPYRIGHT_NOTICE = (
     "and must cite publication in this journal."
 )
 COPYRIGHT_URL = "https://jcrt.org/copyright/"
-JOURNAL_NAME = "Journal for Cultural & Religious Theory"
+JOURNAL_NAME = "The Journal for Cultural and Religious Theory"
+JOURNAL_ABBR = "Journal for Cultural & Religious Theory"
+PUBLISHER = "Whitestone Publications"
+ISSN = "1530-5228"
 SUBJECT = "Doctrine of Discovery"
 
 XMP_TEMPLATE = """\
@@ -32,14 +35,27 @@ XMP_TEMPLATE = """\
   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <rdf:Description rdf:about=""
         xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/">
+        xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/"
+        xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/">
       <dc:title><rdf:Alt><rdf:li xml:lang="x-default">{title}</rdf:li></rdf:Alt></dc:title>
       <dc:creator><rdf:Seq>{author_seq}</rdf:Seq></dc:creator>
+      <dc:publisher>{publisher}</dc:publisher>
       <dc:description><rdf:Alt><rdf:li xml:lang="x-default">{description}</rdf:li></rdf:Alt></dc:description>
       <dc:subject><rdf:Bag>{keyword_items}</rdf:Bag></dc:subject>
+      <dc:type>article</dc:type>
+      <dc:language>en</dc:language>
+      <dc:source>{journal_name}, ISSN {issn}</dc:source>
+      <dc:identifier>{issn}</dc:identifier>
       <dc:rights><rdf:Alt><rdf:li xml:lang="x-default">{copyright}</rdf:li></rdf:Alt></dc:rights>
       <xmpRights:WebStatement>{copyright_url}</xmpRights:WebStatement>
       <xmpRights:Marked>True</xmpRights:Marked>
+      <prism:publicationName>{journal_name}</prism:publicationName>
+      <prism:issn>{issn}</prism:issn>
+      {prism_volume}
+      {prism_number}
+      {prism_start_page}
+      {prism_end_page}
+      {prism_pub_date}
     </rdf:Description>
   </rdf:RDF>
 </x:xmpmeta>
@@ -62,16 +78,36 @@ def format_authors(author_str: str) -> list[str]:
     return parts
 
 
-def build_xmp(title: str, authors: list[str], description: str, keywords: list[str]) -> bytes:
+def parse_pages(pages_str: str) -> tuple[str, str]:
+    """Parse '123-456' into ('123', '456'). Returns ('', '') if unparseable."""
+    if not pages_str:
+        return ("", "")
+    m = re.match(r"^(\d+)\s*[-\u2013]\s*(\d+)$", str(pages_str).strip())
+    if m:
+        return (m.group(1), m.group(2))
+    return ("", "")
+
+
+def build_xmp(title: str, authors: list[str], description: str, keywords: list[str],
+              volume: str = "", issue: str = "", start_page: str = "",
+              end_page: str = "", pub_date: str = "") -> bytes:
     author_seq = "".join(f"      <rdf:li>{a}</rdf:li>\n" for a in authors)
     keyword_items = "".join(f"      <rdf:li>{k}</rdf:li>\n" for k in keywords)
     xml = XMP_TEMPLATE.format(
         title=title,
         author_seq=author_seq,
+        publisher=PUBLISHER,
         description=description or "",
         keyword_items=keyword_items,
+        journal_name=JOURNAL_NAME,
+        issn=ISSN,
         copyright=COPYRIGHT_NOTICE,
         copyright_url=COPYRIGHT_URL,
+        prism_volume=f"<prism:volume>{volume}</prism:volume>" if volume else "",
+        prism_number=f"<prism:number>{issue}</prism:number>" if issue else "",
+        prism_start_page=f"<prism:startingPage>{start_page}</prism:startingPage>" if start_page else "",
+        prism_end_page=f"<prism:endingPage>{end_page}</prism:endingPage>" if end_page else "",
+        prism_pub_date=f"<prism:publicationDate>{pub_date}</prism:publicationDate>" if pub_date else "",
     )
     return xml.encode("utf-8")
 
@@ -87,9 +123,26 @@ def update_pdf(pdf_path: Path, fm: dict, dry_run: bool = False) -> bool:
 
     author_display = "; ".join(authors) if authors else ""
 
+    volume = str(fm.get("volume", "") or "")
+    issue = str(fm.get("issue", "") or "")
+    start_page, end_page = parse_pages(str(fm.get("pages", "") or ""))
+    pub_date = ""
+    if fm.get("date"):
+        try:
+            from datetime import date as dt_date
+            d = fm["date"]
+            if hasattr(d, "isoformat"):
+                pub_date = d.isoformat()
+            else:
+                pub_date = str(d)[:10]
+        except Exception:
+            pass
+
     print(f"  Title:    {title}")
     print(f"  Authors:  {author_display}")
     print(f"  Keywords: {', '.join(keywords)}")
+    if volume or issue:
+        print(f"  Vol/Iss:  {volume}/{issue}  Pages: {start_page}-{end_page}" if start_page else f"  Vol/Iss:  {volume}/{issue}")
 
     if dry_run:
         print("  [dry-run] skipping write")
@@ -99,17 +152,34 @@ def update_pdf(pdf_path: Path, fm: dict, dry_run: bool = False) -> bool:
     writer = PdfWriter()
     writer.append(reader)
 
-    writer.add_metadata({
+    meta = {
         "/Title": title,
         "/Author": author_display,
         "/Subject": SUBJECT,
         "/Keywords": ", ".join(keywords),
         "/Description": description,
+        "/Publisher": PUBLISHER,
+        "/JournalTitle": JOURNAL_NAME,
+        "/ISSN": ISSN,
         "/Rights": COPYRIGHT_NOTICE,
         "/CopyrightURL": COPYRIGHT_URL,
-    })
+    }
+    if volume:
+        meta["/Volume"] = volume
+    if issue:
+        meta["/Issue"] = issue
+    if start_page:
+        meta["/StartPage"] = start_page
+    if end_page:
+        meta["/EndPage"] = end_page
+    if pub_date:
+        meta["/PublicationDate"] = pub_date
 
-    xmp_bytes = build_xmp(title, authors, description, keywords)
+    writer.add_metadata(meta)
+
+    xmp_bytes = build_xmp(title, authors, description, keywords,
+                          volume=volume, issue=issue, start_page=start_page,
+                          end_page=end_page, pub_date=pub_date)
     writer.xmp_metadata = xmp_bytes
 
     # Write to temp, then replace original
