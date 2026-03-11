@@ -9,7 +9,7 @@ eleventyExcludeFromCollections: true
 # Feed: {{ feedBaseUrl }}/feed/twtxt.txt
 {% set items = collections.feed | reverse -%}
 {% for item in items -%}
-{% if loop.index0 < 50 -%}
-{{ item.date | dateToRfc3339 }}	{{ feedBaseUrl }}{{ item.url }}	{{ (item.data.title or item.fileSlug or item.url or "Untitled") | striptags | trim }}
+{% if loop.index0 < 150 -%}
+{{ item.date | dateToRfc3339 }}	{{ (item.data.title or item.fileSlug or item.url or "Untitled") | striptags | trim }}	{{ feedBaseUrl }}{{ item.url }}
 {% endif -%}
 {% endfor -%}
