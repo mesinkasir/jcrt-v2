@@ -21,7 +21,7 @@ tags:
   - kenotic
 ---
 
-*The following is the second insatallment of a three-part series. The first can be found [here]( /16/revolutionary-love-kierkegaards-gift-economy-as-a-religious-corrective-to-the-leveling-of-the-public-sphere-andrew-ball/).*
+*The following is the second insatallment of a three-part series. The first can be found [here]( /religioustheory/posts/revolutionary-love-kierkegaards-gift-economy-as-a-religious-corrective-to-the-leveling-of-the-public-sphere-andrew-ball/).*
 
 ## Kierkegaard’s Agapic Gift Economy
 

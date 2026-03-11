@@ -18,7 +18,7 @@ tags:
   - colonial
 ---
 
-*The following is the first of a two-part series.  The second installment can be found [here]( /16/fetishism-and-the-erasure-of-identity-part-2-roger-green/).*
+*The following is the first of a two-part series.  The second installment can be found [here]( /religioustheory/posts/fetishism-and-the-erasure-of-identity-part-2-roger-green/).*
 
 The concept of fetishism has a special place within the long history of genocide against the Indigenous peoples of the Americas.  In one way, pursuing the concept acts as a diversion from Indigenous peoples because it acts as a red herring, focusing on an *imported* conception that has been part of European diagnostics of domination.  On the other hand, its particular development within Marxist trajectories has been useful in analyzing commodification within capitalism, a phenomenon that has today spread the far reaches of the globe.
 

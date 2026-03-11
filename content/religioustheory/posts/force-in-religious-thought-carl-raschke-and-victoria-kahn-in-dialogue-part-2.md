@@ -19,7 +19,7 @@ tags:
   - history
 ---
 
-*The following is the second of a three-part series.  [The first part]( /05/31/force-in-religious-thought-carl-raschke-and-victoria-kahn-in-dialogue-part-1/) was published on May 31, 2016.*
+*The following is the second of a three-part series.  [The first part]( /religioustheory/posts/force-in-religious-thought-carl-raschke-and-victoria-kahn-in-dialogue-part-1/) was published on May 31, 2016.*
 
 ## Heidegger, Kant, and the Political
 

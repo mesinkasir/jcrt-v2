@@ -22,7 +22,7 @@ tags:
   - religion
 ---
 
-*The following is the third installment of a three-part series.  The first one can be found [here,]( /06/26/the-dangers-of-dealing-with-derrida-revisiting-the-caputo-hagglund-debate-on-the-religious-reading-of-deconstruction-part-1-neal-deroo/)* *the second [here]( /03/the-dangers-of-dealing-with-derrida-revisiting-the-caputo-hagglund-debate-on-the-religious-reading-of-deconstruction-part-2-neal-deroo/).* 
+*The following is the third installment of a three-part series.  The first one can be found [here,]( /religioustheory/posts/the-dangers-of-dealing-with-derrida-revisiting-the-caputo-hagglund-debate-on-the-religious-reading-of-deconstruction-part-1-neal-deroo/)* *the second [here]( /religioustheory/posts/the-dangers-of-dealing-with-derrida-revisiting-the-caputo-hagglund-debate-on-the-religious-reading-of-deconstruction-part-2-neal-deroo/).* 
 
 ## Revisiting Another Debate
 

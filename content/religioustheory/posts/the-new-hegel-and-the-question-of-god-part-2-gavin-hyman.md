@@ -18,7 +18,7 @@ tags:
   - immanent
 ---
 
-*The following is the second installment of a three-part series.  The first one can be found [here]( /24/the-new-hegel-and-the-question-of-god-part-1-gavin-hyman/).*
+*The following is the second installment of a three-part series.  The first one can be found [here]( /religioustheory/posts/the-new-hegel-and-the-question-of-god-part-1-gavin-hyman/).*
 
 II
 

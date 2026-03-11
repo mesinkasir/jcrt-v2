@@ -20,7 +20,7 @@ tags:
   - reluctant
 ---
 
-*The following is the second of a two-part series. The first can be found [here.]( /01/the-reluctant-fundamentalist-and-the-inhospitable-state-abrahamic-hospitality-and-the-limits-of-multiculturalism-emily-mcavan/)*
+*The following is the second of a two-part series. The first can be found [here.]( /religioustheory/posts/the-reluctant-fundamentalist-and-the-inhospitable-state-abrahamic-hospitality-and-the-limits-of-multiculturalism-emily-mcavan/)*
 
 ## The Failure of Hospitality
 

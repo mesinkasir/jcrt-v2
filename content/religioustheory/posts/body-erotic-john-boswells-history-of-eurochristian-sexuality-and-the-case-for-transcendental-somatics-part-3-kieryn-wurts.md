@@ -20,7 +20,7 @@ tags:
   - emotional
 ---
 
-*The following is the last of a three-part series.The first can be found [here]( /04/24/body-erotic-john-boswells-history-of-eurochristian-sexuality-and-the-case-for-transcendental-somatics-part-1-kieryn-wurts/)*, the second [here]( /08/body-erotic-john-boswells-history-of-eurochristian-sexuality-and-the-case-for-transcendental-somatics-part-2-kieryn-wurts/).
+*The following is the last of a three-part series.The first can be found [here]( /religioustheory/posts/body-erotic-john-boswells-history-of-eurochristian-sexuality-and-the-case-for-transcendental-somatics-part-1-kieryn-wurts/)*, the second [here]( /religioustheory/posts/body-erotic-john-boswells-history-of-eurochristian-sexuality-and-the-case-for-transcendental-somatics-part-2-kieryn-wurts/).
 
 Essentialist and social constructionist discourses on sexuality lose their coherence precisely inasmuch as they seek to debate what one should be allowed to do with her body, while seeking to thoroughly circumvent the erotic. This amounts to a misapprehension of what the body is and what the body does. Discourses that operate under this misapprehension are, in a manner of speaking, a *waste of breath*. Raschke calls for a transition from a regulatory discourse oriented around the *body politic*, to a transcendental somatics oriented around the *body erotic,* which simply recognizes the(living) body as a finite entity which seeks to transcend itself. This drive towards self-transcendence is what we call *desire*, and one of the crucial things which bodies desire is connection to other bodies.
 

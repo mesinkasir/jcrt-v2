@@ -18,7 +18,7 @@ tags:
   - biopolitical
 ---
 
-*The following is the second of a three-part series. The first can be found* [*here*]( /19/antinomian-flesh-part-1-david-kline/)*.*
+*The following is the second of a three-part series. The first can be found* [*here*]( /religioustheory/posts/antinomian-flesh-part-1-david-kline/)*.*
 
 ## The Nomos of Being Human: Body and Flesh
 

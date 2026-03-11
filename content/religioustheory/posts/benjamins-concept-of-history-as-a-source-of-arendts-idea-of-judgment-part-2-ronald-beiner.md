@@ -22,7 +22,7 @@ tags:
   - materialism
 ---
 
-*“Benjamin’s Concept of History As A Source of Arendt’s Idea of Judgment” by Ronald Beiner is published in two parts during successive weeks.  The following is the second portion.  The first installment [can be found here]( /08/benjamins-concept-of-history-as-a-source-of-arendts-idea-of-judgment-ronald-beiner/).  
+*“Benjamin’s Concept of History As A Source of Arendt’s Idea of Judgment” by Ronald Beiner is published in two parts during successive weeks.  The following is the second portion.  The first installment [can be found here]( /religioustheory/posts/benjamins-concept-of-history-as-a-source-of-arendts-idea-of-judgment-ronald-beiner/).  
 *
 
 Universal history (the culmination of historicism)15 is based on the *flow* of thoughts. Materialistic historiography is based on the *arrest* of thoughts (thesis XVII). With the latter,  historical thinking receives a “shock,” and this shock stops it in its tracks. It comes face to face with the revolutionary moment, and is determined to blast the moment out of the homogeneous course of history. This is what Benjamin calls the *Jetztzeit* (now-time) in which the present and past are drawn into a messianic relation (thesis A).

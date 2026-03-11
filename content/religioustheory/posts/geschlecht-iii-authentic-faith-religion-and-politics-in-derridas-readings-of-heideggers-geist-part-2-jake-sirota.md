@@ -23,7 +23,7 @@ tags:
   - politics
 ---
 
-*The following is the second of a three-part series. The first can be found [here]( /07/geschlecht-iii-authentic-faith-religion-and-politics-in-derridas-readings-of-heideggers-geist-part-1-jake-sirota/).*
+*The following is the second of a three-part series. The first can be found [here]( /religioustheory/posts/geschlecht-iii-authentic-faith-religion-and-politics-in-derridas-readings-of-heideggers-geist-part-1-jake-sirota/).*
 
 At this point Derrida’s appraisal of Heidegger’s *Introduction to Metaphysics* becomes crucial, for if, as Derrida says, “the *Address* relaunches and confirms the essential elements of *Sein und Zeit*, so the *Einführung* \[*Intr. to Meta*.\] repeats the invocation of spirit launched in the *Address.*”[^1] The *Introduction* develops the precise mechanics of the link between Being and spirit which the address leaves unsaid, and as Derrida puts it, “it even relaunches it, explains it, extends it, justifies it, specifies it, surrounds it with unprecedented precautions.”[^2] Derrida’s reading will be supported by what is eventually found in the Black Notebooks, and particularly in *Ponderings* IIand III, though he never had access to them.[^3]
 

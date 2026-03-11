@@ -21,7 +21,7 @@ tags:
   - intellectual
 ---
 
-*The following is the second of a three-part series.The first can be found [here]( /03/thomas-aquinass-body-soul-dualism-and-the-hierarchy-of-human-dignity-in-brazil-theological-origins-of-a-nations-hierarchical-self-understanding-part-1-vinicius-marinho/)*, *the second [here]( /09/thomas-aquinass-body-soul-dualism-and-the-hierarchy-of-human-dignity-in-brazil-theological-origins-of-a-nations-self-understanding-part-2-vinicius-marinho/)*.
+*The following is the second of a three-part series.The first can be found [here]( /religioustheory/posts/thomas-aquinass-body-soul-dualism-and-the-hierarchy-of-human-dignity-in-brazil-theological-origins-of-a-nations-hierarchical-self-understanding-part-1-vinicius-marinho/)*, *the second [here]( /religioustheory/posts/thomas-aquinass-body-soul-dualism-and-the-hierarchy-of-human-dignity-in-brazil-theological-origins-of-a-nations-self-understanding-part-2-vinicius-marinho/)*.
 
 In sum, Boff proposes that a person is an indivisible body-soul unity who exists in dialogical relations and can transcendence social limitations by loving the socially inferior.
 

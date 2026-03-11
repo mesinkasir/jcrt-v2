@@ -18,7 +18,7 @@ tags:
   - subject
 ---
 
-*The following is the last installment of a three-part series.  The first one can be found [here]( /05/24/the-new-hegel-and-the-question-of-god-part-1-gavin-hyman/).  The second one can be found [here]( /05/31/the-new-hegel-and-the-question-of-god-part-2-gavin-hyman/).*
+*The following is the last installment of a three-part series.  The first one can be found [here]( /religioustheory/posts/the-new-hegel-and-the-question-of-god-part-1-gavin-hyman/).  The second one can be found [here]( /religioustheory/posts/the-new-hegel-and-the-question-of-god-part-2-gavin-hyman/).*
 
 As Thomas A. Lewis reminds us, the terms ‘God’, ‘spirit’ and ‘Absolute’ are synonymous for Hegel, the specific word used being dependent on the context in question (religion, philosophy and generic, respectively).  This is because philosophy and religion have a common ‘object’, although they are distinguished by the forms in which they are cognized – representation (*Vorstellung*) in the case of religion and self-determining concepts of thought (*Denken*) for philosophy.[^1]  That is to say, the absolute is spirit, the authoritative ‘object’ of all religion and philosophy; God is the representational expression of what philosophy grasps as spirit.[^2]
 

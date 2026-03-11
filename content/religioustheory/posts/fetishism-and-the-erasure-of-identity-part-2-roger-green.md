@@ -18,7 +18,7 @@ tags:
   - history
 ---
 
-*The following is the second of a two-part series.  The initial installment can be found [here]( /08/fetishism-and-the-erasure-of-identity-part-1-roger-green/).*
+*The following is the second of a two-part series.  The initial installment can be found [here]( /religioustheory/posts/fetishism-and-the-erasure-of-identity-part-1-roger-green/).*
 
 Although we must constantly remember that the fetish is the product of European imagination, the taking-up of the concept by postcolonial thinking also informs important ways to think about race and religion.  The “middle finger” of the fetish has historical precedence.  Let me take the Haitian Revolution as an example.  Carolyn Fick’s *The Making of Haiti* points out that the 1791 insurrection was not spontaneous, but rather carefully planned by slaves.[^1]
 

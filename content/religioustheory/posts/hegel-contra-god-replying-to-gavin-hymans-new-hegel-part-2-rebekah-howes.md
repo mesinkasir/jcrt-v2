@@ -21,7 +21,7 @@ tags:
   - philosophy
 ---
 
-*The following is the second of a three-part series. The first can be found [here]( /12/hegel-contra-god-replying-to-gavin-hymans-new-hegel-part-1-rebekah-howes/). The earlier article by Prof. Hyman to which the author replies can be found* [*here*]( /2019/06/08/the-new-hegel-and-the-question-of-god-part-3-gavin-hyman/)*.*
+*The following is the second of a three-part series. The first can be found [here]( /religioustheory/posts/hegel-contra-god-replying-to-gavin-hymans-new-hegel-part-1-rebekah-howes/). The earlier article by Prof. Hyman to which the author replies can be found* [*here*]( /religioustheory/posts/the-new-hegel-and-the-question-of-god-part-3-gavin-hyman/)*.*
 
 But what is always at stake in these arguments, writes Hyman, is the question of the contamination of the Absolute or God. Can we still speak of God as God if God is conditioned by what is other to God? This limitation is what Hyman, and the new interpretations, are interested in. What they find in Hegel is ‘a genuine \[or originary\] divine transcendence’[^1] which makes possible the distinction between transcendence and immanence as something posited. This ‘truly transcendent and unconditioned’[^2] God or Absolute is not distinct from the finite or immanent world because immanence is ‘the process of the self-manifestation of this divine Absolute.’[^3]
 
@@ -71,7 +71,7 @@ In one sense, this takes us back to Rose, and indeed to her earliest thinking. S
 
 For Rose, the key issue was how meaningful critique was within the totality of illusion. The logic of this question was preserved in her whole project thereafter. It is preserved in Hyman’s thinking regarding the unavoidable necessity that engulfs the relation of theology and philosophy, or of immanence and transcendence.  But, unlike Rose, he leaves unexamined the life and logic of precisely this necessity.
 
-[Continued]( /02/11/hegel-contra-god-replying-to-gavin-hymans-new-hegel-part-3-rebekah-howes/)
+[Continued]( /religioustheory/posts/hegel-contra-god-replying-to-gavin-hymans-new-hegel-part-3-rebekah-howes/)
 
 *Rebekah Howes is Senior Lecturer in the Department of Philosophy, Religions, and Liberal Arts at the University of Winchester (UK). She is the author of* The Philosophical Voice of Leonard Cohen’ in Spirituality and Desire in Leonard Cohen’s Songs and Poems *(Cambridge Scholars Publishing, 2017).*  
 

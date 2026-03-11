@@ -20,7 +20,7 @@ tags:
   - religion
 ---
 
-*The following article will appear next month in the Winter 2021-22 issue of the* Journal for Cultural and Religious Theory. *It is published in three installments*. *The first installment can be found [here.]( /07/locating-yhe-oceanic-in-sylvia-wynters-demonic-ground/)*
+*The following article will appear next month in the Winter 2021-22 issue of the* Journal for Cultural and Religious Theory. *It is published in three installments*. *The first installment can be found [here.]( /religioustheory/posts/locating-yhe-oceanic-in-sylvia-wynters-demonic-ground/)*
 
 ## Demonic Physics
 

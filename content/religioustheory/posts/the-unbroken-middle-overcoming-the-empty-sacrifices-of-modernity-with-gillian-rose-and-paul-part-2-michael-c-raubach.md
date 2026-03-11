@@ -21,7 +21,7 @@ tags:
   - city
 ---
 
-*The following is the second of a two-part series. The first can be found [here]( /04/the-unbroken-middle-overcoming-the-empty-sacrifices-of-modernity-with-gillian-rose-and-paul-michael-c-raubach/index%EF%B9%96preview=true&_thumbnail_id=3721.html)*
+*The following is the second of a two-part series. The first can be found [here]( /religioustheory/posts/the-unbroken-middle-overcoming-the-empty-sacrifices-of-modernity-with-gillian-rose-and-paul-michael-c-raubach/)*
 
 Is it not true, though, that many individuals of different races, creeds, and identities do live together in our cities? Against the backdrop of everyday life is there not a true plurality of subjects and ways of being? According to Rose, this plurality is an edifice. The scapegoat ritual “founds and re-founds” the mimetic violence of the “social order by instigating difference” disguised as true subjective plurality (Rose, 1992, 155).
 

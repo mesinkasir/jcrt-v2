@@ -22,7 +22,7 @@ tags:
   - violence
 ---
 
-*The following is the second of a two-part-series. The first can be read [here]( /2019/12/29/horror-fiction-and-catholic-theology-a-rhetorical-synthesis-gavin-hurley/).*
+*The following is the second of a two-part-series. The first can be read [here]( /religioustheory/posts/horror-fiction-and-catholic-theology-a-rhetorical-synthesis-gavin-hurley/).*
 
 What specifically sets horror apart from other genres such as fantasy and science fiction? The distinction can be distilled down to the genre’s affect of fear. As already established, horror is distinctive from other genres in that it fosters a feeling of fear in the audience. Some skeptics may think that fear, as an off-putting emotion, should be categorically avoided when discussing Catholic truths.
 

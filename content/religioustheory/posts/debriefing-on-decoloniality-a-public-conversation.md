@@ -195,4 +195,4 @@ And so we can even do these things in our basic, personal, individual lives.
 
 But I know it’s a hard question to answer.
 
-**[Continued]( /22/debriefing-on-decoloniality-a-public-conversation-part-2/)**
+**[Continued]( /religioustheory/posts/debriefing-on-decoloniality-a-public-conversation-part-2/)**

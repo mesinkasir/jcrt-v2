@@ -17,7 +17,7 @@ tags:
   - biopolitics
 ---
 
-*The following is the second installment in a three-part series.  The first installment was published on May 27, 2016 and can be found [here]( /05/27/biopolitics-and-vajranayana-buddhism-part-1/).*
+*The following is the second installment in a three-part series.  The first installment was published on May 27, 2016 and can be found [here]( /religioustheory/posts/biopolitics-and-vajranayana-buddhism-part-1/).*
 
 ## Chod, the Rite of Severance
 

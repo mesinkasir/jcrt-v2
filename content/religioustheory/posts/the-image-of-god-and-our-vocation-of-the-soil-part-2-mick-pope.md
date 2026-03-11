@@ -22,7 +22,7 @@ tags:
   - sanctuary
 ---
 
-*The article is published in two installments*. *The first can be found [here]( /03/the-image-of-god-and-our-vocation-of-the-soil-mike-pope/).*
+*The article is published in two installments*. *The first can be found [here]( /religioustheory/posts/the-image-of-god-and-our-vocation-of-the-soil-mike-pope/).*
 
 ## Humans from the Hummus – life as royal gardeners
 

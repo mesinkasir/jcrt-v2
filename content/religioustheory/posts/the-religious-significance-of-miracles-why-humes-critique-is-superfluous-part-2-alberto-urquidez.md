@@ -22,7 +22,7 @@ tags:
   - argument
 ---
 
-*The following is the second of a three-part series. The first can be found [here]( /14/the-religious-significance-of-miracles-why-humes-critique-is-superfluous/).*
+*The following is the second of a three-part series. The first can be found [here]( /religioustheory/posts/the-religious-significance-of-miracles-why-humes-critique-is-superfluous/).*
 
 The question I shall now consider is this: If not all miracles are religious miracles, how does Hume differentiate the two? How does he determine that, for two Humean miracles M1 and M2, the former is religiously significant and the latter is not? For Hume, identifying the cause of each event is the crucial factor in settling this question: to establish a religious miracle we must know that a religious deity is responsible for it. Given this position, identifying the cause of the miracle is the most important thing.
 

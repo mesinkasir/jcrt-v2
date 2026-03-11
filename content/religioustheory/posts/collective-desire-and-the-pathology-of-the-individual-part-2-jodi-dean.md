@@ -20,7 +20,7 @@ tags:
   - individuation
 ---
 
-*The following is the second installment of a two-part series.  The first installment was published on October 10 and can be [accessed here.]( /10/collective-desire-and-the-pathology-of-the-individual-jodi-dean/)  
+*The following is the second installment of a two-part series.  The first installment was published on October 10 and can be [accessed here.]( /religioustheory/posts/collective-desire-and-the-pathology-of-the-individual-jodi-dean/)  
 *
 
 If we do not give normative priority to the individual, that is, to the individual as the proper or exclusive form of subjectivity, then we could read the evidence Turkle offers differently. We could read it as an indication that a political form of separation and enclosure is changing, mutating, becoming something else.

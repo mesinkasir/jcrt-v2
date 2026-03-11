@@ -22,7 +22,7 @@ tags:
   - theology
 ---
 
-***The following is the second half of the article*.  *The first installment [can be found here.]( /03/22/untimely-meditations-on-techno-theology-and-theo-poetics-part-1-john-panteleimon-manoussakis/)***
+***The following is the second half of the article*.  *The first installment [can be found here.]( /religioustheory/posts/untimely-meditations-on-techno-theology-and-theo-poetics-part-1-john-panteleimon-manoussakis/)***
 
 ## Theopoetics II: The Difference between Technology and Logotechny
 

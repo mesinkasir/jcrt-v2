@@ -19,7 +19,7 @@ tags:
   - traditional
 ---
 
-*The following is the sixth lecture in an eight-lecture series. The most recent one can be found [here.]( /2018/11/13/god-and-history-lecture-5-johannes-zachhuber/)*
+*The following is the sixth lecture in an eight-lecture series. The most recent one can be found [here.]( /religioustheory/posts/god-and-history-lecture-5-johannes-zachhuber/)*
 
 I started the last couple of lectures with elaborate explanations of the meaning and the relevance of the topic. This seems less necessary today. That theology as the task of thinking and speaking about God is closely connected with our understanding of language, its character, and its limitations seems as obvious as it has been traditional.
 

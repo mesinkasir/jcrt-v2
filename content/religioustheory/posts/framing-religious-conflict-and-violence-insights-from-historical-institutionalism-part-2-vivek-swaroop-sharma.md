@@ -24,7 +24,7 @@ tags:
   - communal
 ---
 
-*The following is the second installment of a two-part series.  The first installment can be found [here]( /12/framing-religious-conflict-and-violence-insights-from-historical-institutionalism-part-1-vivek-swaroop-sharma/).*
+*The following is the second installment of a two-part series.  The first installment can be found [here]( /religioustheory/posts/framing-religious-conflict-and-violence-insights-from-historical-institutionalism-part-1-vivek-swaroop-sharma/).*
 
 ## Religious Conflict and Violence Reframed
 

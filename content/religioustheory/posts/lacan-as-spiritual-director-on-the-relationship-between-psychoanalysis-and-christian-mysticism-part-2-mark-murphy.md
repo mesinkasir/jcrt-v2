@@ -23,7 +23,7 @@ tags:
   - discourse
 ---
 
-*The following is the second installment of a three-part series.  The first can be found [here]( /07/31/lacan-as-spiritual-director-on-the-relationship-between-psychoanalysis-and-christian-mysticism-part-1-mark-murphy/).*
+*The following is the second installment of a three-part series.  The first can be found [here]( /religioustheory/posts/lacan-as-spiritual-director-on-the-relationship-between-psychoanalysis-and-christian-mysticism-part-1-mark-murphy/).*
 
 *What Does Lacan Mean When He Says That Spiritual Direction is a Demand for Truth?*
 

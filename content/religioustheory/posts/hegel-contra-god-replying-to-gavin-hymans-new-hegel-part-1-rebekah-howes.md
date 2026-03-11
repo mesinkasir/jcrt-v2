@@ -21,7 +21,7 @@ tags:
   - logic
 ---
 
-*The following is the first of a three-part series. The earlier article by Prof. Hyman to which the author replies can be found* [*here*]( /2019/06/08/the-new-hegel-and-the-question-of-god-part-3-gavin-hyman/)*.*
+*The following is the first of a three-part series. The earlier article by Prof. Hyman to which the author replies can be found* [*here*]( /religioustheory/posts/the-new-hegel-and-the-question-of-god-part-3-gavin-hyman/)*.*
 
 Gavin Hyman’s ‘The ‘New Hegel’ and the Question of God,’ in the *Journal for Cultural and Religious Theory* [^1] raises the age old and yet still timely question about the knowability or otherwise of God. More particularly, it brings together some of the prominent thinkers from recent continental philosophy who are re-engaging with the work of Hegel in the wake of Gillian Rose’s seminal book *Hegel Contra Sociology*, published in 1981.[^2]
 
@@ -67,7 +67,7 @@ The point, Hyman emphasises, is that Hegel insists on the necessity of the co-be
 
 What is important, for Hyman, is that ‘the Absolute or God is not *set apar*t and *independent* of the thought that thinks it, but is rather *implicated* in and, in a certain sense, *constituted* by such thought.’[^37] The ‘absolutely unconditioned’ is thus the *result* of the movement of thought and the *movement* of thought itself in the subject. Insofar as this doubleness is the case, Hyman echoes Rose by suggesting that the Hegelian absolute is present not simply as something known or achieved but that which is implied and ‘revealed in the process of thought itself.’[^38]
 
-[Continued]( /30/hegel-contra-god-replying-to-gavin-hymans-new-hegel-part-2-rebekah-howes/)
+[Continued]( /religioustheory/posts/hegel-contra-god-replying-to-gavin-hymans-new-hegel-part-2-rebekah-howes/)
 
 *Rebekah Howes is Senior Lecturer in the Department of Philosophy, Religions, and Liberal Arts at the University of Winchester (UK). She is the author of* The Philosophical Voice of Leonard Cohen’ in Spirituality and Desire in Leonard Cohen’s Songs and Poems *(Cambridge Scholars Publishing, 2017).*  
 

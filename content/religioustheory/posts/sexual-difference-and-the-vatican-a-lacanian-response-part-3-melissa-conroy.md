@@ -20,7 +20,7 @@ tags:
   - theory
 ---
 
-*The following is the second of a three-part series. The first can be found [here]( /09/28/sexual-difference-and-the-vatican-a-lacanian-response-part-1-melissa-conroy/)*, the second [here]( /06/sexual-difference-and-the-vatican-a-lacanian-response-part-2-melissa-conroy/).
+*The following is the second of a three-part series. The first can be found [here]( /religioustheory/posts/sexual-difference-and-the-vatican-a-lacanian-response-part-1-melissa-conroy/)*, the second [here]( /religioustheory/posts/sexual-difference-and-the-vatican-a-lacanian-response-part-2-melissa-conroy/).
 
 Likewise, Teresa de Lauretis argues that gender is best understood as “the representation of a relation, that of belonging to a class, a group, a category.”[^1] Sexual difference is not the result of the difference between male and female genitalia but rather, sexual difference becomes understood as that difference. Jacqueline Rose states this succinctly: sexual difference is “assigned according to whether individual subjects do or do not possess the phallus, which means not that anatomical difference is sexual difference (the one as strictly deducible from the other) but that anatomical difference comes to *figure* sexual difference, that is, it becomes the sole representative of what that difference is allowed to be.”[^2]
 

@@ -20,7 +20,7 @@ tags:
   - philosophical
 ---
 
-*The following is the second part in a two-part installment. The first part can be found [here]( /01/lutheran-theology-and-postmodern-philosophy-part-i-olli-pekka-vaino/).* 
+*The following is the second part in a two-part installment. The first part can be found [here]( /religioustheory/posts/lutheran-theology-and-postmodern-philosophy-part-i-olli-pekka-vaino/).* 
 
 ## On Epistemology
 

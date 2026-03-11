@@ -22,7 +22,7 @@ tags:
   - social
 ---
 
-*The following is the second of a two-part series. The first can be found [here]( /07/27/the-imagination-in-spinoza-the-moral-good-between-prophecy-and-the-amor-dei-intellectualis-part-1-caterina-de-gaetano/). [The entire article](https://jcrt.org/archives/22.1/Degaetano.pdf) appears in Issue 22.1 of the* Journal for Cultural and Religious Theor*y.*
+*The following is the second of a two-part series. The first can be found [here]( /religioustheory/posts/the-imagination-in-spinoza-the-moral-good-between-prophecy-and-the-amor-dei-intellectualis-part-1-caterina-de-gaetano/). [The entire article](https://jcrt.org/archives/22.1/Degaetano.pdf) appears in Issue 22.1 of the* Journal for Cultural and Religious Theor*y.*
 
 ## The Morality of the Bible
 

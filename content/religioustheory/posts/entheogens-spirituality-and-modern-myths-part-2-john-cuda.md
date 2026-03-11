@@ -18,7 +18,7 @@ tags:
   - different
 ---
 
-*The following is the second of a three-part series. The [first]( /04/entheogens-spirituality-and-modern-myths/) can be found here*.
+*The following is the second of a three-part series. The [first]( /religioustheory/posts/entheogens-spirituality-and-modern-myths/) can be found here*.
 
 Symbolically, the idea of going beyond the edge of the ordinary world to encounter other levels of reality is a recurring theme in religion and mythology. For example, Hindu mystical texts promise, via practices such as yoga and meditation, glimpses of the actual world which exists behind the facade of our commonly experienced reality (e.g. The Yoga Sutras of Patanjali). Ordinary reality is dismissed by this tradition as a delusory “veil of maya,” a sensory illusion which hides the true ground of our existence,[^1] similar to Plato’s parable of the Cave in his *Republic*.[^2] The primary function of spirituality, according to Campbell, is to assist a person in making such a transcendental leap.[^3] In other words, it provides a means for breaking with conventional values that ordinarily serve as the structuring pillars of one’s lifeworld.
 

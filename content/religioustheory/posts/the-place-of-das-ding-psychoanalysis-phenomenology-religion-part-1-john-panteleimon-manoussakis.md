@@ -24,7 +24,7 @@ tags:
   - discussion
 ---
 
-*The following article is the first installment of a two-part series.  The second installment can be found [here.]( /21/the-place-of-das-ding-psychoanalysis-phenomenology-religion-part-2-john-panteleimon-manoussakis/)*
+*The following article is the first installment of a two-part series.  The second installment can be found [here.]( /religioustheory/posts/the-place-of-das-ding-psychoanalysis-phenomenology-religion-part-2-john-panteleimon-manoussakis/)*
 
 ## I.  Introduction.
 

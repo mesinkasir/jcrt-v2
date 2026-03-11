@@ -19,7 +19,7 @@ tags:
   - revelation
 ---
 
-*The following is the fifth lecture in an eight-lecture series.  The most recent one can be found [here]( /08/29/god-and-existence-lecture-4-johannes-zachhuber/).*
+*The following is the fifth lecture in an eight-lecture series.  The most recent one can be found [here]( /religioustheory/posts/god-and-existence-lecture-4-johannes-zachhuber/).*
 
 The existentialist approach you heard about last week emphasized the individual aspect of human interaction with God: the reality of God is impressed upon the individual person when they reflect upon their lives and their boundaries. Yet in the biblical tradition, there is another important form of interaction between God and humanity, and this is history. Indeed, one of the major unifying bonds between the Old and the New Testament is the narrative of a covenant between God and his people, and this covenant is acted out in history.
 

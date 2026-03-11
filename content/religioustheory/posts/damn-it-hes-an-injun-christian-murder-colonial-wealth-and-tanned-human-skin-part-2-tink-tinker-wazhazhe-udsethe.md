@@ -20,7 +20,7 @@ tags:
   - colonial
 ---
 
-*The following is the second of a three-part series.  The first installation can be found [here]( /14/damn-it-hes-an-injun-christian-murder-colonial-wealth-and-tanned-human-skin-tink-tinker-wazhazhe-udsethe-part-1/).  The article in full originally appeared in The New Polis in January, 2019.*
+*The following is the second of a three-part series.  The first installation can be found [here]( /religioustheory/posts/damn-it-hes-an-injun-christian-murder-colonial-wealth-and-tanned-human-skin-tink-tinker-wazhazhe-udsethe-part-1/).  The article in full originally appeared in The New Polis in January, 2019.*
 
 ## Trans Allegheny Frontier Enclaves
 

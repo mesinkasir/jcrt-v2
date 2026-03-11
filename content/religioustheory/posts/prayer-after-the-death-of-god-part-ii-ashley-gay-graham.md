@@ -22,7 +22,7 @@ tags:
   - give
 ---
 
-*The following is the second part in a two-part installment. The first part can be found [here]( /11/prayer-after-the-death-of-god-part-i-ashley-gay-graham/).*
+*The following is the second part in a two-part installment. The first part can be found [here]( /religioustheory/posts/prayer-after-the-death-of-god-part-i-ashley-gay-graham/).*
 
 ## III. Prayer As Confession: Thinking in love
 

@@ -17,7 +17,7 @@ tags:
   - resistance
 ---
 
-The following is the third of a three-part series. The first can be found [here]( /10/19/antinomian-flesh-part-1-david-kline/), the second [here]( /10/26/antinomian-flesh-part-2-david-kline/).
+The following is the third of a three-part series. The first can be found [here]( /religioustheory/posts/antinomian-flesh-part-1-david-kline/), the second [here]( /religioustheory/posts/antinomian-flesh-part-2-david-kline/).
 
 ## Antinomian Spirit as Christian Supremacy
 

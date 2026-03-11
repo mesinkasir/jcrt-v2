@@ -21,7 +21,7 @@ tags:
   - forgiveness
 ---
 
-*The following is the third installment of a three-part series.  The link to the first portion can be found [here]( /01/time-emptied-and-time-renewed-the-dominion-of-capital-and-a-theo-politics-of-contretemps-part-1-daniel-rhodes/).  The link to the second is [here]( /06/time-emptied-and-time-renewed-the-dominion-of-capital-and-a-theo-politics-of-contretemps-part-2-daniel-rhodes/).*
+*The following is the third installment of a three-part series.  The link to the first portion can be found [here]( /religioustheory/posts/time-emptied-and-time-renewed-the-dominion-of-capital-and-a-theo-politics-of-contretemps-part-1-daniel-rhodes/).  The link to the second is [here]( /religioustheory/posts/time-emptied-and-time-renewed-the-dominion-of-capital-and-a-theo-politics-of-contretemps-part-2-daniel-rhodes/).*
 
 ## Time Renewed: A Theo-Politics of Contretemps
 

@@ -22,7 +22,7 @@ tags:
   - hierarchical
 ---
 
-*The following is the second of a three-part series.* *The first can be found [here]( /03/thomas-aquinass-body-soul-dualism-and-the-hierarchy-of-human-dignity-in-brazil-theological-origins-of-a-nations-hierarchical-self-understanding-part-1-vinicius-marinho/).*
+*The following is the second of a three-part series.* *The first can be found [here]( /religioustheory/posts/thomas-aquinass-body-soul-dualism-and-the-hierarchy-of-human-dignity-in-brazil-theological-origins-of-a-nations-hierarchical-self-understanding-part-1-vinicius-marinho/).*
 
 *The Ecclesial Endeavor to Define the Brazilian Soul: a Summa of the Colonial Church’s Roman Structure and Thomist-Scholastic Doctrine*
 

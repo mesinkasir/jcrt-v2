@@ -22,7 +22,7 @@ tags:
   - wilderness
 ---
 
-*The following is the second part in a two-part installment. The first  part can be found [here]( /21/john-the-possibilizer-the-promise-of-a-kearnian-baptismal-hermeneutic-part-i-eric-trozzo/).*
+*The following is the second part in a two-part installment. The first  part can be found [here]( /religioustheory/posts/john-the-possibilizer-the-promise-of-a-kearnian-baptismal-hermeneutic-part-i-eric-trozzo/).*
 
 ## A Kearnian Reading of the Lukan John
 

@@ -21,7 +21,7 @@ tags:
   - spiritual
 ---
 
-*The following is the second of a three-part series.* *The first can be found [here]( /16/introducing-spirit-dance-social-justice-and-reconstructed-spiritual-practices-joshua-hall/).*
+*The following is the second of a three-part series.* *The first can be found [here]( /religioustheory/posts/introducing-spirit-dance-social-justice-and-reconstructed-spiritual-practices-joshua-hall/).*
 
 As to the purpose of this spirit dancing, Kopenawa constantly emphasizes that it is a form of linguistic communication. “It is these spirits’ words that I make heard,” he writes. “It is not just my own thought” (314). More precisely, when fed by the *yãkoana* powder (i.e., when the shaman inhales the tree sap powder), the *xapiri* literally alter the shaman’s body to render him capable of receiving and understanding their dancing messages. These spirits’ dances are performed on shiny reflective surfaces (which Kopenawa calls “mirrors”), onto which the spirits descend, along gossamer-thin lines, from their palatial mansions in the skies.
 

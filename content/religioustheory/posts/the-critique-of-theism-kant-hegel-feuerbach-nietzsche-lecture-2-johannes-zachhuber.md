@@ -26,7 +26,7 @@ tags:
   - critique
 ---
 
-*The following is the second lecture in an eight-lecture series.   The first can be found [here.]( /05/12/thinking-about-god-in-a-pluralistic-world-the-challenge-of-modern-theology-lecture-1-johannes-zuchaber/)*
+*The following is the second lecture in an eight-lecture series.   The first can be found [here.]( /religioustheory/posts/thinking-about-god-in-a-pluralistic-world-the-challenge-of-modern-theology-lecture-1-johannes-zuchaber/)*
 
 I introduced these lectures last week by pointing out the unique situation within which our thinking of God is situated. Intellectual developments over the past two hundred years have meant that discourse about God has increasingly become both more pluralistic and more controversial.
 

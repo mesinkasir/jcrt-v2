@@ -22,7 +22,7 @@ tags:
   - un-essence
 ---
 
-*The following is the second of a two-part series.  The first segment was published on July 25, 2016 and [can be accessed here]( /07/25/love-strong-as-death-jews-against-heidegger-on-the-issue-of-finitude-part-1-agata-bielik-robson/).*
+*The following is the second of a two-part series.  The first segment was published on July 25, 2016 and [can be accessed here]( /religioustheory/posts/love-strong-as-death-jews-against-heidegger-on-the-issue-of-finitude-part-1-agata-bielik-robson/).*
 
 ## Another Finitude – Rosenzweig versus Heidegger
 

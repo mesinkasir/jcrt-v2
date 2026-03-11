@@ -21,7 +21,7 @@ tags:
   - metaphysics
 ---
 
-*The following is the second installment of a two-part series. The first can be found [here]( /16/the-curious-whiteheadian-proclivity-in-schelers-account-of-god-and-persons-j-edward-hackett/).*
+*The following is the second installment of a two-part series. The first can be found [here]( /religioustheory/posts/the-curious-whiteheadian-proclivity-in-schelers-account-of-god-and-persons-j-edward-hackett/).*
 
 *Geist und Drang*  
   

@@ -24,7 +24,7 @@ tags:
   - interpretation
 ---
 
-*The following is the second part in a two-part installment. The first  part can be found [here]( /19/mischief-idolatry-and-the-demonic-toward-a-hermeneutic-of-play-part-i-kevin-lewis/).* 
+*The following is the second part in a two-part installment. The first  part can be found [here]( /religioustheory/posts/mischief-idolatry-and-the-demonic-toward-a-hermeneutic-of-play-part-i-kevin-lewis/).* 
 
 ## III.
 

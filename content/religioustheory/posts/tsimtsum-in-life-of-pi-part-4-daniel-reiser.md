@@ -17,7 +17,7 @@ tags:
   - postmodernism
 ---
 
-*The following is the last of a four-part series. The first can be found [here]( /11/25/tsimtsum-in-life-of-pi-part-1-daniel-reiser/)*, *the second [here]( /08/tsimtsum-in-life-of-pi-part-2-daniel-reiser/)*, *the third [here]( /15/tsimtsum-in-life-of-pi-part-3-daniel-reiser/).*
+*The following is the last of a four-part series. The first can be found [here]( /religioustheory/posts/tsimtsum-in-life-of-pi-part-1-daniel-reiser/)*, *the second [here]( /religioustheory/posts/tsimtsum-in-life-of-pi-part-2-daniel-reiser/)*, *the third [here]( /religioustheory/posts/tsimtsum-in-life-of-pi-part-3-daniel-reiser/).*
 
 Is what Martel presents his readers only a pragmatic approach which demonstrates the utilitarian value of religion? Is religion “false” but nevertheless worth adopting because it provides a better (story) way of life?[^1] Is God just another item on the long list of human survival skills? The answer, I believe, is no.
 

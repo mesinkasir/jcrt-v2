@@ -18,7 +18,7 @@ tags:
   - biopolitical
 ---
 
-*The following is the third and final installment in a three-part series.  The first installment was published on May 27, 2016 and can be found [here]( /05/27/biopolitics-and-vajranayana-buddhism-part-1/).  The [second installment]( /08/biopolitics-and-vajrayana-buddhism-part-2/) was published on June 13.  
+*The following is the third and final installment in a three-part series.  The first installment was published on May 27, 2016 and can be found [here]( /religioustheory/posts/biopolitics-and-vajranayana-buddhism-part-1/).  The [second installment]( /religioustheory/posts/biopolitics-and-vajrayana-buddhism-part-2/) was published on June 13.  
 *
 
 Despite the longstanding presence of the Dhamra in the Vajrayana cultural area, in particular Tibet, belief in what could be compared to a soul or some form of higher aspect of the self is prevalent. The soul, or the “la” as it is known in the Tibetan language, is part of a triad of vital energies extant within every human being. The word is similar in structure and pronunciation to the word “lha”, which denotes a high spirit or god in Tibetan.

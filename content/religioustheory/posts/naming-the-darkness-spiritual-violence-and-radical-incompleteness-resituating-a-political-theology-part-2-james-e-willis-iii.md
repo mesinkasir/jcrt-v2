@@ -25,7 +25,7 @@ tags:
   - violence
 ---
 
-*The following is the second of a two-part series. The first can be found [here]( /01/naming-the-darkness-spiritual-violence-and-radical-incompleteness-resituating-a-political-theology-james-e-willis-iii/)*[.]( /01/naming-the-darkness-spiritual-violence-and-radical-incompleteness-resituating-a-political-theology-james-e-willis-iii/)
+*The following is the second of a two-part series. The first can be found [here]( /religioustheory/posts/naming-the-darkness-spiritual-violence-and-radical-incompleteness-resituating-a-political-theology-james-e-willis-iii/)*[.]( /religioustheory/posts/naming-the-darkness-spiritual-violence-and-radical-incompleteness-resituating-a-political-theology-james-e-willis-iii/)
 
 ## Martin Hägglund: Democratic Socialism
 

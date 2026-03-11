@@ -18,7 +18,7 @@ tags:
   - theological
 ---
 
-*The following is the second of a four-part series. The first can be found* [*here*]( /11/25/tsimtsum-in-life-of-pi-part-1-daniel-reiser/)*.*
+*The following is the second of a four-part series. The first can be found* [*here*]( /religioustheory/posts/tsimtsum-in-life-of-pi-part-1-daniel-reiser/)*.*
 
 Hasidism, which translated Kabbalah into psychological categories, was a target of Elyashiv’s criticism.[^1] He likewise opposed Kabbalists active in Jerusalem, such as R. Abraham Isaac Kook and R. Yehuda Leib Ashlag, who offered sociological or nationalistic interpretations of kabbalistic notions.[^2] Elyashiv understood well the concern for corporealizing the divine which provided the impetus for metaphorical interpretations of Kabbalah, yet maintained that such approaches differed from the Kabbalah itself:
 

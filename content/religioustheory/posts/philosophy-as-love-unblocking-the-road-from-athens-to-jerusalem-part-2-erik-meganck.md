@@ -21,7 +21,7 @@ tags:
   - theological
 ---
 
-*The following is the second of a three part-series. The first can be found* [*here*]( /11/29/philosophy-as-love-unblocking-the-road-from-athens-to-jerusalem-part-1-erik-meganck/)*.*
+*The following is the second of a three part-series. The first can be found* [*here*]( /religioustheory/posts/philosophy-as-love-unblocking-the-road-from-athens-to-jerusalem-part-1-erik-meganck/)*.*
 
 Love is not the opposite of planning; openness is not the opposite of enclosedness. Openness is not the new metaphysical principle that deals out signification among all beings. It does not replace God or *Geist* or Will or any other Supreme Being. It ‘undoes’ these Beings of their supremacy out of Love. It remains impossible to think openness, alterity, hospitality, the way they are meant here, in any enclosed system. There, these terms will be reduced to noncommittal concepts, categories, predicates. Metaphysics cannot deal with this openness where meaning comes in and leaks away, as a movement or event of sense. That scenario is, in the words of Leszek Kolakowksi, “metaphysical horror.”
 

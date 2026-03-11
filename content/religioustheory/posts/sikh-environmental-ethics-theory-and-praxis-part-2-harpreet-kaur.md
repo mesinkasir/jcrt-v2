@@ -17,7 +17,7 @@ tags:
   - justice
 ---
 
-*The following is the second installment of a two-part series.* *The first can be found [here]( /07/sikh-environmental-ethics-theory-and-praxis-part-1-harpreet-kaur/)*.
+*The following is the second installment of a two-part series.* *The first can be found [here]( /religioustheory/posts/sikh-environmental-ethics-theory-and-praxis-part-1-harpreet-kaur/)*.
 
 ## Kinship with and Gratitude for Nature
 

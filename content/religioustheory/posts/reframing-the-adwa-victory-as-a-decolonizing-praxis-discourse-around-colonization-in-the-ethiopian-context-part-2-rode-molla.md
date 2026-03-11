@@ -22,7 +22,7 @@ tags:
   - social
 ---
 
-*The following is the second of a two-part series. The first can be found [here]( /01/30/reframing-the-adwa-victory-as-a-decolonizing-praxis-discourse-around-colonization-in-the-ethiopian-context/).*
+*The following is the second of a two-part series. The first can be found [here]( /religioustheory/posts/reframing-the-adwa-victory-as-a-decolonizing-praxis-discourse-around-colonization-in-the-ethiopian-context/).*
 
 ## Docile Ethiopian Bodies
 

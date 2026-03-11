@@ -19,7 +19,7 @@ tags:
   - secular
 ---
 
-*The following is the second installment of a three-part series.  The first one [can be found here]( /07/28/traversing-religious-and-aesthetic-states-in-w-h-audens-for-the-time-being-part-1-raji-singh-soni/).*
+*The following is the second installment of a three-part series.  The first one [can be found here]( /religioustheory/posts/traversing-religious-and-aesthetic-states-in-w-h-audens-for-the-time-being-part-1-raji-singh-soni/).*
 
 Used by Auden in concert with “limitation” to qualify boundaries proper to secular aesthetics in modernity, the term “absurd” in its Kierkegaardian sense implies another precinct against which art and the artist will necessarily chafe in nonreligious domains of the understanding. Ultimately, as a lay, non-liturgical, and thus secular work of art that surreptitiously advances a “Christian conception” of aesthetics, “The Sea and the Mirror” delineates the zone of the absurd as wrought by a religious “paradox of faith”; bordering on the secularist understanding’s “finite world” of aesthetic play, this domain of religious paradox and absurdity harbors “an interiority \[or level of ineffable secrecy in the singular individual\] that is incommensurable with \[the\] exteriority” that governs the worldly, secular, empirical understanding.[^1]
 

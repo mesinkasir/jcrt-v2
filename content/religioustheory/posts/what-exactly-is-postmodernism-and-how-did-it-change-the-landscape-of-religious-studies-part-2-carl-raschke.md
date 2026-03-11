@@ -24,7 +24,7 @@ tags:
   - academic
 ---
 
-*This article is published in two installments. The first can be found [here]( /09/28/what-exactly-is-postmodernism-and-how-did-it-change-the-landscape-of-religious-studies-part-1-carl-raschke/).*
+*This article is published in two installments. The first can be found [here]( /religioustheory/posts/what-exactly-is-postmodernism-and-how-did-it-change-the-landscape-of-religious-studies-part-1-carl-raschke/).*
 
 III.
 

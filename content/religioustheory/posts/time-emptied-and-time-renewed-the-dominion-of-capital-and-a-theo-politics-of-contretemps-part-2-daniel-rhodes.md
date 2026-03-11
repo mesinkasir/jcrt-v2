@@ -21,7 +21,7 @@ tags:
   - accumulation
 ---
 
-*The following is the second installment of a three-part series.  The link to the first portion can be found [here]( /01/time-emptied-and-time-renewed-the-dominion-of-capital-and-a-theo-politics-of-contretemps-part-1-daniel-rhodes/).*
+*The following is the second installment of a three-part series.  The link to the first portion can be found [here]( /religioustheory/posts/time-emptied-and-time-renewed-the-dominion-of-capital-and-a-theo-politics-of-contretemps-part-1-daniel-rhodes/).*
 
 As the source of productivity, time rendered as quantifiable and rectilinear not only orders the social and political to accumulation but orients and shapes the human subject to this experience as well. Its disjointed time, configured as a series of homogenous and irreversible units ordered to growth and accumulation becomes the culturally dominant experience of time under the imperial sign of money. Time has become fully monetized, and *homo* *temporalis* has become *homo* *economicus*. The result, as Marx recognized, is that the person herself becomes completely determined by this experience of time. Within the domain of the fallen, earthly city, “Time is everything, man is nothing; he is at most time’s carcass. Quality no longer matters. Quantity alone decides everything; hour for hour, day for day.”[^1]
 

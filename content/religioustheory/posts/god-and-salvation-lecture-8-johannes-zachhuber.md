@@ -18,7 +18,7 @@ tags:
   - religion
 ---
 
-*This is the eighth lecture in an eight-lecture series.  The most recent lecture can be found [here]( /10/god-as-person-and-trinity-lecture-7-johannes-zachhuber/).*
+*This is the eighth lecture in an eight-lecture series.  The most recent lecture can be found [here]( /religioustheory/posts/god-as-person-and-trinity-lecture-7-johannes-zachhuber/).*
 
 The paper these lectures support is entitled “God, Christ, and Salvation”, but of these it seems that only the first two are actually addressed. You have heard eight lectures about “God”. So, what about salvation? Is this at all addressed, or is this as an issue simply relegated to the sidelines?
 

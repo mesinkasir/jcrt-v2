@@ -22,7 +22,7 @@ tags:
   - tertiary
 ---
 
-*The following is the second of a two-part series. The first can be found [here.]( /17/longing-for-an-impossible-past-derridas-of-grammatology-and-the-coronavirus-as-the-inauguration-of-an-age-of-writing-part-1-jared-lacy/)*
+*The following is the second of a two-part series. The first can be found [here.]( /religioustheory/posts/longing-for-an-impossible-past-derridas-of-grammatology-and-the-coronavirus-as-the-inauguration-of-an-age-of-writing-part-1-jared-lacy/)*
 
 Furthermore there is an element of nostalgia implicit in this desire. Like the armed protestors who stormed city capital buildings across the United States, there is a sense among certain students and faculty, that in the age of Coronavirus and social distancing, we have lost something like a *parousia*, an unmediated full presence, that had obtained at some point in therecent past. There is a general wish “to go back *from the supplement to the source.*”[^17] 
 

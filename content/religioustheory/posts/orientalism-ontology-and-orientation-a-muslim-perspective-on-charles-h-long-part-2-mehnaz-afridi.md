@@ -23,7 +23,7 @@ tags:
   - ontology
 ---
 
-*The following is the second of a two-part series. The first can be found [here]( /09/orientalism-ontology-and-orientation/). The full article is published in the spring 2022 issue of the* [Journal for Cultural and Religious Theory](https://jcrt.org)*.*
+*The following is the second of a two-part series. The first can be found [here]( /religioustheory/posts/orientalism-ontology-and-orientation/). The full article is published in the spring 2022 issue of the* [Journal for Cultural and Religious Theory](https://jcrt.org)*.*
 
 This novel brings me to Long’s work about descriptive and prescriptive narratives of the colonial and the New World. For example, he used to use a common phrase or idiom: “Who shot John?”  At first, as an immigrant and new to the United States, I had no idea if I was missing something in this phrase. Was it cultural from a movie, an event, or just American phraseology?  As I spent more hours sitting in living rooms, restaurants, and classrooms, I began to unfold the phrase; “Who Shot John?”  Dr. Long used this phrase to demonstrate that the knowledge and facts that most people were seeking were irrelevant, and that most of our questions were meaningless.
 

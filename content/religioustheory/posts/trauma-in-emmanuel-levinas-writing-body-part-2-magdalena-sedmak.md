@@ -19,7 +19,7 @@ tags:
   - present
 ---
 
-*The following is the second of a two part series.  The first can be found [here]( /15/trauma-in-emmanuel-levinas-writing-body-part-1-magdalena-sedmak/). [The entire article](https://jcrt.org/archives/22.1/Sedmak.pdf) appears in Issue 22.1 of the* Journal for Cultural and Religious Theor*y.*
+*The following is the second of a two part series.  The first can be found [here]( /religioustheory/posts/trauma-in-emmanuel-levinas-writing-body-part-1-magdalena-sedmak/). [The entire article](https://jcrt.org/archives/22.1/Sedmak.pdf) appears in Issue 22.1 of the* Journal for Cultural and Religious Theor*y.*
 
 ## The Ethical Relation as Language
 

@@ -19,7 +19,7 @@ tags:
   - poetic
 ---
 
-*The following is the final installment of a three-part series.  The first one [can be found here]( /07/28/traversing-religious-and-aesthetic-states-in-w-h-audens-for-the-time-being-part-1-raji-singh-soni/), the second one [here]( /04/traversing-w-h-audens-religious-and-aesthetic-states-part-2-raji-singh-soni/).*
+*The following is the final installment of a three-part series.  The first one [can be found here]( /religioustheory/posts/traversing-religious-and-aesthetic-states-in-w-h-audens-for-the-time-being-part-1-raji-singh-soni/), the second one [here]( /religioustheory/posts/traversing-w-h-audens-religious-and-aesthetic-states-part-2-raji-singh-soni/).*
 
 As Julia Reinhard Lupton argues, Shakespeare’s Caliban complicates our sense of what it means to be a creature or creaturely. “The world of creatures,” Lupton posits,[^1]
 

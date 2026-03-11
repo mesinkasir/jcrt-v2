@@ -22,7 +22,7 @@ tags:
   - contextualism
 ---
 
-*The following is the second of a two-part series. The first can be found [here]( /17/the-ultimate-and-the-penultimate-bonhoeffers-twofold-contextualism-in-adjudicating-competing-ethical-claims-part-1-w-travis-mcmaken/).*
+*The following is the second of a two-part series. The first can be found [here]( /religioustheory/posts/the-ultimate-and-the-penultimate-bonhoeffers-twofold-contextualism-in-adjudicating-competing-ethical-claims-part-1-w-travis-mcmaken/).*
 
 ## Self-Inflicted Death: Bonhoeffer’s Ethic in Action
 

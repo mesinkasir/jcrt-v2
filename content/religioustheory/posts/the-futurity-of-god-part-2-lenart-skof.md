@@ -18,7 +18,7 @@ tags:
   - magical
 ---
 
-*The following is the second of a two-part series. The first can be found [here.]( /02/the-futurity-of-god-part-1-lenart-skof/)*
+*The following is the second of a two-part series. The first can be found [here.]( /religioustheory/posts/the-futurity-of-god-part-1-lenart-skof/)*
 
 In a chapter titled “The Magic of Being Mormon”, [^1] Stephen H. Webb presents us with an account on magic within Mormonism and its theology. Within Christianity, calling something magical, or the magic label itself, clearly, can only serve as a designation for various spells and empty incantations or, more straightforwardly, as a means to ridicule someone simply for holding this position. But it is precisely the Mormonism with its peculiar sense for both ancient magic and new evolutionary science that enables us to rethink the meaning and the theological sense of these allegedly non-Christian or simply “pagan” elements.
 

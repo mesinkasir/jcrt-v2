@@ -23,7 +23,7 @@ tags:
   - psychological
 ---
 
-*The following is the second part in a two-part installment. You can find the first part [here]( /09/30/religion-and-mental-health-the-therapeutic-value-of-the-teachings-of-jesus-part-1-thomas-roberts-and-delbert-hayden/).* 
+*The following is the second part in a two-part installment. You can find the first part [here]( /religioustheory/posts/religion-and-mental-health-the-therapeutic-value-of-the-teachings-of-jesus-part-1-thomas-roberts-and-delbert-hayden/).* 
 
 *Maintaining a State of Hope and Taking a Transcendent Perspective about Human Worries*
 

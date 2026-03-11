@@ -17,7 +17,7 @@ tags:
   - psychological
 ---
 
-*The following is the third of a four-part series. The first can be found [here]( /11/25/tsimtsum-in-life-of-pi-part-1-daniel-reiser/)*, *the second [here.]( /08/tsimtsum-in-life-of-pi-part-2-daniel-reiser/)*
+*The following is the third of a four-part series. The first can be found [here]( /religioustheory/posts/tsimtsum-in-life-of-pi-part-1-daniel-reiser/)*, *the second [here.]( /religioustheory/posts/tsimtsum-in-life-of-pi-part-2-daniel-reiser/)*
 
 Beyond the question of metaphor and reality, the greatest difference between Pi’s two stories is in his attitudes towards the situation in which he finds himself. God’s name is invoked again and again in the first story. Pi suffers from crises and moments of doubt, yet he always remains anchored in his efforts to uncover the “presence found in absence”—“It was natural that, bereft and desperate as I was, in the throes of unremitting suffering, I should turn to God.” (283-284) This foundation—his faith in God—provides him with the hope and ability to overcome the many challenges, even moments of doubt, brought about by the experience of absence:
 

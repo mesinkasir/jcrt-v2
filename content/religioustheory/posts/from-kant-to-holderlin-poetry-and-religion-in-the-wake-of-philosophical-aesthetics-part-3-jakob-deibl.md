@@ -21,7 +21,7 @@ tags:
   - subject
 ---
 
-*The following is the second installment of a three-part series.  The first one can be found [here]( /04/30/from-kant-to-holderlin-poetry-and-religion-in-the-wake-of-philosophical-aesthetics/).  Translated by Philipp Schlögl.*
+*The following is the second installment of a three-part series.  The first one can be found [here]( /religioustheory/posts/from-kant-to-holderlin-poetry-and-religion-in-the-wake-of-philosophical-aesthetics/).  Translated by Philipp Schlögl.*
 
 *Letters II: The Schematism of the Pure Concepts of the Understanding as Starting Point*
 

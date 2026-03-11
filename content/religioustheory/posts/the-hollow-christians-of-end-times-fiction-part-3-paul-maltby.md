@@ -17,7 +17,7 @@ tags:
   - natural
 ---
 
-*The following is the third of a three-part series. The first can be found [here]( /02/18/the-hollow-christians-of-end-times-fiction-part-1-paul-maltby/)*, *the second* [*here*]( /02/25/the-hollow-christians-of-end-times-fiction-part-2-paul-maltby/)*.*
+*The following is the third of a three-part series. The first can be found [here]( /religioustheory/posts/the-hollow-christians-of-end-times-fiction-part-1-paul-maltby/)*, *the second* [*here*]( /religioustheory/posts/the-hollow-christians-of-end-times-fiction-part-2-paul-maltby/)*.*
 
 ## A Non-Sacramental Nature
 

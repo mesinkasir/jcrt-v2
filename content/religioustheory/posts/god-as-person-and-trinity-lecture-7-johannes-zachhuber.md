@@ -19,7 +19,7 @@ tags:
   - important
 ---
 
-*The following is the seventh lecture in an eight-lecture series. The most recent one can be found [here]( /02/god-and-language-lecture-6-johannes-zachhuber/).*
+*The following is the seventh lecture in an eight-lecture series. The most recent one can be found [here]( /religioustheory/posts/god-and-language-lecture-6-johannes-zachhuber/).*
 
  The possibility that God is person has often been denied. It has been pointed out that the concept of person in order to make sense to us needs limitations which we wouldn’t not willingly ascribe to God. Thus, the early 19th century philosopher Johann Gottlob Fichte asks rhetorically:
 

@@ -22,7 +22,7 @@ tags:
   - philosophy
 ---
 
-*The following is the second installment of a two-part series.  The first part can be found [here]( /13/the-place-of-das-ding-psychoanalysis-phenomenology-religion-part-1-john-panteleimon-manoussakis/).*
+*The following is the second installment of a two-part series.  The first part can be found [here]( /religioustheory/posts/the-place-of-das-ding-psychoanalysis-phenomenology-religion-part-1-john-panteleimon-manoussakis/).*
 
 ## The Place of das Ding.
 

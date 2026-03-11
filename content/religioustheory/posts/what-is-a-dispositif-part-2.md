@@ -24,7 +24,7 @@ tags:
   - politics
 ---
 
-*The following article by internationally known theory scholar Gregg Lambert is the second of a two-part series.  The first part was published on July 11, 2016 and can be found [here]( /11/what-is-a-dispositif-part-1/).  
+*The following article by internationally known theory scholar Gregg Lambert is the second of a two-part series.  The first part was published on July 11, 2016 and can be found [here]( /religioustheory/posts/what-is-a-dispositif-part-1/).  
 *
 
 Later, in the same argument, Foucault summarizes this analogy in a manner that will continue to inform the thesis that in the modern period politics becomes increasing made up of strategies and tactics that are derived from the technologies of war. Thus,

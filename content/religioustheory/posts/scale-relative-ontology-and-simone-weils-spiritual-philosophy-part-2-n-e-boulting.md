@@ -20,7 +20,7 @@ tags:
   - cosmic
 ---
 
-*The following is the second of a two-part series. The first can be found [here]( /11/scale-relative-ontology-and-simone-weils-spiritual-philosophy-part-1-n-e-boulting/).*
+*The following is the second of a two-part series. The first can be found [here]( /religioustheory/posts/scale-relative-ontology-and-simone-weils-spiritual-philosophy-part-1-n-e-boulting/).*
 
 ## Simone Weil’s Rejection of “The New Science”
 
