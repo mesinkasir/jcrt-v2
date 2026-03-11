@@ -17,7 +17,7 @@ tags:
   - liberalism
 ---
 
-![](http://www.bookforum.com/archive/feb_05/stry.imgs/funcke.gif)
+![](/images/funcke.gif)
 
 Peter Sloterdijk, Online Book Forum
 

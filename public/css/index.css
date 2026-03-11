@@ -534,7 +534,7 @@ blockquote{border-left:6px solid #ec5033;margin:1.5em 10px;padding:.5em 10px;quo
         left: 15px; 
     }
     body.menu-open #menu-toggle-btn {
-        left: calc(var(--sidebar-width) - 55px) !important;
+        left: calc(var(--sidebar-width) + 20px) !important;
     }
     .upd {margin-top: -120px;}
     #content-wrapper {
@@ -601,7 +601,7 @@ blockquote{border-left:6px solid #ec5033;margin:1.5em 10px;padding:.5em 10px;quo
     }
 
     body.sidebar-open #menu-toggle-btn {
-        left: calc(280px + 15px) !important;
+        left: calc(var(--sidebar-width) + 20px) !important;
     }
 
     body.sidebar-open {
@@ -851,7 +851,7 @@ body.menu-open #menu-toggle-btn {
     }
 
     body.menu-open #menu-toggle-btn {
-        left: 235px !important;
+        left: calc(var(--sidebar-width) + 20px) !important;
     }
 }
 
@@ -862,4 +862,10 @@ body.menu-open #menu-toggle-btn {
     .mobile {
         display: none !important;
     }
+}
+
+/* Final override: keep hamburger clear of sidebar search when menu is open */
+body.menu-open #menu-toggle-btn,
+body.sidebar-open #menu-toggle-btn {
+    left: calc(var(--sidebar-width) + 20px) !important;
 }

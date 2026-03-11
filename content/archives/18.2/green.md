@@ -1,6 +1,6 @@
 ---
-title:
-author:
+title: Fetish and the Erasure of Indigeneity
+author: Roger Green
 affilation:
 abstract:
 keywords: []

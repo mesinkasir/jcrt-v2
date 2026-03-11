@@ -189,7 +189,7 @@ Movements such as NAR are not so much a threat to “democracy” per se as to t
 
 [^24]: Lieven, op. cit., 34.
 
-[^25]: "A Christian Nation? Understanding the Threat of Christian Nationalism to American Democracy and Culture: Findings for the 2023 Brookings/Christian Nationalism Survey (Washington DC: Public Religion Research Institute/Brookings Institute, 2023),  [/images/external/PRRI-Christian-Nationalism-2023.pdf](/images/external/PRRI-Christian-Nationalism-2023.pdf).  Retrieved February 11, 2023.
+[^25]: "A Christian Nation? Understanding the Threat of Christian Nationalism to American Democracy and Culture: Findings for the 2023 Brookings/Christian Nationalism Survey (Washington DC: Public Religion Research Institute/Brookings Institute, 2023), [PRRI-Christian-Nationalism-2023.pdf](/images/external/PRRI-Christian-Nationalism-2023.pdf). Retrieved February 11, 2023.
 
 [^26]: USA Today/CNN/Gallup poll, May 20, 2005, [https://usatoday30.usatoday.com/news/polls/tables/live/2003-09-29-religion-poll.htm](https://usatoday30.usatoday.com/news/polls/tables/live/2003-09-29-religion-poll.htm).  Retrieved Feb. 4, 2023.
 

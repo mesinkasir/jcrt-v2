@@ -19,7 +19,7 @@ tags:
   - social
 ---
 
-*The following is the second of a two-part series. The first can be found [here]( /15/reorientation-in-the-field-why-religion-matters-part-1-wendy-felese/).* *The article was first given at a conference in 2019 in Athens, Greece. Citation for the original paper is as follows: Felese, W. (2019). “Reorientation in the Field: Why Religion Matters”, Athens: ATINER’S Conference Paper Series, No: REL2019-2659.*
+*The following is the second of a two-part series. The first can be found [here](/posts/reorientation-in-the-field-why-religion-matters-part-1-wendy-felese/).* *The article was first given at a conference in 2019 in Athens, Greece. Citation for the original paper is as follows: Felese, W. (2019). “Reorientation in the Field: Why Religion Matters”, Athens: ATINER’S Conference Paper Series, No: REL2019-2659.*
 
 ## The Third Eye
 
@@ -104,7 +104,7 @@ Given our close affiliation with the discipline of anthropology and the social s
 
 [^36^<https://www.makivik.org/.](https://www.makivik.org/) Accessed April 27, 2019.
 
-37Pfeiff, [/images/external/Margopfeiff-Zebedee-Nungak.pdf](/images/external/Margopfeiff-Zebedee-Nungak.pdf)
+37Pfeiff, [Margopfeiff-Zebedee-Nungak.pdf](/images/external/Margopfeiff-Zebedee-Nungak.pdf)
 
 38Pfeiff.
 

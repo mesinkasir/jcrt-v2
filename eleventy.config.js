@@ -14,11 +14,25 @@ import pluginFilters from "./_config/filters.js";
 import { authorSlug, splitAuthors } from "./_config/authorSlug.js";
 import generateArchiveCitations from "./_config/generate-archive-citations.js";
 import generateReligiousTheoryCitations from "./_config/generate-religioustheory-citations.js";
+import validateReligiousTheoryImages from "./_config/validate-religioustheory-images.js";
 import fs from "node:fs";
 import path from "node:path";
-import os from "node:os";
 import crypto from "node:crypto";
+import { createRequire } from "node:module";
 import { DateTime } from "luxon";
+
+const require = createRequire(import.meta.url);
+const osCompat = require("node:os");
+if (typeof osCompat.availableParallelism !== "function") {
+	osCompat.availableParallelism = () => {
+		try {
+			const cpuCount = osCompat.cpus?.().length || 1;
+			return Math.max(1, cpuCount);
+		} catch {
+			return 1;
+		}
+	};
+}
 
 const imageDimensionCache = new Map();
 const resolveImagePathCache = new Map();
@@ -131,6 +145,109 @@ function resolveImagePath(src) {
 	return null;
 }
 
+function escapeHtmlAttr(value) {
+	return String(value ?? "")
+		.replace(/&/g, "&amp;")
+		.replace(/"/g, "&quot;")
+		.replace(/</g, "&lt;")
+		.replace(/>/g, "&gt;");
+}
+
+function parseWidths(input, fallback = [320, 480, 640]) {
+	if (Array.isArray(input)) {
+		const normalized = input
+			.map((v) => Number.parseInt(v, 10))
+			.filter((v) => Number.isFinite(v) && v > 0);
+		if (normalized.length > 0) return [...new Set(normalized)].sort((a, b) => a - b);
+	}
+	if (typeof input === "string") {
+		const normalized = input
+			.split(",")
+			.map((v) => Number.parseInt(v.trim(), 10))
+			.filter((v) => Number.isFinite(v) && v > 0);
+		if (normalized.length > 0) return [...new Set(normalized)].sort((a, b) => a - b);
+	}
+	return fallback;
+}
+
+async function renderResponsiveThumb(src, options = {}) {
+	const {
+		alt = "",
+		className = "",
+		sizes = "100vw",
+		widths = [320, 480, 640],
+		loading = "lazy",
+		fetchpriority = "low",
+		decoding = "async",
+		fallbackSrc = "/img/jcrt-open-graph.webp",
+		style = "",
+	} = options;
+
+	const resolvedFallback = resolveImagePath(fallbackSrc) ? fallbackSrc : "/img/jcrt-open-graph.webp";
+	const candidate = String(src || "").trim();
+	let finalSrc = candidate && candidate !== "null" && candidate !== "undefined" ? candidate : resolvedFallback;
+	let filePath = resolveImagePath(finalSrc);
+
+	if (!filePath) {
+		finalSrc = resolvedFallback;
+		filePath = resolveImagePath(finalSrc);
+	}
+
+	const fallbackOnError = `if(this.dataset.fallbackAttempted){this.onerror=null;this.src='${resolvedFallback}';}else{this.dataset.fallbackAttempted='1';this.src=this.dataset.fallbackSrc||'${resolvedFallback}';}`;
+	const safeAlt = escapeHtmlAttr(alt);
+	const safeClass = escapeHtmlAttr(className);
+	const safeStyle = escapeHtmlAttr(style);
+	const safeSizes = escapeHtmlAttr(sizes);
+	const safeFallbackSrc = escapeHtmlAttr(finalSrc);
+	const safeLoading = escapeHtmlAttr(loading);
+	const safeFetchpriority = escapeHtmlAttr(fetchpriority);
+	const safeDecoding = escapeHtmlAttr(decoding);
+
+	const fallbackAttrs = (() => {
+		const fileDims = filePath ? getImageDimensionsFromPath(filePath) : null;
+		const width = fileDims?.width || 640;
+		const height = fileDims?.height || 360;
+		return `width="${width}" height="${height}"`;
+	})();
+
+	if (!filePath) {
+		return `<img src="${safeFallbackSrc}" alt="${safeAlt}" class="${safeClass}" style="${safeStyle}" ${fallbackAttrs} sizes="${safeSizes}" loading="${safeLoading}" fetchpriority="${safeFetchpriority}" decoding="${safeDecoding}" data-fallback-src="${safeFallbackSrc}" onerror="${fallbackOnError}">`;
+	}
+
+	if (typeof osCompat.availableParallelism !== "function") {
+		return `<img src="${safeFallbackSrc}" alt="${safeAlt}" class="${safeClass}" style="${safeStyle}" ${fallbackAttrs} sizes="${safeSizes}" loading="${safeLoading}" fetchpriority="${safeFetchpriority}" decoding="${safeDecoding}" data-fallback-src="${safeFallbackSrc}" onerror="${fallbackOnError}">`;
+	}
+
+	const { default: Image } = await import("@11ty/eleventy-img");
+	const metadata = await Image(filePath, {
+		widths: parseWidths(widths),
+		formats: ["webp", "jpeg"],
+		outputDir: "./_site/img/thumbnails",
+		urlPath: "/img/thumbnails",
+		sharpOptions: {
+			animated: true,
+		},
+	});
+
+	return Image.generateHTML(
+		metadata,
+		{
+			alt,
+			class: className,
+			sizes,
+			loading,
+			fetchpriority,
+			decoding,
+			style,
+			"data-fallback-src": finalSrc,
+			onerror: fallbackOnError,
+		},
+		{
+			whitespaceMode: "inline",
+		}
+	);
+}
+
 function createMemoizedRenderer(renderFn, maxEntries = 2000) {
 	const cache = new Map();
 	return (input) => {
@@ -201,7 +318,7 @@ function archiveIssueSortKey(inputPath, url) {
 async function ensureFavicons() {
 	// `@11ty/eleventy-img` requires Node versions that implement `os.availableParallelism()`.
 	// If you run the build on an older Node (e.g. v18.12.x), skip generation.
-	if (typeof os.availableParallelism !== "function") return;
+	if (typeof osCompat.availableParallelism !== "function") return;
 
 	const sourceSvg = path.join(process.cwd(), "public/img/logos/JCRT.svg");
 	const outputDir = path.join(process.cwd(), "public/img/logos");
@@ -319,6 +436,10 @@ export default async function (eleventyConfig) {
 
 	eleventyConfig.on("eleventy.before", async () => {
 		const runMode = process.env.ELEVENTY_RUN_MODE;
+		validateReligiousTheoryImages({
+			rootDir: process.cwd(),
+			failOnMissing: runMode === "build",
+		});
 		// In serve mode, skip heavyweight pre-build generation to prevent
 		// repeated high-memory rebuild cycles.
 		if (runMode !== "serve" && !isBenchMode) {
@@ -577,6 +698,32 @@ export default async function (eleventyConfig) {
 		imageDimensionCache.set(cacheKey, attrs);
 		return attrs;
 	});
+	eleventyConfig.addNunjucksAsyncShortcode(
+		"responsiveThumb",
+		async function (
+			src,
+			alt = "",
+			className = "",
+			sizes = "100vw",
+			widths = "320,480,640",
+			loading = "lazy",
+			fetchpriority = "low",
+			fallbackSrc = "/img/jcrt-open-graph.webp",
+			style = ""
+		) {
+			return renderResponsiveThumb(src, {
+				alt,
+				className,
+				sizes,
+				widths,
+				loading,
+				fetchpriority,
+				decoding: "async",
+				fallbackSrc,
+				style,
+			});
+		}
+	);
 	eleventyConfig.addFilter("htmlEntityDecode", function (value) {
 		if (value === null || value === undefined) return "";
 		let s = String(value);

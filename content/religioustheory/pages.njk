@@ -5,17 +5,24 @@ permalink: /religioustheory/pages/index.html
 <div class="container-fluid">
   {% include "partials/nav_desktop.njk" %}
 <h1>Static Pages</h1>
+{% set defaultPageImage = '/img/jcrt-open-graph.webp' %}
+{% set firstTheoryPage = (collections.theoryPages | first) %}
+{% set firstTheoryPageImage = defaultPageImage %}
+{% if firstTheoryPage and firstTheoryPage.data and firstTheoryPage.data.image %}
+  {% set firstTheoryPageImage = (firstTheoryPage.data.image | ensureImage(defaultPageImage)) %}
+{% endif %}
+{% set firstTheoryPageImagePreferred = (firstTheoryPageImage | preferWebp) %}
 <div class="mb-4">
   <img
-    src="/img/jcrt-open-graph.webp"
-    data-fallback-src="/img/jcrt-open-graph.webp"
+    src="{{ firstTheoryPageImagePreferred }}"
+    data-fallback-src="{{ firstTheoryPageImage }}"
     alt="Religious Theory"
-    {% imageAttrs '/img/jcrt-open-graph.webp', 1200, 675 %}
+    {% imageAttrs firstTheoryPageImage, 1200, 675 %}
     class="img-fluid rounded shadow-sm w-100"
     loading="lazy"
     decoding="async"
     style="max-height: 320px; object-fit: cover;"
-    onerror="this.onerror=null;this.src='/img/jcrt-open-graph.webp';">
+    onerror="if(this.dataset.fallbackAttempted){this.onerror=null;this.src='/img/jcrt-open-graph.webp';}else{this.dataset.fallbackAttempted='1';this.src=this.dataset.fallbackSrc||'/img/jcrt-open-graph.webp';}">
 </div>
 
 <ul>

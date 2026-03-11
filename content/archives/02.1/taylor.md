@@ -43,7 +43,7 @@ My slide projection pieces each consist in the projection of two separate slides
 
 * * *
 
-[![Open this article in a new window.](https://jcrt.org/images/menu/window.gif)](taylor/) [![Contents of this issue.](https://jcrt.org/images/menu/home.gif)](https://jcrt.org/archives/02.1/index.html) [![Print this page.](https://jcrt.org/images/menu/print.gif)](javascript:print\(\)) ['](https://jcrt.org/copyright/) 2000 Christopher M. Taylor. All rights reserved.  
+2000 Christopher M. Taylor. All rights reserved.  
 Updated 07/28/21.   
 http://jcrt.org/archives/02.1/taylor/
 

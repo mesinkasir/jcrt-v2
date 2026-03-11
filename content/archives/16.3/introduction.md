@@ -1,6 +1,6 @@
 ---
-title:
-author:
+title: The End of Theology and The Event of Truth
+author: Carl Raschke
 affilation:
 abstract:
 keywords: []

@@ -8,7 +8,7 @@ keywords:
   - christian-philosophy
   - judeo-christian-tradition
   - offices-of-mental-health-practitioners-except-physicians
-pdf:
+pdf: robertsandhayden.pdf
 sort_id:
 volume: 18
 issue: 3

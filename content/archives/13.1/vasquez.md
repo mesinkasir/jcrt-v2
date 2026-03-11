@@ -1,6 +1,6 @@
 ---
-title:
-author:
+title: "From Colonialism To Neo-liberal Capitalism: Latino/a Immigrants In The U.s. And The New Biopolitics"
+author: Manuel Vasquez
 affilation:
 abstract:
 keywords: []

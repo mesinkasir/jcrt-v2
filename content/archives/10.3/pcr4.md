@@ -1,7 +1,7 @@
 ---
-title:
-author:
-affilation:
+title: "Postmodernism, Culture and Religion 4: The Future of Continental Philosophy of Religion"
+author: "John D. Caputo"
+affilation: Syracuse University
 abstract:
 keywords: []
 pdf: pcr4.pdf

@@ -1,7 +1,7 @@
 ---
-title:
-author:
-affilation:
+title: Introduction
+author: "Maria Almanza; Joseph Aldinger"
+affilation: 
 abstract:
 keywords: []
 pdf: intro.pdf

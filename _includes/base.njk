@@ -28,6 +28,53 @@
   </div>
 </footer>
 </div>
+<script>
+  (function () {
+    const fallback = "/img/jcrt-open-graph.webp";
+    const applyFallback = (img) => {
+      if (!img || img.dataset.fallbackApplied === "1") return;
+      img.dataset.fallbackApplied = "1";
+      img.onerror = null;
+      img.src = fallback;
+    };
+    function applyImageFallbacks() {
+      const images = document.querySelectorAll("img");
+      images.forEach((img) => {
+        if (img.dataset.fallbackBound === "1") return;
+        img.dataset.fallbackBound = "1";
+        img.onerror = function () {
+          if (this.dataset.fallbackAttempted === "1") {
+            applyFallback(this);
+            return;
+          }
+          this.dataset.fallbackAttempted = "1";
+          this.src = this.dataset.fallbackSrc || fallback;
+        };
+      });
+    }
+    document.addEventListener(
+      "error",
+      (event) => {
+        const img = event.target;
+        if (!(img instanceof HTMLImageElement)) return;
+        if (img.dataset.fallbackAttempted === "1") {
+          applyFallback(img);
+          return;
+        }
+        img.dataset.fallbackAttempted = "1";
+        img.src = img.dataset.fallbackSrc || fallback;
+      },
+      true
+    );
+    const observer = new MutationObserver(() => applyImageFallbacks());
+    observer.observe(document.documentElement, { childList: true, subtree: true });
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", applyImageFallbacks);
+    } else {
+      applyImageFallbacks();
+    }
+  })();
+</script>
 <script defer src="/js/bs.js"></script>
 <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" /></noscript>

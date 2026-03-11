@@ -19,7 +19,16 @@ layout: post.njk
     if (window.PagefindUI) {
       new PagefindUI({
         element: "#search-page",
-        showSubResults: true
+        showSubResults: true,
+        processResult: (result) => {
+          const currentTitle = result?.meta?.title || result?.title || "";
+          if (!currentTitle.trim()) {
+            const cleanPath = (result?.url || "").replace(/\/$/, "");
+            const fallbackTitle = decodeURIComponent(cleanPath.split("/").pop() || result?.url || "Untitled");
+            result.title = fallbackTitle.replace(/[-_]+/g, " ");
+          }
+          return result;
+        }
       });
     }
   });

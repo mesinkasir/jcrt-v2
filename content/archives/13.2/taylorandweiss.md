@@ -1,6 +1,6 @@
 ---
-title:
-author:
+title: The Cultural Un/life of Zombies
+author: Victor Taylor; Dennis M. Weiss
 affilation:
 abstract:
 keywords: []

@@ -13,7 +13,7 @@ tags:
   - theoryPosts
   - buddhism
 ---
-**Joseph Walser, *****Genealogies of Mahāyāna Buddhism: Emptiness, Power, and the Question of Origin*****. Oxford and New York: Routledge, 2018. 288 pages. IBSN: 978-1-13-895556-1. **.
+Joseph Walser, _Genealogies of Mahāyāna Buddhism: Emptiness, Power, and the Question of Origin_. Oxford and New York: Routledge, 2018. 288 pages. IBSN: 978-1-13-895556-1.
 
 Since Talal Asad's landmark work *Genealogies of Religion*, some scholars in the humanities have slowly begun to consider the relation between power and religion. But the same cannot be said about Buddhist Studies. As I have argued in detail elsewhere, even the historically minded field of Theravāda Buddhist Studies, which still operates within area studies, has not critically thought about power, authority, and tradition (Abeysekara "Review"; "Religious"; "Protestant").
 

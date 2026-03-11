@@ -1,6 +1,6 @@
 ---
-title:
-author:
+title: "Violence And The Gift: Challenging Continental Philosophy Of Religion"
+author: Udger Hagedorn; Michael Staudigl; Jason W. Alvis
 affilation:
 abstract:
 keywords: []

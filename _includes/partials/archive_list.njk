@@ -27,17 +27,8 @@
         <div class="col-md-4 mb-4">
           <div class="img-zoom-container mb-3 shadow-sm rounded" style="aspect-ratio: 16/9; overflow: hidden;">
             <a href="{{ post.url }}">
-              {% set archiveThumb = post.data.image if post.data.image and post.data.image != 'null' else '/img/jcrt.svg' %}
-              {% set archiveThumbPreferred = archiveThumb | preferWebp %}
-              <img src="{{ archiveThumbPreferred }}" 
-                   data-fallback-src="{{ archiveThumb }}"
-                   class="img-fluid w-100 h-100" 
-                   style="object-fit: cover;" 
-                   alt="{{ post.data.title }}"
-                   {% imageAttrs archiveThumb, 640, 360 %}
-                   loading="lazy"
-                   decoding="async"
-                   onerror="if(this.dataset.fallbackSrc&&this.src!==this.dataset.fallbackSrc){this.src=this.dataset.fallbackSrc;}">
+              {% set archiveThumb = post.data.image if post.data.image and post.data.image != 'null' else '/img/jcrt-open-graph.webp' %}
+              {% responsiveThumb archiveThumb, (post.data.title or "Untitled Document"), "img-fluid w-100 h-100", "(max-width: 767px) 100vw, (max-width: 1199px) 50vw, 33vw", "320,480,640", "lazy", "low", "/img/jcrt-open-graph.webp", "object-fit: cover;" %}
             </a>
           </div>
           

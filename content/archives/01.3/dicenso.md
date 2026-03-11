@@ -33,7 +33,7 @@ Cornelius Castoriadis, who was born in Greece but worked mainly in France, was a
 
 * * *
 
-[![Open this article in a new window.](https://jcrt.org/images/menu/window.gif)](dicenso/) [![Contents of this issue.](https://jcrt.org/images/menu/home.gif)](https://jcrt.org/archives/01.3/index.html) [![Print this page.](https://jcrt.org/images/menu/print.gif)](javascript:print\(\)) ['](https://jcrt.org/copyright/) 2000 James J. DiCenso. All rights reserved.  
+2000 James J. DiCenso. All rights reserved.  
 Updated 07/28/21.   
 http://jcrt.org/archives/01.3/dicenso/
 

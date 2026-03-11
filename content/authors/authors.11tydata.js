@@ -5,7 +5,7 @@ export default {
 		title: (data) => data.name || data.title || data.page.fileSlug,
 		description: (data) =>
 			data.affiliation || data.organization || data.description || "",
-		image: (data) => (data.image && String(data.image).trim() ? data.image : "/img/jcrt.svg"),
+		image: (data) => (data.image && String(data.image).trim() ? data.image : "/img/jcrt-open-graph.webp"),
 		key: (data) => data.key || data.page.fileSlug,
 		permalink: (data) => `/authors/${data.page.fileSlug}/`,
 	},

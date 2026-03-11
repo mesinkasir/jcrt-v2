@@ -1,6 +1,6 @@
 ---
-title:
-author:
+title: "What do we Mean by Decoloniality?"
+author: Catherine Walsh; Walter Mignolo; Fernando Herrero; Tink Tinker
 affilation:
 abstract:
 keywords: []

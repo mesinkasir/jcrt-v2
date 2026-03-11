@@ -46,4 +46,4 @@ Evert Difficult Discussion will be video-recorded and posted on this website. A 
 
 The initial Difficult Discussion is scheduled for Thursday, September 23, 2021 from 12-2 pm Mountain Daylight Time. The topic is the ongoing controversy over Critical Race Theory among evangelicals in general and the Southern Bapist Convention in particular.
 
-***Prompt:** Explain in straightforward language what you understand “Critical Race Theory” (CRT) to mean and why, or why not, is it important for Christian evangelicals to make significant use of it in the development of their personal faith, theology, and everyday practice?*
+_Prompt:_ Explain in straightforward language what you understand “Critical Race Theory” (CRT) to mean and why, or why not, is it important for Christian evangelicals to make significant use of it in the development of their personal faith, theology, and everyday practice?*

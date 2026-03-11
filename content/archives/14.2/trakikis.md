@@ -1,6 +1,6 @@
 ---
-title:
-author:
+title: Philiosophy Mashed Up and In Crisis
+author: "N.N. Trakikis"
 affilation:
 abstract:
 keywords: []

@@ -17,7 +17,19 @@ data-bs-target="#searchModal">
 <div id="search"></div>
 <script>
     window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({ element: "#search", showSubResults: true });
+        new PagefindUI({
+            element: "#search",
+            showSubResults: true,
+            processResult: (result) => {
+                const currentTitle = result?.meta?.title || result?.title || "";
+                if (!currentTitle.trim()) {
+                    const cleanPath = (result?.url || "").replace(/\/$/, "");
+                    const fallbackTitle = decodeURIComponent(cleanPath.split("/").pop() || result?.url || "Untitled");
+                    result.title = fallbackTitle.replace(/[-_]+/g, " ");
+                }
+                return result;
+            }
+        });
     });
 </script>
 </div>

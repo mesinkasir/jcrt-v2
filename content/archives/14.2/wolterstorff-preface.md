@@ -1,6 +1,6 @@
 ---
-title:
-author:
+title: Preface
+author: Nicholas Wolterstorff
 affilation:
 abstract:
 keywords: []

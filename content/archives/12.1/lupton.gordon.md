@@ -1,6 +1,6 @@
 ---
-title:
-author:
+title: Introduction
+author: Julia Reinhard Lupton; CJ Gordon
 affilation:
 abstract:
 keywords: []

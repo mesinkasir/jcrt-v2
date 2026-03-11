@@ -11,18 +11,8 @@
                 <div class="row align-items-start">
                     <div class="col-12 col-md-4 mb-3 mb-md-0">
                         {% set issueImage = issue.data.image or "/img/logos/JCRT.svg" %}
-                        {% set issueImagePreferred = issueImage | preferWebp %}
                         <a href="{{ issue.url }}" class="d-block">
-                            <img
-                                src="{{ issueImagePreferred }}"
-                                data-fallback-src="{{ issueImage }}"
-                                alt="{{ issue.data.title or ('Volume ' ~ issue.data.volume ~ '.' ~ issue.data.issue) }}"
-                                class="img-fluid rounded shadow-sm w-100"
-                                {% imageAttrs issueImage, 480, 270 %}
-                                style="max-height: 120px; object-fit: cover;"
-                                loading="lazy"
-                                onerror="if(this.dataset.fallbackSrc&&this.src!==this.dataset.fallbackSrc){this.src=this.dataset.fallbackSrc;}else{this.onerror=null;this.src='/img/logos/JCRT.svg';}"
-                            >
+                            {% responsiveThumb issueImage, (issue.data.title or ('Volume ' ~ issue.data.volume ~ '.' ~ issue.data.issue)), "img-fluid rounded shadow-sm w-100", "(max-width: 767px) 100vw, (max-width: 991px) 33vw, 240px", "160,240,320", "lazy", "low", "/img/jcrt.svg", "max-height: 120px; object-fit: cover;" %}
                         </a>
                     </div>
                     <div class="col-12 col-md-8 text-center text-md-start pe-md-5">

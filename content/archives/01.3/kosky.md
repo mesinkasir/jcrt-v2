@@ -60,7 +60,7 @@ Of those places where mystical traditions of Christian thought have received a w
 
 * * *
 
-[![Open this article in a new window.](https://jcrt.org/images/menu/window.gif)](kosky/) [![Contents of this issue.](https://jcrt.org/images/menu/home.gif)](https://jcrt.org/archives/01.3/index.html) [![Print this page.](https://jcrt.org/images/menu/print.gif)](javascript:print\(\)) ['](https://jcrt.org/copyright/) 2000 Jeffrey L. Kosky. All rights reserved.  
+ 2000 Jeffrey L. Kosky. All rights reserved.  
 Updated 07/28/21.   
 http://jcrt.org/archives/01.3/kosky/
 

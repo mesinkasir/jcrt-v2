@@ -26,7 +26,9 @@ tags:
 
 ## **International Online Conference**
 
-#### **[Register](https://udenver.zoom.us/meeting/register/tZItdu-oqDgjGtARFSnxe2mf7ezdk9J1psKS) | [Donations](https://www.eventbrite.com/e/decoloniality-and-disintegration-of-western-cognitive-empire-conference-tickets-147444830457)** | **[Bios](https://thenewpolis.com/docs/Bios.pdf) | [Abstracts](https://thenewpolis.com/docs/Abstracts.pdf) |***[Livestream](https://www.youtube.com/channel/UCHaPvhNA1x8Fjry-w3lrqJw)**
+#### [Register](https://udenver.zoom.us/meeting/register/tZItdu-oqDgjGtARFSnxe2mf7ezdk9J1psKS) | 
+
+[Donations](https://www.eventbrite.com/e/decoloniality-and-disintegration-of-western-cognitive-empire-conference-tickets-147444830457) | [Bios](https://thenewpolis.com/docs/Bios.pdf) | [Abstracts](https://thenewpolis.com/docs/Abstracts.pdf) |[Livestream](https://www.youtube.com/channel/UCHaPvhNA1x8Fjry-w3lrqJw)
 
 *Sponsored by* [*The New Polis*](http://www.thenewpolis.com/)*, Whitestone Publications, and Metropolitan State University of Denver* *in collaboration with members of the Iliff School of Theology and University of Denver* *communities.*
 
