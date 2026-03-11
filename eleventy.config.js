@@ -495,6 +495,20 @@ export default async function (eleventyConfig) {
 	if (isLeanBuild) {
 		const leanSkippedInputs = new Set([
 			"religioustheory/legacy-date-redirects.11ty.js",
+			"tag-pages.njk",
+			"archives/keywords/tag-pages.njk",
+			"religioustheory/tag-pages.njk",
+			"religioustheory/category-pages.njk",
+			"sitemap.xml.njk",
+			"sitemaps/keywords/keywords-sitemap.xml.njk",
+			"sitemaps/religioustheory/religioustheory-sitemap.xml.njk",
+			"sitemaps/citations/ris-sitemap.xml.njk",
+			"sitemaps/citations/csl-json-sitemap.xml.njk",
+			"feed/firehose.njk",
+			"feed/religioustheory/feed.xml.njk",
+			"feed/feed.xml.njk",
+			"feed/feed.rss.njk",
+			"feed/twtxt.txt.njk",
 		]);
 		eleventyConfig.addPreprocessor("lean-build-scope", "*", (data) => {
 			const inputPath = String(data?.page?.inputPath || "").replaceAll("\\", "/");
@@ -538,7 +552,7 @@ export default async function (eleventyConfig) {
 		.addPassthroughCopy({ "public/_redirects": "_redirects" })
 		.addPassthroughCopy({ "css/bs.css": "css/bs.css" })
 		.addPassthroughCopy("./content/feed/pretty-atom-feed.xsl");
-	if (!isBenchMode) {
+	if (isBuildMode && !isBenchMode) {
 		eleventyConfig.addPassthroughCopy({ "public/citations": "citations" });
 	}
 
@@ -913,8 +927,8 @@ export default async function (eleventyConfig) {
 	    });
 	});
 		// Archives contain PDFs/scans that need to be copied, but the markdown is built into HTML.
-		// CI can pre-copy these via scripts/pre-copy-assets.sh (hardlinks), so allow skipping passthrough copy.
-		if (!process.env.PRECOPY_ARCHIVES && !isBenchMode) {
+		// Restrict these heavy copy operations to production build mode for faster local/dev builds.
+		if (isBuildMode && !process.env.PRECOPY_ARCHIVES && !isBenchMode) {
 			eleventyConfig.addPassthroughCopy("content/archives/**/*.pdf");
 		eleventyConfig.addPassthroughCopy("content/archives/**/*.jpg");
 		eleventyConfig.addPassthroughCopy("content/archives/**/*.jpeg");

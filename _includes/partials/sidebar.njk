@@ -12,19 +12,37 @@
 <div id="search"></div>
 <script>
     window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({
-            element: "#search",
-            showSubResults: true,
-            processResult: (result) => {
-                const currentTitle = result?.meta?.title || result?.title || "";
-                if (!currentTitle.trim()) {
-                    const cleanPath = (result?.url || "").replace(/\/$/, "");
-                    const fallbackTitle = decodeURIComponent(cleanPath.split("/").pop() || result?.url || "Untitled");
-                    result.title = fallbackTitle.replace(/[-_]+/g, " ");
+        const searchEl = document.querySelector("#search");
+        const renderFallback = () => {
+            if (!searchEl) return;
+            searchEl.innerHTML = `
+                <form action="/search/" method="get" role="search" style="display:flex;gap:8px;">
+                    <input type="search" name="q" placeholder="Search" aria-label="Search" style="flex:1;padding:8px;border:1px solid #ccc;">
+                    <button type="submit" class="btn btn-primary btn-sm">Go</button>
+                </form>
+            `;
+        };
+        if (typeof PagefindUI !== "function") {
+            renderFallback();
+            return;
+        }
+        try {
+            new PagefindUI({
+                element: "#search",
+                showSubResults: true,
+                processResult: (result) => {
+                    const currentTitle = result?.meta?.title || result?.title || "";
+                    if (!currentTitle.trim()) {
+                        const cleanPath = (result?.url || "").replace(/\/$/, "");
+                        const fallbackTitle = decodeURIComponent(cleanPath.split("/").pop() || result?.url || "Untitled");
+                        result.title = fallbackTitle.replace(/[-_]+/g, " ");
+                    }
+                    return result;
                 }
-                return result;
-            }
-        });
+            });
+        } catch {
+            renderFallback();
+        }
     });
 </script>
 </div>

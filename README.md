@@ -25,6 +25,7 @@ contact ebsco have link to pages or pdfs
 ## Needs
 ~~1. netlify integration~~
 2. after the domain name is activated impliement a DAM for pdfs and citations
+3. Find ways to decrease production build times
 
 
 ### Need Help or Have Project ?? Contact Me
@@ -325,5 +326,6 @@ If step 4 still leaves pointer files, check your network/auth and run:
 ```bash
 GIT_TRACE=1 GIT_CURL_VERBOSE=1 git lfs pull
 ```
+
 
 

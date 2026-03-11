@@ -5,6 +5,7 @@ import yaml from "js-yaml";
 const CACHE_PATH = path.join(process.cwd(), ".cache", "tag-index-cache.json");
 const CONTENT_ROOT = path.join(process.cwd(), "content");
 const LEAN_BUILD = Boolean(process.env.LEAN_BUILD);
+const CACHE_VERSION = 2;
 
 const GLOBAL_TAG_EXCLUDED = new Set(["all", "posts", "authors", "nav", "theoryPosts", "archives"]);
 const THEORY_TAG_EXCLUDED = new Set(["all", "posts", "theoryPosts", "archives", "nav"]);
@@ -163,8 +164,34 @@ function addAll(set, values) {
 	for (const value of values || []) set.add(value);
 }
 
+function withPagination(domain) {
+	if (!domain || typeof domain !== "object") return finalizeDomain({}, new Set());
+	const list = Array.isArray(domain.list) ? domain.list : [];
+	const affected = Array.isArray(domain.affected) ? domain.affected : [];
+	const map = domain.map && typeof domain.map === "object" ? domain.map : {};
+	const counts = domain.counts && typeof domain.counts === "object" ? domain.counts : {};
+	return {
+		list,
+		affected,
+		paginationList: LEAN_BUILD ? affected : list,
+		map,
+		counts,
+	};
+}
+
+function stripPagination(domain) {
+	if (!domain || typeof domain !== "object") return domain;
+	const { paginationList, ...rest } = domain;
+	return rest;
+}
+
+let inProcessMemo = {
+	key: "",
+	value: null,
+};
+
 export default async function tagIndexData() {
-	const prev = readJson(CACHE_PATH, { version: 1, files: {} });
+	const prev = readJson(CACHE_PATH, { version: CACHE_VERSION, files: {} });
 	const prevFiles = prev?.files && typeof prev.files === "object" ? prev.files : {};
 
 	const files = [
@@ -178,11 +205,13 @@ export default async function tagIndexData() {
 	const changedPaths = new Set();
 	let generated = 0;
 	let reused = 0;
+	const signatureParts = [];
 
 	for (const absPath of files) {
 		const rel = path.relative(process.cwd(), absPath).replace(/\\/g, "/");
 		const stat = fs.statSync(absPath);
 		const signature = `${stat.size}|${Math.trunc(stat.mtimeMs)}`;
+		signatureParts.push(`${rel}:${signature}`);
 		const prior = prevFiles[rel];
 
 		if (prior?.signature === signature && prior?.record) {
@@ -201,6 +230,41 @@ export default async function tagIndexData() {
 
 	const removedPaths = Object.keys(prevFiles).filter((rel) => !nextFiles[rel]);
 	for (const rel of removedPaths) changedPaths.add(rel);
+	for (const rel of removedPaths) signatureParts.push(`removed:${rel}`);
+
+	const signatureKey = `${LEAN_BUILD ? "lean" : "full"}|${signatureParts.join("|")}`;
+	if (inProcessMemo.key === signatureKey && inProcessMemo.value) {
+		return inProcessMemo.value;
+	}
+
+	if (
+		changedPaths.size === 0 &&
+		prev?.version === CACHE_VERSION &&
+		prev?.domains?.globalTags &&
+		prev?.domains?.archiveKeywords &&
+		prev?.domains?.theory?.tags &&
+		prev?.domains?.theory?.categories
+	) {
+		const result = {
+			generatedAt: new Date().toISOString(),
+			summary: {
+				totalFiles: files.length,
+				reusedFiles: reused,
+				generatedFiles: generated,
+				removedFiles: 0,
+				changedFiles: 0,
+				cacheHit: true,
+			},
+			globalTags: withPagination(prev.domains.globalTags),
+			archiveKeywords: withPagination(prev.domains.archiveKeywords),
+			theory: {
+				tags: withPagination(prev.domains.theory.tags),
+				categories: withPagination(prev.domains.theory.categories),
+			},
+		};
+		inProcessMemo = { key: signatureKey, value: result };
+		return result;
+	}
 
 	const affectedGlobal = new Set();
 	const affectedArchiveKeywords = new Set();
@@ -251,13 +315,7 @@ export default async function tagIndexData() {
 		for (const category of rec.theoryCategories) addToMap(theoryCategoryMap, category, entry);
 	}
 
-	writeJson(CACHE_PATH, {
-		version: 1,
-		generatedAt: new Date().toISOString(),
-		files: nextFiles,
-	});
-
-	return {
+	const result = {
 		generatedAt: new Date().toISOString(),
 		summary: {
 			totalFiles: files.length,
@@ -265,6 +323,7 @@ export default async function tagIndexData() {
 			generatedFiles: generated,
 			removedFiles: removedPaths.length,
 			changedFiles: changedPaths.size,
+			cacheHit: false,
 		},
 		globalTags: finalizeDomain(globalMap, affectedGlobal),
 		archiveKeywords: finalizeDomain(archiveKeywordMap, affectedArchiveKeywords),
@@ -273,4 +332,21 @@ export default async function tagIndexData() {
 			categories: finalizeDomain(theoryCategoryMap, affectedTheoryCategories),
 		},
 	};
+
+	writeJson(CACHE_PATH, {
+		version: CACHE_VERSION,
+		generatedAt: result.generatedAt,
+		files: nextFiles,
+		domains: {
+			globalTags: stripPagination(result.globalTags),
+			archiveKeywords: stripPagination(result.archiveKeywords),
+			theory: {
+				tags: stripPagination(result.theory.tags),
+				categories: stripPagination(result.theory.categories),
+			},
+		},
+	});
+
+	inProcessMemo = { key: signatureKey, value: result };
+	return result;
 }

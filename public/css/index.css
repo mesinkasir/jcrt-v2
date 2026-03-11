@@ -47,10 +47,6 @@
     width: 1.25em;
     height: 1.25em;
 }
-#menu-toggle-btn .icon-svg,
-#theory-toggle-btn .icon-svg {
-    font-size: 16px;
-}
 
 .nav-editorial {
     list-style: none;
@@ -896,4 +892,11 @@ body.menu-open #menu-toggle-btn {
 body.menu-open #menu-toggle-btn,
 body.sidebar-open #menu-toggle-btn {
     left: calc(var(--sidebar-width) + 20px) !important;
+}
+
+/* Keep hamburger bars visually prominent in 40-50px toggle squares. */
+#menu-toggle-btn,
+#theory-toggle-btn {
+    font-size: 1.6rem !important;
+    line-height: 1 !important;
 }
