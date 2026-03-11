@@ -1,0 +1,58 @@
+---
+permalink: /sitemaps/oai_dc.xml
+layout: false
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>{{ page.date | isoDate }}</responseDate>
+  <request verb="ListRecords" metadataPrefix="oai_dc">{{ metadata.url }}/sitemaps/oai_dc.xml</request>
+  <ListRecords>
+    {% set baseUrl = metadata.url %}
+    {% for entry in collections.archives -%}
+      {%- if entry.url and entry.url.startsWith("/archives/") and entry.url.endsWith("/") and entry.data.sitemapIgnore !== true -%}
+        {%- set entryUrl = baseUrl ~ entry.url -%}
+        {%- set authors = entry.data.author | splitAuthors -%}
+        {%- set keywords = entry.data.keywords or [] -%}
+    <record>
+      <header>
+        {%- set oaiId = ("oai:jcrt.org" ~ entry.url ~ "end") | replace("/end", "") | replace("/", ":") -%}
+        <identifier>{{ oaiId }}</identifier>
+        <datestamp>{{ entry.date | isoDate }}</datestamp>
+      </header>
+      <metadata>
+        <oai_dc:dc
+          xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>{{ entry.data.title | xmlEscape }}</dc:title>
+          {%- for author in authors %}
+          <dc:creator>{{ author | xmlEscape }}</dc:creator>
+          {%- endfor %}
+          <dc:publisher>Whitestone Foundation</dc:publisher>
+          <dc:date>{{ entry.date | isoDate }}</dc:date>
+          <dc:type>article</dc:type>
+          <dc:language>en</dc:language>
+          <dc:identifier>1530-5228</dc:identifier>
+          <dc:identifier>{{ entryUrl | xmlEscape }}</dc:identifier>
+          {%- if entry.data.pdf %}
+          <dc:relation>{{ baseUrl }}/archives/{{ entry.data.volume }}.{{ entry.data.issue }}/{{ entry.data.pdf | xmlEscape }}</dc:relation>
+          {%- endif %}
+          {%- if entry.data.description %}
+          <dc:description>{{ entry.data.description | xmlEscape }}</dc:description>
+          {%- endif %}
+          {%- for kw in keywords %}
+          <dc:subject>{{ kw | replace("-", " ") | xmlEscape }}</dc:subject>
+          {%- endfor %}
+          <dc:rights>Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory. https://jcrt.org/copyright/</dc:rights>
+          <dc:source>Journal for Cultural &amp; Religious Theory, ISSN 1530-5228</dc:source>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+      {%- endif %}
+    {%- endfor %}
+  </ListRecords>
+</OAI-PMH>
