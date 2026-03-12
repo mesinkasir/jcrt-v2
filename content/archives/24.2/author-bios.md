@@ -3,6 +3,7 @@ layout: archives.njk
 article_number: '01'
 volume: '24'
 issue: '2'
+pages: 1-5
 title: Author Bios
 author: ''
 affiliation: ''

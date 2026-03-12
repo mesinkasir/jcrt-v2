@@ -18,7 +18,7 @@ layout: base.njk
           {% set authorRaw = jsonEntry.author or author %}
           {% if authorRaw %}
             {% set authorNames = authorRaw | splitAuthors %}
-            <span class="fw-bold text-dark" p-author h-card>
+            <span class="fw-bold text-dark p-author h-card">
               {%- for aName in authorNames -%}
                 {% set authorObj = collections.authors | getAuthorObj(aName) %}
                 {%- if authorObj -%}
