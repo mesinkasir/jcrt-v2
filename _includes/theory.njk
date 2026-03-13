@@ -107,13 +107,21 @@
   <link rel="alternate" href="{{ metadata.url }}/sitemaps/oai_dc.xml" type="application/xml" title="{{ metadata.site.title }} OAI-DC XML" />
   <meta name="site-generator" content="{{ eleventy.generator }}" />
 
-  <link rel="preload" href="/css/bs.css" as="style" />
-  <link rel="preload" href="/css/index.css" as="style" />
-  <link rel="preload" href="/css/font.css" as="style" />
-  <link href="/css/bs.css" rel="stylesheet"/>
+  <style>
+    html, body { margin: 0; padding: 0; }
+    body { font-family: var(--jcrt-slab-stack, Rockwell, "Roboto Slab", serif); color: #111; background: #fff; }
+    #content-wrapper { min-height: 100vh; }
+    img { max-width: 100%; height: auto; }
+  </style>
+  <link rel="preload" href="/css/bs.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="/css/index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="/css/font.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link href="/css/bs.css" rel="stylesheet"/>
+    <link href="/css/index.css" rel="stylesheet"/>
+    <link href="/css/font.css" rel="stylesheet"/>
+  </noscript>
   <style>{% getBundle "css" %}</style>
-  <link href="/css/font.css" rel="stylesheet"/>
-  <link href="/css/index.css" rel="stylesheet"/>
 <script type="application/ld+json">
 [
   {

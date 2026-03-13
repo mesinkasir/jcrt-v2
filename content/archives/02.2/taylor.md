@@ -18,36 +18,36 @@ York College of Pennsylvania
 
 * * *
 
-> > > _
-> > > 
-> > > The glory of Him who moveth all that is  
-> > > Pervades the universe, and glows more bright  
-> > > In the one region, and another less.
-> > > 
-> > > _
-> > > 
-> > > \-- Dante, _The Divine Comedy_
-> > > 
-> > > _Shall some selected appearances rule the others? We shall have to verify this selection by another selection, the second by a third, and thus it will never be finished._
-> > > 
-> > > \-- Michel de Montaigne_, Apology for Raymond Sebond_
-> > > 
-> > > _And the last, throughout to make enumerations so complete, and reviews so comprehensive, that I could be sure of leaving nothing out._
-> > > 
-> > > \-- René Descartes, _Discourse on Method_
-> > > 
-> > > Pyramids, arches, obelisks, were but the irregularities of vainglory, and wild enormities of ancient magnanimity. But the most magnanimous resolution rests in the Christian religion, which trampleth upon pride, and sits on the neck of ambition, humbly pursuing that infallible perpetuity unto which all others must diminish their diameters, and be poorly seen in angles of contingency.
-> > > 
-> > > Pious spirits who passed their days in raptures of futurity made little more of this world than the world that was before it, while they lay obscure in the chaos of pre-ordination, and night of their force-beings. And if any have been so happy as truly to understand Christian annihilation, ecstasies, exolution, liquefacation, transformation, the kiss of the spouse, gustation from God, and ingression into the divine shadow, they have already had an handsome anticipation of heaven; the glory of the world is surely over, and the earth in ashes unto them.
-> > > 
-> > > To subsist in lasting monuments, to live in their productions, to exist in their names and predicament of chimeras, was large satisfaction unto old expectations, and made one part of their Elysiums. But all this is nothing in the metaphysics of true belief. To live indeed is to be again ourselves, which being not only hope but an evidence in noble believers, 'tis all one to lie in St. Innocent's churchyard, as in the sands of Egypt: ready to be anything, in the ecstasy of being ever, and as content with six foot as the moles of Adrianus.
-> > > 
-> > > > > > > _Tabesne cadavera solvat,  
-> > > > > > > An rogus, hand refert_.
-> > > > > > > 
-> > > > > > > \-- Lucan
-> > > 
-> > > \--Sir Thomas Browne, _Hydriotaphia, Urn-Burial_
+> _
+> 
+> The glory of Him who moveth all that is  
+> Pervades the universe, and glows more bright  
+> In the one region, and another less.
+> 
+> _
+> 
+> \-- Dante, _The Divine Comedy_
+> 
+> _Shall some selected appearances rule the others? We shall have to verify this selection by another selection, the second by a third, and thus it will never be finished._
+> 
+> \-- Michel de Montaigne_, Apology for Raymond Sebond_
+> 
+> _And the last, throughout to make enumerations so complete, and reviews so comprehensive, that I could be sure of leaving nothing out._
+> 
+> \-- René Descartes, _Discourse on Method_
+> 
+> Pyramids, arches, obelisks, were but the irregularities of vainglory, and wild enormities of ancient magnanimity. But the most magnanimous resolution rests in the Christian religion, which trampleth upon pride, and sits on the neck of ambition, humbly pursuing that infallible perpetuity unto which all others must diminish their diameters, and be poorly seen in angles of contingency.
+> 
+> Pious spirits who passed their days in raptures of futurity made little more of this world than the world that was before it, while they lay obscure in the chaos of pre-ordination, and night of their force-beings. And if any have been so happy as truly to understand Christian annihilation, ecstasies, exolution, liquefacation, transformation, the kiss of the spouse, gustation from God, and ingression into the divine shadow, they have already had an handsome anticipation of heaven; the glory of the world is surely over, and the earth in ashes unto them.
+> 
+> To subsist in lasting monuments, to live in their productions, to exist in their names and predicament of chimeras, was large satisfaction unto old expectations, and made one part of their Elysiums. But all this is nothing in the metaphysics of true belief. To live indeed is to be again ourselves, which being not only hope but an evidence in noble believers, 'tis all one to lie in St. Innocent's churchyard, as in the sands of Egypt: ready to be anything, in the ecstasy of being ever, and as content with six foot as the moles of Adrianus.
+> 
+> _Tabesne cadavera solvat,  
+> An rogus, hand refert_.
+> 
+> \-- Lucan
+> 
+> \--Sir Thomas Browne, _Hydriotaphia, Urn-Burial_
 
 Pure Being without exteriority, without analogical reference, giving rise to a desire [^1] to find one's way from here to there'Dante, Montaigne, Descartes . . . The seventeenth century theological vision of a bicameral reality guides Sir Thomas Browne's (1605-1682) [^2] poetic affirmation of faith to a distressed compromise between doubt and reason. This "fideism" or futility of a this-worldliness against the infinitude of God makes clear his belief in a life lived ingressing into the "divine shadow." Not Descartes and certainly not Montaigne, Browne advances a theory of religion as a resolvable disjunction between blind faith and rational and skeptical processes. The finality of his judgment comes only in a form of condemnation of the here and now, the finite. It is a necessary repudiation if one follows a deconstructive logic, insofar as the limitless derives is value from the limited, negatively. The materiality of this world gives way to the spirituality of the next, forming not a dialectical synthesis but an annihilation of the former. Monuments, pyramids and obelisks, for Browne, are further testament to the failure of the material-temporal to satisfactorily render the divine. And yet "noble" and common believers dedicate monuments in all forms to ephemeral lives, last signs of a continuity between an ever-expanding singularity and its deictic parameter, all last signs, "ready to be anything, in the ecstasy of being ever." From Browne's text, God becomes the _telos_ and (necessarily) the process by which everything is annihilated and again restored. God is that which equates the solidity of marble and the fluidity of sand, form and dissemination, with finality a subdued readiness to become anything, all things without end. The invocation of an ecstatic God, not an "immortal diamond" as Gerard Manley Hopkins would later declare, a God in process representing an "infallible perpetuity" making time and space immeasurable by the fact that measure is impossible, creates a radical limitlessness in the center of theology, an epistemological infidelity by which the concept of God in Christianity, through the perpetuity of creation in the resurrection, exceeds its own ideational boundary.
 

@@ -91,13 +91,24 @@
 <meta property="dc:language" content="en" />
 <meta property="dc:format" content="text/html" />
 <meta property="dc:rights" content="Copyright © held by the author(s). Published in the Journal for Cultural and Religious Theory. https://jcrt.org/copyright/" />
-<link rel="preload" href="/css/bs.css" as="style" />
-<link rel="preload" href="/css/index.css" as="style" />
-<link rel="preload" href="/css/font.css" as="style" />
-<link href="/css/bs.css" rel="stylesheet"/>
+<style>
+  /* Critical-first paint styles for mobile hero/header before full CSS is loaded. */
+  html, body { margin: 0; padding: 0; }
+  body { font-family: var(--jcrt-slab-stack, Rockwell, "Roboto Slab", serif); color: #111; background: #fff; }
+  #content-wrapper { min-height: 100vh; }
+  .hero-title { margin: 0 0 .4rem; line-height: 1.2; }
+  .btn-primary { background: #b42318; color: #fff; border: 1px solid #b42318; }
+  img { max-width: 100%; height: auto; }
+</style>
+<link rel="preload" href="/css/bs.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" href="/css/index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" href="/css/font.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link href="/css/bs.css" rel="stylesheet"/>
+  <link href="/css/index.css" rel="stylesheet"/>
+  <link href="/css/font.css" rel="stylesheet"/>
+</noscript>
 <style>{% getBundle "css" %}</style>
-<link href="/css/index.css" rel="stylesheet"/>
-<link href="/css/font.css" rel="stylesheet"/>
 
 <script type="application/ld+json">
 [

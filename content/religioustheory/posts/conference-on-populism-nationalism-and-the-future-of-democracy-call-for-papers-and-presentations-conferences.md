@@ -67,4 +67,4 @@ Important Dates:
 
 ## Submission Process
 
-All proposals should be submitted as email attachments to [editor.jcrt@gmail.com](mailto:editor.jcrt@gmail.com) with the header “Populism, Nationalism, and the Future of Demovtsvy – \[Title\]”.[JCRT](https://jcrt.org)
+All proposals should be submitted as email attachments to the editor via the [contact form](/contact/) with the header “Populism, Nationalism, and the Future of Demovtsvy – \[Title\]”.[JCRT](https://jcrt.org)

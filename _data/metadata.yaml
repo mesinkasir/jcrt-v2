@@ -23,13 +23,13 @@ navbar:
  sub_title: "The Journal for Cultural and Religious Theory"
  social: 
    - title: Follow My Facebook
-     icon: fab fa-facebook
+     icon: fa-brands fa-facebook
      url: https://www.facebook.com/religioustheory
    - title: Follow my Instagram
-     icon: fab fa-instagram
+     icon: fa-brands fa-instagram
      url: https://www.instagram.com/JCRT_DU1
    - title: RSS
-     icon: fas fa-rss
+     icon: fa-solid fa-rss
      url: /feed/feed.xml
 
 sidebar: 
@@ -51,7 +51,7 @@ sidebar:
       - nav: Submissions
         url: /submissions/  
       - nav: Contact
-        url: /
+        url: /contact/
   info: 
     sections:
       - title: The New Polis
@@ -69,14 +69,14 @@ sidebar:
     title: Get in touch
     text: The Journal for Cultural and Religious Theory (JCRT) is a publication of The Whitestone Foundation, a 501(c)3 non-profit corporation registered in the state of Colorado.
     list: 
-      - title: "editor.jcrt@gmail.com"
-        icon: fas fa-envelope
-        url: "mailto:editor.jcrt@gmail.com"
+      - title: "Contact Us"
+        icon: fa-solid fa-envelope
+        url: "/contact/"
 #     - title: "0000000"
-#       icon: fas fa-phone
+#       icon: fa-solid fa-phone
 #       url: "tel:000000"
 #     - title: "1234 Somewhere Road #8254 Nashville, TN 00000-0000"
-#       icon: fas fa-home
+#       icon: fa-solid fa-home
 #       url: "https://maps.app.goo.gl/fcatehzDtdQMU3UF7"
 sidebar_footer:
   text: "<a href='https://www.11ty.dev/' target='_blank'>Built with Eleventy</a> | Design: <a href='https://html5up.net/' target='_blank'>HTML5 UP</a> | Maintained by <a href='https://adamdjbrett.com' target='_blank'>Adam DJ Brett</a>"

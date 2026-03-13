@@ -9,7 +9,7 @@ The Journal for Cultural and Religious Theory (JCRT) is a peer-reviewed journal
 
 The JCRT is free of charge, and is published two to three times a year.
 
-Current institutional sponsors are the University of Denver and Syracuse University. For more information about institutional sponsorship, contact the Senior Editor Carl Raschke at <carl.raschke@du.edu>.  If you have an article you would like to consider for publication, you need to submit a 500-word abstract of the article along with a curriculum vitae to the [editor](mailto:editor.jcrt@gmail.com.). All articles must rigorously fit the mission of the JCRT (See Submissions Policy below).  No term papers, religious advocacy pieces, unsolicited book reviews or opinion pieces, etc. will be considered.  
+Current institutional sponsors are the University of Denver and Syracuse University. For more information about institutional sponsorship, contact the Senior Editor Carl Raschke at <carl.raschke@du.edu>.  If you have an article you would like to consider for publication, you need to submit a 500-word abstract of the article along with a curriculum vitae to the editor via the [contact form](/contact/) or <editor.jcrt@gmail.com>. All articles must rigorously fit the mission of the JCRT (See Submissions Policy below).  No term papers, religious advocacy pieces, unsolicited book reviews or opinion pieces, etc. will be considered.  
 
 ## Copyright notice
 Any redistribution or archiving of materials published in this journal is strictly prohibited without written permission from the publisher. Copyright for individual contributions are held by the author(s). Rights and permission to reproduce must be obtained by the author(s) and must acknowledge original publication in this journal.

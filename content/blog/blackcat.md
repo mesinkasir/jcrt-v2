@@ -5,13 +5,13 @@ description: "The void blinks back"
 image: "https://images.unsplash.com/photo-1761960083604-773174ef0f26?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzfHx8ZW58MHx8fHx8&auto=format&fit=crop&q=60&w=400"
 social: 
  - title: Jons Facebook
-   icon: fab fa-facebook
+   icon: fa-brands fa-facebook
    url: https://fb.com
  - title: Jons Instagram
-   icon: fab fa-instagram
+   icon: fa-brands fa-instagram
    url: https://instagram.com
  - title: Jons Youtube
-   icon: fab fa-youtube
+   icon: fa-brands fa-youtube
    url: https://youtube.com
 button:
  - title: Button 1

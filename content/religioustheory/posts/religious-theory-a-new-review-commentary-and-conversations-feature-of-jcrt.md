@@ -22,7 +22,7 @@ tags:
 
 *Religious Theory* is the new commentary, review, and conversation blog for [The Journal for Cultural and Religious Theory](https://jcrt.org).  We plan to go live no later than the middle of February, 2016.
 
-If you are interested in doing a review or a commentary on trends, issues, or new publications please send us an email at editor.jcrt@gmail.com.  Contributions should normally be a maximum of 1500 words, unless you are proposing multiple authors at the same time on a common topic.  Please summarize your proposed contribution in no more than 300 words along with a bio of yourself about the same length.  Please note that proposals for regular, footnoted, academic articles should be proposed separately through the following URL: <https://jcrt.org/submissions.html>.
+If you are interested in doing a review or a commentary on trends, issues, or new publications please send us an email at [the contact form](/contact/).  Contributions should normally be a maximum of 1500 words, unless you are proposing multiple authors at the same time on a common topic.  Please summarize your proposed contribution in no more than 300 words along with a bio of yourself about the same length.  Please note that proposals for regular, footnoted, academic articles should be proposed separately through the following URL: <https://jcrt.org/submissions.html>.
 
 If you are proposing a review and do not already have a copy of the book, please provide additional information regarding the author, title, publisher, date of publication, number of pages, type of book (hardback or paperback, etc.), and ISBN.  We will request a copy of the book from the publisher.
 
@@ -30,4 +30,4 @@ If you would like to be considered as a regular, listed contributor, we would al
 
 Neither *Religious Theory* nor *JCRT*  publishes what are in effect term papers or portions of theses or dissertations, religious advocacy or apologetical pieces, sermons, letters, curricular or pedagogical materials, etc. We reserve the right to decline to publish anything for reasons that we are not obliged to specify.  If in doubt, please consult our mission statement below:
 
-Contact: [editor.jcrt@gmail.com](mailto:editor.jcrt@gmail.com)
+Contact: [the contact form](/contact/)

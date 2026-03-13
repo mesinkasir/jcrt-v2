@@ -7,8 +7,12 @@ const CONTENT_ROOT = path.join(process.cwd(), "content");
 const LEAN_BUILD = Boolean(process.env.LEAN_BUILD);
 const CACHE_VERSION = 2;
 
-const GLOBAL_TAG_EXCLUDED = new Set(["all", "posts", "authors", "nav", "theoryPosts", "archives"]);
-const THEORY_TAG_EXCLUDED = new Set(["all", "posts", "theoryPosts", "archives", "nav"]);
+const GLOBAL_TAG_EXCLUDED = new Set(["all", "posts", "authors", "nav", "theoryposts", "archives"]);
+const THEORY_TAG_EXCLUDED = new Set(["all", "posts", "theoryposts", "archives", "nav"]);
+
+function isExcluded(tag, excludedSet) {
+	return excludedSet.has(String(tag || "").trim().toLowerCase());
+}
 
 function ensureArray(value) {
 	if (Array.isArray(value)) {
@@ -111,9 +115,9 @@ function buildFileRecord(absPath) {
 	const { section, url } = inferSectionAndUrl(absPath, data);
 	const tags = ensureArray(data?.tags);
 	const archiveKeywords = section === "archives" ? ensureArray(data?.keywords) : [];
-	const theoryTags = section === "theory" ? tags.filter((t) => !THEORY_TAG_EXCLUDED.has(t)) : [];
+	const theoryTags = section === "theory" ? tags.filter((t) => !isExcluded(t, THEORY_TAG_EXCLUDED)) : [];
 	const theoryCategories = section === "theory" ? ensureArray(data?.categories) : [];
-	const globalTags = tags.filter((t) => !GLOBAL_TAG_EXCLUDED.has(t));
+	const globalTags = tags.filter((t) => !isExcluded(t, GLOBAL_TAG_EXCLUDED));
 
 	return {
 		section,

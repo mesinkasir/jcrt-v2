@@ -18,9 +18,9 @@ University of North Carolina, Chapel Hill.
 
 * * *
 
-> > _Pragmatically speaking, then, we know that there has been, over the last fifteen to twenty years, a strong interest in something called literary theory and that, in the United States, this interest has at times coincided with the importation and reception of foreign, mostly but not always continental, influences. We also know that this wave of interest now seems to be receding as some satiation or disappointment sets in after the initial enthusiasm. Such an ebb and flow is natural enough, but it remains interesting, in this case, because it makes the depth of the resistance to theory so manifest._
-> > 
-> > —Paul de Man, _The Resistance to Theory_.[^1]
+> _Pragmatically speaking, then, we know that there has been, over the last fifteen to twenty years, a strong interest in something called literary theory and that, in the United States, this interest has at times coincided with the importation and reception of foreign, mostly but not always continental, influences. We also know that this wave of interest now seems to be receding as some satiation or disappointment sets in after the initial enthusiasm. Such an ebb and flow is natural enough, but it remains interesting, in this case, because it makes the depth of the resistance to theory so manifest._
+> 
+> —Paul de Man, _The Resistance to Theory_.[^1]
 
 ### Twilight of the (Theoretical) Idols
 

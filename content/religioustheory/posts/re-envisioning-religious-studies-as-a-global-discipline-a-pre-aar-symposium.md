@@ -50,7 +50,7 @@ Other international institutions represented at the conference include the Unive
 
 The symposium is free and open to all attendees.  However, because of space limitations, pre-registration is required.
 
-Conference proceedings will edited and published within 12 months following the symposium.  Those wishing to contribute to the symposium proceedings should submit an essay, or article, of no more than 5000 words (responding to one or more of the key questions) no later than February 1, 2019 to [editor.jcrt@gmail.com](mailto:editor.jcrt@gmail.com).    Submissions from registered symposium attendees, however, will be given first priority.
+Conference proceedings will edited and published within 12 months following the symposium.  Those wishing to contribute to the symposium proceedings should submit an essay, or article, of no more than 5000 words (responding to one or more of the key questions) no later than February 1, 2019 to [the contact form](/contact/). Submissions from registered symposium attendees, however, will be given first priority.
 
 ## Program
 

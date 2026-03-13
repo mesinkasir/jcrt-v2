@@ -172,6 +172,8 @@
 /religioustheory/tag/:tag/feed/* /religioustheory/tags/:tag/ 301
 /religioustheory/:year/:month/:day /religioustheory/posts/ 301
 /religioustheory/:year/:month/:day/ /religioustheory/posts/ 301
+/religioustheory/:year/:month /religioustheory/posts/ 301
+/religioustheory/:year/:month/ /religioustheory/posts/ 301
 /religioustheory/:year/:month/:day/:slug/* /religioustheory/posts/:slug/ 301
 
 # Legacy WordPress embed URL redirects
@@ -183,6 +185,9 @@
 /religioustheory/:slug/embed/ /religioustheory/posts/:slug/ 301
 
 # Legacy WordPress feed URL redirects
+/weblog /archives/ 301
+/weblog/ /archives/ 301
+/weblog/* /archives/ 301
 /religioustheory/submissions-2/ https://www.jcrt.org/submissions/ 301
 /religioustheory/submissions https://www.jcrt.org/submissions/ 301
 /religioustheory/submissions/ https://www.jcrt.org/submissions/ 301
@@ -201,12 +206,68 @@
 /religioustheory/:slug/feed /feed/religioustheory/feed.xml 301
 /religioustheory/:slug/feed/ /feed/religioustheory/feed.xml 301
 
+# Legacy religioustheory numeric month archive path redirects
+/religioustheory/posts/01 /religioustheory/posts/ 301
+/religioustheory/posts/01/ /religioustheory/posts/ 301
+/religioustheory/posts/01/* /religioustheory/posts/ 301
+/religioustheory/posts/02 /religioustheory/posts/ 301
+/religioustheory/posts/02/ /religioustheory/posts/ 301
+/religioustheory/posts/02/* /religioustheory/posts/ 301
+/religioustheory/posts/03 /religioustheory/posts/ 301
+/religioustheory/posts/03/ /religioustheory/posts/ 301
+/religioustheory/posts/03/* /religioustheory/posts/ 301
+/religioustheory/posts/04 /religioustheory/posts/ 301
+/religioustheory/posts/04/ /religioustheory/posts/ 301
+/religioustheory/posts/04/* /religioustheory/posts/ 301
+/religioustheory/posts/05 /religioustheory/posts/ 301
+/religioustheory/posts/05/ /religioustheory/posts/ 301
+/religioustheory/posts/05/* /religioustheory/posts/ 301
+/religioustheory/posts/06 /religioustheory/posts/ 301
+/religioustheory/posts/06/ /religioustheory/posts/ 301
+/religioustheory/posts/06/* /religioustheory/posts/ 301
+/religioustheory/posts/07 /religioustheory/posts/ 301
+/religioustheory/posts/07/ /religioustheory/posts/ 301
+/religioustheory/posts/07/* /religioustheory/posts/ 301
+/religioustheory/posts/08 /religioustheory/posts/ 301
+/religioustheory/posts/08/ /religioustheory/posts/ 301
+/religioustheory/posts/08/* /religioustheory/posts/ 301
+/religioustheory/posts/09 /religioustheory/posts/ 301
+/religioustheory/posts/09/ /religioustheory/posts/ 301
+/religioustheory/posts/09/* /religioustheory/posts/ 301
+/religioustheory/posts/10 /religioustheory/posts/ 301
+/religioustheory/posts/10/ /religioustheory/posts/ 301
+/religioustheory/posts/10/* /religioustheory/posts/ 301
+/religioustheory/posts/11 /religioustheory/posts/ 301
+/religioustheory/posts/11/ /religioustheory/posts/ 301
+/religioustheory/posts/11/* /religioustheory/posts/ 301
+/religioustheory/posts/12 /religioustheory/posts/ 301
+/religioustheory/posts/12/ /religioustheory/posts/ 301
+/religioustheory/posts/12/* /religioustheory/posts/ 301
+
 # Legacy religioustheory tag and tag feed redirects
+/religioustheory/category /religioustheory/categories/ 301
+/religioustheory/category/ /religioustheory/categories/ 301
+/religioustheory/category/:slug /religioustheory/categories/:slug/ 301
+/religioustheory/category/:slug/ /religioustheory/categories/:slug/ 301
+/religioustheory/category/:slug/* /religioustheory/categories/:slug/ 301
+/religioustheory/tags/robert-caserio /religioustheory/tags/ 301
+/religioustheory/tags/robert-caserio/ /religioustheory/tags/ 301
+/religioustheory/tags/dark /religioustheory/tags/ 301
+/religioustheory/tags/dark/ /religioustheory/tags/ 301
+/religioustheory/tags/kotsko /religioustheory/tags/ 301
+/religioustheory/tags/kotsko/ /religioustheory/tags/ 301
+/religioustheory/tags/simone-weil /religioustheory/tags/ 301
+/religioustheory/tags/simone-weil/ /religioustheory/tags/ 301
+/religioustheory/tags/simone%20weil /religioustheory/tags/ 301
+/religioustheory/tags/simone%20weil/ /religioustheory/tags/ 301
+/religioustheory/tags/whitestone-foundation /tags/ 301
+/religioustheory/tags/whitestone-foundation/ /tags/ 301
 /religioustheory/tag/:tag /religioustheory/tags/:tag/ 301
 /religioustheory/tag/:tag/ /religioustheory/tags/:tag/ 301
 /religioustheory/tag/:tag/feed /religioustheory/tags/:tag/ 301
 /religioustheory/tag/:tag/feed/ /religioustheory/tags/:tag/ 301
 /religioustheory/author/assistant-editor/ /editors/ 301
+/religioustheory/author/editors_religioustheory/ /religioustheory/authors/editors/ 301
 /religioustheory/staff/* /editors/ 301
 
 # Legacy index2 page redirects
@@ -224,15 +285,22 @@
 /archives/24.2/trinkauskait%C4%97.pdf /archives/24.2/trinkauskaite/ 301
 /archives/24.2/trinkauskaitė/ /archives/24.2/trinkauskaite/ 301
 /archives/24.2/trinkauskait%C4%97/ /archives/24.2/trinkauskaite/ 301
+/archives/07.1/zizek-taylor.shtml /archives/07.1/taylor/ 301
+/archives/06.3/kotsko8000.pdf /archives/06.3/kotsko.pdf 301
+/archives/23.1/1 /archives/23.1/ 301
 
 # Internal broken-link hardening
 /submit /submissions/ 301
 /submit/ /submissions/ 301
+/wp-login.php / 301
+/administrator/ / 301
 /pastissues.shtml /archives/ 301
 /authors/books/ /religioustheory/posts/ 301
 /authors/books /religioustheory/posts/ 301
 /authors/j-c-smith/ /religioustheory/authors/j-c-smith/ 301
 /authors/j-c-smith /religioustheory/authors/j-c-smith/ 301
+/authors/:slug/:tail /authors/:slug/ 301
+/authors/:slug/:tail/* /authors/:slug/ 301
 /tags/ /religioustheory/tags/ 301
 /tags/feed/ /religioustheory/tags/ 301
 /tags/feed /religioustheory/tags/ 301
@@ -245,10 +313,6 @@
 /img/*.jpg /img/:splat.webp 301
 /img/*.jpeg /img/:splat.webp 301
 /images/* /img/jcrt-open-graph.webp 301
-
-# Deindex spam legacy namespace
-/weblog / 410
-/weblog/* / 410
 
 # Root-level legacy date URL variants used in imported content links
 /2016/:month/:day/:slug/* /religioustheory/posts/:slug/ 301

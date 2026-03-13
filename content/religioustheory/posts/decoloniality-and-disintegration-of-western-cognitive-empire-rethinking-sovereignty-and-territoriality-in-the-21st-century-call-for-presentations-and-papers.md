@@ -36,7 +36,7 @@ We welcome proposals for presentations of all types that can be introduced effec
 
 It should be noted that we are keen to have participants from all backgrounds, especially indigenous communities, represented and having a significant voice in the conference.
 
-**Send proposals in the form of Word, or Word-compatible documents (no more than 700 words) along with one’s name, email, professional affiliation, and telephone number (optional) no later than March 15, 2021 to [editor.jcrt@gmail.com](mailto:editor.jcrt@gmail.com) AND** [**editor.thenewpolis@gmail.com**](mailto:editor.thenewpolis@gmail.com)**.**
+**Send proposals in the form of Word, or Word-compatible documents (no more than 700 words) along with one’s name, email, professional affiliation, and telephone number (optional) no later than March 15, 2021 to [contact form](/contact/) AND** [**editor.thenewpolis@gmail.com**](mailto:editor.thenewpolis@gmail.com)**.**
 
 The central figure for the conference will be the distinguished scholar Walter Mignolo is [William Hane Wannamaker Distinguished Professor of Romance Studies](https://literature.duke.edu/people/faculty) at Duke University.  Prof. Mignolo is noted for his pioneering work in the [concept of “decoloniality”](https://www.e-ir.info/2017/01/21/interview-walter-mignolopart-2-key-concepts/). He was hosted at a recent “Critical Conversation” with *[The New Polis](https://www.youtube.com/watch?v=h_7_3J9mlYg&feature=youtu.be)* [in which he informally discusses his current work](https://www.youtube.com/watch?v=h_7_3J9mlYg&feature=youtu.be).
 

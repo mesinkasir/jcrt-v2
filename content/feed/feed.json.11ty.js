@@ -26,7 +26,9 @@ export default class FeedJsonTemplate {
 			description: data?.metadata?.description || "",
 			items: items.map((item) => {
 				const url = `${siteUrl}${item.url || ""}`;
-				const content = toPlainText(item?.data?.excerpt || item?.templateContent || "");
+				// Avoid scanning full rendered templateContent for faster feed generation.
+				const summarySource = item?.data?.excerpt || item?.data?.description || "";
+				const content = toPlainText(summarySource);
 				return {
 					id: url,
 					url,
@@ -38,6 +40,6 @@ export default class FeedJsonTemplate {
 			}),
 		};
 
-		return JSON.stringify(payload, null, 2);
+		return JSON.stringify(payload);
 	}
 }

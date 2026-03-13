@@ -18,4 +18,4 @@ JCRT and *Religious Theory* are publications of [The Whitestone Foundation](http
 -   [*The New Polis* Journal](https://journal.thenewpolis.com)
 -   [*Esthesis*](http://esthesis.org/)
 
-All general communications to the following email address: <editor.jcrt@gmail.com>.
+All general communications to the following email address: <editor.jcrt@gmail.com> or [contact form](/contact/).

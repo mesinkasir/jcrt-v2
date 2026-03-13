@@ -18,9 +18,9 @@ University of Colorado at Denver
 
 * * *
 
-> > _Religions owe their compulsive power to the_ return of the repressed_; they are reawakened memories of very ancient, forgotten, highly emotional episodes of human history. I have already said this in_ Totem and Taboo_; I express it now in the formula: the strength of religion lies not in its_ material_, but in its_ historical _truth._
-> > 
-> > 'Freud to Lou Andreas-Salom', January 6, 1935[^1]
+> _Religions owe their compulsive power to the_ return of the repressed_; they are reawakened memories of very ancient, forgotten, highly emotional episodes of human history. I have already said this in_ Totem and Taboo_; I express it now in the formula: the strength of religion lies not in its_ material_, but in its_ historical _truth._
+> 
+> 'Freud to Lou Andreas-Salom', January 6, 1935[^1]
 
 This is a strange book." So said T. S. Eliot of Freud's _The Future of an Illusion_ when it appeared in English translation, and this assessment is as apt today as it was then.[^2] It is, indeed, a strange and disturbing book, at once brilliant and opaque, honest yet intellectually frustrating. However, what upset Eliot about the book'namely, its alleged failure to define certain key concepts'seems minor in comparison to what troubles us about the book today: for example, its rather unnuanced and reductive approach to what Freud calls religious "ideas" \[_Vorstellungen_\], as well as its myopically positivistic view of science as a simple alternative to religious ideas.[^3] But there are good reasons to devote careful attention to Freud's polemic of 1927, not least of all because we have inherited Freud's problematic: a world riveted by clashing religious cultures, with no obvious recourse or opportunity for reconciliation.[^4] In a year that began with the American President proclaiming that "we are guided by a power larger than ourselves who created us equal in His image,"[^5] and ended with Americans at war in Afghanistan to subdue Islamic fundamentalists, we find ourselves asking Freud's question as to the future of religious culture'whether or not we interpret this as the future of an _illusion_.
 

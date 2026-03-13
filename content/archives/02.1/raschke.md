@@ -21,17 +21,17 @@ University of Denver
 
 * * *
 
-> > Can there be a "science of religion," as the nineteenth century yearned for?
-> > 
-> > Is there indeed a bona fide _Religionswissenschaft_ that compasses and comprehends the whole of what Roman civilization identified as the _religiones_?
-> > 
-> > What would such a "science" of religion involve?
-> > 
-> > Can there ever be a "religiology" in the same sense there has been for some time a sociology, or an anthropology, or a psychology?
-> > 
-> > Does the subject matter that goes by the name of _religio_ offer itself to the same sort of discursive expansion and methodological execution as the _bios_ of biology?
-> > 
-> > If a "religiology" were discernible, how would it actually push forward?
+> Can there be a "science of religion," as the nineteenth century yearned for?
+> 
+> Is there indeed a bona fide _Religionswissenschaft_ that compasses and comprehends the whole of what Roman civilization identified as the _religiones_?
+> 
+> What would such a "science" of religion involve?
+> 
+> Can there ever be a "religiology" in the same sense there has been for some time a sociology, or an anthropology, or a psychology?
+> 
+> Does the subject matter that goes by the name of _religio_ offer itself to the same sort of discursive expansion and methodological execution as the _bios_ of biology?
+> 
+> If a "religiology" were discernible, how would it actually push forward?
 
 Contrary to positivist trends in the so-called "social sciences" over the last quarter century, an integral science of religion would require that any theoretical assessment of the _religiones_ be anchored in a formal structure of inquiry, experimentation, and demonstration. Such a formalism has always seemed alien to the study of religion. Ever since Roman classical authors profiled the _religiones_ as "cultic responsibilities," as dark and termagant mysteries impenetrable to the gaze of reason, the idea of a "scientific" resolution of the issue has remain essentially problematic.[^1]
 

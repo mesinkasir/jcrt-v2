@@ -18,17 +18,17 @@ Syracuse University
 
 * * *
 
-> > _The time of the world's night is the destitute time, because it becomes ever more destitute. It has already grown so destitute, it can no longer discern the default of God as a default._
-> > 
-> > ' Martin Heidegger
-> > 
-> > _We do indeed say something about it, but we certainly do not speak it, and we have neither knowledge or thought of it. But if we do not have it in knowledge, do we not have it at all? But we have it in such a way that we speak about it, but do not speak it. For we say what it is not, but we do not say what it is: so that we speak about it from what comes after it._
-> > 
-> > ' Plotinus, Ennead V
-> > 
-> > _Not just in commerce but in the world of ideas too our age is putting on a veritable clearance sale. Everything can be had so dirt cheap that one begins to wonder whether in the end anyone will want to make a bid._
-> > 
-> > ' Søren Kierkegaard
+> _The time of the world's night is the destitute time, because it becomes ever more destitute. It has already grown so destitute, it can no longer discern the default of God as a default._
+> 
+> ' Martin Heidegger
+> 
+> _We do indeed say something about it, but we certainly do not speak it, and we have neither knowledge or thought of it. But if we do not have it in knowledge, do we not have it at all? But we have it in such a way that we speak about it, but do not speak it. For we say what it is not, but we do not say what it is: so that we speak about it from what comes after it._
+> 
+> ' Plotinus, Ennead V
+> 
+> _Not just in commerce but in the world of ideas too our age is putting on a veritable clearance sale. Everything can be had so dirt cheap that one begins to wonder whether in the end anyone will want to make a bid._
+> 
+> ' Søren Kierkegaard
 
 Theology is not lost, but it does not know where it is.[^1] As philosophical theology finds itself searching for legitimation and direction in its continued inquiries ' what Carl A. Raschke has suggested is the move from "theology to theory"[^2] ' it is forced to undertake a course which takes seriously Mark C. Taylor's "deconstructed theology," one that grasps: the death of God; the disappearance of the subject; the end of history; and the closure of the book, four critical deaths.[^3] It is in this manner that _thinking about religion_ both transgresses and restores its demise, its own 'passing on.'[^4] And woven through the epigraphs by Heidegger, Plotinus, and Kierkegaard, a certain attitude toward these deaths and their age is formed, an attitude characterized by a revival of the notion or conception of memory. This memory is what I would like to suggest is pivotal to any re-thinking or re-formulation of thinking (about) religion and, while it perhaps must be undertaken in new ways, it is both a persistent inheritance of theology and an integral aspect of theory.
 

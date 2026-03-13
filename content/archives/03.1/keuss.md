@@ -18,7 +18,7 @@ University of Glasgow
 
 * * *
 
-> > > ...You think ' because it is becoming plain to the modern eye that the ignorant love of his first followers wreathed his life in legend, that therefore you can escape from Jesus of Nazareth, you can put him aside as though he had never been? Folly! Do what you will, you cannot escape him. His life and death underlie our institutions as the alphabet underlies our literature.
+> ...You think ' because it is becoming plain to the modern eye that the ignorant love of his first followers wreathed his life in legend, that therefore you can escape from Jesus of Nazareth, you can put him aside as though he had never been? Folly! Do what you will, you cannot escape him. His life and death underlie our institutions as the alphabet underlies our literature.
 
 The struggle to 'figure the Christ' through various means and media represents a continual search for not only the _content_ of the figure in question (what makes up and makes possible this union of human and sacred) but ultimately the _form_ within which this figuring is shown and understood. John McIntyre, in his Warfield Lectures delivered at Princeton Theological Seminary, begins his discussion of christology and christocentrism by employing a term not typically used in doctrinal discourse ' _shape_.' As McIntyre rightly states, "if we were asked to give in a summary form the distinguishing characteristic of Protestant theology in our time, many of us would reply that it is its _christocentric_ quality which claims this title. And the evidence would be convincing".[^2] As McIntyre goes on to surmise:
 

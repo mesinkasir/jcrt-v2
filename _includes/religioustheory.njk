@@ -96,7 +96,7 @@
 <div id="content-wrapper" class="mse">
     
 <nav class="nav justify-content-end mb-3 mobile">
-{% for nv in metadata.navbar.social %}<a class="nave me-3" href="{{nv.url}}" title="{{nv.title}}"><i class="{{nv.icon}}"></i></a>{% endfor %}}
+{% for nv in metadata.navbar.social %}<a class="nave me-3" href="{{nv.url}}" title="{{nv.title}}"><i class="{{nv.icon}}"></i></a>{% endfor %}
 </nav>
 <div class="row p-3 desktop mt-3">
 <div class="col-md-6">
@@ -122,7 +122,7 @@
 <div class="religioustheory-archive-wrapper">
     <div class="alert alert-danger col-md-10 mx-auto p-3 mt-3 rounded shadow " role="alert">
         <div class="container text-center">
-            <i class="fas fa-archive me-2"></i> 
+            <i class="fa-solid fa-archive me-2"></i> 
             <strong>ARCHIVED CONTENT:</strong> This section is part of the <em>Religious Theory Archive</em> and is no longer being updated.
         </div>
     </div>
@@ -160,7 +160,7 @@
     top: 15px;
     left: 15px;
     z-index: 1000001 !important;
-    background: #e83e8c;
+    background: #b42318;
     color: white;
     width: 45px;
     height: 45px;
@@ -303,7 +303,7 @@
     }
 
     .wp-legacy-content a {
-        color: #e83e8c;
+        color: #b42318;
         text-decoration: underline;
     }
     .religioustheory-archive-wrapper {
@@ -336,11 +336,11 @@
     }
 
     .text-primary {
-        color: #e83e8c !important;
+        color: #b42318 !important;
     }
     
     .border-primary {
-        border-color: #e83e8c !important;
+        border-color: #b42318 !important;
     }
 .wp-legacy-content img, 
 .single-post-image img {
@@ -356,7 +356,7 @@
 
 .nav-previous a, .nav-next a {
     display: block !important;
-    background-color: #e83e8c !important;
+    background-color: #b42318 !important;
     color: white !important;
     padding: 15px 20px !important;
     text-decoration: none !important;
@@ -391,7 +391,7 @@
     margin-bottom: 1.6rem;
 }
 
-.text-primary { color: #e83e8c !important; }
+.text-primary { color: #b42318 !important; }
 .religioustheory-archive-wrapper img {
     content: url('/img/jcrt-open-graph.webp') !important;
     width: 360px !important;
@@ -416,7 +416,7 @@
     display: inline-block !important;
     padding: 6px 12px !important;
     background-color: #f8f9fa !important;
-    color: #e83e8c !important;
+    color: #b42318 !important;
     text-decoration: none !important;
     font-size: 0.85rem !important;
     border-radius: 4px !important;
@@ -426,9 +426,9 @@
 }
 
 #archives-4 li a:hover {
-    background-color: #e83e8c !important;
+    background-color: #b42318 !important;
     color: #fff !important;
-    border-color: #e83e8c !important;
+    border-color: #b42318 !important;
 }
 
 .widget-title {
@@ -465,7 +465,7 @@
 
 
 .bgb-primary {
-    background-color: #e83e8c;
+    background-color: #b42318;
     color: #fff;
     font-weight: bold;
     text-transform: uppercase;
@@ -480,7 +480,7 @@
 }
 
 .nav-link.smalls:hover {
-    color: #e83e8c !important;
+    color: #b42318 !important;
 }
 
 
@@ -518,7 +518,7 @@
 
 .nav-previous a:hover, .nav-next a:hover {
     background: #fff0f6;
-    color: #e83e8c;
+    color: #b42318;
 }
 
 .screen-reader-text {
@@ -558,12 +558,12 @@ label > .screen-reader-text {
 }
 
 .nav-previous a:hover, .nav-next a:hover {
-    color: #e83e8c;
+    color: #b42318;
     background: #fff;
 }
 </style>
 </div>
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+ <script defer src="/js/bs.js"></script>
 {% getBundle "fontawesome" %}
 </body>
 </html>

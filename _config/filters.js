@@ -27,10 +27,22 @@ export default function(eleventyConfig) {
 
     eleventyConfig.addFilter("getKeys", target => (target ? Object.keys(target) : []));
 
-    const filterTagList = (tags) =>
-        (tags || []).filter(
-            (tag) => ["all", "posts", "authors", "nav"].indexOf(tag) === -1
-        );
+    const filterTagList = (tags) => {
+        const excluded = new Set(["all", "posts", "authors", "nav", "theoryposts", "archives"]);
+        const seen = new Set();
+
+        return (tags || []).reduce((acc, tag) => {
+            const trimmed = String(tag || "").trim();
+            if (!trimmed) return acc;
+
+            const normalized = trimmed.toLowerCase();
+            if (excluded.has(normalized) || seen.has(normalized)) return acc;
+
+            seen.add(normalized);
+            acc.push(trimmed);
+            return acc;
+        }, []);
+    };
 
     eleventyConfig.addFilter("filterTagList", filterTagList);
 
@@ -122,6 +134,7 @@ eleventyConfig.addFilter("categoryTheory", function(posts) {
 
 eleventyConfig.addFilter("tagTheory", function(posts) {
     let tagSet = new Set();
+    const excluded = new Set(["posts", "theoryposts", "all", "archives", "nav"]);
     if (!Array.isArray(posts)) return [];
     
     posts.forEach(post => {
@@ -129,9 +142,12 @@ eleventyConfig.addFilter("tagTheory", function(posts) {
         const tags = post.data?.tags;
         if (tags && Array.isArray(tags)) {
             tags.forEach(tag => {
-                
-                if (tag && !["posts", "theoryPosts", "all"].includes(tag)) {
-                    tagSet.add(tag);
+                const trimmed = String(tag || "").trim();
+                if (!trimmed) return;
+                const normalized = trimmed.toLowerCase();
+
+                if (!excluded.has(normalized)) {
+                    tagSet.add(trimmed);
                 }
             });
         }

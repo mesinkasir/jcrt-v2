@@ -46,7 +46,7 @@ All human discourse is testimony to finitude, and what is meant here, by finitud
     
 8.  In the Whitheadian cosmology, the concept of the rebellious no falls somewhere within the awareness that one can be dissatisfied by the satisfaction of one's _subjective aim\*_. It is from this unseemly paradox that we will depart, in an attempt to give definition and context to the rebellious no.
 
-> > \* _The subjective aim is the telos of a concrescence of feelings and concepts (also called a proposition) to their aim as an actual entity. A subjective aim is satisfied when a concrescence is actualized according to the bent of its components. All things actual are the result of the satisfaction of their aim. Whether their aim is to please us or not is irrelevant._
+ > \* _The subjective aim is the telos of a concrescence of feelings and concepts (also called a proposition) to their aim as an actual entity. A subjective aim is satisfied when a concrescence is actualized according to the bent of its components. All things actual are the result of the satisfaction of their aim. Whether their aim is to please us or not is irrelevant._
 
 ---
 
@@ -54,7 +54,7 @@ All human discourse is testimony to finitude, and what is meant here, by finitud
 
 > 1.1 The satisfaction of a subjective aim is independent of the _subject/superject\*_'s objective satisfaction or dissatisfaction.
 > 
-> > \* _The subject/superject is the enlightened concept of the subject where a double Copernican revolution has occurred in that there is the Kantian notion that we construct our apprehensions, but reciprocally, objects as complex paradigms construct our subjectivity. Hence as product of the world we are subject while as builders of this same world we are superject. Now a subject/superject is always in the in-itself process of satisfying its propositional aim. Her objective satisfaction, however, is not necessary in that the satisfaction for us as objects of our subjectivity is not systematic._
+> \* _The subject/superject is the enlightened concept of the subject where a double Copernican revolution has occurred in that there is the Kantian notion that we construct our apprehensions, but reciprocally, objects as complex paradigms construct our subjectivity. Hence as product of the world we are subject while as builders of this same world we are superject. Now a subject/superject is always in the in-itself process of satisfying its propositional aim. Her objective satisfaction, however, is not necessary in that the satisfaction for us as objects of our subjectivity is not systematic._
 > 
 > 1.1.1 In other words, subjective satisfaction is necessary for the possibility of objective referentiality. And, although the possibility of objective satisfaction is dependent on subjective satisfaction, in actuality, the objective sense of pleasure or displeasure is independent of subjective satisfaction.
 > 
@@ -62,7 +62,7 @@ All human discourse is testimony to finitude, and what is meant here, by finitud
 > 
 > 1.2 Objective satisfaction depends on the level of complexity of the concrescence of feelings and _eternal objects\*_.
 > 
-> > \* _Eternal objects, or pure potentials for the determination of fact, or forms of definiteness, are objects in potentia. The fact that they are in potentia implies that they were once actual rather than passive, and it is indeed this past actuality that endows them with the potential to be actualized again and again. Their actualization is instantiated as they are integrated into apropositional aim or concrescence._
+> \* _Eternal objects, or pure potentials for the determination of fact, or forms of definiteness, are objects in potentia. The fact that they are in potentia implies that they were once actual rather than passive, and it is indeed this past actuality that endows them with the potential to be actualized again and again. Their actualization is instantiated as they are integrated into apropositional aim or concrescence._
 > 
 > It is thanks to this concrescence that language can come alive and signify in excess of a purely semantic discourse that speaks to us not, in order not to say nothing.
 > 
@@ -72,19 +72,19 @@ All human discourse is testimony to finitude, and what is meant here, by finitud
 > 
 > 1.2.2 Here, paucity and complexity are relative to a specific _nexus\*_, so that we are not measuring them against a universal standard, but rather, according to the potential of each subject/superject.
 > 
-> > \* _A nexus is a complex relationship of actual entities so as to form a more or less durable organization in space and time. The human being is a nexus of body and mind, or spirit and matter, or feelings and eternal objects._
+> \* _A nexus is a complex relationship of actual entities so as to form a more or less durable organization in space and time. The human being is a nexus of body and mind, or spirit and matter, or feelings and eternal objects._
 > 
 > 1.2.3 Complexity means that in the leap of symbolic reference, _conceptual valuation\*_ and _reversion\*_allow for feelings and their homologue eternal objects to fuse in consciousness so as to liberate lively ideas.
 > 
-> > \* _Conceptual valuation is when a conceptual feeling is derived from a physical feeling_.
-> > 
-> > \* _Conceptual reversion is when a conceptual feeling is derived, not from an immediate physical feeling, but from some eternal object(s) (some memory)._
+> \* _Conceptual valuation is when a conceptual feeling is derived from a physical feeling_.
+> 
+> \* _Conceptual reversion is when a conceptual feeling is derived, not from an immediate physical feeling, but from some eternal object(s) (some memory)._
 > 
 > 1.2.3.1 Consequently, what is relative is also the degree of liveliness and the quality of idea achieved in the liberation.
 > 
 > 1.2.3.2 For some subject/superjects, liveliness may be attained if and only if ideas are part of a highly abstract integration, a sublimation.  For others, integration may be more synthetically metaphorical, that is, obviously and literally embodied with _affect\*_. Here, language's synthetic embodiment of affect is the condition that allows for the condensation and displacement of feelings, for their integration.
 > 
-> > \*_An affect is something that is physical and something that we can conceptually describe through the language of feelings and emotions. Affects are physically felt, but are also determined by words, by virtue of the mind’s power to remind us of experiences. So affects are never original, they are always already interpreted--whether fear or anger or love, these are determinations that we learn to recognize in our own body of experiences, for the initial affect is blind, like a Kantian intuition without a concept. And so, a complex elocution is worthless if it has lost its capacity to elicit affect, just as concepts without intuitions are empty._[^2]
+> \*_An affect is something that is physical and something that we can conceptually describe through the language of feelings and emotions. Affects are physically felt, but are also determined by words, by virtue of the mind’s power to remind us of experiences. So affects are never original, they are always already interpreted--whether fear or anger or love, these are determinations that we learn to recognize in our own body of experiences, for the initial affect is blind, like a Kantian intuition without a concept. And so, a complex elocution is worthless if it has lost its capacity to elicit affect, just as concepts without intuitions are empty._[^2]
 > 
 > 1.3 The question of relativity in complexity is quintessential for understanding the nature of the rebellious no.
 > 
@@ -108,7 +108,7 @@ All human discourse is testimony to finitude, and what is meant here, by finitud
 > 
 > 2.2 The nature of the tension between affect and concept--of a subjective aim--is _prehensile\*_.
 > 
-> > \* _Prehensions, or concrete facts of relatedness. A prehensile tension is thus one concretely relating affect and concept._
+> \* _Prehensions, or concrete facts of relatedness. A prehensile tension is thus one concretely relating affect and concept._
 > 
 > 2.2.1 The subject/superject is prehended and prehends.
 > 
@@ -126,7 +126,7 @@ All human discourse is testimony to finitude, and what is meant here, by finitud
 > 
 > 2.4 That tension, desire, the composite substance of spatial and temporal intuition progresses into a heterological infrastructure shows that the _mating of intensity with survival\*_ requires a paradoxical relationship of the subject and the superject.
 > 
-> > \* _A static organization like a rock survives vary well and very long compared to the more fragile organization of a dog who requires a certain intensity of experience for his survival and also for his happiness. The goal of many is the pursuit of happiness--as in the attainment of the supreme good in the love of God, or as in falling in love--and this goal extends beyond the bare basic needs for a minimalist survival of the body. Hence, when depression is termed the disease of the wealthy this does not mean that he who is depressed would be better off fighting for survival in the tundra. It means that the fighting for survival has attained a level of complexity on a par with the human potential for happiness. That this is a luxury is not denied. That it is a necessity is implied._
+> \* _A static organization like a rock survives vary well and very long compared to the more fragile organization of a dog who requires a certain intensity of experience for his survival and also for his happiness. The goal of many is the pursuit of happiness--as in the attainment of the supreme good in the love of God, or as in falling in love--and this goal extends beyond the bare basic needs for a minimalist survival of the body. Hence, when depression is termed the disease of the wealthy this does not mean that he who is depressed would be better off fighting for survival in the tundra. It means that the fighting for survival has attained a level of complexity on a par with the human potential for happiness. That this is a luxury is not denied. That it is a necessity is implied._
 > 
 > 2.4.1 If it were the case that coming to representation implied the coupling of simple affects with simple concepts, the satisfaction of the subjective aim--granted that it allowed for the integration of both affects and concepts--would inevitably result in objective satisfaction.
 > 
@@ -136,11 +136,11 @@ All human discourse is testimony to finitude, and what is meant here, by finitud
 > 
 > 2.5 That desire is a tension between affect and concept, and that it is prehensile implies that desire is both _deferential\*_ and differential.
 > 
-> > \* _The word deferential is used to emphasize that valuation--the bent that shapes the direction of desire--is not stubborn. Rather, it oscillates in determining its object, an object that thence becomes unattainable and unnameable._
+> \* _The word deferential is used to emphasize that valuation--the bent that shapes the direction of desire--is not stubborn. Rather, it oscillates in determining its object, an object that thence becomes unattainable and unnameable._
 > 
 > 2.5.1 Desire defers to the subject/superject's leap of symbolic reference into _presentational immediacy\*_.
 > 
-> > \* _The world in presentational immediacy is the world-for-us, as we perceive it. This notion is collateral with that of causal-efficacy, which in its purpose is synonymous with Kant’s schematism of the understanding. Causal efficacy is the teleological movement of all becomings--the concrescence of diverse prehensions. The subject-superject’s causal efficacious and mediating movement allows for a world in presentational immediacy._
+> \* _The world in presentational immediacy is the world-for-us, as we perceive it. This notion is collateral with that of causal-efficacy, which in its purpose is synonymous with Kant’s schematism of the understanding. Causal efficacy is the teleological movement of all becomings--the concrescence of diverse prehensions. The subject-superject’s causal efficacious and mediating movement allows for a world in presentational immediacy._
 > 
 > 2.5.1.1 In which instance desire's deferral forces a differentiation between affect and concept, where affect defers to concept. In this case, the superject prehends desire.
 > 

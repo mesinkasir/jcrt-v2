@@ -18,37 +18,37 @@ York College of Pennsylvania
 
 * * *
 
-> > _WARNING: The Telephone Book is going to resist you._
+> _WARNING: The Telephone Book is going to resist you._
+> 
+> —Avital Ronell, _The Telephone Book_
+> 
+> _Remember: When you're on the telephone, there is always an electronic flow, even when that flow is unmarked._
+> 
+> —Avital Ronell, _The Telephone Book_
+> 
+> _Can Schlegel's kick in the ass be read allegorically?_
+> 
+> —Avital Ronell, _Stupidity_
+> 
+> > Date: Tue, 01 April 2003 5:67:08'0700
+> > From: Avital Ronell ar3@nyu.edu
+> > To:'' "Victor Taylor" taylorve@gmail.com
+> > Subject: Essay
 > > 
-> > —Avital Ronell, _The Telephone Book_
+> > MIME-CONTENT: text/html 8.01 KB
 > > 
-> > _Remember: When you're on the telephone, there is always an electronic flow, even when that flow is unmarked._
 > > 
-> > —Avital Ronell, _The Telephone Book_
+> > Dear Mr. Taylor,
 > > 
-> > _Can Schlegel's kick in the ass be read allegorically?_
+> > I am terribly sorry for my prolonged e/absence'I have 
+> > been out of the country and find myself besieged by 
+> > deadlines and political activities.' I hope you are 
+> > well and deeply apologize for the rude appearance of 
+> > my silence: I am truly swamped.
 > > 
-> > —Avital Ronell, _Stupidity_
+> > Very warm greetings,
 > > 
-> > > Date: Tue, 01 April 2003 5:67:08'0700
-> > > From: Avital Ronell ar3@nyu.edu
-> > > To:'' "Victor Taylor" taylorve@gmail.com
-> > > Subject: Essay
-> > > 
-> > > MIME-CONTENT: text/html 8.01 KB
-> > > 
-> > > 
-> > > Dear Mr. Taylor,
-> > > 
-> > > I am terribly sorry for my prolonged e/absence'I have 
-> > > been out of the country and find myself besieged by 
-> > > deadlines and political activities.' I hope you are 
-> > > well and deeply apologize for the rude appearance of 
-> > > my silence: I am truly swamped.
-> > > 
-> > > Very warm greetings,
-> > > 
-> > > Avital Ronell
+> > Avital Ronell
 
 **I**
 
@@ -65,8 +65,8 @@ Refusal, especially of theory and thinking, takes on many forms, visceral, fanta
      > Date: Mon, 3 2003 09:35:06-0500
      > From:''' Avital Ronell ar3@nyu.edu
      > To:''''' "Victor Taylor" >
-     > >
-     > >
+     >
+     >
      >  '
      > Dear Victor,
      >  
@@ -78,11 +78,11 @@ Refusal, especially of theory and thinking, takes on many forms, visceral, fanta
      >  
      > AR
      >  
-     > >
-     > >
+     >
+     >
      > Quoting Avital Ronell ar3@nyu.edu:
-     > >
-     > >
+     >
+     >
      > Professor Ronell,
      >  
      > Thank you for your reply. I have until April 15th. Respond by 
@@ -176,7 +176,7 @@ Why does Avital Ronell answer Deleuze? Here, one must be a "disloyal reader" of 
 > 
 > Quoting "Victor Taylor" < taylorve@gmail.com>
 > 
-> >
+>
 
 **III**
 

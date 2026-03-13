@@ -18,28 +18,28 @@ Quinnipiac University
 
 * * *
 
-> > _The failure on 9/11 was almost entirely one of_ doctrine_'a policy on how to deal with hijackers that was taught to pilots, flight attendants and the public for forty years._
-> > 
-> > _What's amazing is that \[the doctrine\] changed within an hour of the first plane's takeover..._
-> > 
-> > _The doctrinal transformation took place swiftly and decisively... Three average men changed it, almost immediately upon hearing the news via their independent 'intelligence network'... cell phones._
-> > 
-> > _It's called initiative, a civic virtue, part of our national character that doesn't get enough attention. Not from our leaders and certainly not from our enemies_
-> > 
-> > 'David Brin, "[Some Notes About Calamity... and Opportunity.](http://www.futurist.com/911/notes_about_calamity.htm)"
-> > 
-> >   
-> > 
-> > _Due to our Hellenic traditions, we in the West call the few casualties we suffer from terrorism and surprise 'cowardly,' the frightful losses we inflict through direct assault 'fair.' The real atrocity for the Westerner is not the number of corpses, but the manner in which soldiers died and the protocols under which they are killed. We can comprehend the insanity of a Verdun or Omaha Beach, but never accept the logic of far fewer killed through ambush, terrorism, or the execution of prisoners and noncombatants. Incinerating thousands of Japanese civilians on March 11, 1945, is seen by Westerners as not nearly so gruesome an act as beheading on capture parachuting B-29 fliers._
-> > 
-> > 'Victor Davis Hanson,  
-> > _Why the West Has Won: Carnage and Culture from Salamis to Vietnam._
-> > 
-> >   
-> > 
-> > _If you can't solve a problem, enlarge it._
-> > 
-> > 'U.S. Secretary of Defense Donald Rumsfeld.
+> _The failure on 9/11 was almost entirely one of_ doctrine_'a policy on how to deal with hijackers that was taught to pilots, flight attendants and the public for forty years._
+> 
+> _What's amazing is that \[the doctrine\] changed within an hour of the first plane's takeover..._
+> 
+> _The doctrinal transformation took place swiftly and decisively... Three average men changed it, almost immediately upon hearing the news via their independent 'intelligence network'... cell phones._
+> 
+> _It's called initiative, a civic virtue, part of our national character that doesn't get enough attention. Not from our leaders and certainly not from our enemies_
+> 
+> 'David Brin, "[Some Notes About Calamity... and Opportunity.](http://www.futurist.com/911/notes_about_calamity.htm)"
+> 
+>   
+> 
+> _Due to our Hellenic traditions, we in the West call the few casualties we suffer from terrorism and surprise 'cowardly,' the frightful losses we inflict through direct assault 'fair.' The real atrocity for the Westerner is not the number of corpses, but the manner in which soldiers died and the protocols under which they are killed. We can comprehend the insanity of a Verdun or Omaha Beach, but never accept the logic of far fewer killed through ambush, terrorism, or the execution of prisoners and noncombatants. Incinerating thousands of Japanese civilians on March 11, 1945, is seen by Westerners as not nearly so gruesome an act as beheading on capture parachuting B-29 fliers._
+> 
+> 'Victor Davis Hanson,  
+> _Why the West Has Won: Carnage and Culture from Salamis to Vietnam._
+> 
+>   
+> 
+> _If you can't solve a problem, enlarge it._
+> 
+> 'U.S. Secretary of Defense Donald Rumsfeld.
 
 In his "Welcome to the Desert of the Real," his essay on the 9/11 attacks, Slavoj Zizek indicts the left for a failure to address the event in an adequate way: "The predominant reaction of European, but also American Leftists was nothing less than scandalous... all imaginable stupidities were said and written" (10). Among the charges: "Schadenfreude: the US got what it deserved"; a failure to fully solidarize with the victims (not to mention'Zizek doesn't'the rescuers) "since this would mean supporting US imperialism"; "in the weeks following the bombing, it reverted to the old mantra 'Give peace a chance! War does not stop violence!''a true case of hysterical precipitation, reacting to something that will not even happen in the expected form." Zizek was being generous: his reference to the "petty and miserable mathematics" ("what are the 6000 dead against millions in Ruanda, Congo, etc."), for example, hardly captures the grotesque casualty watch in which once the reported Afghani casualty number went higher than the WTC number, moral "victory" could be declared.
 

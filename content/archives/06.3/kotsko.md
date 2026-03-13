@@ -1,7 +1,8 @@
 ---
-title: "DÉConstruction Du Christianisme 1 La DÉClosion"
+title: "Already Not Yet"
 author: "Adam Kotsko"
-affilation:
+description: "A review of Jean-Luc Nancy, La Déclosion : Déconstruction du christianisme, 1. Paris: Galilée, 2005. 248 pp. 30.00€ (paper). ISBN: 2-7186-0668-1. (Translation forthcoming from Fordham University Press.)"
+affilation: "Chicago Theological Seminary"
 abstract:
 keywords: []
 pdf: kotsko.pdf
@@ -10,5 +11,5 @@ volume: 6
 issue: 3
 season: fall
 year: 2005
-pages:
+pages: 87-95
 ---

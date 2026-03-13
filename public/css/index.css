@@ -3,7 +3,10 @@
     --btn-margin-top: 10px;
     --btn-width: 50px; 
     --default-padding: 50px;
-    --primary-jcrt: #FF4136;
+    --primary-jcrt: #B42318;
+    --primary-jcrt-hover: #8F1D14;
+    --icon-gray-jcrt: #595959;
+    --text-gray-jcrt: #4A4A4A;
     --btn-margin-left: calc((100% - 1140px) / 2 - 60px);
     --jcrt-slab-stack: Rockwell, "Rockwell Nova", "Roboto Slab", "DejaVu Serif", "Sitka Small", serif;
 }
@@ -136,7 +139,7 @@
 }
 
 .menu-toggle-editorial:hover {
-    background: #FF4136;
+    background: var(--primary-jcrt);
 }
         #sidebar-menu {
             position: absolute; top: 0; bottom: 0;
@@ -288,12 +291,12 @@ body.menu-open #sidebar-container {
 }
 
 
-		a {color: #FF4136 !important;}
-		a:hover {color: #FF4136;}
+		a {color: var(--primary-jcrt) !important;}
+		a:hover {color: var(--primary-jcrt);}
 		.text-secondary, .text-muted { color: #000000 !important; }
 		.text-dark { color: #000000 !important; }
 		a.btn-primary, .btn-primary {
-			background-color: #FF4136 !important;
+			background-color: var(--primary-jcrt) !important;
 			color: white !important;
 		}
         		a.btn-primary:hover, .btn-primary:hover {
@@ -301,26 +304,26 @@ body.menu-open #sidebar-container {
 			color: white !important;
 		}
 		.bg-primary {
-			background-color: #FF4136 !important;
+			background-color: var(--primary-jcrt) !important;
 			color: white;
 		}
-		.text-primary { color: #FF4136 !important;}
-		.bgb-primary {border-bottom: solid 3px  #FF4136 !important;}
-		.bgb-primaris {border-bottom: solid 5px  #FF4136 !important;}
+		.text-primary { color: var(--primary-jcrt) !important;}
+		.bgb-primary {border-bottom: solid 3px  var(--primary-jcrt) !important;}
+		.bgb-primaris {border-bottom: solid 5px  var(--primary-jcrt) !important;}
 		.bgb-primarys {
 			width: 100%;
-			border-bottom: solid 5px #FF4136 !important;
+			border-bottom: solid 5px var(--primary-jcrt) !important;
 		}
 		.btn-primary:hover {
 			background-color: #f98787 ;
 			color: white;
 		}
 		a.btn-outline-primary, .btn-outline-primary {
-			border: 2px solid #FF4136;
+			border: 2px solid var(--primary-jcrt);
 		}
 		.btn-outline-primary:hover, a.btn-outline-primary:hover{
 			background-color: #f7e6e6;
-			border: 2px solid #FF4136;
+			border: 2px solid var(--primary-jcrt);
 		}
 .wajik-wrapper {
     width: 100px;
@@ -395,7 +398,7 @@ body.menu-open #sidebar-container {
 }
 .trans { background-color: inherit;
 border:none;
-color:  #FF4136;}
+color:  var(--primary-jcrt);}
 
 
 .col-md-6.col-lg-4.p-3.small {
@@ -442,8 +445,8 @@ color:  #FF4136;}
     border: none;
     border-radius: 2px;
 }
-.clu, a.clu {color: #6c757d;}
-.clu:hover, a.clu:hover { color: #FF4136;}
+.clu, a.clu {color: var(--icon-gray-jcrt);}
+.clu:hover, a.clu:hover { color: var(--primary-jcrt);}
 svg.clu {
   display: inline-block;
   width: 1.25em;
@@ -538,7 +541,7 @@ blockquote{border-left:6px solid #ec5033;margin:1.5em 10px;padding:.5em 10px;quo
 }
 
 #sidebar-menu .nav-link:hover {
-    color: #FF4136 !important;
+    color: var(--primary-jcrt) !important;
 }
 
 #sidebar-menu .nav-item {
@@ -727,7 +730,7 @@ body.menu-open #menu-toggle-btn {
     }
 }
 .hover-primary:hover {
-    color: #FF4136 !important;
+    color: var(--primary-jcrt) !important;
 }
 
 .editorial-post-card:hover img {
@@ -737,8 +740,8 @@ body.menu-open #menu-toggle-btn {
 .btn-editorial-ghost {
     display: inline-block;
     padding: 12px 24px;
-    border-bottom: 1px dotted #FF4136;
-    color: #FF4136 !important;
+    border-bottom: 1px dotted var(--primary-jcrt);
+    color: var(--primary-jcrt) !important;
     text-decoration: none;
     font-weight: 900;
     text-transform: uppercase;
@@ -751,7 +754,7 @@ body.menu-open #menu-toggle-btn {
 
 .page-info {
     letter-spacing: 1px;
-     color: #989393 !important;
+     color: var(--text-gray-jcrt) !important;
     white-space: nowrap; 
 }
 .ghost-card {
@@ -815,9 +818,9 @@ body.menu-open #menu-toggle-btn {
 .btn-primary:hover, 
 .btn-primary:focus, 
 .btn-primary:active {
-    background-color: #e6392f !important;
-    border-color: #e6392f !important;
-    box-shadow: 0 0 0 0.25rem rgba(255, 65, 54, 0.25) !important;
+    background-color: var(--primary-jcrt-hover) !important;
+    border-color: var(--primary-jcrt-hover) !important;
+    box-shadow: 0 0 0 0.25rem rgba(180, 35, 24, 0.25) !important;
 }
 .border-primary {
     border-color: var(--primary-jcrt) !important;
@@ -911,6 +914,12 @@ body.menu-open #menu-toggle-btn {
 body.menu-open #menu-toggle-btn,
 body.sidebar-open #menu-toggle-btn {
     left: calc(var(--sidebar-width) + 20px) !important;
+}
+
+/* Accessibility hardening: keep muted/secondary text above AA contrast on white. */
+.text-secondary,
+.text-muted {
+    color: var(--text-gray-jcrt) !important;
 }
 
 /* Keep hamburger bars visually prominent in 40-50px toggle squares. */

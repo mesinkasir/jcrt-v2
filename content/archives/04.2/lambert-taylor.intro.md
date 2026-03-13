@@ -21,23 +21,23 @@ Syracuse University
 
 * * *
 
-> > > _
-> > > 
-> > > There are four legends concerning Prometheus:
-> > > 
-> > > ''According to the first he was clamped to a rock in the Caucasus for betraying the secrets of the gods to men, and the gods sent eagles to feed on his liver, which was perpetually renewed.
-> > > 
-> > > ''According to the second Prometheus, goaded by the pain of the tearing beaks, pressed himself deeper and deeper into the rock until he became one with it.
-> > > 
-> > > ''According to the third his treachery was forgotten in the course of thousands of years, forgotten by the gods, the eagles, forgotten by himself.
-> > > 
-> > > ''According to the fourth everyone grew weary of the meaningless affair.' The gods grew weary, the eagles grew weary, the wound closed wearily.
-> > > 
-> > > ''There remained the inexplicable mass of rock.' The legend tried to explain the inexplicable.' As it came out of the substratum of truth it had in turn to end in the inexplicable.
-> > > 
-> > > _
-> > > 
-> > > 'Franz Kafka, _Prometheus_
+> _
+> 
+> There are four legends concerning Prometheus:
+> 
+> ''According to the first he was clamped to a rock in the Caucasus for betraying the secrets of the gods to men, and the gods sent eagles to feed on his liver, which was perpetually renewed.
+> 
+> ''According to the second Prometheus, goaded by the pain of the tearing beaks, pressed himself deeper and deeper into the rock until he became one with it.
+> 
+> ''According to the third his treachery was forgotten in the course of thousands of years, forgotten by the gods, the eagles, forgotten by himself.
+> 
+> ''According to the fourth everyone grew weary of the meaningless affair.' The gods grew weary, the eagles grew weary, the wound closed wearily.
+> 
+> ''There remained the inexplicable mass of rock.' The legend tried to explain the inexplicable.' As it came out of the substratum of truth it had in turn to end in the inexplicable.
+> 
+> _
+> 
+> 'Franz Kafka, _Prometheus_
 
 The future of theory, similar to its past, will be Promethean. The legendary, heretical writings since 1967 ('Structure, Sign, and Play in the Discourse of the Human Sciences") or 1916 (_Course in General Linguistics_) or ca 330 B.C.E. ("Encomium of Helen") forming the _corpus_ of theory remain the "inexplicable mass" giving rise to a desire to explain, to refute, to show, and to occasionally hide the contours of its own "image of thought."
 

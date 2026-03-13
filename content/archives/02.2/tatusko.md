@@ -30,10 +30,10 @@ The technologies we create and the cultures in which they are embedded are strik
 
 > Whereas representation attempts to absorb simulation by interpreting it as false representation, simulation envelops the whole edifice of representation itself as a simulacrum. Such would be the successive phases of the image:
 > 
-> > it is the reflection of a profound reality;  
-> > it masks and denatures a profound reality;  
-> > it masks the _absence_ of a profound reality;  
-> > it has no relation to any reality whatsoever: it is its own pure simulacrum (Baudrillard 6).
+> it is the reflection of a profound reality;  
+> it masks and denatures a profound reality;  
+> it masks the _absence_ of a profound reality;  
+> it has no relation to any reality whatsoever: it is its own pure simulacrum (Baudrillard 6).
 
 > We understand that there are believing Christians in all Christian churches and accept those Believers as our brothers and sisters in Christ, irrespective of the denomination they attend, as long as they have accessed repentance and forgiveness through Jesus Christ and believe in His resurrection from the dead. We do not split hairs over church dogma, whether it may be Calvinism or eternal security, versus Wesleyan or Armenian beliefs, versus Catholicism. We do not enter into those controversies since they foment discord and separate true believers instead of pointing them to the salient points of salvation. Pointing people to Jesus Christ is our only mission.
 

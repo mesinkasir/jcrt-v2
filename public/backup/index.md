@@ -12,19 +12,19 @@ section:
  title: Trending Keywords.
  list: 
    - title: Religious Theory
-     icon: fab fa-facebook
+     icon: fa-brands fa-facebook
      text: "Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam."
      url: /religioustheory/
    - title: Media Theory 
-     icon: fab fa-youtube
+     icon: fa-brands fa-youtube
      text: "Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam."
      url: /religioustheory/
    - title: Cultural Theory
-     icon: fab fa-github
+     icon: fa-brands fa-github
      text: "Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam."
      url: /religioustheory/
    - title: Political Theory
-     icon: fab fa-instagram
+     icon: fa-brands fa-instagram
      text: "Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam."
      url: /religioustheory/
 

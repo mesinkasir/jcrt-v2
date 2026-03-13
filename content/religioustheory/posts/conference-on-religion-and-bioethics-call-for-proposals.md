@@ -73,4 +73,4 @@ Important Dates:
 
 ## Submission Process
 
-All proposals should be submitted as email attachments to [editor.jcrt@gmail.com](mailto:editor.jcrt@gmail.com) with the header “Bioethics Conference Proposal – \[Title\]”.
+All proposals should be submitted as email attachments to [contact form](/contact/) with the header “Bioethics Conference Proposal – \[Title\]”.

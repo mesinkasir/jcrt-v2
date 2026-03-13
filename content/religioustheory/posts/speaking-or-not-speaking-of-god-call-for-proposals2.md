@@ -29,7 +29,7 @@ tags:
 
 **Deadline for Proposals:**  July 15, 2017
 
-**Contact**:  [editor.jcrt@gmail.com](mailto:editor.jcrt@gmail.com)
+**Contact**:  [the contact form](/contact/)
 
 Since the philosopher Nietzsche announced the “death of God” over a century ago, the specter of divine absence has hovered over Western civilization.
 
@@ -39,6 +39,6 @@ Whether God is dead or absent, however, the question of whether the divine conti
 
 The symposium will address a number of questions from an interdisciplinary perspective concerning the relationship between the presence/absence and the voice/silence of God.  For instance: What does it imply (theologically, linguistically, existentially, psychologically, etc.) to invoke the expression “God speaks”?  If God is dead, does God still “speak from the dead” in some extended sense of the word, and what does that in itself say about God?  What does it mean to talk about divine “presence” and “absence”, or about God “speaking” or “remaining silent”?  Are we simply utilizing metaphors when we talk about the “voice of God”, or does such a locution have more palpable as well as empirical ramifications?
 
-The conference organizers invite proposals for papers, panels, or presentations.  Proposals should be a maximum of 500 words (full papers may also be submitted) and include the full names and affiliations of each presenter along with their email contact information and a 2-3 sentence bio.  Proposals must be submitted as an attachment in Microsoft Word, or Word-compatible, format no later than July 15, 2017 to [editor.jcrt@gmail.com](mailto:editor.jcrt@gmail.com).  Notification of accepted proposals will be sent no later than August 1, 2017.
+The conference organizers invite proposals for papers, panels, or presentations.  Proposals should be a maximum of 500 words (full papers may also be submitted) and include the full names and affiliations of each presenter along with their email contact information and a 2-3 sentence bio.  Proposals must be submitted as an attachment in Microsoft Word, or Word-compatible, format no later than July 15, 2017 to [the contact form](/contact/).  Notification of accepted proposals will be sent no later than August 1, 2017.
 
 The symposium is designed not just exclusively for academics, but also extends an invitation to religious professionals.  Select contributions will be published as a special issue of JCRT.

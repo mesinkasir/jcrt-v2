@@ -18,11 +18,11 @@ Johns Hopkins University
 
 * * *
 
-> > _But one thing I do know,  
-> > O Zarathustra: Whoever  
-> > would kill most thoroughly, laughs._  
-> > 
-> > —Nietzsche
+> _But one thing I do know,  
+> O Zarathustra: Whoever  
+> would kill most thoroughly, laughs._  
+> 
+> —Nietzsche
 
 Recently I ran across an article on laughter that said it wanted to examine 'uses of laughter in the literal sense of the word.' [^1] The author clearly meant that he wanted to discuss the act of laughter, but that's not what he said; and, however unconscious his choice of terms, 'the literal sense of laughter' was over-determined. Sense connotes 'meaning,' and it is precisely the meaning of laughter, meaning _in_ laughter, not to mention _theories_ of laughter that thinkers have been trying to pin down since antiquity.
 

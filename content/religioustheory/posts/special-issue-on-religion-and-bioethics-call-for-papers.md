@@ -37,6 +37,6 @@ We encourage submissions that address these topics through various methodologies
 *   *Format*: Submissions must be in PDF or Word form.
 *   *Citations:* All citations should be in Chicago Manuel of Style.
 *   *Deadline:* All manuscripts must be submitted by May 1st, 2025.
-*   *Submission Process:* Please submit your manuscript electronically along with a Curriculum Vitae via to [editor.jcrt@gmail.com](mailto:editor.jcrt@gmail.com) with the heading “Religion and Bioethics Manuscript.”
+*   *Submission Process:* Please submit your manuscript electronically along with a Curriculum Vitae via to [the contact form](/contact/)with the heading “Religion and Bioethics Manuscript.”
 
 All submissions will undergo a peer-review process. For inquiries regarding this special issue, please contact the chief editor at [carl.raschke@du.edu](mailto:carl.raschke@du.edu) or assistant editors at [kev.grane@du.edu](mailto:kev.grane@du.edu).We look forward to receiving a range of insightful and thought-provoking contributions that advance our understanding of the complex relationships between religion and bioethics.

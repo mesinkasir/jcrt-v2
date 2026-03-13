@@ -22,21 +22,21 @@ York College of Pennsylvania
 
 _**For Charlie**_
 
-> > _\[T\]heology inhabits the edges and cracks of the dominant culture. It is a nomad discipline wandering, wondering, and erring._
-> > 
-> > 'Charles E. Winquist, _Desiring Theology_[^1]
-> > 
-> > _\[I\]t is always an Other who speaks, since words have not waited for me, and there is no language other than the foreign; it is always an Other, the "owner" of the objects he possesses by speaking. It is still a question of the possible, but in a new fashion: the Others are _possible worlds_, on which the voices confer a reality that is always variable, depending on the force they have, and revocable, depending on the silences they create. Sometimes they are strong, sometimes they are weak, until a moment arrives when they fall silent (a silence of tiredness). Sometimes they separate and even oppose each other, sometimes they merge together. The Others--that is, the possible worlds, with their objects, with their voices that bestow on them the only reality to which they can lay claim--constitute "stories." The Others have no other reality than the one given them in their possible world by their voices._
-> > 
-> > 'Gilles Deleuze, _Essays Critical and Clinical_[^2]
-> > 
-> > _Theology belongs to the population of all discursive practices. There is no special privilege to its discursive formations that comes from outside of the text production. The theological exigencies inscribed within its texts are effects of the metonymical placing of extreme formulations throughout the texts. . . . \[T\]heological texts introduce an incommensurability into discursive practices that is an internal trace of the other._
-> > 
-> > 'Charles E. Winquist, _Desiring Theology_[^3]
-> > 
-> > _How can one imagine a whole that holds everything together \[_un tout qui fasse compagnie_\]? How can one make a whole out of the series? . . . . The aporia will be solved if one considers that the limit of the series does not lie at the infinity of the terms but can be anywhere in the flow: between two terms, between two voices or the variations of a single voice--a point that is already reached well before one knows that the series is exhausted, and well before one learns that there is no longer any possibility or any story, and that there has not been one for a long time._
-> > 
-> > 'Gilles Deleuze, _Essays Critical and Clinical_[^4]
+> _\[T\]heology inhabits the edges and cracks of the dominant culture. It is a nomad discipline wandering, wondering, and erring._
+> 
+> 'Charles E. Winquist, _Desiring Theology_[^1]
+> 
+> _\[I\]t is always an Other who speaks, since words have not waited for me, and there is no language other than the foreign; it is always an Other, the "owner" of the objects he possesses by speaking. It is still a question of the possible, but in a new fashion: the Others are _possible worlds_, on which the voices confer a reality that is always variable, depending on the force they have, and revocable, depending on the silences they create. Sometimes they are strong, sometimes they are weak, until a moment arrives when they fall silent (a silence of tiredness). Sometimes they separate and even oppose each other, sometimes they merge together. The Others--that is, the possible worlds, with their objects, with their voices that bestow on them the only reality to which they can lay claim--constitute "stories." The Others have no other reality than the one given them in their possible world by their voices._
+> 
+> 'Gilles Deleuze, _Essays Critical and Clinical_[^2]
+> 
+> _Theology belongs to the population of all discursive practices. There is no special privilege to its discursive formations that comes from outside of the text production. The theological exigencies inscribed within its texts are effects of the metonymical placing of extreme formulations throughout the texts. . . . \[T\]heological texts introduce an incommensurability into discursive practices that is an internal trace of the other._
+> 
+> 'Charles E. Winquist, _Desiring Theology_[^3]
+> 
+> _How can one imagine a whole that holds everything together \[_un tout qui fasse compagnie_\]? How can one make a whole out of the series? . . . . The aporia will be solved if one considers that the limit of the series does not lie at the infinity of the terms but can be anywhere in the flow: between two terms, between two voices or the variations of a single voice--a point that is already reached well before one knows that the series is exhausted, and well before one learns that there is no longer any possibility or any story, and that there has not been one for a long time._
+> 
+> 'Gilles Deleuze, _Essays Critical and Clinical_[^4]
 
 Desire and mourning are folds[^5] in theological and literary discourse, limits to our ability to make present an object or mourn its loss. As surfaces the theology of literature and the literature of theology remain held together through a mutual limit, an interval in which the nomadic quality of each flows across distinct "incommensurabilities." While desire and mourning, exhaustion and erring persist as elements of both "surfaces," the return of the desired object or the restoration of narrative plenitude through mourning escape recovery and reconciliation, performing instead, as Deleuze notes, the "limit of the series" as a condition of possibility: "But the image is more profound because it frees itself from its object in order to become a process itself, that is, an event as a 'possible' that no longer even needs to be realized in a body or an object, somewhat like the smile without a cat in Lewis Carroll."[^6] Desire and mourning occur concurrently. One begins as the other begins, yielding a condition of possibility that was, is, or shall be nothing more or less than a 'fold,' "movement," or "cut," "passage," or "cloud."[^7]
 
@@ -53,14 +53,14 @@ Desire and mourning are folds[^5] in theological and literary discourse, limits 
     11.  But deliver us from evil/So that no evil may come to us.
     12.  For thine is the kingdom, the power and the glory/And there shall be order, and strength, and reason.[^19]
 
-> > _Our Father, without beginning and without end, like heaven!  
-> > May Thy being only be holy.  
-> > May power be only Thine, so that They will be done, without  
-> > Beginning and without end, on earth.  
-> > Give me food for life in the present.  
-> > Smooth out my former mistakes, and wipe them away; even as I so do with  
-> > all the mistakes of my brothers, that I may not fall into temptation,  
-> > and may be saved from evil._[^24]
+> _Our Father, without beginning and without end, like heaven!  
+> May Thy being only be holy.  
+> May power be only Thine, so that They will be done, without  
+> Beginning and without end, on earth.  
+> Give me food for life in the present.  
+> Smooth out my former mistakes, and wipe them away; even as I so do with  
+> all the mistakes of my brothers, that I may not fall into temptation,  
+> and may be saved from evil._[^24]
 
 * * *
 

@@ -20,8 +20,8 @@ York College of Pennsylvania
 
 * * *
 
-> > **August 17, 1921**  
-> > _Esteemed Director: I am writing this letter in bed. I wanted to return to Prague on the 19th of this month, but I am afraid that it won't be possible. For several months I have been almost free of fever, but on Sunday I woke with a fever which climbed to over 38 degrees and still continues today. It's probably not the result of a cold, but one of those chance things common to lung disease which one cannot avoid. The doctor who examined me and found my lungs to be in good condition except for a stubborn remnant considers this acute fever to have little significance._[^1]
+> **August 17, 1921**  
+> _Esteemed Director: I am writing this letter in bed. I wanted to return to Prague on the 19th of this month, but I am afraid that it won't be possible. For several months I have been almost free of fever, but on Sunday I woke with a fever which climbed to over 38 degrees and still continues today. It's probably not the result of a cold, but one of those chance things common to lung disease which one cannot avoid. The doctor who examined me and found my lungs to be in good condition except for a stubborn remnant considers this acute fever to have little significance._[^1]
 
 ![](images/image002.webp)
 
