@@ -1,13 +1,11 @@
 #!/usr/bin/env python3
 """
-Update PDF metadata for JCRT 24.2 articles using frontmatter from matching .md files.
+Update PDF metadata for JCRT archive articles using frontmatter from matching .md files.
 
 Usage: python3 scripts/update_pdf_metadata.py [--dry-run] [--dir content/archives/24.2]
 """
 
 import argparse
-import io
-import os
 import re
 import sys
 from pathlib import Path
@@ -27,7 +25,8 @@ JOURNAL_NAME = "The Journal for Cultural and Religious Theory"
 JOURNAL_ABBR = "Journal for Cultural & Religious Theory"
 PUBLISHER = "Whitestone Publications"
 ISSN = "1530-5228"
-SUBJECT = "Doctrine of Discovery"
+SUBJECT = "Religion and Cultural Theory"
+DEFAULT_KEYWORDS = ["religion", "philosophly", "and cultural theory"]
 
 XMP_TEMPLATE = """\
 <?xpacket begin="\ufeff" id="W5M0MpCehiHzreSzNTczkc9d"?>
@@ -88,6 +87,27 @@ def parse_pages(pages_str: str) -> tuple[str, str]:
     return ("", "")
 
 
+def normalize_keywords(raw_keywords) -> list[str]:
+    """Accept keywords as list/string/number/null and normalize to title case."""
+    if raw_keywords is None:
+        values = []
+    elif isinstance(raw_keywords, list):
+        values = raw_keywords
+    else:
+        values = [raw_keywords]
+
+    normalized = []
+    for value in values:
+        text = str(value).strip()
+        if not text:
+            continue
+        normalized.append(text.replace("-", " ").title())
+
+    if not normalized:
+        return list(DEFAULT_KEYWORDS)
+    return normalized
+
+
 def build_xmp(title: str, authors: list[str], description: str, keywords: list[str],
               volume: str = "", issue: str = "", start_page: str = "",
               end_page: str = "", pub_date: str = "") -> bytes:
@@ -116,9 +136,8 @@ def update_pdf(pdf_path: Path, fm: dict, dry_run: bool = False) -> bool:
     title = fm.get("title", "")
     author_str = fm.get("author", "")
     description = fm.get("description", "")
-    raw_keywords = fm.get("keywords", []) or []
-    # Convert slug-style keywords to readable form
-    keywords = [k.replace("-", " ").title() for k in raw_keywords]
+    raw_keywords = fm.get("keywords")
+    keywords = normalize_keywords(raw_keywords)
     authors = format_authors(str(author_str) if author_str else "")
 
     author_display = "; ".join(authors) if authors else ""
@@ -129,7 +148,6 @@ def update_pdf(pdf_path: Path, fm: dict, dry_run: bool = False) -> bool:
     pub_date = ""
     if fm.get("date"):
         try:
-            from datetime import date as dt_date
             d = fm["date"]
             if hasattr(d, "isoformat"):
                 pub_date = d.isoformat()
@@ -207,26 +225,31 @@ def main():
     md_files = sorted(base_dir.glob("*.md"))
     updated = 0
     skipped = 0
+    failed = 0
 
     for md_path in md_files:
-        fm = parse_frontmatter(md_path)
-        pdf_name = fm.get("pdf")
-        if not pdf_name:
-            # Try matching by slug
-            pdf_path = md_path.with_suffix(".pdf")
-        else:
-            pdf_path = base_dir / pdf_name
+        try:
+            fm = parse_frontmatter(md_path)
+            pdf_name = fm.get("pdf")
+            if not pdf_name:
+                # Try matching by slug
+                pdf_path = md_path.with_suffix(".pdf")
+            else:
+                pdf_path = base_dir / str(pdf_name)
 
-        if not pdf_path.exists():
-            print(f"[skip] {md_path.name}: no matching PDF ({pdf_path.name})")
-            skipped += 1
-            continue
+            if not pdf_path.exists():
+                print(f"[skip] {md_path.name}: no matching PDF ({pdf_path.name})")
+                skipped += 1
+                continue
 
-        print(f"\n[update] {pdf_path.name}")
-        update_pdf(pdf_path, fm, dry_run=args.dry_run)
-        updated += 1
+            print(f"\n[update] {pdf_path.name}")
+            update_pdf(pdf_path, fm, dry_run=args.dry_run)
+            updated += 1
+        except Exception as exc:
+            print(f"[fail] {md_path.name}: {exc.__class__.__name__}: {exc}")
+            failed += 1
 
-    print(f"\nDone: {updated} updated, {skipped} skipped.")
+    print(f"\nDone: {updated} updated, {skipped} skipped, {failed} failed.")
 
 
 if __name__ == "__main__":
