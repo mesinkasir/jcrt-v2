@@ -57,6 +57,17 @@ jobs:
           sync_or_clear "$SRC/public/images" "$DEST/images"
           sync_or_clear "$SRC/public/docs" "$DEST/docs"
 
+          sync_additive_only() {
+            local src_dir="$1"
+            local dest_dir="$2"
+            if [[ -d "$src_dir" ]]; then
+              # Add/update only; do not delete from destination.
+              rsync -a "$src_dir/" "$dest_dir/"
+            else
+              echo "Additive source missing; leaving destination unchanged: $src_dir"
+            fi
+          }
+
           # Only mirror generated citations when new archive markdown files are ADDED.
           NEW_ARCHIVE_MD_ADDED=false
           ZERO="0000000000000000000000000000000000000000"
@@ -68,7 +79,7 @@ jobs:
 
           if [[ "$NEW_ARCHIVE_MD_ADDED" == "true" ]]; then
             echo "New archive *.md detected; syncing public/citations mirror."
-            sync_or_clear "$SRC/public/citations" "$DEST/citations"
+            sync_additive_only "$SRC/public/citations" "$DEST/citations"
           else
             echo "No new archive *.md files added; skipping public/citations sync."
           fi
