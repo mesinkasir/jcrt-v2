@@ -1,0 +1,67 @@
+name: Sync Assets To jcrt-files
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main, master]
+    paths:
+      - 'public/images/**'
+      - 'public/docs/**'
+      - 'public/citations/**'
+      - 'content/archives/**'
+
+concurrency:
+  group: sync-jcrt-files-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout jcrt-v2
+        uses: actions/checkout@v4
+        with:
+          path: jcrt-v2
+
+      - name: Checkout jcrt-files
+        uses: actions/checkout@v4
+        with:
+          repository: The-Whitestone-Foundation/jcrt-files
+          token: ${{ secrets.JCRT_FILES_PUSH_TOKEN }}
+          path: jcrt-files
+
+      - name: Sync static folders and archive PDFs
+        shell: bash
+        run: |
+          set -euo pipefail
+          SRC="$GITHUB_WORKSPACE/jcrt-v2"
+          DEST="$GITHUB_WORKSPACE/jcrt-files"
+
+          mkdir -p "$DEST/images" "$DEST/docs" "$DEST/citations" "$DEST/archives"
+
+          # Keep Decap flow intact: editors still write to jcrt-v2/public/images.
+          rsync -a --delete "$SRC/public/images/" "$DEST/images/"
+          rsync -a --delete "$SRC/public/docs/" "$DEST/docs/"
+          rsync -a --delete "$SRC/public/citations/" "$DEST/citations/"
+
+          # Publish only PDFs from content/archives to files.jcrt.org/archives/... 
+          rsync -a --delete --prune-empty-dirs \
+            --include='*/' --include='*.pdf' --exclude='*' \
+            "$SRC/content/archives/" "$DEST/archives/"
+
+      - name: Commit and push if changed
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd "$GITHUB_WORKSPACE/jcrt-files"
+
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "No jcrt-files changes to commit"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "sync: jcrt-v2 assets @ ${{ github.sha }}"
+          git push

@@ -309,6 +309,13 @@
 /posts/:slug/ /religioustheory/posts/:slug/ 301
 /posts/:slug /religioustheory/posts/:slug/ 301
 /web/ / 301
+
+# split-repo asset bridge (jcrt-v2 -> files.jcrt.org)
+/images/* https://files.jcrt.org/images/:splat 200
+/docs/* https://files.jcrt.org/docs/:splat 200
+/citations/* https://files.jcrt.org/citations/:splat 200
+/archives/*.pdf https://files.jcrt.org/archives/:splat 200
+
 /img/*.png /images/:splat.webp 301
 /img/*.jpg /images/:splat.webp 301
 /img/*.jpeg /images/:splat.webp 301
