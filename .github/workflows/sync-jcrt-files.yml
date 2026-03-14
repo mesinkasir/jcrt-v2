@@ -31,6 +31,9 @@ jobs:
           path: jcrt-files
 
       - name: Sync static folders and archive PDFs
+        env:
+          BEFORE_SHA: ${{ github.event.before }}
+          AFTER_SHA: ${{ github.sha }}
         shell: bash
         run: |
           set -euo pipefail
@@ -54,7 +57,22 @@ jobs:
           # Keep Decap flow intact: editors still write to jcrt-v2/public/images.
           sync_or_clear "$SRC/public/images" "$DEST/images"
           sync_or_clear "$SRC/public/docs" "$DEST/docs"
-          sync_or_clear "$SRC/public/citations" "$DEST/citations"
+
+          # Only mirror generated citations when new archive markdown files are ADDED.
+          NEW_ARCHIVE_MD_ADDED=false
+          ZERO="0000000000000000000000000000000000000000"
+          if [[ -n "${BEFORE_SHA:-}" ]] && [[ "${BEFORE_SHA}" != "$ZERO" ]] && git -C "$SRC" cat-file -e "${BEFORE_SHA}^{commit}" 2>/dev/null; then
+            if git -C "$SRC" diff --name-status "$BEFORE_SHA" "$AFTER_SHA" -- content/archives | awk '$1=="A" && $2 ~ /\.md$/ {found=1} END {exit !found}'; then
+              NEW_ARCHIVE_MD_ADDED=true
+            fi
+          fi
+
+          if [[ "$NEW_ARCHIVE_MD_ADDED" == "true" ]]; then
+            echo "New archive *.md detected; syncing public/citations mirror."
+            sync_or_clear "$SRC/public/citations" "$DEST/citations"
+          else
+            echo "No new archive *.md files added; skipping public/citations sync."
+          fi
 
           # Publish only PDFs from content/archives to files.jcrt.org/archives/... 
           rsync -a --delete --prune-empty-dirs \
