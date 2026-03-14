@@ -125,6 +125,8 @@ collections:
   - name: "archives"
     label: "Archives"
     folder: "content/archives"
+    media_folder: "content/archives"
+    public_folder: "/archives"
     create: true
     editor:
       preview: false

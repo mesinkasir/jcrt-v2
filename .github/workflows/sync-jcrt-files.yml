@@ -39,10 +39,22 @@ jobs:
 
           mkdir -p "$DEST/images" "$DEST/docs" "$DEST/citations" "$DEST/archives"
 
+          sync_or_clear() {
+            local src_dir="$1"
+            local dest_dir="$2"
+            if [[ -d "$src_dir" ]]; then
+              rsync -a --delete "$src_dir/" "$dest_dir/"
+            else
+              echo "Source missing, clearing destination mirror: $src_dir"
+              rm -rf "$dest_dir"
+              mkdir -p "$dest_dir"
+            fi
+          }
+
           # Keep Decap flow intact: editors still write to jcrt-v2/public/images.
-          rsync -a --delete "$SRC/public/images/" "$DEST/images/"
-          rsync -a --delete "$SRC/public/docs/" "$DEST/docs/"
-          rsync -a --delete "$SRC/public/citations/" "$DEST/citations/"
+          sync_or_clear "$SRC/public/images" "$DEST/images"
+          sync_or_clear "$SRC/public/docs" "$DEST/docs"
+          sync_or_clear "$SRC/public/citations" "$DEST/citations"
 
           # Publish only PDFs from content/archives to files.jcrt.org/archives/... 
           rsync -a --delete --prune-empty-dirs \
