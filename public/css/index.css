@@ -5,6 +5,7 @@
     --default-padding: 50px;
     --primary-jcrt: #B42318;
     --primary-jcrt-hover: #8F1D14;
+    --link-jcrt: #7A1B14;
     --icon-gray-jcrt: #595959;
     --text-gray-jcrt: #4A4A4A;
     --btn-margin-left: calc((100% - 1140px) / 2 - 60px);
@@ -291,8 +292,8 @@ body.menu-open #sidebar-container {
 }
 
 
-		a {color: var(--primary-jcrt) !important;}
-		a:hover {color: var(--primary-jcrt);}
+		a {color: var(--link-jcrt) !important;}
+		a:hover {color: var(--primary-jcrt-hover);}
 		.text-secondary, .text-muted { color: #000000 !important; }
 		.text-dark { color: #000000 !important; }
 		a.btn-primary, .btn-primary {
@@ -920,6 +921,15 @@ body.sidebar-open #menu-toggle-btn {
 .text-secondary,
 .text-muted {
     color: var(--text-gray-jcrt) !important;
+}
+
+.site-footer a {
+    color: #2b2b2b !important;
+    text-decoration: underline;
+}
+
+.site-footer a:hover {
+    color: #111111 !important;
 }
 
 /* Keep hamburger bars visually prominent in 40-50px toggle squares. */
