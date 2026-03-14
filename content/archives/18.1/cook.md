@@ -7,7 +7,7 @@ keywords:
   - theology
   - ideology
   - social-credit
-pdf:
+pdf: Cook1.pdf
 sort_id:
 volume: 18
 issue: 1

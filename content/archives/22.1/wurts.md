@@ -8,7 +8,7 @@ keywords:
   - 1947-1994
   - boswell
   - john
-pdf:
+pdf: Wurts.pdf
 sort_id:
 volume: 22
 issue: 1

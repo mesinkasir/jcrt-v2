@@ -17,7 +17,7 @@ keywords:
   - sex-discrimination-against-women
   - women-legal-status
   - women-s-rights
-pdf:
+pdf: Grane.pdf
 sort_id:
 volume: 22
 issue: 1

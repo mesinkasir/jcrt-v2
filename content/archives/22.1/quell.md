@@ -13,7 +13,7 @@ keywords:
   - crowds
   - representative-government-and-representation
   - political-systems
-pdf:
+pdf: Quell.pdf
 sort_id:
 volume: 22
 issue: 1

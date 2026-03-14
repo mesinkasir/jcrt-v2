@@ -18,7 +18,7 @@ keywords:
   - pentecostalism-catholic-church
   - science-philosophy
   - spiritual
-pdf:
+pdf: Magnasco.pdf
 sort_id:
 volume: 22
 issue: 1

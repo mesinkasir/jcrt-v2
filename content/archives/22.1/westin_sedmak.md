@@ -11,7 +11,7 @@ keywords:
   - human-philosophy
   - psychology-philosophy
   - physical-anthropology
-pdf:
+pdf: Westin.pdf
 sort_id:
 volume: 22
 issue: 1

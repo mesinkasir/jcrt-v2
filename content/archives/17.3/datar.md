@@ -7,7 +7,7 @@ keywords:
   - secularism
   - public-sphere
   - philosophers
-pdf: Datar,pdf
+pdf: Datar.pdf
 sort_id: 03
 volume: 17
 issue: 3

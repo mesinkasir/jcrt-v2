@@ -13,7 +13,7 @@ keywords:
   - human-philosophy
   - freedom-philosophy
   - tradition-philosophy
-pdf:
+pdf: Hujing.pdf
 sort_id:
 volume: 22
 issue: 1

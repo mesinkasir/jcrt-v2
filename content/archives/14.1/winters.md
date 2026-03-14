@@ -1,6 +1,6 @@
 ---
 title: "Theodor Adorno and the Unhopeless Work of the Negative."
-author: "Joseph Falls"
+author: "Joseph Winters"
 affilation:
 abstract: "The article offers the author's insights on the thoughts of philosopher Theodor Adorno on hope and the claims that his thought leads to negativism."
 keywords:
@@ -9,7 +9,7 @@ keywords:
   - adorno
   - negativism
   - theodor-w
-pdf: falls.pdf
+pdf: winters.pdf
 sort_id: 12
 volume: 14
 issue: 1

@@ -11,7 +11,7 @@ keywords:
   - lacan
   - psychoanalysis-and-religion
   - religion-philosophy
-pdf: zizek-taylor-intro.pdf
+pdf: taylor.pdf
 sort_id: 15
 volume: 7
 issue: 1

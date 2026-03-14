@@ -6,7 +6,7 @@ abstract:
 keywords:
   - catholic-church
   - christian-sects
-pdf:
+pdf: Patry.pdf
 sort_id:
 volume: 22
 issue: 1

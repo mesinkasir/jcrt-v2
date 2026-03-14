@@ -15,7 +15,7 @@ keywords:
   - medicine-philosophy
   - risk-assessment
   - social-history
-pdf:
+pdf: Auer.pdf
 sort_id:
 volume: 22
 issue: 1
