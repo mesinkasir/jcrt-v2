@@ -1,10 +1,10 @@
 title: "JCRT"
 description: "Journal for Cultural and Religious Theory (JCRT), whitestone foundation publication"
-image: "/img/logos/favicon.svg"
+image: "/images/logos/favicon.svg"
 language: "en"
 locale: en_US
 timezone: America/New_York
-favicon: "/img/logos/favicon.svg"
+favicon: "/images/logos/favicon.svg"
 #url: http://localhost:8080 #localhost
 #url: https://jcrt.netlify.app #development
 url: https://jcrt.org #live
@@ -56,10 +56,10 @@ sidebar:
     sections:
       - title: The New Polis
         list: 
-          - image: "/img/tnp.webp"
+          - image: "/images/tnp.webp"
             text: "The New Polis is an online publication dedicated to critical theory, social analysis, and political philosophy and theology."
             url: "https://thenewpolis.com/"
-          - image: "/img/tnpj.webp"
+          - image: "/images/tnpj.webp"
             text: "The New Polis Journal is a peer-reviewed academic journal publishing cutting-edge work in political philosophy, social theory, and related fields."
             url: "https://journal.thenewpolis.com/"
     button: 

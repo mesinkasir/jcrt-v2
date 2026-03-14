@@ -8,7 +8,7 @@ keywords: []
 pdf:
 year: 2010
 ---
-[![scan 1](/archives/10.2/scan1.webp)](scan1.tiff)
-[![scan 2](/archives/10.2/scan2.webp)](scan2.tiff)
+[![scan 1](/images/archives/10.2/scan1.webp)](scan1.tiff)
+[![scan 2](/images/archives/10.2/scan2.webp)](scan2.tiff)
 
 ---

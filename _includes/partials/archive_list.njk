@@ -27,8 +27,8 @@
         <div class="col-md-4 mb-4">
           <div class="img-zoom-container mb-3 shadow-sm rounded" style="aspect-ratio: 16/9; overflow: hidden;">
             <a href="{{ post.url }}">
-              {% set archiveThumb = post.data.image if post.data.image and post.data.image != 'null' else '/img/jcrt-open-graph.webp' %}
-              {% responsiveThumb archiveThumb, (post.data.title or "Untitled Document"), "img-fluid w-100 h-100", "(max-width: 767px) 100vw, (max-width: 1199px) 50vw, 33vw", "320,480,640", "lazy", "low", "/img/jcrt-open-graph.webp", "object-fit: cover;" %}
+              {% set archiveThumb = post.data.image if post.data.image and post.data.image != 'null' else '/images/jcrt-open-graph.webp' %}
+              {% responsiveThumb archiveThumb, (post.data.title or "Untitled Document"), "img-fluid w-100 h-100", "(max-width: 767px) 100vw, (max-width: 1199px) 50vw, 33vw", "320,480,640", "lazy", "low", "/images/jcrt-open-graph.webp", "object-fit: cover;" %}
             </a>
           </div>
           

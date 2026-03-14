@@ -36,7 +36,7 @@ Theology is not lost, but it does not know where it is.[^1] As philosophical the
 
 > ... the latest lithesome discovery of John Casablancas, the founder of Elite Model Management, which shaped the careers of Cindy Crawford and Naomi Campbell. Webbie exists only in cyberspace, the creation of a Swedish animator named Steven St'hlberg, but that didn't hinder her from posing for a feature in _Details_ in October, 1999, and a new Nokia phone advertising campaign in Latin America. Most recently, Webbie was signed by Sony Music Latin America to join a Spice Girls-style virtual band. [^6]
 
-[![](https://jcrt.org/archives/02.3/images/image003.webp)](http://www.optidigit.com/stevens/about.html)8.  Webbie Tookay and other digital creations present a new class of citizens known as "Super Virtual Models," valued for their effortless figures, minimal diets, and the ability to be in many places at once. Ms. Tookay is even represented by [Illusion2k](http://www.illusion2k.com/), a modeling agency run by Casablancas for virtual models. Interestingly, she is inspired not by an actual individual, but by the cult heroine Lara Croft, who starred in the _Tomb Raider_ video games series and who is currently portrayed by Angelina Jolie in the current film based on the video game.[^7] Adds Mr. Casablancas, "sometimes I wish all models were virtual."[^8]
+[![](https://jcrt.org/images/archives/02.3/images/image003.webp)](http://www.optidigit.com/stevens/about.html)8.  Webbie Tookay and other digital creations present a new class of citizens known as "Super Virtual Models," valued for their effortless figures, minimal diets, and the ability to be in many places at once. Ms. Tookay is even represented by [Illusion2k](http://www.illusion2k.com/), a modeling agency run by Casablancas for virtual models. Interestingly, she is inspired not by an actual individual, but by the cult heroine Lara Croft, who starred in the _Tomb Raider_ video games series and who is currently portrayed by Angelina Jolie in the current film based on the video game.[^7] Adds Mr. Casablancas, "sometimes I wish all models were virtual."[^8]
 
 > The world's night is spreading its darkness. The era is defined by the god's failure to arrive, by the 'default of God,' ... \[which means that\] no god any longer gathers men and things unto himself, visibly and unequivocally, and by such gathering disposes the world's history and man's sojourn in it. ...[^11]
 
@@ -68,8 +68,8 @@ Theology is not lost, but it does not know where it is.[^1] As philosophical the
 
 ### Notes
 
-![](https://jcrt.org/archives/02.3/images/image005.webp)      
-![](https://jcrt.org/archives/02.3/images/image007.webp)
+![](https://jcrt.org/images/archives/02.3/images/image005.webp)      
+![](https://jcrt.org/images/archives/02.3/images/image007.webp)
 * * *
 
 > **Neal E. Magee** is currently a doctoral student in the Department of Religion at Syracuse University and Technical Editor of the _Journal for Cultural and Religious Theory_. He attended Flagler College in St. Augustine, Florida, and received a M.Div. from Princeton Theological Seminary in 1997, where he then served as the Seminary's first Webmaster. Neal has research interests in modern and contemporary philosophical theology, primarily epistemology, metaphysics, and hermeneutics. He is writing his dissertation on the recurring turn toward the negative within the history of Western theology.

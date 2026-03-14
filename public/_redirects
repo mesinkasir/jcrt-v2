@@ -309,10 +309,25 @@
 /posts/:slug/ /religioustheory/posts/:slug/ 301
 /posts/:slug /religioustheory/posts/:slug/ 301
 /web/ / 301
-/img/*.png /img/:splat.webp 301
-/img/*.jpg /img/:splat.webp 301
-/img/*.jpeg /img/:splat.webp 301
-/images/* /img/jcrt-open-graph.webp 301
+/img/*.png /images/:splat.webp 301
+/img/*.jpg /images/:splat.webp 301
+/img/*.jpeg /images/:splat.webp 301
+/img/* /images/:splat 301
+
+# moved static archive image assets
+/archives/02.3/images/image005.webp /images/archives/02.3/images/image005.webp 301
+/archives/02.3/images/image003.webp /images/archives/02.3/images/image003.webp 301
+/archives/02.3/images/image007.webp /images/archives/02.3/images/image007.webp 301
+/archives/10.2/scan1.webp /images/archives/10.2/scan1.webp 301
+/archives/10.2/scan2.webp /images/archives/10.2/scan2.webp 301
+/archives/03.3/images/image008.webp /images/archives/03.3/images/image008.webp 301
+/archives/03.3/images/image012.webp /images/archives/03.3/images/image012.webp 301
+/archives/03.3/images/image004.webp /images/archives/03.3/images/image004.webp 301
+/archives/03.3/images/image014.webp /images/archives/03.3/images/image014.webp 301
+/archives/03.3/images/image002.webp /images/archives/03.3/images/image002.webp 301
+/archives/03.3/images/image016.webp /images/archives/03.3/images/image016.webp 301
+/archives/03.3/images/image006.webp /images/archives/03.3/images/image006.webp 301
+/archives/03.3/images/image010.webp /images/archives/03.3/images/image010.webp 301
 
 # Root-level legacy date URL variants used in imported content links
 /2016/:month/:day/:slug/* /religioustheory/posts/:slug/ 301

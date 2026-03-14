@@ -6,8 +6,8 @@ backend:
 #  auth_endpoint: auth
 #  local_backend: true
 
-media_folder: "public/img"
-public_folder: "/img"
+media_folder: "public/images"
+public_folder: "/images"
 
 collections:
   - name: "home"

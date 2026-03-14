@@ -179,11 +179,11 @@ async function renderResponsiveThumb(src, options = {}) {
 		loading = "lazy",
 		fetchpriority = "low",
 		decoding = "async",
-		fallbackSrc = "/img/jcrt-open-graph.webp",
+		fallbackSrc = "/images/jcrt-open-graph.webp",
 		style = "",
 	} = options;
 
-	const resolvedFallback = resolveImagePath(fallbackSrc) ? fallbackSrc : "/img/jcrt-open-graph.webp";
+	const resolvedFallback = resolveImagePath(fallbackSrc) ? fallbackSrc : "/images/jcrt-open-graph.webp";
 	const candidate = String(src || "").trim();
 	let finalSrc = candidate && candidate !== "null" && candidate !== "undefined" ? candidate : resolvedFallback;
 	let filePath = resolveImagePath(finalSrc);
@@ -222,8 +222,8 @@ async function renderResponsiveThumb(src, options = {}) {
 	const metadata = await Image(filePath, {
 		widths: parseWidths(widths),
 		formats: ["webp", "jpeg"],
-		outputDir: "./_site/img/thumbnails",
-		urlPath: "/img/thumbnails",
+		outputDir: "./_site/images/thumbnails",
+		urlPath: "/images/thumbnails",
 		sharpOptions: {
 			animated: true,
 		},
@@ -320,8 +320,8 @@ async function ensureFavicons() {
 	// If you run the build on an older Node (e.g. v18.12.x), skip generation.
 	if (typeof osCompat.availableParallelism !== "function") return;
 
-	const sourceSvg = path.join(process.cwd(), "public/img/logos/JCRT.svg");
-	const outputDir = path.join(process.cwd(), "public/img/logos");
+	const sourceSvg = path.join(process.cwd(), "public/images/logos/JCRT.svg");
+	const outputDir = path.join(process.cwd(), "public/images/logos");
 
 	const sizesToName = new Map([
 		[16, "favicon-16x16"],
@@ -356,7 +356,7 @@ async function ensureFavicons() {
 		widths: [...sizesToName.keys()],
 		formats: ["png"],
 		outputDir,
-		urlPath: "/img/logos",
+		urlPath: "/images/logos",
 		filenameFormat: function (_id, _src, width, format) {
 			const base = sizesToName.get(width) || `favicon-${width}x${width}`;
 			return `${base}.${format}`;
@@ -695,8 +695,8 @@ export default async function (eleventyConfig) {
 		if (!/\.(jpe?g|png)$/i.test(pathname)) return src;
 		return pathname.replace(/\.(jpe?g|png)$/i, ".webp") + suffix;
 	});
-	eleventyConfig.addFilter("ensureImage", function (value, fallback = "/img/jcrt-open-graph.webp") {
-		const defaultImage = String(fallback || "/img/jcrt-open-graph.webp");
+	eleventyConfig.addFilter("ensureImage", function (value, fallback = "/images/jcrt-open-graph.webp") {
+		const defaultImage = String(fallback || "/images/jcrt-open-graph.webp");
 		if (!value) return defaultImage;
 
 		const src = String(value).trim();
@@ -731,7 +731,7 @@ export default async function (eleventyConfig) {
 			widths = "320,480,640",
 			loading = "lazy",
 			fetchpriority = "low",
-			fallbackSrc = "/img/jcrt-open-graph.webp",
+			fallbackSrc = "/images/jcrt-open-graph.webp",
 			style = ""
 		) {
 			return renderResponsiveThumb(src, {
