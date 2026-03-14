@@ -7,7 +7,6 @@ on:
     paths:
       - 'public/images/**'
       - 'public/docs/**'
-      - 'public/citations/**'
       - 'content/archives/**'
 
 concurrency:
