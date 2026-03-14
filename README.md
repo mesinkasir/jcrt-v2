@@ -1,5 +1,5 @@
 # [JCRT](https://jcrt.org)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/738f8dd4-3a98-4ce6-9857-537c268780a8/deploy-status)](https://app.netlify.com/projects/jcrt/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/738f8dd4-3a98-4ce6-9857-537c268780a8/deploy-status)](https://app.netlify.com/projects/jcrt/deploys)[![Sync Assets To jcrt-files](https://github.com/The-Whitestone-Foundation/jcrt-v2/actions/workflows/sync-jcrt-files.yml/badge.svg)](https://github.com/The-Whitestone-Foundation/jcrt-v2/actions/workflows/sync-jcrt-files.yml)
 
 Developed by Adam DJ Brett
 
