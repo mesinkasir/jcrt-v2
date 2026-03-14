@@ -545,7 +545,6 @@ export default async function (eleventyConfig) {
 	eleventyConfig
 		.addPassthroughCopy({ "public/css": "css" })
 		.addPassthroughCopy({ "public/js": "js" })
-		.addPassthroughCopy({ "public/img": "img" })
 		.addPassthroughCopy({ "public/images": "images" })
 		.addPassthroughCopy({ "public/admin": "admin" })
 		.addPassthroughCopy({ "public/docs": "docs" })

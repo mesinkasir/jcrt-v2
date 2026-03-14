@@ -46,7 +46,6 @@ CHANGELOG
 
 ### v0.4
 - Integration with github API religioustheroy repo (Auto Update 1 Day Schemes)
-- Sveltia Ready / Page CMS ready for Headless Backend CMS
 
 
 ## Editorial Theme nicely coded examples
