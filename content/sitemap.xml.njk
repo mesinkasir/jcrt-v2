@@ -11,7 +11,8 @@ eleventyExcludeFromCollections: true
 
 	{%- for item in sitemapEntries %}
 		<sitemap>
-			<loc>{{ (base ~ (item.path | url)) | xmlEscape | safe }}</loc>
+			{% set loc = item.loc or (base ~ (item.path | url)) %}
+			<loc>{{ loc | xmlEscape | safe }}</loc>
 			{% if item.lastmod %}<lastmod>{{ item.lastmod }}</lastmod>{% endif %}
 		</sitemap>
 	{%- endfor %}

@@ -11,12 +11,9 @@ import markdownItTableOfContents from "markdown-it-table-of-contents";
 import pluginTOC from "eleventy-plugin-toc";
 import pluginFilters from "./_config/filters.js";
 import { authorSlug, splitAuthors } from "./_config/authorSlug.js";
-import generateArchiveCitations from "./_config/generate-archive-citations.js";
-import generateReligiousTheoryCitations from "./_config/generate-religioustheory-citations.js";
 import Image from "@11ty/eleventy-img";
 import fs from "node:fs";
 import path from "node:path";
-import crypto from "node:crypto";
 import { createRequire } from "node:module";
 import { DateTime } from "luxon";
 
@@ -37,7 +34,6 @@ const imageDimensionCache = new Map();
 const resolveImagePathCache = new Map();
 const metadataYamlPath = path.join(process.cwd(), "_data", "metadata.yaml");
 const cacheDirPath = path.join(process.cwd(), ".cache");
-const citationSignaturePath = path.join(cacheDirPath, "citations-input-signatures.json");
 const TIME_ZONE = "America/New_York";
 
 function getSiteUrlFromMetadata() {
@@ -288,43 +284,6 @@ function createMemoizedRenderer(renderFn, maxEntries = 2000) {
 	};
 }
 
-function loadJson(filePath, fallback = {}) {
-	try {
-		return JSON.parse(fs.readFileSync(filePath, "utf8"));
-	} catch {
-		return fallback;
-	}
-}
-
-function saveJson(filePath, value) {
-	fs.mkdirSync(path.dirname(filePath), { recursive: true });
-	fs.writeFileSync(filePath, `${JSON.stringify(value, null, 2)}\n`, "utf8");
-}
-
-function hashForFiles(rootDir, extensions = [".md"]) {
-	if (!fs.existsSync(rootDir)) return "missing";
-	const exts = new Set(extensions.map((ext) => String(ext).toLowerCase()));
-	const files = [];
-	const walk = (dir) => {
-		for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
-			if (entry.name.startsWith(".")) continue;
-			const fullPath = path.join(dir, entry.name);
-			if (entry.isDirectory()) {
-				walk(fullPath);
-				continue;
-			}
-			if (!entry.isFile()) continue;
-			const ext = path.extname(entry.name).toLowerCase();
-			if (!exts.has(ext)) continue;
-			const stat = fs.statSync(fullPath);
-			const rel = path.relative(rootDir, fullPath).replace(/\\/g, "/");
-			files.push(`${rel}|${stat.size}|${Math.trunc(stat.mtimeMs)}`);
-		}
-	};
-	walk(rootDir);
-	files.sort((a, b) => a.localeCompare(b));
-	return crypto.createHash("sha256").update(files.join("\n")).digest("hex");
-}
 
 function archiveIssueSortKey(inputPath, url) {
 	// Prefer the directory segment under `content/archives/`.
@@ -461,26 +420,8 @@ export default async function (eleventyConfig) {
 		// In serve mode, skip heavyweight pre-build generation to prevent
 		// repeated high-memory rebuild cycles.
 		if (runMode !== "serve" && !isBenchMode) {
-			const nextSignatures = {
-				baseUrl: siteBaseUrl,
-				archives: hashForFiles(path.join(process.cwd(), "content", "archives"), [".md"]),
-				religioustheory: hashForFiles(path.join(process.cwd(), "content", "religioustheory", "posts"), [".md"]),
-			};
-			const prevSignatures = loadJson(citationSignaturePath, {});
-			const citationsChanged =
-				prevSignatures.baseUrl !== nextSignatures.baseUrl ||
-				prevSignatures.archives !== nextSignatures.archives ||
-				prevSignatures.religioustheory !== nextSignatures.religioustheory;
-
-			if (citationsChanged) {
-				await generateArchiveCitations(siteBaseUrl);
-				await generateReligiousTheoryCitations(siteBaseUrl);
-				saveJson(citationSignaturePath, nextSignatures);
-			} else {
-				console.log(
-					"[Citations] Skipped generation: no content changes detected in /archives or /religioustheory/posts"
-				);
-			}
+			// Citations are now generated in the jcrt-files repo and served
+			// via files.jcrt.org — no longer built here.
 			await ensureFavicons();
 		}
 	});
@@ -563,9 +504,9 @@ export default async function (eleventyConfig) {
 	// Pagefind runs once in `npm run build` (after `_site` is built).
 	// Keep passthrough mappings non-overlapping to avoid copy/watch race conditions.
 	eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
-	// Assets (images, docs, PDFs) are served via files.jcrt.org through
-	// Netlify 200-proxy rules in public/_redirects.  Only copy what is
-	// needed locally: CSS, JS, admin panel, redirects, and citations.
+	// Assets (images, docs, PDFs, citations) are served via files.jcrt.org
+	// through Netlify 200-proxy rules in public/_redirects.
+	// Only copy what is needed locally: CSS, JS, admin panel, redirects.
 	eleventyConfig
 		.addPassthroughCopy({ "public/css": "css" })
 		.addPassthroughCopy({ "public/js": "js" })
@@ -574,8 +515,6 @@ export default async function (eleventyConfig) {
 		.addPassthroughCopy({ "public/_headers": "_headers" })
 		.addPassthroughCopy({ "css/bs.css": "css/bs.css" })
 		.addPassthroughCopy("./content/feed/pretty-atom-feed.xsl");
-	// Citations are copied to _site/citations/ by post-build (copy-citations.js)
-	// instead of Eleventy passthrough, avoiding 2,334 tracked files.
 	// Thumbnails generated by eleventy-img are cached in .cache/thumbnails
 	// and copied into _site so they are served directly (before proxy rules).
 	eleventyConfig.addPassthroughCopy({ ".cache/thumbnails": "images/thumbnails" });

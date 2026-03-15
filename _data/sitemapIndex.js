@@ -4,6 +4,14 @@ import { execSync } from "node:child_process";
 import yaml from "js-yaml";
 
 const ROOT = path.join(process.cwd(), "content", "sitemaps");
+const EXTERNAL_SEARCH_SITEMAP_URL = "https://files.jcrt.org/metadata/search-sitemap.xml";
+const LOCAL_SEARCH_SITEMAP_FILE = path.resolve(
+	process.cwd(),
+	"..",
+	"jcrt-files",
+	"metadata",
+	"search-sitemap.xml"
+);
 
 function walk(dir) {
 	const out = [];
@@ -45,6 +53,15 @@ function getFallbackLastmod() {
 	}
 }
 
+function getFileLastmodOrEmpty(filePath) {
+	try {
+		const stat = fs.statSync(filePath);
+		return toDateOnly(stat.mtime);
+	} catch {
+		return "";
+	}
+}
+
 export default function sitemapIndex() {
 	let files = [];
 	try {
@@ -73,9 +90,16 @@ export default function sitemapIndex() {
 		});
 	}
 
+	entries.push({
+		loc: EXTERNAL_SEARCH_SITEMAP_URL,
+		path: EXTERNAL_SEARCH_SITEMAP_URL,
+		lastmod: getFileLastmodOrEmpty(LOCAL_SEARCH_SITEMAP_FILE) || fallbackLastmod,
+	});
+
 	const unique = new Map();
 	for (const item of entries) {
-		if (!unique.has(item.path)) unique.set(item.path, item);
+		const key = item.loc || item.path;
+		if (!unique.has(key)) unique.set(key, item);
 	}
-	return [...unique.values()].sort((a, b) => a.path.localeCompare(b.path));
+	return [...unique.values()].sort((a, b) => (a.loc || a.path).localeCompare(b.loc || b.path));
 }
