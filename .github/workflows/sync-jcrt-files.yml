@@ -1,107 +1,16 @@
 name: Sync Assets To jcrt-files
 
+# DEPRECATED: All images, PDFs, docs, and citations now live in jcrt-files.
+# This workflow is disabled. New assets should be added directly to jcrt-files.
+# Keeping the file to document the migration. Remove entirely once stable.
+
 on:
   workflow_dispatch:
-  push:
-    branches: [main, master]
-    paths:
-      - 'public/images/**'
-      - 'public/docs/**'
-      - 'content/archives/**'
-
-concurrency:
-  group: sync-jcrt-files-${{ github.ref }}
-  cancel-in-progress: true
+  # No longer auto-triggered on push — jcrt-v2 no longer contains binary assets.
 
 jobs:
   sync:
     runs-on: ubuntu-latest
+    if: false  # Disabled — assets live in jcrt-files now
     steps:
-      - name: Checkout jcrt-v2
-        uses: actions/checkout@v4
-        with:
-          path: jcrt-v2
-
-      - name: Checkout jcrt-files
-        uses: actions/checkout@v4
-        with:
-          repository: The-Whitestone-Foundation/jcrt-files
-          token: ${{ secrets.JCRT_FILES_PUSH_TOKEN }}
-          path: jcrt-files
-
-      - name: Sync static folders and archive PDFs
-        env:
-          BEFORE_SHA: ${{ github.event.before }}
-          AFTER_SHA: ${{ github.sha }}
-        shell: bash
-        run: |
-          set -euo pipefail
-          SRC="$GITHUB_WORKSPACE/jcrt-v2"
-          DEST="$GITHUB_WORKSPACE/jcrt-files"
-
-          mkdir -p "$DEST/images" "$DEST/docs" "$DEST/citations" "$DEST/archives"
-
-          sync_or_clear() {
-            local src_dir="$1"
-            local dest_dir="$2"
-            if [[ -d "$src_dir" ]]; then
-              rsync -a --delete "$src_dir/" "$dest_dir/"
-            else
-              echo "Source missing, clearing destination mirror: $src_dir"
-              rm -rf "$dest_dir"
-              mkdir -p "$dest_dir"
-            fi
-          }
-
-          # Keep Decap flow intact: editors still write to jcrt-v2/public/images.
-          sync_or_clear "$SRC/public/images" "$DEST/images"
-          sync_or_clear "$SRC/public/docs" "$DEST/docs"
-
-          sync_additive_only() {
-            local src_dir="$1"
-            local dest_dir="$2"
-            if [[ -d "$src_dir" ]]; then
-              # Add/update only; do not delete from destination.
-              rsync -a "$src_dir/" "$dest_dir/"
-            else
-              echo "Additive source missing; leaving destination unchanged: $src_dir"
-            fi
-          }
-
-          # Only mirror generated citations when new archive markdown files are ADDED.
-          NEW_ARCHIVE_MD_ADDED=false
-          ZERO="0000000000000000000000000000000000000000"
-          if [[ -n "${BEFORE_SHA:-}" ]] && [[ "${BEFORE_SHA}" != "$ZERO" ]] && git -C "$SRC" cat-file -e "${BEFORE_SHA}^{commit}" 2>/dev/null; then
-            if git -C "$SRC" diff --name-status "$BEFORE_SHA" "$AFTER_SHA" -- content/archives | awk '$1=="A" && $2 ~ /\.md$/ {found=1} END {exit !found}'; then
-              NEW_ARCHIVE_MD_ADDED=true
-            fi
-          fi
-
-          if [[ "$NEW_ARCHIVE_MD_ADDED" == "true" ]]; then
-            echo "New archive *.md detected; syncing public/citations mirror."
-            sync_additive_only "$SRC/public/citations" "$DEST/citations"
-          else
-            echo "No new archive *.md files added; skipping public/citations sync."
-          fi
-
-          # Publish only PDFs from content/archives to files.jcrt.org/archives/... 
-          rsync -a --delete --prune-empty-dirs \
-            --include='*/' --include='*.pdf' --exclude='*' \
-            "$SRC/content/archives/" "$DEST/archives/"
-
-      - name: Commit and push if changed
-        shell: bash
-        run: |
-          set -euo pipefail
-          cd "$GITHUB_WORKSPACE/jcrt-files"
-
-          if git diff --quiet && git diff --cached --quiet; then
-            echo "No jcrt-files changes to commit"
-            exit 0
-          fi
-
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git commit -m "sync: jcrt-v2 assets @ ${{ github.sha }}"
-          git push
+      - run: echo "This workflow is disabled. Assets should be added directly to jcrt-files."
