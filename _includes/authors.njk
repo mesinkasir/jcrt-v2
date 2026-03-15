@@ -38,7 +38,7 @@ layout: base.njk
               {{ postsByAuthor.length }} Posts |
               {% if social %}
                 {% for s in social %}
-                  <a href="{{ s.url }}" title="{{ s.title }}"><i class="{{ s.icon }} me-2"></i></a>
+                  <a href="{{ s.url }}" title="{{ s.title }}"><svg class="icon-svg me-2" aria-hidden="true"><use href="#{{ s.icon | iconId }}"/></svg></a>
                 {% endfor %}
               {% endif %}
             </p>

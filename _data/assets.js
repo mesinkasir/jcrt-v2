@@ -100,8 +100,10 @@ export default async function () {
 		return serveCache;
 	}
 
+	// Images and docs are served from files.jcrt.org — only scan
+	// public/citations and content/archives for PDFs/citations/sitemaps.
 	const roots = [
-		{ baseDir: "public", urlPrefix: "/" },
+		{ baseDir: "public/citations", urlPrefix: "/citations/" },
 		{ baseDir: "content/archives", urlPrefix: "/archives/" },
 	];
 	const fingerprintPieces = await Promise.all(

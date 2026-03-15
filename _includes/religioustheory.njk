@@ -7,7 +7,7 @@
 <input type="checkbox" id="teori-sidebar-trigger" class="teori-trigger-input" style="display:none;">
 
 <label for="teori-sidebar-trigger" id="theory-toggle-btn" class="teori-btn-style">
-    <i class="fa-solid fa-bars"></i>
+    <svg class="icon-svg" aria-hidden="true"><use href="#fa-bars"/></svg>
 </label>
 
 <label for="teori-sidebar-trigger" class="teori-overlay-mask"></label>
@@ -80,7 +80,7 @@
 {{metadata.sidebar.contact.text}}
 </p>
 {% for c in metadata.sidebar.contact.list %}<p class="mb-3">
-<i class="{{c.icon}} me-3 text-primary"></i>{% if c.url %}<a href="{{c.url}}">{{c.title}}</a>{% else %}{{c.title}}{% endif %}</p><hr/>{% endfor %}
+<svg class="icon-svg me-3 text-primary" aria-hidden="true"><use href="#{{c.icon | iconId}}"/></svg>{% if c.url %}<a href="{{c.url}}">{{c.title}}</a>{% else %}{{c.title}}{% endif %}</p><hr/>{% endfor %}
 </div>
 			
 <div class="mt-5">
@@ -96,7 +96,7 @@
 <div id="content-wrapper" class="mse">
     
 <nav class="nav justify-content-end mb-3 mobile">
-{% for nv in metadata.navbar.social %}<a class="nave me-3" href="{{nv.url}}" title="{{nv.title}}"><i class="{{nv.icon}}"></i></a>{% endfor %}
+{% for nv in metadata.navbar.social %}<a class="nave me-3" href="{{nv.url}}" title="{{nv.title}}"><svg class="icon-svg" aria-hidden="true"><use href="#{{nv.icon | iconId}}"/></svg></a>{% endfor %}
 </nav>
 <div class="row p-3 desktop mt-3">
 <div class="col-md-6">
@@ -108,7 +108,7 @@
 </div>
 <div class="col-md-6">
 <div class="nav justify-content-end mb-3">{% for nv in metadata.navbar.social %}
-<a class="nave me-3 clu" href="{{nv.url}}" title="{{nv.title}}"><i class="{{nv.icon}} clu"></i></a>{% endfor %}
+<a class="nave me-3 clu" href="{{nv.url}}" title="{{nv.title}}"><svg class="icon-svg clu" aria-hidden="true"><use href="#{{nv.icon | iconId}}"/></svg></a>{% endfor %}
 </div>
 </div>
 <div class="bgb-primarys"></div>
@@ -122,7 +122,7 @@
 <div class="religioustheory-archive-wrapper">
     <div class="alert alert-danger col-md-10 mx-auto p-3 mt-3 rounded shadow " role="alert">
         <div class="container text-center">
-            <i class="fa-solid fa-archive me-2"></i> 
+            <svg class="icon-svg me-2" aria-hidden="true"><use href="#fa-archive"/></svg> 
             <strong>ARCHIVED CONTENT:</strong> This section is part of the <em>Religious Theory Archive</em> and is no longer being updated.
         </div>
     </div>
@@ -564,6 +564,6 @@ label > .screen-reader-text {
 </style>
 </div>
  <script defer src="/js/bs.js"></script>
-{% getBundle "fontawesome" %}
+{% include "partials/icon-sprite.njk" %}
 </body>
 </html>

@@ -8,6 +8,7 @@ favicon: "/images/logos/favicon.svg"
 #url: http://localhost:8080 #localhost
 #url: https://jcrt.netlify.app #development
 url: https://jcrt.org #live
+files_url: https://files.jcrt.org
 homepage_archive: 
   active_tag: 24.1
   section_title: From the Archive

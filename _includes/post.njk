@@ -12,13 +12,13 @@ layout: base.njk
 	        {% if page.url and page.url.startsWith('/archives/') and author %}<p class="text-secondary">{% set authorNames = author.split(';') %}{% for aName in authorNames %}{% set trimmedName = aName | trim %}{% if trimmedName %}{% set aSlug = trimmedName | authorSlug %}{% set authorObj = collections.authors | getAuthorObj(aSlug) %}{% if authorObj %}<a href="{{ authorObj.url }}">{{ trimmedName }}</a>{% else %}{{ trimmedName }}{% endif %}{% if not loop.last %}; {% endif %}{% endif %}{% endfor %}{% if affilation %}&nbsp;|&nbsp;{{ affilation }}{% endif %}</p>{% endif %}
 	        {% if page.url and page.url.startsWith('/archives/') and abstract %}<p class="text-secondary">{{ abstract }}</p>{% endif %}
 	        {% if page.url and page.url.startsWith('/archives/') and pdf and pdfUrl %}
-	          <p><a href="{{ pdfUrl }}" class="btn btn-primary text-white" target="_blank" rel="noopener"><i class="fa-solid fa-file-pdf me-2"></i>View Article (PDF)</a></p>
+	          <p><a href="{{ pdfUrl }}" class="btn btn-primary text-white" target="_blank" rel="noopener"><svg class="icon-svg me-2" aria-hidden="true"><use href="#fa-file-pdf"/></svg>View Article (PDF)</a></p>
 	        {% endif %}
 	        
 	        <p>
           {% if social %}
             {% for s in social %}
-              <a href="{{ s.url }}" title="{{ s.title }}"><i class="{{ s.icon }} me-2"></i></a>
+              <a href="{{ s.url }}" title="{{ s.title }}"><svg class="icon-svg me-2" aria-hidden="true"><use href="#{{ s.icon | iconId }}"/></svg></a>
             {% endfor %}
           {% endif %}
         </p>
@@ -110,14 +110,14 @@ layout: base.njk
               <div class="col-6">
                 {%- if previousPost %}
                   <a href="{{ previousPost.url }}" class="btn btn-primary">
-                    <i class="fa-solid fa-arrow-left me-3"></i> Previous
+                    <svg class="icon-svg me-3" aria-hidden="true"><use href="#fa-arrow-left"/></svg> Previous
                   </a>
                 {% endif %}
               </div>
               <div class="col-6 text-end">
                 {%- if nextPost %}
                   <a href="{{ nextPost.url }}" class="btn btn-primary">
-                    Next <i class="fa-solid fa-arrow-right ms-3"></i>
+                    Next <svg class="icon-svg ms-3" aria-hidden="true"><use href="#fa-arrow-right"/></svg>
                   </a>
                 {% endif %}
               </div>

@@ -8,11 +8,12 @@ const filesToCheck = [
 	"_site/contact/index.html",
 ];
 
+// SVG sprite symbols referenced via <use href="#fa-xxx"/>
 const requiredPatterns = [
-	/(fa-solid-fa-bars|fas-fa-bars)/,
-	/(fa-brands-fa-facebook|fab-fa-facebook)/,
-	/(fa-brands-fa-instagram|fab-fa-instagram)/,
-	/(fa-solid-fa-rss|fas-fa-rss)/,
+	/#fa-bars/,
+	/#fa-facebook/,
+	/#fa-instagram/,
+	/#fa-rss/,
 ];
 
 for (const relativeFile of filesToCheck) {

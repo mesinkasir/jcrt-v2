@@ -1,6 +1,13 @@
 [build]
-command = "npm run build:netlify"
-publish = "_site"
+  command = "npm run build:netlify"
+  publish = "_site"
 
 [build.environment]
-SECRETS_SCAN_OMIT_PATHS = "public/citations/**,_site/citations/**"
+  NODE_VERSION = "20"
+  NPM_FLAGS = "--prefer-offline"
+  SECRETS_SCAN_OMIT_PATHS = "public/citations/**,_site/citations/**"
+
+[[plugins]]
+  package = "netlify-plugin-cache"
+  [plugins.inputs]
+    paths = [".cache"]
