@@ -2,7 +2,6 @@ import "./_config/polyfills.js";
 
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
-import pluginNavigation from "@11ty/eleventy-navigation";
 import yaml from "js-yaml";
 import markdownIt from "markdown-it";
 import markdownItAnchor from "markdown-it-anchor";
@@ -49,6 +48,12 @@ function getSiteUrlFromMetadata() {
 		throw new Error("Missing `url` in _data/metadata.yaml");
 	}
 	return url;
+}
+
+function getFilesUrlFromMetadata() {
+	const raw = fs.readFileSync(metadataYamlPath, "utf8");
+	const parsed = yaml.load(raw);
+	return String(parsed?.files_url || "https://files.jcrt.org").trim().replace(/\/+$/, "");
 }
 
 function readJpegSize(buffer) {
@@ -191,8 +196,10 @@ async function renderResponsiveThumb(src, options = {}) {
 	let filePath = resolveImagePath(finalSrc);
 
 	if (!filePath) {
-		finalSrc = resolvedFallback;
-		filePath = resolveImagePath(finalSrc);
+		// No local file — serve directly from files CDN
+		const cdnSrc = /^https?:\/\//i.test(finalSrc) ? finalSrc : `${siteFilesUrl}${finalSrc.startsWith("/") ? "" : "/"}${finalSrc}`;
+		finalSrc = cdnSrc;
+		filePath = null;
 	}
 
 	const fallbackOnError = `if(this.dataset.fallbackAttempted){this.onerror=null;this.src='${resolvedFallback}';}else{this.dataset.fallbackAttempted='1';this.src=this.dataset.fallbackSrc||'${resolvedFallback}';}`;
@@ -420,6 +427,7 @@ export default async function (eleventyConfig) {
 	const isBenchMode = process.env.BENCH_11TY === "1";
 	const benchIssue = String(process.env.BENCH_ISSUE || "24.2").trim();
 	const siteBaseUrl = getSiteUrlFromMetadata();
+	const siteFilesUrl = getFilesUrlFromMetadata();
 	eleventyConfig.addGlobalData("isFastBuild", isFastBuild);
 	eleventyConfig.addGlobalData("isLeanBuild", isLeanBuild);
 	eleventyConfig.addGlobalData("isBenchMode", isBenchMode);
@@ -598,7 +606,6 @@ export default async function (eleventyConfig) {
 	eleventyConfig.addPlugin(pluginSyntaxHighlight, {
 		preAttributes: { tabindex: 0 },
 	});
-	eleventyConfig.addPlugin(pluginNavigation);
 	// Font Awesome icons are now served via inline SVG sprite (icon-sprite.njk)
 	// instead of the @11ty/font-awesome PostHTML transform (was 57s / 82% of build)
 	// HTML transforms are expensive; CI sets `FAST_BUILD=1` to skip these.
@@ -697,6 +704,15 @@ export default async function (eleventyConfig) {
 		return parts.find(p => p.startsWith("fa-") && !["fa-solid","fa-brands","fa-regular","fa-light","fa-thin","fa-duotone"].includes(p)) || parts[parts.length - 1] || "";
 	});
 
+	// Prefix local asset paths with files_url for CDN-direct serving
+	eleventyConfig.addFilter("assetUrl", function (value) {
+		if (!value) return value;
+		const src = String(value).trim();
+		if (!src || src === "null" || src === "undefined") return src;
+		if (/^(https?:)?\/\//i.test(src) || src.startsWith("data:")) return src;
+		return `${siteFilesUrl}${src.startsWith("/") ? "" : "/"}${src}`;
+	});
+
 	eleventyConfig.addFilter("xmlEscape", function (value) {
 		if (value === null || value === undefined) return "";
 		return String(value)
@@ -721,14 +737,16 @@ export default async function (eleventyConfig) {
 		return pathname.replace(/\.(jpe?g|png)$/i, ".webp") + suffix;
 	});
 	eleventyConfig.addFilter("ensureImage", function (value, fallback = "/images/jcrt-open-graph.webp") {
-		const defaultImage = String(fallback || "/images/jcrt-open-graph.webp");
+		const defaultImage = `${siteFilesUrl}${String(fallback || "/images/jcrt-open-graph.webp")}`;
 		if (!value) return defaultImage;
 
 		const src = String(value).trim();
 		if (!src || src === "null" || src === "undefined") return defaultImage;
 		if (/^(https?:)?\/\//i.test(src) || src.startsWith("data:")) return src;
 
-		return resolveImagePath(src) ? src : defaultImage;
+		// If local file exists, use local path; otherwise use CDN URL
+		if (resolveImagePath(src)) return src;
+		return `${siteFilesUrl}${src.startsWith("/") ? "" : "/"}${src}`;
 	});
 	eleventyConfig.addShortcode("imageAttrs", function (src, fallbackWidth = 1200, fallbackHeight = 630) {
 		const fallback = {

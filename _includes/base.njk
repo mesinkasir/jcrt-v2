@@ -30,7 +30,7 @@
 </div>
 <script>
   (function () {
-    const fallback = "/images/jcrt-open-graph.webp";
+    const fallback = "{{ metadata.files_url }}/images/jcrt-open-graph.webp";
     const applyFallback = (img) => {
       if (!img || img.dataset.fallbackApplied === "1") return;
       img.dataset.fallbackApplied = "1";

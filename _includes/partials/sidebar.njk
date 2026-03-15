@@ -66,7 +66,7 @@
                 <a href="{{i.url}}">
                     {% set sideImg = i.image %}
                     {% set sideImgPreferred = sideImg | preferWebp %}
-                    <img class="editorial-img sidebar-square-img" src="{{sideImgPreferred}}" data-fallback-src="{{sideImg}}" alt="{{i.text}}" {% imageAttrs sideImg, 400, 400 %} loading="lazy" decoding="async" onerror="if(this.dataset.fallbackAttempted){this.onerror=null;this.src='/images/jcrt-open-graph.webp';}else{this.dataset.fallbackAttempted='1';this.src=this.dataset.fallbackSrc||'/images/jcrt-open-graph.webp';}"/>
+                    <img class="editorial-img sidebar-square-img" src="{{sideImgPreferred}}" data-fallback-src="{{sideImg}}" alt="{{i.text}}" {% imageAttrs sideImg, 400, 400 %} loading="lazy" decoding="async" onerror="if(this.dataset.fallbackAttempted){this.onerror=null;this.src='{{ metadata.files_url }}/images/jcrt-open-graph.webp';}else{this.dataset.fallbackAttempted='1';this.src=this.dataset.fallbackSrc||'{{ metadata.files_url }}/images/jcrt-open-graph.webp';}"/>
                 </a>
                 <p class="editorial-caption">{{i.text}}</p>
             </div>

@@ -8,9 +8,9 @@ layout: base.njk
 {% for a in collections.authors %}
 <div class="col-md-6 col-lg-4 p-3 small p-md-5"> 
 <div class="img-zoom-container">
-{% set authorThumb = a.data.image or '/images/jcrt.svg' %}
+{% set authorThumb = a.data.image or (metadata.files_url + '/images/jcrt.svg') %}
 <a class="p-name p-url" href="{{a.url}}" title="{{a.data.name or a.data.title}}"><img class="img-post rounded" 
-  alt="{{a.data.name or a.data.title}}" src="{{authorThumb | preferWebp}}" data-fallback-src="{{authorThumb}}" {% imageAttrs authorThumb, 300, 300 %} loading="lazy" decoding="async" onerror="if(this.dataset.fallbackAttempted){this.onerror=null;this.src='/images/jcrt.svg';}else{this.dataset.fallbackAttempted='1';this.src=this.dataset.fallbackSrc||'/images/jcrt.svg';}"/></a>
+  alt="{{a.data.name or a.data.title}}" src="{{authorThumb | preferWebp}}" data-fallback-src="{{authorThumb}}" {% imageAttrs authorThumb, 300, 300 %} loading="lazy" decoding="async" onerror="if(this.dataset.fallbackAttempted){this.onerror=null;this.src='{{ metadata.files_url }}/images/jcrt.svg';}else{this.dataset.fallbackAttempted='1';this.src=this.dataset.fallbackSrc||'{{ metadata.files_url }}/images/jcrt.svg';}"/></a>
 </div>
 <h3>{{a.data.name or a.data.title}}</h3>
 <p>

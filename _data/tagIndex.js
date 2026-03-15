@@ -149,16 +149,25 @@ function sortEntriesDesc(entries) {
 	});
 }
 
+const MAX_TAG_PAGES = Number.parseInt(process.env.MAX_TAG_PAGES || "5", 10);
+
 function finalizeDomain(map, affectedSet) {
 	const list = Object.keys(map).sort((a, b) => a.localeCompare(b));
 	for (const key of list) {
 		sortEntriesDesc(map[key]);
 	}
 	const affected = [...affectedSet].filter((t) => map[t]).sort((a, b) => a.localeCompare(b));
+	// Limit pagination to top N tags by post count to reduce page output
+	const topN = list
+		.map((key) => ({ key, count: map[key].length }))
+		.sort((a, b) => b.count - a.count)
+		.slice(0, MAX_TAG_PAGES)
+		.map((x) => x.key)
+		.sort((a, b) => a.localeCompare(b));
 	return {
 		list,
 		affected,
-		paginationList: LEAN_BUILD ? affected : list,
+		paginationList: LEAN_BUILD ? affected : topN,
 		map,
 		counts: Object.fromEntries(list.map((key) => [key, map[key].length])),
 	};
@@ -174,10 +183,16 @@ function withPagination(domain) {
 	const affected = Array.isArray(domain.affected) ? domain.affected : [];
 	const map = domain.map && typeof domain.map === "object" ? domain.map : {};
 	const counts = domain.counts && typeof domain.counts === "object" ? domain.counts : {};
+	const topN = list
+		.map((key) => ({ key, count: counts[key] || (map[key] || []).length }))
+		.sort((a, b) => b.count - a.count)
+		.slice(0, MAX_TAG_PAGES)
+		.map((x) => x.key)
+		.sort((a, b) => a.localeCompare(b));
 	return {
 		list,
 		affected,
-		paginationList: LEAN_BUILD ? affected : list,
+		paginationList: LEAN_BUILD ? affected : topN,
 		map,
 		counts,
 	};

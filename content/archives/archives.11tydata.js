@@ -1,7 +1,19 @@
 import fs from "node:fs";
 import path from "node:path";
+import yaml from "js-yaml";
 
 const issueMetaCache = new Map();
+
+let _filesUrl;
+function getFilesUrl() {
+  if (_filesUrl !== undefined) return _filesUrl;
+  try {
+    const raw = fs.readFileSync(path.join(process.cwd(), "_data", "metadata.yaml"), "utf8");
+    const parsed = yaml.load(raw);
+    _filesUrl = String(parsed?.files_url || "").trim().replace(/\/+$/, "") || "";
+  } catch { _filesUrl = ""; }
+  return _filesUrl;
+}
 
 function readIssueMetadata(issue) {
   if (!issue) return null;
@@ -74,21 +86,21 @@ export default {
       if (!slug || slug === "index") return null;
       const fileName = data.pdf ?? `${slug.charAt(0).toUpperCase() + slug.slice(1)}.pdf`;
       const folder = data.page.filePathStem.substring(0, data.page.filePathStem.lastIndexOf('/'));
-      return `${folder}/${fileName}`;
+      return `${getFilesUrl()}${folder}/${fileName}`;
     },
     risCitationUrl: (data) => {
       const slug = data.page.fileSlug;
       if (!slug || slug === "index") return null;
       const issue = (data.page.filePathStem || "").split("/").slice(-2, -1)[0];
       if (!issue) return null;
-      return `/citations/archives/${issue}/${slug}.ris`;
+      return `${getFilesUrl()}/citations/archives/${issue}/${slug}.ris`;
     },
     jsonCitationUrl: (data) => {
       const slug = data.page.fileSlug;
       if (!slug || slug === "index") return null;
       const issue = (data.page.filePathStem || "").split("/").slice(-2, -1)[0];
       if (!issue) return null;
-      return `/citations/archives/${issue}/${slug}.csl.json`;
+      return `${getFilesUrl()}/citations/archives/${issue}/${slug}.csl.json`;
     },
     articleNumber: (data) => parseInt(data.article_number, 10) || 999,
     archiveKeywords: (data) => {

@@ -1,6 +1,6 @@
 {% set pageTitle = title or metadata.title %}
 {% set pageDesc = description or excerpt or abstract or (content | striptags | trim | truncate(160)) or metadata.description %}
-{% set pageImageRaw = '/images/jcrt-open-graph.webp' %}
+{% set pageImageRaw = metadata.files_url + '/images/jcrt-open-graph.webp' %}
 {% set pageImage = pageImageRaw if "http" in pageImageRaw else metadata.url + pageImageRaw %}
 {% set robotsDirective = "index, follow" %}
 {% if robots %}
@@ -43,10 +43,10 @@
 <meta content="{{ pageImage }}" property="og:image" />
 <meta content="{{ pageTitle }}" property="og:image:alt" />
 <meta content="{{ canonicalUrl }}" property="og:url" />
-<link rel="icon" type="image/png" href="/images/logos/favicon-96x96.webp" sizes="96x96" />
-<link rel="icon" type="image/svg+xml" href="/images/logos/favicon.svg" />
-<link rel="shortcut icon" href="/images/logos/favicon.ico" />
-<link rel="apple-touch-icon" sizes="180x180" href="/images/logos/apple-touch-icon.webp" />
+<link rel="icon" type="image/png" href="{{ metadata.files_url }}/images/logos/favicon-96x96.webp" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="{{ metadata.files_url }}/images/logos/favicon.svg" />
+<link rel="shortcut icon" href="{{ metadata.files_url }}/images/logos/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="{{ metadata.files_url }}/images/logos/apple-touch-icon.webp" />
 <meta name="apple-mobile-web-app-title" content="{{ metadata.title }}" />
 <script>
 (() => {
@@ -54,7 +54,7 @@
     if (document.querySelector('link[rel="manifest"]')) return;
     const link = document.createElement("link");
     link.rel = "manifest";
-    link.href = "/images/logos/site.webmanifest";
+    link.href = "{{ metadata.files_url }}/images/logos/site.webmanifest";
     document.head.appendChild(link);
   };
   const schedule = () => {
