@@ -22,6 +22,7 @@ async function main() {
 	console.log("[post-build] Running minify, redirects, and pagefind in parallel…");
 	const start = Date.now();
 	await Promise.all([
+		run("copy-citations.js"),
 		run("minify-static.js"),
 		run("generate-redirects.js"),
 		run("run-pagefind.js"),

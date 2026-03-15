@@ -212,9 +212,10 @@
   }
 ]
 </script>
-  {% set isAcademic = "/archives/" in page.url %}
-  {% set isBlogHome = page.url in ["/blog/", "/religioustheory/"] %}
-  {% set isBlogPost = ("/blog/" in page.url or "/religioustheory/" in page.url) and (not isBlogHome) and (not isAcademic) %}
+  {% set theoryPageUrl = page.url | default("") %}
+  {% set isAcademic = "/archives/" in theoryPageUrl %}
+  {% set isBlogHome = theoryPageUrl in ["/blog/", "/religioustheory/"] %}
+  {% set isBlogPost = ("/blog/" in theoryPageUrl or "/religioustheory/" in theoryPageUrl) and (not isBlogHome) and (not isAcademic) %}
   {% set pageSchemaType = "ScholarlyArticle" if isAcademic else ("Blog" if isBlogHome else ("BlogPosting" if isBlogPost else "WebPage")) %}
   <script type="application/ld+json">
   {

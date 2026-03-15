@@ -10,9 +10,10 @@
 {% elif nofollow %}
   {% set robotsDirective = "index, nofollow" %}
 {% endif %}
-{% set canonicalPath = (canonical_url or page.url) | stripQueryAndHash %}
+{% set pageUrl = page.url | default("", true) %}
+{% set canonicalPath = (canonical_url or pageUrl) | stripQueryAndHash %}
 {% set canonicalUrl = canonicalPath if "http" in canonicalPath else metadata.url + canonicalPath %}
-{% set defaultAuthor = "Religious Theory Editors" if "/religioustheory/" in page.url else "JCRT Editors" %}
+{% set defaultAuthor = "Religious Theory Editors" if "/religioustheory/" in pageUrl else "JCRT Editors" %}
 {% set authorCandidate = author or authors or pg.authorName or post.authorName or metadata.site.author or defaultAuthor %}
 {% set authorName = authorCandidate %}
 {% if (not authorName) or (authorName | trim == "") or (authorName | lower in ["editors", "editor", "editors_religioustheory"]) %}
@@ -201,9 +202,9 @@
 ]
 </script>
 
-{% set isAcademic = "/archives/" in page.url %}
-{% set isBlogHome = page.url in ["/blog/", "/religioustheory/"] %}
-{% set isBlogPost = ("/blog/" in page.url or "/religioustheory/" in page.url) and (not isBlogHome) and (not isAcademic) %}
+{% set isAcademic = "/archives/" in pageUrl %}
+{% set isBlogHome = pageUrl in ["/blog/", "/religioustheory/"] %}
+{% set isBlogPost = ("/blog/" in pageUrl or "/religioustheory/" in pageUrl) and (not isBlogHome) and (not isAcademic) %}
 {% set pageSchemaType = "ScholarlyArticle" if isAcademic else ("Blog" if isBlogHome else ("BlogPosting" if isBlogPost else "WebPage")) %}
 {% set schemaAuthors = authorName | splitAuthors %}
 
@@ -237,7 +238,7 @@
   {% if pdf %}
   <meta name="citation_pdf_url" content="{{ metadata.url }}/archives/{{ volume }}.{{ issue }}/{{ pdf }}" />
   {% endif %}
-{% elif "/authors/" in page.url %}
+{% elif "/authors/" in pageUrl %}
   <meta property="dc:type" content="text" />
   <meta property="dc:creator" content="{{ pageTitle }}" />
 {% else %}
