@@ -1,6 +1,5 @@
 import fs from "node:fs";
 import path from "node:path";
-import { execSync } from "node:child_process";
 import yaml from "js-yaml";
 
 const ROOT = path.join(process.cwd(), "content", "sitemaps");
@@ -41,16 +40,7 @@ function toDateOnly(value) {
 }
 
 function getFallbackLastmod() {
-	try {
-		const raw = execSync("git log -1 --format=%cI", {
-			cwd: process.cwd(),
-			stdio: ["ignore", "pipe", "ignore"],
-			encoding: "utf8",
-		}).trim();
-		return toDateOnly(raw) || toDateOnly(new Date());
-	} catch {
-		return toDateOnly(new Date());
-	}
+	return toDateOnly(new Date());
 }
 
 function getFileLastmodOrEmpty(filePath) {

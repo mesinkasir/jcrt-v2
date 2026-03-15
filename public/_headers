@@ -2,16 +2,13 @@
   Content-Type: application/trafficadvice+json
 
 /css/*
-  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+  Cache-Control: public, max-age=345600, stale-while-revalidate=604800
 
 /js/*
-  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+  Cache-Control: public, max-age=345600, stale-while-revalidate=604800
 
 /images/*
-  Cache-Control: public, max-age=604800, stale-while-revalidate=2592000
-
-/images/*
-  Cache-Control: public, max-age=604800, stale-while-revalidate=2592000
+  Cache-Control: public, max-age=172800, stale-while-revalidate=2592000
 
 /pagefind/*
-  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+  Cache-Control: public, max-age=172800, stale-while-revalidate=604800
