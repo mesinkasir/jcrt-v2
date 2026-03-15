@@ -7,3 +7,20 @@ node_modules/
 RAW/
 _logs/
 public/citations/
+
+# Binary assets now served from files.jcrt.org
+public/images/**/*.webp
+public/images/**/*.jpg
+public/images/**/*.jpeg
+public/images/**/*.png
+public/images/**/*.gif
+public/images/**/*.tif
+public/images/**/*.tiff
+public/images/**/*.ico
+content/archives/**/*.pdf
+content/archives/**/*.jpg
+content/archives/**/*.jpeg
+content/archives/**/*.tif
+content/archives/**/*.tiff
+content/archives/**/*.gif
+public/images/**/*.pdf
