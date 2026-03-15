@@ -4,13 +4,13 @@ import yaml from "js-yaml";
 
 const ROOT = path.join(process.cwd(), "content", "sitemaps");
 const EXTERNAL_SEARCH_SITEMAP_URL = "https://files.jcrt.org/metadata/search-sitemap.xml";
-const LOCAL_SEARCH_SITEMAP_FILE = path.resolve(
-	process.cwd(),
-	"..",
-	"jcrt-files",
-	"metadata",
-	"search-sitemap.xml"
-);
+const EXTERNAL_SITEMAPS = [
+	{ path: "/sitemaps/doaj-archives.xml", file: "doaj-archives.xml" },
+	{ path: "/sitemaps/oai_dc.xml", file: "oai_dc.xml" },
+	{ path: "/sitemaps/citations/ris-sitemap.xml", file: "ris-sitemap.xml" },
+	{ path: "/sitemaps/citations/csl-json-sitemap.xml", file: "csl-json-sitemap.xml" },
+];
+const JCRT_FILES_METADATA = path.resolve(process.cwd(), "..", "jcrt-files", "metadata");
 
 function walk(dir) {
 	const out = [];
@@ -83,8 +83,15 @@ export default function sitemapIndex() {
 	entries.push({
 		loc: EXTERNAL_SEARCH_SITEMAP_URL,
 		path: EXTERNAL_SEARCH_SITEMAP_URL,
-		lastmod: getFileLastmodOrEmpty(LOCAL_SEARCH_SITEMAP_FILE) || fallbackLastmod,
+		lastmod: getFileLastmodOrEmpty(path.join(JCRT_FILES_METADATA, "search-sitemap.xml")) || fallbackLastmod,
 	});
+
+	for (const ext of EXTERNAL_SITEMAPS) {
+		entries.push({
+			path: ext.path,
+			lastmod: getFileLastmodOrEmpty(path.join(JCRT_FILES_METADATA, ext.file)) || fallbackLastmod,
+		});
+	}
 
 	const unique = new Map();
 	for (const item of entries) {

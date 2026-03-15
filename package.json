@@ -22,8 +22,7 @@
     "benchmark": "cross-env DEBUG=Eleventy:Benchmark* eleventy",
     "perf:benchmark": "cross-env DEBUG=Eleventy:Benchmark* ELEVENTY_RUN_MODE=build eleventy --quiet",
     "perf:benchmark:lean": "cross-env DEBUG=Eleventy:Benchmark* FAST_BUILD=1 LEAN_BUILD=1 ELEVENTY_RUN_MODE=build eleventy --quiet",
-    "perf:cpu": "mkdir -p .profiles && node --cpu-prof --cpu-prof-dir=.profiles --cpu-prof-name=eleventy.cpuprofile ./node_modules/@11ty/eleventy/cmd.cjs --quiet",
-    "validate:sitemaps": "python3 scripts/validate_sitemaps.py"
+    "perf:cpu": "mkdir -p .profiles && node --cpu-prof --cpu-prof-dir=.profiles --cpu-prof-name=eleventy.cpuprofile ./node_modules/@11ty/eleventy/cmd.cjs --quiet"
   },
   "repository": {
     "type": "git",
