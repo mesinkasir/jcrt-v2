@@ -35,6 +35,7 @@ const resolveImagePathCache = new Map();
 const metadataYamlPath = path.join(process.cwd(), "_data", "metadata.yaml");
 const cacheDirPath = path.join(process.cwd(), ".cache");
 const TIME_ZONE = "America/New_York";
+const siteFilesUrl = getFilesUrlFromMetadata();
 
 function getSiteUrlFromMetadata() {
 	const raw = fs.readFileSync(metadataYamlPath, "utf8");
@@ -386,7 +387,6 @@ export default async function (eleventyConfig) {
 	const isBenchMode = process.env.BENCH_11TY === "1";
 	const benchIssue = String(process.env.BENCH_ISSUE || "24.2").trim();
 	const siteBaseUrl = getSiteUrlFromMetadata();
-	const siteFilesUrl = getFilesUrlFromMetadata();
 	eleventyConfig.addGlobalData("isFastBuild", isFastBuild);
 	eleventyConfig.addGlobalData("isLeanBuild", isLeanBuild);
 	eleventyConfig.addGlobalData("isBenchMode", isBenchMode);

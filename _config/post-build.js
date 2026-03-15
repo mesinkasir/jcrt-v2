@@ -19,13 +19,9 @@ function run(script) {
 }
 
 async function main() {
-	console.log("[post-build] Running minify, redirects, and pagefind in parallel…");
+	console.log("[post-build] Running pagefind…");
 	const start = Date.now();
-	await Promise.all([
-		run("minify-static.js"),
-		run("generate-redirects.js"),
-		run("run-pagefind.js"),
-	]);
+	await run("run-pagefind.js");
 	const elapsed = ((Date.now() - start) / 1000).toFixed(1);
 	console.log(`[post-build] Done in ${elapsed}s`);
 }
