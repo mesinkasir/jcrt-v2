@@ -17,17 +17,16 @@ layout: base.njk
         {% set displayDate = jsonEntry.date or date %}
         {% set hasIssueNumber = displayVolume or displayIssue %}
 
-        {% if hasIssueNumber or displaySeason or article_number %}
-          <div class="text-primary fw-bold small text-uppercase mb-2">
-            {% if isIssueIndex %}
-              {% if hasIssueNumber %}Issue {{ displayVolume }}.{{ displayIssue }}{% endif %}
-              {% if displaySeason %}{% if hasIssueNumber %} {% endif %}{{ displaySeason }}{% endif %}
-            {% else %}
-              {% if hasIssueNumber %}Issue {{ displayVolume }}.{{ displayIssue }}{% endif %}
-              {% if article_number %}{% if hasIssueNumber %} | {% endif %}Article No. {{ article_number }}{% endif %}
-            {% endif %}
-          </div>
-        {% endif %}
+        <div class="text-primary fw-bold small text-uppercase mb-2">
+          <a href="/archives/" class="text-primary text-decoration-none">Archives</a>
+          {% if isIssueIndex %}
+            {% if hasIssueNumber %} &rsaquo; Issue {{ displayVolume }}.{{ displayIssue }}{% endif %}
+            {% if displaySeason %}{% if hasIssueNumber %} {% endif %}{{ displaySeason }}{% endif %}
+          {% else %}
+            {% if hasIssueNumber %} &rsaquo; <a href="/archives/{{ issueSlug }}/" class="text-primary text-decoration-none">Issue {{ displayVolume }}.{{ displayIssue }}</a>{% endif %}
+            {% if article_number %}{% if hasIssueNumber %} | {% endif %}Article No. {{ article_number }}{% endif %}
+          {% endif %}
+        </div>
 
         <h1 class="serif fw-bold display-4 mb-3 p-name">{{ jsonEntry.title or title }}</h1>
 
@@ -126,7 +125,7 @@ layout: base.njk
             <ul id="toc-list" class="list-unstyled mb-0" style="font-size: 0.95rem;"></ul>
         </div>
 
-        <div id="article-content e-content">
+        <div id="article-content" class="e-content">
             {{ finalHTML | safe }}
         </div>
       </div>
