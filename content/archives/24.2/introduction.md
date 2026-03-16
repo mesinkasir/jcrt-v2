@@ -7,6 +7,7 @@ pages: 208-213
 title: Introduction
 author: Philip P. Arnold; Sandra Bigtree; Adam DJ Brett
 affiliation: ''
+permalink: /archives/24.2/introduction/
 description: "Introduction to a global volume on Christian Discovery, linking law, religion, and pedagogy, with Indigenous sovereignty and decolonial justice today."
 keywords:
   - doctrine-of-christian-discovery

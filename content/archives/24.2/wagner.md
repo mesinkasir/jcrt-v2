@@ -7,6 +7,7 @@ pages: 215-223
 title: 'Christian Control of Women and Mother Earth: The Doctrine of Discovery and the Doctrine of Male Domination'
 author: 'Sally Roesch Wagner'
 affiliation: 'Matilda Joslyn Gage Center and Syracuse University'
+permalink: /archives/24.2/wagner/
 description: "Wagner links church patriarchy and the Doctrine of Discovery to colonial violence, calling for Indigenous rematriation to restore women and the Earth."
 keywords:
   - doctrine-of-discovery
