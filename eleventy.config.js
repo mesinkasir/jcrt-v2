@@ -318,6 +318,9 @@ function isPublishedItem(data = {}, runMode = process.env.ELEVENTY_RUN_MODE) {
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function (eleventyConfig) {
+	// Performance optimizations
+	eleventyConfig.setQuietMode(true); // Reduce console output overhead
+	
 	eleventyConfig.addDateParsing(function (dateValue) {
 		let localDate;
 		if (dateValue instanceof Date) {
