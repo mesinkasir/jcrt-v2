@@ -138,6 +138,8 @@ async function runPagefind() {
 		"en",
 		"--root-selector",
 		"[data-pagefind-body]",
+		"--exclude-selectors",
+		".tag-list,aside,[data-pagefind-ignore],.keywords,.categories",
 		"--quiet",
 	];
 

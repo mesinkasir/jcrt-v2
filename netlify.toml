@@ -6,8 +6,44 @@
   NODE_VERSION = "20"
   NPM_FLAGS = "--prefer-offline"
   NPM_CONFIG_CACHE = ".npm-cache"
+  ELEVENTY_ENV = "production"
+
+[build.processing]
+  skip_processing = false
+
+[build.processing.html]
+  pretty_urls = true
+
+[build.processing.css]
+  bundle = true
+  minify = true
+
+[build.processing.js]
+  bundle = true
+  minify = true
 
 [[plugins]]
   package = "netlify-plugin-cache"
   [plugins.inputs]
     paths = [".cache"]
+
+# Cache headers for static assets
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/fonts/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"

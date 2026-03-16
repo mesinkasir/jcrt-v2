@@ -187,6 +187,7 @@ async function renderResponsiveThumb(src, options = {}) {
 		style = "",
 	} = options;
 
+	const skipImageProcessing = Boolean(process.env.SKIP_IMAGE_PROCESSING);
 	const resolvedFallback = resolveImagePath(fallbackSrc) ? fallbackSrc : "/images/jcrt-open-graph.webp";
 	const candidate = String(src || "").trim();
 	let finalSrc = candidate && candidate !== "null" && candidate !== "undefined" ? candidate : resolvedFallback;
@@ -216,7 +217,8 @@ async function renderResponsiveThumb(src, options = {}) {
 		return `width="${width}" height="${height}"`;
 	})();
 
-	if (!filePath) {
+	// If image processing is skipped or no local file, serve directly
+	if (skipImageProcessing || !filePath) {
 		return `<img src="${safeFallbackSrc}" alt="${safeAlt}" class="${safeClass}" style="${safeStyle}" ${fallbackAttrs} sizes="${safeSizes}" loading="${safeLoading}" fetchpriority="${safeFetchpriority}" decoding="${safeDecoding}" data-fallback-src="${safeFallbackSrc}" onerror="${fallbackOnError}">`;
 	}
 

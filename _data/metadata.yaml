@@ -30,8 +30,11 @@ navbar:
      icon: fa-brands fa-instagram
      url: https://www.instagram.com/JCRT_DU1
    - title: Follow Our Bluesky
-      icon: fa-brands fa-bluesky
-      url: https://bsky.app/profile/jcrt.org  
+     icon: fa-brands fa-bluesky
+     url: https://bsky.app/profile/jcrt.org
+   - title: Follow Our Mastodon
+     icon: fa-brands fa-mastodon
+     url: https://mastodon.social/@jcrt
    - title: RSS
      icon: fa-solid fa-rss
      url: /feed/feed.xml
