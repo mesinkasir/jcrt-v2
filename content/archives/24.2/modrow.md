@@ -7,7 +7,6 @@ pages: 224-243
 title: 'Charting the Doctrine in the Colonial Archive: Papal Bulls and the Translation of the ‘Discovery’ Purpose'
 author: 'Sebastian Modrow'
 affiliation: ''
-permalink: /archives/24.2/modrow/
 description: "Modrow shows how papal bulls transformed crusade theology into global colonial strategy, legitimizing Indigenous dispossession and imperial expansion."
 keywords:
   - doctrine-of-christian-discovery
