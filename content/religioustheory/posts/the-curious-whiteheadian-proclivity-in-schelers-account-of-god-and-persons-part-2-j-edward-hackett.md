@@ -9,7 +9,6 @@ image: /images/2020/04/download.webp
 categories:
   - Phenomenology
   - Philosophy of Religion
-layout: theory.njk
 slug: >-
   the-curious-whiteheadian-proclivity-in-schelers-account-of-god-and-persons-part-2-j-edward-hackett
 tags:

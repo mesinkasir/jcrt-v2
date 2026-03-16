@@ -12,7 +12,6 @@ categories:
   - Lutheran Theology
   - Philosophy of Religion
   - Religious Studies
-layout: theory.njk
 slug: >-
   from-holistic-to-in-between-theology-the-ethiopian-evangelical-church-mekane-yesus
 tags:

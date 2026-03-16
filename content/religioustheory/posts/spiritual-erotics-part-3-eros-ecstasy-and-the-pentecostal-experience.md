@@ -8,7 +8,6 @@ categories:
   - Author Reflections
   - Book Previews and Prospectuses
   - Uncategorized
-layout: theory.njk
 slug: spiritual-erotics-part-3-eros-ecstasy-and-the-pentecostal-experience
 tags:
   - theoryPosts

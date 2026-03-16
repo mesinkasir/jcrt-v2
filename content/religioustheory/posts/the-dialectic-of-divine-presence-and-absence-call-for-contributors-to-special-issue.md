@@ -10,7 +10,6 @@ categories:
   - Critical Conversations
   - Critical Race Theory
   - Difficult Discussions
-layout: theory.njk
 slug: >-
   the-dialectic-of-divine-presence-and-absence-call-for-contributors-to-special-issue
 tags:

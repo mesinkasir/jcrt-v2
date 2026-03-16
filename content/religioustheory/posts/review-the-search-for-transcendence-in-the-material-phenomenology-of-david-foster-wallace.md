@@ -10,7 +10,6 @@ categories:
   - Reviews
   - Theology
   - Theory
-layout: theory.njk
 slug: >-
   review-the-search-for-transcendence-in-the-material-phenomenology-of-david-foster-wallace
 tags:

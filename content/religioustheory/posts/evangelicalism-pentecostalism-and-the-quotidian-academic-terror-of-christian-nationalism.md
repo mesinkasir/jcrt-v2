@@ -11,7 +11,6 @@ categories:
   - Critical Conversations
   - Political Theory
   - World Religions
-layout: theory.njk
 slug: >-
   evangelicalism-pentecostalism-and-the-quotidian-academic-terror-of-christian-nationalism
 tags:

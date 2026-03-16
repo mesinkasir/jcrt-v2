@@ -12,7 +12,6 @@ categories:
   - Higher Education
   - Reviews
   - Theology
-layout: theory.njk
 slug: >-
   the-semiotics-of-the-unconscious-in-gilles-deleuze-and-roland-barthes-part-2-roger-green
 tags:

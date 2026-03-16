@@ -6,7 +6,6 @@ author: Books
 image: /images/2017/11/elettra-stimilli.webp
 categories:
   - Reviews
-layout: theory.njk
 slug: review-indebted-to-asceticism-hollis-phelps
 tags:
   - theoryPosts

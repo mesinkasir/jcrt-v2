@@ -7,7 +7,6 @@ image: /images/2016/05/mammon_and_his_slave.webp
 categories:
   - Religion and Economics
   - Political Theology
-layout: theory.njk
 slug: theodicy-of-money-the-scene-and-subject-of-forgiveness
 tags:
   - theoryPosts

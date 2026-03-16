@@ -12,7 +12,6 @@ categories:
   - New Religions
   - Philosophy of Religion
   - Theology
-layout: theory.njk
 slug: >-
   slow-journalism-ethnography-as-a-means-of-understanding-religious-social-activism-part-2-james-v-spickard
 tags:

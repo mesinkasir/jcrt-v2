@@ -6,7 +6,6 @@ author: editors
 image: /images/2024/09/20210225-104958-clear-cut-forests_eugene-or_webextent0106.webp
 categories:
   - Religion and Literature
-layout: theory.njk
 slug: metaphysical-protestantism-a-comparative-literary-ecology-zane-johnson
 tags:
   - theoryPosts

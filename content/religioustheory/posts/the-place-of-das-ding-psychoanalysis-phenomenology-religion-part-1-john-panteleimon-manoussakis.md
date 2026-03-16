@@ -12,7 +12,6 @@ categories:
   - Philosophy of Religion
   - Theology
   - Metaphysics
-layout: theory.njk
 slug: >-
   the-place-of-das-ding-psychoanalysis-phenomenology-religion-part-1-john-panteleimon-manoussakis
 tags:

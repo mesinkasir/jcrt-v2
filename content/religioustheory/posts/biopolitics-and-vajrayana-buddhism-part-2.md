@@ -6,7 +6,6 @@ author: editors
 image: /images/2016/06/chod-ritual.webp
 categories:
   - Political Theology
-layout: theory.njk
 slug: biopolitics-and-vajrayana-buddhism-part-2
 tags:
   - theoryPosts

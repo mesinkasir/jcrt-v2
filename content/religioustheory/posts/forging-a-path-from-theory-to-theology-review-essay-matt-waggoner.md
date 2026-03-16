@@ -8,7 +8,6 @@ categories:
   - Reviews
   - Theology
   - Theory
-layout: theory.njk
 slug: forging-a-path-from-theory-to-theology-review-essay-matt-waggoner
 tags:
   - theoryPosts

@@ -13,7 +13,6 @@ categories:
   - Political Theory
   - Conferences
   - Uncategorized
-layout: theory.njk
 slug: new-book-titles-looking-for-reviewers
 tags:
   - theoryPosts

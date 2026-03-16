@@ -6,7 +6,6 @@ author: Books
 image: /images/2019/02/dewang-gupta-636342-unsplash.webp
 categories:
   - Reviews
-layout: theory.njk
 slug: review-the-enigmatic-absolute-stanimir-panayotov
 tags:
   - theoryPosts

@@ -10,7 +10,6 @@ categories:
   - Philosophy
   - Political Theology
   - Higher Education
-layout: theory.njk
 slug: >-
   the-place-of-das-ding-psychoanalysis-phenomenology-religion-part-2-john-panteleimon-manoussakis
 tags:

@@ -10,7 +10,6 @@ categories:
   - Psychology of Religion
   - Psychoanalysis
   - Sexuality and Religion
-layout: theory.njk
 slug: >-
   shamanism-and-entheogens-toward-a-psychoanalysis-of-the-new-dream-time-roger-green
 tags:

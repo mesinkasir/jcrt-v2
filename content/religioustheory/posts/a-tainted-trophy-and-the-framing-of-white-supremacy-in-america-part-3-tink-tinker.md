@@ -9,7 +9,6 @@ image: /images/2022/11/indian-picture.webp
 categories:
   - Indigenous Religions
   - Postcolonial Theory
-layout: theory.njk
 slug: >-
   a-tainted-trophy-and-the-framing-of-white-supremacy-in-america-part-3-tink-tinker
 tags:

@@ -6,7 +6,6 @@ author: Books
 image: /images/2018/07/style-meditation-state-colorful-world-0-4mp.webp
 categories:
   - Reviews
-layout: theory.njk
 slug: review-medicinal-religion-aaron-klink
 tags:
   - theoryPosts

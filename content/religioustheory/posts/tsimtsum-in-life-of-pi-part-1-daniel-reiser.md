@@ -6,7 +6,6 @@ author: editors
 image: /images/2020/11/1600px-life_of_pi_30790302401.webp
 categories:
   - Jewish Philosophy of Religion
-layout: theory.njk
 slug: tsimtsum-in-life-of-pi-part-1-daniel-reiser
 tags:
   - theoryPosts

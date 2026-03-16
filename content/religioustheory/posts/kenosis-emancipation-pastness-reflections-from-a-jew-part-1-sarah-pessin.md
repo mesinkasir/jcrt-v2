@@ -8,7 +8,6 @@ author: editors
 image: /images/2019/06/jewish-woman-free-image.webp
 categories:
   - Interfaith Conversations
-layout: theory.njk
 slug: kenosis-emancipation-pastness-reflections-from-a-jew-part-1-sarah-pessin
 tags:
   - theoryPosts

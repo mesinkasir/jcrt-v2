@@ -7,7 +7,6 @@ image: /images/2019/07/lome_fetish_market1.webp
 categories:
   - Anthropology of Religion
   - Art Theory
-layout: theory.njk
 slug: fetishism-and-the-erasure-of-identity-part-2-roger-green
 tags:
   - theoryPosts

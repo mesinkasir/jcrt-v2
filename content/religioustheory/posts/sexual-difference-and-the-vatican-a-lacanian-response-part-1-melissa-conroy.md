@@ -9,7 +9,6 @@ image: /images/2020/10/pair_of_mandarin_ducks.webp
 categories:
   - Sexuality and Religion
   - Psychology of Religion
-layout: theory.njk
 slug: sexual-difference-and-the-vatican-a-lacanian-response-part-1-melissa-conroy
 tags:
   - theoryPosts

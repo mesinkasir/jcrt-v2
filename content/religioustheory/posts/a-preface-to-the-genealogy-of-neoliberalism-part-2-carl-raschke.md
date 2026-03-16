@@ -7,7 +7,6 @@ image: /images/2016/08/debt-slave.webp
 categories:
   - Political Theology
   - Critical Conversations
-layout: theory.njk
 slug: a-preface-to-the-genealogy-of-neoliberalism-part-2-carl-raschke
 tags:
   - theoryPosts

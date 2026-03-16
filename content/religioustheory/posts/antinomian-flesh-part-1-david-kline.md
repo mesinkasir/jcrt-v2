@@ -6,7 +6,6 @@ author: editors
 image: /images/2020/11/1600px-jones_point_park_-_boundary_markers_along_the_path.webp
 categories:
   - Religion and Race
-layout: theory.njk
 slug: antinomian-flesh-part-1-david-kline
 tags:
   - theoryPosts

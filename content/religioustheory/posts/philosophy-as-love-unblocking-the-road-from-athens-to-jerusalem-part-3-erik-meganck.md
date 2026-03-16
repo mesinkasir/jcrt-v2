@@ -10,7 +10,6 @@ categories:
   - Philosophy of Religion
   - Philosophical Theology
   - Critical Theory
-layout: theory.njk
 slug: >-
   philosophy-as-love-unblocking-the-road-from-athens-to-jerusalem-part-3-erik-meganck
 tags:

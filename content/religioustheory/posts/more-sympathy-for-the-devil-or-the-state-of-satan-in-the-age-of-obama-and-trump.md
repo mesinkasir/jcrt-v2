@@ -9,7 +9,6 @@ image: /images/2016/03/satan-comedy.gif
 categories:
   - New Religions
   - Religion and Media
-layout: theory.njk
 slug: >-
   more-sympathy-for-the-devil-or-the-state-of-satan-in-the-age-of-obama-and-trump
 tags:

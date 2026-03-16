@@ -8,7 +8,6 @@ author: editors
 image: /images/2017/07/pda44.webp
 categories:
   - Religion and Literature
-layout: theory.njk
 slug: >-
   traversing-religious-and-aesthetic-states-in-w-h-audens-for-the-time-being-part-1-raji-singh-soni
 tags:

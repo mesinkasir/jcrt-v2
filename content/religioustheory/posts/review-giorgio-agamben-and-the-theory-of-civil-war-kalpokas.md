@@ -6,7 +6,6 @@ author: Books
 image: /images/2016/08/agamben.webp
 categories:
   - Reviews
-layout: theory.njk
 slug: review-giorgio-agamben-and-the-theory-of-civil-war-kalpokas
 tags:
   - theoryPosts

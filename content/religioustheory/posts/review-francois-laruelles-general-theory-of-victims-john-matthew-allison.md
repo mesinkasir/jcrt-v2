@@ -7,7 +7,6 @@ image: /images/2016/11/middle-passage.webp
 categories:
   - Reviews
   - World Religions
-layout: theory.njk
 slug: review-francois-laruelles-general-theory-of-victims-john-matthew-allison
 tags:
   - theoryPosts

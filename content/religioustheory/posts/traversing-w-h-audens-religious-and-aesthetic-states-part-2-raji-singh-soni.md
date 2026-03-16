@@ -8,7 +8,6 @@ author: editors
 image: /images/2017/08/the_sea.webp
 categories:
   - Religion and Literature
-layout: theory.njk
 slug: traversing-w-h-audens-religious-and-aesthetic-states-part-2-raji-singh-soni
 tags:
   - theoryPosts

@@ -7,7 +7,6 @@ image: /images/bhutan-3639580_960_720.webp
 categories:
   - Critical Theory
   - Reviews
-layout: theory.njk
 slug: review-genealogies-of-mahayana-buddhism-ananda-abeysekara
 tags:
   - theoryPosts

@@ -8,7 +8,6 @@ categories:
   - New Religions
   - Religion and Media
   - Religious Studies
-layout: theory.njk
 slug: entheogens-spirituality-and-modern-myths-part-3-john-cuda
 tags:
   - theoryPosts

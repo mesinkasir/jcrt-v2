@@ -10,7 +10,6 @@ categories:
   - Announcements
   - Conferences
   - Critical Theory
-layout: theory.njk
 slug: jesus-ghost-derrida-christianity-and-hauntology-part-3
 tags:
   - theoryPosts

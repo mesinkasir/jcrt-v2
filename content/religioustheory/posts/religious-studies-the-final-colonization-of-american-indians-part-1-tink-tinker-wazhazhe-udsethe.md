@@ -8,7 +8,6 @@ author: editors
 image: /images/2020/06/screen-shot-2020-06-08-at-9-34-57-pm.webp
 categories:
   - Native American Religions
-layout: theory.njk
 slug: >-
   religious-studies-the-final-colonization-of-american-indians-part-1-tink-tinker-wazhazhe-udsethe
 tags:

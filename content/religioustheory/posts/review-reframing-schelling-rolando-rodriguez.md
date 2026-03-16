@@ -9,7 +9,6 @@ categories:
   - Reviews
   - Philosophy of Religion
   - Uncategorized
-layout: theory.njk
 slug: review-reframing-schelling-rolando-rodriguez
 tags:
   - theoryPosts

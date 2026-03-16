@@ -10,7 +10,6 @@ categories:
   - Reviews
   - Philosophy
   - Theology
-layout: theory.njk
 slug: review-donovan-schaefers-call-for-a-materialist-turn-in-religious-theory
 tags:
   - theoryPosts

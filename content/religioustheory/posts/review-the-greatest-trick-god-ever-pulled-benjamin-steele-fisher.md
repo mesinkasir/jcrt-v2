@@ -6,7 +6,6 @@ author: Books
 image: /images/2016/12/devil-fall.webp
 categories:
   - Reviews
-layout: theory.njk
 slug: review-the-greatest-trick-god-ever-pulled-benjamin-steele-fisher
 tags:
   - theoryPosts

@@ -10,7 +10,6 @@ categories:
   - Philosophy of Religion
   - Phenomenology
   - Philosophical Theology
-layout: theory.njk
 slug: >-
   love-strong-as-death-jews-against-heidegger-on-the-issue-of-finitude-part-1-agata-bielik-robson
 tags:

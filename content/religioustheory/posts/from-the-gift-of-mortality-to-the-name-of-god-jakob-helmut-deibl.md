@@ -8,7 +8,6 @@ image: >-
 categories:
   - Theology
   - Philosophy of Religion
-layout: theory.njk
 slug: from-the-gift-of-mortality-to-the-name-of-god-jakob-helmut-deibl
 tags:
   - theoryPosts

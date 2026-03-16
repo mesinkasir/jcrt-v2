@@ -11,7 +11,6 @@ categories:
   - Reviews
   - Theology
   - Philosophy of Religion
-layout: theory.njk
 slug: >-
   the-semiotics-of-the-unconscious-in-gilles-deleuze-and-roland-barthes-roger-green
 tags:

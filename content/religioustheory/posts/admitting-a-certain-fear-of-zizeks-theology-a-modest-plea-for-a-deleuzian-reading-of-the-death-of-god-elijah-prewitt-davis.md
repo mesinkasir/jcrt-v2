@@ -10,7 +10,6 @@ categories:
   - Philosophy of Religion
   - Theology
   - Psychoanalysis
-layout: theory.njk
 slug: >-
   admitting-a-certain-fear-of-zizeks-theology-a-modest-plea-for-a-deleuzian-reading-of-the-death-of-god-elijah-prewitt-davis
 tags:

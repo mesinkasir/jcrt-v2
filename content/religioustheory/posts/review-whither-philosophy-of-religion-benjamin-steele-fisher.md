@@ -6,7 +6,6 @@ author: Books
 image: /images/2017/10/wordcloud.webp
 categories:
   - Reviews
-layout: theory.njk
 slug: review-whither-philosophy-of-religion-benjamin-steele-fisher
 tags:
   - theoryPosts

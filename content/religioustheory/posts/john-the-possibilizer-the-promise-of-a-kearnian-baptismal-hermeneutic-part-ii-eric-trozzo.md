@@ -10,7 +10,6 @@ categories:
   - Philosophy of Religion
   - Religious Studies
   - Theology
-layout: theory.njk
 slug: >-
   john-the-possibilizer-the-promise-of-a-kearnian-baptismal-hermeneutic-part-ii-eric-trozzo
 tags:

@@ -11,7 +11,6 @@ categories:
   - Philosophy of Religion
   - Critical Theory
   - Philosophy
-layout: theory.njk
 slug: >-
   the-vertical-form-iconological-dimension-in-20th-century-russian-religious-aesthetics-and-literary-criticism-part-ii-oleg-komkov
 tags:

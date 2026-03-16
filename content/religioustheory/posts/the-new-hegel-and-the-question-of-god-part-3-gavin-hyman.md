@@ -7,7 +7,6 @@ image: /images/2019/06/img_4448.webp
 categories:
   - Philosophy of Religion
   - Theology
-layout: theory.njk
 slug: the-new-hegel-and-the-question-of-god-part-3-gavin-hyman
 tags:
   - theoryPosts

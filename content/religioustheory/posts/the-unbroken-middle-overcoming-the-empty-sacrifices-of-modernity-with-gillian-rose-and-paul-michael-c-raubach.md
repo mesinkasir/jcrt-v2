@@ -12,7 +12,6 @@ categories:
   - Reviews
   - Philosophical Theology
   - Theology
-layout: theory.njk
 slug: >-
   the-unbroken-middle-overcoming-the-empty-sacrifices-of-modernity-with-gillian-rose-and-paul-michael-c-raubach
 tags:

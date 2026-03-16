@@ -8,7 +8,6 @@ categories:
   - Political Theology
   - Psychoanalysis
   - Theology
-layout: theory.njk
 slug: lacan-levinas-and-the-politics-of-the-subject-joshua-lawrence
 tags:
   - theoryPosts

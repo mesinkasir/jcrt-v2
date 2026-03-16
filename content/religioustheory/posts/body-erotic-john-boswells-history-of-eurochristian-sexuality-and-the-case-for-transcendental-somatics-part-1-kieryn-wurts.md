@@ -8,7 +8,6 @@ author: editors
 image: /images/2023/05/homosexuality_in_khajuraho_sculpture.webp
 categories:
   - Gender Studies
-layout: theory.njk
 slug: >-
   body-erotic-john-boswells-history-of-eurochristian-sexuality-and-the-case-for-transcendental-somatics-part-1-kieryn-wurts
 tags:

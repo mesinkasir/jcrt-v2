@@ -10,7 +10,6 @@ image: >-
 categories:
   - Philosophy of Religion
   - Phenomenology
-layout: theory.njk
 slug: >-
   geschlecht-iii-authentic-faith-religion-and-politics-in-derridas-readings-of-heideggers-geist-part-3-jake-sirota
 tags:

@@ -11,7 +11,6 @@ categories:
   - Psychoanalysis
   - Uncategorized
   - Reviews
-layout: theory.njk
 slug: >-
   philosophical-anthropology-or-philosophy-of-praxis-axel-honneth-and-andrew-feenberg-on-lukacs-theory-of-reification-konstantinos-kavoulakos
 tags:

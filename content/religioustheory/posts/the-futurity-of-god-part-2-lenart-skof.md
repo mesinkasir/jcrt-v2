@@ -7,7 +7,6 @@ image: /images/2021/12/800px-apophysis_cyclone.webp
 categories:
   - Philosophical Theology
   - Philosophy of Religion
-layout: theory.njk
 slug: the-futurity-of-god-part-2-lenart-skof
 tags:
   - theoryPosts

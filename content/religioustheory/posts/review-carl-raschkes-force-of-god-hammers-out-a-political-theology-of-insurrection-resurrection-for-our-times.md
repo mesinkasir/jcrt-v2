@@ -9,7 +9,6 @@ image: /images/2016/04/lightning_strikes_volcano.webp
 categories:
   - Reviews
   - Philosophy of Religion
-layout: theory.njk
 slug: >-
   review-carl-raschkes-force-of-god-hammers-out-a-political-theology-of-insurrection-resurrection-for-our-times
 tags:

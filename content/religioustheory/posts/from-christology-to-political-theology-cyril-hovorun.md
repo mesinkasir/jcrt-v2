@@ -8,7 +8,6 @@ categories:
   - Political Theology
   - Theology
   - Religious Studies
-layout: theory.njk
 slug: from-christology-to-political-theology-cyril-hovorun
 tags:
   - theoryPosts

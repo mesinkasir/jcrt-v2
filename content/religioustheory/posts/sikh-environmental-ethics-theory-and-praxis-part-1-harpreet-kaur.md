@@ -6,7 +6,6 @@ author: editors
 image: /images/2024/09/4537954501_6aa8869549_b.webp
 categories:
   - Sikhism
-layout: theory.njk
 slug: sikh-environmental-ethics-theory-and-praxis-part-1-harpreet-kaur
 tags:
   - theoryPosts

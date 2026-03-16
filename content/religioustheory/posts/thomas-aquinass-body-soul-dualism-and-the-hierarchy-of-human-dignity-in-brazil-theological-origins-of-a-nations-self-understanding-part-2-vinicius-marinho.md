@@ -10,7 +10,6 @@ image: /images/2021/08/800px-bororo004.webp
 categories:
   - Indigenous Religions
   - Postcolonial Theory
-layout: theory.njk
 slug: >-
   thomas-aquinass-body-soul-dualism-and-the-hierarchy-of-human-dignity-in-brazil-theological-origins-of-a-nations-self-understanding-part-2-vinicius-marinho
 tags:

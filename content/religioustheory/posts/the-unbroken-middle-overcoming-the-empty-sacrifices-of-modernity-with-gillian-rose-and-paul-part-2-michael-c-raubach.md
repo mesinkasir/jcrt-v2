@@ -9,7 +9,6 @@ image: >-
   /images/2021/11/abrahams_sacrifice_the_sacrifice_of_isaac_met_dp888579-1119x642.webp
 categories:
   - Philosophy of Religion
-layout: theory.njk
 slug: >-
   the-unbroken-middle-overcoming-the-empty-sacrifices-of-modernity-with-gillian-rose-and-paul-part-2-michael-c-raubach
 tags:

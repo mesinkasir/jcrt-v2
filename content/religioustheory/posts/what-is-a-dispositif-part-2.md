@@ -13,7 +13,6 @@ categories:
   - Political Theory
   - Reviews
   - Theory
-layout: theory.njk
 slug: what-is-a-dispositif-part-2
 tags:
   - theoryPosts

@@ -10,7 +10,6 @@ categories:
   - Postcolonial Theory
   - Indigenous Religions
   - Theology
-layout: theory.njk
 slug: >-
   reframing-the-adwa-victory-as-a-decolonizing-praxis-discourse-around-colonization-in-the-ethiopian-context-part-2-rode-molla
 tags:

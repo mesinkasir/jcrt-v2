@@ -11,7 +11,6 @@ categories:
   - Theology
   - Reviews
   - Theory
-layout: theory.njk
 slug: >-
   from-holistic-to-in-between-theology-the-ethiopian-evangelical-church-mekane-yesus-part-2-rode-molla
 tags:

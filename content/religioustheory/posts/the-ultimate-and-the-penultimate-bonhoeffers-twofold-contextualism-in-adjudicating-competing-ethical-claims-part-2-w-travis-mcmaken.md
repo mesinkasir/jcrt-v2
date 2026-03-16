@@ -10,7 +10,6 @@ categories:
   - Theological Ethics
   - Announcements
   - Psychoanalysis
-layout: theory.njk
 slug: >-
   the-ultimate-and-the-penultimate-bonhoeffers-twofold-contextualism-in-adjudicating-competing-ethical-claims-part-2-w-travis-mcmaken
 tags:

@@ -8,7 +8,6 @@ author: Books
 image: /images/2017/03/santeria-cover.webp
 categories:
   - Reviews
-layout: theory.njk
 slug: >-
   review-copresence-and-ontography-in-beliso-de-jesus-electric-santeria-ryne-beddard
 tags:

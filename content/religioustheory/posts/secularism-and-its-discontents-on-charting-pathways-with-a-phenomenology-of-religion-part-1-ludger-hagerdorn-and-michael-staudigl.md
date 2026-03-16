@@ -10,7 +10,6 @@ categories:
   - Phenomenology
   - Philosophy of Religion
   - Reviews
-layout: theory.njk
 slug: >-
   secularism-and-its-discontents-on-charting-pathways-with-a-phenomenology-of-religion-part-1-ludger-hagerdorn-and-michael-staudigl
 tags:

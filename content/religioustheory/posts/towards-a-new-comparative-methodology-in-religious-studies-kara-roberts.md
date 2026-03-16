@@ -10,7 +10,6 @@ categories:
   - Philosophy of Religion
   - Theology
   - Religion and Media
-layout: theory.njk
 slug: towards-a-new-comparative-methodology-in-religious-studies-kara-roberts
 tags:
   - theoryPosts

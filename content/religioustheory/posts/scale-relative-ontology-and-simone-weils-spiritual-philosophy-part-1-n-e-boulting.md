@@ -9,7 +9,6 @@ image: /images/2021/05/2014-08-25-simoneweilcroquis-byth-rioult.webp
 categories:
   - Philosophical Theology
   - Philosophy of Religion
-layout: theory.njk
 slug: >-
   scale-relative-ontology-and-simone-weils-spiritual-philosophy-part-1-n-e-boulting
 tags:

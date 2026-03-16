@@ -18,7 +18,6 @@ categories:
   - Critical Race Theory
   - Difficult Discussions
   - Conferences
-layout: theory.njk
 slug: >-
   the-fracturing-of-world-order-a-series-of-international-and-interdisciplinary-online-mini-conferences-call-for-papers-and-presentations-announcement
 tags:

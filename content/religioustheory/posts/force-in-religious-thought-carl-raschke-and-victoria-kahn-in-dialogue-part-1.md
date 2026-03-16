@@ -9,7 +9,6 @@ image: /images/2016/05/2-5.webp
 categories:
   - Political Theology
   - World Religions
-layout: theory.njk
 slug: force-in-religious-thought-carl-raschke-and-victoria-kahn-in-dialogue-part-1
 tags:
   - theoryPosts

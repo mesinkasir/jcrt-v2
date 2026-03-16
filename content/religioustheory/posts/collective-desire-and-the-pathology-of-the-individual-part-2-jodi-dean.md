@@ -9,7 +9,6 @@ categories:
   - Psychoanalysis
   - Announcements
   - Uncategorized
-layout: theory.njk
 slug: collective-desire-and-the-pathology-of-the-individual-part-2-jodi-dean
 tags:
   - theoryPosts

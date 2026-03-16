@@ -6,7 +6,6 @@ author: Books
 image: /images/2016/07/pontius-pilate.webp
 categories:
   - Reviews
-layout: theory.njk
 slug: review-agambens-political-reading-of-the-trial-of-jesus
 tags:
   - theoryPosts

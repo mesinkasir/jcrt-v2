@@ -6,7 +6,6 @@ author: editors
 image: /images/2020/11/toni_morrison_2008-2.webp
 categories:
   - Religion and Race
-layout: theory.njk
 slug: antinomian-flesh-part-3-david-kline
 tags:
   - theoryPosts

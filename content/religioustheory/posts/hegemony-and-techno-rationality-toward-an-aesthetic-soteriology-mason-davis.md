@@ -10,7 +10,6 @@ categories:
   - Aesthetics
   - Catholicism
   - Philosophy of Religion
-layout: theory.njk
 slug: hegemony-and-techno-rationality-toward-an-aesthetic-soteriology-mason-davis
 tags:
   - theoryPosts

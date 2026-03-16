@@ -10,7 +10,6 @@ categories:
   - Philosophy
   - Philosophy of Religion
   - Political Theology
-layout: theory.njk
 slug: >-
   philosophy-as-interdisciplinary-intensity-an-interview-with-giorgio-agamben-antonio-gnolioido-govrin
 tags:

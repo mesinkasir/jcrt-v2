@@ -13,7 +13,6 @@ categories:
   - Hermeneutics
   - Reviews
   - Theology
-layout: theory.njk
 slug: >-
   beyond-religious-ideas-the-legacy-of-max-weber-in-critical-theory-and-critical-religion-joel-harrison
 tags:

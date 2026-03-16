@@ -7,7 +7,6 @@ image: /images/2023/12/img_1797.webp
 categories:
   - Political Theology
   - Critical Conversations
-layout: theory.njk
 slug: the-sacred-as-bordering-practice-part-1-anna-maria-edlinger
 tags:
   - theoryPosts

@@ -9,7 +9,6 @@ categories:
   - Political Theology
   - World Religions
   - Philosophy
-layout: theory.njk
 slug: biopolitics-and-vajranayana-buddhism-part-1
 tags:
   - theoryPosts

@@ -10,7 +10,6 @@ categories:
   - Theology
   - Psychoanalysis
   - Philosophy of Religion
-layout: theory.njk
 slug: >-
   thinking-about-god-in-a-pluralistic-world-the-challenge-of-modern-theology-lecture-1-johannes-zuchaber
 tags:

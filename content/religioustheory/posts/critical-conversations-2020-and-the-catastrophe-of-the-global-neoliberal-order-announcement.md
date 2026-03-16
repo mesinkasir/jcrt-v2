@@ -12,7 +12,6 @@ categories:
   - Political Theology
   - Political Theory
   - Conferences
-layout: theory.njk
 slug: >-
   critical-conversations-2020-and-the-catastrophe-of-the-global-neoliberal-order-announcement
 tags:

@@ -6,7 +6,6 @@ author: Books
 image: /images/2016/10/posthumanism.webp
 categories:
   - Reviews
-layout: theory.njk
 slug: review-what-is-real-filippo-pietrogrande
 tags:
   - theoryPosts

@@ -12,7 +12,6 @@ categories:
   - Theology
   - Philosophical Theology
   - Religion and Media
-layout: theory.njk
 slug: >-
   what-exactly-is-postmodernism-and-how-did-it-change-the-landscape-of-religious-studies-part-2-carl-raschke
 tags:

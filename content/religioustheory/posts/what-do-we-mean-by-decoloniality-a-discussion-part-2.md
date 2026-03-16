@@ -6,7 +6,6 @@ author: editors
 image: /images/2021/05/800px-la_conquista_del_colorado.webp
 categories:
   - Decoloniality
-layout: theory.njk
 slug: what-do-we-mean-by-decoloniality-a-discussion-part-2
 tags:
   - theoryPosts

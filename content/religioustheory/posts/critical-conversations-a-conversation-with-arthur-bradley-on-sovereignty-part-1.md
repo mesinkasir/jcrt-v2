@@ -13,7 +13,6 @@ categories:
   - Critical Race Theory
   - Difficult Discussions
   - Philosophy
-layout: theory.njk
 slug: >-
   critical-conversations-a-conversation-with-arthur-bradley-on-sovereignty-part-1
 tags:

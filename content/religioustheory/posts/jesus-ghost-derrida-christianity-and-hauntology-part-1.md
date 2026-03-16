@@ -9,7 +9,6 @@ categories:
   - Philosophy of Religion
   - Philosophical Theology
   - Theology
-layout: theory.njk
 slug: jesus-ghost-derrida-christianity-and-hauntology-part-1
 tags:
   - theoryPosts

@@ -8,7 +8,6 @@ author: editors
 image: /images/2025/04/bundesarchiv_bild_183-1989-1106-405_plauen_demonstration_vor_dem_rathaus.webp
 categories:
   - Conferences
-layout: theory.njk
 slug: conference-on-populism-nationalism-and-the-future-of-democracy-announcement
 tags:
   - theoryPosts

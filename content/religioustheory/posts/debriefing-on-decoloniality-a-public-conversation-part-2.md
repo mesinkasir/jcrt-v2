@@ -6,7 +6,6 @@ author: editors
 image: /images/2021/06/nama_man_greeting_us_3693359757.webp
 categories:
   - Decoloniality
-layout: theory.njk
 slug: debriefing-on-decoloniality-a-public-conversation-part-2
 tags:
   - theoryPosts

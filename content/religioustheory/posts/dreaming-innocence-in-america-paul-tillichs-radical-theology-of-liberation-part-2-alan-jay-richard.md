@@ -9,7 +9,6 @@ image: /images/2016/11/double_vac_line_front_view.webp
 categories:
   - Theology
   - Philosophy of Religion
-layout: theory.njk
 slug: >-
   dreaming-innocence-in-america-paul-tillichs-radical-theology-of-liberation-part-2-alan-jay-richard
 tags:

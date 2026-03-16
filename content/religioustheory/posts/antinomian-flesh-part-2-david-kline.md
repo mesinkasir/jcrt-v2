@@ -7,7 +7,6 @@ image: >-
   /images/2020/11/black_background_close_up_dark_face_fashion_female_girl_lady-1560227.webp
 categories:
   - Religion and Race
-layout: theory.njk
 slug: antinomian-flesh-part-2-david-kline
 tags:
   - theoryPosts

@@ -8,7 +8,6 @@ author: Books
 image: /images/2016/07/psychedelic-therapy.webp
 categories:
   - Reviews
-layout: theory.njk
 slug: review-altered-states-buddhism-and-psychedelic-spirituality-in-america
 tags:
   - theoryPosts

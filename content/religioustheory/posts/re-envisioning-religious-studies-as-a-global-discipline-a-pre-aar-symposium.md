@@ -6,7 +6,6 @@ author: editors
 image: /images/2018/10/indigenous-peoples-4.webp
 categories:
   - Announcements
-layout: theory.njk
 slug: re-envisioning-religious-studies-as-a-global-discipline-a-pre-aar-symposium
 tags:
   - theoryPosts

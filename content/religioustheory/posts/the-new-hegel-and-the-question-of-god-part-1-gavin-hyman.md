@@ -9,7 +9,6 @@ categories:
   - Lutheran Theology
   - Theology
   - Philosophical Theology
-layout: theory.njk
 slug: the-new-hegel-and-the-question-of-god-part-1-gavin-hyman
 tags:
   - theoryPosts

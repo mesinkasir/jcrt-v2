@@ -13,7 +13,6 @@ categories:
   - Psychology of Religion
   - Uncategorized
   - Theology
-layout: theory.njk
 slug: >-
   geschlecht-iii-authentic-faith-religion-and-politics-in-derridas-readings-of-heideggers-geist-part-1-jake-sirota
 tags:

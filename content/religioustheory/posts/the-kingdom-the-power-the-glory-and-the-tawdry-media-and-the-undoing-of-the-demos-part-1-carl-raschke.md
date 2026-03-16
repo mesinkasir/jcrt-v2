@@ -13,7 +13,6 @@ categories:
   - Critical Theory
   - Cultural Theory
   - Political Theology
-layout: theory.njk
 slug: >-
   the-kingdom-the-power-the-glory-and-the-tawdry-media-and-the-undoing-of-the-demos-part-1-carl-raschke
 tags:

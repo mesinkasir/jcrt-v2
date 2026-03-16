@@ -10,7 +10,6 @@ image: >-
 categories:
   - Anthropology of Religion
   - Art Theory
-layout: theory.njk
 slug: >-
   rapture-music-intensity-and-eschatology-within-christian-revival-movements-part-2-fraser-macdonald
 tags:

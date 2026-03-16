@@ -10,7 +10,6 @@ categories:
   - Cultural Theory
   - Political Theology
   - Political Theory
-layout: theory.njk
 slug: call-for-papers-special-issue-on-walter-benjamin-and-religion
 tags:
   - theoryPosts

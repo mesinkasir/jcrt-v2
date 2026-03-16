@@ -11,7 +11,6 @@ categories:
   - Philosophy of Religion
   - Psychoanalysis
   - Psychology of Religion
-layout: theory.njk
 slug: the-image-of-god-and-our-vocation-of-the-soil-part-2-mick-pope
 tags:
   - theoryPosts

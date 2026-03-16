@@ -7,7 +7,6 @@ image: /images/2018/01/the-praying-jew.webp
 categories:
   - Philosophy of Religion
   - Theology
-layout: theory.njk
 slug: prayer-after-the-death-of-god-part-i-ashley-gay-graham
 tags:
   - theoryPosts

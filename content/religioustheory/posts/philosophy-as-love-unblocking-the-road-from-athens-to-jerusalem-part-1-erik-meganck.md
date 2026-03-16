@@ -11,7 +11,6 @@ categories:
   - Lutheran Theology
   - Theology
   - Philosophy
-layout: theory.njk
 slug: >-
   philosophy-as-love-unblocking-the-road-from-athens-to-jerusalem-part-1-erik-meganck
 tags:

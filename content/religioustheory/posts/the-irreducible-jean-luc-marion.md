@@ -9,7 +9,6 @@ categories:
   - Philosophy of Religion
   - Theology
   - Reviews
-layout: theory.njk
 slug: the-irreducible-jean-luc-marion
 tags:
   - theoryPosts

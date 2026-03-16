@@ -8,7 +8,6 @@ author: editors
 image: /images/2016/04/open_no09_djong_02_walkingcity.webp
 categories:
   - Reviews
-layout: theory.njk
 slug: >-
   review-jean-pierre-couture-brings-to-life-for-first-time-the-entire-works-of-sloterdijk
 tags:

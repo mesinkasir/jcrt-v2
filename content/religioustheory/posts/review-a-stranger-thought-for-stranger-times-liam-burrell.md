@@ -7,7 +7,6 @@ image: /images/2016/11/laruelle.webp
 categories:
   - Reviews
   - Uncategorized
-layout: theory.njk
 slug: review-a-stranger-thought-for-stranger-times-liam-burrell
 tags:
   - theoryPosts

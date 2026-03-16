@@ -10,7 +10,6 @@ image: >-
 categories:
   - Political Theology
   - Critical Conversations
-layout: theory.njk
 slug: >-
   benjamins-concept-of-history-as-a-source-of-arendts-idea-of-judgment-part-2-ronald-beiner
 tags:

@@ -6,7 +6,6 @@ author: Books
 image: /images/2016/09/migrant-boat.webp
 categories:
   - Reviews
-layout: theory.njk
 slug: review-of-politics-and-motion-joshua-lawrence
 tags:
   - theoryPosts

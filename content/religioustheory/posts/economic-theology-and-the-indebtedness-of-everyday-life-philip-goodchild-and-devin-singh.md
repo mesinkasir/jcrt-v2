@@ -10,7 +10,6 @@ categories:
   - Political Theology
   - Political Theory
   - Critical Conversations
-layout: theory.njk
 slug: >-
   economic-theology-and-the-indebtedness-of-everyday-life-philip-goodchild-and-devin-singh
 tags:

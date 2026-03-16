@@ -9,7 +9,6 @@ image: /images/2023/04/800px-mongol_shaman_just_before_rituals.webp
 categories:
   - Indigenous Religions
   - Postcolonial Theory
-layout: theory.njk
 slug: >-
   introducing-spirit-dance-social-justice-and-reconstructed-spiritual-practices-part-2-joshua-hall
 tags:

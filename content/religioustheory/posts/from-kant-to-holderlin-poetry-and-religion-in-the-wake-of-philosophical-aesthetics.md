@@ -10,7 +10,6 @@ categories:
   - Aesthetics
   - Philosophy of Religion
   - Catholicism
-layout: theory.njk
 slug: >-
   from-kant-to-holderlin-poetry-and-religion-in-the-wake-of-philosophical-aesthetics
 tags:

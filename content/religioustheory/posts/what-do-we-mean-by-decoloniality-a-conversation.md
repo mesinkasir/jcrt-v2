@@ -6,7 +6,6 @@ author: editors
 image: /images/2021/05/tikal_mayan_ruins_2009.webp
 categories:
   - Decoloniality
-layout: theory.njk
 slug: what-do-we-mean-by-decoloniality-a-conversation
 tags:
   - theoryPosts

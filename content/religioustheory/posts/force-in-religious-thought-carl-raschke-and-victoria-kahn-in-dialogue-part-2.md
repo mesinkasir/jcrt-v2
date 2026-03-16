@@ -8,7 +8,6 @@ author: editors
 image: /images/2016/06/storytelling.webp
 categories:
   - Political Theology
-layout: theory.njk
 slug: force-in-religious-thought-carl-raschke-and-victoria-kahn-in-dialogue-part-2
 tags:
   - theoryPosts

@@ -12,7 +12,6 @@ categories:
   - Political Philosophy
   - Political Theology
   - Political Theory
-layout: theory.njk
 slug: love-psychoanalysis-and-leftist-political-ontology-part-1-daniel-tutt
 tags:
   - theoryPosts

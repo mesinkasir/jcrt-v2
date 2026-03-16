@@ -10,7 +10,6 @@ categories:
   - Political Economy
   - Political Theory
   - Political Theology
-layout: theory.njk
 slug: >-
   the-kingdom-the-power-the-glory-and-the-tawdry-media-and-the-undoing-of-the-demos-part-2-carl-raschke
 tags:

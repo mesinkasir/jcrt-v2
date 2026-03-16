@@ -9,7 +9,6 @@ categories:
   - Theology
   - Religion and Media
   - Psychoanalysis
-layout: theory.njk
 slug: religious-studies-and-comparative-theology-an-appraisal-joshua-samuel
 tags:
   - theoryPosts

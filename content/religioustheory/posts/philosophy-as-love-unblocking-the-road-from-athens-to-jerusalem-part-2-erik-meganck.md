@@ -9,7 +9,6 @@ image: /images/2022/12/retro-futurism.webp
 categories:
   - Philosophy of Religion
   - Reviews
-layout: theory.njk
 slug: >-
   philosophy-as-love-unblocking-the-road-from-athens-to-jerusalem-part-2-erik-meganck
 tags:

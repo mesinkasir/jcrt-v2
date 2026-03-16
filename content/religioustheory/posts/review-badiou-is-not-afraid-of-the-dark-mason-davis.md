@@ -6,7 +6,6 @@ author: Books
 image: /images/2017/02/badiou.webp
 categories:
   - Reviews
-layout: theory.njk
 slug: review-badiou-is-not-afraid-of-the-dark-mason-davis
 tags:
   - theoryPosts

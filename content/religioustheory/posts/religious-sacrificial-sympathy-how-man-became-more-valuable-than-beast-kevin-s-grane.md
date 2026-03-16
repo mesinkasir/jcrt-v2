@@ -12,7 +12,6 @@ categories:
   - Critical Theory
   - Political Theology
   - Political Theory
-layout: theory.njk
 slug: >-
   religious-sacrificial-sympathy-how-man-became-more-valuable-than-beast-kevin-s-grane
 tags:

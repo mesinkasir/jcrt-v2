@@ -10,7 +10,6 @@ categories:
   - Psychoanalysis
   - Mythology
   - Philosophy of Religion
-layout: theory.njk
 slug: lacan-and-pneumatology-mark-murphy
 tags:
   - theoryPosts

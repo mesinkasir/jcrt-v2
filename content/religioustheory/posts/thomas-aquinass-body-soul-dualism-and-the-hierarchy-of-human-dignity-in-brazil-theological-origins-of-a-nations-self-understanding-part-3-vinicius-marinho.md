@@ -9,7 +9,6 @@ author: editors
 image: /images/2021/08/hagiasophia_dome_pixinn-net.webp
 categories:
   - Indigenous Religions
-layout: theory.njk
 slug: >-
   thomas-aquinass-body-soul-dualism-and-the-hierarchy-of-human-dignity-in-brazil-theological-origins-of-a-nations-self-understanding-part-3-vinicius-marinho
 tags:

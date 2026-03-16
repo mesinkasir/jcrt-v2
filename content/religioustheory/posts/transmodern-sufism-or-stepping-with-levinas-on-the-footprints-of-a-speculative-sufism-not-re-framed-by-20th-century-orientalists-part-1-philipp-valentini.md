@@ -11,7 +11,6 @@ categories:
   - World Religions
   - Reviews
   - Political Theology
-layout: theory.njk
 slug: >-
   transmodern-sufism-or-stepping-with-levinas-on-the-footprints-of-a-speculative-sufism-not-re-framed-by-20th-century-orientalists-part-1-philipp-valentini
 tags:

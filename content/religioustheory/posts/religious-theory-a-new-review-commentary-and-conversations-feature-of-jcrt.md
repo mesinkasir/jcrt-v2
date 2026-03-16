@@ -11,7 +11,6 @@ categories:
   - Conferences
   - Uncategorized
   - Difficult Discussions
-layout: theory.njk
 slug: religious-theory-a-new-review-commentary-and-conversations-feature-of-jcrt
 tags:
   - theoryPosts

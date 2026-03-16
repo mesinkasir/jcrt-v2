@@ -10,7 +10,6 @@ categories:
   - Philosophy
   - Metaphysics
   - Reviews
-layout: theory.njk
 slug: >-
   untimely-meditations-on-techno-theology-and-theo-poetics-part-2-john-panteleimon-manoussakis
 tags:

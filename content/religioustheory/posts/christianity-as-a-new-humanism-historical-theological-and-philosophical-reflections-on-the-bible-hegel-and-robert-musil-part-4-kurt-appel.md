@@ -8,7 +8,6 @@ tags:
   - historical
   - philosophical
   - theological
-layout: theory.njk
 slug: christianity-as-a-new-humanism
 ---
 

@@ -8,7 +8,6 @@ author: editors
 image: /images/2020/08/screen-shot-2020-08-17-at-5-00-03-pm.webp
 categories:
   - Philosophy
-layout: theory.njk
 slug: >-
   bushwhacking-derrida-perception-context-of-context-the-hunter-and-the-hunted-gary-bedford
 tags:

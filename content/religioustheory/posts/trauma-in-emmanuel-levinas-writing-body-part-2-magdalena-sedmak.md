@@ -8,7 +8,6 @@ categories:
   - Psychology of Religion
   - Theology
   - Sexuality and Religion
-layout: theory.njk
 slug: trauma-in-emmanuel-levinas-writing-body-part-2-magdalena-sedmak
 tags:
   - theoryPosts

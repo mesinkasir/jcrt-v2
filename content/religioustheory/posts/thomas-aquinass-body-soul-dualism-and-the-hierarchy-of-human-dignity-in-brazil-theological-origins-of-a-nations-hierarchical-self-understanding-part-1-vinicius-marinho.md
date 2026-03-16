@@ -10,7 +10,6 @@ image: /images/2021/08/menina_da_etnia_terena-1.webp
 categories:
   - Indigenous Religions
   - Postcolonial Theory
-layout: theory.njk
 slug: >-
   thomas-aquinass-body-soul-dualism-and-the-hierarchy-of-human-dignity-in-brazil-theological-origins-of-a-nations-hierarchical-self-understanding-part-1-vinicius-marinho
 tags:

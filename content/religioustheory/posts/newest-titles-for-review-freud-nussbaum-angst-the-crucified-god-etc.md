@@ -11,7 +11,6 @@ categories:
   - Psychoanalysis
   - Psychology of Religion
   - Reviews
-layout: theory.njk
 slug: newest-titles-for-review-freud-nussbaum-angst-the-crucified-god-etc
 tags:
   - theoryPosts

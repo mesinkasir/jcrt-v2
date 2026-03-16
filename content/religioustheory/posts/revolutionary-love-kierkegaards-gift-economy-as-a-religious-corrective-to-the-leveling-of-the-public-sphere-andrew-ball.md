@@ -9,7 +9,6 @@ image: /images/2020/05/876px-s-ren_kierkegaard_1813-1855_-_9645353110.webp
 categories:
   - Philosophical Theology
   - Philosophy of Religion
-layout: theory.njk
 slug: >-
   revolutionary-love-kierkegaards-gift-economy-as-a-religious-corrective-to-the-leveling-of-the-public-sphere-andrew-ball
 tags:

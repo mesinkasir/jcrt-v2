@@ -8,7 +8,6 @@ author: editors
 image: /images/2020/06/shonka_sabe.webp
 categories:
   - Native American Religions
-layout: theory.njk
 slug: >-
   religious-studies-the-final-colonization-of-american-indians-part-1-tink-tinker-wazhazhe-udsethe-2
 tags:

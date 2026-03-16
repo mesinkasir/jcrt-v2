@@ -3,7 +3,7 @@
   publish = "_site"
 
 [build.environment]
-  NODE_VERSION = "20"
+  NODE_VERSION = "22"
   NPM_FLAGS = "--prefer-offline"
   NPM_CONFIG_CACHE = ".npm-cache"
   ELEVENTY_ENV = "production"

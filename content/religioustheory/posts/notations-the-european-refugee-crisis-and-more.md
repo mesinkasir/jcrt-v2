@@ -17,7 +17,6 @@ categories:
   - Political Philosophy
   - Political Theology
   - Political Theory
-layout: theory.njk
 slug: notations-the-european-refugee-crisis-and-more
 tags:
   - theoryPosts

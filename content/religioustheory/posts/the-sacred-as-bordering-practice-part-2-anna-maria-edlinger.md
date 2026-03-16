@@ -10,7 +10,6 @@ categories:
   - Political Philosophy
   - Political Theory
   - Philosophy
-layout: theory.njk
 slug: the-sacred-as-bordering-practice-part-2-anna-maria-edlinger
 tags:
   - theoryPosts

@@ -8,7 +8,6 @@ author: editors
 image: /images/2020/07/img_6855.webp
 categories:
   - Interviews
-layout: theory.njk
 slug: >-
   progressive-neoliberalism-symbolic-capitalism-and-the-global-reproduction-of-the-precariat-interview-with-carl-raschke
 tags:

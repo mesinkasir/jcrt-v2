@@ -8,7 +8,6 @@ author: editors
 image: /images/2016/03/syrian-refugees.webp
 categories:
   - Notations
-layout: theory.njk
 slug: notations-the-unacculturable-refugee-flux-spurs-crisis-of-european-belief
 tags:
   - theoryPosts

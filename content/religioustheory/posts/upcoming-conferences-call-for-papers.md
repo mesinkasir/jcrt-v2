@@ -8,7 +8,6 @@ categories:
   - Conferences
   - Announcements
   - Uncategorized
-layout: theory.njk
 slug: upcoming-conferences-call-for-papers
 tags:
   - theoryPosts

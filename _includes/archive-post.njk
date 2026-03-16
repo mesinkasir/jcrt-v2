@@ -6,6 +6,7 @@ layout: base.njk
   {% set urlParts = (page.url or '').split('/') %}
   {% set issueSlug = urlParts[2] or '' %}
   {% set isIssueIndex = page.url and page.url.startsWith('/archives/') and page.url.endsWith('/') and (urlParts | length) == 4 and issueSlug.includes('.') %}
+  {% set isTheoryPost = tags and ("theoryPosts" in tags) %}
 
   <div class="container-fluid">
     <article class="py-4">
@@ -51,6 +52,26 @@ layout: base.njk
               loading="eager"
               fetchpriority="high"
               decoding="async"
+              onerror="if(this.dataset.fallbackAttempted){this.onerror=null;this.src='{{ metadata.files_url }}/images/jcrt-open-graph.webp';}else{this.dataset.fallbackAttempted='1';this.src=this.dataset.fallbackSrc||'{{ metadata.files_url }}/images/jcrt-open-graph.webp';}"
+            >
+          </div>
+        {% endif %}
+
+        {% if not isIssueIndex and image %}
+          {% set defaultPostImage = metadata.files_url + "/images/jcrt-open-graph.webp" %}
+          {% set postImage = (image | ensureImage(defaultPostImage)) %}
+          {% set postImagePreferred = (postImage | preferWebp) %}
+          <div class="mb-4">
+            <img
+              src="{{ postImagePreferred }}"
+              data-fallback-src="{{ postImage }}"
+              alt="{{ title }}"
+              class="img-fluid rounded shadow-sm w-100"
+              {% imageAttrs postImage, 1200, 675 %}
+              loading="eager"
+              fetchpriority="high"
+              decoding="async"
+              style="max-height: 460px; object-fit: cover;"
               onerror="if(this.dataset.fallbackAttempted){this.onerror=null;this.src='{{ metadata.files_url }}/images/jcrt-open-graph.webp';}else{this.dataset.fallbackAttempted='1';this.src=this.dataset.fallbackSrc||'{{ metadata.files_url }}/images/jcrt-open-graph.webp';}"
             >
           </div>
@@ -132,16 +153,31 @@ layout: base.njk
       <footer class="mt-5 pt-4 border-top">
         {% if displayKeywords and displayKeywords.length > 0 %}
         <div class="d-flex flex-wrap gap-2 align-items-center">
-          <span class="small text-muted text-uppercase fw-bold me-2">Keywords:</span>
+          <span class="small text-muted text-uppercase fw-bold me-2">{% if isTheoryPost %}Tags{% else %}Keywords{% endif %}:</span>
+          {% set tagUrlBase = "/religioustheory/tags/" if isTheoryPost else "/archives/keywords/" %}
           {% for keyword in displayKeywords %}
             {% if isLeanBuild %}
             <span class="badge bg-light text-dark border fw-normal">{{ keyword }}</span>
             {% else %}
-            <a href="/archives/keywords/{{ keyword | slugify }}/" class="badge bg-light text-dark border fw-normal text-decoration-none">{{ keyword }}</a>
+            <a href="{{ tagUrlBase }}{{ keyword | slugify }}/" class="badge bg-light text-dark border fw-normal text-decoration-none">{{ keyword }}</a>
             {% endif %}
           {% endfor %}
         </div>
         {% endif %}
+
+        {% if isTheoryPost and categories and categories.length > 0 %}
+        <div class="d-flex flex-wrap gap-2 align-items-center mt-3">
+          <span class="small text-muted text-uppercase fw-bold me-2">Categories:</span>
+          {% for cat in categories %}
+            {% if isLeanBuild %}
+            <span class="badge bg-light text-dark border fw-normal">{{ cat }}</span>
+            {% else %}
+            <a href="/religioustheory/categories/{{ cat | slugify }}/" class="badge bg-light text-dark border fw-normal text-decoration-none">{{ cat }}</a>
+            {% endif %}
+          {% endfor %}
+        </div>
+        {% endif %}
+
         <div class="d-flex flex-wrap align-items-center gap-2 {% if displayKeywords and displayKeywords.length > 0 %}mt-3{% endif %}" data-pagefind-ignore>
           <a
             href="{{ shareOpenlyHref }}"

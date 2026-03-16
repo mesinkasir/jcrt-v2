@@ -7,7 +7,6 @@ image: /images/2016/08/malabon-city.webp
 categories:
   - Political Theology
   - Critical Conversations
-layout: theory.njk
 slug: a-preface-to-the-genealogy-of-neoliberalism-part-1-carl-raschke
 tags:
   - theoryPosts

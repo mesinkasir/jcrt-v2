@@ -9,7 +9,6 @@ categories:
   - Reviews
   - Theology
   - Theory
-layout: theory.njk
 slug: review-the-ethics-of-time-matthew-clemente
 tags:
   - theoryPosts

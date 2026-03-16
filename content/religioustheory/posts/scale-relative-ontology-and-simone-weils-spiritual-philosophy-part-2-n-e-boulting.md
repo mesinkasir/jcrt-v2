@@ -8,7 +8,6 @@ author: editors
 image: /images/2021/05/fishing-pole.webp
 categories:
   - Philosophical Theology
-layout: theory.njk
 slug: >-
   scale-relative-ontology-and-simone-weils-spiritual-philosophy-part-2-n-e-boulting
 tags:

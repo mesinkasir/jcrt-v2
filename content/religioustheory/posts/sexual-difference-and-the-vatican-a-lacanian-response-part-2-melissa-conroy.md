@@ -9,7 +9,6 @@ image: /images/2020/10/jaques_lacan.webp
 categories:
   - Psychology of Religion
   - Sexuality and Religion
-layout: theory.njk
 slug: sexual-difference-and-the-vatican-a-lacanian-response-part-2-melissa-conroy
 tags:
   - theoryPosts

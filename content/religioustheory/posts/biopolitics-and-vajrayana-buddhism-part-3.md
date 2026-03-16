@@ -7,7 +7,6 @@ image: /images/2016/06/1418.webp
 categories:
   - Political Theology
   - World Religions
-layout: theory.njk
 slug: biopolitics-and-vajrayana-buddhism-part-3
 tags:
   - theoryPosts

@@ -8,7 +8,6 @@ author: editors
 image: /images/2017/01/20897035259_73d12d6fb3_b.webp
 categories:
   - Reviews
-layout: theory.njk
 slug: review-judith-butler-and-the-different-senses-of-the-subject-matthew-waggoner
 tags:
   - theoryPosts

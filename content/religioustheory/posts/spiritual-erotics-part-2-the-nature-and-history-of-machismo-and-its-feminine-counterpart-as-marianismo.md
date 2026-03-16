@@ -10,7 +10,6 @@ categories:
   - Book Previews and Prospectuses
   - Author Reflections
   - Uncategorized
-layout: theory.njk
 slug: >-
   spiritual-erotics-part-2-the-nature-and-history-of-machismo-and-its-feminine-counterpart-as-marianismo
 tags:

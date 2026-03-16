@@ -9,7 +9,6 @@ image: /images/2017/07/blake_jacobsladder.webp
 categories:
   - Political Theology
   - Political Theory
-layout: theory.njk
 slug: >-
   the-kingdom-the-power-the-glory-and-the-tawdry-media-and-the-undoing-of-the-demos-part-3-carl-raschke
 tags:

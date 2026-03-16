@@ -7,7 +7,6 @@ image: /images/2018/01/ira_giotto.webp
 categories:
   - Critical Theory
   - Reviews
-layout: theory.njk
 slug: review-french-perceptions-of-muslim-sexuality-trevor-wolff
 tags:
   - theoryPosts

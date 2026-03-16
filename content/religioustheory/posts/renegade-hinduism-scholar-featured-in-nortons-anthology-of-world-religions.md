@@ -8,7 +8,6 @@ categories:
   - Reviews
   - World Religions
   - Philosophy of Religion
-layout: theory.njk
 slug: renegade-hinduism-scholar-featured-in-nortons-anthology-of-world-religions
 tags:
   - theoryPosts

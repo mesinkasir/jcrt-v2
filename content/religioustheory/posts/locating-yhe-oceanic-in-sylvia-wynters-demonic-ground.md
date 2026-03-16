@@ -8,7 +8,6 @@ author: editors
 image: /images/2022/01/irish-ruins.webp
 categories:
   - Critical Race Theory
-layout: theory.njk
 slug: locating-yhe-oceanic-in-sylvia-wynters-demonic-ground
 tags:
   - theoryPosts

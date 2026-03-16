@@ -6,7 +6,6 @@ author: Books
 image: /images/2017/06/t-henry.webp
 categories:
   - Reviews
-layout: theory.njk
 slug: >-
   review-pilgrimage-and-world-a-review-of-joseph-riveras-the-contemplative-self-after-michel-henry-michael-saunders
 tags:

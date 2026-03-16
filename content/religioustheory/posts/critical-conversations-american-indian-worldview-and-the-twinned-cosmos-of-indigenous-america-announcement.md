@@ -9,7 +9,6 @@ image: /images/2020/11/legend.webp
 categories:
   - Announcements
   - Difficult Discussions
-layout: theory.njk
 slug: >-
   critical-conversations-american-indian-worldview-and-the-twinned-cosmos-of-indigenous-america-announcement
 tags:

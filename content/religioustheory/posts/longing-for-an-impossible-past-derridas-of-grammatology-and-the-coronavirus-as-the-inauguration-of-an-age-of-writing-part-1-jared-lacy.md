@@ -10,7 +10,6 @@ categories:
   - Higher Education
   - Philosophy
   - Philosophy of Religion
-layout: theory.njk
 slug: >-
   longing-for-an-impossible-past-derridas-of-grammatology-and-the-coronavirus-as-the-inauguration-of-an-age-of-writing-part-1-jared-lacy
 tags:

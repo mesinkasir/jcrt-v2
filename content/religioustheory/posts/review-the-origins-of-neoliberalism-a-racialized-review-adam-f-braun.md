@@ -7,7 +7,6 @@ image: /images/2017/05/origins.webp
 categories:
   - Reviews
   - Philosophy of Religion
-layout: theory.njk
 slug: review-the-origins-of-neoliberalism-a-racialized-review-adam-f-braun
 tags:
   - theoryPosts

@@ -6,7 +6,6 @@ author: J.C. Smith
 image: /images/2024/09/2018-09-06_riseclimate-421.webp
 categories:
   - Environmental Ethics
-layout: theory.njk
 slug: religious-faith-in-pursuit-of-environmental-justice-chris-durante
 tags:
   - theoryPosts

@@ -9,7 +9,6 @@ image: /images/2016/12/earthquake.webp
 categories:
   - Philosophy
   - Higher Education
-layout: theory.njk
 slug: >-
   time-emptied-and-time-renewed-the-dominion-of-capital-and-a-theo-politics-of-contretemps-part-2-daniel-rhodes
 tags:

@@ -11,7 +11,6 @@ categories:
   - Reviews
   - Aesthetics
   - Postcolonial Theory
-layout: theory.njk
 slug: prayer-after-the-death-of-god-part-ii-ashley-gay-graham
 tags:
   - theoryPosts

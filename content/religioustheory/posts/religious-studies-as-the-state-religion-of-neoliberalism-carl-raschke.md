@@ -14,7 +14,6 @@ categories:
   - Psychoanalysis
   - Psychology of Religion
   - Critical Theory
-layout: theory.njk
 slug: religious-studies-as-the-state-religion-of-neoliberalism-carl-raschke
 tags:
   - theoryPosts

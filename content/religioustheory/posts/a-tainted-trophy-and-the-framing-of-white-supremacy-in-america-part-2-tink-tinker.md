@@ -9,7 +9,6 @@ image: /images/2022/11/native-american-women.webp
 categories:
   - Indigenous Religions
   - Postcolonial Theory
-layout: theory.njk
 slug: >-
   a-tainted-trophy-and-the-framing-of-white-supremacy-in-america-part-2-tink-tinker
 tags:

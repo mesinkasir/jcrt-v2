@@ -6,7 +6,6 @@ author: editors
 image: /images/2018/12/img_3597.webp
 categories:
   - Reviews
-layout: theory.njk
 slug: review-decolonizing-dialectics-josiah-solis
 tags:
   - theoryPosts

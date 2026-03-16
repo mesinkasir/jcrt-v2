@@ -8,7 +8,6 @@ author: Books
 image: /images/2016/08/phenomenological-psychology.webp
 categories:
   - Reviews
-layout: theory.njk
 slug: review-loves-unfortunate-presence-between-faith-and-belief-daniel-boscaljon
 tags:
   - theoryPosts

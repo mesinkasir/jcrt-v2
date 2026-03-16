@@ -12,7 +12,6 @@ categories:
   - Political Theology
   - Announcements
   - Political Philosophy
-layout: theory.njk
 slug: >-
   framing-religious-conflict-and-violence-insights-from-historical-institutionalism-part-2-vivek-swaroop-sharma
 tags:

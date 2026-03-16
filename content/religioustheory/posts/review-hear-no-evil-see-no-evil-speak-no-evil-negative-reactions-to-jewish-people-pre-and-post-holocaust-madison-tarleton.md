@@ -8,7 +8,6 @@ author: Books
 image: /images/2018/01/a867c350-b8ad-4896-b926-f0b71c0cb1f8.webp
 categories:
   - Reviews
-layout: theory.njk
 slug: >-
   review-hear-no-evil-see-no-evil-speak-no-evil-negative-reactions-to-jewish-people-pre-and-post-holocaust-madison-tarleton
 tags:

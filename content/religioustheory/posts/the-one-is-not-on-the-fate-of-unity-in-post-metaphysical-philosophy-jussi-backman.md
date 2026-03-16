@@ -12,7 +12,6 @@ categories:
   - Lutheran Theology
   - Philosophy of Religion
   - Theology
-layout: theory.njk
 slug: >-
   the-one-is-not-on-the-fate-of-unity-in-post-metaphysical-philosophy-jussi-backman
 tags:

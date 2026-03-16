@@ -8,7 +8,6 @@ author: editors
 image: /images/2024/07/disabled_bipoc_in_front_of_pride_flag.webp
 categories:
   - Disability
-layout: theory.njk
 slug: >-
   what-black-disabled-bodies-can-teach-us-about-environmental-justice-robert-monson
 tags:

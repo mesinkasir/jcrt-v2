@@ -8,7 +8,6 @@ author: editors
 image: /images/2019/03/native-american-statue.webp
 categories:
   - Native American Religions
-layout: theory.njk
 slug: >-
   damn-it-hes-an-injun-christian-murder-colonial-wealth-and-tanned-human-skin-part-3-tink-tinker-wazhazhe-udsethe
 tags:

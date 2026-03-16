@@ -11,7 +11,6 @@ categories:
   - Lutheran Theology
   - Philosophy
   - Philosophy of Religion
-layout: theory.njk
 slug: >-
   truth-and-irony-beyond-binary-patterns-in-theological-reasoning-part-1-florian-klug
 tags:

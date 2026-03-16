@@ -10,7 +10,6 @@ categories:
   - Conferences
   - Announcements
   - Uncategorized
-layout: theory.njk
 slug: >-
   the-religious-roots-of-environmental-justice-call-for-papers-or-presentations-conference
 tags:

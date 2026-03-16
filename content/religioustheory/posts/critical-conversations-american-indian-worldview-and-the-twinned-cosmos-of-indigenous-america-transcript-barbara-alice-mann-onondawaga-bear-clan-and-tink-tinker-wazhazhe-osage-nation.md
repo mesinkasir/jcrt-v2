@@ -9,7 +9,6 @@ author: editors
 image: /images/2021/01/1133px-1949_hudson_mound_builders_2831253030.webp
 categories:
   - Indigenous Religions
-layout: theory.njk
 slug: >-
   critical-conversations-american-indian-worldview-and-the-twinned-cosmos-of-indigenous-america-transcript-barbara-alice-mann-onondawaga-bear-clan-and-tink-tinker-wazhazhe-osage-nation
 tags:

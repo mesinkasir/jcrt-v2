@@ -6,7 +6,6 @@ author: editors
 image: /images/2016/03/peter-sloterdijk.webp
 categories:
   - Reviews
-layout: theory.njk
 slug: review-essay-peter-sloterdijk-on-social-bonds-freedom-and-religion
 tags:
   - theoryPosts

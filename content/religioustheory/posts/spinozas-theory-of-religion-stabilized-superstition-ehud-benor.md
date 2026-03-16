@@ -6,7 +6,6 @@ author: editors
 image: /images/2017/01/jewish-1159704_1920.webp
 categories:
   - Philosophy of Religion
-layout: theory.njk
 slug: spinozas-theory-of-religion-stabilized-superstition-ehud-benor
 tags:
   - theoryPosts

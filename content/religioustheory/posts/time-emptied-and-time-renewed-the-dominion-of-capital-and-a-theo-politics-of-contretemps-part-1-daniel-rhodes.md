@@ -10,7 +10,6 @@ categories:
   - Philosophy
   - Political Theology
   - Reviews
-layout: theory.njk
 slug: >-
   time-emptied-and-time-renewed-the-dominion-of-capital-and-a-theo-politics-of-contretemps-part-1-daniel-rhodes
 tags:

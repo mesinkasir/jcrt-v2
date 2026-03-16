@@ -8,7 +8,6 @@ categories:
   - Book Previews and Prospectuses
   - Uncategorized
   - Critical Theory
-layout: theory.njk
 slug: jesus-ghost-derrida-christianity-and-hauntology-part-2
 tags:
   - theoryPosts

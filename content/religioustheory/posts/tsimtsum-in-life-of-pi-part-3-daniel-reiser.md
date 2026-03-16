@@ -6,7 +6,6 @@ author: editors
 image: /images/2020/12/rabbi_pinchas_hakohen_lintup.webp
 categories:
   - Jewish Philosophy of Religion
-layout: theory.njk
 slug: tsimtsum-in-life-of-pi-part-3-daniel-reiser
 tags:
   - theoryPosts

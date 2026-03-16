@@ -9,7 +9,6 @@ image: /images/2016/12/clock.webp
 categories:
   - Reviews
   - World Religions
-layout: theory.njk
 slug: review-new-trends-in-the-theory-and-methods-for-studying-religion-david-kim
 tags:
   - theoryPosts

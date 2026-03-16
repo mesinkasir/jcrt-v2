@@ -6,7 +6,6 @@ author: editors
 image: /images/2024/09/human_genome.webp
 categories:
   - Conferences
-layout: theory.njk
 slug: conference-on-religion-and-bioethics-call-for-proposals
 tags:
   - theoryPosts

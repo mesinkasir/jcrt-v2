@@ -6,7 +6,6 @@ author: Books
 image: /images/2016/09/hajj.webp
 categories:
   - Reviews
-layout: theory.njk
 slug: >-
   exposing-the-pitfalls-of-constructive-theology-on-the-state-of-islamic-studies-today-daniel-tutt
 tags:

@@ -7,7 +7,6 @@ image: /images/2017/02/agamben-c2.webp
 categories:
   - Reviews
   - Critical Theory
-layout: theory.njk
 slug: >-
   review-three-agambens-on-display-the-metaphysical-political-and-literary-components-of-agambens-philosophical-lineage-sj-cowan
 tags:

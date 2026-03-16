@@ -11,7 +11,6 @@ categories:
   - Critical Theory
   - Psychoanalysis
   - Conferences
-layout: theory.njk
 slug: >-
   critical-conversations-9-economic-theology-and-the-indebtedness-of-everyday-life-announcement
 tags:

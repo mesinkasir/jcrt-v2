@@ -8,7 +8,6 @@ author: editors
 image: /images/2024/09/15448438025_31e8467aa3_b.webp
 categories:
   - Religion and Ecology
-layout: theory.njk
 slug: >-
   the-environmental-ethics-of-pope-francis-parsing-key-terms-and-claims-in-laudato-si-thomas-massaro-s-j
 tags:

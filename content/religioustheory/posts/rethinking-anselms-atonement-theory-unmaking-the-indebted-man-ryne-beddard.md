@@ -12,7 +12,6 @@ categories:
   - Philosophy of Religion
   - Reviews
   - Theory
-layout: theory.njk
 slug: rethinking-anselms-atonement-theory-unmaking-the-indebted-man-ryne-beddard
 tags:
   - theoryPosts

@@ -7,7 +7,6 @@ image: >-
   /images/2016/02/cezanne-still-life-with-flower-holder-1905-trivium-art-history.webp
 categories:
   - Ethics and Virtue Theory
-layout: theory.njk
 slug: life-as-art-aesthetic-virtue-and-moral-obligation
 tags:
   - theoryPosts

@@ -8,7 +8,6 @@ categories:
   - Theology
   - Postcolonial Theory
   - Psychoanalysis
-layout: theory.njk
 slug: modern-theology-and-the-dialectic-of-god-part-1-kelly-maeshiro
 tags:
   - theoryPosts

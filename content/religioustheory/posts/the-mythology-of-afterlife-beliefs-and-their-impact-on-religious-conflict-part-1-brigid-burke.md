@@ -12,7 +12,6 @@ categories:
   - Psychoanalysis
   - Psychology of Religion
   - Reviews
-layout: theory.njk
 slug: >-
   the-mythology-of-afterlife-beliefs-and-their-impact-on-religious-conflict-part-1-brigid-burke
 tags:

@@ -9,7 +9,6 @@ categories:
   - Reviews
   - Political Theology
   - Uncategorized
-layout: theory.njk
 slug: review-badiou-and-gauchet-on-capitalism-and-democracy
 tags:
   - theoryPosts

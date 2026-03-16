@@ -7,7 +7,6 @@ image: /images/2018/10/anna_sahlsten_-_passage-1.webp
 categories:
   - Reviews
   - Critical Theory
-layout: theory.njk
 slug: inventing-afterlives-review-camille-grace-leon-angelo
 tags:
   - theoryPosts

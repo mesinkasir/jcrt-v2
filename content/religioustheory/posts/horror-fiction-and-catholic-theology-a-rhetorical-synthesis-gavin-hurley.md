@@ -10,7 +10,6 @@ categories:
   - Aesthetics
   - Catholicism
   - Philosophy of Religion
-layout: theory.njk
 slug: horror-fiction-and-catholic-theology-a-rhetorical-synthesis-gavin-hurley
 tags:
   - theoryPosts

@@ -8,7 +8,6 @@ author: editors
 image: /images/2016/11/bd7ff1a1c6e460bf8e87a4fa0ee90199.webp
 categories:
   - Media Theory
-layout: theory.njk
 slug: >-
   hanging-garlands-of-flowers-on-the-chains-that-bind-soft-totalitarianism-and-techno-rationality-jeff-appel
 tags:

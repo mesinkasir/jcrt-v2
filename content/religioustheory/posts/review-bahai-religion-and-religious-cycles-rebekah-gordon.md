@@ -6,7 +6,6 @@ author: editors
 image: /images/2017/06/churches-of-the-world.webp
 categories:
   - Reviews
-layout: theory.njk
 slug: review-bahai-religion-and-religious-cycles-rebekah-gordon
 tags:
   - theoryPosts

@@ -10,7 +10,6 @@ image: >-
 categories:
   - Anthropology of Religion
   - Art Theory
-layout: theory.njk
 slug: >-
   the-re-enchantment-of-bodies-the-transformative-power-of-charismatic-healings-part-1-anna-magnasco
 tags:

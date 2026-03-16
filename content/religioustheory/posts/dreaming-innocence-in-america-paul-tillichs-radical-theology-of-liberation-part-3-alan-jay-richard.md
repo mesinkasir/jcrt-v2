@@ -12,7 +12,6 @@ categories:
   - Philosophy of Religion
   - Religious Studies
   - Psychology of Religion
-layout: theory.njk
 slug: >-
   dreaming-innocence-in-america-paul-tillichs-radical-theology-of-liberation-part-3-alan-jay-richard
 tags:

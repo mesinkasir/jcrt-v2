@@ -7,7 +7,6 @@ image: /images/2019/05/slavoj_zizek_2011.webp
 categories:
   - Philosophy of Religion
   - Reviews
-layout: theory.njk
 slug: the-new-hegel-and-the-question-of-god-part-2-gavin-hyman
 tags:
   - theoryPosts

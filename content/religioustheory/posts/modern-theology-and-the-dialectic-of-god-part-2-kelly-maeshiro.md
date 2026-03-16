@@ -9,7 +9,6 @@ categories:
   - Theology
   - Philosophy of Religion
   - Psychology of Religion
-layout: theory.njk
 slug: modern-theology-and-the-dialectic-of-god-part-2-kelly-maeshiro
 tags:
   - theoryPosts

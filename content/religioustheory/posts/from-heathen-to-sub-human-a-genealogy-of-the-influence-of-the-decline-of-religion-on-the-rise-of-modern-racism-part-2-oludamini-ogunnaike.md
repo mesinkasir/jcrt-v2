@@ -8,7 +8,6 @@ author: editors
 image: /images/2016/09/cat11.webp
 categories:
   - Critical Race Theory
-layout: theory.njk
 slug: >-
   from-heathen-to-sub-human-a-genealogy-of-the-influence-of-the-decline-of-religion-on-the-rise-of-modern-racism-part-2-oludamini-ogunnaike
 tags:

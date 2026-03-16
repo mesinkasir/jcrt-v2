@@ -9,7 +9,6 @@ categories:
   - Reviews
   - Lutheran Theology
   - Theology
-layout: theory.njk
 slug: review-an-uncritical-critique-of-theism-rebekah-gordon
 tags:
   - theoryPosts

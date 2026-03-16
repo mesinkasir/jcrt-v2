@@ -8,7 +8,6 @@ categories:
   - Reviews
   - Uncategorized
   - Philosophy of Religion
-layout: theory.njk
 slug: review-neurotheological-nuances-joshua-canzona
 tags:
   - theoryPosts

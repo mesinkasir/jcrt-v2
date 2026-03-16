@@ -13,7 +13,6 @@ categories:
   - Cultural Theory
   - Political Theology
   - Political Theory
-layout: theory.njk
 slug: the-end-of-cognitive-empire-critical-conversations
 tags:
   - theoryPosts

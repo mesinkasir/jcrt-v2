@@ -10,7 +10,6 @@ image: >-
 categories:
   - Philosophy of Religion
   - Reviews
-layout: theory.njk
 slug: >-
   the-religious-significance-of-miracles-why-humes-critique-is-superfluous-part-2-alberto-urquidez
 tags:

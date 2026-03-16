@@ -8,7 +8,6 @@ author: editors
 image: /images/2017/08/style-img_7932-kanagawa-0-4mp.webp
 categories:
   - Religion and Literature
-layout: theory.njk
 slug: traversing-w-h-audens-religious-and-aesthetic-states-part-3-raji-singh-soni
 tags:
   - theoryPosts

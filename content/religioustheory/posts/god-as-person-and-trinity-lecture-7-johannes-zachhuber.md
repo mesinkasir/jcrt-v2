@@ -8,7 +8,6 @@ categories:
   - Theology
   - Philosophy of Religion
   - Religious Studies
-layout: theory.njk
 slug: god-as-person-and-trinity-lecture-7-johannes-zachhuber
 tags:
   - theoryPosts

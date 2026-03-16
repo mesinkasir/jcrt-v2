@@ -9,7 +9,6 @@ image: /images/2020/10/candi_ceto_lingam_and_yoni_1259.webp
 categories:
   - Sexuality and Religion
   - Psychology of Religion
-layout: theory.njk
 slug: sexual-difference-and-the-vatican-a-lacanian-response-part-3-melissa-conroy
 tags:
   - theoryPosts

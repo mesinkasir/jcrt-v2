@@ -6,7 +6,6 @@ author: editors
 image: /images/2016/03/refugee_march_hungary_2015-09-04_02.webp
 categories:
   - Notations
-layout: theory.njk
 slug: notations-agambens-homo-sacer-refugees-and-the-crisis-of-european-values
 tags:
   - theoryPosts

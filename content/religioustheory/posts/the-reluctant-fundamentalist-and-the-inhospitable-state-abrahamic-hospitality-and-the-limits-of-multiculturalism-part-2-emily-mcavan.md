@@ -8,7 +8,6 @@ author: editors
 image: /images/2020/04/deployment.webp
 categories:
   - Religion and Literature
-layout: theory.njk
 slug: >-
   the-reluctant-fundamentalist-and-the-inhospitable-state-abrahamic-hospitality-and-the-limits-of-multiculturalism-part-2-emily-mcavan
 tags:

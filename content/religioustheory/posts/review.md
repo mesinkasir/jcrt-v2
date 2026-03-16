@@ -6,7 +6,6 @@ author: Books
 image: /images/2017/03/young-bruce.webp
 categories:
   - Reviews
-layout: theory.njk
 slug: review
 tags:
   - theoryPosts

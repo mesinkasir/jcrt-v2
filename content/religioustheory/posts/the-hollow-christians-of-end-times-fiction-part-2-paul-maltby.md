@@ -6,7 +6,6 @@ author: editors
 image: /images/2020/03/1280px-last_judgement_michelangelo.webp
 categories:
   - Religion and Literature
-layout: theory.njk
 slug: the-hollow-christians-of-end-times-fiction-part-2-paul-maltby
 tags:
   - theoryPosts

@@ -9,7 +9,6 @@ image: /images/2019/05/1920px-la_campina_romana1639_claude_lorrain.webp
 categories:
   - Aesthetics
   - Philosophy of Religion
-layout: theory.njk
 slug: >-
   from-kant-to-holderlin-poetry-and-religion-in-the-wake-of-philosophical-aesthetics-part-3-jakob-deibl
 tags:

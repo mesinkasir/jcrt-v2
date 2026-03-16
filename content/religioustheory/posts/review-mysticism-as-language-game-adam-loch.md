@@ -6,7 +6,6 @@ author: editors
 image: /images/2017/06/img_1533.webp
 categories:
   - Reviews
-layout: theory.njk
 slug: review-mysticism-as-language-game-adam-loch
 tags:
   - theoryPosts

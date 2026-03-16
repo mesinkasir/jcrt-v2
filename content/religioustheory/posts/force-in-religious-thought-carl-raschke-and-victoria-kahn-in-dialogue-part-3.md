@@ -10,7 +10,6 @@ categories:
   - Political Theology
   - Religion and Economics
   - Critical Conversations
-layout: theory.njk
 slug: force-in-religious-thought-carl-raschke-and-victoria-kahn-in-dialogue-part-3
 tags:
   - theoryPosts

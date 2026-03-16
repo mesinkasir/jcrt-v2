@@ -9,7 +9,6 @@ image: /images/2024/09/how-art-therapy-can-help-with-depression.webp
 categories:
   - Anthropology of Religion
   - Art Theory
-layout: theory.njk
 slug: >-
   healing-as-a-multimedia-practice-contemporary-spirituality-in-turkey-part-1-duygu-sendag
 tags:

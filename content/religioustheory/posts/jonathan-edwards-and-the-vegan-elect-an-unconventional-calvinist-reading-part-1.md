@@ -10,7 +10,6 @@ categories:
   - Theology
   - Postcolonial Theory
   - Psychoanalysis
-layout: theory.njk
 slug: >-
   jonathan-edwards-and-the-vegan-elect-an-unconventional-calvinist-reading-part-1
 tags:

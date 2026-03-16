@@ -10,7 +10,6 @@ image: >-
 categories:
   - New Religions
   - Religion and Media
-layout: theory.njk
 slug: >-
   new-religions-in-brazil-a-game-between-relativism-and-fundamentalism-silas-guerriero
 tags:

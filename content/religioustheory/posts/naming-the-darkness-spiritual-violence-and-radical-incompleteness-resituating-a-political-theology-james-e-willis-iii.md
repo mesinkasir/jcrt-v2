@@ -9,7 +9,6 @@ image: /images/2020/05/img_4279.webp
 categories:
   - Political Theology
   - Philosophy
-layout: theory.njk
 slug: >-
   naming-the-darkness-spiritual-violence-and-radical-incompleteness-resituating-a-political-theology-james-e-willis-iii
 tags:

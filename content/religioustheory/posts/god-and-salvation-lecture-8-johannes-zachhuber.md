@@ -7,7 +7,6 @@ image: /images/2019/04/gauguin-christ-in-garden.webp
 categories:
   - Theology
   - Psychology of Religion
-layout: theory.njk
 slug: god-and-salvation-lecture-8-johannes-zachhuber
 tags:
   - theoryPosts

@@ -35,7 +35,7 @@
   },
   "license": "MIT",
   "engines": {
-    "node": ">=20"
+    "node": ">=22"
   },
   "overrides": {
     "minimatch": "^10.2.1",

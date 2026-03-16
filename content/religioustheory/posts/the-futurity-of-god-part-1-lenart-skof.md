@@ -7,7 +7,6 @@ image: /images/2021/12/visnow_example_visualization_-_molecular_electrostatics.w
 categories:
   - Philosophical Theology
   - Philosophy of Religion
-layout: theory.njk
 slug: the-futurity-of-god-part-1-lenart-skof
 tags:
   - theoryPosts

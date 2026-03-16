@@ -13,7 +13,6 @@ categories:
   - Political Theology
   - Political Theory
   - World Religions
-layout: theory.njk
 slug: >-
   announcing-the-new-polis-an-e-publication-on-critical-theory-cultural-analysis-and-political-thought
 tags:

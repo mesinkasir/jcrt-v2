@@ -7,7 +7,6 @@ image: /images/2016/10/cioran.webp
 categories:
   - Reviews
   - Uncategorized
-layout: theory.njk
 slug: review-eugene-thackers-cosmic-pessimism
 tags:
   - theoryPosts

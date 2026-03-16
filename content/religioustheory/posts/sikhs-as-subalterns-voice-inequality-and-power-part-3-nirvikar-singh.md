@@ -7,7 +7,6 @@ image: /images/2024/02/golden_temple_sikhism.webp
 categories:
   - Postcolonial Theory
   - Theology
-layout: theory.njk
 slug: sikhs-as-subalterns-voice-inequality-and-power-part-3-nirvikar-singh
 tags:
   - theoryPosts

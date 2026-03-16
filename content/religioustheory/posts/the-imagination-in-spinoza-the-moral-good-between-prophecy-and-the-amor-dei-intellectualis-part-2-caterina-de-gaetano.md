@@ -10,7 +10,6 @@ categories:
   - Philosophy of Religion
   - Religious Studies
   - Theology
-layout: theory.njk
 slug: >-
   the-imagination-in-spinoza-the-moral-good-between-prophecy-and-the-amor-dei-intellectualis-part-2-caterina-de-gaetano
 tags:

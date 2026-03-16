@@ -11,7 +11,6 @@ categories:
   - Philosophy of Religion
   - Theology
   - Mythology
-layout: theory.njk
 slug: orientalism-ontology-and-orientation
 tags:
   - theoryPosts

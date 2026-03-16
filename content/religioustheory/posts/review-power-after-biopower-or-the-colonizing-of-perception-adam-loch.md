@@ -6,7 +6,6 @@ author: editors
 image: /images/2017/11/picassoguernica.webp
 categories:
   - Reviews
-layout: theory.njk
 slug: review-power-after-biopower-or-the-colonizing-of-perception-adam-loch
 tags:
   - theoryPosts

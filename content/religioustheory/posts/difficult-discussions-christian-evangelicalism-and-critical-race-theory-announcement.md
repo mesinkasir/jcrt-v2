@@ -14,7 +14,6 @@ categories:
   - Political Theory
   - Critical Conversations
   - Critical Race Theory
-layout: theory.njk
 slug: >-
   difficult-discussions-christian-evangelicalism-and-critical-race-theory-announcement
 tags:

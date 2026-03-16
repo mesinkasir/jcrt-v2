@@ -13,7 +13,6 @@ categories:
   - Political Theory
   - Critical Conversations
   - Psychoanalysis
-layout: theory.njk
 slug: >-
   critical-conversations-the-power-of-political-erasure-a-seminar-with-arthur-bradley-announcements
 tags:

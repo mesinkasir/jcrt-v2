@@ -8,7 +8,6 @@ author: editors
 image: /images/2019/07/1599px-jewish_star_star_of_david_6002048043.webp
 categories:
   - Interfaith Conversations
-layout: theory.njk
 slug: kenosis-emancipation-pastness-reflections-from-a-jew-part-2-sarah-pessin
 tags:
   - theoryPosts

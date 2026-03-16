@@ -11,7 +11,6 @@ categories:
   - Theology
   - Philosophy of Religion
   - Religious Studies
-layout: theory.njk
 slug: >-
   religion-and-mental-health-the-therapuetic-value-of-the-teachings-of-jesus-part-2-thomas-roberts-and-delbert-hayden
 tags:

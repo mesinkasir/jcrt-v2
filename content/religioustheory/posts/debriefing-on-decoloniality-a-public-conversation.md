@@ -6,7 +6,6 @@ author: editors
 image: /images/2021/06/speakers_latino.webp
 categories:
   - Decoloniality
-layout: theory.njk
 slug: debriefing-on-decoloniality-a-public-conversation
 tags:
   - theoryPosts

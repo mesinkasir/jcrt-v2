@@ -10,7 +10,6 @@ categories:
   - Postcolonial Theory
   - Theology
   - Indigenous Religions
-layout: theory.njk
 slug: >-
   from-holistic-to-in-between-theology-the-ethiopian-evangelical-church-mekane-yesus-part-3-rode-molla
 tags:

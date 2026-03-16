@@ -9,7 +9,6 @@ image: /images/2017/05/img_1445.webp
 categories:
   - Reviews
   - World Religions
-layout: theory.njk
 slug: review-ontic-flows-from-digital-humanities-to-posthumanities-dean-dettloff
 tags:
   - theoryPosts

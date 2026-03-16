@@ -8,7 +8,6 @@ author: editors
 image: /images/2023/04/screenshot-2023-04-09-at-10-45-25-pm.webp
 categories:
   - Indigenous Religions
-layout: theory.njk
 slug: >-
   introducing-spirit-dance-social-justice-and-reconstructed-spiritual-practices-part-3-joshua-hall
 tags:

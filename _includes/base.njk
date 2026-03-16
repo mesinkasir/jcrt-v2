@@ -7,7 +7,15 @@
 {% include "partials/sidebar.njk" %}
 <div id="content-wrapper" class="mse col-md-10 mx-auto ">
 {% include "partials/nav_mobile.njk" %}
-<main class="h-entry"{% if searchIndex == false %} data-pagefind-ignore{% else %} data-pagefind-body{% endif %}>
+{% set pagefindWeight = "" %}
+{% if page and page.url %}
+  {% if page.url.startsWith('/religioustheory/posts/') and not page.url.includes('/religioustheory/posts/page/') %}
+    {% set pagefindWeight = "10" %}
+  {% elif page.url.startsWith('/religioustheory/categories/') or page.url.startsWith('/religioustheory/tags/') or page.url.startsWith('/religioustheory/posts/page/') %}
+    {% set pagefindWeight = "0.2" %}
+  {% endif %}
+{% endif %}
+<main class="h-entry"{% if searchIndex == false %} data-pagefind-ignore{% else %} data-pagefind-body{% if pagefindWeight %} data-pagefind-weight="{{ pagefindWeight }}"{% endif %}{% endif %}>
 {{ content | safe }}
 </main>
 <footer class="site-footer mt-5 pt-3" data-pagefind-ignore>

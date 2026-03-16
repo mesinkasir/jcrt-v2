@@ -6,7 +6,6 @@ author: editors
 image: /images/2020/03/apocalypse-albert_goodwin.webp
 categories:
   - Religion and Literature
-layout: theory.njk
 slug: the-hollow-christians-of-end-times-fiction-part-3-paul-maltby
 tags:
   - theoryPosts

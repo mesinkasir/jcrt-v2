@@ -10,7 +10,6 @@ categories:
   - Religion and Media
   - New Religions
   - Religious Studies
-layout: theory.njk
 slug: review-digital-technologies-and-religion-in-the-postmodern-era
 tags:
   - theoryPosts

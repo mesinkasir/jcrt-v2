@@ -8,7 +8,6 @@ image: >-
 categories:
   - Indigenous Religions
   - Postcolonial Theory
-layout: theory.njk
 slug: reorientation-in-the-field-why-religion-matters-part-2-wendy-felese
 tags:
   - theoryPosts

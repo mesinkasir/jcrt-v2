@@ -7,7 +7,6 @@ image: /images/2016/07/gilles-deleuze-dr.webp
 categories:
   - Reviews
   - World Religions
-layout: theory.njk
 slug: review-a-darker-grittier-deleuze
 tags:
   - theoryPosts

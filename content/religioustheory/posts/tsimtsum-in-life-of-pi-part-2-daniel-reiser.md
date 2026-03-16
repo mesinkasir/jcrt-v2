@@ -7,7 +7,6 @@ image: >-
   /images/2020/12/scheme_of_christian_kabbalism_from_heinrich_khunrath_amphiteatrum_sapientiae_aeternae_met_dp820686-1.webp
 categories:
   - Jewish Philosophy of Religion
-layout: theory.njk
 slug: tsimtsum-in-life-of-pi-part-2-daniel-reiser
 tags:
   - theoryPosts

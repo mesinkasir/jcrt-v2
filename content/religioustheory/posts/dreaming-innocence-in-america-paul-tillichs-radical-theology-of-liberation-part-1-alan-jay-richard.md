@@ -10,7 +10,6 @@ categories:
   - Theology
   - Postcolonial Theory
   - Psychology of Religion
-layout: theory.njk
 slug: >-
   dreaming-innocence-in-america-paul-tillichs-radical-theology-of-liberation-part-1-alan-jay-richard
 tags:

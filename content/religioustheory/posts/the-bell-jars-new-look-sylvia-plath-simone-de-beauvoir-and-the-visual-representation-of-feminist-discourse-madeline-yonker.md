@@ -8,7 +8,6 @@ author: editors
 image: /images/2017/03/bell-jar-cover.webp
 categories:
   - Feminist Theory
-layout: theory.njk
 slug: >-
   the-bell-jars-new-look-sylvia-plath-simone-de-beauvoir-and-the-visual-representation-of-feminist-discourse-madeline-yonker
 tags:

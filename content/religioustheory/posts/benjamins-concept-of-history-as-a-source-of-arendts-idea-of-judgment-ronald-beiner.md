@@ -10,7 +10,6 @@ categories:
   - Political Theology
   - Philosophy
   - Religion and Economics
-layout: theory.njk
 slug: >-
   benjamins-concept-of-history-as-a-source-of-arendts-idea-of-judgment-ronald-beiner
 tags:

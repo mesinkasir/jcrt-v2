@@ -8,7 +8,6 @@ author: editors
 image: /images/2023/08/baruch_spinoza_plaque_budapest07_cropped.webp
 categories:
   - Philosophy of Religion
-layout: theory.njk
 slug: >-
   the-imagination-in-spinoza-the-moral-good-between-prophecy-and-the-amor-dei-intellectualis-part-1-caterina-de-gaetano
 tags:

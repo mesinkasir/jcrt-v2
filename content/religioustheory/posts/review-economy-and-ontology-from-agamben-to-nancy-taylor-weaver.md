@@ -6,7 +6,6 @@ author: editors
 image: /images/2017/05/img_1354.webp
 categories:
   - Reviews
-layout: theory.njk
 slug: review-economy-and-ontology-from-agamben-to-nancy-taylor-weaver
 tags:
   - theoryPosts

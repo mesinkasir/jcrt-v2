@@ -8,7 +8,6 @@ categories:
   - Postcolonial Theory
   - Theology
   - Indigenous Religions
-layout: theory.njk
 slug: sikhs-as-subalterns-voice-inequality-and-power-part-2-nirvikar-singh
 tags:
   - theoryPosts

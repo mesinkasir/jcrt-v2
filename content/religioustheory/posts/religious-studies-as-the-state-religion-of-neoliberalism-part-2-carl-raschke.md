@@ -8,7 +8,6 @@ author: editors
 image: /images/2022/10/isabella_whiteford.webp
 categories:
   - Neoliberalism and Religion
-layout: theory.njk
 slug: religious-studies-as-the-state-religion-of-neoliberalism-part-2-carl-raschke
 tags:
   - theoryPosts

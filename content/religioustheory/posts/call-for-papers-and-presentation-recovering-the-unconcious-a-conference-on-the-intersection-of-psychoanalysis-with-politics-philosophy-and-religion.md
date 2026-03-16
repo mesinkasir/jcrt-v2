@@ -9,7 +9,6 @@ image: /images/2016/04/freud-and-clutter.webp
 categories:
   - Conferences
   - Announcements
-layout: theory.njk
 slug: >-
   call-for-papers-and-presentation-recovering-the-unconcious-a-conference-on-the-intersection-of-psychoanalysis-with-politics-philosophy-and-religion
 tags:

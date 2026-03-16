@@ -9,7 +9,6 @@ image: /images/2016/07/dragon-slayer.webp
 categories:
   - Reviews
   - Uncategorized
-layout: theory.njk
 slug: review-the-evolution-of-the-religious-factor-in-fantasy-role-playing-games
 tags:
   - theoryPosts

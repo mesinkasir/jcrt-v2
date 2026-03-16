@@ -15,7 +15,6 @@ categories:
   - Religious Studies
   - Theology
   - Philosophical Theology
-layout: theory.njk
 slug: >-
   the-mythology-of-afterlife-beliefs-and-their-impact-on-religious-conflict-part-2-brigid-burke
 tags:

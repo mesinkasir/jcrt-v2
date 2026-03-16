@@ -16,7 +16,6 @@ categories:
   - Globalization
   - Political Philosophy
   - Political Theory
-layout: theory.njk
 slug: lets-get-real-about-race-two-very-timely-upcoming-online-seminars-announcement
 tags:
   - theoryPosts

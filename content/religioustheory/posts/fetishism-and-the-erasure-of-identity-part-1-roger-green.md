@@ -7,7 +7,6 @@ image: /images/2019/07/fetiche_ewe-togo_2.webp
 categories:
   - Anthropology of Religion
   - Art Theory
-layout: theory.njk
 slug: fetishism-and-the-erasure-of-identity-part-1-roger-green
 tags:
   - theoryPosts

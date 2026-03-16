@@ -8,7 +8,6 @@ categories:
   - Theology
   - Philosophy of Religion
   - Religious Studies
-layout: theory.njk
 slug: god-and-history-lecture-5-johannes-zachhuber
 tags:
   - theoryPosts

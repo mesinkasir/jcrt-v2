@@ -9,7 +9,6 @@ image: /images/2018/07/praghaus.webp
 categories:
   - Philosophy of Religion
   - Theology
-layout: theory.njk
 slug: >-
   the-dangers-of-dealing-with-derrida-revisiting-the-caputo-hagglund-debate-on-the-religious-reading-of-deconstruction-part-2-neal-deroo
 tags:

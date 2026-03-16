@@ -8,7 +8,6 @@ categories:
   - Conferences
   - Announcements
   - Uncategorized
-layout: theory.njk
 slug: religion-and-bioethics-conferencee
 tags:
   - theoryPosts

@@ -8,7 +8,6 @@ author: editors
 image: /images/2021/09/800px-faith_fides_from_the_virtues_met_dp818312.webp
 categories:
   - Religion and Literature
-layout: theory.njk
 slug: >-
   teach-me-to-do-whats-right-faith-hope-and-love-as-post-religious-virtues-part-2-a-g-holdier
 tags:

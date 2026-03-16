@@ -13,7 +13,6 @@ categories:
   - Political Philosophy
   - Critical Theory
   - Globalization
-layout: theory.njk
 slug: >-
   framing-religious-conflict-and-violence-insights-from-historical-institutionalism-part-1-vivek-swaroop-sharma
 tags:

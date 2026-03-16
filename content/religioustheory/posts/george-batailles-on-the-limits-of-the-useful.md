@@ -9,7 +9,6 @@ image: /images/2023/08/joan_miro_-_dona_i_ocell_2.webp
 categories:
   - Reviews
   - Uncategorized
-layout: theory.njk
 slug: george-batailles-on-the-limits-of-the-useful
 tags:
   - theoryPosts

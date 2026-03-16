@@ -11,7 +11,6 @@ categories:
   - Psychology of Religion
   - Mythology
   - Philosophy of Religion
-layout: theory.njk
 slug: >-
   lacan-as-spiritual-director-on-the-relationship-between-psychoanalysis-and-christian-mysticism-part-2-mark-murphy
 tags:

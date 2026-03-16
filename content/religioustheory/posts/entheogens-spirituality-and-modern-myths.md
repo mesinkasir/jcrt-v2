@@ -7,7 +7,6 @@ image: /images/2021/09/haley-lawrence-ewyga88k0yg-unsplash-1.webp
 categories:
   - New Religions
   - Religion and Media
-layout: theory.njk
 slug: entheogens-spirituality-and-modern-myths
 tags:
   - theoryPosts

@@ -10,7 +10,6 @@ categories:
   - Book Previews and Prospectuses
   - Author Reflections
   - Uncategorized
-layout: theory.njk
 slug: >-
   spiritual-erotics-affect-theory-and-the-transformation-of-machismo-among-latino-pentecostal-men-part-1
 tags:

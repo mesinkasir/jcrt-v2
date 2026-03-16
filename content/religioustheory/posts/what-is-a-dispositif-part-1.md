@@ -11,7 +11,6 @@ categories:
   - Cultural Theory
   - Political Theology
   - Political Theory
-layout: theory.njk
 slug: what-is-a-dispositif-part-1
 tags:
   - theoryPosts

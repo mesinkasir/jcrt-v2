@@ -13,7 +13,6 @@ categories:
   - Cultural Theory
   - Political Theology
   - Political Theory
-layout: theory.njk
 slug: love-psychoanalysis-and-leftist-political-ontology-part-2-daniel-tutt
 tags:
   - theoryPosts

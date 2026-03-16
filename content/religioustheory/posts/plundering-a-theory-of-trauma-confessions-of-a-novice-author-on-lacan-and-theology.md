@@ -9,7 +9,6 @@ image: /images/2016/03/andalou1.webp
 categories:
   - Author Reflections
   - Book Previews and Prospectuses
-layout: theory.njk
 slug: >-
   plundering-a-theory-of-trauma-confessions-of-a-novice-author-on-lacan-and-theology
 tags:

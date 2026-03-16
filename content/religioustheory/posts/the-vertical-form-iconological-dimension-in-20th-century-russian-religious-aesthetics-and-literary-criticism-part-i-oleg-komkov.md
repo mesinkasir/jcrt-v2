@@ -13,7 +13,6 @@ categories:
   - Lutheran Theology
   - Theology
   - Philosophy
-layout: theory.njk
 slug: >-
   the-vertical-form-iconological-dimension-in-20th-century-russian-religious-aesthetics-and-literary-criticism-part-i-oleg-komkov
 tags:

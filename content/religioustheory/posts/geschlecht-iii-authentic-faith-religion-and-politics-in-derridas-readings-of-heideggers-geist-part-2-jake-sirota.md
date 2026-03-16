@@ -11,7 +11,6 @@ categories:
   - Mythology
   - Psychoanalysis
   - Psychology of Religion
-layout: theory.njk
 slug: >-
   geschlecht-iii-authentic-faith-religion-and-politics-in-derridas-readings-of-heideggers-geist-part-2-jake-sirota
 tags:

@@ -10,7 +10,6 @@ image: >-
 categories:
   - Critical Conversations
   - Political Theology
-layout: theory.njk
 slug: >-
   psychedelic-aesthetics-and-the-crises-of-liberalism-a-critical-conversation-with-roger-green
 tags:

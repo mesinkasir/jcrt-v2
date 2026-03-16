@@ -7,7 +7,6 @@ image: /images/2018/08/img_2603.webp
 categories:
   - Theology
   - Philosophy of Religion
-layout: theory.njk
 slug: god-and-existence-lecture-4-johannes-zachhuber
 tags:
   - theoryPosts

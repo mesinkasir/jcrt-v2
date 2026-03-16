@@ -11,7 +11,6 @@ categories:
   - Philosophy of Religion
   - Theology
   - Religion and Media
-layout: theory.njk
 slug: >-
   orientalism-ontology-and-orientation-a-muslim-perspective-on-charles-h-long-part-2-mehnaz-afridi
 tags:

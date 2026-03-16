@@ -14,7 +14,6 @@ categories:
   - Psychology of Religion
   - Uncategorized
   - Philosophical Theology
-layout: theory.njk
 slug: >-
   the-critique-of-theism-kant-hegel-feuerbach-nietzsche-lecture-2-johannes-zachhuber
 tags:

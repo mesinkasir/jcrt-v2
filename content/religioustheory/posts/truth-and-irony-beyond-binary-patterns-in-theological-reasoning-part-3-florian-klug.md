@@ -8,7 +8,6 @@ author: editors
 image: /images/2021/07/img_8685-1.webp
 categories:
   - Theology
-layout: theory.njk
 slug: >-
   truth-and-irony-beyond-binary-patterns-in-theological-reasoning-part-3-florian-klug
 tags:

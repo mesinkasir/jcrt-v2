@@ -9,7 +9,6 @@ image: >-
   /images/2019/08/964px-angel_of_the_divine_presence_bringing_eve_to_adam_the_creation_of_eve-__and_she_shall_be_called_woman_recto_sketch_for_the_same_verso_met_dp805381.webp
 categories:
   - Philosophical Theology
-layout: theory.njk
 slug: >-
   speaking-of-gods-presence-as-non-contrastive-transcendent-distinction-joyce-konigsburg
 tags:

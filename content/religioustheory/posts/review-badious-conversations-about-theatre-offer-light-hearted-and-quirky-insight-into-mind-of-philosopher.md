@@ -9,7 +9,6 @@ image: /images/2016/06/dec_18_the-tank-robots_0108.webp
 categories:
   - Reviews
   - Uncategorized
-layout: theory.njk
 slug: >-
   review-badious-conversations-about-theatre-offer-light-hearted-and-quirky-insight-into-mind-of-philosopher
 tags:

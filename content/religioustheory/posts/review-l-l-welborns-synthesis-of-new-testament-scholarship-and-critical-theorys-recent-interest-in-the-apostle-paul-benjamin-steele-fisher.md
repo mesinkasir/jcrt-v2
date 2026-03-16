@@ -8,7 +8,6 @@ author: Books
 image: /images/2016/08/487px-caravaggio_-_conversione_di_san_paolo_odescalchi.webp
 categories:
   - Reviews
-layout: theory.njk
 slug: >-
   review-l-l-welborns-synthesis-of-new-testament-scholarship-and-critical-theorys-recent-interest-in-the-apostle-paul-benjamin-steele-fisher
 tags:

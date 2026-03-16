@@ -8,7 +8,6 @@ categories:
   - Political Theology
   - Political Theory
   - World Religions
-layout: theory.njk
 slug: religious-autonomy-as-secularisms-silent-partner-darshan-datar
 tags:
   - theoryPosts

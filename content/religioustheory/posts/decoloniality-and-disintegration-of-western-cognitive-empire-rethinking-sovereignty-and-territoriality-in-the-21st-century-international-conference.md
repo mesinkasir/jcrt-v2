@@ -10,7 +10,6 @@ categories:
   - Announcements
   - Conferences
   - Uncategorized
-layout: theory.njk
 slug: >-
   decoloniality-and-disintegration-of-western-cognitive-empire-rethinking-sovereignty-and-territoriality-in-the-21st-century-international-conference
 tags:

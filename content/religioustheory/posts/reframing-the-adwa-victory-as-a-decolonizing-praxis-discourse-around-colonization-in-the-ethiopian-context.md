@@ -9,7 +9,6 @@ image: /images/2020/01/adoua_1.webp
 categories:
   - Postcolonial Theory
   - Indigenous Religions
-layout: theory.njk
 slug: >-
   reframing-the-adwa-victory-as-a-decolonizing-praxis-discourse-around-colonization-in-the-ethiopian-context
 tags:

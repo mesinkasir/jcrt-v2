@@ -10,7 +10,6 @@ categories:
   - Philosophy
   - Philosophy of Religion
   - Theology
-layout: theory.njk
 slug: >-
   untimely-meditations-on-techno-theology-and-theo-poetics-part-1-john-panteleimon-manoussakis
 tags:

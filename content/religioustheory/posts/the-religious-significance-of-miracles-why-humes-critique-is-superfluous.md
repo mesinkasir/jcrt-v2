@@ -9,7 +9,6 @@ image: /images/2020/07/rubens-les_miracles_de_saint_benoit.webp
 categories:
   - Philosophy of Religion
   - Philosophical Theology
-layout: theory.njk
 slug: the-religious-significance-of-miracles-why-humes-critique-is-superfluous
 tags:
   - theoryPosts

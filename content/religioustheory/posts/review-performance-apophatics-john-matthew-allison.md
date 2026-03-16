@@ -10,7 +10,6 @@ categories:
   - Lutheran Theology
   - Philosophy of Religion
   - Religious Studies
-layout: theory.njk
 slug: review-performance-apophatics-john-matthew-allison
 tags:
   - theoryPosts

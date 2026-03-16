@@ -8,7 +8,6 @@ author: editors
 image: /images/2021/09/the_theological_virtues-_faith_charity_hope_met_dt7354.webp
 categories:
   - Religion and Literature
-layout: theory.njk
 slug: >-
   teach-me-to-do-whats-right-faith-hope-and-love-as-post-religious-virtues-part-1-a-g-holdier
 tags:

@@ -9,7 +9,6 @@ image: /images/2022/01/seabirds.webp
 categories:
   - Critical Race Theory
   - African Studies
-layout: theory.njk
 slug: locating-the-oceanic-in-sylvia-wynters-demonic-ground-part-2-justine-m-bakker
 tags:
   - theoryPosts

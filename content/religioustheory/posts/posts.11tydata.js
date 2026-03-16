@@ -2,7 +2,7 @@ export default {
 	tags: [
 		"theoryPosts"
 	],
-	"layout": "theory.njk",
+	"layout": "archive-post.njk",
 	eleventyComputed: {
 		risCitationUrl: (data) => {
 			const slug = data?.page?.fileSlug;

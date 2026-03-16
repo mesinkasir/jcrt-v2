@@ -12,7 +12,6 @@ categories:
   - Hermeneutics
   - Reviews
   - Theology
-layout: theory.njk
 slug: foucaults-disciplinary-society-and-the-community-rule-of-qumran-rebekah-gordon
 tags:
   - theoryPosts

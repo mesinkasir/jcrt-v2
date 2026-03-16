@@ -16,7 +16,6 @@ categories:
   - Political Philosophy
   - Political Theology
   - Political Theory
-layout: theory.njk
 slug: >-
   decoloniality-and-disintegration-of-western-cognitive-empire-rethinking-sovereignty-and-territoriality-in-the-21st-century-call-for-presentations-and-papers
 tags:

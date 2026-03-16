@@ -6,7 +6,6 @@ author: editors
 image: /images/2020/02/doctor_who_experience_3998731216.webp
 categories:
   - Religion and Literature
-layout: theory.njk
 slug: the-hollow-christians-of-end-times-fiction-part-1-paul-maltby
 tags:
   - theoryPosts

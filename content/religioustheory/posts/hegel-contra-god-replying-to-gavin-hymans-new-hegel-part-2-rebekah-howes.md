@@ -10,7 +10,6 @@ categories:
   - Philosophical Theology
   - Philosophy of Religion
   - Theology
-layout: theory.njk
 slug: hegel-contra-god-replying-to-gavin-hymans-new-hegel-part-2-rebekah-howes
 tags:
   - theoryPosts

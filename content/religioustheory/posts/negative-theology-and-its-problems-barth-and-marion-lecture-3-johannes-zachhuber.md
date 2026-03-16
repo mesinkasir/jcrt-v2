@@ -12,7 +12,6 @@ categories:
   - Lutheran Theology
   - Philosophy of Religion
   - Philosophy
-layout: theory.njk
 slug: >-
   negative-theology-and-its-problems-barth-and-marion-lecture-3-johannes-zachhuber
 tags:

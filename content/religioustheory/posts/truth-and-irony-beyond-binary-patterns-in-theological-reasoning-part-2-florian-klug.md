@@ -10,7 +10,6 @@ categories:
   - Theology
   - Reviews
   - Theory
-layout: theory.njk
 slug: >-
   truth-and-irony-beyond-binary-patterns-in-theological-reasoning-part-2-florian-klug
 tags:

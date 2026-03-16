@@ -6,7 +6,6 @@ author: editors
 image: /images/2025/02/800px-biotechnology_research_3617772958.webp
 categories:
   - Call for Papers
-layout: theory.njk
 slug: special-issue-on-religion-and-bioethics-call-for-papers
 tags:
   - theoryPosts

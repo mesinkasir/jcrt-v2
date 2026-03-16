@@ -12,7 +12,6 @@ categories:
   - Reviews
   - Theology
   - Critical Theory
-layout: theory.njk
 slug: >-
   mischief-idolatry-and-the-demonic-toward-a-hermeneutic-of-play-part-i-kevin-lewis
 tags:

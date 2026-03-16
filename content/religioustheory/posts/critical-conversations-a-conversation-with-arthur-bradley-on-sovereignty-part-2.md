@@ -15,7 +15,6 @@ categories:
   - Critical Theory
   - Cultural Theory
   - Political Theory
-layout: theory.njk
 slug: >-
   critical-conversations-a-conversation-with-arthur-bradley-on-sovereignty-part-2
 tags:

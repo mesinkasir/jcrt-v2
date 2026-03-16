@@ -11,7 +11,6 @@ categories:
   - Announcements
   - Critical Conversations
   - Difficult Discussions
-layout: theory.njk
 slug: locating-the-oceanic-in-sylvia-wynters-demonic-ground-part-3-justine-m-bakker
 tags:
   - theoryPosts

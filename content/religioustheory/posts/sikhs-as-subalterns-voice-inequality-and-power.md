@@ -7,7 +7,6 @@ image: /images/2024/02/sikh_man_agra_10.webp
 categories:
   - Postcolonial Theory
   - Indigenous Religions
-layout: theory.njk
 slug: sikhs-as-subalterns-voice-inequality-and-power
 tags:
   - theoryPosts

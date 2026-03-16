@@ -10,7 +10,6 @@ categories:
   - Announcements
   - Conferences
   - Uncategorized
-layout: theory.njk
 slug: >-
   embodiment-a-conference-on-the-crisis-in-contemporary-theory-and-the-humanities-announcement
 tags:

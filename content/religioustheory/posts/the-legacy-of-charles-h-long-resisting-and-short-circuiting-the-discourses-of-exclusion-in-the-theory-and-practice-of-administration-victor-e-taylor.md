@@ -11,7 +11,6 @@ categories:
   - Religion and Media
   - Philosophy of Religion
   - Theology
-layout: theory.njk
 slug: >-
   the-legacy-of-charles-h-long-resisting-and-short-circuiting-the-discourses-of-exclusion-in-the-theory-and-practice-of-administration-victor-e-taylor
 tags:

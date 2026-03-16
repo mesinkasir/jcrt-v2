@@ -10,7 +10,6 @@ categories:
   - Philosophy of Religion
   - Lutheran Theology
   - Theology
-layout: theory.njk
 slug: >-
   the-religious-significance-of-miracles-why-humes-critique-is-superfluous-part-3-alberto-urquidez
 tags:

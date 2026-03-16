@@ -10,7 +10,6 @@ image: >-
 categories:
   - Indigenous Religions
   - Postcolonial Theory
-layout: theory.njk
 slug: >-
   introducing-spirit-dance-social-justice-and-reconstructed-spiritual-practices-joshua-hall
 tags:

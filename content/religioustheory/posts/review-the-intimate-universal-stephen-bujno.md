@@ -7,7 +7,6 @@ image: /images/2019/02/dhruv-weaver-618958-unsplash.webp
 categories:
   - Reviews
   - Critical Theory
-layout: theory.njk
 slug: review-the-intimate-universal-stephen-bujno
 tags:
   - theoryPosts

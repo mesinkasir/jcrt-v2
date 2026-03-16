@@ -9,7 +9,6 @@ categories:
   - Philosophy
   - Philosophy of Religion
   - Theology
-layout: theory.njk
 slug: lutheran-theology-and-postmodern-philosophy-part-i-olli-pekka-vaino
 tags:
   - theoryPosts

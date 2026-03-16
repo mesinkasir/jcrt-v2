@@ -7,7 +7,6 @@ image: /images/2023/07/1024px-hofmann_lehrbuch_brain_gunshot.webp
 categories:
   - Psychology of Religion
   - Theology
-layout: theory.njk
 slug: trauma-in-emmanuel-levinas-writing-body-part-1-magdalena-sedmak
 tags:
   - theoryPosts

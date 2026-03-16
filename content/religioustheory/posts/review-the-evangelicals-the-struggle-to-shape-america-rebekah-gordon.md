@@ -7,7 +7,6 @@ image: /images/2017/10/pastors-daughter.webp
 categories:
   - Reviews
   - Critical Theory
-layout: theory.njk
 slug: review-the-evangelicals-the-struggle-to-shape-america-rebekah-gordon
 tags:
   - theoryPosts

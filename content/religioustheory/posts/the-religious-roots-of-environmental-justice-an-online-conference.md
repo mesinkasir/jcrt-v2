@@ -7,7 +7,6 @@ image: /images/2023/07/ta_prohm_iii.webp
 categories:
   - Conferences
   - Announcements
-layout: theory.njk
 slug: the-religious-roots-of-environmental-justice-an-online-conference
 tags:
   - theoryPosts

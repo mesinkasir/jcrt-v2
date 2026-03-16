@@ -7,7 +7,6 @@ image: /images/2017/05/ghost-story.webp
 categories:
   - Reviews
   - Philosophy of Religion
-layout: theory.njk
 slug: review-caputos-spooky-call-to-theology-rob-kennedy
 tags:
   - theoryPosts

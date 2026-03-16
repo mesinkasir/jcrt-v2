@@ -9,7 +9,6 @@ image: >-
   /images/2016/03/illustrations_to_dantes_divine_comedy_object_44_butlin_812-42_the_baffled_devils_fighting.webp
 categories:
   - Religion in America
-layout: theory.njk
 slug: >-
   the-secularizing-ethos-and-the-end-of-biblical-authority-how-todays-evangelicals-abandoned-evangelicalism
 tags:

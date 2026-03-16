@@ -6,7 +6,6 @@ author: editors
 image: /images/2024/09/eckelrade-wegkruis_linderweg-eckelraderweg.webp
 categories:
   - Religion and Ecology
-layout: theory.njk
 slug: the-image-of-god-and-our-vocation-of-the-soil-mike-pope
 tags:
   - theoryPosts

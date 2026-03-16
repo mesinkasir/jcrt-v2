@@ -6,7 +6,6 @@ author: Books
 image: /images/2016/10/paul.webp
 categories:
   - Reviews
-layout: theory.njk
 slug: review-caputo-the-unconditional-the-folly-of-god-richard-m-allen
 tags:
   - theoryPosts

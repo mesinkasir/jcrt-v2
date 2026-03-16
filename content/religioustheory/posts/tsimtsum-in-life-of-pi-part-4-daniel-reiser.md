@@ -6,7 +6,6 @@ author: editors
 image: /images/2020/12/albert_bierstadt_farallon_island_1887_oil_on_canvas.webp
 categories:
   - Jewish Philosophy of Religion
-layout: theory.njk
 slug: tsimtsum-in-life-of-pi-part-4-daniel-reiser
 tags:
   - theoryPosts

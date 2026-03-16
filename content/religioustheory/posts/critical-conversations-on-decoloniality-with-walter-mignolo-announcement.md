@@ -9,7 +9,6 @@ categories:
   - Political Philosophy
   - Political Theology
   - Political Theory
-layout: theory.njk
 slug: critical-conversations-on-decoloniality-with-walter-mignolo-announcement
 tags:
   - theoryPosts

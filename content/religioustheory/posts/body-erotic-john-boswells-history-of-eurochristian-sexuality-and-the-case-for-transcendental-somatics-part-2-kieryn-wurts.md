@@ -8,7 +8,6 @@ author: editors
 image: /images/2023/05/jerusalem_gay_pride_parade_05-1.webp
 categories:
   - Gender Studies
-layout: theory.njk
 slug: >-
   body-erotic-john-boswells-history-of-eurochristian-sexuality-and-the-case-for-transcendental-somatics-part-2-kieryn-wurts
 tags:

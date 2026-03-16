@@ -8,7 +8,6 @@ categories:
   - Philosophy
   - Reviews
   - Theology
-layout: theory.njk
 slug: review-reverent-irreverence-amit-gvaryahu
 tags:
   - theoryPosts

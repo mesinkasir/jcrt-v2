@@ -12,7 +12,6 @@ categories:
   - Theological Ethics
   - Conferences
   - Uncategorized
-layout: theory.njk
 slug: >-
   critical-conversations-10-tenderness-or-putting-neoliberalism-on-the-analysts-couch-announcement
 tags:

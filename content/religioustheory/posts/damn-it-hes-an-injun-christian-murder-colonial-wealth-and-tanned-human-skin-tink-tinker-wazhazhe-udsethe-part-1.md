@@ -8,7 +8,6 @@ author: editors
 image: /images/2019/03/1600px-thumbnail.webp
 categories:
   - Native American Religions
-layout: theory.njk
 slug: >-
   damn-it-hes-an-injun-christian-murder-colonial-wealth-and-tanned-human-skin-tink-tinker-wazhazhe-udsethe-part-1
 tags:

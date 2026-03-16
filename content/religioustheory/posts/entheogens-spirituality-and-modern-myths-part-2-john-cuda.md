@@ -7,7 +7,6 @@ image: /images/2021/09/edward-howell-vltjdp8zy1c-unsplash.webp
 categories:
   - New Religions
   - Religion and Media
-layout: theory.njk
 slug: entheogens-spirituality-and-modern-myths-part-2-john-cuda
 tags:
   - theoryPosts

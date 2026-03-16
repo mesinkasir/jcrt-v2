@@ -9,7 +9,6 @@ image: /images/2022/08/worship-band.webp
 categories:
   - Anthropology of Religion
   - Art Theory
-layout: theory.njk
 slug: >-
   rapture-music-intensity-and-eschatology-within-christian-revival-movements-part-3-fraser-macdonald
 tags:

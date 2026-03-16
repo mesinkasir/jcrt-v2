@@ -8,7 +8,6 @@ author: Books
 image: /images/2017/02/charles_hope-thatcher_tina.webp
 categories:
   - Reviews
-layout: theory.njk
 slug: review-neoliberalismisnowhere-wendy-browns-undoing-the-demos-isaiah
 tags:
   - theoryPosts

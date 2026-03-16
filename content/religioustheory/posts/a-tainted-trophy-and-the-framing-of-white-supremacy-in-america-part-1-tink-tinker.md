@@ -10,7 +10,6 @@ image: >-
 categories:
   - Indigenous Religions
   - Postcolonial Theory
-layout: theory.njk
 slug: >-
   a-tainted-trophy-and-the-framing-of-white-supremacy-in-america-part-1-tink-tinker
 tags:

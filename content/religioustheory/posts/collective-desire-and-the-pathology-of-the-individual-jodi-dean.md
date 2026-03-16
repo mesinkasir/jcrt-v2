@@ -9,7 +9,6 @@ categories:
   - Reviews
   - Critical Conversations
   - Announcements
-layout: theory.njk
 slug: collective-desire-and-the-pathology-of-the-individual-jodi-dean
 tags:
   - theoryPosts

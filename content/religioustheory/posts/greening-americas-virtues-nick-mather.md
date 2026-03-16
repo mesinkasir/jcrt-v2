@@ -6,7 +6,6 @@ author: editors
 image: /images/2024/10/rockymountainnps_1.webp
 categories:
   - Religion and Ecology
-layout: theory.njk
 slug: greening-americas-virtues-nick-mather
 tags:
   - theoryPosts

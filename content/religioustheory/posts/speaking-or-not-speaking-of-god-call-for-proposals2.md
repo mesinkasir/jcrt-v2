@@ -6,7 +6,6 @@ author: editors
 image: /images/2017/05/img_1275.webp
 categories:
   - Conferences
-layout: theory.njk
 slug: speaking-or-not-speaking-of-god-call-for-proposals2
 tags:
   - theoryPosts
