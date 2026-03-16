@@ -1,3 +1,7 @@
+# Explicit directory-index serving for archive articles
+# Netlify's directory index resolution fails for /archives/:issue/:slug/ paths
+/archives/:issue/:slug/ /archives/:issue/:slug/index.html 200
+
 # Legacy archive redirects (extensions handled at Cloudflare level)
 /searchengine.shtml /search/ 301
 /Literaturecfp.pdf / 301
