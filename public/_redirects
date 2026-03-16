@@ -314,7 +314,7 @@
 /images/* https://files.jcrt.org/images/:splat 200
 /docs/* https://files.jcrt.org/docs/:splat 200
 /citations/* https://files.jcrt.org/citations/:splat 200
-/archives/*/*.pdf https://files.jcrt.org/archives/:splat.pdf 200!
+/archives/:issue/:slug.pdf https://files.jcrt.org/archives/:issue/:slug.pdf 200!
 
 # Pre-generated sitemaps served from files.jcrt.org
 /sitemaps/doaj-archives.xml https://files.jcrt.org/metadata/doaj-archives.xml 200
