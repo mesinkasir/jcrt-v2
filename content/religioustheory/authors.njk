@@ -1,13 +1,15 @@
 ---
 layout: base.njk
 pagination:
-  data: collections.theoryAuthors
+  data: tagIndex.authors.theory.list
   size: 1
-  alias: authorName
-permalink: "/religioustheory/authors/{{ authorName | slugify }}/index.html"
+  alias: authorSlugKey
+permalink: "/religioustheory/authors/{{ authorSlugKey }}/index.html"
 eleventyComputed:
-  title: "Author: {{ authorName }}"
+  title: "Author: {{ tagIndex.authors.theory.names[authorSlugKey] or authorSlugKey }}"
 ---
+{% set authorName = tagIndex.authors.theory.names[authorSlugKey] or authorSlugKey %}
+{% set theoryPosts = tagIndex.authors.theory.map[authorSlugKey] or [] %}
 <article class="container-fluid mt-5">
   {% include "partials/nav_desktop.njk" %}
   
@@ -23,18 +25,15 @@ eleventyComputed:
   </header>
 
   <div class="row mt-3 mb-3">
-    {%- for post in collections.theoryPosts %}
-      {% set postAuthor = post.data.author or "Editors" %}
-      
-      {%- if postAuthor == authorName %}
+    {%- for post in theoryPosts %}
         <div class="col-md-6 col-lg-4 p-3 small p-md-5 d-flex flex-column"> 
             <div class="img-zoom-container rounded-4 shadow-sm mb-3" style="aspect-ratio: 16/9; overflow: hidden;">
                 <a href="{{ post.url }}">
-                    {% set authorCardImage = (post.data.image | ensureImage('/images/jcrt-open-graph.webp')) %}
+                    {% set authorCardImage = (post.image | ensureImage('/images/jcrt-open-graph.webp')) %}
                     {% set authorCardImagePreferred = (authorCardImage | preferWebp) %}
                     <img class="img-post img-fluid" 
                          style="width: 100%; height: 100%; object-fit: cover;" 
-                         alt="{{ post.data.title }}" 
+                         alt="{{ post.title }}" 
                          src="{{ authorCardImagePreferred }}"
                          data-fallback-src="{{ authorCardImage }}"
                          {% imageAttrs authorCardImage, 640, 360 %}
@@ -46,19 +45,19 @@ eleventyComputed:
 
             <h3 class="serif fw-bold h5">
                 <a class="text-decoration-none text-dark hover-primary" href="{{ post.url }}">
-                    {{ post.data.title }}
+                    {{ post.title }}
                 </a>
             </h3>
             
             <div class="mb-2">
                 <p class="text-muted x-small text-uppercase fw-bold mb-1" style="font-size: 0.7rem;">
                     {% if post.date %}{{ post.date | postDate }}{% endif %}
-                    — By {{ postAuthor }}
+                    — By {{ post.author or authorName }}
                 </p>
             </div>
 
             <p class="text-secondary small">
-                {{ post.data.excerpt | truncate(110) if post.data.excerpt else "Explore this article by " + authorName + "..." }}
+                {{ post.description | truncate(110) if post.description else "Explore this article by " + authorName + "..." }}
             </p>
 
             <p class="mt-auto">
@@ -67,7 +66,6 @@ eleventyComputed:
                 </a>
             </p>
         </div>
-      {%- endif %}
     {%- endfor %}
   </div>
 </article>

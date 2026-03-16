@@ -3,6 +3,9 @@
 
 Developed by Adam DJ Brett
 
+## Acknowledgments
+- Build performance optimization audit and recommendations by [Brennan Kenneth Brown](https://github.com/brennankbrown)
+
 ## Next Steps
 5. idea: use RT for book reviews
 6. add pagination to 24.2 and 25.1 pdfs

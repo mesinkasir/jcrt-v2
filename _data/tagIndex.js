@@ -1,11 +1,12 @@
 import fs from "node:fs";
 import path from "node:path";
 import yaml from "js-yaml";
+import { authorSlug, splitAuthors } from "../_config/authorSlug.js";
 
 const CACHE_PATH = path.join(process.cwd(), ".cache", "tag-index-cache.json");
 const CONTENT_ROOT = path.join(process.cwd(), "content");
 const LEAN_BUILD = Boolean(process.env.LEAN_BUILD);
-const CACHE_VERSION = 2;
+const CACHE_VERSION = 3;
 
 const GLOBAL_TAG_EXCLUDED = new Set(["all", "posts", "authors", "nav", "theoryposts", "archives"]);
 const THEORY_TAG_EXCLUDED = new Set(["all", "posts", "theoryposts", "archives", "nav"]);
@@ -119,11 +120,18 @@ function buildFileRecord(absPath) {
 	const theoryCategories = section === "theory" ? ensureArray(data?.categories) : [];
 	const globalTags = tags.filter((t) => !isExcluded(t, GLOBAL_TAG_EXCLUDED));
 
+	const authorRaw = String(data?.author || "").trim();
+	const authorNames = splitAuthors(authorRaw).map((name) => {
+		const slug = authorSlug(name) || name.toLowerCase();
+		return { name: name.trim(), slug };
+	});
+
 	return {
 		section,
 		url,
 		title: String(data?.title || path.basename(absPath, ".md")).trim(),
-		author: String(data?.author || "").trim(),
+		author: authorRaw,
+		authorNames,
 		description: String(data?.description || data?.excerpt || data?.abstract || "").trim(),
 		image: String(data?.image || "").trim(),
 		date: normalizeDate(data),
@@ -175,6 +183,61 @@ function finalizeDomain(map, affectedSet) {
 
 function addAll(set, values) {
 	for (const value of values || []) set.add(value);
+}
+
+function sortAuthorEntriesBySection(entries) {
+	const groups = { archives: [], religioustheory: [], blog: [], other: [] };
+	for (const entry of entries) {
+		if (entry.section === "archives") groups.archives.push(entry);
+		else if (entry.section === "theory") groups.religioustheory.push(entry);
+		else if (entry.section === "blog") groups.blog.push(entry);
+		else groups.other.push(entry);
+	}
+	for (const arr of Object.values(groups)) sortEntriesDesc(arr);
+	return [...groups.archives, ...groups.religioustheory, ...groups.blog, ...groups.other];
+}
+
+function buildAuthorMaps(nextFiles) {
+	const allMap = {};
+	const theoryMap = {};
+
+	const nameBySlug = {};
+
+	for (const rel of Object.keys(nextFiles)) {
+		const rec = nextFiles[rel]?.record;
+		if (!rec?.url || !rec.authorNames?.length) continue;
+
+		const entry = {
+			url: rec.url,
+			title: rec.title,
+			author: rec.author,
+			description: rec.description,
+			image: rec.image,
+			date: rec.date,
+			section: rec.section,
+		};
+
+		for (const { slug, name } of rec.authorNames) {
+			if (!nameBySlug[slug]) nameBySlug[slug] = name;
+			addToMap(allMap, slug, entry);
+			if (rec.section === "theory") addToMap(theoryMap, slug, entry);
+		}
+	}
+
+	for (const posts of Object.values(allMap)) {
+		const sorted = sortAuthorEntriesBySection(posts);
+		posts.length = 0;
+		posts.push(...sorted);
+	}
+	for (const posts of Object.values(theoryMap)) sortEntriesDesc(posts);
+
+	const allList = Object.keys(allMap).sort();
+	const theoryList = Object.keys(theoryMap).sort();
+
+	return {
+		all: { map: allMap, list: allList, counts: Object.fromEntries(allList.map((k) => [k, allMap[k].length])), names: nameBySlug },
+		theory: { map: theoryMap, list: theoryList, counts: Object.fromEntries(theoryList.map((k) => [k, theoryMap[k].length])), names: nameBySlug },
+	};
 }
 
 function withPagination(domain) {
@@ -262,7 +325,8 @@ export default async function tagIndexData() {
 		prev?.domains?.globalTags &&
 		prev?.domains?.archiveKeywords &&
 		prev?.domains?.theory?.tags &&
-		prev?.domains?.theory?.categories
+		prev?.domains?.theory?.categories &&
+		prev?.domains?.authors
 	) {
 		const result = {
 			generatedAt: new Date().toISOString(),
@@ -280,6 +344,7 @@ export default async function tagIndexData() {
 				tags: withPagination(prev.domains.theory.tags),
 				categories: withPagination(prev.domains.theory.categories),
 			},
+			authors: prev.domains.authors,
 		};
 		inProcessMemo = { key: signatureKey, value: result };
 		return result;
@@ -334,6 +399,8 @@ export default async function tagIndexData() {
 		for (const category of rec.theoryCategories) addToMap(theoryCategoryMap, category, entry);
 	}
 
+	const authors = buildAuthorMaps(nextFiles);
+
 	const result = {
 		generatedAt: new Date().toISOString(),
 		summary: {
@@ -350,6 +417,7 @@ export default async function tagIndexData() {
 			tags: finalizeDomain(theoryTagMap, affectedTheoryTags),
 			categories: finalizeDomain(theoryCategoryMap, affectedTheoryCategories),
 		},
+		authors,
 	};
 
 	writeJson(CACHE_PATH, {
@@ -363,6 +431,7 @@ export default async function tagIndexData() {
 				tags: stripPagination(result.theory.tags),
 				categories: stripPagination(result.theory.categories),
 			},
+			authors,
 		},
 	});
 

@@ -1,5 +1,4 @@
 import { DateTime } from "luxon";
-import { authorSlug, splitAuthors } from "./authorSlug.js";
 
 export default function(eleventyConfig) {
     const isLeanBuild = Boolean(process.env.LEAN_BUILD);
@@ -46,22 +45,6 @@ export default function(eleventyConfig) {
 
     eleventyConfig.addFilter("filterTagList", filterTagList);
 
-	eleventyConfig.addCollection("theoryAuthors", function (collectionApi) {
-		const posts = collectionApi.getFilteredByTag("theoryPosts");
-		const bySlug = new Map();
-
-		for (const item of posts) {
-			const authors = splitAuthors(item?.data?.author || "Editors");
-			for (const authorName of authors) {
-				const key = authorSlug(authorName) || authorName.toLowerCase();
-				if (!bySlug.has(key)) bySlug.set(key, authorName);
-			}
-		}
-
-		return [...bySlug.values()].sort((a, b) =>
-			String(a).toLowerCase().localeCompare(String(b).toLowerCase())
-		);
-	});
     eleventyConfig.addFilter("sortAlphabetically", (strings) =>
         [...(strings || [])].sort((a, b) =>
             String(a ?? "").localeCompare(String(b ?? ""))
@@ -196,6 +179,7 @@ eleventyConfig.addCollection("onlyIssues", function(collectionApi) {
     });
 });
 }
+if (!isLeanBuild) {
 eleventyConfig.addCollection("archivesSorted", function(collectionApi) {
   const items = collectionApi.getFilteredByGlob("content/archives/**/*.md");
 
@@ -211,5 +195,6 @@ eleventyConfig.addCollection("archivesSorted", function(collectionApi) {
     return bKey.localeCompare(aKey);
   });
 });
+}
 
 };

@@ -7,7 +7,6 @@ import markdownIt from "markdown-it";
 import markdownItAnchor from "markdown-it-anchor";
 import markdownItFootnote from "markdown-it-footnote";
 import markdownItAttrs from "markdown-it-attrs";
-import markdownItTableOfContents from "markdown-it-table-of-contents";
 import pluginTOC from "eleventy-plugin-toc";
 import pluginFilters from "./_config/filters.js";
 import { authorSlug, splitAuthors } from "./_config/authorSlug.js";
@@ -520,8 +519,7 @@ export default async function (eleventyConfig) {
 
 	let markdownLib = markdownIt(options)
 		.use(markdownItAttrs)
-		.use(markdownItFootnote)
-		.use(markdownItTableOfContents);
+		.use(markdownItFootnote);
 	eleventyConfig.setLibrary("md", markdownLib);
 	eleventyConfig.amendLibrary("md", (mdLib) => {
 		const slugifyFilter = eleventyConfig.getFilter("slugify");
@@ -756,90 +754,6 @@ export default async function (eleventyConfig) {
 
 		return lookup.get(rawKey) || lookup.get(authorSlug(rawKey)) || null;
 	});
-	const postsByAuthorCache = new WeakMap();
-	function buildPostsByAuthorMap(allPosts) {
-		const cached = postsByAuthorCache.get(allPosts);
-		if (cached) return cached;
-
-		const byAuthor = new Map();
-		for (const post of allPosts) {
-			if (!isPublishedItem(post?.data)) continue;
-			const authorField = post?.data?.author;
-			if (!authorField) continue;
-
-			const parts = splitAuthors(authorField);
-			for (const part of parts) {
-				const rawName = String(part).trim();
-				if (!rawName) continue;
-				const keys = new Set([
-					rawName.toLowerCase(),
-					authorSlug(rawName),
-				].filter(Boolean));
-				for (const key of keys) {
-					if (!byAuthor.has(key)) byAuthor.set(key, []);
-					byAuthor.get(key).push(post);
-				}
-			}
-		}
-
-		const sortByDateDesc = (a, b) => {
-			const aTime = a?.date instanceof Date ? a.date.getTime() : 0;
-			const bTime = b?.date instanceof Date ? b.date.getTime() : 0;
-			return bTime - aTime;
-		};
-
-		for (const posts of byAuthor.values()) {
-			const groups = {
-				archives: [],
-				religioustheory: [],
-				blog: [],
-				other: [],
-			};
-			for (const post of posts) {
-				const url = post?.url || "";
-				const inputPath = post?.inputPath || "";
-
-				if (url.startsWith("/archives/") || inputPath.includes("/content/archives/")) {
-					groups.archives.push(post);
-				} else if (
-					url.startsWith("/religioustheory/") ||
-					inputPath.includes("/content/religioustheory/")
-				) {
-					groups.religioustheory.push(post);
-				} else if (url.startsWith("/blog/") || inputPath.includes("/content/blog/")) {
-					groups.blog.push(post);
-				} else {
-					groups.other.push(post);
-				}
-			}
-
-			groups.archives.sort(sortByDateDesc);
-			groups.religioustheory.sort(sortByDateDesc);
-			groups.blog.sort(sortByDateDesc);
-			groups.other.sort(sortByDateDesc);
-
-			const ordered = [
-				...groups.archives,
-				...groups.religioustheory,
-				...groups.blog,
-				...groups.other,
-			];
-			posts.length = 0;
-			posts.push(...ordered);
-		}
-
-		postsByAuthorCache.set(allPosts, byAuthor);
-		return byAuthor;
-	}
-	eleventyConfig.addFilter("getPostsByAuthor", (allPosts, authorKey) => {
-		if (!Array.isArray(allPosts) || !authorKey) return [];
-
-		const rawKey = String(authorKey).trim();
-		if (!rawKey) return [];
-		const cacheKey = authorSlug(rawKey) || rawKey.toLowerCase();
-		const byAuthor = buildPostsByAuthorMap(allPosts);
-		return byAuthor.get(cacheKey) || [];
-	});
 	eleventyConfig.addCollection("authors", function (collectionApi) {
 		return collectionApi
 			.getFilteredByGlob("content/authors/*.md")
@@ -987,6 +901,7 @@ export default async function (eleventyConfig) {
 				if (priorityDiff !== 0) return priorityDiff;
 				return String(a?.url || "").localeCompare(String(b?.url || ""));
 			})
+			.slice(0, 200)
 			.map((item) => normalizeFeedItem(item, item?.fileSlug || item?.url || "Untitled"));
 
 		// Feed plugin template reverses the collection before rendering entries.
