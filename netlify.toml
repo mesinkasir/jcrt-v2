@@ -5,7 +5,6 @@
 [build.environment]
   NODE_VERSION = "20"
   NPM_FLAGS = "--prefer-offline"
-  SECRETS_SCAN_OMIT_PATHS = "public/citations/**,_site/citations/**"
 
 [[plugins]]
   package = "netlify-plugin-cache"

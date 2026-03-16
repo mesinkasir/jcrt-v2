@@ -369,9 +369,7 @@ export default async function (eleventyConfig) {
 	// handle compression; the regex-based transform saved <1s but added
 	// per-page overhead across 2,000+ pages.
 
-	eleventyConfig.on("eleventy.before", async () => {
-		// Citations and favicons are now on files.jcrt.org — nothing to pre-generate.
-	});
+	// Citations and favicons are on files.jcrt.org — no eleventy.before work needed.
 
 	// Removed manual authors.json loading. Eleventy will auto-load _data/authors.yaml and _data/authors.json as global data.
 	eleventyConfig.addPreprocessor("drafts", "*", (data) => {

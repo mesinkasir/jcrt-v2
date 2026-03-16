@@ -12,7 +12,7 @@
     "build:local": "npm run check:bootstrap-sourcemap && cross-env FAST_BUILD=1 LEAN_BUILD=1 ELEVENTY_RUN_MODE=serve NODE_OPTIONS=--max-old-space-size=8192 eleventy --quiet && npm run check:icons",
     "build:bench": "cross-env BENCH_11TY=1 BENCH_ISSUE=24.2 FAST_BUILD=1 ELEVENTY_RUN_MODE=serve NODE_OPTIONS=--max-old-space-size=4096 eleventy --quiet",
     "build": "npm run check:bootstrap-sourcemap && rm -rf _site && cross-env NODE_OPTIONS=--max-old-space-size=8192 ELEVENTY_RUN_MODE=build eleventy && npm run check:icons && cross-env NODE_OPTIONS=--max-old-space-size=8192 node _config/run-pagefind.js",
-    "build:netlify": "rm -rf _site && echo \"[build:netlify 1/3] Eleventy\" && cross-env NODE_OPTIONS=--max-old-space-size=8192 ELEVENTY_RUN_MODE=build eleventy --quiet && echo \"[build:netlify 2/3] Icon guard\" && npm run check:icons && echo \"[build:netlify 3/3] Post-build\" && cross-env NODE_OPTIONS=--max-old-space-size=8192 node _config/post-build.js",
+    "build:netlify": "rm -rf _site && echo \"[build:netlify 1/3] Eleventy\" && cross-env NODE_OPTIONS=--max-old-space-size=8192 ELEVENTY_RUN_MODE=build eleventy --quiet && echo \"[build:netlify 2/3] Icon guard\" && npm run check:icons && echo \"[build:netlify 3/3] Pagefind\" && cross-env NODE_OPTIONS=--max-old-space-size=8192 node _config/run-pagefind.js",
     "clear": "rm -rf _site .cache",
     "build-nocolor": "cross-env NODE_DISABLE_COLORS=1 eleventy",
     "build-ghpages": "rm -rf _site && cross-env NODE_OPTIONS=--max-old-space-size=8192 eleventy --pathprefix=/jcrt.org/",
@@ -50,9 +50,7 @@
     "luxon": "^3.6.1",
     "markdown-it": "^14.1.0",
     "markdown-it-attrs": "^4.3.1",
-    "netlify-plugin-cache": "1.0.3",
-    "zod": "^3.25.67",
-    "zod-validation-error": "^3.5.2"
+    "netlify-plugin-cache": "1.0.3"
   },
   "dependencies": {
     "eleventy-plugin-toc": "^1.1.5",
