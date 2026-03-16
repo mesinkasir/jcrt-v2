@@ -31,7 +31,7 @@ layout: base.njk
         <h1 class="serif fw-bold display-4 mb-3 p-name">{{ jsonEntry.title or title }}</h1>
 
         {% if isIssueIndex %}
-          {% set issueImage = image or (metadata.files_url + '/images/logos/JCRT.svg') %}
+          {% set issueImage = (image | ensureImage('/images/jcrt-open-graph.webp')) if image else (metadata.files_url + '/images/logos/JCRT.svg') %}
           {% set issueImageWidth = issue_image_width %}
           {% set issueImageHeight = issue_image_height %}
           <div class="mb-4">

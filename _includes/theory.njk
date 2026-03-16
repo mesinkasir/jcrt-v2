@@ -431,24 +431,49 @@
 <script>
     (function () {
       const fallback = "{{ metadata.files_url }}/images/jcrt-open-graph.webp";
+      const cdnBase = "{{ metadata.files_url }}";
+      const hasInlineFallback = (img) => img.hasAttribute("onerror");
+      const absolutize = (src) => {
+        try {
+          return new URL(src, window.location.href).href;
+        } catch {
+          return src || "";
+        }
+      };
+      const toCdnImageSrc = (src) => {
+        if (!src) return "";
+        if (/^(https?:)?\/\//i.test(src) || src.startsWith("data:")) return "";
+        return src.startsWith("/images/") ? `${cdnBase}${src}` : "";
+      };
+      const nextFallbackSrc = (img) => {
+        const currentAttrSrc = img.getAttribute("src") || "";
+        const currentResolvedSrc = absolutize(img.currentSrc || img.src || currentAttrSrc);
+        const candidates = [img.dataset.fallbackSrc || "", toCdnImageSrc(currentAttrSrc), fallback];
+        return candidates.find((candidate) => candidate && absolutize(candidate) !== currentResolvedSrc) || fallback;
+      };
       const applyFallback = (img) => {
         if (!img || img.dataset.fallbackApplied === "1") return;
         img.dataset.fallbackApplied = "1";
         img.onerror = null;
         img.src = fallback;
       };
+      const handleImageError = (img) => {
+        if (!img) return;
+        const nextSrc = nextFallbackSrc(img);
+        if (img.dataset.fallbackAttempted === "1") {
+          applyFallback(img);
+          return;
+        }
+        img.dataset.fallbackAttempted = "1";
+        img.src = nextSrc;
+      };
       function applyImageFallbacks() {
         const images = document.querySelectorAll("img");
         images.forEach((img) => {
-          if (img.dataset.fallbackBound === "1") return;
+          if (img.dataset.fallbackBound === "1" || hasInlineFallback(img)) return;
           img.dataset.fallbackBound = "1";
           img.onerror = function () {
-            if (this.dataset.fallbackAttempted === "1") {
-              applyFallback(this);
-              return;
-            }
-            this.dataset.fallbackAttempted = "1";
-            this.src = this.dataset.fallbackSrc || fallback;
+            handleImageError(this);
           };
         });
       }
@@ -457,12 +482,8 @@
         (event) => {
           const img = event.target;
           if (!(img instanceof HTMLImageElement)) return;
-          if (img.dataset.fallbackAttempted === "1") {
-            applyFallback(img);
-            return;
-          }
-          img.dataset.fallbackAttempted = "1";
-          img.src = img.dataset.fallbackSrc || fallback;
+          if (hasInlineFallback(img)) return;
+          handleImageError(img);
         },
         true
       );

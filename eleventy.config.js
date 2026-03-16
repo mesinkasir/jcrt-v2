@@ -155,6 +155,14 @@ function escapeHtmlAttr(value) {
 		.replace(/>/g, "&gt;");
 }
 
+function resolveServedImageUrl(src, fallback = "/images/jcrt-open-graph.webp") {
+	const candidate = String(src || fallback || "").trim();
+	if (!candidate) return `${siteFilesUrl}/images/jcrt-open-graph.webp`;
+	if (/^(https?:)?\/\//i.test(candidate) || candidate.startsWith("data:")) return candidate;
+	if (resolveImagePath(candidate)) return candidate;
+	return `${siteFilesUrl}${candidate.startsWith("/") ? "" : "/"}${candidate}`;
+}
+
 function parseWidths(input, fallback = [320, 480, 640]) {
 	if (Array.isArray(input)) {
 		const normalized = input
@@ -188,7 +196,7 @@ async function renderResponsiveThumb(src, options = {}) {
 	} = options;
 
 	const skipImageProcessing = Boolean(process.env.SKIP_IMAGE_PROCESSING);
-	const resolvedFallback = resolveImagePath(fallbackSrc) ? fallbackSrc : "/images/jcrt-open-graph.webp";
+	const resolvedFallback = resolveServedImageUrl(fallbackSrc, "/images/jcrt-open-graph.webp");
 	const candidate = String(src || "").trim();
 	let finalSrc = candidate && candidate !== "null" && candidate !== "undefined" ? candidate : resolvedFallback;
 	let filePath = resolveImagePath(finalSrc);

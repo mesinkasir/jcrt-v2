@@ -1,6 +1,7 @@
 {% set pageTitle = title or metadata.title %}
 {% set pageDesc = description or excerpt or abstract or (content | striptags | trim | truncate(160)) or metadata.description %}
-{% set pageImageRaw = metadata.files_url + '/images/jcrt-open-graph.webp' %}
+{% set pageImageSource = image or (metadata.files_url + '/images/jcrt-open-graph.webp') %}
+{% set pageImageRaw = pageImageSource | ensureImage('/images/jcrt-open-graph.webp') %}
 {% set pageImage = pageImageRaw if "http" in pageImageRaw else metadata.url + pageImageRaw %}
 {% set robotsDirective = "index, follow" %}
 {% if robots %}
