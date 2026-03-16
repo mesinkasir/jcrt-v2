@@ -231,6 +231,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const content = document.getElementById('article-content');
     const tocList = document.getElementById('toc-list');
     const tocContainer = document.getElementById('custom-toc-container');
+  if (!content || !tocList || !tocContainer) return;
     const headings = content.querySelectorAll('h2, h3');
     
     if (headings.length > 0) {
