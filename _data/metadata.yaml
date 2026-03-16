@@ -23,12 +23,15 @@ navbar:
  title: JCRT
  sub_title: "The Journal for Cultural and Religious Theory"
  social: 
-   - title: Follow My Facebook
+   - title: Follow Our Facebook
      icon: fa-brands fa-facebook
      url: https://www.facebook.com/religioustheory
-   - title: Follow my Instagram
+   - title: Follow Our Instagram
      icon: fa-brands fa-instagram
      url: https://www.instagram.com/JCRT_DU1
+   - title: Follow Our Bluesky
+      icon: fa-brands fa-bluesky
+      url: https://bsky.app/profile/jcrt.org  
    - title: RSS
      icon: fa-solid fa-rss
      url: /feed/feed.xml

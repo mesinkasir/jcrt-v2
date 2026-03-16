@@ -5,6 +5,7 @@
 [build.environment]
   NODE_VERSION = "20"
   NPM_FLAGS = "--prefer-offline"
+  NPM_CONFIG_CACHE = ".npm-cache"
 
 [[plugins]]
   package = "netlify-plugin-cache"
