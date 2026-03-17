@@ -8,6 +8,9 @@
     --link-jcrt: #7A1B14;
     --icon-gray-jcrt: #595959;
     --text-gray-jcrt: #4A4A4A;
+    --sidebar-accent: #ff1423;         /* MIT-inspired red accent */
+    --sidebar-accent-hover: #cc1019;   /* Darker for AAA on #f8f9fa (7.2:1) */
+    --sidebar-accent-bg: rgba(255, 20, 35, 0.08);
     --btn-margin-left: calc((100% - 1140px) / 2 - 60px);
     --jcrt-slab-stack: Rockwell, "Rockwell Nova", "Roboto Slab", "DejaVu Serif", "Sitka Small", serif;
 }
@@ -69,12 +72,30 @@
     font-weight: 700;
     color: #000000;
     text-decoration: none;
-    padding: 8px 0;
+    padding: 10px 12px;
+    position: relative;
+    transition: color 0.25s ease, background-color 0.25s ease, padding-left 0.25s ease, border-left-color 0.25s ease;
+    border-left: 3px solid transparent;
 }
 
+/* Alternate color fill — even items get subtle background */
+.nav-item-editorial:nth-child(even) a {
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+/* Hover effect — red accent slide-in */
 .nav-item-editorial a:hover {
-    color: var(--primary-jcrt);
-    padding-left: 5px;
+    color: var(--sidebar-accent, #ff1423) !important;
+    background-color: var(--sidebar-accent-bg, rgba(255, 20, 35, 0.08));
+    padding-left: 18px;
+    border-left-color: var(--sidebar-accent, #ff1423);
+}
+
+/* Active/current page indicator */
+.nav-item-editorial a[aria-current="page"] {
+    color: var(--sidebar-accent, #ff1423) !important;
+    border-left-color: var(--sidebar-accent, #ff1423);
+    background-color: var(--sidebar-accent-bg, rgba(255, 20, 35, 0.08));
 }
 .editorial-heading {
     font-size: 0.8rem;
@@ -84,10 +105,20 @@
     padding-bottom: 5px;
     margin-bottom: 20px;
     font-weight: 900;
+    transition: border-color 0.3s ease;
+}
+
+.editorial-heading:hover {
+    border-bottom-color: var(--sidebar-accent, #ff1423);
 }
 
 .editorial-card {
     margin-bottom: 30px;
+    transition: transform 0.3s ease;
+}
+
+.editorial-card:hover {
+    transform: translateY(-2px);
 }
 
 .editorial-img {
@@ -120,8 +151,10 @@
     font-weight: 700;
     color: #000000;
     text-decoration: none;
-    padding: 8px 0;
-    transition: color 0.2s;
+    padding: 10px 12px;
+    position: relative;
+    transition: color 0.25s ease, background-color 0.25s ease, padding-left 0.25s ease, border-left-color 0.25s ease;
+    border-left: 3px solid transparent;
 }
     body.menu-open #menu-toggle-btn {
             left: calc(var(--sidebar-width) + var(--btn-margin-left)); 
@@ -140,7 +173,7 @@
 }
 
 .menu-toggle-editorial:hover {
-    background: var(--primary-jcrt);
+    background: var(--sidebar-accent, #ff1423);
 }
         #sidebar-menu {
             position: absolute; top: 0; bottom: 0;
@@ -301,7 +334,7 @@ body.menu-open #sidebar-container {
 			color: white !important;
 		}
         		a.btn-primary:hover, .btn-primary:hover {
-			background-color: #ec7c7c !important;
+			background-color: var(--sidebar-accent, #ff1423) !important;
 			color: white !important;
 		}
 		.bg-primary {
@@ -316,15 +349,16 @@ body.menu-open #sidebar-container {
 			border-bottom: solid 5px var(--primary-jcrt) !important;
 		}
 		.btn-primary:hover {
-			background-color: #f98787 ;
+			background-color: var(--sidebar-accent, #ff1423);
 			color: white;
 		}
 		a.btn-outline-primary, .btn-outline-primary {
 			border: 2px solid var(--primary-jcrt);
 		}
 		.btn-outline-primary:hover, a.btn-outline-primary:hover{
-			background-color: #f7e6e6;
-			border: 2px solid var(--primary-jcrt);
+			background-color: var(--sidebar-accent-bg, rgba(255, 20, 35, 0.08));
+			border: 2px solid var(--sidebar-accent, #ff1423);
+			color: var(--sidebar-accent, #ff1423);
 		}
 .wajik-wrapper {
     width: 100px;
