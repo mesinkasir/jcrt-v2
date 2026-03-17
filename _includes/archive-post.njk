@@ -120,10 +120,12 @@ layout: base.njk
       <div class="article-body serif lh-lg archive-content" style="font-size: 1.15rem; text-align: justify;">   
         {% set finalHTML = jsonEntry.content | markdownify if jsonEntry.content else content %}
         
+        {% if not isIssueIndex %}
         <div id="custom-toc-container" class="p-3 bg-light mb-4 d-none border">
             <h4 class="h6 text-uppercase fw-bold border-bottom pb-2">Table of Contents</h4>
             <ul id="toc-list" class="list-unstyled mb-0" style="font-size: 0.95rem;"></ul>
         </div>
+        {% endif %}
 
         <div id="article-content" class="e-content">
             {{ finalHTML | safe }}
@@ -226,6 +228,7 @@ layout: base.njk
   </div>
 </div>
 
+{% if not isIssueIndex %}
 <script>
 document.addEventListener("DOMContentLoaded", function() {
     const content = document.getElementById('article-content');
@@ -250,6 +253,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 </script>
+{% endif %}
 
 <style>
 .archive-content hr {
