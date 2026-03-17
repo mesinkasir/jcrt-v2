@@ -196,12 +196,13 @@
         }
 
         body.menu-open #content-wrapper {
+            margin-left: var(--sidebar-width);
             padding-left: var(--default-padding); 
         }
         
         /* Mobile: Backdrop Overlay */
         #content-wrapper::before {
-            content: ''; position: absolute; top: 0; right: 0; bottom: 0; left: 0;
+            content: ''; position: fixed; top: 0; right: 0; bottom: 0; left: 0;
             background: rgba(0, 0, 0, 0.5); visibility: hidden; opacity: 0;
             transition: opacity 0.3s ease, visibility 0.3s ease;
             z-index: 1010; 
@@ -265,7 +266,15 @@
             padding: 15px; 
             transition: margin-left 0.3s ease, padding-left 0.3s ease;
             margin-left: 0; 
-            position: relative; 
+            position: relative;
+            z-index: 100;
+        }
+        
+        /* Ensure nav shifts with content when sidebar opens */
+        #content-wrapper > nav.mobile {
+            position: relative;
+            z-index: 1011;
+            transition: margin-left 0.3s ease;
         }
         }
         
