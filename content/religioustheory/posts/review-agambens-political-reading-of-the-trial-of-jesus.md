@@ -2,7 +2,7 @@
 title: Review – Agamben’s Political Reading of the Trial of Jesus (Ryne Beddard)
 description: "*Agamben, Giorgio. Pilate and Jesus (Meridian: Crossing Aesthetics). Translated by Adam Kotsko. Stanford: Stanford University Press, 2015 It highlights"
 date: '2016-07-21T08:00:10.000Z'
-author: Books
+author: Ryne Beddard
 image: /images/2016/07/pontius-pilate.webp
 categories:
   - Reviews

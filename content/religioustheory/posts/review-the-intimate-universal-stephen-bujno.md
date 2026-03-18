@@ -2,7 +2,7 @@
 title: Review – The Intimate Universal (Stephen Bujno)
 description: "*William Desmond, The Intimate Universal: The Hidden Porosity Among Religion, Art, Philosophy, and Politics. Columbia University Press, 2016. 520 pages"
 date: '2019-03-08T03:46:26.000Z'
-author: Books
+author: Stephen Bujno
 image: /images/2019/02/dhruv-weaver-618958-unsplash.webp
 categories:
   - Reviews

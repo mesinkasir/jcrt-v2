@@ -2,7 +2,7 @@
 title: Review – Three Agambens on Display (S.J. Cowan)
 description: "Agamben’s Philosophical Lineage. Edited by Adam Kotsko and Carlo Salzani. Edinburgh: Edinburgh University Press, 2017. ISBN-10: 1474423647 ISBN-10: 1474423647."
 date: '2018-02-06T16:13:34.000Z'
-author: Books
+author: S.J. Cowan
 image: /images/2017/02/agamben-c2.webp
 categories:
   - Reviews

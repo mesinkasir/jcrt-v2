@@ -2,7 +2,7 @@
 title: Review – The Enigmatic Absolute (Stanimir Panayotov)
 description: "*Joshua Ramey and Matthew S. Haar Farris (Eds.), Speculation, Heresy, and Gnosis in Contemporary Philosophy of Religion: The Enigmatic Absolute 299 pages."
 date: '2019-02-22T02:44:30.000Z'
-author: Books
+author: Stanimir Panayotov
 image: /images/2019/02/dewang-gupta-636342-unsplash.webp
 categories:
   - Reviews

@@ -4,7 +4,7 @@ title: >-
   McClure)
 description: "*Han, Sam. Technologies of Religion: Spheres of the Sacred in a Post-Secular Modernity. Routledge Research in Information Technology and Society 19 142 pages."
 date: '2016-07-14T11:45:56.000Z'
-author: Books
+author: Albert McClure
 image: /images/2016/07/internet-handshake.webp
 categories:
   - Religion and Media

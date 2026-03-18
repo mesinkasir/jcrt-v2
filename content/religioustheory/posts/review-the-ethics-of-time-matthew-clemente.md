@@ -2,7 +2,7 @@
 title: Review – The Ethics Of Time (Matthew Clemente)
 description: "The Ethics of Time. Manoussakis, John. New York: Bloomsbury Press, 2017. ISBN: 9781474299169. Hardback. 232 pages. John Manoussakis’s latest book, The Ethics of"
 date: '2018-04-17T04:05:49.000Z'
-author: Books
+author: Matthew Clemente
 image: /images/2018/04/vasnetsov_samolet.webp
 categories:
   - Philosophy of Religion

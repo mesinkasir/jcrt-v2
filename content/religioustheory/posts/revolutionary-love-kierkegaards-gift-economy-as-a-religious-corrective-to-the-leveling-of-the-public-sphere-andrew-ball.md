@@ -60,6 +60,6 @@ The single individual becomes negated in the leveling of the crowd; whereas in t
 
 Both violent sectarian (religious and class) antagonism and the leveling effects of the public are a consequence of an intersubjective misrelation. Insofar as this misrelation remains unrecognized, it is carried over into the very revolutions that attempt to liberate the people from the effects of the misrelation. The retained misrelation is evident both in the form of political upheavals and in processes of religious fundamentalism that serve as a defensive response to them. Kierkegaard proposes—as a permanently lived corrective to these processes and the rebellions that retain the dysfunctions they oppose—an agapic revolution where an earnestly asymmetrical gift economy characterizes the mode of self-other relations.
 
-## [Works Cited](/docs/WC052120.pdf)
+## [Works Cited](https://files.jcrt.org/docs/WC052120.pdf)
 
 *Andrew Ball is associate editor of* [Screen Bodies](https://www.berghahnjournals.com/view/journals/screen-bodies/screen-bodies-overview.xml) *and editorial assistant for* [Communications in Mathematical Physics](https://www.springer.com/journal/220) *at Harvard University. He has published in a variety of academic journals such as* Religion & Literature, American Literary Realism*, and* The Journal of Comparative Literature and Aesthetics.

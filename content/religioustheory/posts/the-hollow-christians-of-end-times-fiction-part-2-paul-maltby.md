@@ -91,7 +91,7 @@ Subjectivism need not mean self-absorption or narrow introspection. Kevin Vanhoo
 ***
 ## Footnotes
 
-## [Bibliography for references below](/docs/HC-Biblio.pdf)
+## [Bibliography for references below](https://files.jcrt.org/docs/HC-Biblio.pdf)
 
 25\. An Amazon word search of all sixteen novels yielded no results for either “Imago Dei” or  “Image of God.” Only in *Armageddon* isthe doctrine cited: “He said he had created humans in his own image” (295). The phrase “image of God” is used in *The Indwelling* but in the context of “the Shekinah glory” rather than in an anthropological context: “If this was the very image of God could he see it and live?” (235). Finally, to avoid confusion, the title of the first book in BeauSeigneur’s Christ Clone trilogy is *In His Image.* However, this refers to a conspiracy in which one “Christopher,” the adopted son of a biology professor, is the image of Jesus because he has been cloned from live human cells taken from the Turin Shroud. (Later, we learn that Christopher is the Antichrist.)
 

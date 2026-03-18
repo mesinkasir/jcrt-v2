@@ -2,7 +2,7 @@
 title: "Review – Genealogies Of Mahayana Buddhism (Ananda Abeysekara)"
 description: "Joseph Walser, Genealogies of Mahāyāna Buddhism: Emptiness, Power, and the Question of Origin. Oxford and New York: Routledge, 2018. 288 pages. IBSN: 978-1-13-895556-1."
 date: '2019-10-23T02:34:24.000Z'
-author: Books
+author: Ananda Abeysekara
 image: /images/bhutan-3639580_960_720.webp
 categories:
   - Critical Theory

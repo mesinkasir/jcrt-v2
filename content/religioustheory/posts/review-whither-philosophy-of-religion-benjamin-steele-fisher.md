@@ -2,7 +2,7 @@
 title: Review—Whither Philosophy of Religion? (Benjamin Steele-Fisher)
 description: "**Religion and European Philosophy: Key Thinkers from Kant to Zizek. Edited by Philip Goodchild and Hollis Phelps. New York: Routledge, 2017 It highlights"
 date: '2017-10-27T03:07:20.000Z'
-author: Books
+author: Benjamin Steele-Fisher
 image: /images/2017/10/wordcloud.webp
 categories:
   - Reviews

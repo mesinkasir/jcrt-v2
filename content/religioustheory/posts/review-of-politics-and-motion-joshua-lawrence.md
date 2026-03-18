@@ -2,7 +2,7 @@
 title: Review – Of Politics and Motion (Joshua Lawrence)
 description: "* Nail, Thomas. The Figure of the Migrant. Stanford: Stanford University Press, 2015. ISBN-10: 0804796580. 312 pages.* If the 21st century is indeed the century"
 date: '2016-09-08T08:00:36.000Z'
-author: Books
+author: Joshua Lawrence
 image: /images/2016/09/migrant-boat.webp
 categories:
   - Reviews

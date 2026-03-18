@@ -262,7 +262,7 @@ Love is the primeval capacity to enter dialogical and potentially transcending r
 
 [^66]: Fernandes, *A Revolução Burguesa*, 31.
 
-[^67]: "*Como Se Deve Escrever a História do Brasil," Jornal do Instituto Histórico e Geográfico Brasileiro 24 no. 6 (Jan. 1845): 381–403,* [Martius-Historia-Brasil.pdf](/images/external/Martius-Historia-Brasil.pdf)
+[^67]: "*Como Se Deve Escrever a História do Brasil," Jornal do Instituto Histórico e Geográfico Brasileiro 24 no. 6 (Jan. 1845): 381–403,* Martius-Historia-Brasil.pdf
 
 [^68]: Chauí, *Brasil*, 31.
 

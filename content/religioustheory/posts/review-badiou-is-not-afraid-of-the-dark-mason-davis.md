@@ -2,7 +2,7 @@
 title: Review – Badiou Is Not Afraid of The Dark (Mason Davis)
 description: "*Badiou, Alain. Black: The Brilliance of a Non-Color. Translated by Susan Spitzer. New Jersey: Polity, 2016. ISBN-10: 1509512071. Hardcover, paperback, e-book"
 date: '2017-02-02T08:00:00.000Z'
-author: Books
+author: Mason Davis
 image: /images/2017/02/badiou.webp
 categories:
   - Reviews

@@ -104,7 +104,7 @@ As we intimated previously, the infinite difference between a thing as a quantum
 ***
 ## Footnotes
 
-## [References](/docs/References.pdf)
+## [References](https://files.jcrt.org/docs/References.pdf)
 
 * * *
 

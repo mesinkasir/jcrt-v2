@@ -157,7 +157,7 @@ function sortEntriesDesc(entries) {
 	});
 }
 
-const MAX_TAG_PAGES = Number.parseInt(process.env.MAX_TAG_PAGES || "5", 10);
+const MAX_TAG_PAGES = Number.parseInt(process.env.MAX_TAG_PAGES || "9999", 10);
 
 function finalizeDomain(map, affectedSet) {
 	const list = Object.keys(map).sort((a, b) => a.localeCompare(b));

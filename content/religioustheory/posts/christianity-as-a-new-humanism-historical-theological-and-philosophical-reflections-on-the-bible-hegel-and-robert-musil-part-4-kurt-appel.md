@@ -9,6 +9,7 @@ tags:
   - philosophical
   - theological
 slug: christianity-as-a-new-humanism
+permalink: /religioustheory/posts/christianity-as-a-new-humanism/
 ---
 
 [download now as a pdf](https://phaidra.univie.ac.at/api/object/o:1612742/download)

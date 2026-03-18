@@ -103,7 +103,7 @@ Given our close affiliation with the discipline of anthropology and the social s
 
 [^36^<https://www.makivik.org/.](https://www.makivik.org/) Accessed April 27, 2019.
 
-37Pfeiff, [Margopfeiff-Zebedee-Nungak.pdf](/images/external/Margopfeiff-Zebedee-Nungak.pdf)
+37Pfeiff, Margopfeiff-Zebedee-Nungak.pdf
 
 38Pfeiff.
 

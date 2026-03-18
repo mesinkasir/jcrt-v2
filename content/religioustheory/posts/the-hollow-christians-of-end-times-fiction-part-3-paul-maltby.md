@@ -111,7 +111,7 @@ But readers who come to this best-selling of all Christian literary genres in se
 ***
 ## Footnotes
 
-## [Bibliography for references below](/docs/HC-Biblio.pdf)
+## [Bibliography for references below](https://files.jcrt.org/docs/HC-Biblio.pdf)
 
 30\. See Maltby 113-29.
 

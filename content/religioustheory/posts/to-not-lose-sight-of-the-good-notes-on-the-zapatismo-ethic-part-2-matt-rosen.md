@@ -101,7 +101,7 @@ Allegiance to all Others in the sense of a first abnegation, distilled in the fo
 
 ***  
 ## Footnotes
-## [References](/docs/References.pdf)
+## [References](https://files.jcrt.org/docs/References.pdf)
 
 * * *
 

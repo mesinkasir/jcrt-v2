@@ -40,15 +40,15 @@ The [vision statement](http://www.thenewpolis.com/about) of *The New Polis* is a
 
 Initial editorial staff for *The New Polis* are as follows:
 
-*   *General Editor –* [Roger Green](rogerkgreen@gmail.com), Metropolitan State University
-*   *Senior Consulting Editor* **–** [Carl Raschke](carl.raschke@du.edu), University of Denver
-*   *Consulting Editor* **–** [Joshua Hanan](joshua.hanan@du.edu), University of Denver
-*   *Consulting Editor* – [Victor Taylor](taylorve@gmail.com), York College of Pennsylvania
-*   *Production Editor* – [Kara Roberts](kara.roberts@du.edu), University of Denver
-*   *Associate Editor* **–** [Jeff Appel](jsappel@gmail.com), University of Denver
-*   *Assistant Editor –* [Joshua Ramos](trinidad.ramos@gmail.com), University of Denver
-*   *Contributing Editor* **–** [Rebekah Gordon](rebekahgordon93@gmail.com), University of Denver
-*   *Contributing Editor* **–** [Jonathan Cole](jonathancole331@gmail.com), Charles Sturt University
+*   *General Editor –* [Roger Green](mailto:rogerkgreen@gmail.com), Metropolitan State University
+*   *Senior Consulting Editor* **–** [Carl Raschke](mailto:carl.raschke@du.edu), University of Denver
+*   *Consulting Editor* **–** [Joshua Hanan](mailto:joshua.hanan@du.edu), University of Denver
+*   *Consulting Editor* – [Victor Taylor](mailto:taylorve@gmail.com), York College of Pennsylvania
+*   *Production Editor* – [Kara Roberts](mailto:kara.roberts@du.edu), University of Denver
+*   *Associate Editor* **–** [Jeff Appel](mailto:jsappel@gmail.com), University of Denver
+*   *Assistant Editor –* [Joshua Ramos](mailto:trinidad.ramos@gmail.com), University of Denver
+*   *Contributing Editor* **–** [Rebekah Gordon](mailto:rebekahgordon93@gmail.com), University of Denver
+*   *Contributing Editor* **–** [Jonathan Cole](mailto:jonathancole331@gmail.com), Charles Sturt University
 
 *The New Polis* welcomes submissions both of a scholarly and popular nature that fit within its broad range of topic areas within the arts and humanities.  All submissions are carefully vetted by its editorial staff.  Occasional articles – e.g., reviews, essays, interviews, reflections, editorials, opinion pieces – are reviewed by the senior editors for the [weblog](http://www.thenewpolis.com/) and may be selected for publication in the [academic journal](http://www.thenewpolis.com/journal) within two years following initial appearance.
 

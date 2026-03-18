@@ -57,19 +57,19 @@ Carl Raschke, University of Denver
 
 Jamir Akhtar, University of the Punjab
 
-[“Islamic Views on Resource Conservation: Environmental Justice”](/docs/Akhtar.pdf)
+[“Islamic Views on Resource Conservation: Environmental Justice”](https://files.jcrt.org/docs/Akhtar.pdf)
 
 ## 9:00 am
 
 Kevin Hujing, University of Denver
 
-[“Toward an Integral Ecology”](/docs/Hujing.pdf)
+[“Toward an Integral Ecology”](https://files.jcrt.org/docs/Hujing.pdf)
 
 ## 9:30 am
 
 Zane Johnson, University of Denver/Iliff School of Theology
 
-[“Protestant Mysticism and Early Modern Environmentalism”](/docs/Johnson.pdf)
+[“Protestant Mysticism and Early Modern Environmentalism”](https://files.jcrt.org/docs/Johnson.pdf)
 
 ## 10:00 am
 
@@ -79,31 +79,31 @@ Break
 
 Kev Grane, University of Denver/Iliff School of Theology
 
-[“Religious Sacrificial Sympathy: How Man Became More Valuable than Beast”](/docs/Grane.pdf)
+[“Religious Sacrificial Sympathy: How Man Became More Valuable than Beast”](https://files.jcrt.org/docs/Grane.pdf)
 
 ## 11:00
 
 Mike Pope, Missional University
 
-“[The Image of God and Our Vocation of the Soil”](/docs/Pope.pdf)
+“[The Image of God and Our Vocation of the Soil”](https://files.jcrt.org/docs/Pope.pdf)
 
 ## 11:30 am
 
 Elijah Prewitt-Davis, Mount St. Joseph University
 
-[“The Solar Nun: The Prophetic Action and Thought of Sr. Paula Gonzalez, S.C”](/docs/Prewitt-Davis.pdf)
+[“The Solar Nun: The Prophetic Action and Thought of Sr. Paula Gonzalez, S.C”](https://files.jcrt.org/docs/Prewitt-Davis.pdf)
 
 ## 12:00 noon
 
  Chris Durante,  St. Peters University
 
-[“Religious Faith in Pursuit of Environmental Justice”](/docs/Durante.pdf)
+[“Religious Faith in Pursuit of Environmental Justice”](https://files.jcrt.org/docs/Durante.pdf)
 
 **12:30 pm** 
 
 Dan McKanan, Harvard Divinity School
 
-[“Ancestral Devotion, New England Conservation, and the Challenge of Environmental Justice”](/docs/McKanan.pdf)
+[“Ancestral Devotion, New England Conservation, and the Challenge of Environmental Justice”](https://files.jcrt.org/docs/McKanan.pdf)
 
 ## 1:00
 
@@ -127,7 +127,7 @@ Break
 
 Kyler Barbour, University of Guelph
 
-[“The Axiology of Creation: Metaphysical Foundations for a Political Theology of the Environment”](/docs/Barbour.pdf)
+[“The Axiology of Creation: Metaphysical Foundations for a Political Theology of the Environment”](https://files.jcrt.org/docs/Barbour.pdf)
 
 ## 4:30 pm
 
@@ -139,13 +139,13 @@ Calynn Dowler, Vanderbilt University
 
 Lisa Jarnot, Drew University
 
-[“Against Recycling as Such: Cheap Grace in the Christian Response to Climate Collapse”](/docs/Jarnot.pdf)
+[“Against Recycling as Such: Cheap Grace in the Christian Response to Climate Collapse”](https://files.jcrt.org/docs/Jarnot.pdf)
 
 ## 5:30 pm
 
 Kiara Jorgenson, St. Olafs College
 
-[“Vocation as Placemaking: Protestant Theologies of Calling & Environmental Justice”](/docs/Jorgenson.pdf)
+[“Vocation as Placemaking: Protestant Theologies of Calling & Environmental Justice”](https://files.jcrt.org/docs/Jorgenson.pdf)
 
 ## Saturday, Oct. 14
 
@@ -163,25 +163,25 @@ Robert Monson, University of Denver/Iliff School of Theology
 
 Harpreet Kaur, 
 
-[“Environmental Ethics in Sikhi – Gaps and Achievements in Connecting Theory and Practice”](/docs/Kaur.pdf) 
+[“Environmental Ethics in Sikhi – Gaps and Achievements in Connecting Theory and Practice”](https://files.jcrt.org/docs/Kaur.pdf) 
 
 ## 11:00 am
 
 Thomas Massaro, Fordham University
 
-[“The Environmental Ethics of Pope Francis: Parsing Key Terms and Claims in](/docs/Massaro.pdf) *[Laudato Si](/docs/Massaro.pdf)*[”](/docs/Massaro.pdf)
+[“The Environmental Ethics of Pope Francis: Parsing Key Terms and Claims in](https://files.jcrt.org/docs/Massaro.pdf) *[Laudato Si](https://files.jcrt.org/docs/Massaro.pdf)*[”](https://files.jcrt.org/docs/Massaro.pdf)
 
 ## 11:30 am
 
 Ksenia Medvedeva, Institute of Philosophy and Sociology of the Polish Academy of Sciences
 
-[“Green parish” and Other Examples of ‘Ecological Conversion’ in the Orthodox Church in Greece”](/docs/Medvedeva.pdf)
+[“Green parish” and Other Examples of ‘Ecological Conversion’ in the Orthodox Church in Greece”](https://files.jcrt.org/docs/Medvedeva.pdf)
 
 **12:00** 
 
 Nick Mather, Regis University
 
-[“Greening America’s Virtues”](/docs/Mather.pdf)
+[“Greening America’s Virtues”](https://files.jcrt.org/docs/Mather.pdf)
 
 **12:30** 
 

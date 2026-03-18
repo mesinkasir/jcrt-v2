@@ -141,7 +141,7 @@ Hart’s Reverend Marcus “felt crushed by the realization of how unworthy and 
 ***
 ## Footnotes
 
-## [Bibliography for references below](/docs/HC-Biblio.pdf)
+## [Bibliography for references below](https://files.jcrt.org/docs/HC-Biblio.pdf)
 
 1\. In view of the many criticisms I shall level at this genre, I should signal my awareness that it merits a measure of respect, if only for its *ambition* to address a range of concerns – salvation, piety, transcendence, human life *sub specie aeternitatis* – that most secular fiction ignores.
 

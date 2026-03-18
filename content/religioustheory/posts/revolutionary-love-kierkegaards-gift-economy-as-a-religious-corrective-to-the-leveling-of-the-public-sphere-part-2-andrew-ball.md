@@ -74,7 +74,7 @@ This, then, is how agapic love’s qualitative mode of givenness always already 
 
 Since the relation to the neighbor is radically asymmetrical, and the gift of love is given unpreferentially, without the expectation or desire for reciprocation, its mode of givenness is one where the givee is essentially bracketed. As Marion puts it, “a gracious gift appears precisely because there is no response” (GGP 62). The kenotic work of love, then, as radically asymmetrical: 1) brackets the giver (being given indirectly, even secretively, without desire for return), 2) brackets the gift (insofar as love is not an object or being), and 3) brackets the givee (by being given unpreferentially in an asymmetrical mode of relation). In this way, the work of love is reduced to pure givenness in its very existential mode of being given.
 
-## [Works Cited](/docs/WC052120.pdf)
+## [Works Cited](https://files.jcrt.org/docs/WC052120.pdf)
 
 *Andrew Ball is associate editor of* [Screen Bodies](https://www.berghahnjournals.com/view/journals/screen-bodies/screen-bodies-overview.xml) *and editorial assistant for* [Communications in Mathematical Physics](https://www.springer.com/journal/220) *at Harvard University. He has published in a variety of academic journals such as* Religion & Literature, American Literary Realism*, and* The Journal of Comparative Literature and Aesthetics.
 

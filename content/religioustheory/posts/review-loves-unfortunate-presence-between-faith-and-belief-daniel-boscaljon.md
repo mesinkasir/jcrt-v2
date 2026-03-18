@@ -4,7 +4,7 @@ title: >-
   Boscaljon)
 description: "*Schrijvers, Joeri. Between Faith and Belief: Toward a Contemporary Phenomenology of Religious Life (SUNY Series in Theology and Continental Thought) It"
 date: '2016-08-18T08:00:50.000Z'
-author: Books
+author: Daniel Boscaljon
 image: /images/2016/08/phenomenological-psychology.webp
 categories:
   - Reviews

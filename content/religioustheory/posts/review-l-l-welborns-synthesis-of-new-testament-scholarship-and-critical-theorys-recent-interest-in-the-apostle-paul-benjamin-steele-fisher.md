@@ -4,7 +4,7 @@ title: >-
   Theory’s Recent Interest in the Apostle Paul (Benjamin Steele-Fisher)
 description: "*Welborn, Larry L. Paul’s Summons to Messianic Life: Political Theology and the Coming Awakening (Insurrections: Critical Studies in Religion, Politics, and"
 date: '2016-08-25T08:00:16.000Z'
-author: Books
+author: Benjamin Steele-Fisher
 image: /images/2016/08/487px-caravaggio_-_conversione_di_san_paolo_odescalchi.webp
 categories:
   - Reviews

@@ -4,7 +4,7 @@ title: >-
   (Ryne Beddard)
 description: "* Beliso-De Jesús, Aisha M. Electric Santería: Racial and Sexual Assemblages of Transnational Religion. New York: Columbia University Press, 2015 It highlights"
 date: '2017-03-17T08:00:26.000Z'
-author: Books
+author: Ryne Beddard
 image: /images/2017/03/santeria-cover.webp
 categories:
   - Reviews

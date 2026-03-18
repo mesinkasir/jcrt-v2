@@ -2,7 +2,7 @@
 title: 'Review – The Evangelicals: The Struggle to Shape America (Rebekah Gordon)'
 description: "*Fitzgerald, Francis. The Evangelicals: The Struggle to Shape America. New York City, New York: Simon & Schuster, 2017. ISBN-10: 1439131333. Hardcover"
 date: '2017-10-13T17:07:50.000Z'
-author: Books
+author: Rebekah Gordon
 image: /images/2017/10/pastors-daughter.webp
 categories:
   - Reviews
