@@ -4,7 +4,7 @@ description: "The following is the second installment of a two-part article by D
 date: '2016-09-13T16:38:35.000Z'
 author: editors
 image: >-
-  /images/2016/09/public-domain-images-free-stock-photos-wedding-dress-outdoors-green-grass-wisteria-vines-1024x683.webp
+  /images/2016/09/public-domain-images-free-stock-photos-wedding-dress-outdoors-green-grass-wisteria-vines.webp
 categories:
   - Critical Theory
   - Psychoanalysis

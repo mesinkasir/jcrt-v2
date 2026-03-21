@@ -135,31 +135,31 @@ I am a human
 
 #### Fit
 
-![](https://editorial.ghost.io/elements/images/pic11.jpg)
+![](/images/jcrt-open-graph.webp)
 
-![](https://editorial.ghost.io/elements/images/pic01.jpg)
+![](/images/jcrt-open-graph.webp)
 
-![](https://editorial.ghost.io/elements/images/pic02.jpg)
+![](/images/jcrt-open-graph.webp)
 
-![](https://editorial.ghost.io/elements/images/pic03.jpg)
+![](/images/jcrt-open-graph.webp)
 
-![](https://editorial.ghost.io/elements/images/pic03.jpg)
+![](/images/jcrt-open-graph.webp)
 
-![](https://editorial.ghost.io/elements/images/pic01.jpg)
+![](/images/jcrt-open-graph.webp)
 
-![](https://editorial.ghost.io/elements/images/pic02.jpg)
+![](/images/jcrt-open-graph.webp)
 
-![](https://editorial.ghost.io/elements/images/pic02.jpg)
+![](/images/jcrt-open-graph.webp)
 
-![](https://editorial.ghost.io/elements/images/pic03.jpg)
+![](/images/jcrt-open-graph.webp)
 
-![](https://editorial.ghost.io/elements/images/pic01.jpg)
+![](/images/jcrt-open-graph.webp)
 
 #### Left & Right
 
-![](https://editorial.ghost.io/elements/images/pic01.jpg)Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.
+![](/images/jcrt-open-graph.webp)Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.
 
-![](https://editorial.ghost.io/elements/images/pic02.jpg)Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.
+![](/images/jcrt-open-graph.webp)Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.
 
 ### Box
 

@@ -26,9 +26,9 @@ _
 
 I  want to begin my reflections on diversity with a true story. A few weeks ago I was shoveling out my driveway when a young African American man approached me. I instantly recognized him as an evangelist coming to save me. He first handed me a pamphlet with an idyllic picture drawn of a beautiful Paradisiacal landscape and everyone in the picture was smiling and having a wonderful and wholesome time. There are what looks to be an Asian mother and daughter petting a bear near a berry bush; a Latino family petting an African lion; an African or African American man and woman, as well as a white boy carrying food. This is all set in an idyllic landscape with farmlands and mountains in the background. And, of course it is a splendid fall day. Everyone is smiling.
 
-     > [![Visit Kurt Elling on the World Wide Web](http://images.amazon.com/images/P/B00003W87S.01.MZZZZZZZ.gif)](http://www.kurtelling.com/)
+     > [![Visit Kurt Elling on the World Wide Web](/images/jcrt-open-graph.webp)](http://www.kurtelling.com/)
      > 
-     > [![Get RealPlayer to hear this file](http://images.real.com/pics/real/home/realplyr_img.gif)](http://www.real.com/player/index.html?src=topnav)  
+     > [![Get RealPlayer to hear this file](/images/jcrt-open-graph.webp)](http://www.real.com/player/index.html?src=topnav)  
      > RealAudio: [28.8k](https://jcrt.org/archives/audio/esperanto_28.ram) | [ISDN](https://jcrt.org/archives/audio/esperanto_ISDN.ram) | [DSL](https://jcrt.org/archives/audio/esperanto_DSL.ram)
      > 
      > "Esperanto," by Vince Mendoza and Kurt Elling, lyrics inspired by the poems of Pablo Neruda. Reproduced by kind permission of the artist. From the album _Live in Chicago_, '2000 Blue Note / Capitol Records. More information about Kurt Elling may be found at [http://www.kurtelling.com/](http://www.kurtelling.com/).

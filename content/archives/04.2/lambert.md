@@ -21,7 +21,7 @@ Syracuse University
 
 * * *
 
-T_his public conversation was recorded at an event held at [The Slought Gallery](http://slought.org), Philadelphia, November 1st 2002, as part of a series called "Conversations in Theory," organized by Aaron Levy, curator. (Approximately 80 mins. in length.) A streaming audio archive of this event is available_:    ![](http://www.slought.net/incl/img/archive/icon_real.gif) [**Real Media Stream**](http://www.slought.net/toc/archives/residue.php?play1=1065)    ![](http://www.slought.net/incl/img/archive/icon_wm.gif) [**Windows Media Stream**](http://www.slought.net/toc/archives/residue.php?play4=1065)   \[ [Media Support](http://slought.org/toc/support/streamingmedia-use.php) \]
+T_his public conversation was recorded at an event held at [The Slought Gallery](http://slought.org), Philadelphia, November 1st 2002, as part of a series called "Conversations in Theory," organized by Aaron Levy, curator. (Approximately 80 mins. in length.) A streaming audio archive of this event is available_:    ![](/images/jcrt-open-graph.webp) [**Real Media Stream**](http://www.slought.net/toc/archives/residue.php?play1=1065)    ![](/images/jcrt-open-graph.webp) [**Windows Media Stream**](http://www.slought.net/toc/archives/residue.php?play4=1065)   \[ [Media Support](http://slought.org/toc/support/streamingmedia-use.php) \]
 
 * * *
 
@@ -29,7 +29,7 @@ T_his public conversation was recorded at an event held at [The Slought Gallery]
 
 \* Jean Michel Rabaté, _The Future of Theory_ (London: Blackwell, 2002).
 \*\* Presented through the generous cooperation of the Slought Foundation.
-[![Visit the Slought Foundation](http://slought.org/incl/img/logo/logo_slought_v2_addr.gif)](http://slought.org)
+[![Visit the Slought Foundation](/images/jcrt-open-graph.webp)](http://slought.org)
 * * *
 
 > **Jean-Michel Rabaté** is currently Professor of English and Comparative Literature at the University of Pennsylvania. He has published around 15 books on Beckett, Bernhard, Pound, Joyce, psychoanalysis and literary theory. Recent books include _Jacques Lacan_ (Palgrave, 2001) plus a collection of essays, _Lacan in America_ (Other Press, 2000). He has just published _James Joyce and the Politics of Egoism_ (Cambridge University Press, 2001) and _The Future of Theory_ (Blackwell, 2002). Forthcoming is the _Cambridge Guide to Jacques Lacan_ (Cambridge University Press, 2002). He is on the curatorial board of Slought Networks.

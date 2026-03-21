@@ -30,7 +30,7 @@ St Paul's fall is such a shocking experience that we use the expression 'road to
 
 ## Vertigo
 
-<p><a href="https://commons.wikimedia.org/wiki/File:The_Conversion_of_Saint_Paul-Caravaggio_(c._1600-1).jpg#/media/File:The_Conversion_of_Saint_Paul-Caravaggio_(c._1600-1).jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/The_Conversion_of_Saint_Paul-Caravaggio_%28c._1600-1%29.jpg" alt="The Conversion of Saint Paul-Caravaggio (c. 1600-1).jpg" height="720" width="577"></a><br>By <a href="https://en.wikipedia.org/wiki/en:Caravaggio" class="extiw" title="w:en:Caravaggio"><span title="Italian painter (1571–1610)">Caravaggio</span></a> - Self-scanned, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=15219745">Link</a></p>
+<p><a href="https://commons.wikimedia.org/wiki/File:The_Conversion_of_Saint_Paul-Caravaggio_(c._1600-1).jpg#/media/File:The_Conversion_of_Saint_Paul-Caravaggio_(c._1600-1).jpg"><img src="/images/external/upload-wikimedia-org-the-conversion-of-saint-paul-caravaggio-28c-1600-1-29-e7d5e7b431.webp" alt="The Conversion of Saint Paul-Caravaggio (c. 1600-1).jpg" height="720" width="577"></a><br>By <a href="https://en.wikipedia.org/wiki/en:Caravaggio" class="extiw" title="w:en:Caravaggio"><span title="Italian painter (1571–1610)">Caravaggio</span></a> - Self-scanned, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=15219745">Link</a></p>
 
      > Very often they seemed to leave my body as light as if it had lost all its weight, and sometimes so light that I hardly knew whether my feet were touching the ground. But during the rapture itself, the body is very often like a corpse (1989: 142)
 

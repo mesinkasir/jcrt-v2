@@ -43,7 +43,7 @@ In chapter three Cahn discusses the problem of evil.  The problem of evil deri
 
 In chapter four Cahn turns Hick’s negative theology on its head, setting forth what he calls the “problem of goodness”. If one can justify an all-good, all-powerful God in a world crawling with evil, an all-evil, all-powerful demon in a world that contains good is just as plausible a hypothesis. What was perhaps intended as clever argumentation reads as snark, and John Hick’s theology is unnecessary to make this point. 
 
-![](http://www.creatingpeoplepower.ca/wp-content/uploads/2017/02/disappointment-statue.jpg)
+![](/images/jcrt-open-graph.webp)
 
 Cahn’s fifth chapter entitled “The Moriarty Hypothesis*“* is a fanciful reimagining of the “problem of goodness” (which, again, is simply the inverse of the problem of evil), wherein the demon empowers Moriarity, the fictional villain from the Sherlock Holmes novels, to be the world’s greatest evil. This chapter oddly insists that theists by nature are always prone to judge harshly those who harbor doubts in the midst of their faith, and that “the more tenaciously we cling to belief, the less important is its content” (21).  
 
@@ -61,7 +61,7 @@ Chapter nine, or “The Theodicy Trap”, deals yet again with a concern for the
 
 Chapter ten, “The Problem of Meaning”, deals with issues surrounding the claim that one “knows the will of God” or “knows God”. This chapter asks how we can know an incomprehensible God, but that’s about it.
 
-![](https://44590e91f93137214d34-d73868e25b2d2bf91c2b7fd7417bb2e3.ssl.cf2.rackcdn.com/columbiauniversitypress_us_frontbookcovers_350W/9780231181617.jpg)Chapter eleven discusses miracles, which Cahn defines as “an act of God that suspends the laws of nature” (45).  The example he uses is that if a bridge collapses and one guy is thrown clear and unharmed, it is a miracle… except for those who died. The four pages of this chapter essentially boil down to “theists believe in miracles; but if God does good things, who is responsible for bad things?”
+![](/images/jcrt-open-graph.webp)Chapter eleven discusses miracles, which Cahn defines as “an act of God that suspends the laws of nature” (45).  The example he uses is that if a bridge collapses and one guy is thrown clear and unharmed, it is a miracle… except for those who died. The four pages of this chapter essentially boil down to “theists believe in miracles; but if God does good things, who is responsible for bad things?”
 
 This point, while fair, harkens back yet again to chapters three through six and nine and ten. Religion/faith/the miraculous etc. (as framed by an understanding God in a Western context as applicable to any religion) has a supernatural element that is suspect for rational observers. Chapters three to six and nine to eleven add up to 28 pages, just shy of a third of the book. Had these chapters been condensed, perhaps Cahn could have found room to “render more plausible” the arguments he thought he was deconstructing; or perhaps the book could have been made into a pamphlet instead and saved a tree or two.
 
