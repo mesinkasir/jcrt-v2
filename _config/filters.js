@@ -50,6 +50,14 @@ export default function(eleventyConfig) {
             String(a ?? "").localeCompare(String(b ?? ""))
         )
     );
+    eleventyConfig.addFilter("seoTitle", (value, minLength = 30) => {
+        const baseTitle = String(value || "").trim();
+        if (!baseTitle) return "Journal for Cultural and Religious Theory | JCRT";
+        if (baseTitle.length < minLength) {
+            return `${baseTitle} | Journal for Cultural and Religious Theory | JCRT`;
+        }
+        return baseTitle;
+    });
 eleventyConfig.addFilter("validImage", function(imgUrl, fallback) {
     if (!imgUrl || imgUrl === "" || imgUrl === "null" || imgUrl === undefined) {
         return fallback;

@@ -4,11 +4,9 @@
 {% if not pageDesc %}
   {% set pageDesc = metadata.description %}
 {% endif %}
-{% set fullTitle = pageTitle %}
-{% if page.url and page.url != "/" and pageTitle != metadata.title %}
-  {% set fullTitle = pageTitle ~ " | " ~ metadata.title %}
-{% elif page.url and page.url != "/" and pageTitle == metadata.title %}
-  {% set fullTitle = metadata.title %}
+{% set fullTitle = "Home | Journal for Cultural and Religious Theory | JCRT" %}
+{% if page.url and page.url != "/" %}
+  {% set fullTitle = pageTitle | seoTitle %}
 {% endif %}
 {% set pageImageSource = image or (metadata.files_url + '/images/jcrt-open-graph.webp') %}
 {% set pageImageRaw = pageImageSource | ensureImage('/images/jcrt-open-graph.webp') %}
