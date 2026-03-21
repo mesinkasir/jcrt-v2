@@ -18,7 +18,7 @@ keywords:
   - spinoza
   - theory-of
   - intellectuals
-pdf:
+pdf: Degaetano.pdf
 sort_id:
 volume: 22
 issue: 1

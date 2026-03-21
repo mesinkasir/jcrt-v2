@@ -6,7 +6,7 @@ abstract:
 keywords:
   - prophecy
   - sacredness
-pdf:
+pdf: Edlinger.pdf
 sort_id:
 volume: 22
 issue: 1

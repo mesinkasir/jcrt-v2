@@ -1,0 +1,19 @@
+{
+  "name": "JCRT",
+  "short_name": "JCRT",
+  "icons": [
+    {
+      "src": "/images/logos/favicon.webp",
+      "sizes": "96x96",
+      "type": "image/webp"
+    },
+    {
+      "src": "/images/logos/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "theme_color": "#b42318",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
