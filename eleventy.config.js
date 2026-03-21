@@ -380,6 +380,19 @@ export default async function (eleventyConfig) {
 	// HTML minification removed — Netlify's asset optimization and gzip
 	// handle compression; the regex-based transform saved <1s but added
 	// per-page overhead across 2,000+ pages.
+	eleventyConfig.addTransform("ensure-img-alt", function (content, outputPath) {
+		if (!outputPath || !outputPath.endsWith(".html") || typeof content !== "string") {
+			return content;
+		}
+		return content.replace(/<img\b(?![^>]*\balt=)[^>]*>/gi, (imgTag) => {
+			return imgTag.replace(/\s*\/?>$/, (ending) => {
+				if (ending.includes("/>")) {
+					return ' alt="" />';
+				}
+				return ' alt="">';
+			});
+		});
+	});
 
 	// Citations and favicons are on files.jcrt.org — no eleventy.before work needed.
 

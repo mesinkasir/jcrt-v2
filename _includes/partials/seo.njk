@@ -1,5 +1,15 @@
 {% set pageTitle = title or metadata.title %}
-{% set pageDesc = description or excerpt or abstract or (content | striptags | trim | truncate(160)) or metadata.description %}
+{% set rawPageDesc = description or excerpt or abstract or (content | striptags | trim | truncate(160)) or metadata.description %}
+{% set pageDesc = rawPageDesc | default(metadata.description, true) | trim %}
+{% if not pageDesc %}
+  {% set pageDesc = metadata.description %}
+{% endif %}
+{% set fullTitle = pageTitle %}
+{% if page.url and page.url != "/" and pageTitle != metadata.title %}
+  {% set fullTitle = pageTitle ~ " | " ~ metadata.title %}
+{% elif page.url and page.url != "/" and pageTitle == metadata.title %}
+  {% set fullTitle = metadata.title %}
+{% endif %}
 {% set pageImageSource = image or (metadata.files_url + '/images/jcrt-open-graph.webp') %}
 {% set pageImageRaw = pageImageSource | ensureImage('/images/jcrt-open-graph.webp') %}
 {% set pageImage = pageImageRaw if "http" in pageImageRaw else metadata.url + pageImageRaw %}
@@ -28,14 +38,14 @@
 {% set modifiedDateRaw = lastmod or modified or updated or publishedDateRaw %}
 {% set modifiedDate = modifiedDateRaw | isoDate if modifiedDateRaw else publishedDate %}
 
-<title>{{ pageTitle }}</title>
+<title>{{ fullTitle }}</title>
 <meta name="google-site-verification" content="33E9a_M2MWSVam1d-zfE3tZccePntrgR1LKqc8Csoww" />
 <meta name="fediverse:creator" content="@jcrt@mastodon.social">
-<meta content="{{ pageTitle }}" property="og:title" />
-<meta content="{{ pageTitle }}" property="dc:title" />
-<meta content="{{ pageTitle }}" name="twitter:title" />
-<meta content="{{ pageTitle }}" name="title" />
-<meta content="{{ pageTitle }}" property="og:site_name" />
+<meta content="{{ fullTitle }}" property="og:title" />
+<meta content="{{ fullTitle }}" property="dc:title" />
+<meta content="{{ fullTitle }}" name="twitter:title" />
+<meta content="{{ fullTitle }}" name="title" />
+<meta content="{{ metadata.title }}" property="og:site_name" />
 <meta content="{{ pageDesc }}" name="description" />
 <meta content="{{ pageDesc }}" property="facebook:description" />
 <meta content="{{ pageDesc }}" property="og:description" />
@@ -44,7 +54,7 @@
 <meta content="{{ pageImage }}" name="twitter:image" />
 <meta content="{{ pageImage }}" property="facebook:image" />
 <meta content="{{ pageImage }}" property="og:image" />
-<meta content="{{ pageTitle }}" property="og:image:alt" />
+<meta content="{{ fullTitle }}" property="og:image:alt" />
 <meta content="{{ canonicalUrl }}" property="og:url" />
 <link rel="icon" type="image/png" href="{{ metadata.files_url }}/images/logos/favicon-96x96.webp" sizes="96x96" />
 <link rel="icon" type="image/svg+xml" href="{{ metadata.files_url }}/images/logos/favicon.svg" />

@@ -27,6 +27,27 @@ eleventyExcludeFromCollections: true
 		{% endif -%}
 	{% endfor -%}
 
+	{# Core site URLs to ensure key pages are always discoverable #}
+	{% for path in [
+		"/",
+		"/about/",
+		"/archives/",
+		"/authors/",
+		"/blog/",
+		"/contact/",
+		"/Copyright/",
+		"/editors/",
+		"/search/",
+		"/submissions/",
+		"/subscribe/",
+		"/tags/"
+	] -%}
+		<url>
+			<loc>{{ (baseUrl ~ path) | xmlEscape | safe }}</loc>
+			{% if defaultLastmod %}<lastmod>{{ defaultLastmod | htmlDateString }}</lastmod>{% endif %}
+		</url>
+	{% endfor -%}
+
 	{# Feed endpoints #}
 	{% for path in [
 		"/feed/feed.xml",
