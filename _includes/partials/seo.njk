@@ -78,6 +78,9 @@
 <meta property="og:type" content="website" />
 <meta content="{{ robotsDirective }}" name="robots">
 <link rel="canonical" href="{{ canonicalUrl }}" />
+{% if isAcademic and pdfUrl %}
+<link rel="alternate" type="application/pdf" title="{{ pageTitle }} (PDF)" href="{{ pdfUrl }}" />
+{% endif %}
 <link rel="alternate" type="application/atom+xml" title="{{ metadata.title }}" href="{{ metadata.url }}/feed/feed.xml" />
 <link rel="alternate" type="application/rss+xml" title="{{ metadata.title }}" href="{{ metadata.url }}/feed/feed.rss" />
 <link rel="sitemap" type="application/xml" title="{{ metadata.title }} Sitemap" href="{{ metadata.url }}/sitemap.xml" />
@@ -239,8 +242,8 @@
     {% if pageRange.start %}<meta name="citation_firstpage" content="{{ pageRange.start }}" />{% endif %}
     {% if pageRange.end %}<meta name="citation_lastpage" content="{{ pageRange.end }}" />{% endif %}
   {% endif %}
-  {% if pdf %}
-  <meta name="citation_pdf_url" content="{{ metadata.url }}/archives/{{ volume }}.{{ issue }}/{{ pdf }}" />
+  {% if pdfUrl %}
+  <meta name="citation_pdf_url" content="{{ pdfUrl }}" />
   {% endif %}
 {% elif "/authors/" in pageUrl %}
   <meta property="dc:type" content="text" />

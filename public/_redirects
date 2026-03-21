@@ -3,6 +3,7 @@
 /archives/:issue/:slug/ /archives/:issue/:slug/index.html 200
 
 # Legacy archive redirects (extensions handled at Cloudflare level)
+/religious-theory.html /religioustheory/ 301
 /searchengine.shtml /search/ 301
 /Literaturecfp.pdf / 301
 /bookmarks.shtml /about/ 301
@@ -183,6 +184,7 @@
 /religioustheory/submissions-2/ https://www.jcrt.org/submissions/ 301
 /religioustheory/submissions https://www.jcrt.org/submissions/ 301
 /religioustheory/submissions/ https://www.jcrt.org/submissions/ 301
+/religioustheory/abstracts/:file https://files.jcrt.org/docs/:file 301
 /religioustheory/feed /feed/religioustheory/feed.xml 301
 /religioustheory/feed/ /feed/religioustheory/feed.xml 301
 /religioustheory/posts/feed /feed/religioustheory/feed.xml 301
@@ -411,5 +413,4 @@
 /docs/Pope.pdf /religioustheory/posts/ 301
 /docs/Prewitt-Davis.pdf /religioustheory/posts/ 301
 /docs/References.pdf /religioustheory/posts/ 301
-
 
