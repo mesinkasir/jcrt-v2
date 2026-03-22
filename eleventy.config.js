@@ -327,6 +327,21 @@ function isPublishedItem(data = {}, runMode = process.env.ELEVENTY_RUN_MODE) {
 export default async function (eleventyConfig) {
 	// Performance optimizations
 	eleventyConfig.setQuietMode(true); // Reduce console output overhead
+
+	// Add Luxon-powered date filter for Nunjucks
+	eleventyConfig.addFilter("luxonDate", function(dateObj, format = "yyyy-MM-dd", zone = TIME_ZONE) {
+		if (!dateObj) return "";
+		let dt;
+		if (dateObj instanceof Date) {
+			dt = DateTime.fromJSDate(dateObj, { zone });
+		} else if (typeof dateObj === "string") {
+			dt = DateTime.fromISO(dateObj, { zone });
+		} else {
+			return String(dateObj);
+		}
+		if (!dt.isValid) return "";
+		return dt.toFormat(format);
+	});
 	
 	eleventyConfig.addDateParsing(function (dateValue) {
 		let localDate;

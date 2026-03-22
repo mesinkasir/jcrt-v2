@@ -31,7 +31,7 @@ layout: false
   {%- if post.data.title and post.url %}
   {% set postUrl = metadata.url ~ post.url %}
   {% set postAuthors = (post.data.author or "") | splitAuthors %}
-  {% set postYear = post.data.year or (post.date | date("yyyy")) %}
+  {% set postYear = post.data.year or (post.date | luxonDate('yyyy')) %}
   {% set postAbstract = post.data.abstract or post.data.description or "" %}
   {% set postVolume = post.data.volume %}
   {% set postIssue = post.data.issue %}
