@@ -1,5 +1,5 @@
 ---
-title: "If There Is Such a Thing: Posse Ipsum, the Impossible, and Le Peut-ÊTre MÊMe Reading Catherine Keller’s Cloud of the Impossible."
+title: "If There Is Such A Thing: Posse Ipsum, The Impossible, And Le Peut-être Même Reading Catherine Keller’s Cloud Of The Impossible"
 author: "John D. Caputo"
 affilation:
 abstract:

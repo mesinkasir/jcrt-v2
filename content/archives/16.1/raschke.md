@@ -1,6 +1,6 @@
 ---
 title: "The Civic Humanities and the Crisis of Neoliberalism."
-author: "Carl Raschke"
+author: "Carl A. Raschke"
 affilation:
 abstract:
 keywords:

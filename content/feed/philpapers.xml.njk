@@ -1,0 +1,69 @@
+---
+permalink: /feed/philpapers.xml
+eleventyExcludeFromCollections: true
+layout: false
+---
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns="http://purl.org/rss/1.0/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+
+  <channel rdf:about="{{ metadata.url }}/feed/philpapers.xml">
+    <title>Journal for Cultural and Religious Theory</title>
+    <link>{{ metadata.url }}/archives/</link>
+    <description>Peer-reviewed, open-access journal for cultural and religious theory. ISSN 1530-5228.</description>
+    <prism:publicationName>Journal for Cultural and Religious Theory</prism:publicationName>
+    <items>
+      <rdf:Seq>
+        {%- for post in collections.archives %}
+        {%- if post.data.title and post.url %}
+        <rdf:li rdf:resource="{{ metadata.url }}{{ post.url }}"/>
+        {%- endif %}
+        {%- endfor %}
+      </rdf:Seq>
+    </items>
+  </channel>
+
+  {%- for post in collections.archives %}
+  {%- if post.data.title and post.url %}
+  {% set postUrl = metadata.url ~ post.url %}
+  {% set postAuthors = (post.data.author or "") | splitAuthors %}
+  {% set postYear = post.data.year or (post.date | date("yyyy")) %}
+  {% set postAbstract = post.data.abstract or post.data.description or "" %}
+  {% set postVolume = post.data.volume %}
+  {% set postIssue = post.data.issue %}
+  {% set postPages = post.data.pages %}
+  <item rdf:about="{{ postUrl }}">
+    <title>{{ post.data.title | xmlEscape }}</title>
+    <link>{{ postUrl }}</link>
+    {%- for authorName in postAuthors %}
+    <dc:creator>{{ authorName | xmlEscape }}</dc:creator>
+    {%- endfor %}
+    <dc:date>{{ postYear }}</dc:date>
+    {%- if postAbstract %}
+    <description>{{ postAbstract | xmlEscape }}</description>
+    {%- endif %}
+    <prism:publicationName>Journal for Cultural and Religious Theory</prism:publicationName>
+    {%- if postVolume %}
+    <prism:volume>{{ postVolume }}</prism:volume>
+    {%- endif %}
+    {%- if postIssue %}
+    <prism:number>{{ postIssue }}</prism:number>
+    {%- endif %}
+    {%- if postPages %}
+    {% set pageRange = postPages | parsePageRange %}
+    {%- if pageRange.start %}
+    <prism:startingPage>{{ pageRange.start }}</prism:startingPage>
+    {%- endif %}
+    {%- if pageRange.end %}
+    <prism:endingPage>{{ pageRange.end }}</prism:endingPage>
+    {%- endif %}
+    {%- endif %}
+  </item>
+  {%- endif %}
+  {%- endfor %}
+
+</rdf:RDF>

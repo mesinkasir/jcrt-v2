@@ -91,6 +91,7 @@
 {% endif %}
 <link rel="alternate" type="application/atom+xml" title="{{ metadata.title }}" href="{{ metadata.url }}/feed/feed.xml" />
 <link rel="alternate" type="application/rss+xml" title="{{ metadata.title }}" href="{{ metadata.url }}/feed/feed.rss" />
+<link rel="alternate" type="application/rss+xml" title="{{ metadata.title }} PhilPapers RSS" href="{{ metadata.url }}/feed/philpapers.xml" />
 <link rel="sitemap" type="application/xml" title="{{ metadata.title }} Sitemap" href="{{ metadata.url }}/sitemap.xml" />
 <link rel="alternate" type="application/xml" title="{{ metadata.title }} DOAJ Archives XML" href="{{ metadata.url }}/sitemaps/doaj-archives.xml" />
 <link rel="alternate" type="application/xml" title="{{ metadata.title }} OAI-DC XML" href="{{ metadata.url }}/sitemaps/oai_dc.xml" />
@@ -253,9 +254,37 @@
   {% if pdfUrl %}
   <meta name="citation_pdf_url" content="{{ pdfUrl }}" />
   {% endif %}
+  {# ── PRISM metadata (academic archive pages) ── #}
+  <meta name="prism.publicationName" content="Journal for Cultural and Religious Theory" />
+  <meta name="prism.issn" content="1530-5228" />
+  {% if volume %}<meta name="prism.volume" content="{{ volume }}" />{% endif %}
+  {% if issue %}<meta name="prism.number" content="{{ issue }}" />{% endif %}
+  {% if pages %}
+    {% set prismPages = pages | parsePageRange %}
+    {% if prismPages.start %}<meta name="prism.startingPage" content="{{ prismPages.start }}" />{% endif %}
+    {% if prismPages.end %}<meta name="prism.endingPage" content="{{ prismPages.end }}" />{% endif %}
+  {% endif %}
+  {% if publishedDate %}<meta name="prism.publicationDate" content="{{ publishedDate }}" />{% endif %}
 {% elif "/authors/" in pageUrl %}
   <meta property="dc:type" content="text" />
   <meta property="dc:creator" content="{{ pageTitle }}" />
+{% elif isBlogPost and ("/religioustheory/" in pageUrl) %}
+  <meta property="dc:type" content="article" />
+  <meta property="dc:date" content="{{ publishedDate }}" />
+  <meta property="dc:identifier" content="{{ canonicalUrl }}" />
+  <meta property="dc:source" content="Religious Theory – JCRT" />
+  {% if pageDesc %}<meta property="dc:description" content="{{ pageDesc }}" />{% endif %}
+  {% for aName in schemaAuthors %}
+  <meta property="dc:creator" content="{{ aName }}" />
+  <meta name="citation_author" content="{{ aName }}" />
+  {% endfor %}
+  <meta name="citation_title" content="{{ pageTitle }}" />
+  <meta name="citation_journal_title" content="Journal for Cultural and Religious Theory – Religious Theory" />
+  <meta name="citation_publication_date" content="{{ publishedDate }}" />
+  <meta name="citation_fulltext_html_url" content="{{ canonicalUrl }}" />
+  {% for cat in (categories or []) %}
+  <meta property="dc:subject" content="{{ cat }}" />
+  {% endfor %}
 {% else %}
   <meta property="dc:type" content="text" />
 {% endif %}

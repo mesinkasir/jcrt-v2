@@ -1,6 +1,6 @@
 ---
 title: "Peter Sloterdijk as “First Philosopher” of Globalization"
-author: "Carl Raschke"
+author: "Carl A. Raschke"
 affilation:
 abstract: "The article offers information on philosopher Peter Sloterdijk that includes absence in translations of Sloterdijk's philosophical teachings; consideration of Sloterdijk's teaching as pop-cultural; and assessment of phenomenology towards globalization conditions."
 keywords:
