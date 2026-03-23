@@ -50,13 +50,22 @@ export default function(eleventyConfig) {
             String(a ?? "").localeCompare(String(b ?? ""))
         )
     );
-    eleventyConfig.addFilter("seoTitle", (value, minLength = 30) => {
-        const baseTitle = String(value || "").trim();
-        if (!baseTitle) return "Journal for Cultural and Religious Theory | JCRT";
-        if (baseTitle.length < minLength) {
-            return `${baseTitle} | Journal for Cultural and Religious Theory | JCRT`;
+    eleventyConfig.addFilter("seoTitle", (value) => {
+        const suffix = " | The Journal for Cultural and Religious Theory | JCRT";
+        const variants = [
+            " | The Journal for Cultural and Religious Theory | JCRT",
+            " | Journal for Cultural and Religious Theory | JCRT",
+            " | JCRT",
+        ];
+        let baseTitle = String(value || "").trim().replace(/\s+/g, " ");
+        for (const variant of variants) {
+            const pattern = new RegExp(`${variant.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}$`, "i");
+            baseTitle = baseTitle.replace(pattern, "").trim();
         }
-        return baseTitle;
+        if (!baseTitle) {
+            return `The Journal for Cultural and Religious Theory | JCRT`;
+        }
+        return `${baseTitle}${suffix}`;
     });
 eleventyConfig.addFilter("validImage", function(imgUrl, fallback) {
     if (!imgUrl || imgUrl === "" || imgUrl === "null" || imgUrl === undefined) {
