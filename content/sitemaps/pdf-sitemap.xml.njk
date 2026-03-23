@@ -4,10 +4,15 @@ permalink: "/pdf-sitemap.xml"
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 {% set pdfs = collections.all | filter(entry => entry.outputPath.endsWith('.pdf')) %}
+{% set seen = [] %}
 {% for pdf in pdfs %}
-  <url>
-    <loc>{{ pdf.url | url }}</loc>
-    <lastmod>{{ pdf.date | luxon("yyyy-MM-dd'T'HH:mm:ssZZ") }}</lastmod>
-  </url>
+  {% set url = pdf.url | url %}
+  {% if url not in seen %}
+    <url>
+      <loc>{{ url }}</loc>
+      <lastmod>{{ pdf.date | luxonDate("yyyy-MM-dd'T'HH:mm:ssZZ") }}</lastmod>
+    </url>
+    {% set _ = seen.push(url) %}
+  {% endif %}
 {% endfor %}
 </urlset>

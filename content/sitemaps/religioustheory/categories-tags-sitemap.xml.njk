@@ -4,17 +4,26 @@ permalink: "/religioustheory/categories-tags-sitemap.xml"
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 {% set categories = collections.religioustheoryCategories %}
+{% set seen = [] %}
 {% for category in categories %}
-  <url>
-    <loc>{{ category.url | url }}</loc>
-    <lastmod>{{ category.date | luxon("yyyy-MM-dd'T'HH:mm:ssZZ") }}</lastmod>
-  </url>
+  {% set url = category.url | url %}
+  {% if url not in seen %}
+    <url>
+      <loc>{{ url }}</loc>
+      <lastmod>{{ category.date | luxonDate("yyyy-MM-dd'T'HH:mm:ssZZ") }}</lastmod>
+    </url>
+    {% set _ = seen.push(url) %}
+  {% endif %}
 {% endfor %}
 {% set tags = collections.religioustheoryTags %}
 {% for tag in tags %}
-  <url>
-    <loc>{{ tag.url | url }}</loc>
-    <lastmod>{{ tag.date | luxon("yyyy-MM-dd'T'HH:mm:ssZZ") }}</lastmod>
-  </url>
+  {% set url = tag.url | url %}
+  {% if url not in seen %}
+    <url>
+      <loc>{{ url }}</loc>
+      <lastmod>{{ tag.date | luxonDate("yyyy-MM-dd'T'HH:mm:ssZZ") }}</lastmod>
+    </url>
+    {% set _ = seen.push(url) %}
+  {% endif %}
 {% endfor %}
 </urlset>

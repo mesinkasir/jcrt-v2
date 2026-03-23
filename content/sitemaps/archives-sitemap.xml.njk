@@ -4,10 +4,15 @@ permalink: "/archives-sitemap.xml"
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 {% set archives = collections.archives %}
+{% set seen = [] %}
 {% for entry in archives %}
-  <url>
-    <loc>{{ entry.url | url }}</loc>
-    <lastmod>{{ entry.date | luxon("yyyy-MM-dd'T'HH:mm:ssZZ") }}</lastmod>
-  </url>
+  {% set url = entry.url | url %}
+  {% if url not in seen %}
+    <url>
+      <loc>{{ url }}</loc>
+      <lastmod>{{ entry.date | luxonDate("yyyy-MM-dd'T'HH:mm:ssZZ") }}</lastmod>
+    </url>
+    {% set _ = seen.push(url) %}
+  {% endif %}
 {% endfor %}
 </urlset>
