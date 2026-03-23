@@ -3,16 +3,17 @@ permalink: "/media-sitemap.xml"
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-{% set mediaFiles = collections.all | filter(entry => entry.outputPath.match(/\.(jpg|jpeg|png|gif|webp|svg|mp4|webm|avi|mov)$/i)) %}
 {% set seen = [] %}
-{% for media in mediaFiles %}
-  {% set url = media.url | url %}
-  {% if url not in seen %}
-    <url>
-      <loc>{{ url }}</loc>
-      <lastmod>{{ media.date | luxonDate("yyyy-MM-dd'T'HH:mm:ssZZ") }}</lastmod>
-    </url>
-    {% set _ = seen.push(url) %}
+{% for media in collections.all %}
+  {% if media.outputPath and media.outputPath.match('\.(jpg|jpeg|png|gif|webp|svg|mp4|webm|avi|mov)$') %}
+    {% set url = media.url | url %}
+    {% if url not in seen %}
+      <url>
+        <loc>{{ url }}</loc>
+        <lastmod>{{ media.date | luxonDate("yyyy-MM-dd'T'HH:mm:ssZZ") }}</lastmod>
+      </url>
+      {% set _ = seen.push(url) %}
+    {% endif %}
   {% endif %}
 {% endfor %}
 </urlset>
