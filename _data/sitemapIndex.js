@@ -4,11 +4,11 @@ import yaml from "js-yaml";
 
 const ROOT = path.join(process.cwd(), "content", "sitemaps");
 const EXTERNAL_SEARCH_SITEMAP_URL = "https://files.jcrt.org/metadata/search-sitemap.xml";
-const EXTERNAL_SITEMAPS = [
-	{ path: "/sitemaps/doaj-archives.xml", file: "doaj-archives.xml" },
-	{ path: "/sitemaps/oai_dc.xml", file: "oai_dc.xml" },
-	{ path: "/sitemaps/citations/ris-sitemap.xml", file: "ris-sitemap.xml" },
-	{ path: "/sitemaps/citations/csl-json-sitemap.xml", file: "csl-json-sitemap.xml" },
+const LOCAL_METADATA_SITEMAPS = [
+	{ path: "/sitemaps/doaj-archives.xml", file: path.join("public", "sitemaps", "doaj-archives.xml") },
+	{ path: "/sitemaps/oai_dc.xml", file: path.join("public", "sitemaps", "oai_dc.xml") },
+	{ path: "/sitemaps/citations/ris-sitemap.xml", file: path.join("public", "sitemaps", "citations", "ris-sitemap.xml") },
+	{ path: "/sitemaps/citations/csl-json-sitemap.xml", file: path.join("public", "sitemaps", "citations", "csl-json-sitemap.xml") },
 ];
 const JCRT_FILES_METADATA = path.resolve(process.cwd(), "..", "jcrt-files", "metadata");
 
@@ -86,10 +86,10 @@ export default function sitemapIndex() {
 		lastmod: getFileLastmodOrEmpty(path.join(JCRT_FILES_METADATA, "search-sitemap.xml")) || fallbackLastmod,
 	});
 
-	for (const ext of EXTERNAL_SITEMAPS) {
+	for (const ext of LOCAL_METADATA_SITEMAPS) {
 		entries.push({
 			path: ext.path,
-			lastmod: getFileLastmodOrEmpty(path.join(JCRT_FILES_METADATA, ext.file)) || fallbackLastmod,
+			lastmod: getFileLastmodOrEmpty(path.resolve(process.cwd(), ext.file)) || fallbackLastmod,
 		});
 	}
 

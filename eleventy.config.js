@@ -489,11 +489,12 @@ export default async function (eleventyConfig) {
 	eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
 	// Assets (images, docs, PDFs, citations) are served via files.jcrt.org
 	// through Netlify 200-proxy rules in public/_redirects.
-	// Only copy what is needed locally: CSS, JS, admin panel, redirects.
+	// Only copy what is needed locally: CSS, JS, admin panel, redirects, local sitemaps.
 	eleventyConfig
 		.addPassthroughCopy({ "public/css": "css" })
 		.addPassthroughCopy({ "public/js": "js" })
 		.addPassthroughCopy({ "public/admin": "admin" })
+		.addPassthroughCopy({ "public/sitemaps": "sitemaps" })
 		.addPassthroughCopy({ "public/_redirects": "_redirects" })
 		.addPassthroughCopy({ "public/_headers": "_headers" })
 		.addPassthroughCopy({ "public/.well-known": ".well-known" })

@@ -310,12 +310,6 @@
 /citations/* https://files.jcrt.org/citations/:splat 200
 /archives/:issue/:slug.pdf https://files.jcrt.org/archives/:issue/:slug.pdf 200!
 
-# Pre-generated sitemaps served from files.jcrt.org
-/sitemaps/doaj-archives.xml https://files.jcrt.org/metadata/doaj-archives.xml 200
-/sitemaps/oai_dc.xml https://files.jcrt.org/metadata/oai_dc.xml 200
-/sitemaps/citations/ris-sitemap.xml https://files.jcrt.org/metadata/ris-sitemap.xml 200
-/sitemaps/citations/csl-json-sitemap.xml https://files.jcrt.org/metadata/csl-json-sitemap.xml 200
-
 /img/*.png /images/:splat.webp 301
 /img/*.jpg /images/:splat.webp 301
 /img/*.jpeg /images/:splat.webp 301
@@ -413,4 +407,3 @@
 /docs/Pope.pdf /religioustheory/posts/ 301
 /docs/Prewitt-Davis.pdf /religioustheory/posts/ 301
 /docs/References.pdf /religioustheory/posts/ 301
-
