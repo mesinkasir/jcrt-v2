@@ -1,0 +1,20 @@
+---
+permalink: "/religioustheory/categories-tags-sitemap.xml"
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{% set categories = collections.religioustheoryCategories %}
+{% for category in categories %}
+  <url>
+    <loc>{{ category.url | url }}</loc>
+    <lastmod>{{ category.date | luxon("yyyy-MM-dd'T'HH:mm:ssZZ") }}</lastmod>
+  </url>
+{% endfor %}
+{% set tags = collections.religioustheoryTags %}
+{% for tag in tags %}
+  <url>
+    <loc>{{ tag.url | url }}</loc>
+    <lastmod>{{ tag.date | luxon("yyyy-MM-dd'T'HH:mm:ssZZ") }}</lastmod>
+  </url>
+{% endfor %}
+</urlset>

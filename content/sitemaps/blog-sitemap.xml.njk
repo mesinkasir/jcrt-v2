@@ -1,0 +1,13 @@
+---
+permalink: "/blog-sitemap.xml"
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{% set blog = collections.blog %}
+{% for entry in blog %}
+  <url>
+    <loc>{{ entry.url | url }}</loc>
+    <lastmod>{{ entry.date | luxon("yyyy-MM-dd'T'HH:mm:ssZZ") }}</lastmod>
+  </url>
+{% endfor %}
+</urlset>
