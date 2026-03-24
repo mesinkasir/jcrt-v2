@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:df="https://jcrt.org/schema/datacite-feed"
+  xmlns:d="http://datacite.org/schema/kernel-4"
+  targetNamespace="https://jcrt.org/schema/datacite-feed"
+  elementFormDefault="qualified">
+  <xs:import namespace="http://datacite.org/schema/kernel-4" schemaLocation="metadata.xsd"/>
+
+  <xs:element name="resources">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="d:resource" minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

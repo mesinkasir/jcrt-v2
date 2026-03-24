@@ -12,6 +12,7 @@ const REQUIRED_LOCAL_PATHS = [
 	"/feed/philpapers.xml",
 	"/sitemaps/oai_dc.xml",
 	"/sitemaps/doaj-archives.xml",
+	"/sitemaps/datacite.xml",
 ];
 
 function getLocs(xml) {
