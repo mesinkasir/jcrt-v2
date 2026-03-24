@@ -2,9 +2,13 @@ module.exports = {
 	layout: false,
 	eleventyExcludeFromCollections: true,
 	eleventyComputed: {
-		// Sitemaps are primarily for production. Skipping them in `--serve` speeds up local dev.
+		// Serve mode includes sitemaps by default so local checks match deploy behavior.
+		// Set SKIP_SITEMAPS_IN_SERVE=1 only when you explicitly want a faster local cycle.
 		permalink: (data) => {
-			if (process.env.ELEVENTY_RUN_MODE === "serve" || data.isFastBuild) {
+			const skipInServe =
+				process.env.ELEVENTY_RUN_MODE === "serve" &&
+				String(process.env.SKIP_SITEMAPS_IN_SERVE || "") === "1";
+			if (skipInServe || data.isFastBuild) {
 				return false;
 			}
 			return data.permalink;

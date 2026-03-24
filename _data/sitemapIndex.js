@@ -9,6 +9,9 @@ const PROTECTED_SITEMAPS = [
 	"/sitemaps/oai_dc.xml",
 	"/sitemaps/doaj-archives.xml"
 ];
+const EXCLUDED_FROM_MAIN_INDEX = new Set([
+	"/sitemaps/sitemaps.xml",
+]);
 const LOCAL_METADATA_SITEMAPS = [
 	{ path: "/sitemaps/doaj-archives.xml", file: path.join("public", "sitemaps", "doaj-archives.xml") },
 	{ path: "/sitemaps/oai_dc.xml", file: path.join("public", "sitemaps", "oai_dc.xml") },
@@ -77,6 +80,7 @@ export default function sitemapIndex() {
 		const fm = parseFrontMatter(raw);
 		const permalink = String(fm.permalink || "").trim();
 		if (!permalink || !permalink.endsWith(".xml")) continue;
+		if (EXCLUDED_FROM_MAIN_INDEX.has(permalink)) continue;
 		let lastmod = "";
 		try {
 			const stat = fs.statSync(filePath);

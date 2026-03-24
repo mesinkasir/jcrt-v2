@@ -87,6 +87,19 @@ async function postIndexNow(endpoint, payload) {
 	return { ok: res.ok, status: res.status, body };
 }
 
+async function postWorkerSubmission(endpoint, urls) {
+	const body = `${urls.join("\n")}\n`;
+	const res = await fetch(endpoint, {
+		method: "POST",
+		headers: {
+			"content-type": "text/plain; charset=utf-8",
+		},
+		body,
+	});
+	const text = await res.text();
+	return { ok: res.ok, status: res.status, body: text };
+}
+
 async function run() {
 	const indexNowKey = String(process.env.INDEXNOW_KEY || "").trim();
 	if (!indexNowKey) {
@@ -105,6 +118,7 @@ async function run() {
 		.map((v) => v.trim())
 		.filter(Boolean);
 	const targetEndpoints = endpoints.length > 0 ? endpoints : DEFAULT_ENDPOINTS;
+	const workerEndpoint = String(process.env.INDEXNOW_WORKER_ENDPOINT || "").trim();
 	const keyLocation = String(process.env.INDEXNOW_KEY_LOCATION || `${siteUrl}/${indexNowKey}.txt`).trim();
 
 	const keyFilePath = path.join(SITE_DIR, `${indexNowKey}.txt`);
@@ -146,6 +160,18 @@ async function run() {
 				}
 			} catch (error) {
 				console.warn(`[indexnow] Non-fatal request error -> ${endpoint}: ${error?.message || error}`);
+			}
+		}
+		if (workerEndpoint) {
+			try {
+				const result = await postWorkerSubmission(workerEndpoint, batch);
+				if (result.ok) {
+					console.log(`[indexnow] Worker accepted ${result.status} -> ${workerEndpoint} (${batch.length} URLs)`);
+				} else {
+					console.warn(`[indexnow] Worker non-fatal failure ${result.status} -> ${workerEndpoint}: ${result.body.slice(0, 300)}`);
+				}
+			} catch (error) {
+				console.warn(`[indexnow] Worker non-fatal request error -> ${workerEndpoint}: ${error?.message || error}`);
 			}
 		}
 	}

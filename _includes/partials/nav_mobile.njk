@@ -1,5 +1,5 @@
 <nav class="nav justify-content-end mb-3 mobile" data-pagefind-ignore>
-{% for nv in metadata.navbar.social %}<a class="nave me-3" 
-href="{{nv.url}}" title="{{nv.title}}"><svg class="icon-svg" aria-hidden="true"><use href="#{{nv.icon | iconId}}"/></svg>
+{% for nv in metadata.navbar.social %}<a class="nave me-3 clu"
+href="{{nv.url}}" title="{{nv.title}}" rel="me noopener" target="_blank"><svg class="icon-svg clu" aria-hidden="true"><use href="#{{nv.icon | iconId}}"/></svg>
 </a>{% endfor %}
 </nav>

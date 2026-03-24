@@ -526,6 +526,14 @@ svg.clu {
 .nave.clu:last-child {
   padding-right: 0;
 }
+.nave {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 44px;
+  line-height: 1;
+}
 
 blockquote{border-left:6px solid #ec5033;margin:1.5em 10px;padding:.5em 10px;quotes:"\201C""\201D""\2018""\2019"}blockquote:before{color:#ec5033;content:open-quote;font-size:4em;line-height:.1em;margin-right:.25em;vertical-align:-.4em}blockquote p{display:inline}
 
@@ -580,6 +588,7 @@ blockquote{border-left:6px solid #ec5033;margin:1.5em 10px;padding:.5em 10px;quo
 #search {
     max-width: 100%;
     overflow: hidden;
+    min-height: 56px;
 }
 #search .pagefind-ui,
 #search .pagefind-ui__form {
@@ -663,8 +672,8 @@ blockquote{border-left:6px solid #ec5033;margin:1.5em 10px;padding:.5em 10px;quo
     #menu-toggle-btn {
         top: 15px !important;
         left: 15px !important;
-        width: 40px !important;
-        height: 40px !important;
+        width: 44px !important;
+        height: 44px !important;
         border-radius: 4px;
     }
 
@@ -1000,6 +1009,8 @@ body.sidebar-open #menu-toggle-btn {
 /* Keep hamburger bars visually prominent in 40-50px toggle squares. */
 #menu-toggle-btn,
 #theory-toggle-btn {
+    min-width: 44px !important;
+    min-height: 44px !important;
     font-size: 1.6rem !important;
     line-height: 1 !important;
 }

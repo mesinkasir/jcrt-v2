@@ -3,6 +3,11 @@
 
 Developed by Adam DJ Brett
 
+## Sitemap + IndexNow
+- Runbook: `docs/sitemaps-and-indexnow-runbook.md`
+- Local sitemap-safe serve: `npm run start`
+- Build-time sitemap integrity check: `npm run sitemaps:check`
+
 ## Acknowledgments
 - Build performance optimization audit and recommendations by [Brennan Kenneth Brown](https://github.com/brennankbrown)
 
