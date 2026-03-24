@@ -5,7 +5,7 @@ permalink: "/pdf-sitemap.xml"
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 {% set seen = [] %}
 {% for entry in collections.all %}
-  {% if entry.outputPath and entry.outputPath.endswith('.pdf') %}
+  {% if entry.outputPath and entry.outputPath[-4:] == '.pdf' %}
     {% set url = entry.url | url %}
     {% if url not in seen %}
       <url>
