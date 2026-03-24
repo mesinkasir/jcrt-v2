@@ -11,11 +11,10 @@ const cacheDir = path.join(process.cwd(), ".cache");
 const pagefindCacheDir = path.join(cacheDir, "pagefind-index");
 const pagefindStatePath = path.join(cacheDir, "pagefind-state.json");
 const sourceRoots = [
-	path.join(process.cwd(), "content"),
-	path.join(process.cwd(), "_includes"),
-	path.join(process.cwd(), "_data"),
-	path.join(process.cwd(), "eleventy.config.js"),
-	path.join(process.cwd(), "package.json"),
+	path.join(process.cwd(), "content", "archives"),
+	path.join(process.cwd(), "content", "blog"),
+	path.join(process.cwd(), "content", "religioustheory"),
+	path.join(process.cwd(), "_config", "run-pagefind.js"),
 ];
 const sourceExts = new Set([".md", ".njk", ".html", ".11ty.js", ".js", ".json", ".yaml", ".yml", ".txt", ".xml"]);
 
