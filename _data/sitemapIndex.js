@@ -4,6 +4,11 @@ import yaml from "js-yaml";
 
 const ROOT = path.join(process.cwd(), "content", "sitemaps");
 const EXTERNAL_SEARCH_SITEMAP_URL = "https://files.jcrt.org/metadata/search-sitemap.xml";
+const PROTECTED_SITEMAPS = [
+	"/feed/philpapers.xml",
+	"/sitemaps/oai_dc.xml",
+	"/sitemaps/doaj-archives.xml"
+];
 const LOCAL_METADATA_SITEMAPS = [
 	{ path: "/sitemaps/doaj-archives.xml", file: path.join("public", "sitemaps", "doaj-archives.xml") },
 	{ path: "/sitemaps/oai_dc.xml", file: path.join("public", "sitemaps", "oai_dc.xml") },
@@ -52,6 +57,11 @@ function getFileLastmodOrEmpty(filePath) {
 	}
 }
 
+/**
+ * Build the sitemap index, ensuring all sitemaps/feeds are included with no duplicates,
+ * except for protected sitemaps/feeds (philpapers.xml, oai_dc.xml, doaj-archives.xml),
+ * which are always included even if they would otherwise be deduplicated.
+ */
 export default function sitemapIndex() {
 	let files = [];
 	try {
@@ -80,12 +90,14 @@ export default function sitemapIndex() {
 		});
 	}
 
+	// Always include the external search sitemap
 	entries.push({
 		loc: EXTERNAL_SEARCH_SITEMAP_URL,
 		path: EXTERNAL_SEARCH_SITEMAP_URL,
 		lastmod: getFileLastmodOrEmpty(path.join(JCRT_FILES_METADATA, "search-sitemap.xml")) || fallbackLastmod,
 	});
 
+	// Always include local metadata sitemaps
 	for (const ext of LOCAL_METADATA_SITEMAPS) {
 		entries.push({
 			path: ext.path,
@@ -93,10 +105,22 @@ export default function sitemapIndex() {
 		});
 	}
 
+	// Always include philpapers.xml (protected feed)
+	entries.push({
+		path: "/feed/philpapers.xml",
+		lastmod: getFallbackLastmod(), // fallback, as we don't have a file stat here
+	});
+
+	// Deduplicate, but allow protected sitemaps/feeds to appear even if duplicated
 	const unique = new Map();
 	for (const item of entries) {
 		const key = item.loc || item.path;
-		if (!unique.has(key)) unique.set(key, item);
+		if (PROTECTED_SITEMAPS.includes(key)) {
+			// Always allow protected sitemaps/feeds
+			unique.set(key + "#protected", item);
+		} else {
+			if (!unique.has(key)) unique.set(key, item);
+		}
 	}
 	return [...unique.values()].sort((a, b) => (a.loc || a.path).localeCompare(b.loc || b.path));
 }
