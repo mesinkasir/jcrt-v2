@@ -3,25 +3,24 @@ permalink: "/religioustheory/categories-tags-sitemap.xml"
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-{% set categories = collections.religioustheoryCategories %}
+{% set baseUrl = sitemapBaseUrl or metadata.url or "" %}
+{% set categories = tagIndex.theory.categories.list or [] %}
 {% set seen = [] %}
 {% for category in categories %}
-  {% set url = category.url | url %}
+  {% set url = baseUrl ~ "/religioustheory/categories/" ~ (category | slugify) ~ "/" %}
   {% if url not in seen %}
     <url>
-      <loc>{{ url }}</loc>
-      <lastmod>{{ category.date | luxonDate("yyyy-MM-dd'T'HH:mm:ssZZ") }}</lastmod>
+      <loc>{{ url | xmlEscape | safe }}</loc>
     </url>
     {% set _ = seen.push(url) %}
   {% endif %}
 {% endfor %}
-{% set tags = collections.religioustheoryTags %}
+{% set tags = tagIndex.theory.tags.list or [] %}
 {% for tag in tags %}
-  {% set url = tag.url | url %}
+  {% set url = baseUrl ~ "/religioustheory/tags/" ~ (tag | slugify) ~ "/" %}
   {% if url not in seen %}
     <url>
-      <loc>{{ url }}</loc>
-      <lastmod>{{ tag.date | luxonDate("yyyy-MM-dd'T'HH:mm:ssZZ") }}</lastmod>
+      <loc>{{ url | xmlEscape | safe }}</loc>
     </url>
     {% set _ = seen.push(url) %}
   {% endif %}

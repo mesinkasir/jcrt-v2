@@ -3,16 +3,18 @@ permalink: "/feeds-sitemap.xml"
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{% set baseUrl = sitemapBaseUrl or metadata.url or "" %}
 {% set feeds = collections.feed %}
 {% set seen = [] %}
 {% for entry in feeds %}
-  {% set url = entry.url | url %}
-  {% if url not in seen %}
+  {% set urlPath = entry.url | url %}
+  {% set fullUrl = baseUrl ~ urlPath %}
+  {% if fullUrl not in seen %}
     <url>
-      <loc>{{ url }}</loc>
+      <loc>{{ fullUrl | xmlEscape | safe }}</loc>
       <lastmod>{{ entry.date | luxonDate("yyyy-MM-dd'T'HH:mm:ssZZ") }}</lastmod>
     </url>
-    {% set _ = seen.push(url) %}
+    {% set _ = seen.push(fullUrl) %}
   {% endif %}
 {% endfor %}
 </urlset>

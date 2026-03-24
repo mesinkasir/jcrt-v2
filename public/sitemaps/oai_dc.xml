@@ -2,7 +2,7 @@
 <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
-  <responseDate>2026-03-24T17:54:10.306Z</responseDate>
+  <responseDate>2026-03-24T19:37:12.785Z</responseDate>
   <request verb="ListRecords" metadataPrefix="oai_dc">https://jcrt.org/sitemaps/oai_dc.xml</request>
   <ListRecords>
     <record>
