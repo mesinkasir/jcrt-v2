@@ -841,6 +841,13 @@ export default async function (eleventyConfig) {
 		return items.map((x) => x.p);
 	});
 
+	eleventyConfig.addCollection("blog", function (collectionApi) {
+		return collectionApi
+			.getFilteredByGlob("content/blog/*.md")
+			.filter((item) => isPublishedItem(item?.data))
+			.sort((a, b) => b.date - a.date);
+	});
+
 	eleventyConfig.addCollection("feed", function (collectionApi) {
 		const getDataDateMs = (item) => {
 			const raw = item?.data?.date;

@@ -3,16 +3,10 @@ permalink: "/metadata-sitemap.xml"
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-{% set metadata = collections.metadata %}
-{% set seen = [] %}
-{% for entry in metadata %}
-  {% set url = entry.url | url %}
-  {% if url not in seen %}
-    <url>
-      <loc>{{ url }}</loc>
-      <lastmod>{{ entry.date | luxonDate("yyyy-MM-dd'T'HH:mm:ssZZ") }}</lastmod>
-    </url>
-    {% set _ = seen.push(url) %}
-  {% endif %}
+{% for entry in filesMetadataEntries %}
+  <url>
+    <loc>{{ entry.loc }}</loc>
+    {% if entry.lastmod %}<lastmod>{{ entry.lastmod }}</lastmod>{% endif %}
+  </url>
 {% endfor %}
 </urlset>

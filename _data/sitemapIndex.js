@@ -18,6 +18,10 @@ const LOCAL_METADATA_SITEMAPS = [
 	{ path: "/sitemaps/citations/ris-sitemap.xml", file: path.join("public", "sitemaps", "citations", "ris-sitemap.xml") },
 	{ path: "/sitemaps/citations/csl-json-sitemap.xml", file: path.join("public", "sitemaps", "citations", "csl-json-sitemap.xml") },
 ];
+const ALWAYS_INCLUDE_FEEDS = [
+	"/feed/firehose.xml",
+	"/feed/twtxt.txt",
+];
 const JCRT_FILES_METADATA = path.resolve(process.cwd(), "..", "jcrt-files", "metadata");
 
 function walk(dir) {
@@ -114,6 +118,13 @@ export default function sitemapIndex() {
 		path: "/feed/philpapers.xml",
 		lastmod: getFallbackLastmod(), // fallback, as we don't have a file stat here
 	});
+
+	for (const feedPath of ALWAYS_INCLUDE_FEEDS) {
+		entries.push({
+			path: feedPath,
+			lastmod: getFallbackLastmod(),
+		});
+	}
 
 	// Deduplicate, but allow protected sitemaps/feeds to appear even if duplicated
 	const unique = new Map();
