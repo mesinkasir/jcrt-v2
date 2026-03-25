@@ -13,6 +13,7 @@ const OAI_PMH_SCHEMA = path.join(SCHEMA_DIR, "OAI-PMH.xsd");
 const OAI_DC_SCHEMA = path.join(SCHEMA_DIR, "oai_dc.xsd");
 const VALIDATE_LEVEL = String(process.env.OAI_VALIDATE_LEVEL || "full").trim().toLowerCase();
 const IS_QUICK_VALIDATE = VALIDATE_LEVEL === "quick";
+const REQUIRE_XSD = String(process.env.OAI_REQUIRE_XSD || "0").trim() === "1";
 
 function assert(condition, message) {
 	if (!condition) {
@@ -34,13 +35,15 @@ function runXmllint(args, label) {
 	}
 }
 
-function ensureXmllintAvailable() {
+function hasXmllint() {
 	const result = spawnSync("xmllint", ["--version"], {
 		encoding: "utf8",
 	});
-	if (result.status !== 0) {
-		throw new Error("[oai:validate] xmllint is required for XSD validation but was not found in PATH.");
-	}
+	return result.status === 0;
+}
+
+function schemasAvailable() {
+	return fs.existsSync(OAI_PMH_SCHEMA) && fs.existsSync(OAI_DC_SCHEMA);
 }
 
 function patchOaiDcSchemaLocation(xml) {
@@ -88,7 +91,7 @@ function runProtocolChecks({ baseURL, records, identify }) {
 		{
 			name: "Identify",
 			params: { verb: "Identify" },
-			contains: ["<Identify>", `<baseURL>${baseURL}</baseURL>`],
+			contains: ["<Identify>", `<baseURL>${baseURL}</baseURL>`, "<deletedRecord>"],
 		},
 		{
 			name: "ListMetadataFormats",
@@ -156,6 +159,56 @@ function runProtocolChecks({ baseURL, records, identify }) {
 	return outputs;
 }
 
+function extractDatestamps(xml) {
+	return [...String(xml || "").matchAll(/<datestamp>([^<]+)<\/datestamp>/g)].map((match) => String(match[1] || "").trim());
+}
+
+function assertIncrementalDayGranularity({ baseURL, records, identify }) {
+	const from = "2026-03-03";
+	const result = handleOaiRequest({
+		baseURL,
+		params: { verb: "ListRecords", metadataPrefix: OAI_METADATA_PREFIX, from },
+		records,
+		identify,
+	});
+	if (String(result?.xml || "").includes('code="noRecordsMatch"')) return;
+	const datestamps = extractDatestamps(result?.xml || "");
+	assert(datestamps.length > 0, "Incremental ListRecords check returned no datestamps.");
+	const older = datestamps.find((value) => value < from);
+	assert(!older, `Incremental day-granularity check failed: datestamp ${older} is older than from=${from}.`);
+}
+
+function assertResumptionFlow({ baseURL, records, identify }) {
+	if (!Array.isArray(records) || records.length <= 120) return;
+	const first = handleOaiRequest({
+		baseURL,
+		params: { verb: "ListRecords", metadataPrefix: OAI_METADATA_PREFIX },
+		records,
+		identify,
+	});
+	const tokenMatch = String(first?.xml || "").match(/<resumptionToken[^>]*>([^<]+)<\/resumptionToken>/);
+	const token = String(tokenMatch?.[1] || "").trim();
+	assert(token, "Expected resumptionToken in first ListRecords response but none was found.");
+	const second = handleOaiRequest({
+		baseURL,
+		params: { verb: "ListRecords", resumptionToken: token },
+		records,
+		identify,
+	});
+	assert(!String(second?.xml || "").includes('code="badResumptionToken"'), "Resumption token follow-up returned badResumptionToken.");
+	assert(String(second?.xml || "").includes("<ListRecords>"), "Resumption token follow-up did not return ListRecords.");
+}
+
+function runQuickChecks({ baseURL, records, identify }) {
+	const staticXml = fs.readFileSync(OAI_XML_PATH, "utf8");
+	assert(staticXml.includes("<OAI-PMH"), "Static OAI XML is missing OAI-PMH root.");
+	assert(staticXml.includes("<ListRecords>"), "Static OAI XML is missing ListRecords.");
+	assert(staticXml.includes("<oai_dc:dc"), "Static OAI XML is missing oai_dc metadata.");
+	runProtocolChecks({ baseURL, records, identify });
+	assertIncrementalDayGranularity({ baseURL, records, identify });
+	assertResumptionFlow({ baseURL, records, identify });
+}
+
 function run() {
 	mustExist(OAI_XML_PATH);
 	mustExist(OAI_INDEX_PATH);
@@ -176,18 +229,32 @@ function run() {
 	};
 
 	if (IS_QUICK_VALIDATE) {
-		const staticXml = fs.readFileSync(OAI_XML_PATH, "utf8");
-		assert(staticXml.includes("<OAI-PMH"), "Static OAI XML is missing OAI-PMH root.");
-		assert(staticXml.includes("<ListRecords>"), "Static OAI XML is missing ListRecords.");
-		assert(staticXml.includes("<oai_dc:dc"), "Static OAI XML is missing oai_dc metadata.");
-		runProtocolChecks({ baseURL, records, identify });
+		runQuickChecks({ baseURL, records, identify });
+		console.log(`[oai:validate] Quick protocol checks passed (${records.length} record(s)).`);
+		return;
+	}
+
+	const hasSchemas = schemasAvailable();
+	const lintAvailable = hasXmllint();
+	if (!hasSchemas || !lintAvailable) {
+		if (REQUIRE_XSD) {
+			if (!hasSchemas) {
+				throw new Error("[oai:validate] XSD validation is required but schema files are missing.");
+			}
+			throw new Error("[oai:validate] XSD validation is required but xmllint is not available in PATH.");
+		}
+		const reason = [
+			!hasSchemas ? "schema files missing" : "",
+			!lintAvailable ? "xmllint missing" : "",
+		].filter(Boolean).join(", ");
+		console.warn(`[oai:validate] XSD checks skipped (${reason}); running quick protocol checks instead.`);
+		runQuickChecks({ baseURL, records, identify });
 		console.log(`[oai:validate] Quick protocol checks passed (${records.length} record(s)).`);
 		return;
 	}
 
 	mustExist(OAI_PMH_SCHEMA);
 	mustExist(OAI_DC_SCHEMA);
-	ensureXmllintAvailable();
 
 	const tempDir = fs.mkdtempSync(path.join(os.tmpdir(), "jcrt-oai-validate-"));
 	try {
@@ -203,6 +270,8 @@ function run() {
 				validateOaiDcBlocks(tempDir, `protocol-${safeName}`, output.xml);
 			}
 		}
+		assertIncrementalDayGranularity({ baseURL, records, identify });
+		assertResumptionFlow({ baseURL, records, identify });
 	} finally {
 		fs.rmSync(tempDir, { recursive: true, force: true });
 	}

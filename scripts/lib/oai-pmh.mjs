@@ -13,6 +13,7 @@ const SUPPORTED_VERBS = new Set([
 	"ListIdentifiers",
 	"ListRecords",
 ]);
+const LIST_BATCH_SIZE = 100;
 
 function asArray(value) {
 	if (Array.isArray(value)) return value;
@@ -214,20 +215,27 @@ function renderRecord(record, includeMetadata = true) {
 	return lines.join("\n");
 }
 
-function renderListRecords(records) {
+function renderResumptionTokenElement(token, cursor, completeListSize) {
+	if (!isNonEmpty(token)) return "";
+	return `<resumptionToken completeListSize="${escapeXml(completeListSize)}" cursor="${escapeXml(cursor)}">${escapeXml(token)}</resumptionToken>`;
+}
+
+function renderListRecords(records, resumptionTokenXml = "") {
 	const lines = [`<ListRecords>`];
 	for (const record of records) {
 		lines.push(...renderRecord(record, true).split("\n").map((line) => `  ${line}`));
 	}
+	if (isNonEmpty(resumptionTokenXml)) lines.push(`  ${resumptionTokenXml}`);
 	lines.push(`</ListRecords>`);
 	return lines.join("\n");
 }
 
-function renderListIdentifiers(records) {
+function renderListIdentifiers(records, resumptionTokenXml = "") {
 	const lines = [`<ListIdentifiers>`];
 	for (const record of records) {
 		lines.push(...renderHeader(record).split("\n").map((line) => `  ${line}`));
 	}
+	if (isNonEmpty(resumptionTokenXml)) lines.push(`  ${resumptionTokenXml}`);
 	lines.push(`</ListIdentifiers>`);
 	return lines.join("\n");
 }
@@ -264,10 +272,10 @@ function buildIdentifyDefaults(records, identify = {}) {
 	const sorted = sortRecords(records);
 	const earliest = identify.earliestDatestamp || normalizeDateOnly(sorted[0]?.datestamp) || "1999-01-01";
 	return {
-		repositoryName: identify.repositoryName || "Journal for Cultural and Religious Theory",
+		repositoryName: identify.repositoryName || "Victor Taylor",
 		adminEmails: asArray(identify.adminEmails).filter((value) => isNonEmpty(value)).length
 			? asArray(identify.adminEmails)
-			: ["info@jcrt.org"],
+			: ["carl.raschke@jcrt.org"],
 		earliestDatestamp: earliest,
 		deletedRecord: identify.deletedRecord || "no",
 		granularity: identify.granularity || "YYYY-MM-DD",
@@ -293,6 +301,54 @@ function filterByDateRange(records, from, until) {
 		if (until && datestamp > until) return false;
 		return true;
 	});
+}
+
+function paginate(records, offset = 0, batchSize = LIST_BATCH_SIZE) {
+	const safeOffset = Number.isInteger(offset) && offset >= 0 ? offset : 0;
+	const pageSize = Number.isInteger(batchSize) && batchSize > 0 ? batchSize : LIST_BATCH_SIZE;
+	const page = records.slice(safeOffset, safeOffset + pageSize);
+	const nextOffset = safeOffset + page.length;
+	const hasMore = nextOffset < records.length;
+	return {
+		page,
+		cursor: safeOffset,
+		completeListSize: records.length,
+		nextOffset: hasMore ? nextOffset : null,
+	};
+}
+
+function encodeResumptionToken({ verb, metadataPrefix, from = "", until = "", offset = 0 }) {
+	return [
+		`v=${encodeURIComponent(cleanValue(verb))}`,
+		`m=${encodeURIComponent(cleanValue(metadataPrefix))}`,
+		`f=${encodeURIComponent(cleanValue(from))}`,
+		`u=${encodeURIComponent(cleanValue(until))}`,
+		`o=${encodeURIComponent(String(offset))}`,
+	].join("|");
+}
+
+function decodeResumptionToken(token) {
+	const raw = cleanValue(token);
+	if (!raw) return null;
+	const parts = raw.split("|");
+	const out = {};
+	for (const part of parts) {
+		if (!part.includes("=")) continue;
+		const [key, value = ""] = part.split("=", 2);
+		if (!key) continue;
+		try {
+			out[key] = decodeURIComponent(value);
+		} catch {
+			return null;
+		}
+	}
+	const verb = cleanValue(out.v);
+	const metadataPrefix = cleanValue(out.m);
+	const from = cleanValue(out.f);
+	const until = cleanValue(out.u);
+	const offset = Number.parseInt(cleanValue(out.o), 10);
+	if (!verb || !metadataPrefix || !Number.isInteger(offset) || offset < 0) return null;
+	return { verb, metadataPrefix, from, until, offset };
 }
 
 export function renderStaticListRecordsResponse({
@@ -406,51 +462,92 @@ export function handleOaiRequest({
 				return errorResponse("badArgument", "The request includes illegal arguments.");
 			}
 
+			const granularity = identifyConfig.granularity || "YYYY-MM-DD";
+			const tokenRaw = cleanValue(normalizedParams.resumptionToken);
+			let from = null;
+			let until = null;
+			let requestAttrs = {};
+			let offset = 0;
+			let metadataPrefix = cleanValue(normalizedParams.metadataPrefix);
+
 			if (isNonEmpty(normalizedParams.resumptionToken)) {
 				if (hasAnyArgs(normalizedParams, ["from", "until", "set", "metadataPrefix"])) {
 					return errorResponse("badArgument", "The request includes illegal arguments.");
 				}
-				return errorResponse("badResumptionToken", "The value of the resumptionToken argument is invalid or expired.");
+				const token = decodeResumptionToken(tokenRaw);
+				if (!token || token.verb !== verb || token.metadataPrefix !== OAI_METADATA_PREFIX) {
+					return errorResponse("badResumptionToken", "The value of the resumptionToken argument is invalid or expired.");
+				}
+				offset = token.offset;
+				metadataPrefix = token.metadataPrefix;
+				if (token.from) {
+					from = parseRequestDateArg(token.from, granularity);
+					if (!from) return errorResponse("badResumptionToken", "The value of the resumptionToken argument is invalid or expired.");
+				}
+				if (token.until) {
+					until = parseRequestDateArg(token.until, granularity);
+					if (!until) return errorResponse("badResumptionToken", "The value of the resumptionToken argument is invalid or expired.");
+				}
+				if (from && until && from > until) {
+					return errorResponse("badResumptionToken", "The value of the resumptionToken argument is invalid or expired.");
+				}
+				requestAttrs = { verb, resumptionToken: tokenRaw };
+			} else {
+				if (!metadataPrefix) {
+					return errorResponse("badArgument", "The request is missing required arguments.");
+				}
+				if (isNonEmpty(normalizedParams.set)) {
+					return errorResponse("noSetHierarchy", "This repository does not support sets.");
+				}
+				from = isNonEmpty(normalizedParams.from)
+					? parseRequestDateArg(normalizedParams.from, granularity)
+					: null;
+				until = isNonEmpty(normalizedParams.until)
+					? parseRequestDateArg(normalizedParams.until, granularity)
+					: null;
+				if (isNonEmpty(normalizedParams.from) && !from) {
+					return errorResponse("badArgument", "The from argument has an illegal value.");
+				}
+				if (isNonEmpty(normalizedParams.until) && !until) {
+					return errorResponse("badArgument", "The until argument has an illegal value.");
+				}
+				if (from && until && from > until) {
+					return errorResponse("badArgument", "The from argument must be less than or equal to the until argument.");
+				}
+				requestAttrs = buildRequestAttrs(normalizedParams, allowed);
 			}
 
-			const metadataPrefix = cleanValue(normalizedParams.metadataPrefix);
-			if (!metadataPrefix) {
-				return errorResponse("badArgument", "The request is missing required arguments.");
-			}
 			if (metadataPrefix !== OAI_METADATA_PREFIX) {
 				return errorResponse("cannotDisseminateFormat", "The requested metadataPrefix is not supported by this repository.");
-			}
-			if (isNonEmpty(normalizedParams.set)) {
-				return errorResponse("noSetHierarchy", "This repository does not support sets.");
-			}
-
-			const granularity = identifyConfig.granularity || "YYYY-MM-DD";
-			const from = isNonEmpty(normalizedParams.from)
-				? parseRequestDateArg(normalizedParams.from, granularity)
-				: null;
-			const until = isNonEmpty(normalizedParams.until)
-				? parseRequestDateArg(normalizedParams.until, granularity)
-				: null;
-			if (isNonEmpty(normalizedParams.from) && !from) {
-				return errorResponse("badArgument", "The from argument has an illegal value.");
-			}
-			if (isNonEmpty(normalizedParams.until) && !until) {
-				return errorResponse("badArgument", "The until argument has an illegal value.");
-			}
-			if (from && until && from > until) {
-				return errorResponse("badArgument", "The from argument must be less than or equal to the until argument.");
 			}
 
 			const filtered = filterByDateRange(sortedRecords, from, until);
 			if (filtered.length === 0) {
 				return errorResponse("noRecordsMatch", "The combination of the supplied values results in an empty list.");
 			}
+			if (offset >= filtered.length) {
+				return errorResponse("badResumptionToken", "The value of the resumptionToken argument is invalid or expired.");
+			}
 
-			const body = verb === "ListIdentifiers" ? renderListIdentifiers(filtered) : renderListRecords(filtered);
+			const page = paginate(filtered, offset, LIST_BATCH_SIZE);
+			const nextToken = page.nextOffset === null
+				? ""
+				: encodeResumptionToken({
+					verb,
+					metadataPrefix,
+					from: from || "",
+					until: until || "",
+					offset: page.nextOffset,
+				});
+			const resumptionTokenXml = renderResumptionTokenElement(nextToken, page.cursor, page.completeListSize);
+
+			const body = verb === "ListIdentifiers"
+				? renderListIdentifiers(page.page, resumptionTokenXml)
+				: renderListRecords(page.page, resumptionTokenXml);
 			return {
 				status: 200,
 				headers: { "content-type": "application/xml; charset=UTF-8" },
-				xml: renderEnvelope(baseURL, buildRequestAttrs(normalizedParams, allowed), body, responseDate),
+				xml: renderEnvelope(baseURL, requestAttrs, body, responseDate),
 			};
 		}
 

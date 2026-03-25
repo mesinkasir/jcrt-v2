@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-03-25T05:44:36.799Z",
+  "generatedAt": "2026-03-25T06:21:03.018Z",
   "baseURL": "https://jcrt.org/sitemaps/oai_dc.xml",
   "metadataPrefix": "oai_dc",
-  "repositoryName": "Journal for Cultural and Religious Theory",
+  "repositoryName": "Victor Taylor",
   "adminEmails": [
-    "info@jcrt.org"
+    "carl.raschke@jcrt.org"
   ],
   "earliestDatestamp": "1999-01-01",
   "deletedRecord": "no",
@@ -1819,29 +1819,6 @@
       "rights": "Copyright held by the author(s). Articles are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License."
     },
     {
-      "identifier": "oai:jcrt.org:archives:03.2:winquist",
-      "datestamp": "2002-01-01",
-      "title": "In Memoriam: Dr. Charles E. Winquist - JCRT 3.2",
-      "creators": [],
-      "subjects": [],
-      "description": "",
-      "publisher": "Whitestone Foundation",
-      "date": "2002-01-01",
-      "type": "article",
-      "format": "text/html",
-      "language": "en",
-      "identifiers": [
-        "1530-5228",
-        "https://jcrt.org/archives/03.2/winquist/"
-      ],
-      "sources": [
-        "Journal for Cultural & Religious Theory, ISSN 1530-5228",
-        "Vol. 3, No. 2"
-      ],
-      "relations": [],
-      "rights": "Copyright held by the author(s). Articles are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License."
-    },
-    {
       "identifier": "oai:jcrt.org:archives:03.3:crockett",
       "datestamp": "2002-01-01",
       "title": "Taking Shape: on the Current Constellation of (Religious) Thought",
@@ -2217,29 +2194,6 @@
       "rights": "Copyright held by the author(s). Articles are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License."
     },
     {
-      "identifier": "oai:jcrt.org:archives:04.1:index2",
-      "datestamp": "2002-01-01",
-      "title": "Journal for Cultural and Religious Theory - Issue 4.2 - April 2003",
-      "creators": [],
-      "subjects": [],
-      "description": "",
-      "publisher": "Whitestone Foundation",
-      "date": "2002-01-01",
-      "type": "article",
-      "format": "text/html",
-      "language": "en",
-      "identifiers": [
-        "1530-5228",
-        "https://jcrt.org/archives/04.1/index2/"
-      ],
-      "sources": [
-        "Journal for Cultural & Religious Theory, ISSN 1530-5228",
-        "Vol. 4, No. 1"
-      ],
-      "relations": [],
-      "rights": "Copyright held by the author(s). Articles are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License."
-    },
-    {
       "identifier": "oai:jcrt.org:archives:04.1:kosky",
       "datestamp": "2002-01-01",
       "title": "Iconic Revisions of the Modern World Picture",
@@ -2281,29 +2235,6 @@
       "identifiers": [
         "1530-5228",
         "https://jcrt.org/archives/04.1/lokensgard/"
-      ],
-      "sources": [
-        "Journal for Cultural & Religious Theory, ISSN 1530-5228",
-        "Vol. 4, No. 1"
-      ],
-      "relations": [],
-      "rights": "Copyright held by the author(s). Articles are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License."
-    },
-    {
-      "identifier": "oai:jcrt.org:archives:04.1:markmanolopoulos",
-      "datestamp": "2002-01-01",
-      "title": "When Marion’s Theology Seeks Certainty",
-      "creators": [],
-      "subjects": [],
-      "description": "",
-      "publisher": "Whitestone Foundation",
-      "date": "2002-01-01",
-      "type": "article",
-      "format": "text/html",
-      "language": "en",
-      "identifiers": [
-        "1530-5228",
-        "https://jcrt.org/archives/04.1/markmanolopoulos/"
       ],
       "sources": [
         "Journal for Cultural & Religious Theory, ISSN 1530-5228",
@@ -12259,31 +12190,6 @@
       "rights": "Copyright held by the author(s). Articles are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License."
     },
     {
-      "identifier": "oai:jcrt.org:archives:11.3:cfp-design",
-      "datestamp": "2011-01-01",
-      "title": "Call for Papers - Design, Mediation, and the Posthuman - An edited anthology exploring the disciplinary intersections of technological mediation, design, and the posthuman.",
-      "creators": [],
-      "subjects": [],
-      "description": "",
-      "publisher": "Whitestone Foundation",
-      "date": "2011-01-01",
-      "type": "article",
-      "format": "text/html",
-      "language": "en",
-      "identifiers": [
-        "1530-5228",
-        "https://jcrt.org/archives/11.3/cfp-design/"
-      ],
-      "sources": [
-        "Journal for Cultural & Religious Theory, ISSN 1530-5228",
-        "Vol. 11, No. 3"
-      ],
-      "relations": [
-        "https://jcrt.org/archives/11.3/cfp-design.pdf"
-      ],
-      "rights": "Copyright held by the author(s). Articles are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License."
-    },
-    {
       "identifier": "oai:jcrt.org:archives:11.3:dalton",
       "datestamp": "2011-01-01",
       "title": "The Vaccination of the Infinite: Levinas‘ Metaphysical Desire and the Call of the Other",
@@ -20883,29 +20789,6 @@
       "rights": "Copyright held by the author(s). Articles are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License."
     },
     {
-      "identifier": "oai:jcrt.org:archives:18.3:bios",
-      "datestamp": "2019-01-01",
-      "title": "Author Bios",
-      "creators": [],
-      "subjects": [],
-      "description": "",
-      "publisher": "Whitestone Foundation",
-      "date": "2019-01-01",
-      "type": "article",
-      "format": "text/html",
-      "language": "en",
-      "identifiers": [
-        "1530-5228",
-        "https://jcrt.org/archives/18.3/bios/"
-      ],
-      "sources": [
-        "Journal for Cultural & Religious Theory, ISSN 1530-5228",
-        "Vol. 18, No. 3"
-      ],
-      "relations": [],
-      "rights": "Copyright held by the author(s). Articles are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License."
-    },
-    {
       "identifier": "oai:jcrt.org:archives:18.3:burley",
       "datestamp": "2019-01-01",
       "title": "“A Language in Which to Think of the World” – Animism, Indigenous Traditions, and the Deprovincialization of Philosophy of Religion.",
@@ -21126,31 +21009,6 @@
       "rights": "Copyright held by the author(s). Articles are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License."
     },
     {
-      "identifier": "oai:jcrt.org:archives:18.3:murphy",
-      "datestamp": "2019-01-01",
-      "title": "",
-      "creators": [],
-      "subjects": [],
-      "description": "",
-      "publisher": "Whitestone Foundation",
-      "date": "2019-01-01",
-      "type": "article",
-      "format": "text/html",
-      "language": "en",
-      "identifiers": [
-        "1530-5228",
-        "https://jcrt.org/archives/18.3/murphy/"
-      ],
-      "sources": [
-        "Journal for Cultural & Religious Theory, ISSN 1530-5228",
-        "Vol. 18, No. 3"
-      ],
-      "relations": [
-        "https://jcrt.org/archives/18.3/Murphy.pdf"
-      ],
-      "rights": "Copyright held by the author(s). Articles are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License."
-    },
-    {
       "identifier": "oai:jcrt.org:archives:18.3:onishi",
       "datestamp": "2019-01-01",
       "title": "Normative Encounters: a Radical Proposal for Philosophy of Religion.",
@@ -21243,31 +21101,6 @@
       ],
       "relations": [
         "https://jcrt.org/archives/18.3/robertsandhayden.pdf"
-      ],
-      "rights": "Copyright held by the author(s). Articles are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License."
-    },
-    {
-      "identifier": "oai:jcrt.org:archives:18.3:robertsandhayden",
-      "datestamp": "2019-01-01",
-      "title": "",
-      "creators": [],
-      "subjects": [],
-      "description": "",
-      "publisher": "Whitestone Foundation",
-      "date": "2019-01-01",
-      "type": "article",
-      "format": "text/html",
-      "language": "en",
-      "identifiers": [
-        "1530-5228",
-        "https://jcrt.org/archives/18.3/robertsandhayden/"
-      ],
-      "sources": [
-        "Journal for Cultural & Religious Theory, ISSN 1530-5228",
-        "Vol. 18, No. 3"
-      ],
-      "relations": [
-        "https://jcrt.org/archives/18.3/Roberts.pdf"
       ],
       "rights": "Copyright held by the author(s). Articles are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License."
     },
@@ -25689,33 +25522,6 @@
       "rights": "Copyright held by the author(s). Articles are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License."
     },
     {
-      "identifier": "oai:jcrt.org:archives:24.1:abstracts",
-      "datestamp": "2025-01-01",
-      "title": "Abstracts",
-      "creators": [
-        "editors"
-      ],
-      "subjects": [],
-      "description": "",
-      "publisher": "Whitestone Foundation",
-      "date": "2025-01-01",
-      "type": "article",
-      "format": "text/html",
-      "language": "en",
-      "identifiers": [
-        "1530-5228",
-        "https://jcrt.org/archives/24.1/abstracts/"
-      ],
-      "sources": [
-        "Journal for Cultural & Religious Theory, ISSN 1530-5228",
-        "Vol. 24, No. 1, pp. abstracts.pdf"
-      ],
-      "relations": [
-        "https://jcrt.org/archives/24.1/abstracts.pdf"
-      ],
-      "rights": "Copyright held by the author(s). Articles are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License."
-    },
-    {
       "identifier": "oai:jcrt.org:archives:24.1:bios",
       "datestamp": "2025-01-01",
       "title": "Author Bios",
@@ -26032,31 +25838,6 @@
       ],
       "relations": [
         "https://jcrt.org/archives/24.2/alencar.pdf"
-      ],
-      "rights": "Copyright held by the author(s). Articles are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License."
-    },
-    {
-      "identifier": "oai:jcrt.org:archives:24.2:author-bios",
-      "datestamp": "2026-03-03",
-      "title": "Author Bios",
-      "creators": [],
-      "subjects": [],
-      "description": "",
-      "publisher": "Whitestone Foundation",
-      "date": "2026-03-03",
-      "type": "article",
-      "format": "text/html",
-      "language": "en",
-      "identifiers": [
-        "1530-5228",
-        "https://jcrt.org/archives/24.2/author-bios/"
-      ],
-      "sources": [
-        "Journal for Cultural & Religious Theory, ISSN 1530-5228",
-        "Vol. 24, No. 2, pp. 1-5"
-      ],
-      "relations": [
-        "https://jcrt.org/archives/24.2/author-bios.pdf"
       ],
       "rights": "Copyright held by the author(s). Articles are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License."
     },

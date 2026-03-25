@@ -1,8 +1,11 @@
 import { handleOaiRequest, renderStaticListRecordsResponse } from "../../scripts/lib/oai-pmh.mjs";
 
-const PRIMARY_OAI_PATH = "/sitemaps/oai_dc.xml";
-const ALIAS_OAI_PATH = "/oai";
-const OAI_PATHS = new Set([PRIMARY_OAI_PATH, ALIAS_OAI_PATH]);
+const CANONICAL_OAI_PATH = "/oai";
+const OAI_PATHS = new Set([
+	CANONICAL_OAI_PATH,
+	"/sitemap/oai_dc.xml",
+	"/sitemaps/oai_dc.xml",
+]);
 const OAI_RECORDS_PATH = "/sitemaps/oai-records.json";
 
 function toPlainParams(searchParams) {
@@ -29,7 +32,6 @@ async function loadOaiIndex(origin) {
 export default async (request, context) => {
 	const url = new URL(request.url);
 	if (!OAI_PATHS.has(url.pathname)) return context.next();
-	const isPrimaryPath = url.pathname === PRIMARY_OAI_PATH;
 
 	const method = String(request.method || "GET").toUpperCase();
 	if (method !== "GET" && method !== "HEAD") {
@@ -41,12 +43,11 @@ export default async (request, context) => {
 		});
 	}
 
-	const baseURL = `${url.origin}${url.pathname}`;
+	// Keep one canonical base URL for all aliases so responses are identical.
+	const baseURL = `${url.origin}${CANONICAL_OAI_PATH}`;
 	try {
 		const index = await loadOaiIndex(url.origin);
 		if (!url.searchParams.has("verb")) {
-			// Keep the existing static file path behavior for /sitemaps/oai_dc.xml.
-			if (isPrimaryPath) return context.next();
 			const xml = renderStaticListRecordsResponse({
 				baseURL,
 				records: index?.records || [],
@@ -73,6 +74,7 @@ export default async (request, context) => {
 			records: index?.records || [],
 			identify: {
 				repositoryName: index?.repositoryName,
+				adminName: index?.adminName,
 				adminEmails: index?.adminEmails,
 				earliestDatestamp: index?.earliestDatestamp,
 				deletedRecord: index?.deletedRecord,

@@ -21,6 +21,7 @@ const JOURNAL_TITLE_OAI = "Journal for Cultural & Religious Theory";
 const RIGHTS_TEXT =
   "Copyright held by the author(s). Articles are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.";
 const DOAJ_SKIP_SLUGS = new Set(["index", "author-bios", "table-of-contents", "abstracts", "bios"]);
+const OAI_SKIP_SLUGS = new Set(["author-bios", "abstracts"]);
 
 function parseFrontMatter(content) {
   if (!content.startsWith("---")) return {};
@@ -251,7 +252,13 @@ function generateDoaj(entries) {
 function generateOai(entries) {
   const today = new Date().toISOString().slice(0, 10);
   const records = entries
-    .filter((e) => e.published && !e.sitemapIgnore)
+    .filter((e) => {
+      if (!e.published || e.sitemapIgnore) return false;
+      if (OAI_SKIP_SLUGS.has(String(e.slug || "").toLowerCase())) return false;
+      if (!String(e.title || "").trim()) return false;
+      if (!Array.isArray(e.authors) || e.authors.length === 0) return false;
+      return true;
+    })
     .map((e) => {
       const oaiId = `oai:jcrt.org:archives:${e.issue}:${e.slug}`;
       const datestamp = e.dateStr || today;
@@ -286,8 +293,8 @@ function generateOai(entries) {
       .filter(Boolean)
       .sort()[0] || today;
   const identify = {
-    repositoryName: "Journal for Cultural and Religious Theory",
-    adminEmails: [String(process.env.OAI_ADMIN_EMAIL || "info@jcrt.org").trim()],
+    repositoryName: String(process.env.OAI_REPOSITORY_NAME || "Victor Taylor").trim(),
+    adminEmails: [String(process.env.OAI_ADMIN_EMAIL || "carl.raschke@jcrt.org").trim()],
     earliestDatestamp,
     deletedRecord: "no",
     granularity: "YYYY-MM-DD",

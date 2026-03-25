@@ -2,7 +2,7 @@
 <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
-  <responseDate>2026-03-25T05:44:36.786Z</responseDate>
+  <responseDate>2026-03-25T06:21:03.004Z</responseDate>
   <request verb="ListRecords" metadataPrefix="oai_dc">https://jcrt.org/sitemaps/oai_dc.xml</request>
   <ListRecords>
     <record>
@@ -1808,30 +1808,6 @@
     </record>
     <record>
       <header>
-        <identifier>oai:jcrt.org:archives:03.2:winquist</identifier>
-        <datestamp>2002-01-01</datestamp>
-      </header>
-      <metadata>
-        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
-                   xmlns:dc="http://purl.org/dc/elements/1.1/"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                   xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
-          <dc:title>In Memoriam: Dr. Charles E. Winquist - JCRT 3.2</dc:title>
-          <dc:publisher>Whitestone Foundation</dc:publisher>
-          <dc:date>2002-01-01</dc:date>
-          <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
-          <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/03.2/winquist/</dc:identifier>
-          <dc:source>Journal for Cultural &amp; Religious Theory, ISSN 1530-5228</dc:source>
-          <dc:source>Vol. 3, No. 2</dc:source>
-          <dc:language>en</dc:language>
-          <dc:rights>Copyright held by the author(s). Articles are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.</dc:rights>
-        </oai_dc:dc>
-      </metadata>
-    </record>
-    <record>
-      <header>
         <identifier>oai:jcrt.org:archives:03.3:crockett</identifier>
         <datestamp>2002-01-01</datestamp>
       </header>
@@ -2207,30 +2183,6 @@
     </record>
     <record>
       <header>
-        <identifier>oai:jcrt.org:archives:04.1:index2</identifier>
-        <datestamp>2002-01-01</datestamp>
-      </header>
-      <metadata>
-        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
-                   xmlns:dc="http://purl.org/dc/elements/1.1/"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                   xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
-          <dc:title>Journal for Cultural and Religious Theory - Issue 4.2 - April 2003</dc:title>
-          <dc:publisher>Whitestone Foundation</dc:publisher>
-          <dc:date>2002-01-01</dc:date>
-          <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
-          <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/04.1/index2/</dc:identifier>
-          <dc:source>Journal for Cultural &amp; Religious Theory, ISSN 1530-5228</dc:source>
-          <dc:source>Vol. 4, No. 1</dc:source>
-          <dc:language>en</dc:language>
-          <dc:rights>Copyright held by the author(s). Articles are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.</dc:rights>
-        </oai_dc:dc>
-      </metadata>
-    </record>
-    <record>
-      <header>
         <identifier>oai:jcrt.org:archives:04.1:kosky</identifier>
         <datestamp>2002-01-01</datestamp>
       </header>
@@ -2272,30 +2224,6 @@
           <dc:format>text/html</dc:format>
           <dc:identifier>1530-5228</dc:identifier>
           <dc:identifier>https://jcrt.org/archives/04.1/lokensgard/</dc:identifier>
-          <dc:source>Journal for Cultural &amp; Religious Theory, ISSN 1530-5228</dc:source>
-          <dc:source>Vol. 4, No. 1</dc:source>
-          <dc:language>en</dc:language>
-          <dc:rights>Copyright held by the author(s). Articles are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.</dc:rights>
-        </oai_dc:dc>
-      </metadata>
-    </record>
-    <record>
-      <header>
-        <identifier>oai:jcrt.org:archives:04.1:markmanolopoulos</identifier>
-        <datestamp>2002-01-01</datestamp>
-      </header>
-      <metadata>
-        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
-                   xmlns:dc="http://purl.org/dc/elements/1.1/"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                   xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
-          <dc:title>When Marion’s Theology Seeks Certainty</dc:title>
-          <dc:publisher>Whitestone Foundation</dc:publisher>
-          <dc:date>2002-01-01</dc:date>
-          <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
-          <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/04.1/markmanolopoulos/</dc:identifier>
           <dc:source>Journal for Cultural &amp; Religious Theory, ISSN 1530-5228</dc:source>
           <dc:source>Vol. 4, No. 1</dc:source>
           <dc:language>en</dc:language>
@@ -11850,31 +11778,6 @@
     </record>
     <record>
       <header>
-        <identifier>oai:jcrt.org:archives:11.3:cfp-design</identifier>
-        <datestamp>2011-01-01</datestamp>
-      </header>
-      <metadata>
-        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
-                   xmlns:dc="http://purl.org/dc/elements/1.1/"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                   xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
-          <dc:title>Call for Papers - Design, Mediation, and the Posthuman - An edited anthology exploring the disciplinary intersections of technological mediation, design, and the posthuman.</dc:title>
-          <dc:publisher>Whitestone Foundation</dc:publisher>
-          <dc:date>2011-01-01</dc:date>
-          <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
-          <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/11.3/cfp-design/</dc:identifier>
-          <dc:source>Journal for Cultural &amp; Religious Theory, ISSN 1530-5228</dc:source>
-          <dc:source>Vol. 11, No. 3</dc:source>
-          <dc:language>en</dc:language>
-          <dc:relation>https://jcrt.org/archives/11.3/cfp-design.pdf</dc:relation>
-          <dc:rights>Copyright held by the author(s). Articles are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.</dc:rights>
-        </oai_dc:dc>
-      </metadata>
-    </record>
-    <record>
-      <header>
         <identifier>oai:jcrt.org:archives:11.3:dalton</identifier>
         <datestamp>2011-01-01</datestamp>
       </header>
@@ -20115,30 +20018,6 @@
     </record>
     <record>
       <header>
-        <identifier>oai:jcrt.org:archives:18.3:bios</identifier>
-        <datestamp>2019-01-01</datestamp>
-      </header>
-      <metadata>
-        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
-                   xmlns:dc="http://purl.org/dc/elements/1.1/"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                   xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
-          <dc:title>Author Bios</dc:title>
-          <dc:publisher>Whitestone Foundation</dc:publisher>
-          <dc:date>2019-01-01</dc:date>
-          <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
-          <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/18.3/bios/</dc:identifier>
-          <dc:source>Journal for Cultural &amp; Religious Theory, ISSN 1530-5228</dc:source>
-          <dc:source>Vol. 18, No. 3</dc:source>
-          <dc:language>en</dc:language>
-          <dc:rights>Copyright held by the author(s). Articles are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.</dc:rights>
-        </oai_dc:dc>
-      </metadata>
-    </record>
-    <record>
-      <header>
         <identifier>oai:jcrt.org:archives:18.3:burley</identifier>
         <datestamp>2019-01-01</datestamp>
       </header>
@@ -20345,30 +20224,6 @@
     </record>
     <record>
       <header>
-        <identifier>oai:jcrt.org:archives:18.3:murphy</identifier>
-        <datestamp>2019-01-01</datestamp>
-      </header>
-      <metadata>
-        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
-                   xmlns:dc="http://purl.org/dc/elements/1.1/"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                   xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
-          <dc:publisher>Whitestone Foundation</dc:publisher>
-          <dc:date>2019-01-01</dc:date>
-          <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
-          <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/18.3/murphy/</dc:identifier>
-          <dc:source>Journal for Cultural &amp; Religious Theory, ISSN 1530-5228</dc:source>
-          <dc:source>Vol. 18, No. 3</dc:source>
-          <dc:language>en</dc:language>
-          <dc:relation>https://jcrt.org/archives/18.3/Murphy.pdf</dc:relation>
-          <dc:rights>Copyright held by the author(s). Articles are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.</dc:rights>
-        </oai_dc:dc>
-      </metadata>
-    </record>
-    <record>
-      <header>
         <identifier>oai:jcrt.org:archives:18.3:onishi</identifier>
         <datestamp>2019-01-01</datestamp>
       </header>
@@ -20454,30 +20309,6 @@
           <dc:source>Vol. 18, No. 3, pp. 536-550</dc:source>
           <dc:language>en</dc:language>
           <dc:relation>https://jcrt.org/archives/18.3/robertsandhayden.pdf</dc:relation>
-          <dc:rights>Copyright held by the author(s). Articles are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.</dc:rights>
-        </oai_dc:dc>
-      </metadata>
-    </record>
-    <record>
-      <header>
-        <identifier>oai:jcrt.org:archives:18.3:robertsandhayden</identifier>
-        <datestamp>2019-01-01</datestamp>
-      </header>
-      <metadata>
-        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
-                   xmlns:dc="http://purl.org/dc/elements/1.1/"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                   xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
-          <dc:publisher>Whitestone Foundation</dc:publisher>
-          <dc:date>2019-01-01</dc:date>
-          <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
-          <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/18.3/robertsandhayden/</dc:identifier>
-          <dc:source>Journal for Cultural &amp; Religious Theory, ISSN 1530-5228</dc:source>
-          <dc:source>Vol. 18, No. 3</dc:source>
-          <dc:language>en</dc:language>
-          <dc:relation>https://jcrt.org/archives/18.3/Roberts.pdf</dc:relation>
           <dc:rights>Copyright held by the author(s). Articles are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.</dc:rights>
         </oai_dc:dc>
       </metadata>
@@ -24676,32 +24507,6 @@
     </record>
     <record>
       <header>
-        <identifier>oai:jcrt.org:archives:24.1:abstracts</identifier>
-        <datestamp>2025-01-01</datestamp>
-      </header>
-      <metadata>
-        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
-                   xmlns:dc="http://purl.org/dc/elements/1.1/"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                   xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
-          <dc:title>Abstracts</dc:title>
-          <dc:creator>editors</dc:creator>
-          <dc:publisher>Whitestone Foundation</dc:publisher>
-          <dc:date>2025-01-01</dc:date>
-          <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
-          <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/24.1/abstracts/</dc:identifier>
-          <dc:source>Journal for Cultural &amp; Religious Theory, ISSN 1530-5228</dc:source>
-          <dc:source>Vol. 24, No. 1, pp. abstracts.pdf</dc:source>
-          <dc:language>en</dc:language>
-          <dc:relation>https://jcrt.org/archives/24.1/abstracts.pdf</dc:relation>
-          <dc:rights>Copyright held by the author(s). Articles are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.</dc:rights>
-        </oai_dc:dc>
-      </metadata>
-    </record>
-    <record>
-      <header>
         <identifier>oai:jcrt.org:archives:24.1:bios</identifier>
         <datestamp>2025-01-01</datestamp>
       </header>
@@ -25004,31 +24809,6 @@
           <dc:source>Vol. 24, No. 2, pp. 1-15</dc:source>
           <dc:language>en</dc:language>
           <dc:relation>https://jcrt.org/archives/24.2/alencar.pdf</dc:relation>
-          <dc:rights>Copyright held by the author(s). Articles are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.</dc:rights>
-        </oai_dc:dc>
-      </metadata>
-    </record>
-    <record>
-      <header>
-        <identifier>oai:jcrt.org:archives:24.2:author-bios</identifier>
-        <datestamp>2026-03-03</datestamp>
-      </header>
-      <metadata>
-        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
-                   xmlns:dc="http://purl.org/dc/elements/1.1/"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                   xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
-          <dc:title>Author Bios</dc:title>
-          <dc:publisher>Whitestone Foundation</dc:publisher>
-          <dc:date>2026-03-03</dc:date>
-          <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
-          <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/24.2/author-bios/</dc:identifier>
-          <dc:source>Journal for Cultural &amp; Religious Theory, ISSN 1530-5228</dc:source>
-          <dc:source>Vol. 24, No. 2, pp. 1-5</dc:source>
-          <dc:language>en</dc:language>
-          <dc:relation>https://jcrt.org/archives/24.2/author-bios.pdf</dc:relation>
           <dc:rights>Copyright held by the author(s). Articles are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.</dc:rights>
         </oai_dc:dc>
       </metadata>

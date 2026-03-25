@@ -23,6 +23,24 @@
   bundle = true
   minify = true
 
+[[redirects]]
+  from = "http://jcrt.org/oai"
+  to = "https://jcrt.org/oai"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "http://jcrt.org/sitemaps/oai_dc.xml"
+  to = "https://jcrt.org/sitemaps/oai_dc.xml"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "http://jcrt.org/sitemap/oai_dc.xml"
+  to = "https://jcrt.org/sitemap/oai_dc.xml"
+  status = 302
+  force = true
+
 [[plugins]]
   package = "netlify-plugin-cache"
   [plugins.inputs]
@@ -31,6 +49,10 @@
 [[edge_functions]]
   function = "oai-pmh"
   path = "/sitemaps/oai_dc.xml"
+
+[[edge_functions]]
+  function = "oai-pmh"
+  path = "/sitemap/oai_dc.xml"
 
 [[edge_functions]]
   function = "oai-pmh"
