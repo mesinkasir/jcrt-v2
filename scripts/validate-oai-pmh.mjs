@@ -11,6 +11,8 @@ const OAI_INDEX_PATH = path.join(SITE_DIR, "sitemaps", "oai-records.json");
 const SCHEMA_DIR = path.join(ROOT, "scripts", "schemas", "oai");
 const OAI_PMH_SCHEMA = path.join(SCHEMA_DIR, "OAI-PMH.xsd");
 const OAI_DC_SCHEMA = path.join(SCHEMA_DIR, "oai_dc.xsd");
+const VALIDATE_LEVEL = String(process.env.OAI_VALIDATE_LEVEL || "full").trim().toLowerCase();
+const IS_QUICK_VALIDATE = VALIDATE_LEVEL === "quick";
 
 function assert(condition, message) {
 	if (!condition) {
@@ -157,9 +159,6 @@ function runProtocolChecks({ baseURL, records, identify }) {
 function run() {
 	mustExist(OAI_XML_PATH);
 	mustExist(OAI_INDEX_PATH);
-	mustExist(OAI_PMH_SCHEMA);
-	mustExist(OAI_DC_SCHEMA);
-	ensureXmllintAvailable();
 
 	const index = JSON.parse(fs.readFileSync(OAI_INDEX_PATH, "utf8"));
 	const records = Array.isArray(index.records) ? index.records : [];
@@ -175,6 +174,20 @@ function run() {
 		protocolVersion: index.protocolVersion,
 		compressions: index.compressions,
 	};
+
+	if (IS_QUICK_VALIDATE) {
+		const staticXml = fs.readFileSync(OAI_XML_PATH, "utf8");
+		assert(staticXml.includes("<OAI-PMH"), "Static OAI XML is missing OAI-PMH root.");
+		assert(staticXml.includes("<ListRecords>"), "Static OAI XML is missing ListRecords.");
+		assert(staticXml.includes("<oai_dc:dc"), "Static OAI XML is missing oai_dc metadata.");
+		runProtocolChecks({ baseURL, records, identify });
+		console.log(`[oai:validate] Quick protocol checks passed (${records.length} record(s)).`);
+		return;
+	}
+
+	mustExist(OAI_PMH_SCHEMA);
+	mustExist(OAI_DC_SCHEMA);
+	ensureXmllintAvailable();
 
 	const tempDir = fs.mkdtempSync(path.join(os.tmpdir(), "jcrt-oai-validate-"));
 	try {
