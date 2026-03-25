@@ -11,6 +11,7 @@ const REQUIRED_LOCAL_PATHS = [
 	"/religioustheory/sitemap.xml",
 	"/feed/philpapers.xml",
 	"/sitemaps/oai_dc.xml",
+	"/sitemaps/oai-records.json",
 	"/sitemaps/doaj-archives.xml",
 	"/sitemaps/datacite.xml",
 ];

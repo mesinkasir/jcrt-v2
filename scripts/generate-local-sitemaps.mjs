@@ -1,6 +1,11 @@
 import fs from "node:fs";
 import path from "node:path";
 import yaml from "js-yaml";
+import {
+  buildOaiRecord,
+  OAI_METADATA_PREFIX,
+  renderStaticListRecordsResponse,
+} from "./lib/oai-pmh.mjs";
 
 const ROOT = process.cwd();
 const ARCHIVES_DIR = path.join(ROOT, "content", "archives");
@@ -12,7 +17,7 @@ const ISSN_DASH = "1530-5228";
 const PUBLISHER_DOAJ = "Whitestone Publications";
 const PUBLISHER_OAI = "Whitestone Foundation";
 const JOURNAL_TITLE_DOAJ = "The Journal for Cultural and Religious Theory";
-const JOURNAL_TITLE_OAI = "Journal for Cultural &amp; Religious Theory";
+const JOURNAL_TITLE_OAI = "Journal for Cultural & Religious Theory";
 const RIGHTS_TEXT =
   "Copyright held by the author(s). Articles are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.";
 const DOAJ_SKIP_SLUGS = new Set(["index", "author-bios", "table-of-contents", "abstracts", "bios"]);
@@ -244,65 +249,63 @@ function generateDoaj(entries) {
 }
 
 function generateOai(entries) {
-  const now = new Date().toISOString();
-  const filtered = entries.filter((e) => e.published && !e.sitemapIgnore);
+  const today = new Date().toISOString().slice(0, 10);
+  const records = entries
+    .filter((e) => e.published && !e.sitemapIgnore)
+    .map((e) => {
+      const oaiId = `oai:jcrt.org:archives:${e.issue}:${e.slug}`;
+      const datestamp = e.dateStr || today;
+      const citation = e.volume
+        ? `Vol. ${e.volume}${e.issueNum ? `, No. ${e.issueNum}` : ""}${e.sp ? `, pp. ${e.sp}${e.ep ? `-${e.ep}` : ""}` : ""}`
+        : "";
+      return buildOaiRecord(
+        {
+          identifier: oaiId,
+          datestamp,
+          title: e.title,
+          authors: e.authors,
+          keywords: e.keywords,
+          description: e.description,
+          canonicalUrl: e.canonicalUrl,
+          pdfUrl: e.pdfUrl,
+          citation,
+        },
+        {
+          issn: ISSN_DASH,
+          publisher: PUBLISHER_OAI,
+          rights: RIGHTS_TEXT,
+          sourceTitle: `${JOURNAL_TITLE_OAI}, ISSN ${ISSN_DASH}`,
+        }
+      );
+    });
 
-  const lines = [
-    `<?xml version="1.0" encoding="UTF-8"?>`,
-    `<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"`,
-    `         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"`,
-    `         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">`,
-    `  <responseDate>${escXml(now)}</responseDate>`,
-    `  <request verb="ListRecords" metadataPrefix="oai_dc">https://jcrt.org/sitemaps/oai_dc.xml</request>`,
-    `  <ListRecords>`,
-  ];
+  const baseURL = `${BASE_URL}/sitemaps/oai_dc.xml`;
+  const earliestDatestamp =
+    records
+      .map((record) => String(record.datestamp || ""))
+      .filter(Boolean)
+      .sort()[0] || today;
+  const identify = {
+    repositoryName: "Journal for Cultural and Religious Theory",
+    adminEmails: [String(process.env.OAI_ADMIN_EMAIL || "info@jcrt.org").trim()],
+    earliestDatestamp,
+    deletedRecord: "no",
+    granularity: "YYYY-MM-DD",
+    protocolVersion: "2.0",
+    compressions: ["gzip"],
+  };
 
-  for (const e of filtered) {
-    const oaiId = `oai:jcrt.org:archives:${e.issue}:${e.slug}`;
-    const datestamp = e.dateStr || now.slice(0, 10);
-
-    lines.push(`    <record>`);
-    lines.push(`      <header>`);
-    lines.push(`        <identifier>${escXml(oaiId)}</identifier>`);
-    lines.push(`        <datestamp>${escXml(datestamp)}</datestamp>`);
-    lines.push(`      </header>`);
-    lines.push(`      <metadata>`);
-    lines.push(`        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"`);
-    lines.push(`                   xmlns:dc="http://purl.org/dc/elements/1.1/"`);
-    lines.push(`                   xmlns:dcterms="http://purl.org/dc/terms/"`);
-    lines.push(`                   xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">`);
-
-    if (e.title) lines.push(`          <dc:title>${escXml(e.title)}</dc:title>`);
-    for (const author of e.authors) {
-      lines.push(`          <dc:creator>${escXml(author)}</dc:creator>`);
-    }
-    lines.push(`          <dc:publisher>${escXml(PUBLISHER_OAI)}</dc:publisher>`);
-    lines.push(`          <dc:date>${escXml(datestamp)}</dc:date>`);
-    lines.push(`          <dc:type>article</dc:type>`);
-    lines.push(`          <dc:format>text/html</dc:format>`);
-    lines.push(`          <dc:language>en</dc:language>`);
-    lines.push(`          <dc:identifier>${ISSN_DASH}</dc:identifier>`);
-    lines.push(`          <dc:identifier>${escXml(e.canonicalUrl)}</dc:identifier>`);
-    lines.push(`          <dc:identifier.uri>${escXml(e.canonicalUrl)}</dc:identifier.uri>`);
-    if (e.pdfUrl) lines.push(`          <dc:relation>${escXml(e.pdfUrl)}</dc:relation>`);
-    if (e.description) lines.push(`          <dc:description>${escXml(e.description)}</dc:description>`);
-    for (const kw of e.keywords) {
-      lines.push(`          <dc:subject>${escXml(kw)}</dc:subject>`);
-    }
-    lines.push(`          <dc:rights>${escXml(RIGHTS_TEXT)}</dc:rights>`);
-    lines.push(`          <dc:source>${JOURNAL_TITLE_OAI}, ISSN ${ISSN_DASH}</dc:source>`);
-    if (e.volume) {
-      const citation = `Vol. ${e.volume}${e.issueNum ? `, No. ${e.issueNum}` : ""}${e.sp ? `, pp. ${e.sp}${e.ep ? `-${e.ep}` : ""}` : ""}`;
-      lines.push(`          <dcterms:bibliographicCitation>${escXml(citation)}</dcterms:bibliographicCitation>`);
-    }
-    lines.push(`        </oai_dc:dc>`);
-    lines.push(`      </metadata>`);
-    lines.push(`    </record>`);
-  }
-
-  lines.push(`  </ListRecords>`);
-  lines.push(`</OAI-PMH>`);
-  return { xml: `${lines.join("\n")}\n`, count: filtered.length };
+  return {
+    xml: renderStaticListRecordsResponse({ baseURL, records }),
+    count: records.length,
+    index: {
+      generatedAt: new Date().toISOString(),
+      baseURL,
+      metadataPrefix: OAI_METADATA_PREFIX,
+      ...identify,
+      records,
+    },
+  };
 }
 
 function generateCitationSitemap(entries, extension) {
@@ -341,6 +344,7 @@ writeFile("doaj-archives.xml", doaj.xml);
 
 const oai = generateOai(entries);
 writeFile("oai_dc.xml", oai.xml);
+writeFile("oai-records.json", `${JSON.stringify(oai.index, null, 2)}\n`);
 
 const ris = generateCitationSitemap(entries, ".ris");
 writeFile(path.join("citations", "ris-sitemap.xml"), ris.xml);
@@ -350,5 +354,6 @@ writeFile(path.join("citations", "csl-json-sitemap.xml"), csl.xml);
 
 console.log(`[sitemaps] doaj-archives.xml records: ${doaj.count}`);
 console.log(`[sitemaps] oai_dc.xml records: ${oai.count}`);
+console.log(`[sitemaps] oai-records.json records: ${oai.count}`);
 console.log(`[sitemaps] citations/ris-sitemap.xml URLs: ${ris.count}`);
 console.log(`[sitemaps] citations/csl-json-sitemap.xml URLs: ${csl.count}`);

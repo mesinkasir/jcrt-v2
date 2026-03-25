@@ -29,6 +29,10 @@
     paths = [".cache"]
 
 [[edge_functions]]
+  function = "oai-pmh"
+  path = "/sitemaps/oai_dc.xml"
+
+[[edge_functions]]
   function = "legacy-redirects"
   path = "/*"
 
