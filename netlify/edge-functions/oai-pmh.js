@@ -1,6 +1,8 @@
-import { handleOaiRequest } from "../../scripts/lib/oai-pmh.mjs";
+import { handleOaiRequest, renderStaticListRecordsResponse } from "../../scripts/lib/oai-pmh.mjs";
 
-const OAI_PATH = "/sitemaps/oai_dc.xml";
+const PRIMARY_OAI_PATH = "/sitemaps/oai_dc.xml";
+const ALIAS_OAI_PATH = "/oai";
+const OAI_PATHS = new Set([PRIMARY_OAI_PATH, ALIAS_OAI_PATH]);
 const OAI_RECORDS_PATH = "/sitemaps/oai-records.json";
 
 function toPlainParams(searchParams) {
@@ -26,7 +28,8 @@ async function loadOaiIndex(origin) {
 
 export default async (request, context) => {
 	const url = new URL(request.url);
-	if (url.pathname !== OAI_PATH) return context.next();
+	if (!OAI_PATHS.has(url.pathname)) return context.next();
+	const isPrimaryPath = url.pathname === PRIMARY_OAI_PATH;
 
 	const method = String(request.method || "GET").toUpperCase();
 	if (method !== "GET" && method !== "HEAD") {
@@ -38,12 +41,32 @@ export default async (request, context) => {
 		});
 	}
 
-	// Preserve existing static feed behavior unless a verb query is provided.
-	if (!url.searchParams.has("verb")) return context.next();
-
-	const baseURL = `${url.origin}${OAI_PATH}`;
+	const baseURL = `${url.origin}${url.pathname}`;
 	try {
 		const index = await loadOaiIndex(url.origin);
+		if (!url.searchParams.has("verb")) {
+			// Keep the existing static file path behavior for /sitemaps/oai_dc.xml.
+			if (isPrimaryPath) return context.next();
+			const xml = renderStaticListRecordsResponse({
+				baseURL,
+				records: index?.records || [],
+			});
+			const headers = new Headers({
+				"content-type": "application/xml; charset=UTF-8",
+				"cache-control": "public,max-age=0,must-revalidate",
+			});
+			if (method === "HEAD") {
+				return new Response(null, {
+					status: 200,
+					headers,
+				});
+			}
+			return new Response(xml, {
+				status: 200,
+				headers,
+			});
+		}
+
 		const result = handleOaiRequest({
 			baseURL,
 			params: toPlainParams(url.searchParams),
