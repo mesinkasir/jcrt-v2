@@ -1,8 +1,26 @@
+# Legacy archive article and issue redirects must resolve before the
+# archive directory-index rewrite to avoid redirected 404s.
+/archives/01.2/vahanian /archives/01.2/nvahanian/ 301
+/archives/01.2/vahanian/ /archives/01.2/nvahanian/ 301
+/archives/01.2/wyschograd_raschke.shtml /archives/01.2/wyschogrod_raschke/ 301
+/archives/02.1/reinhard.shtml /archives/02.1/reinhard_lupton/ 301
+/archives/02.1/intro_reinhard_lupton.shtml /archives/02.1/lupton/ 301
+/archives/03.1/taylor.shtml /archives/03.1/ 301
+/archives/04.1/manolopoulos.shtml /archives/04.1/markmanolopoulos/ 301
+/archives/04.2/%20pecora.shtml /archives/04.2/pecora/ 301
+/archives/07.1/zizek-taylor.shtml /archives/07.1/taylor/ 301
+/archives/07.2/mdex.shtml /archives/07.2/ 301
+/archives/:issue/index2/:slug/ /archives/:issue/:slug/ 301
+/archives/:issue/index.shtml /archives/:issue/ 301
+/archives/:issue/index.html /archives/:issue/ 301
+/archives/:issue/index /archives/:issue/ 301
+/archives/:issue/:slug.shtml /archives/:issue/:slug/ 301
+/archives/:issue/:slug.html /archives/:issue/:slug/ 301
+
 # Explicit directory-index serving for archive articles
 # Netlify's directory index resolution fails for /archives/:issue/:slug/ paths
 /archives/:issue/:slug/ /archives/:issue/:slug/index.html 200
 
-# Legacy archive redirects (extensions handled at Cloudflare level)
 /religious-theory.html /religioustheory/ 301
 /searchengine.shtml /search/ 301
 /Literaturecfp.pdf / 301
@@ -12,15 +30,16 @@
 /papers/* /archives/ 301
 /adv/crockett.splash.8.2.shtml / 301
 /adv/* / 301
-/archives/02.1/intro_reinhard_lupton.shtml /archives/02.1/lupton/ 301
-/archives/01.2/wyschograd_raschke.shtml /archives/01.2/wyschogrod_raschke/ 301
-/archives/01.2/vahanian /archives/01.2/nvahanian/ 301
-/archives/01.2/vahanian/ /archives/01.2/nvahanian/ 301
+/archives/18.3/Roberts%20and%20Hayden.pdf /archives/18.3/robertsandhayden.pdf 301
+/archives/17.2/Hagedorn%20and%20Staudigl.pdf /archives/17.2/Hagedorn-and-Staudigl.pdf 301
+/archives/05%20.3/flato.pdf /archives/05.3/flato.pdf 301
+/archives/13.1/lugones.pdf- /archives/13.1/lugones.pdf 301
+/archives/17.2/Leclerq.pdf /archives/17.2/leclercq.pdf 301
+/archives/17.3/Datan.pdf /archives/17.3/Datar.pdf 301
 /archives/06.3/blanton.pdf /archives/06.1/blanton.pdf 301
 /archives/09.1/Malabou.pdf. /archives/09.1/Malabou.pdf 301
 /archives/18.3/Ruetenik.pdf%C2%A0%C2%B7%20PDF%20file /archives/18.3/Ruetenik.pdf 301
-/archives/15.2/valente2 /archives/15.2/valente/ 301
-/archives/07.2/mdex.shtml /archives/07.2/ 301
+/authors/carl-raschke%20copy/ /authors/carl-raschke/ 301
 
 # Specific legacy religioustheory typo-slug redirects
 /religioustheory/2016/09/19/from-heathen-to-sub-human-a-genealogy-of-theinfluence-of-the-decline-of-religion-on-the-rise-of-modern-racism-part-1-oludamini-ogunnaike/ /religioustheory/posts/from-heathen-to-sub-human-a-genealogy-of-the-influence-of-the-decline-of-religion-on-the-rise-of-modern-racism-part-1-oludamini-ogunnaike/ 301
@@ -267,8 +286,6 @@
 # Legacy index2 page redirects
 /index2.shtml / 301
 /index2.html / 301
-/archives/:issue/index2.shtml /archives/:issue/ 301
-/archives/:issue/index2.html /archives/:issue/ 301
 /*/index.php / 301
 /*/indexx.php / 301
 /*/mdex.shtml / 301
@@ -279,7 +296,6 @@
 /archives/24.2/trinkauskait%C4%97.pdf /archives/24.2/trinkauskaite/ 301
 /archives/24.2/trinkauskaitė/ /archives/24.2/trinkauskaite/ 301
 /archives/24.2/trinkauskait%C4%97/ /archives/24.2/trinkauskaite/ 301
-/archives/07.1/zizek-taylor.shtml /archives/07.1/taylor/ 301
 /archives/06.3/kotsko8000.pdf /archives/06.3/kotsko.pdf 301
 /archives/23.1/1 /archives/23.1/ 301
 
