@@ -1,4 +1,5 @@
 ---
-name: "Jode Goudy"
-bio: "Jode Goudy is the author of a JCRT 25.1 memoir on the Yakama Nation amicus brief, treaty rights, sovereignty, and resistance to Christian Discovery. A fuller author profile has not yet been added."
+name: "JoDe Goudy"
+affiliation: "Independent Scholar"
+bio: "JoDe is the former Chairman of the Yakama Nation, JoDe is now with Redthought.org, an educational resource center providing virtual platforms for events, conferences, workshops, and courses. He brings expertise on the Doctrine of Discovery, among other things, to the table."
 ---

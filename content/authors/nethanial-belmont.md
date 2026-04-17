@@ -1,4 +1,9 @@
 ---
 name: "Nethanial Belmont"
-bio: "Nethanial Belmont is a co-author of the JCRT 25.1 postscript on Indigenous sovereignty, decolonization, and the continuing stakes of Christian Discovery. A fuller author profile has not yet been added."
+affiliation: "University of Colorado Boulder"
+bio: "Nethanial Belmont is pursuing a Master of Arts in Religious Studies, along with a graduate certificate in Native American and Indigenous Studies. He earned his Bachelor of Science from Middle Tennessee State University (MTSU), double majoring in Philosophy and Religious Studies with a minor in Social and Political Thought. Utilizing MTSU’s focus on Critical Religious Studies, Nethanial developed a deep fascination with Foucauldian discourse analysis. He applied this framework to anthropological discussions of Cherokee history and its ongoing effects on Cherokee communities, culminating in a published article in an undergraduate research journal. At the University of Colorado Boulder, Nethanial continues to explore how American institutions impact Indigenous Nations, with a particular focus on the Christian biases embedded within these institutions and how they influence, constrain, and often aim to destroy Indigenous epistemologies."
+social:
+  - title: "website"
+    url: "https://orcid.org/0009-0003-5490-0389"
+    icon: fa-solid fa-link
 ---

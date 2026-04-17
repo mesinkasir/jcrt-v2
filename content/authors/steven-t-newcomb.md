@@ -1,4 +1,21 @@
 ---
 name: "Steven T. Newcomb"
-bio: "Steven T. Newcomb is the author of a JCRT 25.1 essay reflecting on decades of inquiry into the Doctrine of Christian Discovery and domination. A fuller author profile has not yet been added."
+affiliation: "Indigenous Law Institute"
+bio: "Steven T. Newcomb (Shawnee/Lenape) is dedicated to supporting Indigenous nations and peoples to protect their sacred ancestral homelands, to restore and revitalize their linguistic, cultural, and spiritual traditions, and to heal from the trauma of colonization and the patterns of domination."
+social:
+  - title: "website"
+    url: "https://stevennewcomb.com/"
+    icon: fa-solid fa-link
+  - title: "Original Free Nations"
+    url: "https://originalfreenations.com/"
+    icon: fa-solid fa-globe
+  - title: "Indigenous Law Institute"
+    url: "https://indigenouslawinstitute.com/"
+    icon: fa-solid fa-scale-balanced
+  - title: "Domination Chronicles Podcast"
+    url: "https://dominationchronicles.com/"
+    icon: fa-solid fa-podcast
+  - title: "Substack"
+    url: "https://stevennewcomb.substack.com/"
+    icon: fa-solid fa-bookmark
 ---
