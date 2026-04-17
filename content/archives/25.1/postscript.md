@@ -3,7 +3,7 @@ layout: archives.njk
 article_number: '09'
 volume: '25'
 issue: '1'
-pages: 140-161
+pages: 129-153
 title: "A Postscript: Sovereignty is Still the Issue"
 author: 'Adam DJ Brett; Betty Hill (Lyons); Nethanial Belmont'
 affiliation: ''
