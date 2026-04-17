@@ -9,7 +9,7 @@ author: 'Jode Goudy'
 affiliation: 'Independent Scholar'
 description: "Jode Goudy recounts how the Yakama Nation built a historic amicus brief, connecting treaty rights, sovereignty, and opposition to Christian Discovery."
 pdf: 'goudy.pdf'
-date: 2026-04-06
+date: 2026-04-16
 keywords:
   - doctrine-of-christian-discovery
   - yakama-nation

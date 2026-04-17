@@ -9,7 +9,7 @@ author: 'Phillip Rodgers-Falk'
 affiliation: 'Macquarie University'
 description: "Phillip Rodgers-Falk argues that native title and colonial sovereignty preserve Indigenous subordination through terra nullius and racial hierarchies."
 pdf: 'rodgers-falk.pdf'
-date: 2026-04-06
+date: 2026-04-16
 keywords:
   - doctrine-of-christian-discovery
   - johnson-v-mintosh

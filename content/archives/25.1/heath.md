@@ -9,7 +9,7 @@ author: 'Joseph J. Heath'
 affiliation: 'Onondaga Nation General Counsel'
 description: "Joseph J. Heath shows how U.S. courts use Christian Discovery to deny Haudenosaunee treaty and land rights, and calls for its repudiation in U.S. law."
 pdf: 'heath.pdf'
-date: 2026-04-06
+date: 2026-04-16
 keywords:
   - christian-discovery
   - christian-domination

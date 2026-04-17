@@ -9,7 +9,7 @@ author: 'Robert J. Miller'
 affiliation: 'Arizona State University'
 description: "Robert J. Miller traces how the Doctrine of Discovery became international law, enabling colonial claims over Indigenous land, rights and sovereignty."
 pdf: 'miller.pdf'
-date: 2026-04-06
+date: 2026-04-16
 keywords:
   - doctrine-of-discovery
   - international-law-of-colonialism

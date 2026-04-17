@@ -9,7 +9,7 @@ author: "Peter d'Errico"
 affiliation: 'University of Massachusetts Amherst'
 description: "Peter d'Errico argues that U.S. anti-Indian law rests on Christian Discovery, and that challenging it exposes a metaphysical crisis in U.S. law today."
 pdf: 'derrico.pdf'
-date: 2026-04-06
+date: 2026-04-16
 keywords:
   - indigenous-sovereignty
   - indigenous-peoples

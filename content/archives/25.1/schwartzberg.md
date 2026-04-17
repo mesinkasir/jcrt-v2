@@ -9,7 +9,7 @@ author: 'Steven J. Schwartzberg'
 affiliation: 'DePaul University'
 description: "Steven J. Schwartzberg urges Americans to overturn Federal Indian Law by confronting the colonial assumptions that still shape U.S. jurisprudence now."
 pdf: 'schwartzberg.pdf'
-date: 2026-04-06
+date: 2026-04-16
 keywords:
   - doctrine-of-christian-discovery
   - johnson-v-mintosh

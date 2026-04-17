@@ -9,7 +9,7 @@ author: 'Steven T. Newcomb'
 affiliation: 'Indigenous Law Institute'
 description: "Steven Newcomb reflects on decades studying Christian Discovery, showing how law and language normalized domination over Native nations for centuries."
 pdf: 'newcomb.pdf'
-date: 2026-04-06
+date: 2026-04-16
 keywords:
   - doctrine-of-christian-discovery
   - us-property-system

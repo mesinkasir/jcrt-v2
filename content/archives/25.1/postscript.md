@@ -9,7 +9,7 @@ author: 'Adam DJ Brett; Betty Hill (Lyons); Nethanial Belmont'
 affiliation: ''
 description: "This postscript argues Indigenous nations need full sovereignty, rejecting settler carve-outs and urging a healing return to precolonial lifeways now."
 pdf: "postscript.pdf"
-date: 2026-04-06
+date: 2026-04-16
 keywords:
   - doctrine-of-christian-discovery
   - johnson-v-mintosh
