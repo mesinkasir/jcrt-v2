@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-25T06:21:03.018Z",
+  "generatedAt": "2026-04-17T01:53:08.935Z",
   "baseURL": "https://jcrt.org/sitemaps/oai_dc.xml",
   "metadataPrefix": "oai_dc",
   "repositoryName": "Victor Taylor",
@@ -26254,7 +26254,8 @@
       "datestamp": "2026-03-03",
       "title": "A Preface to Challenging the Justifications of Domination Through Religion: “We Were Planting Corn, and They Were Planting Crosses”",
       "creators": [
-        "Philip P Arnold, Sandra Bigtree,",
+        "Philip P. Arnold",
+        "Sandra Bigtree",
         "Adam DJ Brett"
       ],
       "subjects": [
@@ -26417,6 +26418,346 @@
       ],
       "relations": [
         "https://jcrt.org/archives/24.2/wagner.pdf"
+      ],
+      "rights": "Copyright held by the author(s). Articles are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License."
+    },
+    {
+      "identifier": "oai:jcrt.org:archives:25.1:conclusion",
+      "datestamp": "2026-04-16",
+      "title": "Conclusion: Dismantling the Doctrine of Christian Discovery Cultivating Right Relations",
+      "creators": [
+        "Philip P. Arnold",
+        "Sandra Bigtree",
+        "Adam DJ Brett"
+      ],
+      "subjects": [
+        "doctrine-of-christian-discovery",
+        "johnson-v-mintosh",
+        "indigenous-sovereignty",
+        "white-supremacy",
+        "decolonization"
+      ],
+      "description": "The conclusion calls for decolonization beyond legal reform, centering Indigenous law, land return, and right relations to resist Christian Discovery.",
+      "publisher": "Whitestone Foundation",
+      "date": "2026-04-16",
+      "type": "article",
+      "format": "text/html",
+      "language": "en",
+      "identifiers": [
+        "1530-5228",
+        "https://jcrt.org/archives/25.1/conclusion/"
+      ],
+      "sources": [
+        "Journal for Cultural & Religious Theory, ISSN 1530-5228",
+        "Vol. 25, No. 1, pp. 137-139"
+      ],
+      "relations": [
+        "https://jcrt.org/archives/25.1/conclusion.pdf"
+      ],
+      "rights": "Copyright held by the author(s). Articles are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License."
+    },
+    {
+      "identifier": "oai:jcrt.org:archives:25.1:derrico",
+      "datestamp": "2026-04-06",
+      "title": "Federal Anti-indian Law: Why a Challenge to “Christian Discovery” Creates a Metaphysical Crisis for the US",
+      "creators": [
+        "Peter d'Errico"
+      ],
+      "subjects": [
+        "indigenous-sovereignty",
+        "indigenous-peoples",
+        "colonization",
+        "colonial-domination",
+        "racial-equality",
+        "anti-indian-law",
+        "legal-formalism",
+        "christian-discovery",
+        "us-property-law",
+        "territorial-authority",
+        "indigenous-rights"
+      ],
+      "description": "Peter d'Errico argues that U.S. anti-Indian law rests on Christian Discovery, and that challenging it exposes a metaphysical crisis in U.S. law today.",
+      "publisher": "Whitestone Foundation",
+      "date": "2026-04-06",
+      "type": "article",
+      "format": "text/html",
+      "language": "en",
+      "identifiers": [
+        "1530-5228",
+        "https://jcrt.org/archives/25.1/derrico/"
+      ],
+      "sources": [
+        "Journal for Cultural & Religious Theory, ISSN 1530-5228",
+        "Vol. 25, No. 1, pp. 1-15"
+      ],
+      "relations": [
+        "https://jcrt.org/archives/25.1/derrico.pdf"
+      ],
+      "rights": "Copyright held by the author(s). Articles are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License."
+    },
+    {
+      "identifier": "oai:jcrt.org:archives:25.1:goudy",
+      "datestamp": "2026-04-06",
+      "title": "Right & Respectful Relations: A Memoir of the Road to the Historic Yakama Nation Amicus Brief Challenging ‘Christian Discovery’ in Washington State V. Cougar Den",
+      "creators": [
+        "Jode Goudy"
+      ],
+      "subjects": [
+        "doctrine-of-christian-discovery",
+        "yakama-nation",
+        "federal-indian-law",
+        "plenary-power",
+        "treaty-rights",
+        "indigenous-sovereignty",
+        "cultural-identity",
+        "tribal-council",
+        "native-cultural-preservation",
+        "resilience",
+        "imposed-legal-systems",
+        "foundational-myths",
+        "equitable-systems",
+        "assertion-of-cultural-rights",
+        "justice-and-equity"
+      ],
+      "description": "Jode Goudy recounts how the Yakama Nation built a historic amicus brief, connecting treaty rights, sovereignty, and opposition to Christian Discovery.",
+      "publisher": "Whitestone Foundation",
+      "date": "2026-04-06",
+      "type": "article",
+      "format": "text/html",
+      "language": "en",
+      "identifiers": [
+        "1530-5228",
+        "https://jcrt.org/archives/25.1/goudy/"
+      ],
+      "sources": [
+        "Journal for Cultural & Religious Theory, ISSN 1530-5228",
+        "Vol. 25, No. 1, pp. 16-50"
+      ],
+      "relations": [
+        "https://jcrt.org/archives/25.1/goudy.pdf"
+      ],
+      "rights": "Copyright held by the author(s). Articles are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License."
+    },
+    {
+      "identifier": "oai:jcrt.org:archives:25.1:heath",
+      "datestamp": "2026-04-06",
+      "title": "The Doctrine of Christian Discovery and Domination: How It Has Been Used by United States Courts to Deny Treaty Rights & Dismiss the Haudenosaunee Land Rights Cases",
+      "creators": [
+        "Joseph J. Heath"
+      ],
+      "subjects": [
+        "christian-discovery",
+        "christian-domination",
+        "treaty-rights",
+        "indigenous-land-rights",
+        "european-claims",
+        "ancestral-land",
+        "indigenous-land",
+        "colonization",
+        "racial-equality",
+        "land-justice",
+        "indigenous-land-reclamation",
+        "treaty-enforcement"
+      ],
+      "description": "Joseph J. Heath shows how U.S. courts use Christian Discovery to deny Haudenosaunee treaty and land rights, and calls for its repudiation in U.S. law.",
+      "publisher": "Whitestone Foundation",
+      "date": "2026-04-06",
+      "type": "article",
+      "format": "text/html",
+      "language": "en",
+      "identifiers": [
+        "1530-5228",
+        "https://jcrt.org/archives/25.1/heath/"
+      ],
+      "sources": [
+        "Journal for Cultural & Religious Theory, ISSN 1530-5228",
+        "Vol. 25, No. 1, pp. 51-60"
+      ],
+      "relations": [
+        "https://jcrt.org/archives/25.1/heath.pdf"
+      ],
+      "rights": "Copyright held by the author(s). Articles are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License."
+    },
+    {
+      "identifier": "oai:jcrt.org:archives:25.1:miller",
+      "datestamp": "2026-04-06",
+      "title": "The International Law of Colonialism: The Doctrine of Discovery",
+      "creators": [
+        "Robert J. Miller"
+      ],
+      "subjects": [
+        "doctrine-of-discovery",
+        "international-law-of-colonialism",
+        "johnson-v-mintosh",
+        "first-discovery",
+        "actual-occupancy-and-possession",
+        "preemption",
+        "native-title",
+        "indigenous-limited-sovereign-and-commercial-rights",
+        "contiguity",
+        "terra-nullius",
+        "christianity",
+        "civilization",
+        "conquest"
+      ],
+      "description": "Robert J. Miller traces how the Doctrine of Discovery became international law, enabling colonial claims over Indigenous land, rights and sovereignty.",
+      "publisher": "Whitestone Foundation",
+      "date": "2026-04-06",
+      "type": "article",
+      "format": "text/html",
+      "language": "en",
+      "identifiers": [
+        "1530-5228",
+        "https://jcrt.org/archives/25.1/miller/"
+      ],
+      "sources": [
+        "Journal for Cultural & Religious Theory, ISSN 1530-5228",
+        "Vol. 25, No. 1, pp. 61-67"
+      ],
+      "relations": [
+        "https://jcrt.org/archives/25.1/miller.pdf"
+      ],
+      "rights": "Copyright held by the author(s). Articles are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License."
+    },
+    {
+      "identifier": "oai:jcrt.org:archives:25.1:newcomb",
+      "datestamp": "2026-04-06",
+      "title": "My Decades-long Inquiry Into the Doctrine of Christian Discovery and Domination",
+      "creators": [
+        "Steven T. Newcomb"
+      ],
+      "subjects": [
+        "doctrine-of-christian-discovery",
+        "us-property-system",
+        "native-nations",
+        "cultural-reclamation",
+        "language-recovery",
+        "colonial-mindset",
+        "boarding-schools",
+        "life-centered-sovereignty",
+        "despotic-dominion",
+        "reclamation",
+        "resistance",
+        "colonial-law"
+      ],
+      "description": "Steven Newcomb reflects on decades studying Christian Discovery, showing how law and language normalized domination over Native nations for centuries.",
+      "publisher": "Whitestone Foundation",
+      "date": "2026-04-06",
+      "type": "article",
+      "format": "text/html",
+      "language": "en",
+      "identifiers": [
+        "1530-5228",
+        "https://jcrt.org/archives/25.1/newcomb/"
+      ],
+      "sources": [
+        "Journal for Cultural & Religious Theory, ISSN 1530-5228",
+        "Vol. 25, No. 1, pp. 68-84"
+      ],
+      "relations": [
+        "https://jcrt.org/archives/25.1/newcomb.pdf"
+      ],
+      "rights": "Copyright held by the author(s). Articles are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License."
+    },
+    {
+      "identifier": "oai:jcrt.org:archives:25.1:postscript",
+      "datestamp": "2026-04-06",
+      "title": "A Postscript: Sovereignty is Still the Issue",
+      "creators": [
+        "Adam DJ Brett",
+        "Betty Hill (Lyons)",
+        "Nethanial Belmont"
+      ],
+      "subjects": [
+        "doctrine-of-christian-discovery",
+        "johnson-v-mintosh",
+        "indigenous-sovereignty",
+        "white-supremacy",
+        "decolonization"
+      ],
+      "description": "This postscript argues Indigenous nations need full sovereignty, rejecting settler carve-outs and urging a healing return to precolonial lifeways now.",
+      "publisher": "Whitestone Foundation",
+      "date": "2026-04-06",
+      "type": "article",
+      "format": "text/html",
+      "language": "en",
+      "identifiers": [
+        "1530-5228",
+        "https://jcrt.org/archives/25.1/postscript/"
+      ],
+      "sources": [
+        "Journal for Cultural & Religious Theory, ISSN 1530-5228",
+        "Vol. 25, No. 1, pp. 140-161"
+      ],
+      "relations": [
+        "https://jcrt.org/archives/25.1/postscript.pdf"
+      ],
+      "rights": "Copyright held by the author(s). Articles are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License."
+    },
+    {
+      "identifier": "oai:jcrt.org:archives:25.1:rodgers-falk",
+      "datestamp": "2026-04-06",
+      "title": "An Intergenerational and Perpetual Imperium of Domination and Subjugation of Indigenous Peoples: The Doctrine of Christian Discovery and Royal Supremacy",
+      "creators": [
+        "Phillip Rodgers-Falk"
+      ],
+      "subjects": [
+        "doctrine-of-christian-discovery",
+        "johnson-v-mintosh",
+        "indigenous-sovereignty",
+        "white-supremacy",
+        "decolonization"
+      ],
+      "description": "Phillip Rodgers-Falk argues that native title and colonial sovereignty preserve Indigenous subordination through terra nullius and racial hierarchies.",
+      "publisher": "Whitestone Foundation",
+      "date": "2026-04-06",
+      "type": "article",
+      "format": "text/html",
+      "language": "en",
+      "identifiers": [
+        "1530-5228",
+        "https://jcrt.org/archives/25.1/rodgers-falk/"
+      ],
+      "sources": [
+        "Journal for Cultural & Religious Theory, ISSN 1530-5228",
+        "Vol. 25, No. 1, pp. 85-99"
+      ],
+      "relations": [
+        "https://jcrt.org/archives/25.1/rodgers-falk.pdf"
+      ],
+      "rights": "Copyright held by the author(s). Articles are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License."
+    },
+    {
+      "identifier": "oai:jcrt.org:archives:25.1:schwartzberg",
+      "datestamp": "2026-04-06",
+      "title": "An Appeal to the American People—Overturning “Federal Indian Law”",
+      "creators": [
+        "Steven J. Schwartzberg"
+      ],
+      "subjects": [
+        "doctrine-of-christian-discovery",
+        "johnson-v-mintosh",
+        "indigenous-sovereignty",
+        "federal-indian-law",
+        "colonization",
+        "decolonization"
+      ],
+      "description": "Steven J. Schwartzberg urges Americans to overturn Federal Indian Law by confronting the colonial assumptions that still shape U.S. jurisprudence now.",
+      "publisher": "Whitestone Foundation",
+      "date": "2026-04-06",
+      "type": "article",
+      "format": "text/html",
+      "language": "en",
+      "identifiers": [
+        "1530-5228",
+        "https://jcrt.org/archives/25.1/schwartzberg/"
+      ],
+      "sources": [
+        "Journal for Cultural & Religious Theory, ISSN 1530-5228",
+        "Vol. 25, No. 1, pp. 100-136"
+      ],
+      "relations": [
+        "https://jcrt.org/archives/25.1/schwartzberg.pdf"
       ],
       "rights": "Copyright held by the author(s). Articles are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License."
     }
