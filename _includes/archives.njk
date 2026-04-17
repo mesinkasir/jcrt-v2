@@ -127,7 +127,8 @@ document.addEventListener("DOMContentLoaded", function() {
         <div class="d-flex flex-wrap gap-2 align-items-center">
           <span class="small text-muted text-uppercase fw-bold">Keywords:</span>
           {% for keyword in displayKeywords %}
-            {% if isLeanBuild %}
+            {% set hasArchiveKeywordPage = tagIndex and tagIndex.archiveKeywords and tagIndex.archiveKeywords.map and tagIndex.archiveKeywords.map[keyword] and tagIndex.archiveKeywords.map[keyword].length %}
+            {% if isLeanBuild or not hasArchiveKeywordPage %}
             <span class="badge bg-secondary-subtle text-secondary border fw-normal">{{ keyword }}</span>
             {% else %}
             <a href="/archives/keywords/{{ keyword | slugify }}/" class="badge bg-secondary-subtle text-secondary border fw-normal text-decoration-none">{{ keyword }}</a>

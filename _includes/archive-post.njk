@@ -157,7 +157,8 @@ layout: base.njk
           <span class="small text-muted text-uppercase fw-bold me-2">{% if isTheoryPost %}Tags{% else %}Keywords{% endif %}:</span>
           {% set tagUrlBase = "/religioustheory/tags/" if isTheoryPost else "/archives/keywords/" %}
           {% for keyword in displayKeywords %}
-            {% if isLeanBuild %}
+            {% set hasArchiveKeywordPage = isTheoryPost or (tagIndex and tagIndex.archiveKeywords and tagIndex.archiveKeywords.map and tagIndex.archiveKeywords.map[keyword] and tagIndex.archiveKeywords.map[keyword].length) %}
+            {% if isLeanBuild or not hasArchiveKeywordPage %}
             <span class="badge bg-light text-dark border fw-normal">{{ keyword }}</span>
             {% else %}
             <a href="{{ tagUrlBase }}{{ keyword | slugify }}/" class="badge bg-light text-dark border fw-normal text-decoration-none">{{ keyword }}</a>
