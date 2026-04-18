@@ -3,13 +3,31 @@ layout: base.njk
 ---
 <div class="col-md-10 mx-auto">
   {% include "partials/nav_desktop.njk" %}
+  {% set urlParts = (page.url or '').split('/') %}
+  {% set issueSlug = urlParts[2] or '' %}
+  {% set displayVolume = jsonEntry.volume or volume %}
+  {% set displayIssue = jsonEntry.issue or issue %}
+  {% set displayArticleNumber = jsonEntry.article_number or article_number %}
+  {% set issueCrumbSlug = issueSlug %}
+  {% if not issueCrumbSlug and displayVolume and displayIssue %}
+    {% set issueCrumbSlug = displayVolume ~ "." ~ displayIssue %}
+  {% endif %}
 
   <div class="container-fluid">
     <article class="py-4">
       <header class="mb-5 border-bottom pb-4">
-        {% if article_number %}
-          <div class="text-primary fw-bold small text-uppercase mb-2">Article No. {{ article_number }}</div>
-        {% endif %}
+        <nav aria-label="breadcrumb" class="mb-2">
+          <ol class="breadcrumb small text-uppercase fw-bold mb-0" style="--bs-breadcrumb-divider: '>';">
+            <li class="breadcrumb-item"><a href="/" class="text-primary text-decoration-none">Home</a></li>
+            <li class="breadcrumb-item"><a href="/archives/" class="text-primary text-decoration-none">Archives</a></li>
+            {% if issueCrumbSlug %}
+              <li class="breadcrumb-item"><a href="/archives/{{ issueCrumbSlug }}/" class="text-primary text-decoration-none">{{ issueCrumbSlug }}</a></li>
+            {% endif %}
+            {% if displayArticleNumber %}
+              <li class="breadcrumb-item active text-primary" aria-current="page">Article No. {{ displayArticleNumber }}</li>
+            {% endif %}
+          </ol>
+        </nav>
 
         <h1 class="serif fw-bold display-4 p-name">{{ jsonEntry.title or title }}</h1>
         

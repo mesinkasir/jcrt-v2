@@ -15,18 +15,28 @@ layout: base.njk
         {% set displayIssue = jsonEntry.issue or issue %}
         {% set displaySeason = jsonEntry.season or season %}
         {% set displayDate = jsonEntry.date or date %}
-        {% set hasIssueNumber = displayVolume or displayIssue %}
+        {% set displayArticleNumber = jsonEntry.article_number or article_number %}
+        {% set issueCrumbSlug = issueSlug %}
+        {% if not issueCrumbSlug and displayVolume and displayIssue %}
+          {% set issueCrumbSlug = displayVolume ~ "." ~ displayIssue %}
+        {% endif %}
 
-        <div class="text-primary fw-bold small text-uppercase mb-2">
-          <a href="/archives/" class="text-primary text-decoration-none">Archives</a>
-          {% if isIssueIndex %}
-            {% if hasIssueNumber %} &rsaquo; Issue {{ displayVolume }}.{{ displayIssue }}{% endif %}
-            {% if displaySeason %}{% if hasIssueNumber %} {% endif %}{{ displaySeason }}{% endif %}
-          {% else %}
-            {% if hasIssueNumber %} &rsaquo; <a href="/archives/{{ issueSlug }}/" class="text-primary text-decoration-none">Issue {{ displayVolume }}.{{ displayIssue }}</a>{% endif %}
-            {% if article_number %}{% if hasIssueNumber %} | {% endif %}Article No. {{ article_number }}{% endif %}
-          {% endif %}
-        </div>
+        <nav aria-label="breadcrumb" class="mb-2">
+          <ol class="breadcrumb small text-uppercase fw-bold mb-0" style="--bs-breadcrumb-divider: '>';">
+            <li class="breadcrumb-item"><a href="/" class="text-primary text-decoration-none">Home</a></li>
+            <li class="breadcrumb-item"><a href="/archives/" class="text-primary text-decoration-none">Archives</a></li>
+            {% if issueCrumbSlug %}
+              {% if isIssueIndex %}
+                <li class="breadcrumb-item active text-primary" aria-current="page">{{ issueCrumbSlug }}</li>
+              {% else %}
+                <li class="breadcrumb-item"><a href="/archives/{{ issueCrumbSlug }}/" class="text-primary text-decoration-none">{{ issueCrumbSlug }}</a></li>
+              {% endif %}
+            {% endif %}
+            {% if not isIssueIndex and displayArticleNumber %}
+              <li class="breadcrumb-item active text-primary" aria-current="page">Article No. {{ displayArticleNumber }}</li>
+            {% endif %}
+          </ol>
+        </nav>
 
         <h1 class="serif fw-bold display-4 mb-3 p-name">{{ jsonEntry.title or title }}</h1>
 
