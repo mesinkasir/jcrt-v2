@@ -2,7 +2,7 @@
 <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
-  <responseDate>2026-04-17T15:35:09.502Z</responseDate>
+  <responseDate>2026-04-18T12:30:59.402Z</responseDate>
   <request verb="ListRecords" metadataPrefix="oai_dc">https://jcrt.org/sitemaps/oai_dc.xml</request>
   <ListRecords>
     <record>
@@ -25635,7 +25635,7 @@
           <dc:identifier>1530-5228</dc:identifier>
           <dc:identifier>https://jcrt.org/archives/25.1/postscript/</dc:identifier>
           <dc:source>Journal for Cultural &amp; Religious Theory, ISSN 1530-5228</dc:source>
-          <dc:source>Vol. 25, No. 1, pp. 140-161</dc:source>
+          <dc:source>Vol. 25, No. 1, pp. 129-153</dc:source>
           <dc:language>en</dc:language>
           <dc:relation>https://jcrt.org/archives/25.1/postscript.pdf</dc:relation>
           <dc:rights>Copyright held by the author(s). Articles are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.</dc:rights>
