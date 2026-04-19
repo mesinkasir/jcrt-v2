@@ -274,6 +274,22 @@ assertRedirectHostPath(
 	"runtime /archives/03.1/dean.pdf"
 );
 
+const malformedPdf = await simulateNetlifyRequest(matcher, "/archives/18.3/Roberts%20and%20Hayden.pdf");
+assertRedirectPath(
+	failures,
+	malformedPdf,
+	"/archives/18.3/robertsandhayden.pdf",
+	"runtime /archives/18.3/Roberts%20and%20Hayden.pdf"
+);
+
+const articlePdfException = await simulateNetlifyRequest(matcher, "/archives/24.2/trinkauskait%C4%97.pdf");
+assertRedirectPath(
+	failures,
+	articlePdfException,
+	"/archives/24.2/trinkauskaite/",
+	"runtime /archives/24.2/trinkauskait%C4%97.pdf"
+);
+
 const index2Dean = await simulateNetlifyRequest(matcher, "/archives/03.1/index2/dean/");
 assertRedirectPath(failures, index2Dean, "/archives/03.1/dean/", "runtime /archives/03.1/index2/dean/");
 

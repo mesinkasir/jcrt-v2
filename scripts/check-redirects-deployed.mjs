@@ -1,5 +1,6 @@
 const BASE_URL = String(process.env.REDIRECT_CHECK_BASE_URL || "https://jcrt.org").replace(/\/+$/, "");
 const MAX_HOPS = Number.parseInt(process.env.REDIRECT_CHECK_MAX_HOPS || "8", 10);
+const SITE_HOST = new URL(`${BASE_URL}/`).host;
 
 const CASES = [
 	{
@@ -7,7 +8,6 @@ const CASES = [
 		path: "/archives/03.1/dean.shtml",
 		minRedirects: 1,
 		firstLocationPath: "/archives/03.1/dean/",
-		expectFinalHost: "jcrt.org",
 		expectFinalPath: "/archives/03.1/dean/",
 		expectFinalStatus: 200,
 	},
@@ -16,7 +16,6 @@ const CASES = [
 		path: "/archives/03.1/dean.html",
 		minRedirects: 1,
 		firstLocationPath: "/archives/03.1/dean/",
-		expectFinalHost: "jcrt.org",
 		expectFinalPath: "/archives/03.1/dean/",
 		expectFinalStatus: 200,
 	},
@@ -32,7 +31,6 @@ const CASES = [
 		path: "/archives/03.1/index2/dean/",
 		minRedirects: 1,
 		firstLocationPath: "/archives/03.1/dean/",
-		expectFinalHost: "jcrt.org",
 		expectFinalPath: "/archives/03.1/dean/",
 		expectFinalStatus: 200,
 	},
@@ -47,7 +45,6 @@ const CASES = [
 		name: "canonical archive article stays stable",
 		path: "/archives/25.1/derrico/",
 		expectNoRedirect: true,
-		expectFinalHost: "jcrt.org",
 		expectFinalPath: "/archives/25.1/derrico/",
 		expectFinalStatus: 200,
 	},
@@ -191,6 +188,9 @@ for (const redirectCase of CASES) {
 
 	if (redirectCase.expectFinalHost && finalUrl.host !== redirectCase.expectFinalHost) {
 		failures.push(`${redirectCase.name}: expected final host ${redirectCase.expectFinalHost}, got ${finalUrl.host}`);
+	}
+	if (!redirectCase.expectFinalHost && redirectCase.expectFinalPath && finalUrl.host !== SITE_HOST) {
+		failures.push(`${redirectCase.name}: expected final host ${SITE_HOST}, got ${finalUrl.host}`);
 	}
 
 	if (redirectCase.expectFinalPath && finalUrl.pathname !== redirectCase.expectFinalPath) {
