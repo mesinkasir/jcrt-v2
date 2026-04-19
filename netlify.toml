@@ -58,6 +58,10 @@
   function = "oai-pmh"
   path = "/oai"
 
+[[edge_functions]]
+  function = "archive-legacy-redirects"
+  path = "/archives/*"
+
 # Cache headers for static assets
 [[headers]]
   for = "/css/*"

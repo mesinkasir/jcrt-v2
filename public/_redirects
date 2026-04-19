@@ -14,8 +14,6 @@
 /archives/:issue/index.shtml /archives/:issue/ 301
 /archives/:issue/index.html /archives/:issue/ 301
 /archives/:issue/index /archives/:issue/ 301
-/archives/:issue/:slug.shtml /archives/:issue/:slug/ 301
-/archives/:issue/:slug.html /archives/:issue/:slug/ 301
 
 # Explicit directory-index serving for archive articles
 # Netlify's directory index resolution fails for /archives/:issue/:slug/ paths
@@ -324,7 +322,6 @@
 /images/* https://files.jcrt.org/images/:splat 200
 /docs/* https://files.jcrt.org/docs/:splat 200
 /citations/* https://files.jcrt.org/citations/:splat 200
-/archives/:issue/:slug.pdf https://files.jcrt.org/archives/:issue/:slug.pdf 200!
 
 /img/*.png /images/:splat.webp 301
 /img/*.jpg /images/:splat.webp 301
