@@ -62,6 +62,22 @@
   function = "archive-legacy-redirects"
   path = "/archives/*"
 
+[[edge_functions]]
+  function = "asset-canonical-redirects"
+  path = "/citations/*"
+
+[[edge_functions]]
+  function = "asset-canonical-redirects"
+  path = "/images"
+
+[[edge_functions]]
+  function = "asset-canonical-redirects"
+  path = "/images/*"
+
+[[edge_functions]]
+  function = "asset-canonical-redirects"
+  path = "/docs/*"
+
 # Cache headers for static assets
 [[headers]]
   for = "/css/*"

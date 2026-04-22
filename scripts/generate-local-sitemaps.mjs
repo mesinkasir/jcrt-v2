@@ -11,6 +11,7 @@ const ROOT = process.cwd();
 const ARCHIVES_DIR = path.join(ROOT, "content", "archives");
 const OUT_DIR = path.join(ROOT, "public", "sitemaps");
 const BASE_URL = "https://jcrt.org";
+const FILES_URL = "https://files.jcrt.org";
 
 const ISSN_PLAIN = "15305228";
 const ISSN_DASH = "1530-5228";
@@ -321,7 +322,7 @@ function generateCitationSitemap(entries, extension) {
     if (!e.published || e.sitemapIgnore) continue;
     const stem = String(e.citationStem || "").trim();
     if (!stem) continue;
-    urls.add(`${BASE_URL}/citations/archives/${e.issue}/${stem}${extension}`);
+    urls.add(`${FILES_URL}/citations/archives/${e.issue}/${stem}${extension}`);
   }
 
   const lines = [

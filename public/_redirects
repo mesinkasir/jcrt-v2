@@ -319,9 +319,9 @@
 /web/ / 301
 
 # split-repo asset bridge (jcrt-v2 -> files.jcrt.org)
-/images/* https://files.jcrt.org/images/:splat 200
-/docs/* https://files.jcrt.org/docs/:splat 200
-/citations/* https://files.jcrt.org/citations/:splat 200
+/images/* https://files.jcrt.org/images/:splat 301
+/docs/* https://files.jcrt.org/docs/:splat 301
+/citations/* https://files.jcrt.org/citations/:splat 301
 
 /img/*.png /images/:splat.webp 301
 /img/*.jpg /images/:splat.webp 301

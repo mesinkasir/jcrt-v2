@@ -1,8 +1,10 @@
 import fs from "node:fs";
 import path from "node:path";
+import { execFileSync } from "node:child_process";
 import { createRequire } from "node:module";
 import { fileURLToPath } from "node:url";
 import archiveLegacyRedirects from "../netlify/edge-functions/archive-legacy-redirects.js";
+import assetCanonicalRedirects from "../netlify/edge-functions/asset-canonical-redirects.js";
 
 const require = createRequire(import.meta.url);
 const redirector = require("netlify-redirector");
@@ -12,6 +14,7 @@ const __dirname = path.dirname(__filename);
 const repoRoot = path.resolve(__dirname, "..");
 const redirectsPath = path.join(repoRoot, "public", "_redirects");
 const netlifyTomlPath = path.join(repoRoot, "netlify.toml");
+const searchConsole403FixturePath = path.join(repoRoot, "scripts", "fixtures", "search-console-403-urls.txt");
 
 function loadRedirectsText() {
 	return fs.readFileSync(redirectsPath, "utf8");
@@ -37,9 +40,25 @@ function findRuleIndex(ruleLines, from, to) {
 	});
 }
 
+function findRule(ruleLines, from, to) {
+	const index = findRuleIndex(ruleLines, from, to);
+	return index === -1 ? null : parseRule(ruleLines[index]);
+}
+
 function assertPresent(failures, ruleLines, from, to) {
 	if (findRuleIndex(ruleLines, from, to) === -1) {
 		failures.push(`missing _redirects rule: ${from} -> ${to}`);
+	}
+}
+
+function assertPresentStatus(failures, ruleLines, from, to, status) {
+	const rule = findRule(ruleLines, from, to);
+	if (!rule) {
+		failures.push(`missing _redirects rule: ${from} -> ${to}`);
+		return;
+	}
+	if (String(rule.status) !== String(status)) {
+		failures.push(`_redirects rule ${from} -> ${to}: expected status ${status}, got ${rule.status || "<empty>"}`);
 	}
 }
 
@@ -100,6 +119,14 @@ function toRedirectTarget(rule, url) {
 	return target.toString();
 }
 
+function safeDecode(value) {
+	try {
+		return decodeURIComponent(value);
+	} catch {
+		return value;
+	}
+}
+
 function buildRedirectsResponse(url, matcher) {
 	const rule = matcher.match(toMatcherRequest(url));
 	if (!rule) return new Response("Not found", { status: 404 });
@@ -130,7 +157,10 @@ async function simulateNetlifyRequest(matcher, pathAndQuery) {
 	const url = new URL(pathAndQuery, "https://jcrt.org");
 	const request = new Request(url.toString(), { method: "GET" });
 	const response = await archiveLegacyRedirects(request, {
-		next: async () => buildRedirectsResponse(url, matcher),
+		next: async () =>
+			assetCanonicalRedirects(request, {
+				next: async () => buildRedirectsResponse(url, matcher),
+			}),
 	});
 
 	return {
@@ -178,6 +208,103 @@ function assertRedirectHostPath(failures, result, expectedHost, expectedPath, la
 	}
 }
 
+function assertRedirectUrl(failures, result, expectedUrl, label) {
+	if (!(result.status >= 300 && result.status < 400)) {
+		failures.push(`${label}: expected redirect status, got ${result.status}`);
+		return;
+	}
+	if (!result.location) {
+		failures.push(`${label}: expected redirect location header`);
+		return;
+	}
+	const actual = new URL(result.location, "https://jcrt.org").toString();
+	const expected = new URL(expectedUrl).toString();
+	if (actual !== expected) {
+		failures.push(`${label}: expected redirect ${expected}, got ${actual}`);
+	}
+}
+
+function assertStatus(failures, result, expectedStatus, label) {
+	if (result.status !== expectedStatus) {
+		failures.push(`${label}: expected status ${expectedStatus}, got ${result.status}`);
+	}
+}
+
+function loadJcrtFilesTrackedPaths() {
+	const filesRepo = path.resolve(repoRoot, "..", "jcrt-files");
+	try {
+		const out = execFileSync("git", ["-C", filesRepo, "ls-files"], { encoding: "utf8" });
+		return new Set(out.split(/\r?\n/).filter(Boolean));
+	} catch {
+		return null;
+	}
+}
+
+async function validateSearchConsole403Fixtures(failures, matcher) {
+	if (!fs.existsSync(searchConsole403FixturePath)) return 0;
+
+	const urls = fs
+		.readFileSync(searchConsole403FixturePath, "utf8")
+		.split(/\r?\n/)
+		.map((line) => line.trim())
+		.filter((line) => line && !line.startsWith("#"));
+	const trackedFiles = loadJcrtFilesTrackedPaths();
+
+	for (const rawUrl of urls) {
+		const result = await simulateNetlifyRequest(matcher, rawUrl);
+		const sourceUrl = new URL(rawUrl);
+		const sourcePath = safeDecode(sourceUrl.pathname);
+
+		if (result.status === 403) {
+			failures.push(`403 fixture ${rawUrl}: still returns 403`);
+			continue;
+		}
+
+		if (sourcePath === "/images" || sourcePath === "/images/") {
+			if (result.status !== 410) {
+				failures.push(`403 fixture ${rawUrl}: expected 410 for bare images directory, got ${result.status}`);
+			}
+			continue;
+		}
+
+		if (sourcePath === "/archives/05.2/taylor/") {
+			if (result.status !== 200) {
+				failures.push(`403 fixture ${rawUrl}: expected archive article to remain 200, got ${result.status}`);
+			}
+			continue;
+		}
+
+		const shouldRedirectToFiles =
+			sourcePath.startsWith("/citations/") || sourcePath === "/images/logos/site.webmanifest";
+		if (!shouldRedirectToFiles) {
+			failures.push(`403 fixture ${rawUrl}: unexpected path in fixture`);
+			continue;
+		}
+
+		if (!(result.status >= 300 && result.status < 400) || !result.location) {
+			failures.push(`403 fixture ${rawUrl}: expected files.jcrt.org redirect, got ${result.status}`);
+			continue;
+		}
+
+		const locationUrl = new URL(result.location, "https://jcrt.org");
+		if (locationUrl.host !== "files.jcrt.org") {
+			failures.push(`403 fixture ${rawUrl}: expected files.jcrt.org redirect, got ${locationUrl.host}`);
+		}
+		if (locationUrl.search) {
+			failures.push(`403 fixture ${rawUrl}: expected clean redirect without query, got ${locationUrl.toString()}`);
+		}
+
+		if (trackedFiles && sourcePath.startsWith("/citations/")) {
+			const targetPath = safeDecode(locationUrl.pathname).replace(/^\/+/, "");
+			if (!trackedFiles.has(targetPath)) {
+				failures.push(`403 fixture ${rawUrl}: redirect target is not tracked in jcrt-files (${targetPath})`);
+			}
+		}
+	}
+
+	return urls.length;
+}
+
 const redirectsText = loadRedirectsText();
 const ruleLines = loadRuleLines(redirectsText);
 const failures = [];
@@ -215,6 +342,12 @@ const nonArchiveRules = [
 	["/authors/carl-raschke%20copy/", "/authors/carl-raschke/"],
 ];
 
+const assetBridgeRules = [
+	["/images/*", "https://files.jcrt.org/images/:splat"],
+	["/docs/*", "https://files.jcrt.org/docs/:splat"],
+	["/citations/*", "https://files.jcrt.org/citations/:splat"],
+];
+
 const malformedPdfRules = [
 	["/archives/18.3/Roberts%20and%20Hayden.pdf", "/archives/18.3/robertsandhayden.pdf"],
 	["/archives/17.2/Hagedorn%20and%20Staudigl.pdf", "/archives/17.2/Hagedorn-and-Staudigl.pdf"],
@@ -226,6 +359,10 @@ const malformedPdfRules = [
 
 for (const rule of [...archiveExceptions, ...archiveIndexRules, archiveRewriteRule, ...nonArchiveRules, ...malformedPdfRules]) {
 	assertPresent(failures, ruleLines, rule[0], rule[1]);
+}
+
+for (const rule of assetBridgeRules) {
+	assertPresentStatus(failures, ruleLines, rule[0], rule[1], 301);
 }
 
 for (const rule of removedArchiveRules) {
@@ -246,6 +383,9 @@ if (netlifyToml.includes('function = "legacy-redirects"')) {
 }
 if (!netlifyToml.includes('function = "archive-legacy-redirects"')) {
 	failures.push('netlify.toml is missing edge function "archive-legacy-redirects"');
+}
+if (!netlifyToml.includes('function = "asset-canonical-redirects"')) {
+	failures.push('netlify.toml is missing edge function "asset-canonical-redirects"');
 }
 
 for (const deletedPath of [
@@ -290,8 +430,78 @@ assertRedirectPath(
 	"runtime /archives/24.2/trinkauskait%C4%97.pdf"
 );
 
+const marionTaylorPdf = await simulateNetlifyRequest(
+	matcher,
+	"http://www.jcrt.org/archives/07.2/marion-taylor-intro.pdf"
+);
+assertRedirectUrl(
+	failures,
+	marionTaylorPdf,
+	"https://jcrt.org/archives/07.2/taylor/",
+	"runtime http://www.jcrt.org/archives/07.2/marion-taylor-intro.pdf"
+);
+
+const marionTaylorPdfQuery = await simulateNetlifyRequest(
+	matcher,
+	"http://www.jcrt.org/archives/07.2/marion-taylor-intro.pdf?iframe=true&width=80%25&height=80%25"
+);
+assertRedirectUrl(
+	failures,
+	marionTaylorPdfQuery,
+	"https://jcrt.org/archives/07.2/taylor/",
+	"runtime http://www.jcrt.org/archives/07.2/marion-taylor-intro.pdf?iframe=true&width=80%&height=80%"
+);
+
 const index2Dean = await simulateNetlifyRequest(matcher, "/archives/03.1/index2/dean/");
 assertRedirectPath(failures, index2Dean, "/archives/03.1/dean/", "runtime /archives/03.1/index2/dean/");
+
+const citationCaseAlias = await simulateNetlifyRequest(matcher, "/citations/archives/17.1/Muraca.csl.json");
+assertRedirectUrl(
+	failures,
+	citationCaseAlias,
+	"https://files.jcrt.org/citations/archives/17.1/muraca.csl.json",
+	"runtime /citations/archives/17.1/Muraca.csl.json"
+);
+
+const citationPassthrough = await simulateNetlifyRequest(matcher, "/citations/archives/05.2/conroy.ris");
+assertRedirectUrl(
+	failures,
+	citationPassthrough,
+	"https://files.jcrt.org/citations/archives/05.2/conroy.ris",
+	"runtime /citations/archives/05.2/conroy.ris"
+);
+
+const citationStaleAlias = await simulateNetlifyRequest(matcher, "/citations/archives/01.2/vahanian.ris");
+assertRedirectUrl(
+	failures,
+	citationStaleAlias,
+	"https://files.jcrt.org/citations/archives/01.2/nvahanian.ris",
+	"runtime /citations/archives/01.2/vahanian.ris"
+);
+
+const citationPostscriptAlias = await simulateNetlifyRequest(matcher, "/citations/archives/25.1/brett-and-hill.ris");
+assertRedirectUrl(
+	failures,
+	citationPostscriptAlias,
+	"https://files.jcrt.org/citations/archives/25.1/postscript.ris",
+	"runtime /citations/archives/25.1/brett-and-hill.ris"
+);
+
+const manifestRedirect = await simulateNetlifyRequest(matcher, "/images/logos/site.webmanifest");
+assertRedirectUrl(
+	failures,
+	manifestRedirect,
+	"https://files.jcrt.org/images/logos/site.webmanifest",
+	"runtime /images/logos/site.webmanifest"
+);
+
+const imagesRoot = await simulateNetlifyRequest(matcher, "/images/");
+assertStatus(failures, imagesRoot, 410, "runtime /images/");
+
+const archiveTaylor = await simulateNetlifyRequest(matcher, "/archives/05.2/taylor/");
+assertStatus(failures, archiveTaylor, 200, "runtime /archives/05.2/taylor/");
+
+const searchConsole403Count = await validateSearchConsole403Fixtures(failures, matcher);
 
 const missingArticle = await simulateNetlifyRequest(matcher, "/archives/03.1/does-not-exist/");
 if (missingArticle.status >= 300 && missingArticle.status < 400) {
@@ -316,5 +526,5 @@ if (failures.length > 0) {
 }
 
 console.log(
-	`Validated ${archiveExceptions.length} archive exceptions, ${archiveIndexRules.length} archive index rules, runtime matcher behavior, and archive edge redirects.`
+	`Validated ${archiveExceptions.length} archive exceptions, ${archiveIndexRules.length} archive index rules, ${searchConsole403Count} Search Console 403 fixtures, runtime matcher behavior, and edge redirects.`
 );

@@ -2,6 +2,9 @@ const ARCHIVE_ROOT_RE = /^\/archives\/([^/]+)\/(.+)$/i;
 const ARCHIVE_INDEX_RE = /^index(?:\.(?:shtml|html))?\/?$/i;
 const ARCHIVE_ARTICLE_EXT_RE = /^([^/]+)\.(shtml|html)$/i;
 const ARCHIVE_PDF_RE = /^([^/]+)\.pdf$/i;
+const STRIP_SEARCH_ARCHIVE_REDIRECTS = new Map([
+	["/archives/07.2/marion-taylor-intro.pdf", "https://jcrt.org/archives/07.2/taylor/"],
+]);
 const LEGACY_ARCHIVE_PDF_REDIRECTS = new Map([
 	["/archives/18.3/Roberts and Hayden.pdf", "/archives/18.3/robertsandhayden.pdf"],
 	["/archives/17.2/Hagedorn and Staudigl.pdf", "/archives/17.2/Hagedorn-and-Staudigl.pdf"],
@@ -37,6 +40,12 @@ function buildRedirectURL(requestUrl, target) {
 	return out;
 }
 
+function buildCleanRedirectURL(requestUrl, target) {
+	const out = new URL(target, requestUrl.origin);
+	out.search = "";
+	return out;
+}
+
 function toPathSegment(value) {
 	return encodeURIComponent(value).replace(/%2F/gi, "");
 }
@@ -49,6 +58,11 @@ export default async (request, context) => {
 	const pathname = normalizePathname(requestUrl.pathname);
 	const archiveMatch = pathname.match(ARCHIVE_ROOT_RE);
 	if (!archiveMatch) return context.next();
+
+	const cleanTarget = STRIP_SEARCH_ARCHIVE_REDIRECTS.get(pathname);
+	if (cleanTarget) {
+		return Response.redirect(buildCleanRedirectURL(requestUrl, cleanTarget), 301);
+	}
 
 	const legacyPdfTarget = LEGACY_ARCHIVE_PDF_REDIRECTS.get(pathname);
 	if (legacyPdfTarget) {
