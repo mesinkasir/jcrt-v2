@@ -3,9 +3,8 @@ layout: blog.njk
 title: Blogs
 description: Update blog articles
 pagination:
-  data: collections.posts
+  data: collections.blog
   size: 6
-  reverse: true
 testdata:
   - item1
   - item2
