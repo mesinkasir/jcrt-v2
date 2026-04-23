@@ -1,4 +1,4 @@
-<div class="reading-shell reading-shell--archive">
+<div class="jcrt-frame jcrt-frame--archive">
   {% include "partials/nav_desktop.njk" %}
   {% set urlParts = (page.url or '').split('/') %}
   {% set issueSlug = urlParts[2] or '' %}
@@ -14,11 +14,10 @@
     {% set issueCrumbSlug = displayVolume ~ "." ~ displayIssue %}
   {% endif %}
 
-  <div class="container-fluid">
-    <article class="reading-article py-4">
-      <header class="reading-header mb-5 border-bottom pb-4">
-        <nav aria-label="breadcrumb" class="mb-2">
-          <ol class="breadcrumb small text-uppercase fw-bold mb-0" style="--bs-breadcrumb-divider: '>';">
+  <article class="jcrt-article jcrt-article--archive">
+      <header class="jcrt-article-header">
+        <nav aria-label="breadcrumb" class="jcrt-breadcrumb">
+          <ol>
             <li class="breadcrumb-item"><a href="/" class="text-primary text-decoration-none">Home</a></li>
             <li class="breadcrumb-item"><a href="/archives/" class="text-primary text-decoration-none">Archives</a></li>
             {% if issueCrumbSlug %}
@@ -34,18 +33,18 @@
           </ol>
         </nav>
 
-        <h1 class="serif fw-bold display-4 mb-3 p-name">{{ jsonEntry.title or title }}</h1>
+        <h1 class="jcrt-article-title p-name">{{ jsonEntry.title or title }}</h1>
 
         {% if isIssueIndex %}
           {% set issueImage = (image | ensureImage('/images/jcrt-open-graph.webp')) if image else (metadata.files_url + '/images/logos/JCRT.svg') %}
           {% set issueImageWidth = issue_image_width %}
           {% set issueImageHeight = issue_image_height %}
-          <div class="reading-media mb-4">
+          <figure class="jcrt-article-media">
             <img
               src="{{ issueImage | preferWebp }}"
               data-fallback-src="{{ issueImage }}"
               alt="{{ title or 'Journal issue cover image' }}"
-              class="img-fluid rounded shadow-sm {% if issueImageWidth and issueImageHeight %}issue-index-cover issue-index-cover--custom{% else %}w-100{% endif %}"
+              class="jcrt-article-image {% if issueImageWidth and issueImageHeight %}issue-index-cover issue-index-cover--custom{% endif %}"
               {% if issueImageWidth and issueImageHeight %}
               width="{{ issueImageWidth }}"
               height="{{ issueImageHeight }}"
@@ -58,31 +57,31 @@
               decoding="async"
               onerror="if(this.dataset.fallbackAttempted){this.onerror=null;this.src='{{ metadata.files_url }}/images/jcrt-open-graph.webp';}else{this.dataset.fallbackAttempted='1';this.src=this.dataset.fallbackSrc||'{{ metadata.files_url }}/images/jcrt-open-graph.webp';}"
             >
-          </div>
+          </figure>
         {% endif %}
 
         {% if not isIssueIndex and image %}
           {% set defaultPostImage = metadata.files_url + "/images/jcrt-open-graph.webp" %}
           {% set postImage = (image | ensureImage(defaultPostImage)) %}
           {% set postImagePreferred = (postImage | preferWebp) %}
-          <div class="reading-media mb-4">
+          <figure class="jcrt-article-media">
             <img
               src="{{ postImagePreferred }}"
               data-fallback-src="{{ postImage }}"
               alt="{{ title }}"
-              class="img-fluid rounded shadow-sm w-100"
+              class="jcrt-article-image"
               {% imageAttrs postImage, 1200, 675 %}
               loading="eager"
               fetchpriority="high"
               decoding="async"
               onerror="if(this.dataset.fallbackAttempted){this.onerror=null;this.src='{{ metadata.files_url }}/images/jcrt-open-graph.webp';}else{this.dataset.fallbackAttempted='1';this.src=this.dataset.fallbackSrc||'{{ metadata.files_url }}/images/jcrt-open-graph.webp';}"
             >
-          </div>
+          </figure>
         {% endif %}
 
         {% set authorRaw = jsonEntry.author or author %}
         {% if authorRaw %}
-          <div class="text-muted mb-3 p-author h-card">
+          <div class="jcrt-article-byline p-author h-card">
             {% set authorNames = authorRaw | splitAuthors %}
             <span class="fw-bold text-dark">
               {%- for aName in authorNames -%}
@@ -99,7 +98,7 @@
           </div>
         {% endif %}
 
-        <div class="d-flex flex-wrap gap-3 align-items-center small text-muted">
+        <div class="jcrt-action-row jcrt-action-row--meta">
           {% if displayDate %}
             <span class="dt-published"><i class="bi bi-calendar3"></i> {{ displayDate | postDate }}</span>
           {% endif %}
@@ -122,17 +121,17 @@
       </header>
 
       {% if abstract %}
-      <section class="abstract mb-5 p-4 bg-light border-start border-4 border-primary">
-        <h5 class="fw-bold text-uppercase small text-primary">Abstract</h5>
+      <section class="jcrt-abstract">
+        <h2>Abstract</h2>
         <div class="serif italic">{{ abstract | markdownify | safe }}</div>
       </section>
       {% endif %}
 
-      <div class="reading-body article-body serif archive-content">
+      <div class="jcrt-article-content article-body serif archive-content">
         {% set finalHTML = jsonEntry.content | markdownify if jsonEntry.content else content %}
         {% if not isIssueIndex %}
-        <div id="custom-toc-container" class="reading-toc p-3 bg-light mb-4 d-none border">
-          <h4 class="h6 text-uppercase fw-bold border-bottom pb-2">Table of Contents</h4>
+        <div id="custom-toc-container" class="jcrt-toc d-none">
+          <h2>Table of Contents</h2>
           <ul id="toc-list" class="list-unstyled mb-0"></ul>
         </div>
         {% endif %}
@@ -161,10 +160,10 @@
       {% set encodedShareTitle = shareTitle | urlencode %}
       {% set shareOpenlyHref = "https://shareopenly.org/share/?url=" + shareUrl + "&text=" + shareTitle %}
 
-      <footer class="reading-footer mt-5 pt-4 border-top">
+      <footer class="jcrt-article-footer">
         {% if displayKeywords and displayKeywords.length > 0 %}
-        <div class="d-flex flex-wrap gap-2 align-items-center">
-          <span class="small text-muted text-uppercase fw-bold me-2">{% if isTheoryPost %}Tags{% else %}Keywords{% endif %}:</span>
+        <div class="jcrt-taxonomy-row">
+          <span class="jcrt-footer-label">{% if isTheoryPost %}Tags{% else %}Keywords{% endif %}:</span>
           {% set tagUrlBase = "/religioustheory/tags/" if isTheoryPost else "/archives/keywords/" %}
           {% for keyword in displayKeywords %}
             {% set hasArchiveKeywordPage = isTheoryPost or (tagIndex and tagIndex.archiveKeywords and tagIndex.archiveKeywords.map and tagIndex.archiveKeywords.map[keyword] and tagIndex.archiveKeywords.map[keyword].length) %}
@@ -178,8 +177,8 @@
         {% endif %}
 
         {% if isTheoryPost and categories and categories.length > 0 %}
-        <div class="d-flex flex-wrap gap-2 align-items-center mt-3">
-          <span class="small text-muted text-uppercase fw-bold me-2">Categories:</span>
+        <div class="jcrt-taxonomy-row">
+          <span class="jcrt-footer-label">Categories:</span>
           {% for cat in categories %}
             {% if isLeanBuild %}
             <span class="badge bg-light text-dark border fw-normal">{{ cat }}</span>
@@ -192,7 +191,7 @@
 
         {% if not isIssueIndex %}
         {% set hasFooterMeta = (displayKeywords and displayKeywords.length > 0) or (isTheoryPost and categories and categories.length > 0) %}
-        <div class="d-flex flex-wrap align-items-center gap-2 {% if hasFooterMeta %}mt-3{% endif %}" data-pagefind-ignore>
+        <div class="jcrt-action-row {% if hasFooterMeta %}jcrt-action-row--spaced{% endif %}" data-pagefind-ignore>
           <a
             href="{{ shareOpenlyHref }}"
             class="btn btn-outline-secondary btn-sm"
@@ -236,7 +235,6 @@
         {% endif %}
       </footer>
     </article>
-  </div>
 </div>
 
 {% if not isIssueIndex %}

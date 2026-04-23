@@ -1,147 +1,144 @@
 ---
 layout: base.njk
 ---
-<div class="reading-shell reading-shell--post">
+<div class="jcrt-frame jcrt-frame--post">
   {% include "partials/nav_desktop.njk" %}
-  <div class="container-fluid">
-    <article class="reading-article py-4">
-      <header class="reading-header mb-5 border-bottom pb-4">
-        {% if date %}<p class="text-secondary dt-published">{{ date | readableDate("dd LLLL yyyy") }}</p>{% endif %}
-        <h1 class="hero-post-title p-name"><strong>{{ title }}</strong></h1>
-        {% if description %}<h2 class="lead text-secondary">{{ description }}</h2>{% endif %}
+  <article class="jcrt-article jcrt-article--post">
+    <header class="jcrt-article-header">
+      {% if date %}<p class="jcrt-article-meta dt-published">{{ date | readableDate("dd LLLL yyyy") }}</p>{% endif %}
+      <h1 class="jcrt-article-title p-name">{{ title }}</h1>
+      {% if description %}<p class="jcrt-article-dek">{{ description }}</p>{% endif %}
 
-        {% if page.url and page.url.startsWith('/archives/') and author %}
-          <p class="text-secondary">
-            {% set authorNames = author.split(';') %}
-            {% for aName in authorNames %}
-              {% set trimmedName = aName | trim %}
-              {% if trimmedName %}
-                {% set aSlug = trimmedName | authorSlug %}
-                {% set authorObj = collections.authors | getAuthorObj(aSlug) %}
-                {% if authorObj %}<a href="{{ authorObj.url }}">{{ trimmedName }}</a>{% else %}{{ trimmedName }}{% endif %}
-                {% if not loop.last %}; {% endif %}
-              {% endif %}
-            {% endfor %}
-            {% if affiliation or affilation %}&nbsp;|&nbsp;{{ affiliation or affilation }}{% endif %}
-          </p>
-        {% endif %}
-        {% if page.url and page.url.startsWith('/archives/') and abstract %}<p class="text-secondary">{{ abstract }}</p>{% endif %}
-        {% if page.url and page.url.startsWith('/archives/') and pdf and pdfUrl %}
-          <p><a href="{{ pdfUrl }}" class="btn btn-primary text-white" target="_blank" rel="noopener"><svg class="icon-svg me-2" aria-hidden="true"><use href="#fa-file-pdf"/></svg>View Article (PDF)</a></p>
-        {% endif %}
+      {% if page.url and page.url.startsWith('/archives/') and author %}
+        <p class="jcrt-article-byline">
+          {% set authorNames = author.split(';') %}
+          {% for aName in authorNames %}
+            {% set trimmedName = aName | trim %}
+            {% if trimmedName %}
+              {% set aSlug = trimmedName | authorSlug %}
+              {% set authorObj = collections.authors | getAuthorObj(aSlug) %}
+              {% if authorObj %}<a href="{{ authorObj.url }}">{{ trimmedName }}</a>{% else %}{{ trimmedName }}{% endif %}
+              {% if not loop.last %}; {% endif %}
+            {% endif %}
+          {% endfor %}
+          {% if affiliation or affilation %}<span class="jcrt-meta-separator">|</span>{{ affiliation or affilation }}{% endif %}
+        </p>
+      {% endif %}
+      {% if page.url and page.url.startsWith('/archives/') and abstract %}<p class="jcrt-article-dek">{{ abstract }}</p>{% endif %}
 
-        {% if social %}
-          <p>
-            {% for s in social %}
-              <a href="{{ s.url }}" title="{{ s.title }}"><svg class="icon-svg me-2" aria-hidden="true"><use href="#{{ s.icon | iconId }}"/></svg></a>
-            {% endfor %}
-          </p>
-        {% endif %}
-
-        {% if button %}
-          <p>
-            {% for b in button %}
-              <a href="{{ b.url }}" class="btn btn-primary me-2 text-white">{{ b.title }}</a>
-            {% endfor %}
-          </p>
-        {% endif %}
-      </header>
-
-      {% if image %}
-        {% set postImage = image | ensureImage('/images/jcrt-open-graph.webp') %}
-        {% if page.url and page.url.startsWith('/archives/') %}
-          <div class="reading-media reading-media--portrait text-center mb-5">
-            <img class="img-post rounded" alt="{{ title }}" width="250" height="250" src="{{ postImage | preferWebp }}" data-fallback-src="{{ postImage }}" onerror="if(this.dataset.fallbackAttempted){this.onerror=null;this.src='{{ metadata.files_url }}/images/jcrt-open-graph.webp';}else{this.dataset.fallbackAttempted='1';this.src=this.dataset.fallbackSrc||'{{ metadata.files_url }}/images/jcrt-open-graph.webp';}"/>
-          </div>
-        {% else %}
-          <div class="reading-media mb-5">
-            <img class="img-post rounded" alt="{{ title }}" src="{{ postImage | preferWebp }}" data-fallback-src="{{ postImage }}" {% imageAttrs postImage, 1200, 675 %} loading="lazy" decoding="async" onerror="if(this.dataset.fallbackAttempted){this.onerror=null;this.src='{{ metadata.files_url }}/images/jcrt-open-graph.webp';}else{this.dataset.fallbackAttempted='1';this.src=this.dataset.fallbackSrc||'{{ metadata.files_url }}/images/jcrt-open-graph.webp';}"/>
-          </div>
-        {% endif %}
+      {% if page.url and page.url.startsWith('/archives/') and pdf and pdfUrl %}
+        <div class="jcrt-action-row">
+          <a href="{{ pdfUrl }}" class="btn btn-primary text-white" target="_blank" rel="noopener">
+            <svg class="icon-svg me-2" aria-hidden="true"><use href="#fa-file-pdf"/></svg>View Article (PDF)
+          </a>
+        </div>
       {% endif %}
 
-      <div class="reading-body serif e-content"{% if isFastBuild and page.url and page.url.startsWith('/archives/') %} data-pagefind-ignore{% endif %}>
-        {{ content | toc | safe }}
-        {{ content | safe }}
+      {% if social %}
+        <div class="jcrt-icon-row">
+          {% for s in social %}
+            <a href="{{ s.url }}" title="{{ s.title }}"><svg class="icon-svg me-2" aria-hidden="true"><use href="#{{ s.icon | iconId }}"/></svg></a>
+          {% endfor %}
+        </div>
+      {% endif %}
 
-        {% set filteredTags = tags | filterTagList %}
-        {% if filteredTags | length %}
-          <hr/>
-          <p class="small">
-            Tags:
-            {%- for tag in filteredTags %}
-              {%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-              {% if isLeanBuild %}
-              <span class="btn btn-sm btn-primary ms-2 disabled">{{ tag }}</span>
-              {% else %}
-              <a href="{{ tagUrl }}" class="btn btn-sm btn-primary ms-2">{{ tag }}</a>
-              {% endif %}
-            {% endfor %}
-          </p>
-          <hr/>
-        {% endif %}
+      {% if button %}
+        <div class="jcrt-action-row">
+          {% for b in button %}
+            <a href="{{ b.url }}" class="btn btn-primary me-2 text-white">{{ b.title }}</a>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </header>
 
-        {% if author and not (page.url and page.url.startsWith('/archives/')) %}
-          {% set authorKeys = author.split(',') %}
-          <div class="author-box-container row">
-            {%- for authorKey in authorKeys %}
-              {% set trimmedKey = authorKey | trim %}
-              {% set currentAuthor = collections.authors | getAuthorObj(trimmedKey) %}
+    {% if image %}
+      {% set postImage = image | ensureImage('/images/jcrt-open-graph.webp') %}
+      {% if page.url and page.url.startsWith('/archives/') %}
+        <figure class="jcrt-article-media jcrt-article-media--portrait">
+          <img class="jcrt-article-image" alt="{{ title }}" width="250" height="250" src="{{ postImage | preferWebp }}" data-fallback-src="{{ postImage }}" onerror="if(this.dataset.fallbackAttempted){this.onerror=null;this.src='{{ metadata.files_url }}/images/jcrt-open-graph.webp';}else{this.dataset.fallbackAttempted='1';this.src=this.dataset.fallbackSrc||'{{ metadata.files_url }}/images/jcrt-open-graph.webp';}"/>
+        </figure>
+      {% else %}
+        <figure class="jcrt-article-media">
+          <img class="jcrt-article-image" alt="{{ title }}" src="{{ postImage | preferWebp }}" data-fallback-src="{{ postImage }}" {% imageAttrs postImage, 1200, 675 %} loading="lazy" decoding="async" onerror="if(this.dataset.fallbackAttempted){this.onerror=null;this.src='{{ metadata.files_url }}/images/jcrt-open-graph.webp';}else{this.dataset.fallbackAttempted='1';this.src=this.dataset.fallbackSrc||'{{ metadata.files_url }}/images/jcrt-open-graph.webp';}"/>
+        </figure>
+      {% endif %}
+    {% endif %}
 
-              {% if currentAuthor %}
-                <div class="col-md-6 mb-4">
-                  <div class="row align-items-center">
-                    <div class="col-4">
-                      <a href="{{ currentAuthor.url }}">
-                        {% set currentAuthorImage = (currentAuthor.data.image | ensureImage('/images/jcrt.svg')) if currentAuthor.data.image else (metadata.files_url + '/images/jcrt.svg') %}
-                        <img src="{{ currentAuthorImage | preferWebp }}"
-                             data-fallback-src="{{ currentAuthorImage }}"
-                             class="img-thumb rounded-circle w-100 reading-author-image"
-                             alt="{{ currentAuthor.data.name or currentAuthor.data.title }}"
-                             {% imageAttrs currentAuthorImage, 300, 300 %}
-                             loading="lazy"
-                             decoding="async"
-                             onerror="if(this.dataset.fallbackAttempted){this.onerror=null;this.src='{{ metadata.files_url }}/images/jcrt.svg';}else{this.dataset.fallbackAttempted='1';this.src=this.dataset.fallbackSrc||'{{ metadata.files_url }}/images/jcrt.svg';}"/>
-                      </a>
-                    </div>
-                    <div class="col-8 author-info">
-                      <p class="text-secondary mb-1">AUTHOR</p>
-                      <h3 class="h5"><strong>{{ currentAuthor.data.name or currentAuthor.data.title }}</strong></h3>
-                      <p class="small text-muted">{{ currentAuthor.data.description or currentAuthor.data.bio }}</p>
-                      <a href="{{ currentAuthor.url }}" class="small text-primary">View Profile -></a>
-                    </div>
-                  </div>
-                </div>
-              {% endif %}
-            {% endfor -%}
+    <div class="jcrt-article-content serif e-content"{% if isFastBuild and page.url and page.url.startsWith('/archives/') %} data-pagefind-ignore{% endif %}>
+      {{ content | toc | safe }}
+      {{ content | safe }}
+    </div>
+
+    {% set filteredTags = tags | filterTagList %}
+    {% if filteredTags | length %}
+      <footer class="jcrt-article-footer jcrt-tag-footer">
+        <span class="jcrt-footer-label">Tags:</span>
+        {%- for tag in filteredTags %}
+          {%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+          {% if isLeanBuild %}
+          <span class="badge bg-light text-dark border fw-normal">{{ tag }}</span>
+          {% else %}
+          <a href="{{ tagUrl }}" class="badge bg-light text-dark border fw-normal text-decoration-none">{{ tag }}</a>
+          {% endif %}
+        {% endfor %}
+      </footer>
+    {% endif %}
+
+    {% if author and not (page.url and page.url.startsWith('/archives/')) %}
+      {% set authorKeys = author.split(',') %}
+      <section class="jcrt-author-strip" aria-label="Author information">
+        {%- for authorKey in authorKeys %}
+          {% set trimmedKey = authorKey | trim %}
+          {% set currentAuthor = collections.authors | getAuthorObj(trimmedKey) %}
+
+          {% if currentAuthor %}
+            <article class="jcrt-author-card-mini h-card">
+              <a href="{{ currentAuthor.url }}" class="jcrt-author-card-mini__media">
+                {% set currentAuthorImage = (currentAuthor.data.image | ensureImage('/images/jcrt.svg')) if currentAuthor.data.image else (metadata.files_url + '/images/jcrt.svg') %}
+                <img src="{{ currentAuthorImage | preferWebp }}"
+                     data-fallback-src="{{ currentAuthorImage }}"
+                     class="jcrt-author-card-mini__image u-photo"
+                     alt="{{ currentAuthor.data.name or currentAuthor.data.title }}"
+                     {% imageAttrs currentAuthorImage, 300, 300 %}
+                     loading="lazy"
+                     decoding="async"
+                     onerror="if(this.dataset.fallbackAttempted){this.onerror=null;this.src='{{ metadata.files_url }}/images/jcrt.svg';}else{this.dataset.fallbackAttempted='1';this.src=this.dataset.fallbackSrc||'{{ metadata.files_url }}/images/jcrt.svg';}"/>
+              </a>
+              <div class="jcrt-author-card-mini__body">
+                <p class="jcrt-card-kicker">Author</p>
+                <h2 class="jcrt-author-card-mini__name p-name">{{ currentAuthor.data.name or currentAuthor.data.title }}</h2>
+                {% if currentAuthor.data.description or currentAuthor.data.bio %}
+                  <p class="jcrt-card-excerpt">{{ currentAuthor.data.description or currentAuthor.data.bio }}</p>
+                {% endif %}
+                <a href="{{ currentAuthor.url }}" class="jcrt-text-link u-url">View Profile</a>
+              </div>
+            </article>
+          {% endif %}
+        {% endfor -%}
+      </section>
+    {% endif %}
+
+    {%- if collections.posts %}
+      {%- set previousPost = collections.posts | getPreviousCollectionItem %}
+      {%- set nextPost = collections.posts | getNextCollectionItem %}
+      {%- if nextPost or previousPost %}
+        <nav class="jcrt-post-nav" aria-label="Post navigation" data-pagefind-ignore>
+          <div>
+            {%- if previousPost %}
+              <a href="{{ previousPost.url }}" class="btn btn-primary">
+                <svg class="icon-svg me-2" aria-hidden="true"><use href="#fa-arrow-left"/></svg>Previous
+              </a>
+            {% endif %}
           </div>
-        {% endif %}
-      </div>
-
-      {%- if collections.posts %}
-        {%- set previousPost = collections.posts | getPreviousCollectionItem %}
-        {%- set nextPost = collections.posts | getNextCollectionItem %}
-        {%- if nextPost or previousPost %}
-          <nav class="reading-footer border-top mt-5 pt-4" aria-label="Post navigation" data-pagefind-ignore>
-            <div class="row">
-              <div class="col-6">
-                {%- if previousPost %}
-                  <a href="{{ previousPost.url }}" class="btn btn-primary">
-                    <svg class="icon-svg me-3" aria-hidden="true"><use href="#fa-arrow-left"/></svg> Previous
-                  </a>
-                {% endif %}
-              </div>
-              <div class="col-6 text-end">
-                {%- if nextPost %}
-                  <a href="{{ nextPost.url }}" class="btn btn-primary">
-                    Next <svg class="icon-svg ms-3" aria-hidden="true"><use href="#fa-arrow-right"/></svg>
-                  </a>
-                {% endif %}
-              </div>
-            </div>
-          </nav>
-        {%- endif %}
+          <div>
+            {%- if nextPost %}
+              <a href="{{ nextPost.url }}" class="btn btn-primary">
+                Next<svg class="icon-svg ms-2" aria-hidden="true"><use href="#fa-arrow-right"/></svg>
+              </a>
+            {% endif %}
+          </div>
+        </nav>
       {%- endif %}
-    </article>
-  </div>
+    {%- endif %}
+  </article>
 </div>

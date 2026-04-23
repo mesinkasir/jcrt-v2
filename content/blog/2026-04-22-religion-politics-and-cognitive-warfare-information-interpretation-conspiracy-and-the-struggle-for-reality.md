@@ -1,5 +1,5 @@
 ---
-title: "Call for Proposals: Religion, Politics, and Cognitive Warfare"
+title: "CFP: Religion, Politics, and Cognitive Warfare"
 description: "Call for proposals on religion, politics, and cognitive warfare, exploring conspiracy, interpretation, AI, and struggles over truth and reality today."
 date: 2026-04-22T18:16:00.000-04:00
 tags: 
@@ -30,7 +30,6 @@ The conference organizers are seeking proposals of high academic quality that ta
 **We are not interested in papers that simply rehearse or promote particular conspiracies, or that use the conference as a platform for calling out disliked groups. We are not interested in polemics, jeremiad, or de facto advocacy pieces. Instead, we welcome theoretically informed and methodologically rigorous work that takes the religious and epistemic dimensions of cognitive conflict seriously as objects of critical inquiry.**
 
 ## Topics and Guiding Questions
-============================
 
 Proposals may address, but are not limited to, the following subthemes and questions:
 
