@@ -9,7 +9,7 @@ pagination:
   reverse: true
 permalink: "archives/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}index.html"
 ---
-<div class="col-md-10 col-12 mx-auto">
+<div class="collection-shell collection-shell--archives">
 
  {% include "partials/nav_desktop.njk" %}
 {% set itemsPerPage = 5 %}
@@ -17,7 +17,7 @@ permalink: "archives/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber 
 {% set totalPages = pagination.pages | length %}
 {% set offset = pagination.pageNumber * itemsPerPage %}
 
-<main class="container-fluid">
+<main>
   <div class="text-center mb-5">
     <h1 class="serif fw-bold display-4">Journal Archives</h1>
     <p class="text-secondary italic">Volume, Issue, Seasons</p>

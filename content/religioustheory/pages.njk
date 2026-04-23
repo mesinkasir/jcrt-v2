@@ -2,7 +2,7 @@
 layout: base.njk
 permalink: /religioustheory/pages/index.html
 ---
-<div class="container-fluid">
+<div class="collection-shell collection-shell--theory-pages">
   {% include "partials/nav_desktop.njk" %}
 <h1>Static Pages</h1>
 {% set defaultPageImage = '/images/jcrt-open-graph.webp' %}
@@ -18,10 +18,9 @@ permalink: /religioustheory/pages/index.html
     data-fallback-src="{{ firstTheoryPageImage }}"
     alt="Religious Theory"
     {% imageAttrs firstTheoryPageImage, 1200, 675 %}
-    class="img-fluid rounded shadow-sm w-100"
     loading="lazy"
     decoding="async"
-    style="max-height: 320px; object-fit: cover;"
+    class="img-fluid rounded shadow-sm w-100 collection-hero-image"
     onerror="if(this.dataset.fallbackAttempted){this.onerror=null;this.src='/images/jcrt-open-graph.webp';}else{this.dataset.fallbackAttempted='1';this.src=this.dataset.fallbackSrc||'/images/jcrt-open-graph.webp';}">
 </div>
 

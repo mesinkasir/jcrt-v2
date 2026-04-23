@@ -13,11 +13,11 @@
 
 {% if archivePosts.length > 0 %}
 <section class="archive-featured-section pt-5">
-  <div class="container-fluid px-3 px-md-5">
+  <div class="collection-shell">
     <div class="d-flex align-items-center justify-content-between mb-4">
       <h3 class="m-0 serif fw-bold">
         <span class="border-bottom border-3 border-primary pb-1">{{ archiveConfig.section_title }}</span>
-        <span class="ms-2 badge bg-light text-secondary small" style="font-size: 0.5em;">#{{ activeTag }}</span>
+        <span class="ms-2 badge bg-light text-secondary small collection-featured-badge">#{{ activeTag }}</span>
       </h3>
       <a href="/archives/" class="text-primary text-decoration-none small fw-bold text-uppercase">Explore All →</a>
     </div>
@@ -25,7 +25,7 @@
     <div class="row">
       {% for post in archivePosts %}
         <div class="col-md-4 mb-4">
-          <div class="img-zoom-container mb-3 shadow-sm rounded" style="aspect-ratio: 16/9; overflow: hidden;">
+          <div class="img-zoom-container mb-3 shadow-sm rounded collection-card-media">
             <a href="{{ post.url }}">
               {% set archiveThumb = (post.data.image | ensureImage('/images/jcrt-open-graph.webp')) if post.data.image and post.data.image != 'null' else (metadata.files_url + '/images/jcrt-open-graph.webp') %}
               {% responsiveThumb archiveThumb, (post.data.title or "Untitled Document"), "img-fluid w-100 h-100", "(max-width: 767px) 100vw, (max-width: 1199px) 50vw, 33vw", "320,480,640", "lazy", "low", (metadata.files_url + "/images/jcrt-open-graph.webp"), "object-fit: cover;" %}

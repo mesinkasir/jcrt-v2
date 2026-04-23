@@ -8,7 +8,7 @@ pagination:
   reverse: true
 permalink: "/religioustheory/blog/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}index.html"
 ---
-<div class="container-fluid mt-5">
+<div class="collection-shell collection-shell--theory-blog mt-5">
   {% include "partials/nav_desktop.njk" %}
 
   <header class="mb-5">
@@ -24,12 +24,12 @@ permalink: "/religioustheory/blog/{% if pagination.pageNumber > 0 %}page-{{ pagi
   <div class="row mt-3 mb-3">
     {%- for post in posts -%}
       <div class="col-md-6 col-lg-4 p-3 small p-md-5"> 
-        <div class="img-zoom-container rounded-4 shadow-sm mb-3" style="aspect-ratio: 16/9; overflow: hidden;">
+        <div class="img-zoom-container rounded-4 shadow-sm mb-3 collection-card-media">
           <a href="{{ post.url }}" title="{{ post.data.title }}">
             {% set defaultCardImage = '/images/jcrt-open-graph.webp' %}
             {% set blogCardImage = (post.data.image | ensureImage(defaultCardImage)) %}
             {% set blogCardImagePreferred = (blogCardImage | preferWebp) %}
-            <img class="img-post img-fluid" style="width: 100%; height: 100%; object-fit: cover;" 
+            <img class="img-post img-fluid collection-card-img"
                  alt="{{ post.data.title }}" src="{{ blogCardImagePreferred }}" data-fallback-src="{{ blogCardImage }}"
                  {% imageAttrs blogCardImage, 640, 360 %}
                  loading="lazy"
@@ -44,7 +44,7 @@ permalink: "/religioustheory/blog/{% if pagination.pageNumber > 0 %}page-{{ pagi
           </a>
         </h3>
         
-        <p class="text-muted x-small text-uppercase fw-bold mb-2" style="font-size: 0.7rem;">
+        <p class="text-muted x-small text-uppercase fw-bold mb-2 collection-card-meta">
           {% if post.date %}{{ post.date | postDate }}{% endif %}
           {% if post.data.author %} — By {{ post.data.author }}{% endif %}
         </p>
@@ -53,7 +53,7 @@ permalink: "/religioustheory/blog/{% if pagination.pageNumber > 0 %}page-{{ pagi
           {{ post.data.excerpt | truncate(110) if post.data.excerpt else "Explore this latest article from our archive..." }}
         </p>
 
-        <p><a href="{{ post.url }}" class="btn btn-primary px-4 py-2 fw-bold text-uppercase" style="font-size: 0.75rem; letter-spacing: 1px;">
+        <p><a href="{{ post.url }}" class="btn btn-primary px-4 py-2 fw-bold text-uppercase collection-card-action">
           Learn More
         </a></p>
       </div>
@@ -64,7 +64,7 @@ permalink: "/religioustheory/blog/{% if pagination.pageNumber > 0 %}page-{{ pagi
   <nav class="border-top pt-5 mt-5 d-flex align-items-center justify-content-between" role="navigation">
     <div>
       {% if pagination.href.previous %}
-        <a href="{{ pagination.href.previous }}" class="btn btn-outline-primary fw-bold text-uppercase" style="font-size: 0.8rem;">← Newer Posts</a>
+        <a href="{{ pagination.href.previous }}" class="btn btn-outline-primary fw-bold text-uppercase collection-nav-action">← Newer Posts</a>
       {% endif %}
     </div>
 
@@ -74,7 +74,7 @@ permalink: "/religioustheory/blog/{% if pagination.pageNumber > 0 %}page-{{ pagi
 
     <div>
       {% if pagination.href.next %}
-        <a href="{{ pagination.href.next }}" class="btn btn-outline-primary fw-bold text-uppercase" style="font-size: 0.8rem;">Older Posts →</a>
+        <a href="{{ pagination.href.next }}" class="btn btn-outline-primary fw-bold text-uppercase collection-nav-action">Older Posts →</a>
       {% endif %}
     </div>
   </nav>

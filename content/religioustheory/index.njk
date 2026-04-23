@@ -5,7 +5,7 @@ description: Digital archive for JCRT Theory, Culture, and Religion.
 permalink: /religioustheory/index.html
 ---
 
-<div class="container-fluid">
+<div class="collection-shell collection-shell--theory-home">
 
  {% include "partials/nav_desktop.njk" %}
 
@@ -20,14 +20,13 @@ permalink: /religioustheory/index.html
     {% set posts = collections.theoryPosts | reverse %}
     {% for post in posts.slice(0, 6) %}
     <div class="col-md-6 col-lg-4 p-3 small p-md-5"> 
-        <div class="img-zoom-container rounded-4 shadow-sm mb-3" style="aspect-ratio: 16/9; overflow: hidden;">
+        <div class="img-zoom-container rounded-4 shadow-sm mb-3 collection-card-media">
             <a href="{{ post.url }}" title="{{ post.data.title }}">
                 {% set defaultCardImage = '/images/jcrt-open-graph.webp' %}
                 {% set cardImage = (post.data.image | ensureImage(defaultCardImage)) %}
                 {% set cardImagePreferred = (cardImage | preferWebp) %}
-                <img class="img-post img-fluid" 
-                     style="width: 100%; height: 100%; object-fit: cover;" 
-                     alt="{{ post.data.title }}" 
+                <img class="img-post img-fluid collection-card-img"
+                     alt="{{ post.data.title }}"
                      src="{{ cardImagePreferred }}"
                      data-fallback-src="{{ cardImage }}"
                      {% imageAttrs cardImage, 640, 360 %}
@@ -39,7 +38,7 @@ permalink: /religioustheory/index.html
 
         <h3 class="serif fw-bold h5">{{ post.data.title }}</h3>   
         
-        <p class="text-muted x-small text-uppercase fw-bold mb-2" style="font-size: 0.7rem;">
+        <p class="text-muted x-small text-uppercase fw-bold mb-2 collection-card-meta">
             {{ post.data.date | postDate if post.data.date else "Recently Published" }} 
             {% if post.data.author %} — By {{ post.data.authorData.name or post.data.author }}{% endif %}
         </p>
@@ -48,7 +47,7 @@ permalink: /religioustheory/index.html
             {{ post.data.description | truncate(160) if post.data.description else (post.data.excerpt | truncate(120) if post.data.excerpt else "Explore this latest article...") }}
         </p>
 
-        <p><a href="{{ post.url }}" class="btn btn-primary px-4 py-2 fw-bold text-uppercase" style="font-size: 0.75rem; letter-spacing: 1px;">
+        <p><a href="{{ post.url }}" class="btn btn-primary px-4 py-2 fw-bold text-uppercase collection-card-action">
             Learn More
         </a></p>
     </div>
@@ -63,7 +62,7 @@ permalink: /religioustheory/index.html
 
   <div class="col-12 p-3 p-md-5 text-center mt-4 mb-3">
     <a href="/religioustheory/posts/" 
-    class="btn btn-primary px-4 py-2 text-uppercase fw-bold" style="letter-spacing: 1px;">
+    class="btn btn-primary px-4 py-2 text-uppercase fw-bold collection-card-action">
       View All Articles
     </a>
   </div>

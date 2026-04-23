@@ -7,7 +7,7 @@ pagination:
   alias: postlist
 permalink: "/religioustheory/posts/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1 }}/{% endif %}index.html"
 ---
-<div class="container-fluid">
+<div class="collection-shell collection-shell--theory-posts">
   <div class="row">
     <div class="col-md-12">
       {% include "partials/nav_desktop.njk" %}
@@ -17,14 +17,13 @@ permalink: "/religioustheory/posts/{% if pagination.pageNumber > 0 %}page/{{ pag
         <div class="row">
           {% for post in postlist %}
           <div class="col-md-6 col-lg-4 p-3 small p-md-5"> 
-            <div class="img-zoom-container rounded-4 shadow-sm mb-3" style="aspect-ratio: 16/9; overflow: hidden;">
+            <div class="img-zoom-container rounded-4 shadow-sm mb-3 collection-card-media">
               <a href="{{ post.url }}" title="{{ post.data.title }}">
                 {% set defaultCardImage = '/images/jcrt-open-graph.webp' %}
                 {% set currentImg = (post.data.image | ensureImage(defaultCardImage)) %}
                 {% set currentImgPreferred = (currentImg | preferWebp) %}
-                <img class="img-post img-fluid" 
-                     style="width: 100%; height: 100%; object-fit: cover;" 
-                     alt="{{ post.data.title }}" 
+                <img class="img-post img-fluid collection-card-img"
+                     alt="{{ post.data.title }}"
                      src="{{ currentImgPreferred }}"
                      data-fallback-src="{{ currentImg }}"
                      {% imageAttrs currentImg, 640, 360 %}
@@ -43,7 +42,7 @@ permalink: "/religioustheory/posts/{% if pagination.pageNumber > 0 %}page/{{ pag
             <div class="mb-2">
               {% set postAuthorRaw = post.data.author or "Editors" %}
               {% set postAuthorNames = postAuthorRaw | splitAuthors %}
-              <p class="text-muted x-small text-uppercase fw-bold mb-1" style="font-size: 0.7rem; letter-spacing: 0.5px;">
+              <p class="text-muted x-small text-uppercase fw-bold mb-1 collection-card-meta">
                 {{ post.date | postDate if post.date else "Recently Published" }} 
                 — By 
                 <span class="text-primary">
@@ -65,14 +64,12 @@ permalink: "/religioustheory/posts/{% if pagination.pageNumber > 0 %}page/{{ pag
               <div class="d-flex flex-wrap gap-1 mb-2">
                 {% for cat in post.data.categories %}
                 {% if isLeanBuild %}
-                <span class="text-primary fw-bold x-small border-end pe-1 me-1" 
-                   style="font-size: 0.7rem; border-color: var(--primary-jcrt) !important;">
+                <span class="text-primary fw-bold x-small border-end pe-1 me-1 collection-card-meta">
                   {{ cat }}
                 </span>
                 {% else %}
                 <a href="/religioustheory/categories/{{ cat | slugify }}/" 
-                   class="text-primary fw-bold text-decoration-none x-small border-end pe-1 me-1" 
-                   style="font-size: 0.7rem; border-color: var(--primary-jcrt) !important;">
+                   class="text-primary fw-bold text-decoration-none x-small border-end pe-1 me-1 collection-card-meta">
                   {{ cat }}
                 </a>
                 {% endif %}
@@ -87,7 +84,7 @@ permalink: "/religioustheory/posts/{% if pagination.pageNumber > 0 %}page/{{ pag
             </p>
 
             <p class="mt-auto">
-              <a href="{{ post.url }}" class="btn btn-primary px-4 py-2 fw-bold text-uppercase" style="font-size: 0.75rem; letter-spacing: 1px;">
+              <a href="{{ post.url }}" class="btn btn-primary px-4 py-2 fw-bold text-uppercase collection-card-action">
                 Learn More
               </a>
             </p>

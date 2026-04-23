@@ -11,7 +11,13 @@
     --sidebar-accent: #ff1423;         /* MIT-inspired red accent */
     --sidebar-accent-hover: #cc1019;   /* Darker for AAA on #f8f9fa (7.2:1) */
     --sidebar-accent-bg: rgba(255, 20, 35, 0.08);
-    --btn-margin-left: calc((100% - 1140px) / 2 - 60px);
+    --jcrt-reading-max: 1280px;
+    --jcrt-collection-max: 1320px;
+    --jcrt-utility-max: 1120px;
+    --jcrt-page-gutter: clamp(1rem, 3vw, 3rem);
+    --jcrt-reading-font-size: 1.25rem;
+    --jcrt-reading-line-height: 1.75;
+    --btn-margin-left: calc((100% - var(--jcrt-reading-max)) / 2 - 60px);
     --jcrt-slab-stack: Rockwell, "Rockwell Nova", "Roboto Slab", "DejaVu Serif", "Sitka Small", serif;
 }
 
@@ -233,7 +239,93 @@ h1.navbar-brand a:focus .text-secondary {
 
 /* Shared long-form reading layout */
 .reading-shell {
-    max-width: 1140px;
+    width: 100%;
+    max-width: var(--jcrt-reading-max);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.reading-shell > .container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.collection-shell,
+.utility-shell {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.collection-shell {
+    max-width: var(--jcrt-collection-max);
+}
+
+.utility-shell {
+    max-width: var(--jcrt-utility-max);
+}
+
+.utility-card {
+    width: 100%;
+}
+
+.collection-shell .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 1.5rem;
+}
+
+.collection-card-media {
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+}
+
+.hover-shadow {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-shadow:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+.collection-card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.collection-card-meta,
+.collection-card-badge {
+    font-size: 0.7rem;
+    letter-spacing: 0.03125rem;
+}
+
+.collection-card-meta.border-end {
+    border-color: var(--primary-jcrt) !important;
+}
+
+.collection-card-action {
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+}
+
+.collection-nav-action,
+.collection-back-link {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+.collection-featured-badge {
+    font-size: 0.5em;
+}
+
+.collection-hero-image {
+    max-height: 320px;
+    object-fit: cover;
+}
+
+.utility-action {
+    letter-spacing: 2px;
 }
 
 .reading-article {
@@ -246,8 +338,8 @@ h1.navbar-brand a:focus .text-secondary {
 
 .reading-body {
     font-family: var(--jcrt-slab-stack);
-    font-size: 1.15rem;
-    line-height: 1.75;
+    font-size: var(--jcrt-reading-font-size);
+    line-height: var(--jcrt-reading-line-height);
     text-align: justify;
 }
 
@@ -415,10 +507,21 @@ h1.navbar-brand a:focus .text-secondary {
     }
 }
 
+@media (max-width: 1199.98px) {
+    :root {
+        --jcrt-reading-font-size: 1.125rem;
+        --jcrt-reading-line-height: 1.72;
+    }
+}
+
 @media (max-width: 767.98px) {
+    :root {
+        --jcrt-reading-font-size: 1.0625rem;
+        --jcrt-reading-line-height: 1.68;
+        --jcrt-page-gutter: 1rem;
+    }
+
     .reading-body {
-        font-size: 1.05rem;
-        line-height: 1.7;
         text-align: left;
     }
 
@@ -1113,6 +1216,45 @@ body.menu-open #menu-toggle-btn {
     }
     .mobile {
         display: none !important;
+    }
+}
+
+/* Responsive content shells override legacy Bootstrap width classes. */
+#content-wrapper.site-shell {
+    width: 100% !important;
+    max-width: none !important;
+    min-height: 100vh;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    box-sizing: border-box;
+    overflow-x: clip;
+    transition: margin-left 0.3s ease, padding-left 0.3s ease, padding-right 0.3s ease, transform 0.3s ease;
+}
+
+body:not(.menu-open) #content-wrapper.site-shell {
+    padding-left: max(var(--jcrt-page-gutter), calc(var(--btn-width) + var(--btn-margin-left) + 10px)) !important;
+    padding-right: var(--jcrt-page-gutter) !important;
+}
+
+body.menu-open #content-wrapper.site-shell {
+    width: calc(100% - var(--sidebar-width)) !important;
+    margin-left: var(--sidebar-width) !important;
+    padding-left: var(--jcrt-page-gutter) !important;
+    padding-right: var(--jcrt-page-gutter) !important;
+}
+
+@media (max-width: 1195px) {
+    #content-wrapper.site-shell {
+        padding-left: var(--jcrt-page-gutter) !important;
+        padding-right: var(--jcrt-page-gutter) !important;
+    }
+}
+
+@media (max-width: 800px) {
+    body.menu-open #content-wrapper.site-shell,
+    body.sidebar-open #content-wrapper.site-shell {
+        width: 100% !important;
+        margin-left: 0 !important;
     }
 }
 

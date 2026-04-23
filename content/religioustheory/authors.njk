@@ -10,14 +10,13 @@ eleventyComputed:
 ---
 {% set authorName = tagIndex.authors.theory.names[authorSlugKey] or authorSlugKey %}
 {% set theoryPosts = tagIndex.authors.theory.map[authorSlugKey] or [] %}
-<article class="container-fluid mt-5">
+<article class="collection-shell collection-shell--theory-author mt-5">
   {% include "partials/nav_desktop.njk" %}
   
   <header class="mb-5 text-center">
     <h1 class="display-4 fw-bold serif">{{ authorName }}</h1>
     <p>
-      <a class="text-primary fw-bold text-decoration-none text-uppercase" 
-         style="font-size: 0.8rem; letter-spacing: 1px;" 
+      <a class="text-primary fw-bold text-decoration-none text-uppercase collection-back-link"
          href="/religioustheory/authors/">
         &larr; View All Authors
       </a>
@@ -27,13 +26,12 @@ eleventyComputed:
   <div class="row mt-3 mb-3">
     {%- for post in theoryPosts %}
         <div class="col-md-6 col-lg-4 p-3 small p-md-5 d-flex flex-column"> 
-            <div class="img-zoom-container rounded-4 shadow-sm mb-3" style="aspect-ratio: 16/9; overflow: hidden;">
+            <div class="img-zoom-container rounded-4 shadow-sm mb-3 collection-card-media">
                 <a href="{{ post.url }}">
                     {% set authorCardImage = (post.image | ensureImage('/images/jcrt-open-graph.webp')) %}
                     {% set authorCardImagePreferred = (authorCardImage | preferWebp) %}
-                    <img class="img-post img-fluid" 
-                         style="width: 100%; height: 100%; object-fit: cover;" 
-                         alt="{{ post.title }}" 
+                    <img class="img-post img-fluid collection-card-img"
+                         alt="{{ post.title }}"
                          src="{{ authorCardImagePreferred }}"
                          data-fallback-src="{{ authorCardImage }}"
                          {% imageAttrs authorCardImage, 640, 360 %}
@@ -50,7 +48,7 @@ eleventyComputed:
             </h3>
             
             <div class="mb-2">
-                <p class="text-muted x-small text-uppercase fw-bold mb-1" style="font-size: 0.7rem;">
+                <p class="text-muted x-small text-uppercase fw-bold mb-1 collection-card-meta">
                     {% if post.date %}{{ post.date | postDate }}{% endif %}
                     — By {{ post.author or authorName }}
                 </p>
@@ -61,7 +59,7 @@ eleventyComputed:
             </p>
 
             <p class="mt-auto">
-                <a href="{{ post.url }}" class="btn btn-primary px-4 py-2 fw-bold text-uppercase" style="font-size: 0.75rem; letter-spacing: 1px;">
+                <a href="{{ post.url }}" class="btn btn-primary px-4 py-2 fw-bold text-uppercase collection-card-action">
                     Learn More
                 </a>
             </p>

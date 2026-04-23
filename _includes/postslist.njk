@@ -1,12 +1,11 @@
 <div class="row mt-3 mb-3">
 {%- for post in postslist | reverse %}
 <div class="col-md-6 col-lg-4 p-3 small p-md-5"> 
-    <div class="img-zoom-container rounded-4 shadow-sm mb-3" style="aspect-ratio: 16/9; overflow: hidden;">
+    <div class="img-zoom-container rounded-4 shadow-sm mb-3 collection-card-media">
         <a href="{{ post.url }}" title="{{ post.data.title }}">
             {% set currentImg = (post.data.image | ensureImage('/images/jcrt-open-graph.webp')) if post.data.image else (metadata.files_url + '/images/jcrt-open-graph.webp') %}
-            <img class="img-post img-fluid" 
-                 style="width: 100%; height: 100%; object-fit: cover;" 
-                 alt="{{ post.data.title }}" 
+            <img class="img-post img-fluid collection-card-img"
+                 alt="{{ post.data.title }}"
                  src="{{ currentImg | preferWebp }}"
                  data-fallback-src="{{ currentImg }}"
                  {% imageAttrs currentImg, 640, 360 %}
@@ -31,11 +30,11 @@
         {%- for tag in post.data.tags | filterTagList %}
             {%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
             {% if isLeanBuild %}
-            <span class="badge bg-light text-primary border border-primary me-1" style="font-size: 0.7rem;">
+            <span class="badge bg-light text-primary border border-primary me-1 collection-card-badge">
                 #{{ tag }}
             </span>
             {% else %}
-            <a href="{{ tagUrl }}" class="badge bg-light text-primary border border-primary text-decoration-none me-1" style="font-size: 0.7rem;">
+            <a href="{{ tagUrl }}" class="badge bg-light text-primary border border-primary text-decoration-none me-1 collection-card-badge">
                 #{{ tag }}
             </a>
             {% endif %}
@@ -44,7 +43,7 @@
     {% endif %}
 
     <p class="mt-auto">
-        <a href="{{ post.url }}" class="btn btn-primary px-4 py-2 fw-bold text-uppercase" style="font-size: 0.75rem; letter-spacing: 1px;">
+        <a href="{{ post.url }}" class="btn btn-primary px-4 py-2 fw-bold text-uppercase collection-card-action">
             Learn More
         </a>
     </p>
