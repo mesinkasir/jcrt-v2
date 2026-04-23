@@ -7,8 +7,7 @@ tags:
   - call-for-submissions
 author: editors_religioustheory
 ---
-## Religion, Politics, and Cognitive Warfare:
-### Information, Interpretation, Conspiracy, and the Struggle for Reality
+## Religion, Politics, and Cognitive Warfare: Information, Interpretation, Conspiracy, and the Struggle for Reality
 
 ### *Call for Papers and Presentations*
 #### Details 
