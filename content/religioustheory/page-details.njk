@@ -7,34 +7,36 @@ pagination:
 permalink: "/religioustheory/{{ pg.fileSlug | slugify }}/index.html"
 ---
 
-<div class="container-fluid">
+<div class="reading-shell reading-shell--theory-page col-md-10 mx-auto">
   {% include "partials/nav_desktop.njk" %}
-<article class="page-content">
-  <header style="margin-bottom: 30px;">
-    <h1>{{ pg.title }}</h1>
-  </header>
-  {% set defaultPageImage = '/images/jcrt-open-graph.webp' %}
-  {% set pageImageResolved = (pg.data.image | ensureImage(defaultPageImage)) if (pg and pg.data and pg.data.image) else defaultPageImage %}
-  {% set pageImagePreferred = (pageImageResolved | preferWebp) %}
-  <div class="mb-4">
-    <img
-      src="{{ pageImagePreferred }}"
-      data-fallback-src="{{ pageImageResolved }}"
-      alt="{{ pg.title }}"
-      {% imageAttrs pageImageResolved, 1200, 675 %}
-      class="img-fluid rounded shadow-sm w-100"
-      loading="lazy"
-      decoding="async"
-      style="max-height: 320px; object-fit: cover;"
-      onerror="if(this.dataset.fallbackAttempted){this.onerror=null;this.src='/images/jcrt-open-graph.webp';}else{this.dataset.fallbackAttempted='1';this.src=this.dataset.fallbackSrc||'/images/jcrt-open-graph.webp';}">
-  </div>
+  <div class="container-fluid">
+    <article class="reading-article py-4 page-content">
+      <header class="reading-header mb-5 border-bottom pb-4">
+        <h1 class="serif fw-bold display-4">{{ pg.title }}</h1>
+      </header>
 
-  <div class="content-body">
-    {{ pg.content | md | safe }}
-  </div>
+      {% set defaultPageImage = '/images/jcrt-open-graph.webp' %}
+      {% set pageImageResolved = (pg.data.image | ensureImage(defaultPageImage)) if (pg and pg.data and pg.data.image) else defaultPageImage %}
+      {% set pageImagePreferred = (pageImageResolved | preferWebp) %}
+      <div class="reading-media mb-4">
+        <img
+          src="{{ pageImagePreferred }}"
+          data-fallback-src="{{ pageImageResolved }}"
+          alt="{{ pg.title }}"
+          {% imageAttrs pageImageResolved, 1200, 675 %}
+          class="img-fluid rounded shadow-sm w-100"
+          loading="lazy"
+          decoding="async"
+          onerror="if(this.dataset.fallbackAttempted){this.onerror=null;this.src='/images/jcrt-open-graph.webp';}else{this.dataset.fallbackAttempted='1';this.src=this.dataset.fallbackSrc||'/images/jcrt-open-graph.webp';}">
+      </div>
 
-  <footer style="margin-top: 40px; padding-top: 20px; border-top: 1px dotted #ccc;">
-    <a href="/religioustheory/pages/">← Back to Pages</a>
-  </footer>
-</article>
+      <div class="reading-body serif content-body">
+        {{ pg.content | md | safe }}
+      </div>
+
+      <footer class="reading-footer mt-5 pt-4 border-top" data-pagefind-ignore>
+        <a href="/religioustheory/pages/">Back to Pages</a>
+      </footer>
+    </article>
+  </div>
 </div>

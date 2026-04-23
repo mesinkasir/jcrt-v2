@@ -2,6 +2,10 @@
 title: "Call for Proposals: Religion, Politics, and Cognitive Warfare"
 description: "Call for proposals on religion, politics, and cognitive warfare, exploring conspiracy, interpretation, AI, and struggles over truth and reality today."
 date: 2026-04-22T18:16:00.000-04:00
+tags: 
+  - call-for-papers
+  - call-for-submissions
+author: editors_religioustheory
 ---
 ## Religion, Politics, and Cognitive Warfare:
 ### Information, Interpretation, Conspiracy, and the Struggle for Reality
