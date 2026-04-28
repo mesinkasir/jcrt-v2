@@ -772,6 +772,12 @@ export default async function (eleventyConfig) {
 		authorLookupCache.set(authorsCollection, lookup);
 		return lookup;
 	}
+	
+	eleventyConfig.addFilter("iconId", function (faClass) {
+    if (!faClass) return "";
+    const parts = (faClass || "").trim().split(/\s+/);
+    return parts.find(p => p.startsWith("fa-") && !["fa-solid","fa-brands","fa-regular","fa-light","fa-thin","fa-duotone"].includes(p)) || parts[parts.length - 1] || "";
+});
 
 	eleventyConfig.addFilter("getAuthorObj", (authorsCollection, authorKey) => {
 		if (!authorKey || !authorsCollection) return null;

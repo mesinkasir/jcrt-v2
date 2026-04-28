@@ -36,13 +36,32 @@ layout: base.njk
             </div>
           {% endif %}
             <p>
-              {{ postsByAuthor.length }} Posts |
-              {% if social %}
-                {% for s in social %}
-                  <a href="{{ s.url }}" title="{{ s.title }}"><svg class="icon-svg me-2" aria-hidden="true"><use href="#{{ s.icon | iconId }}"/></svg></a>
-                {% endfor %}
-              {% endif %}
-            </p>
+  {{ postsByAuthor.length }} Posts |
+
+  {% if social %}
+    {% for s in social %}
+      <a href="{{ s.url | default('#') }}" 
+         title="{{ s.title }}" 
+         target="_blank" 
+         rel="noopener" 
+         class="text-decoration-none text-dark me-3"
+         aria-label="{{ s.title }} of {{ title }}">
+        
+        <i class="{{ s.icon }}" aria-hidden="true"></i>
+
+        {% if s.title == "website" %}
+          <span class="small ms-1">
+            {% if s.url %}
+              {{ s.url | replace("https://", "") | replace("http://", "") | replace("www.", "") | replace("/", "") }}
+            {% else %}
+              Website
+            {% endif %}
+          </span>
+        {% endif %}
+      </a>
+    {% endfor %}
+  {% endif %}
+</p>
 
             <p>
               {% if button %}
