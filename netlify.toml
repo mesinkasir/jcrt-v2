@@ -59,6 +59,10 @@
   path = "/oai"
 
 [[edge_functions]]
+  function = "query-canonical-redirects"
+  path = "/*"
+
+[[edge_functions]]
   function = "archive-legacy-redirects"
   path = "/archives/*"
 

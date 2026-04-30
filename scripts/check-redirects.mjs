@@ -3,6 +3,7 @@ import path from "node:path";
 import { execFileSync } from "node:child_process";
 import { createRequire } from "node:module";
 import { fileURLToPath } from "node:url";
+import queryCanonicalRedirects from "../netlify/edge-functions/query-canonical-redirects.js";
 import archiveLegacyRedirects from "../netlify/edge-functions/archive-legacy-redirects.js";
 import assetCanonicalRedirects from "../netlify/edge-functions/asset-canonical-redirects.js";
 
@@ -16,6 +17,12 @@ const redirectsPath = path.join(repoRoot, "public", "_redirects");
 const netlifyTomlPath = path.join(repoRoot, "netlify.toml");
 const searchConsole403FixturePath = path.join(repoRoot, "scripts", "fixtures", "search-console-403-urls.txt");
 const searchConsole404FixturePath = path.join(repoRoot, "scripts", "fixtures", "search-console-404-urls.txt");
+const searchConsoleQueryRedirectFixturePath = path.join(
+	repoRoot,
+	"scripts",
+	"fixtures",
+	"search-console-query-redirect-urls.txt",
+);
 
 function loadRedirectsText() {
 	return fs.readFileSync(redirectsPath, "utf8");
@@ -157,10 +164,13 @@ function buildRedirectsResponse(url, matcher) {
 async function simulateNetlifyRequest(matcher, pathAndQuery) {
 	const url = new URL(pathAndQuery, "https://jcrt.org");
 	const request = new Request(url.toString(), { method: "GET" });
-	const response = await archiveLegacyRedirects(request, {
+	const response = await queryCanonicalRedirects(request, {
 		next: async () =>
-			assetCanonicalRedirects(request, {
-				next: async () => buildRedirectsResponse(url, matcher),
+			archiveLegacyRedirects(request, {
+				next: async () =>
+					assetCanonicalRedirects(request, {
+						next: async () => buildRedirectsResponse(url, matcher),
+					}),
 			}),
 	});
 
@@ -348,6 +358,49 @@ async function validateSearchConsole404Fixtures(failures, matcher) {
 	return cases.length;
 }
 
+async function validateSearchConsoleQueryRedirectFixtures(failures, matcher) {
+	if (!fs.existsSync(searchConsoleQueryRedirectFixturePath)) return 0;
+
+	const cases = fs
+		.readFileSync(searchConsoleQueryRedirectFixturePath, "utf8")
+		.split(/\r?\n/)
+		.map((line) => line.trim())
+		.filter((line) => line && !line.startsWith("#"))
+		.map((line) => {
+			const [rawUrl, status, target = ""] = line.split("|").map((part) => part.trim());
+			return { rawUrl, status: Number(status), target };
+		});
+
+	for (const testCase of cases) {
+		const result = await simulateNetlifyRequest(matcher, testCase.rawUrl);
+		if (result.status !== testCase.status) {
+			failures.push(`query fixture ${testCase.rawUrl}: expected ${testCase.status}, got ${result.status}`);
+			continue;
+		}
+
+		if (testCase.status >= 300 && testCase.status < 400) {
+			if (!result.location) {
+				failures.push(`query fixture ${testCase.rawUrl}: expected redirect location`);
+				continue;
+			}
+			const actual = new URL(result.location, testCase.rawUrl).toString();
+			const expected = new URL(testCase.target, testCase.rawUrl).toString();
+			if (actual !== expected) {
+				failures.push(`query fixture ${testCase.rawUrl}: expected ${expected}, got ${actual}`);
+			}
+			if (new URL(actual).search) {
+				failures.push(`query fixture ${testCase.rawUrl}: redirect target should not include query (${actual})`);
+			}
+		}
+
+		if (testCase.status === 410 && result.location) {
+			failures.push(`query fixture ${testCase.rawUrl}: 410 should not include redirect location`);
+		}
+	}
+
+	return cases.length;
+}
+
 const redirectsText = loadRedirectsText();
 const ruleLines = loadRuleLines(redirectsText);
 const failures = [];
@@ -429,6 +482,9 @@ if (!netlifyToml.includes('function = "archive-legacy-redirects"')) {
 }
 if (!netlifyToml.includes('function = "asset-canonical-redirects"')) {
 	failures.push('netlify.toml is missing edge function "asset-canonical-redirects"');
+}
+if (!netlifyToml.includes('function = "query-canonical-redirects"')) {
+	failures.push('netlify.toml is missing edge function "query-canonical-redirects"');
 }
 
 for (const deletedPath of [
@@ -546,6 +602,7 @@ assertStatus(failures, archiveTaylor, 200, "runtime /archives/05.2/taylor/");
 
 const searchConsole403Count = await validateSearchConsole403Fixtures(failures, matcher);
 const searchConsole404Count = await validateSearchConsole404Fixtures(failures, matcher);
+const searchConsoleQueryRedirectCount = await validateSearchConsoleQueryRedirectFixtures(failures, matcher);
 
 const missingArticle = await simulateNetlifyRequest(matcher, "/archives/03.1/does-not-exist/");
 if (missingArticle.status >= 300 && missingArticle.status < 400) {
@@ -570,5 +627,5 @@ if (failures.length > 0) {
 }
 
 console.log(
-	`Validated ${archiveExceptions.length} archive exceptions, ${archiveIndexRules.length} archive index rules, ${searchConsole403Count} Search Console 403 fixtures, ${searchConsole404Count} Search Console 404 fixtures, runtime matcher behavior, and edge redirects.`
+	`Validated ${archiveExceptions.length} archive exceptions, ${archiveIndexRules.length} archive index rules, ${searchConsole403Count} Search Console 403 fixtures, ${searchConsole404Count} Search Console 404 fixtures, ${searchConsoleQueryRedirectCount} Search Console query/redirect fixtures, runtime matcher behavior, and edge redirects.`
 );

@@ -212,9 +212,9 @@
 
 # Legacy WordPress feed URL redirects
 /weblog/wp-content/themes/classic/im/phentermine-next-day-shipping.html / 410
-/weblog /archives/ 301
-/weblog/ /archives/ 301
-/weblog/* /archives/ 301
+/weblog / 410
+/weblog/ / 410
+/weblog/* / 410
 /religioustheory/submissions-2/ https://www.jcrt.org/submissions/ 301
 /religioustheory/submissions https://www.jcrt.org/submissions/ 301
 /religioustheory/submissions/ https://www.jcrt.org/submissions/ 301
