@@ -15,6 +15,7 @@ const repoRoot = path.resolve(__dirname, "..");
 const redirectsPath = path.join(repoRoot, "public", "_redirects");
 const netlifyTomlPath = path.join(repoRoot, "netlify.toml");
 const searchConsole403FixturePath = path.join(repoRoot, "scripts", "fixtures", "search-console-403-urls.txt");
+const searchConsole404FixturePath = path.join(repoRoot, "scripts", "fixtures", "search-console-404-urls.txt");
 
 function loadRedirectsText() {
 	return fs.readFileSync(redirectsPath, "utf8");
@@ -305,6 +306,48 @@ async function validateSearchConsole403Fixtures(failures, matcher) {
 	return urls.length;
 }
 
+async function validateSearchConsole404Fixtures(failures, matcher) {
+	if (!fs.existsSync(searchConsole404FixturePath)) return 0;
+
+	const cases = fs
+		.readFileSync(searchConsole404FixturePath, "utf8")
+		.split(/\r?\n/)
+		.map((line) => line.trim())
+		.filter((line) => line && !line.startsWith("#"))
+		.map((line) => {
+			const [rawUrl, status, target = ""] = line.split("|").map((part) => part.trim());
+			return { rawUrl, status: Number(status), target };
+		});
+
+	for (const testCase of cases) {
+		const result = await simulateNetlifyRequest(matcher, testCase.rawUrl);
+		if (result.status !== testCase.status) {
+			failures.push(`404 fixture ${testCase.rawUrl}: expected ${testCase.status}, got ${result.status}`);
+			continue;
+		}
+
+		if (testCase.status >= 300 && testCase.status < 400) {
+			if (!result.location) {
+				failures.push(`404 fixture ${testCase.rawUrl}: expected redirect location`);
+				continue;
+			}
+			if (testCase.target && testCase.target !== "redirect") {
+				const actual = new URL(result.location, testCase.rawUrl).toString();
+				const expected = new URL(testCase.target, testCase.rawUrl).toString();
+				if (actual !== expected) {
+					failures.push(`404 fixture ${testCase.rawUrl}: expected ${expected}, got ${actual}`);
+				}
+			}
+		}
+
+		if (testCase.status === 410 && result.location) {
+			failures.push(`404 fixture ${testCase.rawUrl}: 410 should not include redirect location`);
+		}
+	}
+
+	return cases.length;
+}
+
 const redirectsText = loadRedirectsText();
 const ruleLines = loadRuleLines(redirectsText);
 const failures = [];
@@ -502,6 +545,7 @@ const archiveTaylor = await simulateNetlifyRequest(matcher, "/archives/05.2/tayl
 assertStatus(failures, archiveTaylor, 200, "runtime /archives/05.2/taylor/");
 
 const searchConsole403Count = await validateSearchConsole403Fixtures(failures, matcher);
+const searchConsole404Count = await validateSearchConsole404Fixtures(failures, matcher);
 
 const missingArticle = await simulateNetlifyRequest(matcher, "/archives/03.1/does-not-exist/");
 if (missingArticle.status >= 300 && missingArticle.status < 400) {
@@ -526,5 +570,5 @@ if (failures.length > 0) {
 }
 
 console.log(
-	`Validated ${archiveExceptions.length} archive exceptions, ${archiveIndexRules.length} archive index rules, ${searchConsole403Count} Search Console 403 fixtures, runtime matcher behavior, and edge redirects.`
+	`Validated ${archiveExceptions.length} archive exceptions, ${archiveIndexRules.length} archive index rules, ${searchConsole403Count} Search Console 403 fixtures, ${searchConsole404Count} Search Console 404 fixtures, runtime matcher behavior, and edge redirects.`
 );

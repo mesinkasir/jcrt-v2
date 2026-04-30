@@ -20,6 +20,8 @@
 /archives/:issue/:slug/ /archives/:issue/:slug/index.html 200
 
 /religious-theory.html /religioustheory/ 301
+/current.html /archives/ 301
+/index.shtml / 301
 /searchengine.shtml /search/ 301
 /Literaturecfp.pdf / 301
 /bookmarks.shtml /about/ 301
@@ -120,6 +122,18 @@
 /religioustheory/fetishism-and-the-erasure-of-identity-part-1- /religioustheory/posts/fetishism-and-the-erasure-of-identity-part-1-roger-green/ 301
 /religioustheory/thomas-aquinass-body-soul-dualism-an /religioustheory/posts/thomas-aquinass-body-soul-dualism-and-the-hierarchy-of-human-dignity-in-brazil-theological-origins-of-a-nations-hierarchical-self-understanding-part-1-vinicius-marinho/ 301
 
+# Legacy taxonomy and abstract paths must resolve before generic date/archive fallbacks.
+/religioustheory/abstracts/:file https://files.jcrt.org/docs/:file 301
+/religioustheory/category /religioustheory/categories/ 301
+/religioustheory/category/ /religioustheory/categories/ 301
+/religioustheory/category/:slug /religioustheory/categories/:slug/ 301
+/religioustheory/category/:slug/ /religioustheory/categories/:slug/ 301
+/religioustheory/category/:slug/* /religioustheory/categories/:slug/ 301
+/religioustheory/tag/:tag /religioustheory/tags/:tag/ 301
+/religioustheory/tag/:tag/ /religioustheory/tags/:tag/ 301
+/religioustheory/tag/:tag/feed /religioustheory/tags/:tag/ 301
+/religioustheory/tag/:tag/feed/ /religioustheory/tags/:tag/ 301
+
 # Auto-mapped truncated religioustheory URL redirects (2nd pass)
 /religioustheory/2018/07/26/negative-theology-and-its-problems-barth-and /religioustheory/posts/negative-theology-and-its-problems-barth-and-marion-lecture-3-johannes-zachhuber/ 301
 /religioustheory/2018/09/30/religion-and-mental-health-the-therapeutic-val /religioustheory/posts/religion-and-mental-health-the-therapeutic-value-of-the-teachings-of-jesus-part-1-thomas-roberts-and-delbert-hayden/ 301
@@ -180,6 +194,8 @@
 /religioustheory/:year/:month/:day/:slug/*_bookmark* /religioustheory/posts/:slug/ 301
 /religioustheory/*_bookmark* /religioustheory/posts/ 301
 /religioustheory/tag/:tag/feed/* /religioustheory/tags/:tag/ 301
+/religioustheory/:year/:month/:day/:slug /religioustheory/posts/:slug/ 301
+/religioustheory/:year/:month/:day/:slug/ /religioustheory/posts/:slug/ 301
 /religioustheory/:year/:month/:day /religioustheory/posts/ 301
 /religioustheory/:year/:month/:day/ /religioustheory/posts/ 301
 /religioustheory/:year/:month /religioustheory/posts/ 301
@@ -195,6 +211,7 @@
 /religioustheory/:slug/embed/ /religioustheory/posts/:slug/ 301
 
 # Legacy WordPress feed URL redirects
+/weblog/wp-content/themes/classic/im/phentermine-next-day-shipping.html / 410
 /weblog /archives/ 301
 /weblog/ /archives/ 301
 /weblog/* /archives/ 301
@@ -277,6 +294,11 @@
 /religioustheory/tag/:tag/ /religioustheory/tags/:tag/ 301
 /religioustheory/tag/:tag/feed /religioustheory/tags/:tag/ 301
 /religioustheory/tag/:tag/feed/ /religioustheory/tags/:tag/ 301
+/religioustheory/conferences-and-call-for-papers /religioustheory/posts/ 301
+/religioustheory/conferences-and-call-for-papers/ /religioustheory/posts/ 301
+/religioustheory/conferences-and- /religioustheory/posts/ 301
+/religioustheory/jcrt/ /religioustheory/ 301
+/religioustheory/about/ /about/ 301
 /religioustheory/author/assistant-editor/ /editors/ 301
 /religioustheory/author/editors_religioustheory/ /religioustheory/authors/editors/ 301
 /religioustheory/staff/* /editors/ 301
@@ -302,7 +324,12 @@
 /submit/ /submissions/ 301
 /wp-login.php / 301
 /administrator/ / 301
+/cdn-cgi/l/email-protection / 410
 /pastissues.shtml /archives/ 301
+/blog/secondpost/ /blog/ 301
+/blog/thirdpost/ /blog/ 301
+/authors/jcrt-editors/ /editors/ 301
+/authors/manuel-mejido-costoya/ /authors/manuel-jesus-mejido/ 301
 /authors/books/ /religioustheory/posts/ 301
 /authors/books /religioustheory/posts/ 301
 /authors/j-c-smith/ /religioustheory/authors/j-c-smith/ 301

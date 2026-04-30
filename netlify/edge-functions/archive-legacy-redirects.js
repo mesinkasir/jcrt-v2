@@ -5,6 +5,14 @@ const ARCHIVE_PDF_RE = /^([^/]+)\.pdf$/i;
 const STRIP_SEARCH_ARCHIVE_REDIRECTS = new Map([
 	["/archives/07.2/marion-taylor-intro.pdf", "https://jcrt.org/archives/07.2/taylor/"],
 ]);
+const LEGACY_ARCHIVE_PATH_REDIRECTS = new Map([
+	["/archives/04.1/manolopoulos.shtml", "/archives/04.1/markmanolopoulos/"],
+	["/archives/02.2/taylor\\_raschke/", "/archives/02.2/taylor_raschke/"],
+	["/archives/10.3/stern&gimbel/", "/archives/10.3/stern&gimbel/"],
+	["/archives/posts/", "/archives/"],
+	["/archives/keywords/conference/", "/archives/"],
+	["/archives/25.1/d_errico/", "/archives/25.1/derrico/"],
+]);
 const LEGACY_ARCHIVE_PDF_REDIRECTS = new Map([
 	["/archives/18.3/Roberts and Hayden.pdf", "/archives/18.3/robertsandhayden.pdf"],
 	["/archives/17.2/Hagedorn and Staudigl.pdf", "/archives/17.2/Hagedorn-and-Staudigl.pdf"],
@@ -17,6 +25,7 @@ const LEGACY_ARCHIVE_PDF_REDIRECTS = new Map([
 	["/archives/18.3/Ruetenik.pdf · PDF file", "/archives/18.3/Ruetenik.pdf"],
 	["/archives/24.2/trinkauskaitė.pdf", "/archives/24.2/trinkauskaite/"],
 	["/archives/06.3/kotsko8000.pdf", "/archives/06.3/kotsko.pdf"],
+	["/archives/08.2/roundtable.pdf.26", "/archives/08.2/roundtable.pdf"],
 ]);
 
 function safeDecodePath(pathname) {
@@ -28,6 +37,16 @@ function safeDecodePath(pathname) {
 }
 
 function normalizePathname(pathname) {
+	return safeDecodePath(pathname)
+		.replace(/&amp;/gi, "&")
+		.replace(/&apos;/gi, "'")
+		.replace(/&#39;/g, "'")
+		.replace(/\u00A0/g, " ")
+		.replace(/\/{2,}/g, "/")
+		.trim();
+}
+
+function normalizePathnameWithoutEntities(pathname) {
 	return safeDecodePath(pathname)
 		.replace(/\u00A0/g, " ")
 		.replace(/\/{2,}/g, "/")
@@ -56,12 +75,18 @@ export default async (request, context) => {
 
 	const requestUrl = new URL(request.url);
 	const pathname = normalizePathname(requestUrl.pathname);
+	const decodedPathname = normalizePathnameWithoutEntities(requestUrl.pathname);
 	const archiveMatch = pathname.match(ARCHIVE_ROOT_RE);
 	if (!archiveMatch) return context.next();
 
 	const cleanTarget = STRIP_SEARCH_ARCHIVE_REDIRECTS.get(pathname);
 	if (cleanTarget) {
 		return Response.redirect(buildCleanRedirectURL(requestUrl, cleanTarget), 301);
+	}
+
+	const legacyPathTarget = LEGACY_ARCHIVE_PATH_REDIRECTS.get(pathname);
+	if (legacyPathTarget && (legacyPathTarget !== pathname || decodedPathname !== pathname)) {
+		return Response.redirect(buildRedirectURL(requestUrl, legacyPathTarget), 301);
 	}
 
 	const legacyPdfTarget = LEGACY_ARCHIVE_PDF_REDIRECTS.get(pathname);
