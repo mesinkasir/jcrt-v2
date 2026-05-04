@@ -48,11 +48,23 @@ function getIssueFromData(data) {
   return parts.length >= 3 ? parts[parts.length - 2] : null;
 }
 
+function archivePdfUrl(data) {
+  const slug = data?.page?.fileSlug;
+  if (!slug || slug === "index") return null;
+  const rawPdf = data?.pdf;
+  if (typeof rawPdf === "string" && rawPdf.trim() === "") return null;
+  if (rawPdf === false || rawPdf === null) return null;
+  if (typeof rawPdf !== "string") return null;
+  const fileName = rawPdf.trim();
+  const folder = data.page.filePathStem.substring(0, data.page.filePathStem.lastIndexOf('/'));
+  return `${getFilesUrl()}${folder}/${fileName}`;
+}
+
 export default {
   title: "Journal for Cultural and Religious Theory",
   layout: "archive-post.njk",
   eleventyComputed: {
-    canonical_url: (data) => data?.canonical_url || data?.page?.url || null,
+    canonical_url: (data) => archivePdfUrl(data) || data?.page?.url || null,
     date: (data) => {
       if (data?.date) return data.date;
       const directYear = Number.parseInt(data?.year, 10);
@@ -83,15 +95,7 @@ export default {
       return issueMeta?.issue || null;
     },
     pdfUrl: (data) => {
-      const slug = data.page.fileSlug;
-      if (!slug || slug === "index") return null;
-      const rawPdf = data.pdf;
-      if (typeof rawPdf === "string" && rawPdf.trim() === "") return null;
-      if (rawPdf === false || rawPdf === null) return null;
-      if (typeof rawPdf !== "string") return null;
-      const fileName = rawPdf.trim();
-      const folder = data.page.filePathStem.substring(0, data.page.filePathStem.lastIndexOf('/'));
-      return `${getFilesUrl()}${folder}/${fileName}`;
+      return archivePdfUrl(data);
     },
     risCitationUrl: (data) => {
       const slug = data.page.fileSlug;

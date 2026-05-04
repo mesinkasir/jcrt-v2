@@ -18,15 +18,18 @@ function parseFrontMatter(content) {
 	}
 }
 
-function readBaseUrl() {
+function readMetadataUrls() {
 	try {
 		const raw = fs.readFileSync(METADATA_FILE, "utf8");
 		const parsed = yaml.load(raw) || {};
 		const url = String(parsed.url || "").trim();
-		if (!url) return "https://jcrt.org";
-		return url.endsWith("/") ? url.slice(0, -1) : url;
+		const filesUrl = String(parsed.files_url || "").trim();
+		return {
+			baseUrl: url ? url.replace(/\/+$/, "") : "https://jcrt.org",
+			filesUrl: filesUrl ? filesUrl.replace(/\/+$/, "") : "https://files.jcrt.org",
+		};
 	} catch {
-		return "https://jcrt.org";
+		return { baseUrl: "https://jcrt.org", filesUrl: "https://files.jcrt.org" };
 	}
 }
 
@@ -120,7 +123,7 @@ function readIssueMetadata(issueSlug, cache) {
 }
 
 export default function dataciteArchives() {
-	const baseUrl = readBaseUrl();
+	const { baseUrl, filesUrl } = readMetadataUrls();
 	const issueCache = new Map();
 	const files = walkMarkdown(ARCHIVES_DIR);
 	const records = [];
@@ -155,7 +158,7 @@ export default function dataciteArchives() {
 		const keywords = splitKeywords(data.keywords);
 		const description = String(data.description || data.abstract || "").trim();
 		const pageUrl = `${baseUrl}/archives/${issueSlug}/${slug}/`;
-		const pdfUrl = `${baseUrl}/archives/${issueSlug}/${pdfFile}`;
+		const pdfUrl = `${filesUrl}/archives/${issueSlug}/${pdfFile}`;
 		const issueNumbers = parseIssueNumber(issueSlug);
 
 		records.push({
@@ -169,7 +172,7 @@ export default function dataciteArchives() {
 			publicationYear: publicationYear || "1999",
 			resourceType: "JournalArticle",
 			resourceTypeGeneral: "Text",
-			identifier: pageUrl,
+			identifier: pdfUrl,
 			identifierType: "URL",
 			pageUrl,
 			pdfUrl,

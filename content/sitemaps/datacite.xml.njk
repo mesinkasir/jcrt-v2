@@ -34,8 +34,8 @@ layout: false
     </subjects>
 {% endif %}
     <relatedIdentifiers>
-      <relatedIdentifier relatedIdentifierType="URL" relationType="IsIdenticalTo">{{ rec.pageUrl | escape }}</relatedIdentifier>
-      <relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">{{ rec.pdfUrl | escape }}</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="IsIdenticalTo">{{ rec.identifier | escape }}</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="IsPartOf">{{ rec.pageUrl | escape }}</relatedIdentifier>
     </relatedIdentifiers>
 {% if rec.dateIssued %}
     <dates>

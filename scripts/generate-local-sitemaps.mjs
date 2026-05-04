@@ -166,6 +166,10 @@ function readArchiveEntries() {
     if (!dateStr && data.year) dateStr = `${data.year}-01-01`;
 
     const pdfFile = String(data.pdf || "").trim();
+    const pageUrl = `${BASE_URL}/archives/${issueSlug}/${slug}/`;
+    const pdfUrl = pdfFile ? `${FILES_URL}/archives/${issueSlug}/${pdfFile}` : "";
+    const canonicalUrl = pdfUrl || pageUrl;
+    const canonicalFormat = pdfUrl ? "application/pdf" : "text/html";
     const stem = pdfFile.toLowerCase().endsWith(".pdf")
       ? pdfFile.slice(0, -4)
       : slug;
@@ -184,8 +188,10 @@ function readArchiveEntries() {
       dateStr,
       pdfFile,
       citationStem: stem,
-      canonicalUrl: `${BASE_URL}/archives/${issueSlug}/${slug}/`,
-      pdfUrl: pdfFile ? `${BASE_URL}/archives/${issueSlug}/${pdfFile}` : "",
+      pageUrl,
+      pdfUrl,
+      canonicalUrl,
+      canonicalFormat,
       published,
       sitemapIgnore,
     });
@@ -233,7 +239,7 @@ function generateDoaj(entries) {
       lines.push(`    <abstract language="eng">${escXml(e.description)}</abstract>`);
     }
 
-    lines.push(`    <fullTextUrl format="html">${escXml(e.canonicalUrl)}</fullTextUrl>`);
+    lines.push(`    <fullTextUrl format="${e.pdfUrl ? "pdf" : "html"}">${escXml(e.canonicalUrl)}</fullTextUrl>`);
 
     if (e.keywords.length) {
       lines.push(`    <keywords language="eng">`);
@@ -276,6 +282,7 @@ function generateOai(entries) {
           description: e.description,
           canonicalUrl: e.canonicalUrl,
           pdfUrl: e.pdfUrl,
+          format: e.canonicalFormat,
           citation,
         },
         {

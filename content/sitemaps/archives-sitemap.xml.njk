@@ -7,8 +7,8 @@ permalink: "/archives-sitemap.xml"
 {% set archives = collections.archives %}
 {% set seen = [] %}
 {% for entry in archives %}
-  {% set urlPath = entry.url | url %}
-  {% set fullUrl = baseUrl ~ urlPath %}
+  {% set canonicalPath = (entry.data.canonical_url or entry.url) | stripQueryAndHash %}
+  {% set fullUrl = canonicalPath if "http" in canonicalPath else baseUrl ~ (canonicalPath | url) %}
   {% if fullUrl not in seen %}
     <url>
       <loc>{{ fullUrl | xmlEscape | safe }}</loc>
