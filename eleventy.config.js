@@ -154,6 +154,71 @@ function escapeHtmlAttr(value) {
 		.replace(/>/g, "&gt;");
 }
 
+function decodeHtmlEntities(value) {
+	return String(value || "")
+		.replace(/&nbsp;/gi, " ")
+		.replace(/&amp;/gi, "&")
+		.replace(/&lt;/gi, "<")
+		.replace(/&gt;/gi, ">")
+		.replace(/&quot;/gi, '"')
+		.replace(/&apos;/gi, "'")
+		.replace(/&#39;/g, "'");
+}
+
+function normalizeInlineText(value) {
+	return decodeHtmlEntities(value)
+		.replace(/<[^>]*>/g, " ")
+		.replace(/\s+/g, " ")
+		.trim();
+}
+
+function firstMatchText(content, pattern) {
+	const match = content.match(pattern);
+	return normalizeInlineText(match?.[1] || "");
+}
+
+function fallbackAltForHtml(content, outputPath) {
+	const title = firstMatchText(content, /<h1\b[^>]*>([\s\S]*?)<\/h1>/i)
+		|| firstMatchText(content, /<title\b[^>]*>([\s\S]*?)<\/title>/i);
+	if (title) return title;
+	const basename = path.basename(outputPath || "", ".html").replace(/[-_]+/g, " ").trim();
+	return basename || "JCRT image";
+}
+
+function isDecorativeImageTag(imgTag) {
+	return /\b(?:aria-hidden|role)\s*=\s*["'](?:true|presentation|none)["']/i.test(imgTag)
+		|| /\bclass\s*=\s*["'][^"']*(?:decorative|spacer|tracking-pixel|pixel)[^"']*["']/i.test(imgTag)
+		|| /\bsrc\s*=\s*["'][^"']*(?:black\.gif|spacer\.gif|tracking|pixel)[^"']*["']/i.test(imgTag);
+}
+
+function ensureImageAltAttributes(content, outputPath) {
+	const fallbackAlt = escapeHtmlAttr(fallbackAltForHtml(content, outputPath));
+	return content.replace(/<img\b[^>]*>/gi, (imgTag) => {
+		if (isDecorativeImageTag(imgTag)) {
+			if (/\balt\s*=/i.test(imgTag)) return imgTag;
+			return imgTag.replace(/\s*\/?>$/, (ending) => ending.includes("/>") ? ' alt="" />' : ' alt="">');
+		}
+		if (/\balt\s*=\s*(['"])\s*\1/i.test(imgTag)) {
+			return imgTag.replace(/\balt\s*=\s*(['"])\s*\1/i, `alt="${fallbackAlt}"`);
+		}
+		if (/\balt\s*=/i.test(imgTag)) return imgTag;
+		return imgTag.replace(/\s*\/?>$/, (ending) => ending.includes("/>") ? ` alt="${fallbackAlt}" />` : ` alt="${fallbackAlt}">`);
+	});
+}
+
+function demoteRedundantH1s(content) {
+	let h1Count = 0;
+	return content.replace(/<\/?h1\b[^>]*>/gi, (tag) => {
+		if (/^<h1\b/i.test(tag)) {
+			h1Count += 1;
+			if (h1Count === 1) return tag;
+			return tag.replace(/^<h1\b/i, "<h2");
+		}
+		if (h1Count <= 1) return tag;
+		return tag.replace(/^<\/h1\b/i, "</h2");
+	});
+}
+
 function resolveServedImageUrl(src, fallback = "/images/jcrt-open-graph.webp") {
 	const candidate = String(src || fallback || "").trim();
 	if (!candidate) return `${siteFilesUrl}/images/jcrt-open-graph.webp`;
@@ -399,14 +464,14 @@ export default async function (eleventyConfig) {
 		if (!outputPath || !outputPath.endsWith(".html") || typeof content !== "string") {
 			return content;
 		}
-		return content.replace(/<img\b(?![^>]*\balt=)[^>]*>/gi, (imgTag) => {
-			return imgTag.replace(/\s*\/?>$/, (ending) => {
-				if (ending.includes("/>")) {
-					return ' alt="" />';
-				}
-				return ' alt="">';
-			});
-		});
+		return ensureImageAltAttributes(content, outputPath);
+	});
+
+	eleventyConfig.addTransform("demote-redundant-h1", function (content, outputPath) {
+		if (!outputPath || !outputPath.endsWith(".html") || typeof content !== "string") {
+			return content;
+		}
+		return demoteRedundantH1s(content);
 	});
 
 	// Citations and favicons are on files.jcrt.org — no eleventy.before work needed.

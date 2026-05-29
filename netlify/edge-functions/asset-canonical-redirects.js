@@ -71,7 +71,11 @@ function redirectToFiles(pathname) {
 	const target = new URL(FILES_BASE_URL);
 	target.pathname = pathname;
 	target.search = "";
-	return Response.redirect(target, 301);
+	const headers = new Headers({ location: target.toString() });
+	if (/\.(?:avif|gif|ico|jpe?g|png|svg|webp)$/i.test(pathname)) {
+		headers.set("x-robots-tag", "noindex");
+	}
+	return new Response(null, { status: 301, headers });
 }
 
 function gone() {

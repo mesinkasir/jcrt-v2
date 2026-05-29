@@ -11,6 +11,7 @@ const PROTECTED_SITEMAPS = [
 ];
 const EXCLUDED_FROM_MAIN_INDEX = new Set([
 	"/sitemaps/sitemaps.xml",
+	"/media-sitemap.xml",
 ]);
 const LOCAL_METADATA_SITEMAPS = [
 	{ path: "/sitemaps/doaj-archives.xml", file: path.join("public", "sitemaps", "doaj-archives.xml") },

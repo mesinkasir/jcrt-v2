@@ -92,7 +92,7 @@ While post-Althusserian ideology critique or ideology critique, in general, for 
 
 The legacy of Long, is something to which we are responsible. I think there is a broader set of lessons here for anyone in administration. Is the organization becoming more open or more closed under leadership? Where are the discourses of exclusion? Who is being left out? How are people being invited in? What does it mean to belong to an organization? These questions reflect the concern of an engaged administrator and, in the case of Charles Long, they reflect a wider concern about how to make the world or a “new world . . . \[more\] inhabitable and beneficial to the human community” . . . in its widest and most inclusive definition and form.   
 
-*Victor E. Taylor is Vice Provost for Graduate Education and Extended Studies at South Dakota State University. He has served since 2001 as Executive Editor for the* Journal for Cultural and Religious Theory.  
+*Victor E. Taylor. He has served since 2001 as Executive Editor for the* Journal for Cultural and Religious Theory.  
 
 ***
 ## Footnotes

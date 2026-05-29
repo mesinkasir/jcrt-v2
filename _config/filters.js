@@ -2,6 +2,123 @@ import { DateTime } from "luxon";
 
 export default function(eleventyConfig) {
     const isLeanBuild = Boolean(process.env.LEAN_BUILD);
+    const SITE_SUFFIX = " | The Journal for Cultural and Religious Theory | JCRT";
+    const SHORT_TITLE_MIN = 22;
+    const DESCRIPTION_MIN = 70;
+    const DEFAULT_DESCRIPTION = "The Journal for Cultural and Religious Theory is an open-access, peer-reviewed publication for scholarship in religion, culture, critical theory, philosophy, politics, and public life.";
+
+    const normalizeText = (value) => String(value || "")
+        .replace(/<[^>]*>/g, " ")
+        .replace(/&nbsp;/gi, " ")
+        .replace(/&amp;/gi, "&")
+        .replace(/&quot;/gi, '"')
+        .replace(/&#39;/g, "'")
+        .replace(/\s+/g, " ")
+        .trim();
+
+    const cleanTitle = (value) => {
+        const variants = [
+            " | The Journal for Cultural and Religious Theory | JCRT",
+            " | Journal for Cultural and Religious Theory | JCRT",
+            " | JCRT",
+        ];
+        let baseTitle = normalizeText(value);
+        for (const variant of variants) {
+            const pattern = new RegExp(`${variant.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}$`, "i");
+            baseTitle = baseTitle.replace(pattern, "").trim();
+        }
+        return baseTitle;
+    };
+
+    const issueLabel = (volume, issue, season) => {
+        const parts = [];
+        if (volume && issue) parts.push(`Volume ${volume}, Issue ${issue}`);
+        else if (volume) parts.push(`Volume ${volume}`);
+        else if (issue) parts.push(`Issue ${issue}`);
+        if (season) parts.push(String(season).trim());
+        return parts.filter(Boolean).join(" ");
+    };
+
+    const pageContextLabel = (pageUrl = "", volume = "", issue = "", season = "") => {
+        const url = String(pageUrl || "");
+        if (url === "/" || url === "") return "Open Access Journal";
+        if (url.startsWith("/archives/keywords/")) return "Archive Keyword";
+        if (url.startsWith("/archives/")) {
+            const label = issueLabel(volume, issue, season);
+            return label ? `JCRT Archive ${label}` : "JCRT Archive";
+        }
+        if (url.startsWith("/authors/")) return "JCRT Contributor Profile";
+        if (url.startsWith("/religioustheory/categories/")) return "Religious Theory Category";
+        if (url.startsWith("/religioustheory/tags/")) return "Religious Theory Tag";
+        if (url.startsWith("/religioustheory/posts/")) return "Religious Theory Article";
+        if (url.startsWith("/religioustheory/")) return "Religious Theory Archive";
+        if (url.startsWith("/blog/")) return "JCRT News";
+        if (url.startsWith("/tags/")) return "JCRT Tag";
+        return "JCRT";
+    };
+
+    const expandShortTitle = (value, pageUrl = "", author = "", volume = "", issue = "", season = "") => {
+        const baseTitle = cleanTitle(value);
+        const context = pageContextLabel(pageUrl, volume, issue, season);
+        const authorText = normalizeText(author);
+        const hasNamedAuthor = authorText
+            && authorText.length > 2
+            && !["editors", "editor", "editors_religioustheory"].includes(authorText.toLowerCase())
+            && !/editors?$/i.test(authorText);
+        if (!baseTitle || /^home$/i.test(baseTitle)) return "The Journal for Cultural and Religious Theory";
+        if (/^jcrt$/i.test(baseTitle)) return "JCRT - Journal for Cultural and Religious Theory";
+        if (/^blog$/i.test(baseTitle)) return "Religious Theory and JCRT News";
+        if (/^archives?$/i.test(baseTitle)) return "JCRT Journal Archives";
+        if (/^authors?$/i.test(baseTitle)) return "JCRT Contributor Profiles";
+        if (baseTitle.length >= SHORT_TITLE_MIN) return baseTitle;
+        if (pageUrl.startsWith("/authors/")) return `${baseTitle} - JCRT Contributor Profile`;
+        if (hasNamedAuthor) {
+            return `${baseTitle} by ${authorText}`;
+        }
+        return `${baseTitle} - ${context}`;
+    };
+
+    const sentenceCaseContext = (pageUrl = "", volume = "", issue = "", season = "") => {
+        const context = pageContextLabel(pageUrl, volume, issue, season);
+        return context.replace(/^JCRT /, "JCRT ").replace(/^Religious Theory /, "Religious Theory ");
+    };
+
+    const buildSeoDescription = (source, title, pageUrl = "", author = "", volume = "", issue = "", season = "", siteDescription = "") => {
+        const candidate = normalizeText(source);
+        if (candidate.length >= DESCRIPTION_MIN) return candidate.slice(0, 220).trim();
+
+        const titleText = expandShortTitle(title, pageUrl, author, volume, issue, season);
+        const rawTitleText = cleanTitle(title) || titleText;
+        const authorText = normalizeText(author);
+        const hasNamedAuthor = authorText
+            && authorText.length > 2
+            && !["editors", "editor", "editors_religioustheory"].includes(authorText.toLowerCase())
+            && !/editors?$/i.test(authorText);
+        const context = sentenceCaseContext(pageUrl, volume, issue, season);
+        const issueText = issueLabel(volume, issue, season);
+        let generated = "";
+
+        if (String(pageUrl || "").startsWith("/authors/")) {
+            generated = `Read the JCRT contributor profile for ${rawTitleText || "this author"}, including affiliated scholarship, archive appearances, and related work in cultural and religious theory.`;
+        } else if (String(pageUrl || "").startsWith("/archives/") && issueText && /\/archives\/[^/]+\/$/.test(String(pageUrl || ""))) {
+            generated = `Browse ${issueText} of the Journal for Cultural and Religious Theory, including peer-reviewed articles, issue materials, and archive resources from JCRT.`;
+        } else if (String(pageUrl || "").startsWith("/archives/")) {
+            generated = `Read ${rawTitleText}${hasNamedAuthor ? ` by ${authorText}` : ""} in the Journal for Cultural and Religious Theory archive, with article metadata, citations, and related issue resources.`;
+        } else if (String(pageUrl || "").startsWith("/religioustheory/posts/")) {
+            generated = `Read ${rawTitleText}${hasNamedAuthor ? ` by ${authorText}` : ""} in Religious Theory, the JCRT archive for essays, reviews, conversations, and critical scholarship on religion and culture.`;
+        } else if (String(pageUrl || "").startsWith("/religioustheory/")) {
+            generated = `Explore ${titleText}, part of Religious Theory at JCRT, with essays, reviews, categories, tags, and archived scholarship on religion, theory, and culture.`;
+        } else if (String(pageUrl || "").startsWith("/blog/")) {
+            generated = `Read ${titleText} from JCRT news and updates, including calls for papers, publication announcements, and scholarship in religion, culture, and theory.`;
+        } else if (String(pageUrl || "").includes("/tags/") || String(pageUrl || "").includes("/categories/")) {
+            generated = `Browse ${titleText} in the ${context}, collecting related JCRT scholarship, archive entries, and Religious Theory posts for readers and researchers.`;
+        } else {
+            generated = `${titleText} from the Journal for Cultural and Religious Theory, an open-access publication for scholarship in religion, culture, philosophy, critical theory, and public life.`;
+        }
+
+        const fallback = normalizeText(siteDescription) || DEFAULT_DESCRIPTION;
+        return (normalizeText(generated).length >= DESCRIPTION_MIN ? normalizeText(generated) : fallback).slice(0, 220).trim();
+    };
     // --- Date Filters ---
     eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
         if (!dateObj) return "";
@@ -50,23 +167,14 @@ export default function(eleventyConfig) {
             String(a ?? "").localeCompare(String(b ?? ""))
         )
     );
-    eleventyConfig.addFilter("seoTitle", (value) => {
-        const suffix = " | The Journal for Cultural and Religious Theory | JCRT";
-        const variants = [
-            " | The Journal for Cultural and Religious Theory | JCRT",
-            " | Journal for Cultural and Religious Theory | JCRT",
-            " | JCRT",
-        ];
-        let baseTitle = String(value || "").trim().replace(/\s+/g, " ");
-        for (const variant of variants) {
-            const pattern = new RegExp(`${variant.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}$`, "i");
-            baseTitle = baseTitle.replace(pattern, "").trim();
-        }
+    eleventyConfig.addFilter("seoTitle", (value, pageUrl = "", author = "", volume = "", issue = "", season = "") => {
+        const baseTitle = expandShortTitle(value, pageUrl, author, volume, issue, season);
         if (!baseTitle) {
             return `The Journal for Cultural and Religious Theory | JCRT`;
         }
-        return `${baseTitle}${suffix}`;
+        return `${baseTitle}${SITE_SUFFIX}`;
     });
+    eleventyConfig.addFilter("seoDescription", buildSeoDescription);
 eleventyConfig.addFilter("validImage", function(imgUrl, fallback) {
     if (!imgUrl || imgUrl === "" || imgUrl === "null" || imgUrl === undefined) {
         return fallback;

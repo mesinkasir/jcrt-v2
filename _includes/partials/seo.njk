@@ -1,16 +1,20 @@
-{% set pageTitle = title or metadata.title %}
-{% if page.url == "/" %}
-  {% set pageTitle = "Home" %}
+{% set pageUrl = page.url | default("", true) %}
+{% set defaultAuthor = "Religious Theory Editors" if "/religioustheory/" in pageUrl else "JCRT Editors" %}
+{% set authorCandidate = author or authors or pg.authorName or post.authorName or metadata.site.author or defaultAuthor %}
+{% set authorName = authorCandidate %}
+{% if (not authorName) or (authorName | trim == "") or (authorName | lower in ["editors", "editor", "editors_religioustheory"]) %}
+  {% set authorName = defaultAuthor %}
 {% endif %}
-{% set rawPageDesc = description or excerpt or abstract or (content | striptags | trim | truncate(160)) or metadata.description %}
-{% set pageDesc = rawPageDesc | default(metadata.description, true) | trim %}
-{% if not pageDesc %}
-  {% set pageDesc = metadata.description %}
+{% set pageTitle = seoTitle or title or metadata.title %}
+{% if pageUrl == "/" %}
+  {% set pageTitle = "JCRT" %}
 {% endif %}
-{% set fullTitle = pageTitle | seoTitle %}
+{% set rawPageDesc = seoDescription or description or excerpt or abstract or "" %}
+{% set pageDesc = rawPageDesc | seoDescription(pageTitle, pageUrl, authorName, volume, issue, season, metadata.description) %}
+{% set fullTitle = pageTitle | seoTitle(pageUrl, authorName, volume, issue, season) %}
 {% set pageImageSource = image or (metadata.files_url + '/images/jcrt-open-graph.webp') %}
 {% set pageImageRaw = pageImageSource | ensureImage('/images/jcrt-open-graph.webp') %}
-{% set pageImage = pageImageRaw if "http" in pageImageRaw else metadata.url + pageImageRaw %}
+{% set pageImage = pageImageRaw if "http" in pageImageRaw else (pageImageRaw | assetUrl) %}
 {% set robotsDirective = "index, follow" %}
 {% if robots %}
   {% set robotsDirective = robots %}
@@ -19,15 +23,8 @@
 {% elif nofollow %}
   {% set robotsDirective = "index, nofollow" %}
 {% endif %}
-{% set pageUrl = page.url | default("", true) %}
 {% set canonicalPath = (canonical_url or pageUrl) | stripQueryAndHash %}
 {% set canonicalUrl = canonicalPath if "http" in canonicalPath else metadata.url + canonicalPath %}
-{% set defaultAuthor = "Religious Theory Editors" if "/religioustheory/" in pageUrl else "JCRT Editors" %}
-{% set authorCandidate = author or authors or pg.authorName or post.authorName or metadata.site.author or defaultAuthor %}
-{% set authorName = authorCandidate %}
-{% if (not authorName) or (authorName | trim == "") or (authorName | lower in ["editors", "editor", "editors_religioustheory"]) %}
-  {% set authorName = defaultAuthor %}
-{% endif %}
 {% set publishedDateRaw = date or page.date or post.date %}
 {% if (not publishedDateRaw) and year %}
   {% set publishedDateRaw = year ~ "-01-01" %}
