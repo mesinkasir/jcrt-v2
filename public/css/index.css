@@ -1,5 +1,5 @@
 :root {
-    --sidebar-width: 340px;
+    --sidebar-width: 300px;
     --btn-margin-top: 10px;
     --btn-width: 50px; 
     --default-padding: 50px;
@@ -23,7 +23,7 @@
     --jcrt-title-size: clamp(2.1rem, 5vw, 4.5rem);
     --jcrt-reading-font-size: var(--jcrt-article-font-size);
     --jcrt-reading-line-height: var(--jcrt-article-line-height);
-    --btn-margin-left: calc((100% - var(--jcrt-reading-max)) / 2 - 60px);
+    --btn-margin-left: clamp(20px, 5vw, 40px);
     --jcrt-slab-stack: Rockwell, "Rockwell Nova", "Roboto Slab", "DejaVu Serif", "Sitka Small", serif;
 }
 
@@ -880,7 +880,7 @@ h1.navbar-brand a:focus .text-secondary,
         --jcrt-article-line-height: 1.68;
         --jcrt-reading-font-size: var(--jcrt-article-font-size);
         --jcrt-reading-line-height: var(--jcrt-article-line-height);
-        --jcrt-page-gutter: 1rem;
+        --jcrt-page-gutter: clamp(1.5rem, 5vw, 4rem);
     }
 
     .jcrt-article-content,
@@ -1548,8 +1548,8 @@ body.menu-open #menu-toggle-btn {
 
     #menu-toggle-btn {
         position: fixed !important;
-        top: 20px !important;
-        left: 20px !important;
+        top: 15px !important;
+        left: 15px !important;
         width: 45px !important;
         height: 45px !important;
         z-index: 2000 !important;
@@ -1592,6 +1592,15 @@ body.menu-open #menu-toggle-btn {
     body.menu-open #menu-toggle-btn {
         left: calc(var(--sidebar-width) + 20px) !important;
     }
+	.mobile {
+        padding-left: 65px !important;
+        width: 100%;
+        align-items: center;
+    }
+
+    .upd {
+        padding-top: 70px !important; 
+    }
 }
 
 @media (min-width: 1196px) {
@@ -1601,9 +1610,15 @@ body.menu-open #menu-toggle-btn {
     .mobile {
         display: none !important;
     }
+	#content-wrapper.site-shell {
+      
+        padding-left: var(--btn-margin-left) !important; 
+        padding-right: var(--btn-margin-left) !important;
+        max-width: var(--jcrt-collection-max);
+        margin-left: 0 !important; 
+    }
 }
 
-/* Responsive content shells override legacy Bootstrap width classes. */
 #content-wrapper.site-shell {
     width: 100% !important;
     max-width: none !important;
