@@ -1,4 +1,4 @@
-<div class="container-fluid e-content home-section-shell home-recent-issues-section">
+<div class="container-fluid e-content">
     <div class="row mt-3 mb-3">
         <div class="col-12 p-3 p-md-5">
             <h2><strong><span class="bgb-primary">{{section.title}}</span></strong></h2>
@@ -15,7 +15,7 @@
                             {% responsiveThumb issueImage, (issue.data.title or ('Volume ' ~ issue.data.volume ~ '.' ~ issue.data.issue)), "img-fluid rounded shadow-sm w-100", "(max-width: 767px) 100vw, (max-width: 991px) 33vw, 240px", "160,240,320", "lazy", "low", (metadata.files_url + "/images/jcrt.svg"), "max-height: 120px; object-fit: cover;" %}
                         </a>
                     </div>
-                    <div class="col-12 col-md-8 text-start pe-md-5">
+                    <div class="col-12 col-md-8 text-center text-md-start pe-md-5">
                         <h3 class="h5 mb-1">
                             <a href="{{ issue.url }}" class="text-decoration-none">
                                 {{ issue.data.volume }}.{{ issue.data.issue }} - {{ issue.data.season }}
@@ -35,7 +35,7 @@
             {% for s in section.list %}
             <div class="col-12 col-lg-6 p-3 p-md-4">
                 <div class="row align-items-center">
-                    <div class="col-12 col-md-4 d-flex justify-content-start mb-3 mb-md-0">
+                    <div class="col-12 col-md-4 d-flex justify-content-center mb-3 mb-md-0">
                         <div class="wajik-wrapper">
                             <div class="wajik-isi">
                                 <a href="{{s.url}}">
@@ -44,7 +44,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-8 text-start pe-md-5">
+                    <div class="col-12 col-md-8 text-center text-md-start pe-md-5">
                         <h3 class="h5"><a href="{{s.url}}" class="text-decoration-none">{{s.title}}</a></h3>
                         <p class="small mb-0">{{s.text}}</p>
                     </div>

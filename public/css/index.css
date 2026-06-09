@@ -738,51 +738,6 @@ h1.navbar-brand a:focus .text-secondary,
     max-width: var(--jcrt-collection-max);
 }
 
-.home-page-shell > .home-section-shell,
-.home-page-shell > .collection-shell,
-.home-page-shell > .archive-featured-section > .collection-shell {
-    max-width: var(--jcrt-collection-max);
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.home-page-shell .row {
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 1.5rem;
-}
-
-.home-page-shell h1,
-.home-page-shell h2,
-.home-page-shell h3,
-.home-page-shell h4,
-.home-page-shell p {
-    text-align: left;
-}
-
-.home-copy-block {
-    max-width: 62rem;
-}
-
-.home-page-shell .wajik-wrapper {
-    margin-right: 0;
-    margin-left: 0;
-}
-
-.home-page-shell .img-zoom-container {
-    border-radius: 8px !important;
-}
-
-.home-page-shell .img-post {
-    height: 100%;
-    min-height: 280px;
-}
-
-@media (max-width: 767.98px) {
-    .home-page-shell .img-post {
-        min-height: 220px;
-    }
-}
-
 .utility-shell {
     max-width: var(--jcrt-utility-max);
 }
