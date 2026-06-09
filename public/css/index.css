@@ -32,20 +32,31 @@ h1.navbar-brand {
     margin: 0;
     line-height: 1.2;
 }
-h1.navbar-brand a {
+h1.navbar-brand a,
+.navbar-brand a {
     color: inherit;
-    text-decoration: none;
+    text-decoration: none !important;
+    border-bottom: 0 !important;
 }
 h1.navbar-brand a:hover,
-h1.navbar-brand a:focus {
+.navbar-brand a:hover,
+h1.navbar-brand a:focus,
+.navbar-brand a:focus {
     text-decoration: none !important;
+    border-bottom: 0 !important;
 }
 h1.navbar-brand:hover .text-dark,
 h1.navbar-brand:hover .text-secondary,
 h1.navbar-brand a:hover .text-dark,
 h1.navbar-brand a:hover .text-secondary,
 h1.navbar-brand a:focus .text-dark,
-h1.navbar-brand a:focus .text-secondary {
+h1.navbar-brand a:focus .text-secondary,
+.navbar-brand:hover .text-dark,
+.navbar-brand:hover .text-secondary,
+.navbar-brand a:hover .text-dark,
+.navbar-brand a:hover .text-secondary,
+.navbar-brand a:focus .text-dark,
+.navbar-brand a:focus .text-secondary {
     color: #001F3F !important;
 }
 
@@ -725,6 +736,51 @@ h1.navbar-brand a:focus .text-secondary {
 
 .collection-shell {
     max-width: var(--jcrt-collection-max);
+}
+
+.home-page-shell > .home-section-shell,
+.home-page-shell > .collection-shell,
+.home-page-shell > .archive-featured-section > .collection-shell {
+    max-width: var(--jcrt-collection-max);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.home-page-shell .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 1.5rem;
+}
+
+.home-page-shell h1,
+.home-page-shell h2,
+.home-page-shell h3,
+.home-page-shell h4,
+.home-page-shell p {
+    text-align: left;
+}
+
+.home-copy-block {
+    max-width: 62rem;
+}
+
+.home-page-shell .wajik-wrapper {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.home-page-shell .img-zoom-container {
+    border-radius: 8px !important;
+}
+
+.home-page-shell .img-post {
+    height: 100%;
+    min-height: 280px;
+}
+
+@media (max-width: 767.98px) {
+    .home-page-shell .img-post {
+        min-height: 220px;
+    }
 }
 
 .utility-shell {

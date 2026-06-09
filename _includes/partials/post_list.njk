@@ -7,7 +7,8 @@
 <div class="col-md-6 col-lg-4 p-3 small p-md-5"> 
 <div class="img-zoom-container">
 <a href="{{b.url}}" title="{{b.data.title}}">
-    {% set postListImage = (b.data.image | ensureImage('/images/jcrt-open-graph.webp')) if b.data.image else (metadata.files_url + '/images/jcrt-open-graph.webp') %}
+    {% set postListSource = b.data.thumbnail or b.data.image %}
+    {% set postListImage = (postListSource | ensureImage('/images/jcrt-open-graph.webp')) if postListSource else (metadata.files_url + '/images/jcrt-open-graph.webp') %}
     {% set postListImagePreferred = postListImage | preferWebp %}
     <img class="img-post" alt="{{b.data.title}}" src="{{postListImagePreferred}}" data-fallback-src="{{postListImage}}" {% imageAttrs postListImage, 640, 360 %} loading="lazy" decoding="async" onerror="if(this.dataset.fallbackAttempted){this.onerror=null;this.src='{{ metadata.files_url }}/images/jcrt-open-graph.webp';}else{this.dataset.fallbackAttempted='1';this.src=this.dataset.fallbackSrc||'{{ metadata.files_url }}/images/jcrt-open-graph.webp';}"/></a>
 </div>
@@ -18,7 +19,7 @@
 <p><a href="{{b.url}}" class="btn btn-primary rounded-pill px-4" aria-label="Read blog post: {{ b.data.title }}">Read: {{ b.data.title }}</a></p>
 </div>
 {% endfor %}
-<div class="col-md-12 p-3  p-md-5 text-center">
+<div class="col-md-12 p-3  p-md-5 text-start">
 <a href="{{blog.button.url}}" class="btn btn-primary rounded-pill px-5">{{blog.button.text}}</a>
 </div>
 </div>

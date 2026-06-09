@@ -552,12 +552,13 @@ export default async function (eleventyConfig) {
 	// Pagefind runs once in `npm run build` (after `_site` is built).
 	// Keep passthrough mappings non-overlapping to avoid copy/watch race conditions.
 	eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
-	// Assets (images, docs, PDFs, citations) are served via files.jcrt.org
+	// Assets (docs, PDFs, citations) are served via files.jcrt.org
 	// through Netlify 200-proxy rules in public/_redirects.
-	// Only copy what is needed locally: CSS, JS, admin panel, redirects, local sitemaps.
+	// Copy local images too so authored /images/... paths resolve before fallbacks.
 	eleventyConfig
 		.addPassthroughCopy({ "public/css": "css" })
 		.addPassthroughCopy({ "public/js": "js" })
+		.addPassthroughCopy({ "public/images": "images" })
 		.addPassthroughCopy({ "public/admin": "admin" })
 		.addPassthroughCopy({ "public/sitemaps": "sitemaps" })
 		.addPassthroughCopy({ "public/_redirects": "_redirects" })
@@ -714,7 +715,9 @@ export default async function (eleventyConfig) {
 		const pathname = m[1];
 		const suffix = m[2] || "";
 		if (!/\.(jpe?g|png)$/i.test(pathname)) return src;
-		return pathname.replace(/\.(jpe?g|png)$/i, ".webp") + suffix;
+		const webpPathname = pathname.replace(/\.(jpe?g|png)$/i, ".webp");
+		if (!/^(https?:)?\/\//i.test(pathname) && !resolveImagePath(webpPathname)) return src;
+		return webpPathname + suffix;
 	});
 	eleventyConfig.addFilter("ensureImage", function (value, fallback = "/images/jcrt-open-graph.webp") {
 		const defaultImage = `${siteFilesUrl}${String(fallback || "/images/jcrt-open-graph.webp")}`;

@@ -65,7 +65,7 @@ layout: base.njk
     {% endif %}
 
     <div class="jcrt-article-content serif e-content"{% if isFastBuild and page.url and page.url.startsWith('/archives/') %} data-pagefind-ignore{% endif %}>
-      {{ content | toc | safe }}
+      {% if toc !== false %}{{ content | toc | safe }}{% endif %}
       {{ content | safe }}
     </div>
 

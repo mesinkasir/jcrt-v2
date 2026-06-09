@@ -1,21 +1,33 @@
 ---
 title: "CFP: Religion, Politics, and Cognitive Warfare"
 description: "Call for proposals on religion, politics, and cognitive warfare, exploring conspiracy, interpretation, AI, and struggles over truth and reality today."
+image: /images/header.webp
+thumbnail: /images/header_tn.webp
 date: 2026-04-22T18:16:00.000-04:00
 tags: 
   - call-for-papers
   - call-for-submissions
 author: editors_religioustheory
+toc: false
 ---
 ## Religion, Politics, and Cognitive Warfare: Information, Interpretation, Conspiracy, and the Struggle for Reality
 
-### *Call for Papers and Presentations*
-#### Details 
+### Details 
 - **When:** October 1-3, 2026
 - **Where:** Online
 - **Submission Deadline:** July 15, 2026
-- **Sponsored by:** The Journal for Cultural and Religious Theory (JCRT) in Collaboration with the University of Denver and Syracuse University
-- **Keynote Address by:**  [Jason Josephson Storm](https://religion.williams.edu/faculty/jason-josephson/), Williams College author of *The Genealogy of Genealogy: Nietzsche, Foucault, and the Coils of Critical History* and *Metamodernism: The Future of Theory*
+- **Sponsored by:** The Journal for Cultural and Religious Theory (JCRT) in Collaboration with the University of Denver 
+
+### Keynote Address: Militarizing the Mind: Cognitive Warfare from the Cold War to the Dark Web
+### [Jason Ānanda Josephson Storm](https://hub.williams.edu/religion/faculty/jason-josephson/)
+
+![Profile photo of Jason Ānanda Josephson Storm](/images/jajs.webp) 
+
+As I currently conceive it, the talk will open with three unsettling contemporary snapshots: a dark web occult repository of conspiracy theory screeds and “psychic mind-control” manuals; a NATO tactical statement declaring the human mind the “sixth domain” of warfare; and the familiar structure of a TikTok algorithmic rabbit hole. Together, these prismatic scenes suggest shared conceptions of the mind and a common repertoire of techniques for controlling perception, attention, and even thought itself.
+
+The talk will trace the emergence of these conceptions of the mind to a Cold War military industrial complex and the convergence of cybernetics, psychic research, propaganda studies, and Soviet theories of reflexive control. From these entanglements emerged many of the psychological models and informational logics that continue to govern contemporary life. Engaging Han Byung-Chul’s “psychopolitics,” Bernard Stiegler’s account of the alienation of memory, N. Katherine Hayles account of virtual bodies, and Friedrich Kittler’s insight that civilian media infrastructures are basically sedimented military technologies, I will examine how modern systems of influence increasingly operate through feedback loops designed to capture attention, circumvent deliberation, and exploit fractures in epistemic authority and trust. Having traced the construction of this mental battlespace, I ask how it might be demilitarized, or at least how we might learn to evade capture.
+
+*[Jason Ānanda Josephson Storm](https://religion.williams.edu/faculty/jason-josephson/) is the Francis Christopher Oakley Third Century Professor of Religion, Chair of Science & Technology Studies at Williams College and author of* [The Genealogy of Genealogy: Nietzsche, Foucault, and the Coils of Critical History](https://press.uchicago.edu/ucp/books/book/chicago/G/bo265446241.html) *and* [Metamodernism: The Future of Theory](https://amzn.to/36LNa2q).
 
 ### The Call For Proposals
 The Journal for Cultural and Religious Theory (JCRT) invites proposals for an online conference entitled **Religion, Politics, and Cognitive Warfare: Information, Interpretation, Conspiracy, and the Struggle for Reality.** The proceedings will be considered for publication in a special issue of the [*JCRT*](https://jcrt.org).
@@ -73,4 +85,4 @@ For questions regarding the conference or submissions, please contact the JCRT e
 
 *Sponsored by the Journal for Cultural and Religious Theory (JCRT) in Collaboration with the University of Denver*
 
-*[jcrt.org/religioustheory](https://jcrt.org/religioustheory)  -  <editor.jcrt@gmail.com>*
+*[jcrt.org](https://jcrt.org/)  -  <editor.jcrt@gmail.com>*

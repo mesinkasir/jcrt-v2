@@ -1,5 +1,6 @@
 # Legacy archive article and issue redirects must resolve before the
 # archive directory-index rewrite to avoid redirected 404s.
+/cw /blog/2026-04-22-religion-politics-and-cognitive-warfare-information-interpretation-conspiracy-and-the-struggle-for-reality/ 301
 /archives/01.2/vahanian /archives/01.2/nvahanian/ 301
 /archives/01.2/vahanian/ /archives/01.2/nvahanian/ 301
 /archives/01.2/wyschograd_raschke.shtml /archives/01.2/wyschogrod_raschke/ 301
