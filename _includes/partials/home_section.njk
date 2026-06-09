@@ -1,58 +1,56 @@
-<div class="container-fluid e-content">
-    <div class="row mt-3 mb-3">
-        <div class="col-12 p-3 p-md-5">
-            <h2><strong><span class="bgb-primary">{{section.title}}</span></strong></h2>
-        </div>
+<section class="home-section home-issues e-content">
+    <div class="home-section-shell">
+        <header class="major">
+            <h2>{{section.title}}</h2>
+        </header>
 
         {% if section.mode == "recent_journal_issues" %}
             {% set recentIssues = collections.archivesToc | reverse | head(4) %}
+            <div class="home-issue-grid">
             {% for issue in recentIssues %}
-            <div class="col-12 col-lg-6 p-3 p-md-4">
-                <div class="row align-items-start">
-                    <div class="col-12 col-md-4 mb-3 mb-md-0">
-                        {% set issueImage = (issue.data.image | ensureImage('/images/jcrt.svg')) if issue.data.image else (metadata.files_url + "/images/jcrt.svg") %}
-                        <a href="{{ issue.url }}" class="d-block">
-                            {% responsiveThumb issueImage, (issue.data.title or ('Volume ' ~ issue.data.volume ~ '.' ~ issue.data.issue)), "img-fluid rounded shadow-sm w-100", "(max-width: 767px) 100vw, (max-width: 991px) 33vw, 240px", "160,240,320", "lazy", "low", (metadata.files_url + "/images/jcrt.svg"), "max-height: 120px; object-fit: cover;" %}
-                        </a>
-                    </div>
-                    <div class="col-12 col-md-8 text-center text-md-start pe-md-5">
-                        <h3 class="h5 mb-1">
-                            <a href="{{ issue.url }}" class="text-decoration-none">
-                                {{ issue.data.volume }}.{{ issue.data.issue }} - {{ issue.data.season }}
-                            </a>
-                        </h3>
-                        {% if issue.data.title %}
-                        <p class="small fw-bold mb-1">{{ issue.data.title }}</p>
-                        {% endif %}
-                        {% if issue.data.description %}
-                        <p class="small mb-0">{{ issue.data.description }}</p>
-                        {% endif %}
-                    </div>
+            <article class="home-issue-card">
+                <div class="home-issue-card__media">
+                    {% set issueImage = (issue.data.image | ensureImage('/images/jcrt.svg')) if issue.data.image else (metadata.files_url + "/images/jcrt.svg") %}
+                    <a href="{{ issue.url }}" class="d-block">
+                        {% responsiveThumb issueImage, (issue.data.title or ('Volume ' ~ issue.data.volume ~ '.' ~ issue.data.issue)), "img-fluid rounded shadow-sm w-100 home-issue-card__image", "(max-width: 767px) 100vw, (max-width: 991px) 33vw, 240px", "160,240,320", "lazy", "low", (metadata.files_url + "/images/jcrt.svg"), "aspect-ratio: 4 / 3; object-fit: cover;" %}
+                    </a>
                 </div>
-            </div>
+                <div class="home-issue-card__body">
+                    <h3 class="h5 mb-1">
+                        <a href="{{ issue.url }}" class="text-decoration-none">
+                            {{ issue.data.volume }}.{{ issue.data.issue }} - {{ issue.data.season }}
+                        </a>
+                    </h3>
+                    {% if issue.data.title %}
+                    <p class="small fw-bold mb-1">{{ issue.data.title }}</p>
+                    {% endif %}
+                    {% if issue.data.description %}
+                    <p class="small mb-0">{{ issue.data.description }}</p>
+                    {% endif %}
+                </div>
+            </article>
             {% endfor %}
+            </div>
         {% else %}
+            <div class="home-feature-grid">
             {% for s in section.list %}
-            <div class="col-12 col-lg-6 p-3 p-md-4">
-                <div class="row align-items-center">
-                    <div class="col-12 col-md-4 d-flex justify-content-center mb-3 mb-md-0">
-                        <div class="wajik-wrapper">
-                            <div class="wajik-isi">
-                                <a href="{{s.url}}">
-                                    <svg class="icon-svg fa-2x text-primary" aria-hidden="true"><use href="#{{s.icon | iconId}}"/></svg>
-                                </a>
-                            </div>
+            <article class="home-feature-card">
+                <div class="home-feature-card__media">
+                    <div class="wajik-wrapper">
+                        <div class="wajik-isi">
+                            <a href="{{s.url}}">
+                                <svg class="icon-svg fa-2x text-primary" aria-hidden="true"><use href="#{{s.icon | iconId}}"/></svg>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-12 col-md-8 text-center text-md-start pe-md-5">
-                        <h3 class="h5"><a href="{{s.url}}" class="text-decoration-none">{{s.title}}</a></h3>
-                        <p class="small mb-0">{{s.text}}</p>
-                    </div>
                 </div>
-            </div>
+                <div class="home-feature-card__body">
+                    <h3 class="h5"><a href="{{s.url}}" class="text-decoration-none">{{s.title}}</a></h3>
+                    <p class="small mb-0">{{s.text}}</p>
+                </div>
+            </article>
             {% endfor %}
+            </div>
         {% endif %}
-
-        <div class="col-12 p-3 border-bottom"></div>
     </div>
-</div>
+</section>

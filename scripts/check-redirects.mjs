@@ -506,6 +506,14 @@ assertRedirectPath(
 	"runtime /cw"
 );
 
+const cognitiveWarfareShortlinkSlash = await simulateNetlifyRequest(matcher, "/cw/");
+assertRedirectPath(
+	failures,
+	cognitiveWarfareShortlinkSlash,
+	"/blog/2026-04-22-religion-politics-and-cognitive-warfare-information-interpretation-conspiracy-and-the-struggle-for-reality/",
+	"runtime /cw/"
+);
+
 const deanShtml = await simulateNetlifyRequest(matcher, "/archives/03.1/dean.shtml");
 assertRedirectPath(failures, deanShtml, "/archives/03.1/dean/", "runtime /archives/03.1/dean.shtml");
 

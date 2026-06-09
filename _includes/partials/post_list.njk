@@ -1,10 +1,11 @@
-<div class="collection-shell collection-shell--home-posts">
-<div class="col-md-12 p-3  p-md-5">
-<h2><span class="border-bottom border-4 border-primary pb-2">{{blog.title}}</span></h2>
-</div>
-<div class="row mt-3 mb-3">
+<section class="home-section home-news">
+<div class="collection-shell collection-shell--home-posts home-section-shell">
+<header class="major">
+<h2>{{blog.title}}</h2>
+</header>
+<div class="row mt-3 mb-3 home-news-grid">
 {% for b in collections.posts | reverse | limit(6) %}
-<div class="col-md-6 col-lg-4 p-3 small p-md-5"> 
+<article class="col-md-6 col-lg-4 p-3 small p-md-5 home-news-card">
 <div class="img-zoom-container">
 <a href="{{b.url}}" title="{{b.data.title}}">
     {% set postListSource = b.data.thumbnail or b.data.image %}
@@ -17,10 +18,11 @@
 {{b.data.description}}
 </p>
 <p><a href="{{b.url}}" class="btn btn-primary rounded-pill px-4" aria-label="Read blog post: {{ b.data.title }}">Read: {{ b.data.title }}</a></p>
-</div>
+</article>
 {% endfor %}
-<div class="col-md-12 p-3  p-md-5 text-center">
+<div class="col-md-12 p-0 home-section-actions">
 <a href="{{blog.button.url}}" class="btn btn-primary rounded-pill px-5">{{blog.button.text}}</a>
 </div>
 </div>
 </div>
+</section>

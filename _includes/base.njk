@@ -6,7 +6,7 @@
 </head>
 <body>
 {% include "partials/sidebar.njk" %}
-<div id="content-wrapper" class="site-shell">
+<div id="content-wrapper" class="site-shell{% if page and page.url == '/' %} site-shell--home{% endif %}">
 {% include "partials/nav_mobile.njk" %}
 {% set pagefindWeight = "" %}
 {% if page and page.url %}

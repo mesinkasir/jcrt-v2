@@ -12,7 +12,7 @@
 {% set rawPageDesc = seoDescription or description or excerpt or abstract or "" %}
 {% set pageDesc = rawPageDesc | seoDescription(pageTitle, pageUrl, authorName, volume, issue, season, metadata.description) %}
 {% set fullTitle = pageTitle | seoTitle(pageUrl, authorName, volume, issue, season) %}
-{% set pageImageSource = image or (metadata.files_url + '/images/jcrt-open-graph.webp') %}
+{% set pageImageSource = thumbnail or image or (metadata.files_url + '/images/jcrt-open-graph.webp') %}
 {% set pageImageRaw = pageImageSource | ensureImage('/images/jcrt-open-graph.webp') %}
 {% set pageImage = pageImageRaw if "http" in pageImageRaw else (pageImageRaw | assetUrl) %}
 {% set robotsDirective = "index, follow" %}
