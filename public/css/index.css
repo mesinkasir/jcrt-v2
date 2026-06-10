@@ -1931,8 +1931,15 @@ body.sidebar-open #menu-toggle-btn {
 }
 
 .home-editorial .home-section-actions {
-    margin-top: 0.5rem;
-    text-align: left;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: clamp(2rem, 5vw, 4.5rem);
+    text-align: right;
+}
+
+.home-editorial .home-section-actions .btn {
+    max-width: 100%;
+    white-space: normal;
 }
 
 @media (max-width: 991.98px) {
