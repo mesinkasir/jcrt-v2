@@ -1,5 +1,18 @@
-<nav class="nav justify-content-end mb-3 mobile" data-pagefind-ignore>
-{% for nv in metadata.navbar.social %}<a class="nave me-3 clu"
-href="{{nv.url}}" title="{{nv.title}}" rel="me noopener" target="_blank"><svg class="icon-svg clu" aria-hidden="true"><use href="#{{nv.icon | iconId}}"/></svg>
-</a>{% endfor %}
-</nav>
+<header class="jcrt-mobile-header mobile" data-pagefind-ignore>
+  <div class="jcrt-mobile-header__row">
+    <div class="jcrt-mobile-header__brand navbar-brand">
+      <a href="{{metadata.url}}">
+        <strong><span class="text-dark">{{metadata.navbar.title}}</span></strong>
+        <span class="text-secondary text-subs">{{metadata.navbar.sub_title}}</span>
+      </a>
+    </div>
+    <nav class="jcrt-mobile-header__social nav" aria-label="Social links">
+      {% for nv in metadata.navbar.social %}
+      <a class="nave clu" href="{{nv.url}}" title="{{nv.title}}" rel="me noopener" target="_blank">
+        <svg class="icon-svg clu" aria-hidden="true"><use href="#{{nv.icon | iconId}}"/></svg>
+      </a>
+      {% endfor %}
+    </nav>
+  </div>
+  <div class="jcrt-mobile-header__rule" aria-hidden="true"></div>
+</header>
