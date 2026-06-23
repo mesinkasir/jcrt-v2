@@ -89,6 +89,19 @@
 <meta property="og:type" content="website" />
 <meta content="{{ robotsDirective }}" name="robots">
 <link rel="canonical" href="{{ canonicalUrl }}" />
+{% set standardSiteEnabled = metadata.standard_site and metadata.standard_site.enabled %}
+{% set standardSiteDocumentAtUri = "" %}
+{% if standardSiteEnabled and standardSiteRecords %}
+  {% set standardSiteDocumentAtUri = standardSiteRecords[pageUrl] or standardSiteRecords[canonicalPath] %}
+{% endif %}
+{% if standardSiteDocumentAtUri %}
+<link rel="site.standard.document" href="{{ standardSiteDocumentAtUri }}" />
+{% endif %}
+{% if standardSiteEnabled %}
+<link rel="alternate" type="application/json" title="JCRT Standard.site Publication" href="{{ metadata.url }}/standard.site/publication.json" />
+<link rel="alternate" type="application/json" title="JCRT Standard.site Documents" href="{{ metadata.url }}/standard.site/documents.json" />
+<link rel="alternate" type="application/json" title="JCRT Standard.site Manifest" href="{{ metadata.url }}/standard.site/manifest.json" />
+{% endif %}
 {% if isAcademic and pdfUrl %}
 <link rel="alternate" type="application/pdf" title="{{ pageTitle }} (PDF)" href="{{ pdfUrl }}" />
 {% endif %}
